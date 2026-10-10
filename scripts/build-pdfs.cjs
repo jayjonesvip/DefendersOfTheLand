@@ -7,3 +7,4 @@ run(process.execPath,['scripts/export-illustrated.cjs']);
 run(process.execPath,['scripts/export-illustrated.cjs','--paperback']);
 run(python,['scripts/export-text.py']);
 run(python,['scripts/finalize-pdfs.py']);
+run(python,['scripts/export-epub.py']);

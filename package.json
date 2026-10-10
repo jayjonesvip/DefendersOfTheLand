@@ -5,6 +5,7 @@
     "build": "node scripts/build-pdfs.cjs && node build.cjs",
     "build:site": "node build.cjs",
     "build:pdfs": "node scripts/build-pdfs.cjs",
+    "build:epub": "node scripts/build-epub.cjs",
     "test": "node verify.cjs",
     "test:hosted": "node scripts/verify-hosted.cjs",
     "preview": "python -m http.server 4175 --directory dist"
