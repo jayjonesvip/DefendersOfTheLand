@@ -37,4 +37,6 @@ The Pages workflow builds and tests pull requests. Pushes to `main` and manual r
 
 Generated PDFs, HTML, temporary render files, and dependencies are excluded from Git. The workflow publishes `dist/` as a Pages artifact, so large PDFs do not increase repository history. Original high-resolution art and private authoring notes remain outside this public repository.
 
+Deployment also checks the public reader and downloads all 20 hosted PDFs to verify their size and SHA-256 checksum. Run `npm run test:hosted` to repeat this check. Bundled fonts retain their SIL Open Font License notices in `print/fonts/` and the deployed font directory.
+
 © Jay Jones. Story, characters, and illustrations are not licensed for redistribution.

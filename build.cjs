@@ -33,7 +33,7 @@ const assetOut=path.join(out,'assets');fs.mkdirSync(assetOut,{recursive:true});
 const used=new Set([...Object.values(pages).join('').matchAll(/src="assets\/([^"]+)"/g)].map(m=>m[1]));
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,'public/assets',f),path.join(assetOut,f));
-fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf'])fs.copyFileSync(path.join(root,'print/fonts',f),path.join(out,'fonts',f));
+fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'print/fonts',f),path.join(out,'fonts',f));
 for(const f of ['styles.css','reader.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
 const site=process.env.SITE_URL?.replace(/\/$/,'');
 for(const [file,html] of Object.entries(pages))fs.writeFileSync(path.join(out,file),html.replace('</head>',site?`<link rel="canonical" href="${esc(site+'/'+file)}"></head>`:'</head>'));
