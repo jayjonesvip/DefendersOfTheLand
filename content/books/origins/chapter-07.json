@@ -1,0 +1,127 @@
+{
+  "number": 7,
+  "title": "Jaws O' Death",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "scene",
+      "art": "chapter6-luke-arrives.png",
+      "alt": "Daniel opens his laboratory door to his badly bruised nephew Luke, who points to his swollen human jaw before his transformation.",
+      "text": "That evening, Luke came back to the laboratory after being out all afternoon. His knock interrupted Daniel’s search for the escaped glove. On the doorstep stood his nephew, Luke Orkleson, his blond hair sticking up above a bruised face. His clothes were rumpled, and one eye had swollen nearly shut. He tried to speak, then winced and pointed to his jaw."
+    },
+    {
+      "type": "prose",
+      "text": "Soon after Luke turned eighteen, he had come home to find his parents gone. They had moved to Florida without telling him. Daniel had made room for him until he could get back on his feet."
+    },
+    {
+      "type": "prose",
+      "text": "Luke got into fights too often. Whatever shape he came home in, his uncle opened the door. Tonight, Daniel took one look at his face. “Come in, Luke.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel brought him inside. Luke shook his head when his uncle asked what had happened; he could not get the words out. From the swelling and the way Luke held his face, Daniel concluded that his jaw was broken. His nephew had come to him for help."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel looked from Luke to the damaged apparatus. The glove had refused him. His nephew still trusted him."
+    },
+    {
+      "type": "prose",
+      "text": "In a cupboard beneath the workbench, he found an old iron bear trap. Its jaws gave him an idea. He could give Luke something strong enough to catch the glove. Daniel cleared the cot and put the trap beside his instruments."
+    },
+    {
+      "type": "prose",
+      "text": "Luke watched him uneasily. “You can fix it?” Daniel promised he could. Luke lay down on the cot. This was the man who had given him somewhere safe to sleep. Daniel did not tell him what else he intended."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel checked the apparatus and positioned its metal arms above the cot. The treatment came to Luke in fragments: his uncle’s voice, a switch clicking, light through closed eyelids. The lamp flared. Then everything went quiet."
+    },
+    {
+      "type": "scene",
+      "art": "chapter6-jaws-awakening.png",
+      "alt": "Luke wakes as a floating head with a huge iron jaw above an empty laboratory cot while Daniel watches.",
+      "text": "Luke woke looking down at the cot. Only his head remained, floating above the floor, with a heavy iron jaw beneath it. He tried to reach for the sheet, but he had no hands."
+    },
+    {
+      "type": "prose",
+      "text": "“Where are my hands?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel told him to stay calm. Luke turned toward the workbench mirror."
+    },
+    {
+      "type": "scene",
+      "art": "chapter6-jaws-reflection.png",
+      "alt": "Luke sees his blond spikes and huge toothed iron jaw in the mirror, with no body below his floating head.",
+      "text": "His own eyes stared back above two rows of pointed iron teeth. The bear trap had become part of him. Beneath the jaw was empty air. He drifted backward, searching the reflection for the rest of himself."
+    },
+    {
+      "type": "scene",
+      "art": "chapter2-luke-mirror-closeup.png",
+      "alt": "Luke’s frightened eyes meet their reflection above his iron bear-trap jaw, with empty air beneath his floating head."
+    },
+    {
+      "type": "prose",
+      "text": "“What did you do?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel blamed the glove. “It ruined the apparatus when it escaped. I couldn’t finish your treatment.”"
+    },
+    {
+      "type": "prose",
+      "text": "On the bench, the apparatus’s test meter still read READY. Daniel closed his notebook over it."
+    },
+    {
+      "type": "prose",
+      "text": "Luke asked whether his uncle could give him his body again. Daniel pointed toward the open window."
+    },
+    {
+      "type": "prose",
+      "text": "“Bring me the glove. Then I can put this right.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke surged toward him, frightened and angry. His new jaw snapped shut before he could stop it."
+    },
+    {
+      "type": "scene",
+      "art": "chapter6-jaws-bite.png",
+      "alt": "Luke accidentally bites through the corner of a steel workbench with his new iron jaw as Daniel stands back.",
+      "text": "The iron teeth caught the workbench corner. Metal folded between them. Luke jerked backward, dropping a broken piece onto the floor."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel stared at the bite marks, pleased despite his nephew’s panic. He wrote Jaws O’ Death in his notebook. Luke was still trying to make his teeth stop clicking."
+    },
+    {
+      "type": "prose",
+      "text": "“You’ll be able to catch it,” Daniel said. “When I find it, you’ll bring it back to me.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And my body?” Luke asked."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel tapped the notebook. “The glove first.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel took his coat from the door. Luke drifted after him, then stopped at the mirror."
+    },
+    {
+      "type": "prose",
+      "text": "“Stay here,” Daniel said. “I’m going to find that glove.”"
+    },
+    {
+      "type": "scene",
+      "art": "chapter2-daniel-sees-lake-light.png",
+      "alt": "Outside his laboratory, Daniel looks toward a brilliant streak descending through the sky over Lake Erie.",
+      "text": "Daniel stepped outside and searched the roofline. Then a bright streak cut across the sky toward Lake Erie. He stopped on the steps. The light filled his glasses; for a moment, he forgot the glove."
+    }
+  ]
+}

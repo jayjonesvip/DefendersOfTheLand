@@ -1,0 +1,43 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-07.json",
+  "displayChapterNumber": 2,
+  "outputStem": "origins-chapter-02-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter6-luke-arrives.png",
+  "illustrations": {
+    "chapter6-jaws-awakening.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter6-jaws-reflection.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter6-jaws-bite.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter6-luke-arrives.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter2-daniel-sees-lake-light.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter2-luke-mirror-closeup.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-17.json",
+  "displayChapterNumber": 15,
+  "outputStem": "origins-chapter-15-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter15-flaming-head-reveal.png",
+  "illustrations": {
+    "chapter15-flaming-head-reveal.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    }
+  }
+}

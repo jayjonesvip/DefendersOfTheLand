@@ -1,0 +1,94 @@
+{
+  "number": 8,
+  "title": "Crossing Paths",
+  "available": true,
+  "ending": "Daniel knew where they would be.",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Jenny asked Seth whether he would speak to Inspector Billy about the night of the flash. Seth worried he was in trouble. She assured him Billy wanted a witness’s account, and arranged a lakefront meeting with his permission."
+    },
+    {
+      "type": "prose",
+      "text": "Seth arrived early for the meeting that afternoon. He inspected the repaired railing without touching it. The water beyond the remaining barriers was still unnaturally clear."
+    },
+    {
+      "type": "scene",
+      "art": "chapter7-billy-seth-meeting.png",
+      "alt": "Billy and Seth meet on the safe lakefront path; Billy listens while Seth keeps his hands inside his hoodie sleeves.",
+      "text": "Billy approached in his plaid cap and high-collared coat. He introduced himself without offering a handshake. Seth was grateful; he still could not trust his own grip."
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked toward the water. “Orkleson says his machine cleared this. Jenny hasn’t found anyone who saw him use it before the flash.”"
+    },
+    {
+      "type": "prose",
+      "text": "“He shouldn’t be trusted,” a voice said above them. “He’s a mad scientist!”"
+    },
+    {
+      "type": "scene",
+      "art": "chapter7-fist-arrives.png",
+      "alt": "Fist-O-Mite hovers between a startled Seth and Billy after overhearing them discuss Orkleson.",
+      "text": "A red boxing glove hovered above the railing. Seth stepped backward and nearly tripped. Billy kept his hands low. The glove’s enormous eyes moved from one to the other. “Fist-O-Mite,” he said. “And before you ask—yes, Orkleson did this.” “Billy,” the detective said. “Seth Zerdowski,” Seth added, watching the empty cuff."
+    },
+    {
+      "type": "prose",
+      "text": "“I woke up on his table,” Fist said. “First thing he did was give me orders.” “What did you do?” Seth asked. “Hit him. He locked the door. Didn’t think about the window.”"
+    },
+    {
+      "type": "prose",
+      "text": "“He gave me life and thought that meant he owned me,” Fist said. “Nobody owns me.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy studied the empty cuff. “He’s not taking you back.”"
+    },
+    {
+      "type": "prose",
+      "text": "“My office window stays open,” Billy said. “You can come and go.” Seth smiled at the glove. “And you can stay with us while we figure this out.”"
+    },
+    {
+      "type": "prose",
+      "text": "Fist-O-Mite drifted closer. “I’ve watched him down here. The water was already clear when he put his cable in. Light went into his case. He wasn’t cleaning anything.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth pointed to the rocks. “The wave hit me there. Next morning, I bent a rail on the bus. I wasn’t trying to.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And lifted a tree,” Billy said. Seth glanced at a thick section of the fallen trunk the cleanup crew had left beside the path. Billy asked whether he could show them. Seth warned them to stand back."
+    },
+    {
+      "type": "scene",
+      "art": "chapter7-seth-tree-demonstration.png",
+      "alt": "Seth carefully lowers a heavy section of the fallen tree while Billy watches.",
+      "text": "The trunk rose easily. Seth held it briefly, then lowered it without a crash. Fist-O-Mite watched his hands. Seth stepped back and checked the ground for cracks."
+    },
+    {
+      "type": "prose",
+      "text": "“If Orkleson’s interested in the lake, we should be too,” Fist-O-Mite said."
+    },
+    {
+      "type": "prose",
+      "text": "“Something in there did this to me,” Seth said. “What could he do with it?”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy thought of the light gathering in Daniel’s case. Whatever it was, Daniel was already collecting it. “We tell Jenny. She can tell the city the water changed before his machine arrived. He doesn’t get to take credit for that.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I’ll telephone Jenny,” Billy said. “There’s a café near the Defender. We can meet her there tomorrow, after school. Somewhere busy, away from Orkleson’s door.” “Don’t use my name yet,” Seth said. “I want to talk to her first.” “I’ll use mine,” Fist said. “Picked it myself.”"
+    },
+    {
+      "type": "prose",
+      "text": "Behind the bushes, Daniel remained still. He had spotted the glove over the path and followed it to the meeting. Now he had heard the boy give his name, all three talking about the lake, and their plan for the café. He waited until they left, then hurried back to the laboratory. Luke would finally have his chance to bring the glove back."
+    },
+    {
+      "type": "prose",
+      "text": "Back at Billy’s office, Fist-O-Mite came through the open window while Billy telephoned Jenny. She wanted to hear both accounts herself and agreed to the café meeting."
+    }
+  ]
+}

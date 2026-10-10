@@ -1,0 +1,118 @@
+{
+  "number": 12,
+  "title": "Something Bigger",
+  "available": true,
+  "ending": "Luke had come back needing help. His uncle had found another use for the lake.",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "The officers arrived while Jenny was checking the last café customers for injuries."
+    },
+    {
+      "type": "prose",
+      "text": "“He demanded the glove,” Billy told the officer. “Called Orkleson Uncle Daniel.” “I said no,” Fist added. “He chased me and hit that post.” The officer looked up from his notebook, then wrote that down too."
+    },
+    {
+      "type": "prose",
+      "text": "“He also said Daniel wouldn’t finish fixing him until he brought Fist back,” Jenny said. Billy gave the officer the laboratory’s address. “Ask Orkleson what he means by fixing.” One officer went to question him while the other stayed with the owner."
+    },
+    {
+      "type": "prose",
+      "text": "Outside, Seth rubbed his marked palms beside the lowered roof. Jenny photographed the damage with the owner’s permission."
+    },
+    {
+      "type": "scene",
+      "text": "Billy inspected the torn post. The owner ran a finger along the split metal. “Nobody sits under that again until it’s replaced.” Billy agreed. The café would stay closed until the roof was safe.",
+      "art": "chapter11-billy-checks-roof-v2.png",
+      "alt": "Billy examines the torn support post beside the lowered roof and intact beam."
+    },
+    {
+      "type": "prose",
+      "text": "Seth helped carry chairs inside, asking where the owner wanted them. He set one with a bent leg apart. Small, careful tasks were easier to manage than the memory of the roof shifting overhead."
+    },
+    {
+      "type": "prose",
+      "text": "“You caught it,” Jenny said. Seth stared at his palms."
+    },
+    {
+      "type": "prose",
+      "text": "“I nearly pulled it off the wall.”"
+    },
+    {
+      "type": "prose",
+      "text": "“But you didn’t.”"
+    },
+    {
+      "type": "prose",
+      "text": "“What if I do next time?”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy pointed toward the tables and narrow doorway. “Next time, people first. Get them clear before you take on anything heavy.” Seth began looking at the space with that in mind."
+    },
+    {
+      "type": "prose",
+      "text": "Luke returned to the laboratory once he could fly steadily. Daniel demanded to know where the glove was. “They’ve got a superhero too,” Luke said. “He caught the beam before it hit them. Then the glove knocked me halfway down the street.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I know about Zerdo,” Daniel said. Luke stared at him. His uncle had known about the boy and sent him anyway. “Then how am I supposed to get the glove back?”"
+    },
+    {
+      "type": "scene",
+      "text": "“I’ve got something super too.” Daniel turned toward the rear workshop. Before Luke could follow, someone knocked at the front door. Daniel sent him to wait there while he answered the officer.",
+      "art": "chapter11-dork-blames-luke.png",
+      "alt": "Daniel blames Luke for the failed attempt to bring back Fist-O-Mite."
+    },
+    {
+      "type": "prose",
+      "text": "The officer was still asking questions when his radio crackled. He listened, glanced at Daniel, and closed his notebook. “I’ve been told to leave this with my commanding officer.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel stepped aside as though he had expected nothing else. The officer left without reaching the workshop."
+    },
+    {
+      "type": "prose",
+      "text": "By early evening, Billy was back at the office. Fist-O-Mite hovered by the open window. Jenny had returned to the newspaper after requesting Daniel’s response. Seth went home with Billy’s office number in his pocket."
+    },
+    {
+      "type": "prose",
+      "text": "As Fist-O-Mite prepared to leave, Billy asked him to report another sighting of the head rather than pursue it."
+    },
+    {
+      "type": "prose",
+      "text": "The glove paused at the sill. “Leave the window open.”"
+    },
+    {
+      "type": "prose",
+      "text": "At the newspaper, Jenny carried unanswered questions from the telephone desk to her typewriter. Brief warmth touched her neck despite the cool room. Far above the street, an amber glimmer lingered beside a rooftop vent and vanished when headlights crossed the brickwork below."
+    },
+    {
+      "type": "prose",
+      "text": "After speaking to the officer, Daniel joined Luke in the rear workshop and pulled a canvas cover from a giant robot. It stood braced in a gantry, its chest open, one arm hanging from a hoist. The place for its head was empty. Luke drifted backward to see the whole machine."
+    },
+    {
+      "type": "prose",
+      "text": "“I built it years ago,” Daniel said. “It never worked. Getting something this size moving would have taken enough electricity to black out the city.”"
+    },
+    {
+      "type": "prose",
+      "text": "He connected the lake’s glowing storage case to the control bench. “But now I can harness the power in the lake.”"
+    },
+    {
+      "type": "scene",
+      "art": "chapter11-robot-in-workshop.png",
+      "alt": "Daniel powers a foot test of his years-old giant robot, which stands headless in a laboratory gantry.",
+      "text": "Daniel moved a lever. A massive steel foot tilted in its test cradle. The floor trembled beneath Luke, and a loose washer jumped from the bench. Daniel lowered the lever and the foot stopped."
+    },
+    {
+      "type": "prose",
+      "text": "“With that power,” Daniel said, “this machine is unstoppable.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke looked from the giant foot to the case. “What about putting me right?” Daniel was already adjusting the connection. “Once I have enough power.”"
+    }
+  ]
+}

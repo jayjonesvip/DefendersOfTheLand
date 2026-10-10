@@ -1,0 +1,230 @@
+{
+  "number": 19,
+  "title": "The Fight for the City",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Jenny reached Superior Avenue first. She helped a man pull his son out of a stalled car and sent them east, toward the Main Library. A pink streak crossed the road. Two more people reached the pavement safely."
+    },
+    {
+      "type": "prose",
+      "text": "“Library steps! Keep moving!” she called. “Leave the cars. We’ll handle him.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth came down the office stairs with Billy. Above them, Fist-O-Mite and Flaming Head swept out of the window."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel saw the masked woman standing in his path. He lowered his megaphone. This one was new."
+    },
+    {
+      "type": "scene",
+      "text": "Jenny faced the robot with her back to the watching crowd. Her white boots were planted between the broken paving stones. Daniel jabbed a finger at her, and the machine raised its enormous arm.",
+      "art": "chapter17-jenny-faces-robot.png",
+      "alt": "Jenny, shown from behind in her pink-and-white hero suit, confronts the robot as Daniel points and orders it to strike."
+    },
+    {
+      "type": "prose",
+      "text": "“Crush her!”"
+    },
+    {
+      "type": "prose",
+      "text": "The metal fist came down."
+    },
+    {
+      "type": "scene",
+      "text": "Jenny became a pink-and-white blur. The fist smashed into the road where she had stood, throwing chunks of pavement against an empty car. She was already at the next corner, waving the last pedestrians toward the Main Library’s stone entrance.",
+      "art": "chapter17-jenny-speed-dodge.png",
+      "alt": "Jenny dodges as a streak of pink and white while the robot’s fist smashes the empty road and Daniel stares in astonishment."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel’s mouth hung open. Then he swung the megaphone toward her. “Stand still!”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny doubled back across the clear road. The robot dragged its fist from the crater and turned after her. Its great feet scraped sideways, away from the people sheltering in the shops."
+    },
+    {
+      "type": "prose",
+      "text": "Fist swooped past Daniel’s glasses. “Over here, genius!” Daniel ducked and sent the robot’s hand after him. The glove darted beyond its reach as Seth climbed."
+    },
+    {
+      "type": "prose",
+      "text": "That gave Seth his opening. He jumped onto the robot’s ankle, caught a plate above its knee and hauled himself upward. A loose panel buckled under his boot. He scrambled for a cable, nearly slipped, then found a foothold beneath the chest."
+    },
+    {
+      "type": "prose",
+      "text": "Billy kept close to the wall, studying the tank’s mounting. “Pull on the metal cradle!” he called. “Keep your hands off the glass!”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny stopped beside him for barely a second. “Take our evidence to the Defender. Get the truth out while he’s still telling people this is our fault.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked up. Seth nodded from the machine’s ribs. Flaming Head was already closing on the tank."
+    },
+    {
+      "type": "prose",
+      "text": "The detective returned to the office for the envelope waiting on his desk. Inside were the laboratory photographs, their witness notes and Jenny’s report. Then he hurried toward the newspaper, keeping to the streets behind the robot."
+    },
+    {
+      "type": "prose",
+      "text": "A metallic snap sounded above Seth."
+    },
+    {
+      "type": "prose",
+      "text": "Luke had come over the roofs. His iron jaws opened around Fist’s empty cuff, missing it by inches. The glove shot upward, and Luke chased him away from the robot."
+    },
+    {
+      "type": "prose",
+      "text": "They tore past a chimney. Fist wheeled around it and struck Luke’s jaw with his whole body. Luke spun through a rooftop sign, scattering painted boards across the gravel below."
+    },
+    {
+      "type": "scene",
+      "text": "High above the street, Jaws O’ Death burst through a billboard as Fist drove into him again. Splinters flew around the iron teeth. Terminal Tower rose beyond them, above Public Square.",
+      "art": "chapter17-fist-jaws-billboard.png",
+      "alt": "Fist-O-Mite strikes with his entire glove body, sending the bodyless Jaws O’ Death through a rooftop billboard above Cleveland."
+    },
+    {
+      "type": "prose",
+      "text": "Luke caught a hanging support cable between his teeth and swung himself back at the glove. His jaw clipped Fist’s side. The red leather scraped against a steel upright, and Fist dropped several feet before recovering."
+    },
+    {
+      "type": "prose",
+      "text": "“Still nobody’s property,” Fist said. Luke lunged again. “Then he won’t give me back my body.” Fist pulled aside. “That’s his lie. It isn’t my debt.”"
+    },
+    {
+      "type": "prose",
+      "text": "Down below, Seth reached the robot’s shoulder. The machine jolted as Jenny darted beneath its other arm. He flattened himself against the metal until the shaking passed."
+    },
+    {
+      "type": "scene",
+      "text": "Seth braced his boots against the open shoulder rim and pulled. Bolts popped. A heavy armor plate tore free in his hands, exposing the moving joint beneath it. He checked the road below, let it fall onto a cleared stretch of pavement, then wrenched away the next piece.",
+      "art": "chapter17-zerdo-tears-robot.png",
+      "alt": "Super Zerdo braces on the headless robot’s shoulder and tears away its armor piece by piece, keeping clear of Perch’s tank."
+    },
+    {
+      "type": "prose",
+      "text": "The robot tried to reach him. Seth ripped a narrow linkage out of its upper arm. The grasping hand stopped halfway to his back."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel slapped a lever on the control box at his belt. The other arm swept toward Seth."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny flashed in front of the machine again. Its arm changed direction, punching through the roof of an empty sedan. Daniel shouted after her, furious."
+    },
+    {
+      "type": "prose",
+      "text": "Inside the chest, Perch hurled himself against the glass. Blue light flashed down every cable. The robot jerked forward so violently that Seth had to cling to the shoulder socket."
+    },
+    {
+      "type": "prose",
+      "text": "Flaming Head drew close to the tank."
+    },
+    {
+      "type": "prose",
+      "text": "“Perch. Look at me.”"
+    },
+    {
+      "type": "prose",
+      "text": "The fish turned, still beating its tail."
+    },
+    {
+      "type": "scene",
+      "text": "Flaming Head softened his flames to a steady glow beside the glass. “We’re here to get you out. Slow your fins.” Perch stopped striking the wall. He closed his eyes, letting himself grow still as the familiar warmth reached him.",
+      "art": "chapter17-head-perch-eyes-closed.png",
+      "alt": "Perch closes his eyes and calms himself inside the robot’s tank while Flaming Head reassures him and the power surges fade."
+    },
+    {
+      "type": "prose",
+      "text": "The blue flashes settled to a faint glow. The robot’s next step dragged across the road. Jenny saw the change and stayed ahead of it, drawing it toward the cleared center of the street."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel shoved the lever on his control box. The machine’s hand shuddered, barely moving."
+    },
+    {
+      "type": "prose",
+      "text": "Flaming Head looked up at Seth. “Now, Zerdo! Now is the time!”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth swung from the damaged shoulder to the open chest below it. He caught a crossbar beside the tank, planted his boots against the robot’s ribs, gripped the metal cradle and pulled."
+    },
+    {
+      "type": "prose",
+      "text": "For a moment, nothing moved. Then he yanked harder. The mounting tore free, and the cable collars snapped away from their sockets. Seth caught the tank against his chest, keeping it level."
+    },
+    {
+      "type": "prose",
+      "text": "“Got him!” Seth shouted. Jenny swept a last chunk of metal out of his landing space. “Down here! Road’s clear!”"
+    },
+    {
+      "type": "prose",
+      "text": "Every light in the robot went out."
+    },
+    {
+      "type": "prose",
+      "text": "Its knees struck the road. Seth jumped clear with the tank, landing hard enough to crack the paving stones beneath his boots. He held on."
+    },
+    {
+      "type": "scene",
+      "text": "Seth lowered the intact tank to the pavement. Jenny guided it away from the robot’s slack hand, while Flaming Head stayed close to Perch. Behind them, the machine sagged on its knees.",
+      "art": "chapter17-perch-rescue.png",
+      "alt": "Seth lowers Perch’s freed tank beside Jenny and Flaming Head while the robot settles onto its knees before collapsing."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny drew Seth back with the tank. Once they were clear, the ruined shoulder gave way. The upper body folded, dragging the broken arms down with it. Metal crashed against metal until the robot lay in a heap across the empty road."
+    },
+    {
+      "type": "prose",
+      "text": "Perch opened his eyes. Seth bent the lid’s locking bar, and the fish rose to the opening and splashed him in the face."
+    },
+    {
+      "type": "prose",
+      "text": "For a moment, Seth could only stare. Then he laughed. “You’re welcome.”"
+    },
+    {
+      "type": "prose",
+      "text": "Above the roofs, Fist drove Luke into the billboard’s remaining frame. It folded around the iron jaw with a crash. Luke tore himself loose, shaking his head. Fist saw the robot fall and flew back toward his friends."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel stared at the wreckage. He kicked a loose panel, then stumbled back clutching his foot. “You’ve ruined everything!”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth and Jenny stepped toward him. Fist swung around to block the street. There was no machine left for Daniel to hide behind."
+    },
+    {
+      "type": "prose",
+      "text": "“Luke!” Daniel shouted. “Get me out of here!”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke hovered above the rooftops. He could leave. Fist’s words were still with him: it wasn’t the glove’s debt. But when his parents had gone, Daniel had opened his door. “I’m taking you away,” he called down. “I’m not fighting them again.”"
+    },
+    {
+      "type": "scene",
+      "text": "Jaws dropped between the buildings, clamped his iron teeth around the back of Daniel’s lab coat and hauled him into the air. Daniel’s boots swung above the road as the coat pulled tight beneath his arms. He raised the megaphone and shouted, “I’LL BE BACK!”",
+      "art": "chapter17-jaws-carries-dork.png",
+      "alt": "The bodyless Jaws O’ Death bites Daniel’s lab coat and carries him away as Daniel shouts his promise to return through the megaphone."
+    },
+    {
+      "type": "prose",
+      "text": "Fist started after them. Seth called him back. People were coming out of the shops, and Perch was still waiting in the tank. Their friends needed help here."
+    },
+    {
+      "type": "prose",
+      "text": "Luke carried his furious uncle over the roofs. Daniel’s amplified promise followed them until both had disappeared beyond the buildings."
+    }
+  ]
+}

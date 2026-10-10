@@ -1,0 +1,106 @@
+{
+  "number": 3,
+  "title": "An Old Friend with New Lies",
+  "available": true,
+  "ending": "Daniel had not cleaned the lake. He had found something he wanted.",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "William Warrner was a private investigator, though everyone called him Inspector Billy. The nickname carried no police authority. Short and stocky, he wore a plaid cap and a brown trench coat. With his collar pulled high beneath his watchful eyes, he crouched on the lakefront path and examined a washed-up bottle cap through his magnifying glass. It told him very little. Most bottle caps did. More interesting was the water: clear enough to show every pebble, despite a fisherman’s assurance that it had looked nothing like this last week."
+    },
+    {
+      "type": "scene",
+      "text": "Billy unfolded the newspaper. Daniel Orkleson claimed credit for the improvement, but supplied no measurements or treatment dates. There was, however, a generous supply of Daniel Orkleson.",
+      "art": "chapter2-billy-newspaper.png",
+      "alt": "Inspector Billy reads The Cleveland Defender headline claiming Orkleson cleaned Lake Erie, with the scientist pictured beneath it."
+    },
+    {
+      "type": "prose",
+      "text": "They had once been schoolmates. Billy remembered Daniel’s excitement when an experiment worked, and the afternoons they had spent arguing happily over mechanisms. Later, Daniel grew careless about his subjects and secretive about his methods. When Billy helped expose the experiments, their friendship ended."
+    },
+    {
+      "type": "prose",
+      "text": "A few yards along the path, Jenny was asking a fisherman when he had first noticed the clearer water. Billy heard her introduce herself as a reporter for the Defender. He waited until she finished, then approached with the newspaper. They exchanged names."
+    },
+    {
+      "type": "prose",
+      "text": "A delivery bicycle rattled toward Jenny’s notebook as the fisherman gestured. Billy opened his mouth to warn her. She was already a step clear, still listening to the fisherman."
+    },
+    {
+      "type": "prose",
+      "text": "“What proof did Orkleson give your paper that his invention cleaned the lake?” Billy asked, pointing to the headline."
+    },
+    {
+      "type": "prose",
+      "text": "“That story didn’t go through me,” Jenny said. “My boss got a call from someone and told the desk to go with it. I never saw any test results.” She did not know who had called."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny had yet to find anyone who had seen Daniel’s machine operating before the flash."
+    },
+    {
+      "type": "prose",
+      "text": "“Daniel and I went to school together,” Billy said. “Later, I helped expose some of his experiments. You’ll want to check what I tell you.” “Including why you fell out,” Jenny said. “Including that.”"
+    },
+    {
+      "type": "prose",
+      "text": "They agreed to return together and inspect the machine."
+    },
+    {
+      "type": "scene",
+      "art": "chapter2-lake-demonstration.png",
+      "alt": "Billy examines the lake intake machine while Jenny questions Orkleson, who guards its glowing storage case.",
+      "text": "Two days later, they found Daniel working beside the lake in a white coat. His machine stood on wheels, with one cable entering the water and another connecting the housing to a smaller storage case. He had arranged no audience. Billy and Jenny approached from the public path."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel reached for the controls when he saw them. Jenny asked what the machine was doing. “Monitoring the cleanup,” he said. “You’ve already read about it.” Billy stayed beside her, looking past Daniel at the cables."
+    },
+    {
+      "type": "prose",
+      "text": "The machine hummed. Its meter moved and a pale light appeared inside the housing. The water around the cable looked unchanged."
+    },
+    {
+      "type": "prose",
+      "text": "“The water was clearing before you brought this here,” Jenny said. “What exactly is your machine doing to it?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Ongoing research,” Daniel said. Billy moved around the frame and saw light gathering in the smaller case. Daniel promptly stepped in front of it."
+    },
+    {
+      "type": "prose",
+      "text": "“What are you storing?” Billy asked. “Results,” Daniel said. “In a form you wouldn’t understand.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Disconnect the intake,” Billy said. “Let’s see what the meter measures without it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel refused. He shut the machine down instead and told them to stop interfering with his research. The hum stopped. The light in the smaller case remained."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny closed her notebook. Her report would describe what they had seen and Daniel’s refusal to provide evidence for the cleanup claim. Daniel wound the cable onto its reel, ending the questions."
+    },
+    {
+      "type": "prose",
+      "text": "Walking away, Billy glanced back at the case. “That looks more like a collector than a cleaner.”"
+    },
+    {
+      "type": "prose",
+      "text": "By evening, Billy had sketched the cable and glowing case in his notebook."
+    },
+    {
+      "type": "scene",
+      "art": "chapter2-billy-night.png",
+      "alt": "Inspector Billy stands back from the damaged lakefront railing, watching an unexplained blue glow under Lake Erie at night.",
+      "text": "He returned to the lake after dark. Blue light moved beneath the water and vanished beyond the shore. No cable followed it. No machine stood nearby."
+    },
+    {
+      "type": "prose",
+      "text": "Billy watched it turn beneath the surface. Whatever Daniel was collecting, it was moving without his machine."
+    }
+  ]
+}

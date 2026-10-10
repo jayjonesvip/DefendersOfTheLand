@@ -1,0 +1,36 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-02b.json",
+  "displayChapterNumber": 4,
+  "outputStem": "origins-chapter-04-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter1-awakening.jpg",
+  "illustrations": {
+    "chapter1-awakening.jpg": {
+      "layout": "chapter-opening",
+      "print": true
+    },
+    "chapter2-bus-rail.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter1-strength.jpg": {
+      "layout": "half-page",
+      "print": true
+    },
+    "chapter1-fallen-tree-rescue.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter4-daniel-overhears-seth-jenny.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

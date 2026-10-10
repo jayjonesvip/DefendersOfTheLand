@@ -1,0 +1,38 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-15.json",
+  "displayChapterNumber": 13,
+  "outputStem": "origins-chapter-13-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter14-seth-braces-cart.png",
+  "illustrations": {
+    "chapter14-seth-braces-cart.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter13-fist-cutoff-whole-glove.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter13-perch-intake-rescue.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter13-seth-smashes-extractor.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter13-perch-gate-opening.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "doc",
+  "introducedIn": 5,
+  "alias": "Doc Dork",
+  "name": "Dr. Daniel Orkleson",
+  "tag": "BRAINS. NO BOUNDARIES.",
+  "image": "doc-dossier.png",
+  "sheet": "Doc_Dork_Character_Sheet.png",
+  "role": "Scientist / power through control",
+  "powers": "Experimental gadgets, a ray gun, remote devices and a lab drone. Their limits remain unverified.",
+  "personality": "Brilliant, eccentric and unstable. Driven to experiment, control and prove he is the smartest in the room.",
+  "relationships": "William Warrner is his estranged former classmate. He claims credit for the lake’s recovery, while his machine attempts to capture its unexplained energy. Other connections remain sealed.",
+  "appearances": "Chapter 1: The Glove That Hit Back",
+  "quote": "Science is just persistence in a lab coat.",
+  "group": "villains"
+}

@@ -1,0 +1,144 @@
+{
+  "number": 20,
+  "title": "Defenders of the Land",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "The sirens reached the street after Daniel and Luke had vanished. Police officers kept people away from the ruined robot while firefighters checked the damaged cars. This time, the great metal hands stayed still."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny helped a shaken shopkeeper find his glasses. Seth moved a fallen panel out of the road, and Fist watched the rooftops while Flaming Head stayed beside Perch’s tank."
+    },
+    {
+      "type": "prose",
+      "text": "The man whose son Jenny had rescued came out to thank her. Other people followed. They had seen who cleared the street and stopped the machine. Daniel’s megaphone could not change that."
+    },
+    {
+      "type": "prose",
+      "text": "Billy left copies of the laboratory photographs and their witness notes at the Defender’s news desk. Jenny’s editor, a tired man with rolled-up sleeves and an ink stain along his thumb, was sending reporters and photographers downtown. “Get the witnesses before they go home,” he told the desk. Billy kept the originals; there were still questions he wanted answered when the rush was over."
+    },
+    {
+      "type": "prose",
+      "text": "By afternoon, Seth could finally carry Perch back to the lake. Jenny, Fist and Flaming Head went with him. He set the tank on the flat stones where he had first understood the little fish."
+    },
+    {
+      "type": "scene",
+      "text": "Seth tilted the tank carefully. Water poured over the stone edge, and Perch slipped into Lake Erie with a bright splash. His yellow fins opened wide. For a moment he floated just below the surface, looking up at his friends.",
+      "art": "chapter18-perch-returns-lake-v2.png",
+      "alt": "Seth releases Perch from the tank into Lake Erie while Jenny, Fist and Flaming Head watch beside the shore."
+    },
+    {
+      "type": "prose",
+      "text": "“That’s better,” Perch said."
+    },
+    {
+      "type": "prose",
+      "text": "Seth crouched beside him. “Thought I’d lost you.”"
+    },
+    {
+      "type": "prose",
+      "text": "Perch flicked water at his boot. Then he darted out from the rocks, circled once, and came back. His glow left a faint blue trail beneath the clear water."
+    },
+    {
+      "type": "prose",
+      "text": "“I’m staying here,” Perch said."
+    },
+    {
+      "type": "prose",
+      "text": "“We’ll come back,” Seth promised. Jenny knelt beside him. “And we’ll watch for more machines.”"
+    },
+    {
+      "type": "prose",
+      "text": "Perch dipped his head and swam into the deeper blue. This time, nobody pulled him back."
+    },
+    {
+      "type": "prose",
+      "text": "Before going back to school, Seth would need clothes that did not have a giant Z on the chest. He changed privately at home that afternoon and put the blue suit where he could reach it again. Jenny stopped at her home before returning to the newspaper. She put away the pink suit and white mask, changed into a fresh blouse and skirt, and carried her notebook through the newsroom as she always had."
+    },
+    {
+      "type": "scene",
+      "text": "At her typewriter, Jenny arranged Billy’s evidence beside the new street photographs and the accounts she had collected from the people they rescued. Then she began the article.",
+      "art": "chapter18-jenny-writes-article.png",
+      "alt": "Jenny writes the rescue article in her ordinary reporter clothes, keeping her masked identity separate from her byline."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny described the robot overturning cars, an unknown pink blur clearing the street and distracting the robot and Super Zerdo freeing the fish. Street photographs showed Fist fighting the iron-jawed attacker and a fiery face beside the tank. She included the attacker’s demand at the café: Daniel would not finish fixing him until he brought the glove back. It raised questions about what Orkleson had done to his own nephew; it did not excuse the attack."
+    },
+    {
+      "type": "prose",
+      "text": "Beside them she placed the laboratory photograph of the robot connected to Daniel’s glowing case."
+    },
+    {
+      "type": "prose",
+      "text": "She signed the story Jenny Jenkins. The pink blur remained unidentified. Seth’s civilian details stayed out of the article, although Jenny knew the fisherman and his helpers had heard his name before anyone thought of masks."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny rolled a clean sheet into the typewriter. That morning, a few unlikely allies had stood between Cleveland and the machine."
+    },
+    {
+      "type": "prose",
+      "text": "She typed: DEFENDERS OF THE LAND."
+    },
+    {
+      "type": "prose",
+      "text": "Under it, she wrote, “When Daniel Orkleson’s machine threatened Cleveland, these unlikely allies protected the people in its path. An unknown pink blur helped clear the street and kept the robot distracted while Super Zerdo freed the trapped fish. The Land has defenders now.”"
+    },
+    {
+      "type": "prose",
+      "text": "The editor checked the witness accounts against the photographs. By the time the presses started, the name was on the front page."
+    },
+    {
+      "type": "scene",
+      "text": "The next morning, people gathered around the newsstands in Public Square reading Jenny’s story. Shopkeepers pinned the photographs in their windows. On Superior Avenue, a repair crew passed a copy from hand to hand, pointing out the people they had seen helping.",
+      "art": "chapter18-city-rallies.png",
+      "alt": "Cleveland residents read the Defenders of the Land headline and rally behind the heroes as workers repair the street."
+    },
+    {
+      "type": "prose",
+      "text": "Seth bought a paper on his way to school. He stood beside the newsstand longer than he meant to, reading the headline twice. People around him were talking about Super Zerdo. For once, he did not feel as though he had to invent someone better to be."
+    },
+    {
+      "type": "prose",
+      "text": "At Billy’s office, Fist read the heading over Jenny’s shoulder. “Defenders. I can live with that.”"
+    },
+    {
+      "type": "prose",
+      "text": "Flaming Head hovered beside the open window. Jenny smiled and tucked a copy of the paper into her bag. Below them, the buses were running again."
+    },
+    {
+      "type": "prose",
+      "text": "Billy returned to the Defender with the original photographs and his notebook. The fight was over, but the unidentified call to the editor and the stalled police visits still bothered him."
+    },
+    {
+      "type": "prose",
+      "text": "He asked for Jenny’s editor and went straight to the office."
+    },
+    {
+      "type": "prose",
+      "text": "The door was half open. The editor sat behind a desk covered in proofs. Beside him stood a woman Billy knew at once."
+    },
+    {
+      "type": "scene",
+      "text": "Eleanor Blackwell turned toward the doorway, her silver curls neat above her dark glasses. One hand rested beside the editor’s telephone. Billy stopped with the envelope still in his hand.",
+      "art": "chapter17-billy-eleanor-newsroom.png",
+      "alt": "Billy returns to the Defender with his original evidence and unexpectedly finds Aunt Eleanor beside the editor’s telephone."
+    },
+    {
+      "type": "prose",
+      "text": "Billy laid the envelope on the desk. His aunt had told him to leave Daniel alone. Now she stood beside the editor who had taken the unexplained call. “I came about the call that started all this.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor looked at it before she looked at him. “William,” she said. “We need to talk.”"
+    },
+    {
+      "type": "prose",
+      "text": "From the newsroom came the clatter of another typewriter. Billy left the envelope where both of them could see it. “Then let’s talk.”"
+    }
+  ]
+}

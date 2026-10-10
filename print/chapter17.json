@@ -1,0 +1,48 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-19.json",
+  "displayChapterNumber": 17,
+  "outputStem": "origins-chapter-17-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter17-jenny-faces-robot.png",
+  "illustrations": {
+    "chapter17-jenny-faces-robot.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-jenny-speed-dodge.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-fist-jaws-billboard.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-zerdo-tears-robot.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-head-perch-eyes-closed.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-perch-rescue.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-jaws-carries-dork.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

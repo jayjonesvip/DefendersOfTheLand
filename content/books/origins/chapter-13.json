@@ -1,0 +1,92 @@
+{
+  "number": 13,
+  "title": "What He Wants",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "The next afternoon, Billy turned his hat in his hands. Daniel had sent the floating head after Fist at a crowded café. Now Billy wanted to see what else was inside that laboratory."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny brought a camera instead of a list of interview questions. Another denial would tell them nothing. A photograph might give her editor something he could not dismiss."
+    },
+    {
+      "type": "prose",
+      "text": "Fist-O-Mite went ahead to check the laboratory. He watched Daniel push his lake cart out through the rear doors, then signaled Billy and Jenny across the alley. They slipped into the loading room while he kept watch."
+    },
+    {
+      "type": "scene",
+      "text": "Behind a stack of packing crates, Billy found a clear view into the workshop. He stopped Jenny with a hand against her sleeve. A metal foot taller than either of them rested beyond the doorway. Above it stood an enormous, headless robot.",
+      "art": "chapter11-lab-evidence.png",
+      "alt": "Billy and Jenny hide behind laboratory crates while photographing Daniel’s giant robot."
+    },
+    {
+      "type": "prose",
+      "text": "Its plates were rusted. New cables crossed the old joints, and a glass case on the control bench held the same blue light Billy had seen gathering beside the lake. A thick lead connected that case to the robot’s open chest."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny raised her camera. Billy pointed out the lake cart’s spare intake beside the bench: a metal cage with a narrow opening and a heavy sliding gate. This was where the collected power was going."
+    },
+    {
+      "type": "prose",
+      "text": "A wheel rattled outside. Daniel had returned for the spare intake."
+    },
+    {
+      "type": "prose",
+      "text": "Billy and Jenny crouched lower. Fist floated past the loading doorway, saw them hiding, and vanished around the corner before Daniel could spot him."
+    },
+    {
+      "type": "prose",
+      "text": "The floating head followed Daniel inside. Up close, Jenny could see blond spikes above its iron jaws. It was the attacker from the café."
+    },
+    {
+      "type": "prose",
+      "text": "“Luke, guard the cart this time,” Daniel said. “If Zerdo interferes, keep him away from my equipment.”"
+    },
+    {
+      "type": "prose",
+      "text": "“He caught a roof beam.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel connected the glowing case. The robot’s fingers closed around a steel pipe. With a sharp crack, the pipe folded flat."
+    },
+    {
+      "type": "scene",
+      "text": "“Then I’ll send something stronger.” Daniel watched the crushed pipe with satisfaction. Jenny pressed the shutter.",
+      "art": "chapter13-robot-grip-test.png",
+      "alt": "Daniel powers the old robot’s crushing hand while Luke watches."
+    },
+    {
+      "type": "prose",
+      "text": "Luke hovered back from the hand. Daniel pulled the lever to release it, but the fingers stayed clenched. He cut the power and reached for a wrench, muttering that the next collection would give him enough."
+    },
+    {
+      "type": "prose",
+      "text": "Billy waited until both were facing the control bench, then led Jenny out through the loading room. Fist met them in the alley. Nobody spoke until they had turned the corner."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny left the film to be developed at the Defender, then wrote down Daniel’s words while they were fresh."
+    },
+    {
+      "type": "prose",
+      "text": "After school, Seth joined them in Billy’s office. Jenny set a photograph on the desk. “Daniel told Luke to keep you away from the cart. When Luke said you’d caught the roof, Daniel said he’d send something stronger.” Billy pointed to the flattened pipe in the picture. “That’s what its hand did.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked down at his palms. He had barely managed the beam. Something that could flatten steel was another matter."
+    },
+    {
+      "type": "prose",
+      "text": "“He’s going back to the lake,” Billy said. “We have to stop him feeding that power into the robot.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth agreed to watch the shore while Billy and Jenny took their evidence to the police. This time, he knew what to look for."
+    }
+  ]
+}

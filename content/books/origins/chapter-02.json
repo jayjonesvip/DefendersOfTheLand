@@ -1,0 +1,50 @@
+{
+  "number": 2,
+  "title": "The Kid by the Lake",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "That morning, before the light appeared over Lake Erie, seventeen-year-old Seth Zerdowski had reached the bus stop just as the bus pulled away. Tall and narrow-shouldered, he seemed to have more elbows than he knew what to do with. He pushed his untidy brown hair out of his blue eyes. His carton of milk had leaked through his backpack. At school, he had knocked over a stack of books while helping someone reach the top shelf."
+    },
+    {
+      "type": "prose",
+      "text": "At lunch, Seth sat alone while the next table argued about Friday’s plans. He lingered over his sandwich, hoping someone would invite him. Sometimes he rehearsed something funny to say. By the time he found the courage, the conversation had moved on."
+    },
+    {
+      "type": "prose",
+      "text": "After school, he walked to the lake because the lake never asked how his day had gone. Downtown stood behind him, its windows catching the last light. Seth sat on the rocks, his red hoodie damp at the cuffs."
+    },
+    {
+      "type": "scene",
+      "art": "chapter1-shore.jpg",
+      "text": "A gull worked at a discarded sandwich wrapper. Seth watched it win.",
+      "dialogue": "At least somebody knows what they’re doing.",
+      "alt": "Seth sits on the Lake Erie shoreline in his red Z hoodie at dusk."
+    },
+    {
+      "type": "prose",
+      "text": "He imagined a rescue, sometimes. Nothing elaborate. A person who needed help. Himself knowing exactly what to do. In the imagining, he never arrived late and never tripped over anything. Out here, he could barely keep his shoelaces tied."
+    },
+    {
+      "type": "prose",
+      "text": "Then a second sunset appeared above the water. A bright streak tore across the sky. Seth stood. It was moving too fast for a plane, too low for a star. The light grew until he could see his own shadow stretching inland."
+    },
+    {
+      "type": "scene",
+      "art": "chapter1-impact.jpg",
+      "text": "The streak struck beyond the rocks. A wall of water rose, lit from within. Seth took one step backward. There was no time for another.",
+      "dialogue": "",
+      "alt": "A bright streak strikes Lake Erie, sending an illuminated wave toward Seth."
+    },
+    {
+      "type": "prose",
+      "text": "The wave hit. For an instant he could feel every seam in his clothes, every stone beneath his feet. Then there was only white light, the taste of lake water, and nothing."
+    },
+    {
+      "type": "prose",
+      "text": "Farther along the path, a blonde jogger in a pink running top stopped at the thunder. The wave swept over her shoes and struck her knees. She shielded her face from the bright spray, then stumbled toward the streetlights. Behind her, the lake went dark again."
+    }
+  ]
+}

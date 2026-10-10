@@ -1,0 +1,43 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-05.json",
+  "displayChapterNumber": 1,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter5-glove-auction.png",
+  "illustrations": {
+    "chapter4-glove-punch.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter4-glove-escape.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter5-glove-auction.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter1-glove-awakening-before-flash.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  },
+  "cover": {
+    "reference": "issue-cover.jpg",
+    "pageCount": null,
+    "paperType": null,
+    "inkType": null,
+    "spineWidth": null,
+    "barcodeAreaInches": [
+      2,
+      1.2
+    ],
+    "finalExportEnabled": false
+  }
+}

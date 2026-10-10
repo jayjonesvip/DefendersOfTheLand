@@ -1,0 +1,177 @@
+{
+  "number": 15,
+  "title": "The Extraction",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Jenny reached the shore with Billy before sunset. She had delivered the photographs and their statements to the police; an officer was on his way to check Daniel’s equipment. Fist-O-Mite arrived beside Seth."
+    },
+    {
+      "type": "prose",
+      "text": "Billy still looked doubtful about the fish. Seth had expected that. But the motor ahead of them was real, and so was the thick cable leading into the water."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel stood at his cart, watching blue light rise in its glass case. Luke circled above the path. Between two rocks below the surface, the intake cage shook."
+    },
+    {
+      "type": "prose",
+      "text": "Seth saw yellow fins behind its bars."
+    },
+    {
+      "type": "prose",
+      "text": "“He’s caught him.”"
+    },
+    {
+      "type": "prose",
+      "text": "They had come to stop the collection before that happened. Now they had to get Perch out."
+    },
+    {
+      "type": "prose",
+      "text": "Fist flew straight across Daniel’s line of sight. “Looking for me?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Come on, Teeth. Plenty of room over here!” Fist called."
+    },
+    {
+      "type": "prose",
+      "text": "Luke snapped around and chased him up the path. Fist stayed low, drawing him away from the water. Daniel reached for the cart’s controls as Seth ran to the cable."
+    },
+    {
+      "type": "scene",
+      "text": "The wheels jumped forward when Seth pulled. He planted one foot against the cart’s frame and held it in place, keeping the machine from rolling over the edge. The cable throbbed in his hands.",
+      "art": "chapter14-seth-braces-cart.png",
+      "alt": "Seth braces the extraction cart while trying to free the trapped fish."
+    },
+    {
+      "type": "prose",
+      "text": "“Leave that alone!” Daniel shouted. He grabbed Seth’s sleeve, but Seth held firm."
+    },
+    {
+      "type": "prose",
+      "text": "Billy reached the control panel from the other side. He lifted the clear cover over the red cutoff. Daniel lunged at him."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny caught Billy’s coat and pulled him clear. The machine gave a rising whine."
+    },
+    {
+      "type": "prose",
+      "text": "“The gate’s tightening!” Perch cried."
+    },
+    {
+      "type": "prose",
+      "text": "“Seth, hurry!” Jenny said. “It’s closing on him!”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth glanced at her. She had answered just when he heard Perch. Then the cable jerked again, and he had to turn back."
+    },
+    {
+      "type": "prose",
+      "text": "Billy had seen the cage shaking but heard no words. He pointed at the exposed cutoff as Fist doubled back from the path."
+    },
+    {
+      "type": "prose",
+      "text": "“Red button!” Billy shouted. “Fist, hit it!”"
+    },
+    {
+      "type": "scene",
+      "text": "The glove drove his whole body into the red button. The motor stopped. Luke shot past the cart and struck the stone wall beyond it with a clang.",
+      "art": "chapter13-fist-cutoff-whole-glove.png",
+      "alt": "Fist-O-Mite strikes the exposed cutoff with his entire glove body."
+    },
+    {
+      "type": "prose",
+      "text": "“Finally. A machine that takes a hint,” Fist said. Luke shook mortar dust from his hair. “You’ll come back!” “Keep telling yourself that.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth hauled the cable over the edge. The cage was much heavier than it looked. Water poured through its bars, and Perch struggled inside, his blue glow fading."
+    },
+    {
+      "type": "scene",
+      "text": "Seth lowered the intake onto the flat stones. He bent its jammed gate outward until there was room for the fish to pass. Perch flopped through the opening and dropped into the lake with a splash.",
+      "art": "chapter13-perch-intake-rescue.png",
+      "alt": "Seth lifts the metal intake from the lake to rescue the visibly trapped Super Perch."
+    },
+    {
+      "type": "scene",
+      "art": "chapter13-perch-gate-opening.png",
+      "alt": "On the wet shore stones, Seth bends the intake gate outward to open an escape gap for the glowing Perch."
+    },
+    {
+      "type": "prose",
+      "text": "A blue streak vanished beneath the rocks. Seth let out a breath."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel unclipped the glowing case from the cart. Seth watched Perch struggle toward the rocks. A few minutes longer in that cage might have killed him."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny photographed the intake and its cable. Seth waited for her to step clear, then grabbed the cart’s metal housing."
+    },
+    {
+      "type": "prose",
+      "text": "“Nobody’s going into this thing again.”"
+    },
+    {
+      "type": "scene",
+      "text": "He drove his fist through the control panel. Then he tore the intake cable free and folded the housing down against the pavement. Wheels snapped from their mounts. In three blows, the machine was a heap of broken metal.",
+      "art": "chapter13-seth-smashes-extractor.png",
+      "alt": "Seth smashes the stopped extraction machine while Daniel recoils in fury holding the detached energy case."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel stared at the wreckage. His face reddened behind his glasses. “You’ll pay for that.”"
+    },
+    {
+      "type": "prose",
+      "text": "Fist moved to block him, but Luke swept between them, jaws open. Daniel fled along the path carrying the case, with Luke covering his retreat."
+    },
+    {
+      "type": "prose",
+      "text": "Billy started after them. Jenny stopped him. An officer was approaching from the road, and the abandoned machine was evidence they could keep."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny showed the officer her photographs. Billy described the attack, and Seth pointed to the broken cage. “There was a living fish in there.”"
+    },
+    {
+      "type": "prose",
+      "text": "The officer radioed Daniel’s description and requested a follow-up at his laboratory. The answer came back through a burst of static: hold off until command authorized it. Billy looked up from the broken cage."
+    },
+    {
+      "type": "prose",
+      "text": "Perch surfaced behind Seth once the officer stepped away. He was tired, but his fins were moving steadily."
+    },
+    {
+      "type": "prose",
+      "text": "“Thank you. He nearly took everything out of me.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth crouched beside him. Billy watched the fish, waiting for Seth to explain. Jenny stood nearby, unusually quiet."
+    },
+    {
+      "type": "prose",
+      "text": "Seth told them Perch was safe. Then he looked toward the path where Daniel had escaped. The case had still been glowing."
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked at his scraped knuckles. He was still shaking."
+    },
+    {
+      "type": "prose",
+      "text": "“I won’t let him do that to you,” Seth said."
+    },
+    {
+      "type": "prose",
+      "text": "Perch slipped into deeper water. For the first time, Seth felt that someone down there understood exactly what had happened to him."
+    }
+  ]
+}

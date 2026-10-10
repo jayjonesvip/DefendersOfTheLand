@@ -1,0 +1,28 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-03.json",
+  "displayChapterNumber": 6,
+  "outputStem": "origins-chapter-06-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter2-billy-newspaper.png",
+  "illustrations": {
+    "chapter2-billy-newspaper.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter2-lake-demonstration.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter2-billy-night.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

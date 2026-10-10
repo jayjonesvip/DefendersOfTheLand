@@ -1,0 +1,7 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const out=path.join(__dirname,'dist');let links=0;
+for(const f of fs.readdirSync(out).filter(x=>x.endsWith('.html'))){const html=fs.readFileSync(path.join(out,f),'utf8');assert.equal((html.match(/<h1[ >]/g)||[]).length,1,f+' must have one h1');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split('#')[0];if(/^(https?:|data:)/.test(ref))continue;assert(fs.existsSync(path.join(out,ref)),`${f}: missing ${ref}`);links++}assert(!html.includes('Blackwell_Family_Character_Files'));assert(!html.includes('PROJECT BLACKOUT BANSHEE'));}
+const downloads=JSON.parse(fs.readFileSync(path.join(out,'books/downloads.json')));
+assert.equal(downloads.full.length,2);assert.deepEqual(downloads.chapters.map(c=>c.number),Array.from({length:18},(_,i)=>i+1));
+for(const pdf of [...downloads.full,...downloads.chapters]){const bytes=fs.readFileSync(path.join(out,'books',pdf.file));assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.equal(bytes.length,pdf.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pdf.sha256);assert(pdf.pages>0);}
+require('./verify-reader.cjs').check().then(()=>console.log(`PASS: ${links} links/assets, 20 PDFs with matching checksums, complete reader prose, navigation, progress, themes and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});

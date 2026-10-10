@@ -1,0 +1,22 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-02.json",
+  "displayChapterNumber": 3,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter1-shore.jpg",
+  "illustrations": {
+    "chapter1-shore.jpg": {
+      "layout": "chapter-opening",
+      "print": true
+    },
+    "chapter1-impact.jpg": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  },
+  "outputStem": "origins-chapter-03-preview",
+  "includeTitlePage": false
+}

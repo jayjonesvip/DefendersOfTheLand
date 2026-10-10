@@ -1,0 +1,33 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-20.json",
+  "displayChapterNumber": 18,
+  "outputStem": "origins-chapter-18-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter18-perch-returns-lake-v2.png",
+  "illustrations": {
+    "chapter18-perch-returns-lake-v2.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter18-jenny-writes-article.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter18-city-rallies.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter17-billy-eleanor-newsroom.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

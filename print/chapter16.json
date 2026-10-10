@@ -1,0 +1,33 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-18.json",
+  "displayChapterNumber": 16,
+  "outputStem": "origins-chapter-16-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter16-dork-robot-street.png",
+  "illustrations": {
+    "chapter16-dork-robot-street.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter16-flame-transformation.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter16-team-hero-gear-v2.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter16-costume-reveal-closeup.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

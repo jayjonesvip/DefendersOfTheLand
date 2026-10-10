@@ -1,0 +1,18 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-14.json",
+  "displayChapterNumber": 12,
+  "outputStem": "origins-chapter-12-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter12-seth-meets-perch.png",
+  "illustrations": {
+    "chapter12-seth-meets-perch.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    }
+  }
+}

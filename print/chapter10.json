@@ -1,0 +1,28 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-12.json",
+  "displayChapterNumber": 10,
+  "outputStem": "origins-chapter-10-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter11-billy-checks-roof-v2.png",
+  "illustrations": {
+    "chapter11-billy-checks-roof-v2.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter11-dork-blames-luke.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    },
+    "chapter11-robot-in-workshop.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

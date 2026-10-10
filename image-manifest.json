@@ -1,0 +1,542 @@
+{
+  "billy-shore-clues.jpg": {
+    "file": "billy-shore-clues.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "blackwell-civic.jpg": {
+    "file": "blackwell-civic.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-awakening.jpg": {
+    "file": "chapter1-awakening.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-impact.jpg": {
+    "file": "chapter1-impact.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-rescue.jpg": {
+    "file": "chapter1-rescue.webp",
+    "width": 2056,
+    "height": 765
+  },
+  "chapter1-shore.jpg": {
+    "file": "chapter1-shore.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-strength.jpg": {
+    "file": "chapter1-strength.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "front-page.jpg": {
+    "file": "front-page.webp",
+    "width": 720,
+    "height": 755
+  },
+  "issue-cover.jpg": {
+    "file": "issue-cover.webp",
+    "width": 1024,
+    "height": 1050
+  },
+  "lake-glow.jpg": {
+    "file": "lake-glow.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "orkleson-press-bw.jpg": {
+    "file": "orkleson-press-bw.webp",
+    "width": 1322,
+    "height": 1190
+  },
+  "robot-triumph.jpg": {
+    "file": "robot-triumph.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "skyline.jpg": {
+    "file": "skyline.webp",
+    "width": 198,
+    "height": 144
+  },
+  "billy-dossier.png": {
+    "file": "billy-dossier.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "doc-dossier.png": {
+    "file": "doc-dossier.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "Doc_Dork_Character_Sheet.png": {
+    "file": "Doc_Dork_Character_Sheet.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "Inspector_Billy_Character_Sheet.png": {
+    "file": "Inspector_Billy_Character_Sheet.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "seth-dossier.png": {
+    "file": "seth-dossier.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "Super_Zerdo_Character_Sheet.png": {
+    "file": "Super_Zerdo_Character_Sheet.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-billy-newspaper.png": {
+    "file": "chapter2-billy-newspaper.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-billy-night.png": {
+    "file": "chapter2-billy-night.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-lake-demonstration.png": {
+    "file": "chapter2-lake-demonstration.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter3-blackwell-family-visit.png": {
+    "file": "chapter3-blackwell-family-visit.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter3-practical-restoration.png": {
+    "file": "chapter3-practical-restoration.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter3-restoration-announcement.png": {
+    "file": "chapter3-restoration-announcement.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-glove-awakening.png": {
+    "file": "chapter4-glove-awakening.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-glove-escape.png": {
+    "file": "chapter4-glove-escape.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-glove-punch.png": {
+    "file": "chapter4-glove-punch.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter5-bob-awakening.png": {
+    "file": "chapter5-bob-awakening.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter5-bob-rat.png": {
+    "file": "chapter5-bob-rat.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter6-jaws-awakening.png": {
+    "file": "chapter6-jaws-awakening.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter6-jaws-bite.png": {
+    "file": "chapter6-jaws-bite.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter6-jaws-reflection.png": {
+    "file": "chapter6-jaws-reflection.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-billy-seth-meeting.png": {
+    "file": "chapter7-billy-seth-meeting.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-fist-arrives.png": {
+    "file": "chapter7-fist-arrives.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-seth-timber.png": {
+    "file": "chapter7-seth-timber.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter8-bob-paper.png": {
+    "file": "chapter8-bob-paper.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter8-billy-listens.png": {
+    "file": "chapter8-billy-listens.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter8-three-witnesses.png": {
+    "file": "chapter8-three-witnesses.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-billy-records.png": {
+    "file": "chapter9-billy-records.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-billy-plate.png": {
+    "file": "chapter9-billy-plate.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-billy-dork-door.png": {
+    "file": "chapter9-billy-dork-door.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-seth-meets-bob.png": {
+    "file": "chapter10-seth-meets-bob.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-fist-and-jaws.png": {
+    "file": "chapter10-fist-and-jaws.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-holding-the-frame.png": {
+    "file": "chapter10-holding-the-frame.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-seth-timber-watcher-v2.png": {
+    "file": "chapter7-seth-timber-watcher-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-billy-checks-support.png": {
+    "file": "chapter11-billy-checks-support.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-dork-blames-luke.png": {
+    "file": "chapter11-dork-blames-luke.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-robot-in-workshop.png": {
+    "file": "chapter11-robot-in-workshop.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-seth-meets-bob-roof-v2.png": {
+    "file": "chapter10-seth-meets-bob-roof-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-fist-and-jaws-roof-v2.png": {
+    "file": "chapter10-fist-and-jaws-roof-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-holding-the-beam-v2.png": {
+    "file": "chapter10-holding-the-beam-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-billy-checks-roof-v2.png": {
+    "file": "chapter11-billy-checks-roof-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-bob-finds-label.png": {
+    "file": "chapter12-bob-finds-label.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-jenny-questions-dork.png": {
+    "file": "chapter12-jenny-questions-dork.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-seth-rooftop-glimmer.png": {
+    "file": "chapter12-seth-rooftop-glimmer.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-billy-listens-at-lake.png": {
+    "file": "chapter13-billy-listens-at-lake.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-bob-fist-delivery-watch-v2.png": {
+    "file": "chapter13-bob-fist-delivery-watch-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-robot-grip-test.png": {
+    "file": "chapter13-robot-grip-test.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-extraction-starts.png": {
+    "file": "chapter14-extraction-starts.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-seth-braces-cart.png": {
+    "file": "chapter14-seth-braces-cart.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-bob-reaches-cutoff-v2.png": {
+    "file": "chapter14-bob-reaches-cutoff-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-fist-hits-cutoff-v2.png": {
+    "file": "chapter14-fist-hits-cutoff-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-seth-lifts-intake.png": {
+    "file": "chapter14-seth-lifts-intake.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-luke-keeps-distance.png": {
+    "file": "chapter14-luke-keeps-distance.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-daniel-introduction.png": {
+    "file": "chapter1-daniel-introduction.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-fallen-tree-rescue.png": {
+    "file": "chapter1-fallen-tree-rescue.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-seth-tree-demonstration.png": {
+    "file": "chapter7-seth-tree-demonstration.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-bus-rail.png": {
+    "file": "chapter2-bus-rail.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter5-glove-auction.png": {
+    "file": "chapter5-glove-auction.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter6-luke-arrives.png": {
+    "file": "chapter6-luke-arrives.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-seth-cafe-no-bob.png": {
+    "file": "chapter9-seth-cafe-no-bob.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-cafe-rescue-no-bob.png": {
+    "file": "chapter9-cafe-rescue-no-bob.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-billy-finds-label.png": {
+    "file": "chapter11-billy-finds-label.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-fist-delivery-watch.png": {
+    "file": "chapter12-fist-delivery-watch.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-fist-hits-cutoff-no-bob.png": {
+    "file": "chapter13-fist-hits-cutoff-no-bob.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-fist-cutoff-whole-glove.png": {
+    "file": "chapter13-fist-cutoff-whole-glove.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-daniel-sees-lake-light.png": {
+    "file": "chapter2-daniel-sees-lake-light.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-daniel-overhears-seth-jenny.png": {
+    "file": "chapter4-daniel-overhears-seth-jenny.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-glove-awakening-before-flash.png": {
+    "file": "chapter1-glove-awakening-before-flash.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter5-daniel-water-sample.png": {
+    "file": "chapter5-daniel-water-sample.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter5-daniel-mystery-call.png": {
+    "file": "chapter5-daniel-mystery-call.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-fist-knocks-jaws-away.png": {
+    "file": "chapter9-fist-knocks-jaws-away.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-lab-evidence.png": {
+    "file": "chapter11-lab-evidence.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-seth-meets-perch.png": {
+    "file": "chapter12-seth-meets-perch.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-perch-intake-rescue.png": {
+    "file": "chapter13-perch-intake-rescue.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-seth-smashes-extractor.png": {
+    "file": "chapter13-seth-smashes-extractor.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter15-flaming-head-reveal.png": {
+    "file": "chapter15-flaming-head-reveal.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-jaws-net-capture-v2.png": {
+    "file": "chapter14-jaws-net-capture-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-perch-robot-heart-v2.png": {
+    "file": "chapter14-perch-robot-heart-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-dork-robot-street.png": {
+    "file": "chapter16-dork-robot-street.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-flame-transformation.png": {
+    "file": "chapter16-flame-transformation.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-team-hero-gear-v2.png": {
+    "file": "chapter16-team-hero-gear-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-jenny-faces-robot.png": {
+    "file": "chapter17-jenny-faces-robot.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-jenny-speed-dodge.png": {
+    "file": "chapter17-jenny-speed-dodge.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-fist-jaws-billboard.png": {
+    "file": "chapter17-fist-jaws-billboard.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-zerdo-tears-robot.png": {
+    "file": "chapter17-zerdo-tears-robot.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-perch-rescue.png": {
+    "file": "chapter17-perch-rescue.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-billy-eleanor-newsroom.png": {
+    "file": "chapter17-billy-eleanor-newsroom.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-head-perch-eyes-closed.png": {
+    "file": "chapter17-head-perch-eyes-closed.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-jaws-carries-dork.png": {
+    "file": "chapter17-jaws-carries-dork.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter18-jenny-writes-article.png": {
+    "file": "chapter18-jenny-writes-article.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter18-city-rallies.png": {
+    "file": "chapter18-city-rallies.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter18-perch-returns-lake-v2.png": {
+    "file": "chapter18-perch-returns-lake-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-luke-mirror-closeup.png": {
+    "file": "chapter2-luke-mirror-closeup.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-seth-beam-catch-closeup.png": {
+    "file": "chapter9-seth-beam-catch-closeup.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-perch-gate-opening.png": {
+    "file": "chapter13-perch-gate-opening.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-costume-reveal-closeup.png": {
+    "file": "chapter16-costume-reveal-closeup.webp",
+    "width": 1536,
+    "height": 1024
+  }
+}

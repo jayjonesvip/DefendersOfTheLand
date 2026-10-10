@@ -1,0 +1,23 @@
+{
+  "book": "origins",
+  "sourceChapter": "chapter-16.json",
+  "displayChapterNumber": 14,
+  "outputStem": "origins-chapter-14-preview",
+  "includeTitlePage": false,
+  "bleed": false,
+  "color": "color",
+  "approvedInterior": false,
+  "openingArtwork": "chapter14-jaws-net-capture-v2.png",
+  "illustrations": {
+    "chapter14-jaws-net-capture-v2.png": {
+      "layout": "chapter-opening",
+      "print": true,
+      "caption": null
+    },
+    "chapter14-perch-robot-heart-v2.png": {
+      "layout": "full-width",
+      "print": true,
+      "caption": null
+    }
+  }
+}

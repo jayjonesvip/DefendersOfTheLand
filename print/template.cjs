@@ -1,0 +1,17 @@
+const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function render({book,chapter,config,assetUrl,fontUrl,cssUrl,pagedUrl}){
+const expected=[],art=[];const prose=(text,cls='')=>{if(!text)return '';expected.push(text);return `<p class="${cls}">${esc(text).replace(/\n/g,'<br>')}</p>`};
+function illustration(src,alt,caption){const opt=config.illustrations[src]||{layout:'full-width',print:true};if(opt.print===false)return '';const layout=opt.layout;if(layout==='full-bleed'&&!config.bleed)throw Error('Full-bleed requires a bleed-sized interior; enable config.bleed.');art.push({src,layout});const captionText=Object.hasOwn(opt,'caption')?opt.caption:caption;return `<figure class="illustration ${layout}"><img src="${assetUrl(src)}" alt="${esc(alt)}">${captionText?`<figcaption>${esc(captionText)}</figcaption>`:''}</figure>`}
+const openingBlock=chapter.blocks.find(b=>b.art===config.openingArtwork);let body=`<section class="chapter-start"><div class="chapter-kicker">BOOK ONE: ORIGINS</div><div class="chapter-number">${String(config.displayChapterNumber).padStart(2,'0')}</div><h1>${esc(chapter.title)}</h1>${illustration(config.openingArtwork,openingBlock?.alt,'')}</section>`;
+for(const [index,b]of chapter.blocks.entries()){
+if(index===chapter.blocks.length-1)body+='<section class="final-passage">';
+if(b.art){if(b.art!==config.openingArtwork)body+=illustration(b.art,b.alt,b.caption);body+=prose(b.dialogue?`“${b.dialogue}”`:'','dialogue');body+=prose(b.text,index===0?'first':'');}
+else if(b.type==='prose')body+=prose(b.text,index===0?'first':'');
+else if(b.type==='clipping'){body+=`<article class="insert clipping"><div class="mini-masthead">The Cleveland Defender</div><h2>${esc(b.title)}</h2>${prose(b.deck,'deck')}<div class="byline">By ${esc(b.byline)}</div>${(b.body||[]).map(p=>prose(p)).join('')}</article>`;}
+else{body+=`<aside class="insert ${esc(b.type)}"><div class="insert-label">${esc(b.author||({tv:'On the air',schematic:'From the record',aside:'Narrator’s aside',mystery:'Scene break'}[b.type]||''))}</div><h2>${esc(b.title)}</h2>${prose(b.text)}</aside>`;}}
+body+=`<div class="chapter-end"><span class="end-ornament"></span>${prose(chapter.ending,'ending')}</div></section>`;
+const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Defenders of the Land - Chapter sample</title><link rel="stylesheet" href="${cssUrl}"><style>@font-face{font-family:BookSerif;src:url('${fontUrl('LibreBaskerville-Regular.ttf')}');font-weight:400}@font-face{font-family:BookDisplay;src:url('${fontUrl('Bangers-Regular.ttf')}')}${config.bleed?'@page{size:6.125in 9.25in;margin-top:.775in;margin-bottom:.775in}@page:left{margin-left:.675in;margin-right:.75in}@page:right{margin-left:.75in;margin-right:.675in}':''}</style><script>window.PagedConfig={auto:false};</script></head><body><div id="source"><section class="title-page"><p class="series-label">AN ILLUSTRATED ADVENTURE</p><h1>DEFENDERS<br>OF THE LAND</h1><div class="title-rule"></div><h2>BOOK ONE: ORIGINS</h2><p class="author">${esc(book.author||'Author name pending')}</p><p class="sample-label">CHAPTER SAMPLE<br>THE KID BY THE LAKE</p></section>${body}</div><script src="${pagedUrl}"></script></body></html>`;
+return {html:config.includeTitlePage===false?html.replace(/<section class="title-page">[\s\S]*?<\/section>/,''):html,expected,art};
+}
+module.exports={render};
+
