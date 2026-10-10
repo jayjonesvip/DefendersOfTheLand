@@ -538,5 +538,15 @@
     "file": "chapter16-costume-reveal-closeup.webp",
     "width": 1536,
     "height": 1024
+  },
+  "character-flaming-head-v1.png": {
+    "file": "character-flaming-head-v1.png",
+    "width": 1254,
+    "height": 1254
+  },
+  "character-super-perch-v1.png": {
+    "file": "character-super-perch-v1.png",
+    "width": 1254,
+    "height": 1254
   }
 }
