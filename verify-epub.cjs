@@ -27,6 +27,17 @@ async function check(){
   await page.goto(pathToFileURL(path.join(preview,'cover.xhtml')).href);
   await page.locator('img').evaluate(i=>i.decode());
   await page.screenshot({path:path.join(root,'tmp/epub/cover-mobile.png')});
+  const sample=path.join(root,'tmp/epub-sample/preview/EPUB');
+  for(let n=1;n<=3;n++){
+   await page.goto(pathToFileURL(path.join(sample,`chapter-${String(n).padStart(2,'0')}.xhtml`)).href);
+   await page.evaluate(async()=>{for(const image of document.images)await image.decode();document.body.style.fontSize='30px'});
+   assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Sample EPUB overflow: chapter ${n}`);
+  }
+  await page.goto(pathToFileURL(path.join(sample,'nav.xhtml')).href);assert.equal(await page.locator('#toc a').count(),3);
+  assert(!fs.existsSync(path.join(sample,'chapter-04.xhtml')));
+  await page.goto(pathToFileURL(path.join(sample,'continue.xhtml')).href);
+  assert.equal(await page.locator('a').getAttribute('href'),'https://jayjonesvip.github.io/DefendersOfTheLand/origins-chapter-4.html');
+  await page.screenshot({path:path.join(root,'tmp/epub-sample/continue-mobile.png')});
  }finally{await browser.close()}
 }
 module.exports={check};

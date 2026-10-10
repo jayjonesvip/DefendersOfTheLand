@@ -2,13 +2,12 @@ const assert=require('node:assert/strict'),crypto=require('node:crypto');
 const base=(process.argv[2]||'https://jayjonesvip.github.io/DefendersOfTheLand').replace(/\/$/,'');
 async function get(file){const response=await fetch(`${base}/${file}`);assert.equal(response.status,200,`${file}: HTTP ${response.status}`);return response}
 (async()=>{
- const manifest=await(await get('books/downloads.json')).json();
+ const manifest=await(await get('books/downloads.json')).json();assert.equal(manifest.samples.length,2);assert.equal(manifest.sampleEpub.chapters,3);assert(!manifest.full&&!manifest.ebooks&&!manifest.print);
  for(const file of ['index.html','origins.html','downloads.html',...manifest.chapters.map(c=>`origins-chapter-${c.number}.html`)]){
-  const html=await(await get(file)).text();assert(html.includes('Defenders of the Land'),file);assert(!html.includes('http://127.0.0.1'),file);
+  const html=await(await get(file)).text();assert(html.includes('Defenders of the Land'),file);assert(!html.includes('http://127.0.0.1'),file);assert(!html.includes('Download chapter PDF'),file);
  }
- const pdfs=[...manifest.full,...manifest.chapters,...manifest.covers,...manifest.print];assert.equal(pdfs.length,24);
- // Check downloaded bytes rather than relying on successful HEAD responses.
- for(const pdf of pdfs){const response=await get(`books/${pdf.file}`);assert(response.headers.get('content-type').includes('application/pdf'));const bytes=Buffer.from(await response.arrayBuffer());assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.equal(bytes.length,pdf.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pdf.sha256,pdf.file)}
- for(const file of [...manifest.ebooks,...manifest.ebookCovers]){const response=await get(`books/${file.file}`);const bytes=Buffer.from(await response.arrayBuffer());assert.equal(bytes.length,file.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),file.sha256,file.file)}
- console.log(`PASS: hosted reader, 18 chapters, all 24 PDFs, EPUB and Kindle cover at ${base}`);
+ for(const sample of manifest.samples){const response=await get(`books/${sample.file}`);const bytes=Buffer.from(await response.arrayBuffer());assert.equal(bytes.length,sample.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),sample.sha256,sample.file)}
+ const removed=['defenders-of-the-land-origins-illustrated.pdf','defenders-of-the-land-origins-text.pdf','defenders-of-the-land-origins.epub','origins-kdp-interior.pdf','origins-kdp-cover.pdf','origins-front-cover.pdf','origins-back-cover.pdf','origins-ebook-cover.jpg',...Array.from({length:18},(_,i)=>`origins-chapter-${String(i+1).padStart(2,'0')}.pdf`)];
+ await Promise.all(removed.map(async file=>{const response=await fetch(`${base}/books/${file}`);assert.equal(response.status,404,`Removed download still available: ${file}`)}));
+ console.log(`PASS: all 18 web chapters, two combined samples, and 26 removed download URLs at ${base}`);
 })().catch(e=>{console.error(e);process.exitCode=1});

@@ -40,7 +40,19 @@ jobs:
         run: |
           curl --fail --location --retry 3 -o /tmp/epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip
           unzip -q /tmp/epubcheck.zip -d /tmp/epubcheck
-          java -jar /tmp/epubcheck/epubcheck-5.4.0/epubcheck.jar dist/books/defenders-of-the-land-origins.epub
+          java -jar /tmp/epubcheck/epubcheck-5.4.0/epubcheck.jar output/publishing/defenders-of-the-land-origins.epub
+          java -jar /tmp/epubcheck/epubcheck-5.4.0/epubcheck.jar dist/books/origins-sample-chapters-01-03.epub
+      - name: Save complete publishing files separately
+        uses: actions/upload-artifact@v4
+        with:
+          name: kdp-publishing-files
+          path: |
+            output/publishing/defenders-of-the-land-origins.epub
+            output/publishing/origins-ebook-cover.jpg
+            output/publishing/origins-kdp-interior.pdf
+            output/publishing/origins-kdp-cover.pdf
+            output/publishing/print-specifications.json
+          retention-days: 90
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
