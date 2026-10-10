@@ -117,10 +117,15 @@ with Image.open(root/'public/assets'/cover_report['frontArtwork']) as front:
     cover_report['frontImagePixels']=list(front.size)
     cover_report['frontEffectiveDpi']=front.width/((432-36)/72)
 cover_report['frontResolutionMeets300Dpi']=cover_report['frontEffectiveDpi']>=300
+with Image.open(root/'public/assets'/cover_module.CONFIG['frontArtwork']) as original:
+    cover_report['originalFrontImagePixels']=list(original.size)
+    cover_report['originalFrontEffectiveDpi']=original.width/5.5
+cover_report['frontResampled']=cover_report['frontArtwork']!=cover_module.CONFIG['frontArtwork']
+assert cover_report['frontResolutionMeets300Dpi'], 'Print front must meet 300 DPI at its placed size'
 cover_report['specificationSource']='https://kdp.amazon.com/en_US/help/topic/G201953020'
 cover_report['interiorBleed']=False
 cover_report['barcodeBoxInches']=[2,1.2]
-cover_report['notes']=['Cover dimensions, bleed and spine match the interior page count.','Front artwork is the original approved cover. A higher-resolution source is recommended before commercial printing.','The blank 2 x 1.2 inch barcode area is reserved for the KDP-generated barcode.']
+cover_report['notes']=['Cover dimensions, bleed and spine match the interior page count.','The approved front has been resampled to 300 DPI without adding new image detail. Review a physical proof before publishing.','The blank 2 x 1.2 inch barcode area is reserved for the KDP-generated barcode.']
 manifest['paperback']=cover_report
 (out/'print-specifications.json').write_text(json.dumps(cover_report,indent=2)+'\n',encoding='utf-8')
 paperback.close()

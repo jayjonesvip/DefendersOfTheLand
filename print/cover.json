@@ -1,5 +1,7 @@
 {
   "frontArtwork": "origins-cover-v2.png",
+  "printFrontArtwork": "origins-cover-print.png",
+  "printFrontDpi": 300,
   "backArtwork": "chapter1-shore.webp",
   "series": "DEFENDERS OF THE LAND",
   "volume": "BOOK ONE: ORIGINS",
