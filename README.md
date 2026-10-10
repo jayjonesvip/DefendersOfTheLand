@@ -21,7 +21,7 @@ npm run preview
 
 Open http://localhost:4175. On Linux, use `npx playwright install --with-deps chromium` to install browser system dependencies too.
 
-`npm run build` generates and validates all 20 PDFs, then builds the site in `dist/`. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork.
+`npm run build` generates and validates all 24 PDFs, then builds the site in `dist/`. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork.
 
 Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` sets the canonical site URL and sitemap. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates only PDFs.
 
@@ -29,7 +29,17 @@ Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_
 
 Manuscript files live in `content/books/origins/`. Chapter order and illustrations come from `print/sample.json` and `print/chapter2.json` through `print/chapter18.json`; display chapter numbers can differ from source filenames. `image-manifest.json` maps manuscript artwork names to the optimized images in `public/assets/`. The print templates and bundled fonts live in `print/`.
 
-Edit source files, build, test, and push to `main`. Do not edit generated HTML or PDFs: the next build replaces them. Chapter PDFs use the same pages as the complete illustrated edition and retain its printed page numbers. PDFs are reading editions; commercial print preparation is a separate step.
+Edit source files, build, test, and push to `main`. Do not edit generated HTML or PDFs: the next build replaces them. Chapter PDFs use the same pages as the complete illustrated reading edition and retain its printed page numbers.
+
+## Cover and Amazon paperback
+
+Edit the back-cover hook, blurb, artwork references and printing settings in `print/cover.json`. The original illustrated front cover remains unchanged. Full downloadable editions include a closing back cover; the text-only edition uses a white text-only version.
+
+The paperback uses **6 × 9 inches, standard color on white paper, and no interior bleed**. Upload `origins-kdp-interior.pdf` as the manuscript and `origins-kdp-cover.pdf` as the cover. The manuscript excludes the outside covers, includes a copyright page, starts Chapter One on a right-hand page, and ends on an even page count. The cover has 0.125-inch outer bleed and an empty white area for Amazon's barcode.
+
+Every build recalculates the spine from the actual print manuscript's page count using [KDP's cover specifications](https://kdp.amazon.com/en_US/help/topic/G201953020). It does not use the downloadable reading PDF's page count. `dist/books/print-specifications.json` records dimensions and artwork resolution. Check the resolution report and KDP Print Previewer, then review a physical proof before publishing. The original front artwork is below the 300-DPI print target; an enlarged raster file adds pixels without restoring detail.
+
+Font and blurb text are embedded as vectors. Standalone front and back cover PDFs and a wrap preview are available on the Downloads page. The generated preview is a PNG; the Amazon cover is a single-page PDF without crop marks or guide text.
 
 ## GitHub Pages
 
@@ -37,6 +47,6 @@ The Pages workflow builds and tests pull requests. Pushes to `main` and manual r
 
 Generated PDFs, HTML, temporary render files, and dependencies are excluded from Git. The workflow publishes `dist/` as a Pages artifact, so large PDFs do not increase repository history. Original high-resolution art and private authoring notes remain outside this public repository.
 
-Deployment also checks the public reader and downloads all 20 hosted PDFs to verify their size and SHA-256 checksum. Run `npm run test:hosted` to repeat this check. Bundled fonts retain their SIL Open Font License notices in `print/fonts/` and the deployed font directory.
+Deployment also checks the public reader and downloads all 24 hosted PDFs to verify their size and SHA-256 checksum. Run `npm run test:hosted` to repeat this check. Bundled fonts retain their SIL Open Font License notices in `print/fonts/` and the deployed font directory.
 
 © Jay Jones. Story, characters, and illustrations are not licensed for redistribution.
