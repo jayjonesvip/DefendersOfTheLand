@@ -1,0 +1,29 @@
+{
+  "number": 5,
+  "title": "Words and Actions",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {"type": "prose", "text": "The promotion filled Jenny’s desk faster than she could clear it. Interview notes waited beside unfinished stories. Telephone messages arrived while she was out collecting more."},
+    {"type": "prose", "text": "She stayed late, hurried through supper and reached the rooftop with her mind still in the newsroom. Even when her feet stopped moving, the list in her head kept going."},
+    {"type": "prose", "text": "When she visited her grandpa, she brought that list with her."},
+    {"type": "prose", "text": "Larry Jenkins had retired as editor of the Defender, though the pencil in his shirt pocket suggested he still expected to find something worth correcting. He pushed his glasses up through his silver hair and listened while Jenny explained the extra assignments."},
+    {"type": "prose", "text": "She did not mention her speed."},
+    {"type": "prose", "text": "“I wanted the responsibility,” she said. “I just didn’t realize how many other things would have to fit around it.”"},
+    {"type": "prose", "text": "Larry glanced at the newspaper between them. Her award-winning article was there, beside a photograph of the indistinct pink figure from the street battle."},
+    {"type": "scene", "art": "book-two-chapter-05-larry-advice.webp", "alt": "Jenny listens to her grandpa Larry Jenkins, the retired Defender editor, as he offers advice beside a newspaper carrying a photograph of the unidentified pink blur.", "text": "“Sometimes you help the city with your words,” he said. “Sometimes you help it with your actions. You don’t have to choose only one.” His finger rested beside the blurred photograph."},
+    {"type": "prose", "text": "Jenny looked from his hand to his face."},
+    {"type": "prose", "text": "Larry gave her a small smile. “But being able to get everywhere doesn’t mean you have to do everything. Give your attention to the people who need it. Then remember you’re a person, too.”"},
+    {"type": "prose", "text": "For a moment, she wondered how much she had actually told him. He folded the paper and asked whether she had eaten. She let him change the subject."},
+    {"type": "prose", "text": "The next morning, Jenny put her appointments in order before leaving the newsroom. She could save time between them. Once she arrived, she would give people the time they deserved."},
+    {"type": "prose", "text": "In Public Square, she listened to shopkeepers describing the repairs after the robot attack. At the Main Library, she checked the records behind a waterfront claim. By the lake, she wrote down residents’ concerns about damaged public access."},
+    {"type": "scene", "art": "book-two-chapter-05-reporting-rounds.webp", "alt": "Jenny takes reporting notes in Public Square, researches at Cleveland’s Main Library and interviews residents beside Lake Erie, with pink speed blurs showing her rapid journeys between stops.", "text": "Between stops, she slipped out of sight before accelerating. A pink streak crossed an empty passage; a moment later, she was walking toward her next interview with her notebook ready. Her pen still moved at an ordinary pace while someone spoke."},
+    {"type": "prose", "text": "When a resident struggled to carry a box clear of a damaged walkway, Jenny closed the notebook and helped. The interview could wait until they had somewhere safe to stand."},
+    {"type": "prose", "text": "By afternoon, she could feel the pavement through one shoe. She stopped beneath a shop awning and lifted her foot. The sole had worn through."},
+    {"type": "prose", "text": "Running that fast was getting her across Cleveland. It was also getting expensive."},
+    {"type": "scene", "art": "book-two-chapter-05-new-shoes.webp", "alt": "Jenny buys new black shoes in a shoe shop, examining a fresh pair while her old shoe’s worn-through sole is visible beside her notebook.", "text": "In the shoe shop, she tried a fresh pair and bought them. The clerk examined the old sole. “You certainly cover some ground.” Jenny smiled. “It’s been a busy week.”"},
+    {"type": "prose", "text": "Back at the Defender, she checked her notes, made the remaining calls and finished the story. She worked until the facts were right, then put down her pencil."},
+    {"type": "prose", "text": "There would be another list tomorrow. Tonight, she would eat before training."},
+    {"type": "prose", "text": "As she left, Jenny looked down at her new shoes and thought of Grandpa Larry’s finger beside that photograph. She still could not decide whether he had been giving advice to a reporter—or to both versions of his granddaughter."}
+  ]
+}
