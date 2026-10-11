@@ -1,0 +1,32 @@
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+const {chromium}=require('playwright');
+async function check(){
+ const dist=path.join(__dirname,'dist'),qa=path.join(__dirname,'tmp/qa');fs.mkdirSync(qa,{recursive:true});
+ const server=http.createServer((req,res)=>{const file=path.resolve(dist,'.'+decodeURIComponent(req.url.split('?')[0]));if(!file.startsWith(dist+path.sep)){res.writeHead(403).end();return}try{res.setHeader('Content-Type',file.endsWith('.html')?'text/html':file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'application/octet-stream');res.end(fs.readFileSync(file))}catch{res.writeHead(404).end()}});
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const executable=process.env.BOOK_CHROMIUM||(process.platform==='win32'?['C:/Program Files/Google/Chrome/Application/chrome.exe','C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'].find(p=>fs.existsSync(p)):undefined);
+ let browser;
+ try{
+  browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{})});
+  const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
+  await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
+  await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 1 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),1);
+  await page.locator('.chapter-list a').click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
+  const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
+  assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));
+  await page.locator('.chapter-body img').evaluate(img=>{img.loading='eager';return img.decode()});
+  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Book Two chapter overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluate(img=>img.naturalWidth>0));}
+  await page.locator('[data-font="+"]').click();assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--prose-size')),'22px');await page.locator('#focus').click();assert.equal(await page.locator('#focus').innerText(),'Exit focus');await page.locator('#focus').click();
+  await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-1-mobile.png'),fullPage:false});
+  await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-1-desktop.png'),fullPage:false});
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'1 of 1 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-1.html');
+  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));assert.deepEqual(state.read,['origins:4','book-two:1']);assert.equal(state.positions['origins:4'],.35);
+  await page.goto(base+'/origins.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'1 of 18 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'origins-chapter-4.html');
+  await page.goto(base+'/origins-chapter-4.html');await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'1 of 1 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-1.html');
+  for(const file of ['index.html','books.html','book-two.html']){await page.goto(base+'/'+file);for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${file} overflow at ${width}`);}}
+  await page.setViewportSize({width:1200,height:900});await page.goto(base+'/books.html');await page.screenshot({path:path.join(qa,'book-library-desktop.png'),fullPage:true});assert.deepEqual(errors,[]);
+ }finally{if(browser)await browser.close();await new Promise(r=>server.close(r))}
+ console.log('PASS: Book Two manuscript/art, per-book completion and resume, existing progress preservation, reader controls and 320/390/1200px layouts.');
+}
+module.exports={check};

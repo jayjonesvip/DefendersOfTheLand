@@ -1,5 +1,7 @@
 # Defenders of the Land
 
+Book Two has its own contents page (`book-two.html`) and Chapter 1, **One More Thing to Finish**, in `content/books/book-two/`. Only written, available chapters are published. Book One retains its print-controlled order; additional books use their `book.json` chapter lists. Completion, saved positions and resume links are kept separately for each book. The Chapter 1 comic is in `public/assets/book-two-chapter-01-tutoring-graduation.webp`; its original PNG remains in the author's Book Two art folder. Book Two has no assigned subtitle yet, and its future rescue chapter remains unwritten.
+
 The illustrated web reader for **Book One: Origins**, by Jay Jones.
 
 [Read the book](https://jayjonesvip.github.io/DefendersOfTheLand/) · [Download a free sample](https://jayjonesvip.github.io/DefendersOfTheLand/downloads.html)

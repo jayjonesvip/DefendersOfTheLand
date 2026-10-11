@@ -1,0 +1,9 @@
+{
+  "id": "book-two",
+  "title": "Book Two",
+  "number": 2,
+  "author": "Jay Jones",
+  "status": "In progress",
+  "description": "Cleveland’s defenders have more to learn.",
+  "chapters": ["chapter-01.json"]
+}
