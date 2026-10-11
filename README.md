@@ -1,6 +1,6 @@
 # Defenders of the Land
 
-Book Two has its own contents page (`book-two.html`) and Chapters 1–2, **One More Thing to Finish** and **Watch Where You Kick**, in `content/books/book-two/`. Only written, available chapters are published. Book One retains its print-controlled order; additional books use their `book.json` chapter lists. Completion, saved positions and resume links are kept separately for each book. Chapter comics are in `public/assets/book-two-chapter-*.webp`; original PNGs remain in the author's Book Two art folder. Book Two has no assigned subtitle yet, and its future rescue chapter remains unwritten.
+Book Two has its own contents page (`book-two.html`) and Chapters 1–3, **One More Thing to Finish**, **Watch Where You Kick**, and **Room to Breathe**, in `content/books/book-two/`. Only written, available chapters are published. Book One retains its print-controlled order; additional books use their `book.json` chapter lists. Completion, saved positions and resume links are kept separately for each book. Chapter artwork is in `public/assets/book-two-chapter-*.webp`; original PNGs remain in the author's Book Two art folder. Book Two has no assigned subtitle yet, and its future rescue chapter remains unwritten.
 
 The illustrated web reader for **Book One: Origins**, by Jay Jones.
 
