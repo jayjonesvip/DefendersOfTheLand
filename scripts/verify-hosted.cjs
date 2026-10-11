@@ -6,7 +6,7 @@ async function get(file){const response=await fetch(`${base}/${file}`);assert.eq
  for(const file of ['index.html','books.html','book-two.html','book-two-chapter-1.html','book-two-chapter-2.html','origins.html','downloads.html','map.html',...manifest.chapters.map(c=>`origins-chapter-${c.number}.html`)]){
   const html=await(await get(file)).text();assert(html.includes('Defenders of the Land'),file);assert(!html.includes('http://127.0.0.1'),file);assert(!html.includes('Download chapter PDF'),file);
  }
- for(const asset of ['story-map.js','assets/d3-7.9.0.min.js','assets/book-two-chapter-01-tutoring-graduation.webp','assets/book-two-chapter-02-rooftop-training.webp'])await get(asset);
+ for(const asset of ['story-map.js','assets/d3-7.9.0.min.js','assets/book-two-chapter-01-tutoring-graduation.webp','assets/book-two-chapter-02-jenny-practice.webp','assets/book-two-chapter-02-seth-practice.webp'])await get(asset);
  for(const sample of manifest.samples){const response=await get(`books/${sample.file}`);const bytes=Buffer.from(await response.arrayBuffer());assert.equal(bytes.length,sample.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),sample.sha256,sample.file)}
  const removed=['defenders-of-the-land-origins-illustrated.pdf','defenders-of-the-land-origins-text.pdf','defenders-of-the-land-origins.epub','origins-kdp-interior.pdf','origins-kdp-cover.pdf','origins-front-cover.pdf','origins-back-cover.pdf','origins-ebook-cover.jpg',...Array.from({length:18},(_,i)=>`origins-chapter-${String(i+1).padStart(2,'0')}.pdf`)];
  await Promise.all(removed.map(async file=>{const response=await fetch(`${base}/books/${file}`);assert.equal(response.status,404,`Removed download still available: ${file}`)}));

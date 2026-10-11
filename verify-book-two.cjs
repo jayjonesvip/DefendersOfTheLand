@@ -22,9 +22,12 @@ async function check(){
   await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-1-desktop.png'),fullPage:false});
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-2.html');assert.equal(await page.locator('h1').innerText(),'Watch Where You Kick');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-1.html');
   const chapterTwo=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-02.json')));
-  assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterTwo.blocks.map(b=>b.text).join('\n'));
-  await page.locator('.chapter-body img').evaluate(img=>{img.loading='eager';return img.decode()});
-  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 2 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluate(img=>img.naturalWidth>0));}
+  assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterTwo.blocks.map(b=>b.text).filter(Boolean).join('\n'));
+  assert.deepEqual(await page.locator('.scene-heading').allTextContents(),['Jenny’s Practice','Seth’s Practice']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-02-jenny-practice.webp','assets/book-two-chapter-02-seth-practice.webp']);
+  await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
+  assert(await page.locator('.chapter-body').evaluate(body=>{const headings=body.querySelectorAll('h2'),figures=body.querySelectorAll('figure');return !!(headings[0].compareDocumentPosition(figures[0])&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(figures[0].compareDocumentPosition(headings[1])&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(headings[1].compareDocumentPosition(figures[1])&Node.DOCUMENT_POSITION_FOLLOWING)}));
+  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 2 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-2-mobile.png'),fullPage:false});
   await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-2-desktop.png'),fullPage:false});
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'2 of 2 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-2.html');
