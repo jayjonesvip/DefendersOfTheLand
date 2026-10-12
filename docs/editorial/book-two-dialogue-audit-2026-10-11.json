@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-11",
+  "scope": "Book Two, authored Chapters 1–5: dialogue continuity, natural speaking tone and unnecessary repetition",
+  "baseline_commit": "13f35b5ef550d322ceb409559993f01f3d12e7ba",
+  "status": "Reviewed, edited and locally verified",
+  "findings_and_edits": [
+    {
+      "chapter": 1,
+      "finding": "Seth's vague school answer and Billy's examination wording made the conversation unclear or overly formal. The correction exchange repeated a lesson immediately before the narration demonstrated it.",
+      "edit": "Made Seth name his finals and homework, used everyday American wording, shortened the correction exchange and gave Billy direct encouragement. Graduation still depends on Seth doing the work."
+    },
+    {
+      "chapter": 2,
+      "finding": "Flaming Head's instructions sounded like polished maxims and appeared to invite an uncontrolled kick. Jenny repeated the targeting lesson after it had already been taught.",
+      "edit": "Jenny kicks before Flaming Head finishes his caution. His later instruction names the target and the action. Kept the exact rest-and-focus conditions for Seth's ability to lift or bend any earthly substance, using spoken contractions. Removed Jenny's second statement of the same lesson."
+    },
+    {
+      "chapter": 3,
+      "finding": "The drum was described as being back even though it never left. The conversation repeated both accidents, and some reassurance sounded abstract rather than responsive.",
+      "edit": "Changed the opening joke to a rematch. Jenny now worries about who could have been hurt; Seth talks about the pressure to appear competent. Their reassurance gives each other time instead of repeating training instructions. Removed an explanatory sentence already demonstrated by the next missed kick."
+    },
+    {
+      "chapter": 4,
+      "finding": "The editor's award speech overlapped the reflective mentor voices. Hearing a rooftop door from Jenny's apartment depended on an unestablished building layout.",
+      "edit": "Made the editor's praise brief and work-focused. Used the scheduled practice time to motivate Jenny changing, without assuming what she can hear from her apartment. The chapter remains short with one award illustration."
+    },
+    {
+      "chapter": 5,
+      "finding": "Jenny's explanation sounded administrative, Larry stacked several general maxims, and the shoe clerk's line sounded like another knowing hint.",
+      "edit": "Made Jenny's complaint conversational, shortened Larry's follow-up advice, and gave the clerk a practical observation about shoe durability. Preserved Larry's words-and-actions advice, his finger beside the pink-blur photograph and uncertainty about what he knows."
+    }
+  ],
+  "continuity_preserved": [
+    "Seth graduates with Billy's tutoring before rooftop training.",
+    "Seth's lift-and-bend ability depends on rest and focus; Jenny generates kickable plasma through rapid leg movement.",
+    "Chapter 2 contains the failures; Chapter 3 contains growing trust and improved but imperfect control.",
+    "Jenny's award and promotion precede the increased duties in Chapter 5.",
+    "Larry Jenkins is Jenny's grandpa and the retired Defender editor; his knowledge of her secret is not confirmed.",
+    "Jenny wears civilian clothes throughout Chapter 5; her speed is used between reporting stops away from onlookers.",
+    "Flaming Head's private training dialogue remains with Seth and Jenny, who understand him. No ordinary bystander is made to understand his shared-energy speech.",
+    "No new powers, identities, villain reveals or rescue outcomes are introduced.",
+    "All ten existing illustration references and their associated scenes remain in place."
+  ],
+  "verification": {
+    "build": "npm run build:site passed; 31 pages",
+    "reader_checks": "npm test passed; all five Book Two chapters match their authoritative source, images load, navigation and independent book progress work, and layouts pass at 320, 390 and 1200 pixels",
+    "links_and_assets": "443 local links and assets passed",
+    "exact_dialogue_repetition": "No repeated complete speech passage of four or more words after normalization. Manual review also addressed repeated explanations and mentor phrasing.",
+    "final_word_counts": {"1": 807, "2": 767, "3": 712, "4": 271, "5": 529}
+  }
+}
