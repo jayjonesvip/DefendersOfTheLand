@@ -26,6 +26,7 @@ function check(){
    const paperback=graph.find(n=>n.bookFormat==='https://schema.org/Paperback');
    assert.equal(paperback.url,site.paperback.url);assert.equal(paperback.identifier.value,site.paperback.asin);
    assert(!paperback.offers&&!paperback.aggregateRating,'Do not fabricate pricing or reviews');
+   const ebook=graph.find(n=>n.bookFormat==='https://schema.org/EBook');assert.equal(ebook.url,site.ebook.url);assert.equal(ebook.identifier.value,site.ebook.asin);
   }
  }
  const xml=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
@@ -35,6 +36,7 @@ function check(){
  assert(fs.readFileSync(path.join(dist,'robots.txt'),'utf8').includes(`Sitemap: ${base}/sitemap.xml`));
  for(const file of ['index.html','origins.html','books.html','downloads.html','paperback.html']){
   const html=fs.readFileSync(path.join(dist,file),'utf8');assert(html.includes(`href="${site.paperback.url}"`),`${file}: missing paperback purchase link`);
+  assert(html.includes(`href="${site.ebook.url}"`),`${file}: missing Kindle purchase link`);
   assert(!html.includes('Kindle purchase link will be added'),file);
  }
  if(!new URL(base).hostname.endsWith('.github.io'))assert.equal(fs.readFileSync(path.join(dist,'CNAME'),'utf8').trim(),new URL(base).hostname);

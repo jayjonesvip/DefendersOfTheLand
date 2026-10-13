@@ -149,7 +149,7 @@ document('nav.xhtml', 'Contents', '<nav epub:type="toc" id="toc"><h1>Contents</h
 for args in chapter_documents:
     document(*args)
 if sample:
-    document('continue.xhtml', 'Continue reading', f'<section><h1>Continue Book One</h1><p>This sample contains the first three chapters.</p><p><a href="{esc(reader_url)}origins-chapter-4.html">Continue reading the complete book free on the website.</a></p><p><a href="{esc(site["paperback"]["url"])}">Buy Book One: Origins in paperback on Amazon.</a></p></section>', 'continue')
+    document('continue.xhtml', 'Continue reading', f'<section><h1>Continue Book One</h1><p>This sample contains the first three chapters.</p><p><a href="{esc(reader_url)}origins-chapter-4.html">Continue reading the complete book free on the website.</a></p><p><a href="{esc(site["paperback"]["url"])}">Buy Book One: Origins in paperback on Amazon.</a></p><p><a href="{esc(site["ebook"]["url"])}">Buy Book One: Origins on Kindle.</a></p></section>', 'continue')
 
 points = ''.join(f'<navPoint id="nav-{n}" playOrder="{n}"><navLabel><text>Chapter {n}: {esc(heading)}</text></navLabel><content src="{name}"/></navPoint>' for n, heading, name in chapters)
 resource('toc.ncx', f'<?xml version="1.0" encoding="utf-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="{identifier}"/><meta name="dtb:depth" content="1"/><meta name="dtb:totalPageCount" content="0"/><meta name="dtb:maxPageNumber" content="0"/></head><docTitle><text>{esc(title)}</text></docTitle><navMap>{points}</navMap></ncx>', 'application/x-dtbncx+xml', 'ncx')

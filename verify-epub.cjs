@@ -56,6 +56,7 @@ async function check(){
   await page.goto(`${base}/sample/continue.xhtml`);
   assert.equal(await page.locator('a').first().getAttribute('href'),site.url.replace(/\/$/,'')+'/origins-chapter-4.html');
   assert.equal(await page.locator('a').nth(1).getAttribute('href'),site.paperback.url);
+  assert.equal(await page.locator('a').nth(2).getAttribute('href'),site.ebook.url);
   await page.screenshot({path:path.join(root,'tmp/epub-sample/continue-mobile.png')});
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
  console.log(`PASS: full EPUB chapters, images, contents and large-text layouts for ${reports.length} books; Book One sample only.`);

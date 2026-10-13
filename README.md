@@ -61,7 +61,7 @@ Deployment checks all 18 public reading chapters and both sample downloads, veri
 
 ## Getting the complete KDP files
 
-Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves every full EPUB, assigned ebook cover JPEGs, `epub-builds.json`, and Book One’s paperback interior, wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The paperback purchase link is https://www.amazon.com/dp/B0HMWW1LWL and is configured in `content/site.json`. No Kindle purchase URL has been supplied.
+Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves every full EPUB, assigned ebook cover JPEGs, `epub-builds.json`, and Book One’s paperback interior, wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The paperback purchase link is https://www.amazon.com/dp/B0HMWW1LWL and is configured in `content/site.json`. The Kindle ebook is https://www.amazon.com/dp/B0HMXK83HK, also configured in `content/site.json`. Both editions have purchase buttons and structured metadata.
 
 
 ## Website SEO and paperback purchasing

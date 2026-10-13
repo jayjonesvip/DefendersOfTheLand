@@ -41,6 +41,7 @@ async function check(){
  await page.goto(base+'/paperback.html');
  const paperbackUrl=JSON.parse(fs.readFileSync(path.join(root,'content/site.json'))).paperback.url;
  assert.equal(await page.locator('a').filter({hasText:'Buy paperback on Amazon'}).getAttribute('href'),paperbackUrl);
+ assert.equal(await page.locator('a').filter({hasText:'Buy Kindle ebook'}).getAttribute('href'),JSON.parse(fs.readFileSync(path.join(root,'content/site.json'))).ebook.url);
  await page.locator('.paperback-layout img').evaluate(img=>img.decode());
  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Paperback page overflow at ${width}`);assert(await page.locator('.paperback-layout img').evaluate(img=>img.naturalWidth>0));}
  await page.screenshot({path:path.join(qa,'web-paperback-desktop.png'),fullPage:true});await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'web-paperback-mobile.png'),fullPage:true});
