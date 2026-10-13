@@ -103,7 +103,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-13.html');assert.equal(await page.locator('h1').innerText(),'Fair Warning');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-12.html');
   const chapterThirteen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-13.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterThirteen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-13-arrival-v1.webp','assets/book-two-chapter-13-conversation-v1.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-13-arrival-v2.webp','assets/book-two-chapter-13-conversation-v1.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 13 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'13 of 13 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-13.html');
