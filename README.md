@@ -92,6 +92,8 @@ Every full EPUB and Book One’s sample passes EPUBCheck in GitHub Actions. `npm
 
 ## Book Two approved cover and paperback wrap
 
+For the final chapters' illustrations, use the approved cover as the canonical laboratory and character reference. Read `docs/art/book-two-finale-reference.md` before creating capture, Skyfall or rescue artwork.
+
 The approved front is `public/assets/book-two-cover-v1.png`; an optimized WebP is used on the website. Book Two metadata assigns the original to both `cover` and `ebookCover`, so its full EPUB includes the official cover. The original PNG is retained for print and ebook export. Book Two’s contents, book-library card, home-page continuation section and social previews display this cover.
 
 `print/book-two-cover.json` holds the approved front, back-cover copy, back illustration, trim, paper and spine assumptions. Full EPUB builds regenerate `book-two-kdp-cover.pdf`, separate front/back PDFs, a PNG wrap preview and `book-two-print-specifications.json` in `output/publishing/`; these are included in `kdp-publishing-files`, not the public website.
