@@ -568,5 +568,15 @@
     "file": "book-two-chapter-09-cash-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-two-chapter-10-promise-v1.webp": {
+    "file": "book-two-chapter-10-promise-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-chapter-10-questions-v1.webp": {
+    "file": "book-two-chapter-10-questions-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
