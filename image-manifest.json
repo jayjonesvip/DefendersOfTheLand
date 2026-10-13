@@ -598,5 +598,10 @@
     "file": "book-two-chapter-13-arrival-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "origins-cover-web-v1.webp": {
+    "file": "origins-cover-web-v1.webp",
+    "width": 1024,
+    "height": 1536
   }
 }

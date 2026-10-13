@@ -4,7 +4,7 @@ Book Two has its own contents page (`book-two.html`) and Chapters 1–13 in `con
 
 The illustrated web reader for **Book One: Origins**, by Jay Jones.
 
-[Read the book](https://jayjonesvip.github.io/DefendersOfTheLand/) · [Download a free sample](https://jayjonesvip.github.io/DefendersOfTheLand/downloads.html)
+[Read the book](https://clevelandsuperheroes.com/) · [Buy the paperback](https://www.amazon.com/dp/B0HMWW1LWL) · [Download a free sample](https://clevelandsuperheroes.com/downloads.html)
 
 All 18 chapters, saved reading progress, character profiles, dark mode, and mobile layouts. Readers can read all 18 chapters free online and download a combined three-chapter sample as an illustrated PDF or reflowable EPUB. Full editions and individual chapter downloads are not hosted on the public site.
 
@@ -25,7 +25,7 @@ Open http://localhost:4175. On Linux, use `npx playwright install --with-deps ch
 
 `npm run build` generates and validates all 24 PDFs and the illustrated EPUB, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
 
-Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` sets the canonical site URL and sitemap. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates the publishing editions and public samples.
+Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` overrides the canonical site URL; the default is `https://clevelandsuperheroes.com` from `content/site.json`. Every site build generates the sitemap, robots.txt, metadata and custom-domain CNAME. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates the publishing editions and public samples.
 
 ## Edit the book
 
@@ -61,4 +61,17 @@ Deployment checks all 18 public reading chapters and both sample downloads, veri
 
 ## Getting the complete KDP files
 
-Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves the Kindle EPUB, Kindle front JPEG, paperback interior, paperback wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The Kindle purchase link can be added to the companion site when the book is published; no listing URL has been invented.
+Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves the Kindle EPUB, Kindle front JPEG, paperback interior, paperback wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The paperback purchase link is https://www.amazon.com/dp/B0HMWW1LWL and is configured in `content/site.json`. No Kindle purchase URL has been supplied.
+
+
+## Website SEO and paperback purchasing
+
+`content/site.json` is the source for the canonical domain, author, optimized web cover and Amazon paperback URL/ASIN. The original print cover remains unchanged. `paperback.html` includes the synopsis, edition details, Amazon purchase link and links to free samples and the complete web edition. Purchase links also appear on the home page, Book One contents, book library and downloads page. Every page links to the paperback page in its footer.
+
+`seo.cjs` generates distinct titles and descriptions, author metadata, canonical URLs, Open Graph and Twitter previews, and JSON-LD for the website, author, books, paperback edition, chapters and breadcrumbs. Paperback data identifies the supplied ASIN and Amazon purchase URL without inventing ISBNs, prices, stock levels or reviews. The home URL is canonicalized to `/`. Chapter text stays server-rendered and directly linked from the contents.
+
+Every build writes `sitemap.xml` with all published indexable pages and `robots.txt` pointing to it. The error page has `noindex` and is excluded from the sitemap. Modification dates are omitted rather than replaced with inaccurate build timestamps. The workflow defaults to the custom domain; repository variable `SITE_URL` can override it. The build writes `CNAME` for a custom host and removes it for a GitHub Pages host.
+
+`node verify-seo.cjs` checks unique metadata, canonical and social URLs, valid JSON-LD, the Amazon link, sitemap coverage, robots.txt and the custom-domain file. It also runs in `npm test`. Reader checks cover the paperback page at 320, 390 and 1200 pixels. The hosted check reads the sitemap to cover all currently published chapters rather than a fixed Book Two chapter list.
+
+After deployment, verify `https://clevelandsuperheroes.com` as a domain property in Google Search Console and submit `https://clevelandsuperheroes.com/sitemap.xml`; use Bing Webmaster Tools for Bing. Verification and submission require the domain owner's accounts. Search engines control indexing, snippets and rankings. The site code contains no fabricated verification tokens. After a future domain change, update the site configuration and workflow override together, preserve redirects, and resubmit the sitemap.
