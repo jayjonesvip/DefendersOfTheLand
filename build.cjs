@@ -17,6 +17,7 @@ const bookCounts={[book.id]:chapters.length,...Object.fromEntries(additionalBook
 const downloads=read('dist/books/downloads.json');
 if(Object.keys(downloads).some(k=>['full','ebooks','print','covers'].includes(k)))throw Error('Publish samples before building the public site');
 const publicBooks=new Set(['downloads.json',...downloads.samples.map(d=>d.file)]);
+if(downloads.samples.length!==2||!publicBooks.has('origins-sample-chapters-01-03.pdf')||!publicBooks.has('origins-sample-chapters-01-03.epub'))throw Error('Only Book One PDF/EPUB samples may be published');
 if(fs.readdirSync(path.join(out,'books')).some(f=>!publicBooks.has(f)))throw Error('Public books directory contains non-sample files');
 const cover=read('print/cover.json');
 const seo=createSeo({site:siteConfig,book,chapters,additionalBooks,cover,manifest,escape:esc});

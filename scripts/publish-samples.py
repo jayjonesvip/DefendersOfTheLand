@@ -76,9 +76,18 @@ pages = len(sample); sample.close()
 pdf = {'file':path.name,'label':'First three chapters — illustrated PDF','mediaType':'application/pdf','pages':pages,'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
 samples = [pdf] + [d for d in manifest['samples'] if d['file'].endswith('.epub')]
 assert len(samples) == 2
+assert {d['file'] for d in samples} == {'origins-sample-chapters-01-03.pdf', 'origins-sample-chapters-01-03.epub'}, 'Only Book One samples may be public'
 # Keep author metadata and files available for publishing, without deploying them to Pages.
 if manifest.get('full'):
     (author / 'downloads.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+elif (author / 'downloads.json').exists():
+    # EPUB-only builds retain PDF metadata while refreshing replaced EPUB files.
+    private_manifest = json.loads((author / 'downloads.json').read_text(encoding='utf-8'))
+    for key in ['ebooks', 'ebookCovers', 'epub', 'sampleEpub']:
+        if key in manifest:
+            private_manifest[key] = manifest[key]
+    private_manifest['samples'] = samples
+    (author / 'downloads.json').write_text(json.dumps(private_manifest,indent=2)+'\n',encoding='utf-8')
 allowed = {d['file'] for d in samples} | {'downloads.json'}
 for file in public.iterdir():
     assert file.resolve().parent == public.resolve()

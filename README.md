@@ -47,7 +47,7 @@ Font and blurb text are embedded as vectors. Standalone front and back cover PDF
 
 Upload `defenders-of-the-land-origins.epub` as the Kindle manuscript and `origins-ebook-cover.jpg` as the separate cover. The EPUB is reflowable, with all 18 chapters, the same illustrations in story order, selectable text, image descriptions, an EPUB navigation document and a legacy NCX table of contents. It has no print headers, page numbers, spine or barcode. JPEG artwork is packaged inside the book so it works offline. The original front is converted to JPEG without changing its proportions or adding detail.
 
-`scripts/export-epub.py` reads the same manuscript, chapter configuration and image manifest as the reader and PDFs. Every full build regenerates the full EPUB for KDP and a separate three-chapter EPUB for the public site, checking archived prose and resources in both. `npm run build:epub` regenerates the full EPUB, its cover, and the samples using the previously built PDF; run `npm run build:site` afterward to update download links and sizes. EPUBCheck validates the final archive in GitHub Actions. Review the uploaded ebook in KDP's Kindle preview before publishing.
+`scripts/export-epub.py` reads the same manuscript, chapter configuration and image manifest as the reader and PDFs. Every full build discovers all books with available chapters and generates a full EPUB for each, plus Book One’s three-chapter EPUB sample. Archived prose, illustration order and resources are validated for every export. `npm run build:epub` regenerates all full EPUBs, any assigned ebook covers, and Book One’s samples using the previously built Book One PDF; run `npm run build:site` afterward to update download links and sizes. EPUBCheck validates the final archive in GitHub Actions. Review the uploaded ebook in KDP's Kindle preview before publishing.
 
 ## GitHub Pages
 
@@ -61,7 +61,7 @@ Deployment checks all 18 public reading chapters and both sample downloads, veri
 
 ## Getting the complete KDP files
 
-Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves the Kindle EPUB, Kindle front JPEG, paperback interior, paperback wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The paperback purchase link is https://www.amazon.com/dp/B0HMWW1LWL and is configured in `content/site.json`. No Kindle purchase URL has been supplied.
+Full PDF/EPUB editions and print specifications are generated in `output/publishing/`, which is excluded from Git and GitHub Pages. Each successful workflow saves every full EPUB, assigned ebook cover JPEGs, `epub-builds.json`, and Book One’s paperback interior, wrap and specifications as a separate `kdp-publishing-files` GitHub Actions artifact (retained for 90 days). Sign in to GitHub, open the completed run under Actions, and download that artifact for KDP uploads. The paperback purchase link is https://www.amazon.com/dp/B0HMWW1LWL and is configured in `content/site.json`. No Kindle purchase URL has been supplied.
 
 
 ## Website SEO and paperback purchasing
@@ -75,3 +75,16 @@ Every build writes `sitemap.xml` with all published indexable pages and `robots.
 `node verify-seo.cjs` checks unique metadata, canonical and social URLs, valid JSON-LD, the Amazon link, sitemap coverage, robots.txt and the custom-domain file. It also runs in `npm test`. Reader checks cover the paperback page at 320, 390 and 1200 pixels. The hosted check reads the sitemap to cover all currently published chapters rather than a fixed Book Two chapter list.
 
 After deployment, verify `https://clevelandsuperheroes.com` as a domain property in Google Search Console and submit `https://clevelandsuperheroes.com/sitemap.xml`; use Bing Webmaster Tools for Bing. Verification and submission require the domain owner's accounts. Search engines control indexing, snippets and rankings. The site code contains no fabricated verification tokens. After a future domain change, update the site configuration and workflow override together, preserve redirects, and resubmit the sitemap.
+
+
+## EPUBs for future books
+
+Both `npm run build` and `npm run build:epub` use `scripts/export-all-epubs.cjs` to discover `content/books/*/book.json`. Book One retains its print-controlled chapter order. Other books use their metadata chapter list and include only chapters with `available: true`, in the same order as the online reader. A book with no available chapters is skipped. All available chapters remain freely readable online for every book.
+
+Full EPUBs are private publishing outputs: Book One keeps `output/publishing/defenders-of-the-land-origins.epub`; Book Two is `output/publishing/defenders-of-the-land-book-two.epub`; future files follow `defenders-of-the-land-<book-id>.epub`. `output/publishing/epub-builds.json` records chapter counts, cover presence, file sizes and checksums for the current books. Books marked `In progress` have a work-in-progress notice on the title page; their EPUB is the complete current available manuscript, not a finished-publication claim.
+
+Only Book One has downloadable samples: `origins-sample-chapters-01-03.pdf` and `origins-sample-chapters-01-03.epub`. Future full EPUBs are written directly outside `dist/`, and both the site build and sample publisher enforce the two-file sample list. No Book Two sample or full-book download link is added to the website.
+
+For a future book, add a numbered `book.json`, its ordered chapter files and artwork, using the existing Book Two format. Optional fields are `ebookCover` (an image name in `public/assets/` or `image-manifest.json`), `epubTitle`, `copyrightYear`, and a stable `epubIdentifier`. Without a cover image the EPUB starts with a title page; it does not reuse Book One’s cover. Book Two currently has no assigned ebook cover. Assign its approved cover and finish the manuscript before treating that draft as a KDP edition.
+
+Every full EPUB and Book One’s sample passes EPUBCheck in GitHub Actions. `npm test` verifies all current full-book previews, linked contents, image loading and small-screen layouts at large text sizes; previews are served over localhost rather than requiring browser access to `file://`. EPUB-only rebuilding refreshes private publishing metadata while retaining existing PDF metadata. Samples link to the configured website and the supplied Amazon paperback listing. Amazon editions still require a manual KDP upload.
