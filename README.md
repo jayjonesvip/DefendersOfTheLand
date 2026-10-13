@@ -85,6 +85,19 @@ Full EPUBs are private publishing outputs: Book One keeps `output/publishing/def
 
 Only Book One has downloadable samples: `origins-sample-chapters-01-03.pdf` and `origins-sample-chapters-01-03.epub`. Future full EPUBs are written directly outside `dist/`, and both the site build and sample publisher enforce the two-file sample list. No Book Two sample or full-book download link is added to the website.
 
-For a future book, add a numbered `book.json`, its ordered chapter files and artwork, using the existing Book Two format. Optional fields are `ebookCover` (an image name in `public/assets/` or `image-manifest.json`), `epubTitle`, `copyrightYear`, and a stable `epubIdentifier`. Without a cover image the EPUB starts with a title page; it does not reuse Book One’s cover. Book Two currently has no assigned ebook cover. Assign its approved cover and finish the manuscript before treating that draft as a KDP edition.
+For a future book, add a numbered `book.json`, its ordered chapter files and artwork, using the existing Book Two format. Optional fields are `ebookCover` (an image name in `public/assets/` or `image-manifest.json`), `epubTitle`, `copyrightYear`, and a stable `epubIdentifier`. Without a cover image the EPUB starts with a title page; it does not reuse Book One’s cover. Book Two uses the approved laboratory cover in `public/assets/book-two-cover-v1.png`. Assign its approved cover and finish the manuscript before treating that draft as a KDP edition.
 
 Every full EPUB and Book One’s sample passes EPUBCheck in GitHub Actions. `npm test` verifies all current full-book previews, linked contents, image loading and small-screen layouts at large text sizes; previews are served over localhost rather than requiring browser access to `file://`. EPUB-only rebuilding refreshes private publishing metadata while retaining existing PDF metadata. Samples link to the configured website and the supplied Amazon paperback listing. Amazon editions still require a manual KDP upload.
+
+
+## Book Two approved cover and paperback wrap
+
+The approved front is `public/assets/book-two-cover-v1.png`; an optimized WebP is used on the website. Book Two metadata assigns the original to both `cover` and `ebookCover`, so its full EPUB includes the official cover. The original PNG is retained for print and ebook export. Book Two’s contents, book-library card, home-page continuation section and social previews display this cover.
+
+`print/book-two-cover.json` holds the approved front, back-cover copy, back illustration, trim, paper and spine assumptions. Full EPUB builds regenerate `book-two-kdp-cover.pdf`, separate front/back PDFs, a PNG wrap preview and `book-two-print-specifications.json` in `output/publishing/`; these are included in `kdp-publishing-files`, not the public website.
+
+The current wrap is **provisional**: 6 × 9 inches, standard color on white paper, 0.125-inch exterior bleed, and an explicit 72-page assumption. Its spine is 0.162144 inches and the complete wrap is 12.412144 × 9.25 inches. Book Two is unfinished; this is not a final interior page count. No spine lettering is used at this width. A 2 × 1.2-inch blank barcode area is reserved on the back. Text is vector-based and the front remains uncropped within safe margins.
+
+Run `python scripts/build-paperback-cover.py --book book-two` to recreate the current wrap. Once the final interior is paginated, update `interiorPageCount` in its configuration and set `pageCountIsProvisional` to `false`. For a one-off final-count export, use `--pages ACTUAL_EVEN_COUNT --final`; update the configuration too so subsequent builds keep that count. The current standard-color configuration requires at least 72 pages.
+
+The approved source is 1024 × 1536 pixels, about 186 DPI at its 5.5 × 8.25-inch placement. The print copy is resampled to 1650 × 2475 pixels for 300-DPI placement; resampling preserves the approved composition but does not recover detail. Inspect KDP Print Previewer and order a physical proof before publication. The generated print copy is excluded from Git and rebuilt from the approved original.

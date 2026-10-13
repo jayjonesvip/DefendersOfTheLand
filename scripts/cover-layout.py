@@ -17,6 +17,11 @@ for name,file in [('CoverDisplay','Bangers-Regular.ttf'),('CoverSerif','LibreBas
 NAVY=HexColor('#08283F');GOLD=HexColor('#F3C34E');CREAM=HexColor('#F5E9CC')
 WIDTH=CONFIG['trimWidthInches']*72;HEIGHT=CONFIG['trimHeightInches']*72
 
+def configure(config):
+    global CONFIG,WIDTH,HEIGHT
+    assert (config['trimWidthInches'],config['trimHeightInches'])==(6,9),'Supported trim is 6 x 9 inches'
+    CONFIG=config;WIDTH=config['trimWidthInches']*72;HEIGHT=config['trimHeightInches']*72
+
 def artwork(c,file,x,y,w,h):
     image=ImageReader(str(ROOT/'public/assets'/file))
     iw,ih=image.getSize();scale=min(w/iw,h/ih);dw,dh=iw*scale,ih*scale
@@ -47,15 +52,15 @@ def back(c,x=0,y=0,*,illustrated=True,barcode=False):
 def page_bytes(*,illustrated=True):
     stream=io.BytesIO();c=canvas.Canvas(stream,pagesize=(WIDTH,HEIGHT),initialFontName='CoverSerif');c.setTitle('Defenders of the Land - Back cover');c.setAuthor('Jay Jones');back(c,illustrated=illustrated);c.showPage();c.save();return stream.getvalue()
 
-def export_covers(out,page_count):
+def export_covers(out,page_count,stem='origins'):
     out.mkdir(parents=True,exist_ok=True)
-    (out/'origins-back-cover.pdf').write_bytes(page_bytes())
-    c=canvas.Canvas(str(out/'origins-front-cover.pdf'),pagesize=(WIDTH,HEIGHT),initialFontName='CoverSerif');c.setTitle('Defenders of the Land - Front cover');c.setAuthor('Jay Jones');artwork(c,CONFIG['frontArtwork'],0,0,WIDTH,HEIGHT);c.showPage();c.save()
+    (out/f'{stem}-back-cover.pdf').write_bytes(page_bytes())
+    c=canvas.Canvas(str(out/f'{stem}-front-cover.pdf'),pagesize=(WIDTH,HEIGHT),initialFontName='CoverSerif');c.setTitle(CONFIG['series']+' - '+CONFIG['volume']+' - Front cover');c.setAuthor(CONFIG['author']);artwork(c,CONFIG['frontArtwork'],0,0,WIDTH,HEIGHT);c.showPage();c.save()
     assert CONFIG['printer']=='amazon-kdp'
     factors={'standard-color-white':.002252,'premium-color-white':.002347}
     spine=page_count*factors[CONFIG['paper']]*72
     assert spine>0
-    bleed=CONFIG['bleedInches']*72;wrap_width=WIDTH*2+spine+bleed*2;wrap_height=HEIGHT+bleed*2;name='origins-kdp-cover.pdf'
+    bleed=CONFIG['bleedInches']*72;wrap_width=WIDTH*2+spine+bleed*2;wrap_height=HEIGHT+bleed*2;name=f'{stem}-kdp-cover.pdf'
     c=canvas.Canvas(str(out/name),pagesize=(wrap_width,wrap_height),initialFontName='CoverSerif');c.setTitle('Defenders of the Land - Paperback cover');c.setAuthor('Jay Jones');c.setSubject(f"Amazon KDP, {CONFIG['paper']}, {page_count} interior pages")
     c.setFillColor(NAVY);c.rect(0,0,wrap_width,wrap_height,fill=1,stroke=0);c.translate(bleed,bleed)
     back(c,barcode=True)
@@ -65,8 +70,8 @@ def export_covers(out,page_count):
     if page_count>=80 and font_size>=7:
         c.setFont('CoverDisplay',font_size)
         # Bounds of the actual uppercase Bangers glyphs: [-24,766] / 1000 em.
-        c.saveState();c.translate(WIDTH+spine/2,HEIGHT-48);c.rotate(-90);baseline=-.371*font_size;c.drawString(0,baseline,CONFIG['series']+' | ORIGINS');c.drawString(HEIGHT-160,baseline,CONFIG['author']);c.restoreState()
+        c.saveState();c.translate(WIDTH+spine/2,HEIGHT-48);c.rotate(-90);baseline=-.371*font_size;c.drawString(0,baseline,CONFIG.get('spineTitle',CONFIG['series']+' | ORIGINS'));c.drawString(HEIGHT-160,baseline,CONFIG['author']);c.restoreState()
     c.setStrokeColor(GOLD);c.setLineWidth(.75)
     for yy in [26,HEIGHT-26]:c.line(WIDTH+3,yy,WIDTH+spine-3,yy)
     c.showPage();c.save()
-    return {'files':['origins-front-cover.pdf','origins-back-cover.pdf',name],'interiorPages':page_count,'paper':CONFIG['paper'],'trimInches':[WIDTH/72,HEIGHT/72],'spineInches':spine/72,'wrapInches':[wrap_width/72,wrap_height/72],'bleedInches':bleed/72,'frontArtwork':front}
+    return {'files':[f'{stem}-front-cover.pdf',f'{stem}-back-cover.pdf',name],'interiorPages':page_count,'paper':CONFIG['paper'],'trimInches':[WIDTH/72,HEIGHT/72],'spineInches':spine/72,'wrapInches':[wrap_width/72,wrap_height/72],'bleedInches':bleed/72,'frontArtwork':front}

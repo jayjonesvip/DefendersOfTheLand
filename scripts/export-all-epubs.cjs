@@ -12,6 +12,9 @@ for(const book of books){
  cp.execFileSync(python,['scripts/export-epub.py','--book',book.id],{cwd:root,stdio:'inherit'});
  const report=JSON.parse(fs.readFileSync(path.join(root,'tmp',book.id==='origins'?'epub':'epub-'+book.id,'quality-report.json'),'utf8'));
  reports.push(report);
+ if(fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
+  cp.execFileSync(python,['scripts/build-paperback-cover.py','--book',book.id],{cwd:root,stdio:'inherit'});
+ }
 }
 // Downloadable samples are a Book One feature, regardless of future book metadata.
 cp.execFileSync(python,['scripts/export-epub.py','--book','origins','--sample'],{cwd:root,stdio:'inherit'});

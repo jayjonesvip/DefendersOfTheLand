@@ -2,7 +2,7 @@ node_modules/
 dist/
 output/
 tmp/
-public/assets/origins-cover-print.png
+public/assets/*-cover-print.png
 __pycache__/
 .env
 .env.*

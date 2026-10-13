@@ -1,9 +1,12 @@
 """Resample the approved front for its physical print placement; add no new detail."""
-import json, pathlib
+import argparse,json, pathlib
 from PIL import Image
 
 root = pathlib.Path(__file__).resolve().parents[1]
-config = json.loads((root / 'print/cover.json').read_text(encoding='utf-8'))
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--config',default='print/cover.json')
+args=parser.parse_args()
+config = json.loads((root / args.config).read_text(encoding='utf-8'))
 if config.get('printFrontDpi'):
     source = root / 'public/assets' / config['frontArtwork']
     target = root / 'public/assets' / config['printFrontArtwork']

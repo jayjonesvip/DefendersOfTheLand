@@ -8,11 +8,10 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
  const artwork=site.coverImage||cover.frontArtwork;
  const imageFile=manifest[artwork]?.file||artwork;
  const imageUrl=pageUrl('assets/'+imageFile);
- const imageSize=manifest[artwork];
  const author={'@type':'Person','@id':siteUrl+'/#author',name:site.author};
  const website={'@type':'WebSite','@id':siteUrl+'/#website',url:pageUrl('index.html'),name:site.name,description:site.description,inLanguage:'en',creator:{'@id':author['@id']}};
  const bookName=b=>b.number===1?site.paperback.title:`${site.name}: Book ${b.number}`;
- const bookNode=b=>({'@type':'Book','@id':siteUrl+`/#${b.id}`,name:bookName(b),url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},inLanguage:'en',genre:['Superhero fiction','Science fiction','Action and adventure'],description:b.number===1?site.description:b.description,...(b.number===1?{image:imageUrl,workExample:{'@id':siteUrl+'/#paperback'}}:{})});
+ const bookNode=b=>({'@type':'Book','@id':siteUrl+`/#${b.id}`,name:bookName(b),url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},inLanguage:'en',genre:['Superhero fiction','Science fiction','Action and adventure'],description:b.number===1?site.description:b.description,...(b.number===1?{image:imageUrl,workExample:{'@id':siteUrl+'/#paperback'}}:b.cover?{image:pageUrl('assets/'+(manifest[b.cover]?.file||b.cover))}:{})});
  const paperback={'@type':'Book','@id':siteUrl+'/#paperback',name:site.paperback.title,url:site.paperback.url,author:{'@id':author['@id']},bookFormat:'https://schema.org/Paperback',inLanguage:'en',image:imageUrl,identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:site.paperback.asin},exampleOfWork:{'@id':siteUrl+`/#${book.id}`},potentialAction:{'@type':'BuyAction',target:site.paperback.url}};
  const descriptions={
   'index.html':site.description,
@@ -47,6 +46,11 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
  function render(file,html){
   if(!titles[file]||!descriptions[file])throw Error('Missing SEO metadata for '+file);
   const canonical=pageUrl(file),chapter=chapterPages.get(file);
+  const activeBook=chapter?.book||additionalBooks.find(b=>file===b.id+'.html')||book;
+  const previewArtwork=activeBook.number===1?artwork:(activeBook.cover||artwork);
+  const previewImage=pageUrl('assets/'+(manifest[previewArtwork]?.file||previewArtwork));
+  const previewSize=manifest[previewArtwork];
+  const previewAlt=bookName(activeBook)+' cover';
   const page={'@type':file==='books.html'||file.endsWith('.html')&&['origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:titles[file],description:descriptions[file],inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
   if(chapter){
@@ -76,14 +80,14 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
    `<meta property="og:title" content="${escape(titles[file])}">`,
    `<meta property="og:description" content="${escape(descriptions[file])}">`,
    `<meta property="og:url" content="${escape(canonical)}">`,
-   `<meta property="og:image" content="${escape(imageUrl)}">`,
-   ...(imageSize?[`<meta property="og:image:width" content="${imageSize.width}">`,`<meta property="og:image:height" content="${imageSize.height}">`]:[]),
-   `<meta property="og:image:alt" content="${escape(site.paperback.title+' cover')}">`,
+   `<meta property="og:image" content="${escape(previewImage)}">`,
+   ...(previewSize?[`<meta property="og:image:width" content="${previewSize.width}">`,`<meta property="og:image:height" content="${previewSize.height}">`]:[]),
+   `<meta property="og:image:alt" content="${escape(previewAlt)}">`,
    `<meta name="twitter:card" content="summary_large_image">`,
    `<meta name="twitter:title" content="${escape(titles[file])}">`,
    `<meta name="twitter:description" content="${escape(descriptions[file])}">`,
-   `<meta name="twitter:image" content="${escape(imageUrl)}">`,
-   `<meta name="twitter:image:alt" content="${escape(site.paperback.title+' cover')}">`,
+   `<meta name="twitter:image" content="${escape(previewImage)}">`,
+   `<meta name="twitter:image:alt" content="${escape(previewAlt)}">`,
    `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`
   ].join('');
   return html.replace(/<title>.*?<\/title>/,`<title>${escape(titles[file])}</title>`).replace(/<meta name="description"[^>]*>/,'').replace('</head>',tags+'</head>');

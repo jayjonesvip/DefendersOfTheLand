@@ -53,8 +53,12 @@ jobs:
             output/publishing/*-ebook-cover.jpg
             output/publishing/epub-builds.json
             output/publishing/origins-kdp-interior.pdf
-            output/publishing/origins-kdp-cover.pdf
             output/publishing/print-specifications.json
+            output/publishing/*-kdp-cover.pdf
+            output/publishing/*-front-cover.pdf
+            output/publishing/*-back-cover.pdf
+            output/publishing/*-print-specifications.json
+            output/publishing/*-kdp-cover-preview.png
           retention-days: 90
       - uses: actions/upload-pages-artifact@v4
         with:

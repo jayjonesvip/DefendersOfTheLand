@@ -29,5 +29,15 @@ for(const report of epubBuilds){
   assert.equal(report.chapters,metadata.chapters.filter(file=>JSON.parse(fs.readFileSync(path.join(__dirname,'content/books',report.bookId,file))).available).length);
  }
 }
+for(const report of epubBuilds.filter(b=>fs.existsSync(path.join(__dirname,'print',b.bookId+'-cover.json')))){
+ const config=JSON.parse(fs.readFileSync(path.join(__dirname,'print',report.bookId+'-cover.json')));
+ const spec=JSON.parse(fs.readFileSync(path.join(publishing,report.bookId+'-print-specifications.json')));
+ assert.equal(spec.interiorPages,config.interiorPageCount);assert.equal(spec.provisional,config.pageCountIsProvisional);
+ assert(Math.abs(spec.spineInches-spec.interiorPages*.002252)<1e-9);assert(spec.printFrontEffectiveDpi>=300);assert.deepEqual(spec.barcodeBoxInches,[2,1.2]);
+ const bytes=fs.readFileSync(path.join(publishing,report.bookId+'-kdp-cover.pdf'));
+ assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),spec.sha256);
+ for(const file of spec.files)assert(!fs.existsSync(path.join(out,'books',file)),`Publishing cover exposed on website: ${file}`);
+ assert(report.coverIncluded,'Configured cover must be in the EPUB');
+}
 for(const pdf of [...downloads.full,...downloads.chapters,...downloads.covers,...downloads.print]){const bytes=fs.readFileSync(path.join(publishing,pdf.file));assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.equal(bytes.length,pdf.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pdf.sha256);assert(pdf.pages>0);}
 require('./verify-reader.cjs').check().then(()=>require('./verify-book-two.cjs').check()).then(()=>require('./verify-epub.cjs').check()).then(()=>console.log(`PASS: ${links} links/assets, two public samples and separate publishing files with matching checksums; full web reader, EPUB chapters, navigation and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});

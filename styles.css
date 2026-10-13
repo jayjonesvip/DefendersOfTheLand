@@ -21,3 +21,7 @@
 /* Paperback purchase page retains readable prose and an uncropped cover. */
 .paperback-layout{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:32px;align-items:start}.paperback-layout figure{margin:0}.paperback-layout img{display:block;width:100%;height:auto}.paperback-page p{line-height:1.7}.paperback-page h1{overflow-wrap:break-word}.paperback-page h2{margin-top:32px}footer a{text-decoration:underline}
 @media(max-width:600px){.paperback-layout{grid-template-columns:1fr}.paperback-layout figure{max-width:190px;margin:0 auto}.paperback-page h1{font-size:42px}}
+
+/* Approved series covers remain uncropped on book cards and contents. */
+.book-card{display:flow-root}.book-card figure{float:left;width:140px;margin:0 24px 16px 0}.book-card figure img,.next-book-cover img,.book-contents-cover img{display:block;width:100%;height:auto}.next-book{display:flow-root}.next-book-cover{float:right;width:170px;margin:0 0 20px 24px}.book-contents-cover{width:190px;margin:24px auto}
+@media(max-width:600px){.book-card figure{float:none;margin:0 auto 20px}.next-book-cover{float:none;width:160px;margin:20px auto}}

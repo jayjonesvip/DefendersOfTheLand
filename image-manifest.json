@@ -603,5 +603,10 @@
     "file": "origins-cover-web-v1.webp",
     "width": 1024,
     "height": 1536
+  },
+  "book-two-cover-v1.png": {
+    "file": "book-two-cover-web-v1.webp",
+    "width": 1024,
+    "height": 1536
   }
 }

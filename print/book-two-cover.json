@@ -1,0 +1,27 @@
+{
+  "book": "book-two",
+  "frontArtwork": "book-two-cover-v1.png",
+  "printFrontArtwork": "book-two-cover-print.png",
+  "printFrontDpi": 300,
+  "backArtwork": "book-two-chapter-11-skyfall-plan-v1.webp",
+  "series": "DEFENDERS OF THE LAND",
+  "volume": "BOOK TWO",
+  "spineTitle": "DEFENDERS OF THE LAND | BOOK TWO",
+  "author": "JAY JONES",
+  "hook": "Free power for Cleveland.\nA terrible price for its heroes.",
+  "blurb": [
+    "Cleveland has defenders now. That doesn’t mean they have everything figured out.",
+    "While Seth learns to control his strength and Jenny balances reporting with being a hero, Eleanor Blackwell promises the city free electricity. Her mysterious power source leads back to Dr. Daniel Orkleson—and an experiment he calls Skyfall.",
+    "Daniel sees power where others see people. His nephew Luke still believes the next experiment will give him his body back. To protect their friends and their city, the Defenders must discover what Daniel intends to take—and stop him before he throws the switch."
+  ],
+  "tagline": "An illustrated Cleveland superhero adventure",
+  "readerUrl": "https://clevelandsuperheroes.com/",
+  "trimWidthInches": 6,
+  "trimHeightInches": 9,
+  "copyrightYear": 2026,
+  "printer": "amazon-kdp",
+  "paper": "standard-color-white",
+  "bleedInches": 0.125,
+  "interiorPageCount": 72,
+  "pageCountIsProvisional": true
+}

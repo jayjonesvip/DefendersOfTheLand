@@ -78,7 +78,7 @@ def jpeg(source, quality=85):
 
 cover_file = None
 if cover_art:
-    asset = images.get(cover_art, {}).get('file', cover_art)
+    asset = cover_art if (root / 'public/assets' / cover_art).exists() else images.get(cover_art, {}).get('file', cover_art)
     cover_bytes = jpeg(root / 'public/assets' / asset, quality=94)
     cover_file = 'origins-ebook-cover.jpg' if is_origins else f'{book["id"]}-ebook-cover.jpg'
     (out / cover_file).write_bytes(cover_bytes)
