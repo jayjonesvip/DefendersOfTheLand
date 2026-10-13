@@ -1,0 +1,178 @@
+{
+  "number": 9,
+  "title": "Cash Only",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "The following evening, Eleanor knocked at Daniel’s laboratory. Its shutters were still down. Inside, something clattered, followed by a hurried scrape of feet."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel opened the door a few inches. His enormous glasses slipped down his nose. “Eleanor?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Are you going to leave me in the alley?”"
+    },
+    {
+      "type": "prose",
+      "text": "He pulled the door open. She stepped over a cable and stopped. Old cups crowded the workbench. A gray film covered the windows. Something beneath her shoe made a sticky sound."
+    },
+    {
+      "type": "prose",
+      "text": "“This place is filthy.”"
+    },
+    {
+      "type": "scene",
+      "text": "Daniel snatched a rag from the bench and rubbed at a dark patch beside the nearest cup. The patch spread. He turned the rag over and tried again.",
+      "art": "book-two-chapter-09-arrival-v1.webp",
+      "alt": "Eleanor recoils at the filthy laboratory while a startled Daniel hurriedly wipes a grimy workbench with a rag."
+    },
+    {
+      "type": "prose",
+      "text": "“If you’d telephoned, I could have—”"
+    },
+    {
+      "type": "prose",
+      "text": "“I have telephoned. I wanted to see whether you were doing any work.” She looked at the stool he hastily cleared for her. “I’ll stand.”"
+    },
+    {
+      "type": "prose",
+      "text": "A metallic click came from behind a tall cabinet."
+    },
+    {
+      "type": "prose",
+      "text": "Luke drifted into the light. His blond spikes nearly brushed the hanging lamp. Beneath his face, the iron jaws opened slightly."
+    },
+    {
+      "type": "prose",
+      "text": "“Uncle Daniel? Who’s—”"
+    },
+    {
+      "type": "scene",
+      "text": "Eleanor stepped back so sharply that her handbag struck the doorframe. One hand rose toward her pearls. She stared at the empty air beneath Luke’s jaw.",
+      "art": "book-two-chapter-09-luke-v1.webp",
+      "alt": "Eleanor recoils in horror at Luke’s floating blond head and iron jaws while Daniel tries to explain his nephew’s condition."
+    },
+    {
+      "type": "prose",
+      "text": "“What on earth have you done?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel dropped the rag. “My nephew. There was an injury, and the treatment—”"
+    },
+    {
+      "type": "prose",
+      "text": "“No.” She held up her hand. “Don’t tell me.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke stopped moving. “He was supposed to fix it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor turned away from him. “Daniel. We need to talk.”"
+    },
+    {
+      "type": "prose",
+      "text": "“He can stay,” Daniel said. “He won’t interrupt.” Luke looked at his uncle, then hovered beside the cabinet."
+    },
+    {
+      "type": "prose",
+      "text": "“Billy is snooping around,” Eleanor said. “He found your landlord. He took an invoice to that reporter.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel’s hand closed around the rag. “I told you he was helping those Defenders.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And I told him to stop. That won’t keep him out of your affairs for long.” She lowered her voice. “You need to fast-track Project Skyfall.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke moved a little closer. “What’s Project Skyfall?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel glanced at him. “Stay over there.”"
+    },
+    {
+      "type": "prose",
+      "text": "“How much longer?” Eleanor asked."
+    },
+    {
+      "type": "prose",
+      "text": "“I’ve had interruptions. The robot—”"
+    },
+    {
+      "type": "prose",
+      "text": "“Is lying in pieces. I’m asking about Skyfall.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel pushed the old cups farther down the bench. “I need money.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor opened her handbag. She took out a folded stack of bills and held it beyond the greasy edge of the counter."
+    },
+    {
+      "type": "prose",
+      "text": "“The rent. Put it in the landlord’s hand.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel reached for the money. She kept hold of it until he looked up."
+    },
+    {
+      "type": "prose",
+      "text": "“From now on, no paper trails between us. No checks. No invoices sent to my house. We’ll do everything with cash.”"
+    },
+    {
+      "type": "scene",
+      "text": "He nodded. She released the bills.",
+      "art": "book-two-chapter-09-cash-v1.webp",
+      "alt": "Eleanor hands Daniel a stack of cash in his cluttered laboratory while Luke, a floating blond head with iron jaws, watches from beside a cabinet."
+    },
+    {
+      "type": "prose",
+      "text": "“The landlord will still keep his accounts,” Daniel said."
+    },
+    {
+      "type": "prose",
+      "text": "“Then let them show you paid him. Keep my name out of it.” She closed her handbag. “And get back to work.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke watched Daniel fold the money into his coat pocket. “Does Skyfall have anything to do with getting my body back?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel picked up the rag again. “Not now, Luke.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor stepped around the cable on her way out. At the door, her eyes passed over Luke’s floating face. She looked away before he could ask her anything."
+    },
+    {
+      "type": "prose",
+      "text": "“Clean this place,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel shut the door behind her. Luke waited beside the cabinet while his uncle counted the bills."
+    },
+    {
+      "type": "prose",
+      "text": "“What is it?” Luke asked once more."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel lost his place in the count and began again. Luke stayed where he was. Nobody had answered him."
+    }
+  ]
+}
