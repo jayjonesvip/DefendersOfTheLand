@@ -6,7 +6,11 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "The following evening, Eleanor knocked at Daniel’s laboratory. Its shutters were still down. Inside, something clattered, followed by a hurried scrape of feet."
+      "text": "The following evening, Eleanor went around the shuttered laboratory building and down the steps into its sunken service yard. She knocked at the basement’s ordinary service door. Inside, something clattered, followed by a hurried scrape of feet."
+    },
+    {
+      "type": "prose",
+      "text": "The workshop above them, where Daniel had built the robot, stood empty. He had secretly returned through the sewers after the police search. Luke’s iron jaws had chewed through a disused drain and the brickwork beyond it, opening a narrow route into a workshop concealed behind the basement’s storage shelves. The opening came out above the sewer water; the workshop floor stayed dry."
     },
     {
       "type": "prose",
@@ -14,11 +18,11 @@
     },
     {
       "type": "prose",
-      "text": "“Are you going to leave me in the alley?”"
+      "text": "“Are you going to leave me down here?”"
     },
     {
       "type": "prose",
-      "text": "He pulled the door open. She stepped over a cable and stopped. Old cups crowded the workbench. A gray film covered the windows. Something beneath her shoe made a sticky sound."
+      "text": "He pulled the door open. She stepped over a cable and stopped. Old cups crowded the workbench. A gray film covered the small window high in the wall facing the yard. Something beneath her shoe made a sticky sound."
     },
     {
       "type": "prose",
@@ -27,7 +31,7 @@
     {
       "type": "scene",
       "text": "Daniel snatched a rag from the bench and rubbed at a dark patch beside the nearest cup. The patch spread. He turned the rag over and tried again.",
-      "art": "book-two-chapter-09-arrival-v1.webp",
+      "art": "book-two-chapter-09-arrival-v2.webp",
       "alt": "Eleanor recoils at the filthy laboratory while a startled Daniel hurriedly wipes a grimy workbench with a rag."
     },
     {
@@ -53,7 +57,7 @@
     {
       "type": "scene",
       "text": "Eleanor stepped back so sharply that her handbag struck the doorframe. One hand rose toward her pearls. She stared at the empty air beneath Luke’s jaw.",
-      "art": "book-two-chapter-09-luke-v1.webp",
+      "art": "book-two-chapter-09-luke-v2.webp",
       "alt": "Eleanor recoils in horror at Luke’s floating blond head and iron jaws while Daniel tries to explain his nephew’s condition."
     },
     {
@@ -135,12 +139,12 @@
     {
       "type": "scene",
       "text": "He nodded. She released the bills.",
-      "art": "book-two-chapter-09-cash-v1.webp",
+      "art": "book-two-chapter-09-cash-v2.webp",
       "alt": "Eleanor hands Daniel a stack of cash in his cluttered laboratory while Luke, a floating blond head with iron jaws, watches from beside a cabinet."
     },
     {
       "type": "prose",
-      "text": "“The landlord will still keep his accounts,” Daniel said."
+      "text": "“The landlord will still keep his accounts,” Daniel said. “And if I stop paying, he’ll take the keys. I need the upstairs kept shut.”"
     },
     {
       "type": "prose",

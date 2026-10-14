@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "Daniel had cleaned a path from the door to the workbench. Everything that had been on the floor now leaned against something else."
+      "text": "Jenny went around Daniel’s shuttered building and down the steps into the sunken service yard. The upstairs laboratory looked as empty as it had after the police search. Below it, the service door stood open. Daniel had cleaned a path from that door to the workbench. Everything that had been on the floor now leaned against something else."
     },
     {
       "type": "prose",
@@ -119,7 +119,7 @@
     {
       "type": "scene",
       "text": "“So you’re showing me that stored electricity can light four bulbs.”",
-      "art": "book-two-chapter-16-demonstration-v1.webp",
+      "art": "book-two-chapter-16-demonstration-v2.webp",
       "alt": "Civilian reporter Jenny looks unimpressed as Daniel proudly demonstrates four ordinary lightbulbs on his laboratory bench."
     },
     {
@@ -184,11 +184,11 @@
     },
     {
       "type": "prose",
-      "text": "Daniel moved toward the workshop. “This way.”"
+      "text": "Daniel rolled a tall shelf away from the wall and opened the workshop door behind it. “This way.”"
     },
     {
       "type": "prose",
-      "text": "The rear room smelled of oil and old dust. A large empty cylinder stood behind a partition, its cables running toward a switchboard. Beside it, two tall shapes were covered with sheets."
+      "text": "The workshop behind the basement’s storage shelves smelled of oil and old dust. A small window high in the outer wall looked into the sunken yard. A large empty cylinder stood behind a partition, its cables running toward a switchboard. Beside it, two tall shapes were covered with sheets."
     },
     {
       "type": "prose",
@@ -232,7 +232,7 @@
     },
     {
       "type": "prose",
-      "text": "A heavy latch snapped shut inside the outer door. Jenny reached it and pulled the handle. It did not turn."
+      "text": "A heavy latch snapped shut inside the service door. Jenny reached it and pulled the handle. It did not turn."
     },
     {
       "type": "prose",
@@ -253,7 +253,7 @@
     {
       "type": "scene",
       "text": "She pulled her sleeve over her mouth. She had to get out, even if they saw how fast she could move. She turned toward the control booth, looking for another way through.",
-      "art": "book-two-chapter-16-gas-v1.webp",
+      "art": "book-two-chapter-16-gas-v2.webp",
       "alt": "Jenny covers her mouth with her blouse sleeve and reaches for the locked laboratory door as gas escapes from wall vents; Daniel and a worried Luke watch from behind glass."
     },
     {
@@ -291,7 +291,7 @@
     {
       "type": "scene",
       "text": "Daniel stood at the switchboard with her notebook. Luke hovered above his shoulder. Behind them, the second station was empty.",
-      "art": "book-two-chapter-16-restrained-v1.webp",
+      "art": "book-two-chapter-16-restrained-v2.webp",
       "alt": "Jenny, still dressed in her civilian white blouse and pink skirt, sits restrained at the wrists and ankles in an angled metal station while Daniel holds her notebook and Luke watches uneasily. The adjacent station is empty."
     },
     {
