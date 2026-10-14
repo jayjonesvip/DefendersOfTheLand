@@ -14,7 +14,7 @@ Base: `2458228` on `main`. This review is limited to Book Two and its editorial 
 | 15 — A Few Questions | Invitation specifies the basement/service-yard route; Jenny and Billy recognize the building and knowingly pursue Daniel. The one-hour check-in stays intact. |
 | 16 — The Demonstration | Show Jenny taking the service-yard steps and Daniel opening the shelf-concealed workshop. The service door locks; the glass booth protects Daniel and Luke. |
 | 17 — The Open Door | Connect the basement window, yard, roofs, service threshold and inner doorway. Show Jenny reacting to the second gas dose, both humans passing out, ventilation before Luke enters, and Jenny waking before Seth. Show deliberate effort interrupted by fear/gas without a freed cuff. |
-| 18 — Not Yet | Keep both humans recovering and fully cuffed. Seed the sincere limo offer, Eleanor’s campaign-office delay and Billy’s restrained accusations/urgency. Preserve the final turn onto the laboratory’s street. |
+| 18 — Not Yet | Keep both humans recovering and fully cuffed, with Jenny explicitly acknowledging both gas exposures. Ground the room in the high yard-facing window and shut service door, and Seth’s memory in the top-of-steps rendezvous. Seed the sincere limo offer, Eleanor’s explicit request for the campaign-office stop and Billy’s restrained accusations/urgency. Preserve the final turn onto the laboratory’s street. |
 
 Chapters 8, 10 and 13 were reviewed and did not need manuscript changes. Chapters 1–6 and the book’s publication list are unchanged.
 
@@ -51,7 +51,7 @@ Fifteen current lab illustrations require replacement for the basement geography
 
 ## Validation
 
-- `npm run build` passed, using the repository’s pinned Python requirements in an isolated environment. It built the 47-page web site, validated 24 publishing PDFs, and exported/validated both full EPUBs and the Book One sample. Book Two’s export contains 18 chapters, 828 manuscript passages and 41 interior illustrations.
+- `npm run build` passed on the basement revision, using the repository’s pinned Python requirements in an isolated environment. It built the 47-page web site, validated 24 publishing PDFs, and exported/validated both full EPUBs and the Book One sample. After the focused Chapter 18 pass, `npm run build:epub` and `npm run build:site` also passed; the final Book Two export contains 18 chapters, 829 manuscript passages and 41 interior illustrations. Book One PDF sources were unchanged by that final pass.
 - `npm test` passed: 886 local links/assets, unique SEO metadata, checksums and publishing/download separation, the Vault and navigation interactions, both web readers, per-book progress and 320/390/1200px layouts, and EPUB images/contents/large-text layouts.
 - JSON validation parsed 80 files under `content/`, `print/` and `docs/`. All eighteen Book Two chapters retain their number, title, availability, ending field, exact final block and original illustration/alt-text order.
 - A comparison with base `2458228` found no changes to `content/books/origins/`, `print/`, the Chapter 2 strength rule, Chapter 13’s promise, `content/books/book-two/book.json` or public artwork. No `chapter-19.json` exists in the published manuscript directory.
