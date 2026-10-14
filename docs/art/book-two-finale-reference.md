@@ -2,7 +2,7 @@
 
 Jay Jones approved this cover and asked that its art be used as the reference for the final chapters of Book Two.
 
-Canonical artwork: [book-two-cover-v2.png](../../public/assets/book-two-cover-v2.png). Use this original PNG as an image-generation reference; preserve it. The optimized website copy is `public/assets/book-two-cover-web-v2.webp`. The cover is assigned in `content/books/book-two/book.json` and `print/book-two-cover.json`.
+Canonical artwork: [book-two-cover-v3.png](../../public/assets/book-two-cover-v3.png). Use this original PNG as an image-generation reference; preserve it. The optimized website copy is `public/assets/book-two-cover-web-v3.webp`. The cover is assigned in `content/books/book-two/book.json` and `print/book-two-cover.json`.
 
 ## Character continuity
 
@@ -28,3 +28,5 @@ For each finale illustration, inspect and supply the original cover alongside an
 The finale remains in development: Jenny is trapped to lure Seth, Seth is gassed and restrained, Daniel seeks Flaming Head's energy for Skyfall, Luke hopes to regain a body, and the final chapter contains the rescue. Keep the art aligned with the final authored version of those events.
 
 The original v1 cover is preserved for history. The v2 cover changes Jenny to civilian clothes to match Chapter 16 and the planned continuing captivity. Do not change her into costume during captivity without an explicit authored event.
+
+The v3 cover adds visibly scuffed Fist-O-Mite, a floating red boxing glove with expressive eyes and a torn empty white cuff, inside a reinforced round-topped steel bird cage. No arm or body is attached. Chapter 17 establishes his injury and capture; match those details in later rescue art. Preserve the v1 and v2 cover originals. The collector is still empty at Chapter 17’s ending.

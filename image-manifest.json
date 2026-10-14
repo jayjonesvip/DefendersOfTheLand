@@ -648,5 +648,40 @@
     "file": "book-two-chapter-16-gas-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-two-chapter-17-ambush-v1.webp": {
+    "file": "book-two-chapter-17-ambush-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-chapter-17-captives-v1.webp": {
+    "file": "book-two-chapter-17-captives-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-cover-v3.png": {
+    "file": "book-two-cover-web-v3.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-two-chapter-17-gas-v1.webp": {
+    "file": "book-two-chapter-17-gas-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-chapter-17-door-v1.webp": {
+    "file": "book-two-chapter-17-door-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-chapter-17-injured-v1.webp": {
+    "file": "book-two-chapter-17-injured-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-two-chapter-17-watch-v1.webp": {
+    "file": "book-two-chapter-17-watch-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
