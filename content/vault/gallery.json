@@ -1,0 +1,209 @@
+[
+  {
+    "id": "p8_inspectorbilly_jungleheat",
+    "label": "08",
+    "title": "Inspector Billy in: Jungle Heat",
+    "caption": "Disappearing trees, rising temperatures—and a detective who orders a soda machine and a pizzeria.",
+    "alt": "Original notebook comic page 8: Inspector Billy introduces Jungle Heat, investigates disappearing trees and orders refreshments.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p8_inspectorbilly_jungleheat_cleaned.png",
+    "sha256": "8113eb7f6c6c7df9f6fdab82b394082b5e02a8018af7267090669c255cfd75b5",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p8_inspectorbilly_jungleheat-432.webp",
+        "bytes": 64714
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p8_inspectorbilly_jungleheat-864.webp",
+        "bytes": 221932
+      }
+    ]
+  },
+  {
+    "id": "p9",
+    "label": "09",
+    "title": "The trail leads to the lumberyard",
+    "caption": "Billy follows disappearing trees and struggling businesses to a lumber operation.",
+    "alt": "Original notebook comic page 9: disappearing trees, shopfronts and Inspector Billy investigating a lumberyard.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p9_cleaned.png",
+    "sha256": "c6d3732568fffadd3d724dfe8101e3fb479ea2f970ea8425acd91e3dc516317c",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p9-432.webp",
+        "bytes": 48254
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p9-864.webp",
+        "bytes": 177370
+      }
+    ]
+  },
+  {
+    "id": "p10_world_out_of_air",
+    "label": "10",
+    "title": "The world is running out of air",
+    "caption": "A villain’s boast, a suspicious clue, and a showdown with Inspector Billy.",
+    "alt": "Original notebook comic page 10: a villain boasts that the world is running out of air as Inspector Billy confronts him.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p10_world_out_of_air_cleaned.png",
+    "sha256": "5f9d702c1c5947d041f233e5c7e88472111b80f70bca597b5eea45376713aabb",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p10_world_out_of_air-432.webp",
+        "bytes": 61038
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p10_world_out_of_air-864.webp",
+        "bytes": 200506
+      }
+    ]
+  },
+  {
+    "id": "p11_explosion",
+    "label": "11",
+    "title": "An explosive conclusion",
+    "caption": "One enormous burst above the city. “My work here is done.”",
+    "alt": "Original notebook comic page 11: a large pencil-and-colored-pencil explosion above a city skyline and Inspector Billy’s closing remark.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p11_explosion_cleaned.png",
+    "sha256": "a48362cdd614bd06842f6b32bcedf9591d2429027c6390e3e28942005c0447c3",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p11_explosion-432.webp",
+        "bytes": 42484
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p11_explosion-864.webp",
+        "bytes": 139910
+      }
+    ]
+  },
+  {
+    "id": "p12_fistomite_intro",
+    "label": "12",
+    "title": "Enter Fist-O-Mite",
+    "caption": "“Catch me if you can, wimp!” A flying glove, a Pacific island, and a very suspicious welcome.",
+    "alt": "Original notebook comic page 12: Fist-O-Mite’s red flying boxing glove introduction, an island in the Pacific and an ultraviolet security trap.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p12_fistomite_intro_cleaned.png",
+    "sha256": "1e63950c251c200974dccb3e2379588cab42177c70a2cdab1bce1458df00af93",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p12_fistomite_intro-432.webp",
+        "bytes": 58492
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p12_fistomite_intro-864.webp",
+        "bytes": 203596
+      }
+    ]
+  },
+  {
+    "id": "p13_captured_superzerdo_fistomite",
+    "label": "13",
+    "title": "Two heroes, one trap",
+    "caption": "Super Zerdo and Fist-O-Mite are captured—and start looking for a way out.",
+    "alt": "Original notebook comic page 13: Doc Dork announces the capture of Super Zerdo and Fist-O-Mite, who are chained against a wall.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p13_captured_superzerdo_fistomite_cleaned.png",
+    "sha256": "21d2146d3519f31caeadd56b4471010583c4f5657db1333b62fc893237585f93",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p13_captured_superzerdo_fistomite-432.webp",
+        "bytes": 62546
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p13_captured_superzerdo_fistomite-864.webp",
+        "bytes": 225670
+      }
+    ]
+  },
+  {
+    "id": "p14_alien_mountain",
+    "label": "14",
+    "title": "Trouble in the mountains",
+    "caption": "Strange mountain shapes, a shot that misses, and Fist-O-Mite in action.",
+    "alt": "Original notebook comic page 14: an unusual mountain landscape, a shot missing its target and Fist-O-Mite attacking a figure.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p14_alien_mountain_cleaned.png",
+    "sha256": "180e6935b76694e90d9909cf67a2c80f4be22ca80443d2ea29f9278e49664abc",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p14_alien_mountain-432.webp",
+        "bytes": 47440
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p14_alien_mountain-864.webp",
+        "bytes": 178226
+      }
+    ]
+  },
+  {
+    "id": "p15",
+    "label": "15",
+    "title": "Afterwards…",
+    "caption": "The action gives way to the sort of conversation only these characters could have.",
+    "alt": "Original notebook comic page 15: Super Zerdo and Fist-O-Mite exchange handwritten dialogue in the mountains, followed by an Afterwards panel.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_p15_cleaned.png",
+    "sha256": "6ecc87c07208dd0d5e32ad5f19ff759f7546393a4acebd1d38e15b6bbd73b3a4",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/p15-432.webp",
+        "bytes": 55950
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/p15-864.webp",
+        "bytes": 209636
+      }
+    ]
+  },
+  {
+    "id": "end_dude",
+    "label": "END",
+    "title": "The End, Dude.",
+    "caption": "A friendship, a farewell, and a closing line worth keeping exactly as it was.",
+    "alt": "Original notebook comic closing page: narration about the bond between two friends, signatures and dates, and large handwritten words The End Dude.",
+    "width": 1086,
+    "height": 1448,
+    "original": "vault/1990/originals/1990Vault_end_dude_cleaned.png",
+    "sha256": "2afc19894006e20b007e80e8f50bec22a2bca73519dee89f95e868c29830977c",
+    "previews": [
+      {
+        "width": 432,
+        "file": "vault/1990/previews/end_dude-432.webp",
+        "bytes": 48604
+      },
+      {
+        "width": 864,
+        "file": "vault/1990/previews/end_dude-864.webp",
+        "bytes": 156416
+      }
+    ]
+  }
+]

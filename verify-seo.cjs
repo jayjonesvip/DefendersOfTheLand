@@ -20,6 +20,14 @@ function check(){
   assert(fs.existsSync(path.join(dist,relative)),`${file}: missing social image`);
   const blocks=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)];assert.equal(blocks.length,1,file);
   const graph=JSON.parse(blocks[0][1])['@graph'];assert(graph.some(n=>n['@type']==='WebSite'),file);
+  if(file==='1990-vault.html'){
+   assert.equal(meta(html,'og:type'),'article');
+   assert(meta(html,'og:image').includes('/vault/1990/previews/'),'Vault sharing image must use the archival artwork');
+   assert.equal(graph.find(n=>n['@type']==='ImageGallery').associatedMedia.length,9);
+   assert.equal(graph.find(n=>n['@type']==='Article').author.name,'Jason Jones');
+   assert.equal(graph.find(n=>n['@type']==='BreadcrumbList').itemListElement[1].item,base+'/author.html');
+  }
+  if(file==='author.html')assert.equal(graph.find(n=>n['@type']==='ProfilePage').mainEntity['@id'],base+'/#author');
   if(file==='404.html')assert(meta(html,'robots').includes('noindex'),file);
   else{assert(!meta(html,'robots').includes('noindex'),file);expected.push(canonical);assert(graph.some(n=>n['@type']==='BreadcrumbList'),file);}
   if(file==='paperback.html'){

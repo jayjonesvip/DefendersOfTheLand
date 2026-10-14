@@ -1,0 +1,2 @@
+# Preserve the supplied retrospective exactly, including its original line endings.
+content/vault/1990Vault.md -text

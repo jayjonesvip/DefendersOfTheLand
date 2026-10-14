@@ -1,4 +1,5 @@
 const fs=require('node:fs'),path=require('node:path');
+const crypto=require('node:crypto');
 const root=__dirname,out=path.join(root,'dist');fs.mkdirSync(out,{recursive:true});
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -20,16 +21,20 @@ const publicBooks=new Set(['downloads.json',...downloads.samples.map(d=>d.file)]
 if(downloads.samples.length!==2||!publicBooks.has('origins-sample-chapters-01-03.pdf')||!publicBooks.has('origins-sample-chapters-01-03.epub'))throw Error('Only Book One PDF/EPUB samples may be published');
 if(fs.readdirSync(path.join(out,'books')).some(f=>!publicBooks.has(f)))throw Error('Public books directory contains non-sample files');
 const cover=read('print/cover.json');
-const seo=createSeo({site:siteConfig,book,chapters,additionalBooks,cover,manifest,escape:esc});
+const archiveItems=read('content/vault/gallery.json');
+const seo=createSeo({site:siteConfig,book,chapters,additionalBooks,cover,manifest,archiveItems,escape:esc});
 const kindle=(label='Buy Kindle ebook',cls='button secondary')=>link(siteConfig.ebook.url,label,cls);
 const buy=(label='Buy paperback on Amazon',cls='button')=>link(siteConfig.paperback.url,label,cls);
 const size=bytes=>bytes>1048576?`${(bytes/1048576).toFixed(1)} MB`:`${Math.ceil(bytes/1024)} KB`;
 const url=n=>`${book.id}-chapter-${n}.html`;
 const img=(file,alt)=>{const m=manifest[file];return `<img src="assets/${esc(m?.file||file)}" alt="${esc(alt)}" ${m?`width="${m.width}" height="${m.height}"`:''} loading="lazy" decoding="async">`};
 const link=(href,text,cls='')=>`<a href="${href}" class="${cls}">${text}</a>`;
-const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><header class="site-header">${link('index.html','Defenders<span>of the Land</span>','wordmark')}<nav aria-label="Main navigation">${link('books.html','Books')}${link(`${activeBook.id}.html`,'Contents')}${link('characters.html','Characters')}${link('map.html','Map')}${link('downloads.html','Free sample')}<button id="theme" aria-pressed="false">Dark mode</button></nav></header><main id="main">${body}</main><footer>Defenders of the Land · Jay Jones · ${link('paperback.html','Book One editions')}</footer></body></html>`;
+const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><header class="site-header">${link('index.html','Defenders<span>of the Land</span>','wordmark')}<button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="nav-toggle-label">Menu</span></button><nav id="site-navigation" aria-label="Main navigation">${link('books.html','Books')}${link(`${activeBook.id}.html`,'Contents')}${link('characters.html','Characters')}${link('map.html','Map')}${link('author.html','Author')}${link('downloads.html','Free sample')}<button id="theme" aria-pressed="false">Dark mode</button></nav></header><main id="main">${body}</main><footer>Defenders of the Land · Jay Jones · ${link('paperback.html','Book One editions')}</footer></body></html>`;
 const rows=()=>chapters.map(c=>`<li>${link(url(c.number),`<span class="chapter-num">${String(c.number).padStart(2,'0')}</span><span>${esc(c.title)}</span><span class="read-label" data-read="${book.id}:${c.number}"></span>`)}</li>`).join('');
 const pages={};
+pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,escape:esc,link}),'author');
+const vault=require('./vault.cjs').createVault({root,escape:esc,link});
+pages['1990-vault.html']=shell('From the Vault: 1990',vault.body,'vault').replace('</head>','<link rel="stylesheet" href="vault.css"></head>');
 const mapLocations=read('content/map/locations.json'),mapGeometry=read('content/map/downtown.geojson');
 pages['map.html']=shell('Explore the Land',`<section class="contents map-page"><p class="eyebrow">BOOK ONE · CLEVELAND</p><h1>Explore the Land</h1><p>Tap a landmark to explore its connection to Book One. Story details open after you finish the related chapter.</p><div id="story-map"><div class="story-map-canvas"><svg role="img" aria-label="Downtown Cleveland story landmarks"></svg></div><div class="map-location-list" aria-label="Map landmarks">${mapLocations.map((p,i)=>`<button type="button" data-location="${esc(p.id)}" aria-pressed="false"><span>${i+1}</span> ${esc(p.name)}</button>`).join('')}</div><section class="map-location-detail" aria-live="polite"><p class="eyebrow map-chapter-label"></p><h2 class="map-location-title"></h2><p class="map-description"></p><p class="map-story"></p><a class="map-chapter-link button" href="origins-chapter-3.html">Read Chapter 3 →</a></section></div><p class="map-note">Book One takes place in 1987. This locator uses current street geography. Fictional locations do not have exact mapped addresses.</p><p class="map-attribution">Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>.</p><noscript><p>Explore these landmarks in Chapters 3, 7, 17, and 18. Enable JavaScript to use the interactive map.</p></noscript></section><script type="application/json" id="story-map-data">${JSON.stringify({geometry:mapGeometry,locations:mapLocations}).replace(/</g,'\\u003c')}</script><script defer src="assets/d3-7.9.0.min.js"></script><script defer src="story-map.js"></script>`,'map');
 pages['index.html']=shell('Book One: Origins',`<section class="landing"><figure class="cover">${img(siteConfig.coverImage||cover.frontArtwork,'Defenders of the Land: Book One: Origins paperback cover').replace('loading="lazy"','loading="eager" fetchpriority="high"')}</figure><div><p class="eyebrow">BOOK ONE · ORIGINS</p><h1>Defenders<br>of the Land</h1><p class="author">Jay Jones</p><p class="intro">${esc(book.description)}</p><p>An illustrated superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or read all ${chapters.length} chapters free here.</p><div class="actions">${buy()}${kindle()}${link(url(1),'Read free online →','button secondary')}${link('downloads.html','Download a free sample','button secondary')}<a class="button secondary" data-resume hidden>Continue reading →</a></div>${link('origins.html',`View all ${chapters.length} chapters`,'contents-link')}</div></section>`,'home');
@@ -66,9 +71,17 @@ used.add('D3-LICENSE.txt');
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'print/fonts',f),path.join(out,'fonts',f));
-for(const f of ['styles.css','reader.js','story-map.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const f of ['styles.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const file of vault.items.flatMap(item=>[item.original,...item.previews.map(p=>p.file)])){
+ const target=path.join(out,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,'public',file),target);
+}
+fs.copyFileSync(path.join(root,'content/vault/1990Vault.md'),path.join(out,'vault/1990/1990Vault.md'));
 fs.copyFileSync(path.join(root,'public/favicon.svg'),path.join(out,'favicon.svg'));
-for(const [file,html] of Object.entries(pages))fs.writeFileSync(path.join(out,file),seo.render(file,html));
+const stylesheetVersions=Object.fromEntries(['styles.css','vault.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
+for(const [file,html] of Object.entries(pages)){
+ const versioned=html.replace(/href="(styles\.css|vault\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
+ fs.writeFileSync(path.join(out,file),seo.render(file,versioned));
+}
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${seo.siteUrl}/sitemap.xml\n`);
 fs.writeFileSync(path.join(out,'sitemap.xml'),seo.sitemap(Object.keys(pages)));
 const cname=path.join(out,'CNAME'),host=new URL(seo.siteUrl).hostname;

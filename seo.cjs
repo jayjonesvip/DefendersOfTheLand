@@ -1,6 +1,6 @@
 const {URL}=require('node:url');
 
-function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
+function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveItems,escape}){
  const base=new URL(process.env.SITE_URL||site.url);
  if(base.protocol!=='https:'||base.search||base.hash)throw Error('SITE_URL must be an HTTPS site address without a query or fragment');
  const siteUrl=base.href.replace(/\/$/,'');
@@ -15,6 +15,8 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
  const paperback={'@type':'Book','@id':siteUrl+'/#paperback',name:site.paperback.title,url:site.paperback.url,author:{'@id':author['@id']},bookFormat:'https://schema.org/Paperback',inLanguage:'en',image:imageUrl,identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:site.paperback.asin},exampleOfWork:{'@id':siteUrl+`/#${book.id}`},potentialAction:{'@type':'BuyAction',target:site.paperback.url}};
  const ebook={...paperback,'@id':siteUrl+'/#ebook',url:site.ebook.url,bookFormat:'https://schema.org/EBook',identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:site.ebook.asin},potentialAction:{'@type':'BuyAction',target:site.ebook.url}};
  const descriptions={
+  'author.html':'Meet Jay Jones, a Cleveland author whose first publishing adventure began with childhood superhero comics rediscovered in the basement. Explore his books and 1990 archive.',
+  '1990-vault.html':'Before the books, there were notebooks. Explore nine restored superhero comic pages from 1990 and the childhood origins of Defenders of the Land by Jay Jones.',
   'index.html':site.description,
   'paperback.html':`Buy ${site.paperback.title} by ${site.author} in paperback or on Kindle. Explore the illustrated Cleveland superhero adventure and read a free sample.`,
   'origins.html':`Read all ${chapters.length} chapters of Defenders of the Land: Book One: Origins by Jay Jones. An illustrated superhero adventure set in Cleveland in 1987.`,
@@ -25,6 +27,8 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
   '404.html':'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'
  };
  const titles={
+  'author.html':'About Jay Jones — Author & Archives | Defenders of the Land',
+  '1990-vault.html':'From the Vault: 1990 — Original Comics | Defenders of the Land',
   'index.html':'Defenders of the Land | Cleveland Superheroes by Jay Jones',
   'paperback.html':'Book One: Origins — Paperback & Kindle | Defenders of the Land',
   'origins.html':'Book One: Origins — Read All 18 Chapters | Defenders of the Land',
@@ -49,11 +53,18 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
   const canonical=pageUrl(file),chapter=chapterPages.get(file);
   const activeBook=chapter?.book||additionalBooks.find(b=>file===b.id+'.html')||book;
   const previewArtwork=activeBook.number===1?artwork:(activeBook.cover||artwork);
-  const previewImage=pageUrl('assets/'+(manifest[previewArtwork]?.file||previewArtwork));
-  const previewSize=manifest[previewArtwork];
-  const previewAlt=bookName(activeBook)+' cover';
+  const isVault=file==='1990-vault.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
+  const previewImage=archivePreview?pageUrl(archivePreview.file):pageUrl('assets/'+(manifest[previewArtwork]?.file||previewArtwork));
+  const previewSize=archivePreview?{width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)}:manifest[previewArtwork];
+  const previewAlt=isVault?archiveItems[0].alt:bookName(activeBook)+' cover';
   const page={'@type':file==='books.html'||file.endsWith('.html')&&['origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:titles[file],description:descriptions[file],inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
+  if(file==='author.html'){page['@type']='ProfilePage';page.mainEntity={'@id':author['@id']};}
+  if(isVault){
+   const gallery={'@type':'ImageGallery','@id':canonical+'#gallery',name:'From the Vault: 1990 — restored comic pages',url:canonical+'#vault-gallery',associatedMedia:archiveItems.map(item=>({'@type':'ImageObject',name:item.title,caption:item.caption,description:item.alt,contentUrl:pageUrl(item.original),thumbnailUrl:pageUrl(item.previews[0].file),width:item.width,height:item.height}))};
+   const article={'@type':'Article','@id':canonical+'#article',headline:'From the Vault: The 1990 Origins of Cleveland’s Superheroes',description:descriptions[file],author:{'@type':'Person',name:'Jason Jones'},image:previewImage,isPartOf:{'@id':page['@id']},inLanguage:'en',url:canonical+'#vault-retrospective'};
+   graph.push(gallery,article);page.mainEntity={'@id':gallery['@id']};
+  }
   if(chapter){
    const c=chapter.chapter,b=chapter.book;
    graph.push(bookNode(b),{'@type':'Chapter','@id':canonical+'#chapter',name:c.title,position:c.number,url:canonical,isPartOf:{'@id':siteUrl+`/#${b.id}`},author:{'@id':author['@id']},inLanguage:'en',isAccessibleForFree:true});
@@ -66,6 +77,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
    const b=additionalBooks.find(b=>file===b.id+'.html');if(b){graph.push(bookNode(b));page.mainEntity={'@id':siteUrl+`/#${b.id}`};}
   }
   const breadcrumbs=[{name:'Home',url:pageUrl('index.html')}];
+  if(isVault)breadcrumbs.push({name:'About the Author',url:pageUrl('author.html')});
   if(chapter)breadcrumbs.push({name:`Book ${chapter.book.number}${chapter.book.number===1?': Origins':''}`,url:pageUrl(chapter.book.id+'.html')});
   if(file!=='index.html')breadcrumbs.push({name:chapter?`Chapter ${chapter.chapter.number}: ${chapter.chapter.title}`:titles[file].split(' | ')[0],url:canonical});
   if(file!=='404.html')graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumbs',itemListElement:breadcrumbs.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name,item:b.url}))});
@@ -75,7 +87,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,escape}){
    `<link rel="icon" type="image/svg+xml" href="favicon.svg">`,
    `<meta name="robots" content="${file==='404.html'?'noindex, follow':'index, follow, max-image-preview:large'}">`,
    `<link rel="canonical" href="${escape(canonical)}">`,
-   `<meta property="og:type" content="${chapter?'article':'website'}">`,
+   `<meta property="og:type" content="${chapter||isVault?'article':'website'}">`,
    `<meta property="og:site_name" content="${escape(site.name)}">`,
    `<meta property="og:locale" content="en_US">`,
    `<meta property="og:title" content="${escape(titles[file])}">`,

@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const out=path.join(__dirname,'dist');let links=0;
 require('./verify-seo.cjs').check();
-for(const f of fs.readdirSync(out).filter(x=>x.endsWith('.html'))){const html=fs.readFileSync(path.join(out,f),'utf8');assert.equal((html.match(/<h1[ >]/g)||[]).length,1,f+' must have one h1');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split('#')[0];if(/^(https?:|data:)/.test(ref))continue;assert(fs.existsSync(path.join(out,ref)),`${f}: missing ${ref}`);links++}assert(!html.includes('Blackwell_Family_Character_Files'));assert(!html.includes('PROJECT BLACKOUT BANSHEE'));}
+for(const f of fs.readdirSync(out).filter(x=>x.endsWith('.html'))){const html=fs.readFileSync(path.join(out,f),'utf8');assert.equal((html.match(/<h1[ >]/g)||[]).length,1,f+' must have one h1');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split(/[?#]/)[0];if(/^(https?:|data:)/.test(ref))continue;assert(fs.existsSync(path.join(out,ref)),`${f}: missing ${ref}`);links++}assert(!html.includes('Blackwell_Family_Character_Files'));assert(!html.includes('PROJECT BLACKOUT BANSHEE'));}
 const publicDownloads=JSON.parse(fs.readFileSync(path.join(out,'books/downloads.json')));
 assert.equal(publicDownloads.samples.length,2);assert.equal(publicDownloads.sampleEpub.chapters,3);
 assert.deepEqual(publicDownloads.samples.map(d=>d.file).sort(),['origins-sample-chapters-01-03.epub','origins-sample-chapters-01-03.pdf']);
@@ -40,4 +40,4 @@ for(const report of epubBuilds.filter(b=>fs.existsSync(path.join(__dirname,'prin
  assert(report.coverIncluded,'Configured cover must be in the EPUB');
 }
 for(const pdf of [...downloads.full,...downloads.chapters,...downloads.covers,...downloads.print]){const bytes=fs.readFileSync(path.join(publishing,pdf.file));assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.equal(bytes.length,pdf.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pdf.sha256);assert(pdf.pages>0);}
-require('./verify-reader.cjs').check().then(()=>require('./verify-book-two.cjs').check()).then(()=>require('./verify-epub.cjs').check()).then(()=>console.log(`PASS: ${links} links/assets, two public samples and separate publishing files with matching checksums; full web reader, EPUB chapters, navigation and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});
+require('./verify-vault.cjs').check().then(()=>require('./verify-reader.cjs').check()).then(()=>require('./verify-book-two.cjs').check()).then(()=>require('./verify-epub.cjs').check()).then(()=>console.log(`PASS: ${links} links/assets, two public samples and separate publishing files with matching checksums; full web reader, EPUB chapters, navigation and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});

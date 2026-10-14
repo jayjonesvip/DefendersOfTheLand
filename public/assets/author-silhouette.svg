@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" role="img" aria-labelledby="title desc">
+  <title id="title">Author portrait placeholder</title>
+  <desc id="desc">A simple anonymous head and shoulders silhouette, awaiting Jay Jones’s portrait.</desc>
+  <path fill="#282a2c" d="M120 44c-31 0-51 23-51 57v17c-7 0-10 6-9 14 1 10 5 16 12 17 4 24 16 39 29 45v22c-5 9-19 12-39 19-24 8-40 24-43 51h202c-3-27-19-43-43-51-20-7-34-10-39-19v-22c13-6 25-21 29-45 7-1 11-7 12-17 1-8-2-14-9-14v-17c0-34-20-57-51-57Z"/>
+</svg>
