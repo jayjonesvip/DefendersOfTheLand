@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-13",
+  "scope": "Book Two Chapters 1–16; compared with the 18 published Book One chapters in print-controlled order.",
+  "changes": [
+    {
+      "chapter": 3,
+      "reason": "Make Seth’s response refer clearly to Jenny pretending to be confident, rather than an unspecified action.",
+      "before": "“You don’t have to do that with me,” he said. Jenny leaned beside him, close enough for their elbows to touch. For a little while, neither of them tried to fill the silence.",
+      "after": "“You don’t have to pretend you’ve got it figured out. Not with me,” he said. Jenny leaned beside him, close enough for their elbows to touch. For a little while, neither of them tried to fill the silence."
+    },
+    {
+      "chapter": 8,
+      "reason": "Replace a repeated interrogation formula with Billy’s concrete follow-up about results.",
+      "before": "“That wasn’t what I asked.”",
+      "after": "“Did he show you any of it working?”"
+    },
+    {
+      "chapter": 11,
+      "reason": "Keep Daniel’s proposed collector a plan, not an already working device; shorten the spoken explanation.",
+      "before": "“He did more than that. Once he reached the tank, the fish stopped driving the robot.” Daniel tapped the circle. “We get him inside a collector, we draw the energy out, and we turn it into electricity.”",
+      "after": "“He did more than that. Once he reached the tank, the fish stopped driving the robot.” Daniel tapped the circle. “Build a collector that can hold him, draw the energy out, and we’ve got electricity.”"
+    },
+    {
+      "chapter": 14,
+      "reason": "Carry forward Luke’s refusal to fight the Defenders at the end of Book One while showing how the body promise tempts him back.",
+      "before": "Then Luke remembered the boy holding up the café roof. He had barely managed to get past the glove that day. Zerdo had torn a giant robot apart since then.",
+      "after": "Then Luke remembered the boy holding up the café roof. He had barely managed to get past the glove that day. Zerdo had torn a giant robot apart since then. Luke had told his uncle he wasn’t fighting them again. Somehow, Daniel had made another attack sound like a way out."
+    },
+    {
+      "chapter": 14,
+      "reason": "Give Daniel’s evasive misunderstanding a more natural spoken rhythm.",
+      "before": "“The procedure needs careful preparation.”",
+      "after": "“Of course. A procedure like this takes preparation.”"
+    },
+    {
+      "chapter": 15,
+      "reason": "Jenny has firsthand knowledge of Daniel’s equipment and robot attack, not just a newspaper account.",
+      "before": "“She knows what she read in the paper.”",
+      "after": "“She was at the lake with Billy. She’s seen the equipment. And she wrote the story about the robot.”"
+    },
+    {
+      "chapter": 15,
+      "reason": "Establish the exact one-hour check-in used in Chapter 16, with conversational instructions rather than an unspecified agreement.",
+      "before": "“It might.” Billy opened his notebook. “You leave the address and the appointment time with me. We agree on a time for you to call. If you’re delayed, you call before it passes.”",
+      "after": "“It might.” Billy opened his notebook. “Leave me the address and the appointment time. Call me an hour after you get there. If the interview runs longer, let me know before that hour’s up.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Avoid asking the same campaign-involvement question twice after the newly added robot exchange.",
+      "before": "“You’re Eleanor Blackwell’s technical adviser?”",
+      "after": "“So what’s your official role in her campaign? Technical adviser?”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Keep Daniel evasive without stiff technical phrasing.",
+      "before": "“As long as required for the demonstration.”",
+      "after": "“Long enough for you to see that it works.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Make Daniel’s battery excuse sound spoken while preserving that the demonstration proves no city-scale source.",
+      "before": "“A storage unit. You must understand, this is a demonstration of delivery. The full source is a separate matter.”",
+      "after": "“A storage unit. Today I’m showing you how we’ll use the power. The source comes later.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Let Luke object like a person being talked over, rather than repeat Daniel’s formal phrase.",
+      "before": "“It’s my medical matter,” Luke said.",
+      "after": "“You could ask me. I’m right here,” Luke said."
+    },
+    {
+      "chapter": 16,
+      "reason": "Give Daniel a natural irritated interruption and preserve his dismissal of Luke.",
+      "before": "“Then you can give me a moment to explain my work.” Daniel pointed toward the rear room. “Go and check the panel.”",
+      "after": "“And you can let me finish.” Daniel pointed toward the rear room. “Go and check the panel.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Locate the locked exit clearly as Jenny returns from the rear workshop toward the entrance.",
+      "before": "A latch clicked behind her. Jenny reached for the handle. It did not turn.",
+      "after": "A heavy latch snapped shut inside the outer door. Jenny reached it and pulled the handle. It did not turn."
+    },
+    {
+      "chapter": 16,
+      "reason": "Establish the separate protected control booth used during the gas release.",
+      "before": "She looked back. Daniel had stepped through a narrow door beside the partition. Luke hovered near him on the other side of the glass.",
+      "after": "She looked back toward the workshop. Daniel had stepped through a narrow door into the control booth behind the glass partition. Luke hovered beside him."
+    },
+    {
+      "chapter": 16,
+      "reason": "Remove an unestablished warning from Billy and prevent Jenny choosing secrecy over escaping deliberate gas; exposure happens before she can use speed.",
+      "before": "She pulled her sleeve over her mouth. For an instant, she pictured crossing the room faster than either of them could follow. They would know. Billy’s warning about protecting her identity flashed through her thoughts.",
+      "after": "She pulled her sleeve over her mouth. She had to get out, even if they saw how fast she could move. She turned toward the control booth, looking for another way through."
+    },
+    {
+      "chapter": 16,
+      "reason": "Make the failed movement and return to the entrance handle spatially clear, without displaying super speed.",
+      "before": "She tried to move anyway. Her foot struck the cable she had stepped over on the way in. The door seemed to tilt as she caught its handle. Her notebook slid across the floor.",
+      "after": "She tried to push off, but her foot caught the cable she had stepped over on the way in. The room tilted. She grabbed the outer door’s handle to keep herself upright. Her notebook slid across the floor."
+    },
+    {
+      "chapter": 16,
+      "reason": "Remove an ambiguous reference to reaching an already locked door.",
+      "before": "Daniel watched her stumble. “She nearly got to it.”",
+      "after": "Daniel watched her stumble. “Still trying to get out.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Jenny gave an imperative, not a question; make her response concrete.",
+      "before": "“That wasn’t my question.”",
+      "after": "“Then undo these.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Match Daniel’s evasive reply to Jenny’s request to release the cuffs.",
+      "before": "Daniel turned a page. “You ask a great many.”",
+      "after": "Daniel turned a page without looking up. “In a little while.”"
+    },
+    {
+      "chapter": 16,
+      "reason": "Keep the only established clock above the sink in the front laboratory, visible at a distance from the rear station.",
+      "before": "Jenny looked past him to the clock. She could not read its hands from the chair.",
+      "after": "Jenny looked through the workshop doorway toward the clock above the sink. She could not read its hands from the chair."
+    }
+  ],
+  "preserved": [
+    "Daniel and Luke do not know Jenny is Pink Blur through Chapter 16.",
+    "Daniel already knows Seth Zerdowski is Super Zerdo (Book One).",
+    "Only Seth, Jenny, Perch and Flaming Head understand the energy-linked communication; Billy and Fist need interpretation.",
+    "Jenny remains in civilian clothes during capture; the revised cover matches.",
+    "Luke has no body or limbs; what became of his original body remains deliberately unanswered.",
+    "Skyfall’s output and safe transfer procedure remain Daniel’s unproven claims.",
+    "Eleanor’s denials and later cash funding are deliberate concealment, not narrator-confirmed innocence.",
+    "The editor’s caller, stalled police authorization and Eleanor’s authority remain unresolved threads.",
+    "Perch travels upstream between lakes, feeding and resting before the St. Marys rapids.",
+    "Seth’s graduation follows weeks of study; no new age or calendar date is assigned."
+  ],
+  "limitations": [
+    "This is an editorial manuscript audit, not a new visual review of every illustration. Existing artwork remains unchanged because the revised scenes retain the same depicted events.",
+    "Open questions for later chapters are preserved rather than resolved by inventing facts."
+  ]
+}
