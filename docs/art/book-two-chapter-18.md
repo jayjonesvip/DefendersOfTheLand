@@ -1,6 +1,6 @@
 # Book Two, Chapter 18: Not Yet — new artwork
 
-Three new illustrations are integrated in manuscript order:
+The initial v2 artwork established three scenes in manuscript order (the two laboratory images are now superseded as described below):
 
 - **captives-v2:** Seth rests against his upright restraint station while Jenny watches him with concern. Both remain in intact steel wrist and ankle cuffs. Injured Fist remains at the bottom of one locked bird cage.
 - **planning-v2:** Daniel erases a line from his diagram while impatient Luke hovers beside him. The unfinished glass collector is empty and inactive with disconnected wires. The initial generated cage-like collector was corrected before integration.
@@ -12,4 +12,4 @@ The seven former v1 illustrations remain withdrawn and their original PNGs remai
 
 ## Basement continuity update
 
-The captives-v2 and planning-v2 illustrations still show the earlier upstairs laboratory and need replacement for the concealed basement layout. Keep their literal alt text while the pixels remain unchanged. The Billy approach illustration can stay: Chapter 18 still ends with him walking onto the laboratory’s street after getting out of the limousine. No new limousine illustration or Chapter 19 art is added. See `../editorial/book-two-basement-art-review.md` for the full visual audit.
+The captives-v3 and planning-v3 images supersede the upstairs v2 scenes. They depict the dry basement with low piped ceiling and a small high window looking into the sunken yard. All human cuffs stay closed; Fist remains injured in one locked cage. Daniel erases his plan beside the clear, empty, unfinished collector. Billy-approach-v2 stays unchanged. New full-resolution PNGs are preserved in `originals/book-two/basement-revision/`, and exact prompts are in `book-two-basement-prompts.json`. No Chapter 19 art or rescue is added.

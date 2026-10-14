@@ -1,8 +1,8 @@
 # Book Two basement continuity: illustration review
 
-Reviewed against the author-approved basement revision of Chapters 7–18 on October 14, 2026. Existing pixels, filenames, illustration order and alt text are preserved in this PR. The current images are visual holdovers where identified below; they are not evidence that the revised basement has the depicted upstairs windows or street-level door. No image generation or replacement is included.
+The fifteen laboratory illustrations have been replaced with basement-consistent sibling versions. Original images remain archived in the repository. The new cover v4 is a review candidate in PR #2; v3 remains the previously author-approved character/style reference. Exact generation prompts and references are recorded in `../art/book-two-basement-prompts.json`.
 
-## Replacement required for laboratory geography
+## Original geometry audit and replacements
 
 | Current image | What the image actually shows | Replacement requirement |
 | --- | --- | --- |
@@ -22,7 +22,23 @@ Reviewed against the author-approved basement revision of Chapters 7–18 on Oct
 | `book-two-chapter-18-captives-v2.webp` | Tired Seth, concerned Jenny and caged Fist beside a large unobstructed skyline window. | Same captive state, high basement window looking into the yard; no freed cuff, plasma or escape. |
 | `book-two-chapter-18-planning-v2.webp` | Daniel erasing his drawing, Luke waiting and an empty collector with a tower visible beyond the room’s window. | Keep the uncertain planning and unfinished empty collector; replace the upstairs view with the basement wall/window/yard. |
 
-All fifteen images need new compositions or background revisions that accurately depict their respective scenes. They are retained for review rather than silently deleted or relabeled as basement art.
+All fifteen replacements are now integrated in manuscript order. The table above records the original mismatches; the mapping below identifies their replacements. Full-resolution PNG sources are preserved in `docs/art/originals/book-two/basement-revision/`; reader images use optimized WebP.
+
+- `book-two-chapter-09-arrival-v1.webp` → `book-two-chapter-09-arrival-v2.webp`
+- `book-two-chapter-09-luke-v1.webp` → `book-two-chapter-09-luke-v2.webp`
+- `book-two-chapter-09-cash-v1.webp` → `book-two-chapter-09-cash-v2.webp`
+- `book-two-chapter-11-skyfall-plan-v1.webp` → `book-two-chapter-11-skyfall-plan-v2.webp`
+- `book-two-chapter-14-newspaper-plan-v1.webp` → `book-two-chapter-14-newspaper-plan-v2.webp`
+- `book-two-chapter-15-phone-v1.webp` → `book-two-chapter-15-phone-v2.webp`
+- `book-two-chapter-16-demonstration-v1.webp` → `book-two-chapter-16-demonstration-v2.webp`
+- `book-two-chapter-16-gas-v1.webp` → `book-two-chapter-16-gas-v2.webp`
+- `book-two-chapter-16-restrained-v1.webp` → `book-two-chapter-16-restrained-v2.webp`
+- `book-two-chapter-17-watch-v1.webp` → `book-two-chapter-17-watch-v2.webp`
+- `book-two-chapter-17-door-v1.webp` → `book-two-chapter-17-door-v2.webp`
+- `book-two-chapter-17-gas-v1.webp` → `book-two-chapter-17-gas-v2.webp`
+- `book-two-chapter-17-captives-v1.webp` → `book-two-chapter-17-captives-v2.webp`
+- `book-two-chapter-18-captives-v2.webp` → `book-two-chapter-18-captives-v3.webp`
+- `book-two-chapter-18-planning-v2.webp` → `book-two-chapter-18-planning-v3.webp`
 
 ## Artwork that can remain
 
@@ -31,9 +47,9 @@ All fifteen images need new compositions or background revisions that accurately
 - `book-two-chapter-18-billy-approach-v2.webp`: Billy still turns onto the laboratory’s street on foot, now after leaving the limousine two streets short. The image does not depict the ride or reveal his knowledge of the captures.
 - Chapters 7–8, 10, 12 and 13 show other locations and retain their existing art. Their current captions do not establish a basement interior.
 
-## Approved cover: geometry review
+## Cover geometry review
 
-`public/assets/book-two-cover-v3.png` and its optimized `book-two-cover-web-v3.webp` show the prior tall city-facing laboratory windows. Preserve the approved original and its character/style value. Its spatial composition needs author review for a future basement-consistent final cover; no automatic cover replacement is made. The cover is not proof of a completed energy collection or transfer.
+The previously approved v3 cover showed tall city-facing windows and a glowing chamber that could suggest a completed collection. Both v3 originals remain preserved. `public/assets/book-two-cover-v4.png` replaces that geography with low basement brickwork, overhead pipes and one narrow high window looking into the service yard. Daniel concentrates rather than celebrating; the clear collector is empty and unfinished. The title, author lettering, character designs, civilian Jenny, closed cuffs and single injured Fist/cage remain. The review candidate is assigned to web, EPUB and print exports within unmerged PR #2. Author approval of v4 is still pending.
 
 ## Replacement continuity checklist
 
