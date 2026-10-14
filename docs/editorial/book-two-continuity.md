@@ -25,10 +25,14 @@ Chapter 17: Jenny’s cuffs stay locked throughout. Daniel sends Luke to watch f
 
 Jenny and Billy recognize the laboratory address on Chapter 15’s invitation. She knowingly returns to Daniel’s lab as a reporter to investigate the electricity claim; the omitted adviser name does not make the location a surprise.
 
-## Chapter 18: Remember Your Training.
+## Chapter 18: Not Yet
 
-Author-confirmed: Flaming Head communicates through the energy he shares with Seth, Jenny and Perch. Daniel / Doc Dork, Luke / Jaws, Billy and Fist cannot understand these messages. His encouragement reaches Seth and Jenny silently while his visible arrival draws Luke into an aerial chase. Perch remains away; the connection does not bring him into this rescue.
+Seth and Jenny remain captive in their original steel wrist and ankle cuffs throughout. Seth is still affected by the earlier gas; he does not bend or open a cuff. Jenny quietly tests the limited movement of her feet without making plasma or exposing her identity. Injured Fist remains in the locked bird cage, with scuffed leather, a torn white cuff and impaired flight. There is no second gas release, replacement restraint or operating-table conversion.
 
-Seth uses focused physical strength to bend one steel wrist cuff; this is not a new metal-control power. Jenny uses the limited movement of her feet to form controlled plasma, melt both steel ankle restraints and kick through the cage away from Fist. Her wrists remain secured. Fist escapes with scuffed, creased leather and a torn white cuff; pain and uneven flight limit his help in the chase. Daniel assumes Seth freed Jenny and does not discover her powers.
+Daniel has captured the boy but has no settled next plan. The collector is unfinished and empty; Flaming Head has not arrived or been captured. Luke presses Daniel about his promised body. Any transfer remains Daniel’s unproven proposal. Billy’s police call delayed him at the office; he is still approaching, expects Seth to wait outside and does not know the others have been captured. The final beat is Billy turning onto the laboratory’s street. Chapter 18 has three illustrations: the restrained captives, Daniel struggling with his diagram beside the empty collector and impatient Luke, and Billy approaching alone. All steel cuffs stay closed and Fist’s single cage stays locked.
 
-Daniel releases gas from the separate protective control booth, knocking Seth and Jenny out again. After ventilation clears the room, he secures Jenny’s legs with leather straps and replaces Seth’s damaged cuff. Urgent to begin his proposed process, he tips Seth / Zerdo’s confinement back into an operating table. The chapter ends as he reaches for the controls; no transfer has begun and its feasibility remains unproven.
+## Deferred Chapter 19 material
+
+Flaming Head’s arrival, silent training reminder, aerial chase and the escape attempt are reserved for Chapter 19. Prior Chapter 18 source is preserved in book-two-chapter-19-deferred-draft.json as unpublished material, not current continuity. Revise its timing and ending before use; the author wants Flaming Head to arrive at the last second. The old artwork is withdrawn, not approved for reuse.
+
+Author-confirmed: Flaming Head communicates through energy shared with Seth, Jenny and Perch. Daniel, Luke, Billy and Fist cannot understand these messages. Perch remains away. Seth’s cuff-bending uses focused physical strength; Jenny’s plasma uses rapid foot movement. Preserve Fist’s injuries and Jenny’s secret identity in any future escape. No rescue or transfer has yet occurred.

@@ -130,10 +130,10 @@ async function check(){
   assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-17-watch-v1.webp','assets/book-two-chapter-17-ambush-v1.webp','assets/book-two-chapter-17-injured-v1.webp','assets/book-two-chapter-17-door-v1.webp','assets/book-two-chapter-17-gas-v1.webp','assets/book-two-chapter-17-captives-v1.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 17 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
-  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-18.html');assert.equal(await page.locator('h1').innerText(),'Remember Your Training.');
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-18.html');assert.equal(await page.locator('h1').innerText(),'Not Yet');
   const chapterEighteen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-18.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterEighteen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['window','cuff','plasma','cage','chase','disbelief','table'].map(scene=>`assets/book-two-chapter-18-${scene}-v1.webp`));
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['captives','planning','billy-approach'].map(scene=>`assets/book-two-chapter-18-${scene}-v2.webp`));
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-17.html');
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 18 overflow at ${width}`);}
