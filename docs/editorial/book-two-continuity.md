@@ -24,3 +24,11 @@ Jenny recognizes Dr. Orkleson from witnessing him beside the rampaging robot, ba
 Chapter 17: Jenny’s cuffs stay locked throughout. Daniel sends Luke to watch for Zerdo and intercept Fist. Fist flies ahead to scout and is injured by Luke’s surprise attack; Seth arrives before Billy, enters the open laboratory to reach Jenny and is gassed. Lingering gas impairs Seth’s focus when he wakes, so the cuffs are not established as permanently beyond his strength. Fist’s damaged leather and torn cuff impair his movement and punching; the ordinary gas is not used to incapacitate the glove. He is held in a reinforced bird cage. Billy remains outside this capture sequence, and Flaming Head has not been captured. Daniel and Luke still do not know Jenny is Pink Blur.
 
 Jenny and Billy recognize the laboratory address on Chapter 15’s invitation. She knowingly returns to Daniel’s lab as a reporter to investigate the electricity claim; the omitted adviser name does not make the location a surprise.
+
+## Chapter 18: Remember Your Training.
+
+Author-confirmed: Flaming Head communicates through the energy he shares with Seth, Jenny and Perch. Daniel / Doc Dork, Luke / Jaws, Billy and Fist cannot understand these messages. His encouragement reaches Seth and Jenny silently while his visible arrival draws Luke into an aerial chase. Perch remains away; the connection does not bring him into this rescue.
+
+Seth uses focused physical strength to bend one steel wrist cuff; this is not a new metal-control power. Jenny uses the limited movement of her feet to form controlled plasma, melt both steel ankle restraints and kick through the cage away from Fist. Her wrists remain secured. Fist escapes with scuffed, creased leather and a torn white cuff; pain and uneven flight limit his help in the chase. Daniel assumes Seth freed Jenny and does not discover her powers.
+
+Daniel releases gas from the separate protective control booth, knocking Seth and Jenny out again. After ventilation clears the room, he secures Jenny’s legs with leather straps and replaces Seth’s damaged cuff. Urgent to begin his proposed process, he tips Seth / Zerdo’s confinement back into an operating table. The chapter ends as he reaches for the controls; no transfer has begun and its feasibility remains unproven.
