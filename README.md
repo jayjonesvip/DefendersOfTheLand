@@ -103,3 +103,5 @@ The current wrap is **provisional**: 6 × 9 inches, standard color on white pape
 Run `python scripts/build-paperback-cover.py --book book-two` to recreate the current wrap. Once the final interior is paginated, update `interiorPageCount` in its configuration and set `pageCountIsProvisional` to `false`. For a one-off final-count export, use `--pages ACTUAL_EVEN_COUNT --final`; update the configuration too so subsequent builds keep that count. The current standard-color configuration requires at least 72 pages.
 
 The approved source is 1024 × 1536 pixels, about 186 DPI at its 5.5 × 8.25-inch placement. The print copy is resampled to 1650 × 2475 pixels for 300-DPI placement; resampling preserves the approved composition but does not recover detail. Inspect KDP Print Previewer and order a physical proof before publication. The generated print copy is excluded from Git and rebuilt from the approved original.
+
+Book Two secret-identity constraints are recorded in [the continuity notes](docs/editorial/book-two-continuity.md). As of Chapter 15, Daniel and Luke do not know Jenny is Pink Blur; Daniel expects Billy to summon the Defenders for a missing reporter.
