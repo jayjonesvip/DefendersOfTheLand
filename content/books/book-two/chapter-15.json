@@ -1,0 +1,252 @@
+{
+  "number": 15,
+  "title": "A Few Questions",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "By the end of the week, Jenny could scarcely walk past a shop window without seeing Eleanor Blackwell’s name. FREE ELECTRICITY appeared beneath it on handbills, posters and a sign outside the meeting hall."
+    },
+    {
+      "type": "prose",
+      "text": "Her editor dropped a clipping beside her typewriter. “People are asking when it starts.”"
+    },
+    {
+      "type": "prose",
+      "text": "“If she wins,” Jenny said. “That’s the only date she’s given us.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Then find out what happens before that. Who’s building it? Where’s the demonstration?” He tapped the clipping. “We’ve printed the promise. I want the details.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny took out her notebook. She already had a page of questions. None had become easier since the rooftop conversation."
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor’s aide tried to offer another campaign statement. Jenny asked for Eleanor herself. After a long wait, a cooler voice came onto the line."
+    },
+    {
+      "type": "prose",
+      "text": "“Miss Jenkins. I believe I answered your questions at the meeting.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You said the technical work was being handled. I’d like to interview the person handling it.”"
+    },
+    {
+      "type": "prose",
+      "text": "“The work isn’t ready for public inspection.”"
+    },
+    {
+      "type": "prose",
+      "text": "“An interview doesn’t have to be a public inspection. Who’s the scientist, and when will there be something people can see?”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor said nothing. Jenny heard papers moving at the other end."
+    },
+    {
+      "type": "prose",
+      "text": "“I can report that you declined,” Jenny added. “But I’d rather give readers an answer.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You reporters do enjoy making everything sound sinister.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Free electricity is a large promise. People want to know how you’ll keep it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Another pause. Then Eleanor said, “I’ll see what can be arranged.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny wrote those words beneath the unanswered questions. “Thank you. You can reach me at the newsroom.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor waited until the line was clear before making her next call."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel answered on the sixth ring. Something clattered behind him."
+    },
+    {
+      "type": "prose",
+      "text": "“What was that?” she asked."
+    },
+    {
+      "type": "prose",
+      "text": "“Nothing important.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You need to give me something I can show people. Soon. They’re starting to ask for more than speeches.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Skyfall needs time.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And Jenny Jenkins needs a story. She wants to interview the scientist.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel pulled the newspaper out from beneath his notes. “Does she?”"
+    },
+    {
+      "type": "prose",
+      "text": "“She keeps asking questions. You can be sure Billy is somewhere behind her.” Eleanor lowered her voice. “I will not have your name turn this campaign into a discussion of that robot.”"
+    },
+    {
+      "type": "scene",
+      "text": "Daniel smiled down at the byline. “Then let me show her something else.”",
+      "art": "book-two-chapter-15-phone-v1.webp",
+      "alt": "Eleanor speaks sternly on the telephone from her campaign office while Daniel takes the call in his cluttered laboratory, with Luke’s floating head and iron jaws watching uneasily."
+    },
+    {
+      "type": "prose",
+      "text": "“What, exactly?”"
+    },
+    {
+      "type": "prose",
+      "text": "“A private demonstration. Just the reporter. I can explain the principle without opening the workshop to a crowd.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor considered it. “Can you make it convincing?”"
+    },
+    {
+      "type": "prose",
+      "text": "“I can make sure she has plenty to write about.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Keep it about electricity, Daniel. And clean the place first.”"
+    },
+    {
+      "type": "prose",
+      "text": "He looked around the bench. “Of course.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke waited until his uncle put the receiver down. He had heard enough of the call to recognize the name."
+    },
+    {
+      "type": "prose",
+      "text": "“The reporter from the newspaper?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel turned the page toward him. “The very same.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke looked from the byline to the photograph of Zerdo. “You’re bringing her here?”"
+    },
+    {
+      "type": "prose",
+      "text": "“She wants to ask a few questions.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And you’re going to answer them?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Some of them.” Daniel drew a line beneath the reporter’s name, then reached for a clean sheet of paper."
+    },
+    {
+      "type": "prose",
+      "text": "Luke drifted closer. “You think Zerdo will just walk in after her?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel’s pencil stopped. He looked up through his enormous glasses."
+    },
+    {
+      "type": "prose",
+      "text": "“If she asks for help.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke glanced toward the rear workshop. The collector stood unfinished behind a tangle of cables. There was still no body waiting for him. Just his uncle’s promises and another person about to trust one of them."
+    },
+    {
+      "type": "prose",
+      "text": "“Does she know what you did?” he asked."
+    },
+    {
+      "type": "prose",
+      "text": "“She knows what she read in the paper.”"
+    },
+    {
+      "type": "prose",
+      "text": "“That might be enough to keep her away.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Then we’ll have to give her a good reason to come.” Daniel began writing."
+    },
+    {
+      "type": "prose",
+      "text": "The invitation reached the newsroom the following afternoon. Eleanor’s office offered Jenny an exclusive interview and a small-scale demonstration of the proposed electricity system. An address and appointment time were typed at the bottom."
+    },
+    {
+      "type": "scene",
+      "text": "Jenny read it twice, then took it to Billy.",
+      "art": "book-two-chapter-15-invitation-v1.webp",
+      "alt": "Civilian reporter Jenny reads the laboratory invitation at Billy’s office desk while Billy checks his appointment notebook beside her."
+    },
+    {
+      "type": "prose",
+      "text": "He read it once. “That was quick.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I asked to meet the scientist. Apparently, she’s decided I can.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Apparently.” He laid the paper flat on his desk. “Who’s expecting you?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Her office says the project’s technical adviser. No name.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy’s eyes narrowed. “Of course there isn’t.”"
+    },
+    {
+      "type": "prose",
+      "text": "“We’ve been trying to find out what’s happening inside that lab. This might be our chance.”"
+    },
+    {
+      "type": "prose",
+      "text": "“It might.” Billy opened his notebook. “You leave the address and the appointment time with me. We agree on a time for you to call. If you’re delayed, you call before it passes.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny nodded. “I’m going to ask questions, Billy.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And I want you back with the answers.”"
+    },
+    {
+      "type": "prose",
+      "text": "She copied the details into his notebook. For the first time since Eleanor’s speech, there was more on the page than a promise."
+    },
+    {
+      "type": "prose",
+      "text": "Across the city, Daniel cleared a space on the workbench. He folded the newspaper so that Jenny’s name stayed visible and set it beside the telephone."
+    }
+  ]
+}
