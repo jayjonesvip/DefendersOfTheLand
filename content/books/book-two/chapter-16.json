@@ -1,0 +1,322 @@
+{
+  "number": 16,
+  "title": "The Demonstration",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Daniel had cleaned a path from the door to the workbench. Everything that had been on the floor now leaned against something else."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny stepped over a cable and checked the clock above the sink. Billy knew the address. He expected her call in an hour."
+    },
+    {
+      "type": "prose",
+      "text": "“Miss Jenkins.” Daniel spread his arms. “Welcome.”"
+    },
+    {
+      "type": "prose",
+      "text": "The scientist from the newspaper. She had expected him, but seeing his enormous glasses across a laboratory bench still tightened her grip on her notebook."
+    },
+    {
+      "type": "prose",
+      "text": "“You’re Eleanor Blackwell’s technical adviser?”"
+    },
+    {
+      "type": "prose",
+      "text": "“I prefer director of research.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Then let’s start with the research.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel guided her to four lightbulbs mounted on a board. A cable disappeared beneath the bench into a metal casing. He turned a switch. The bulbs glowed."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny waited. Daniel waited for her to say something."
+    },
+    {
+      "type": "prose",
+      "text": "“Those are lights,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "“Powered by an experimental system.”"
+    },
+    {
+      "type": "prose",
+      "text": "“What powers the system?”"
+    },
+    {
+      "type": "prose",
+      "text": "“That is the part still under development.”"
+    },
+    {
+      "type": "prose",
+      "text": "She wrote it down. “How long will they stay on?”"
+    },
+    {
+      "type": "prose",
+      "text": "“As long as required for the demonstration.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And how many homes can it supply?”"
+    },
+    {
+      "type": "prose",
+      "text": "“With the proper equipment, the potential is extraordinary.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny looked beneath the bench. “Is that a battery?”"
+    },
+    {
+      "type": "prose",
+      "text": "“A storage unit. You must understand, this is a demonstration of delivery. The full source is a separate matter.”"
+    },
+    {
+      "type": "scene",
+      "text": "“So you’re showing me that stored electricity can light four bulbs.”",
+      "art": "book-two-chapter-16-demonstration-v1.webp",
+      "alt": "Civilian reporter Jenny looks unimpressed as Daniel proudly demonstrates four ordinary lightbulbs on his laboratory bench."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel’s smile became smaller. “You’re seeing the beginning.”"
+    },
+    {
+      "type": "prose",
+      "text": "“People are hearing that you can power Cleveland.”"
+    },
+    {
+      "type": "prose",
+      "text": "He switched off the lights. “Perhaps the larger apparatus will help you appreciate the scale.”"
+    },
+    {
+      "type": "prose",
+      "text": "Something moved behind his shoulder. A blond head drifted out of the rear workshop, iron teeth catching the lamplight."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny knew those jaws. Her pencil stopped against the page."
+    },
+    {
+      "type": "prose",
+      "text": "Luke glanced at her notebook. “Is she writing about me?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Not today,” Daniel said."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny made herself look back at the scientist. “What happened to him?”"
+    },
+    {
+      "type": "prose",
+      "text": "“A medical matter.”"
+    },
+    {
+      "type": "prose",
+      "text": "“It’s my medical matter,” Luke said."
+    },
+    {
+      "type": "prose",
+      "text": "“Then you can give me a moment to explain my work.” Daniel pointed toward the rear room. “Go and check the panel.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke’s eyes narrowed, but he drifted away. He had looked at Jenny as though she were another visitor. Nothing in his expression suggested he knew who had faced him in pink."
+    },
+    {
+      "type": "prose",
+      "text": "She kept her pencil moving. “Does your electricity project have something to do with his treatment?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Many applications are possible.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Does Eleanor know that?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel moved toward the workshop. “This way.”"
+    },
+    {
+      "type": "prose",
+      "text": "The rear room smelled of oil and old dust. A large empty cylinder stood behind a partition, its cables running toward a switchboard. Beside it, two tall shapes were covered with sheets."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny stopped near the doorway. A metal cuff protruded beneath one sheet. It was wide enough for a wrist."
+    },
+    {
+      "type": "prose",
+      "text": "“What’s under there?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Testing equipment.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Why does it need restraints?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Safety.”"
+    },
+    {
+      "type": "prose",
+      "text": "“For whom?”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel lifted the edge of the sheet and let it fall again. “You came to discuss electricity.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I did. You haven’t told me where it comes from.” Jenny closed her notebook. “I’ll put my questions in writing. You can send the answers to the newsroom.”"
+    },
+    {
+      "type": "prose",
+      "text": "She turned toward the outer door."
+    },
+    {
+      "type": "prose",
+      "text": "“One final demonstration,” Daniel said. “Then you’ll have something worth printing.”"
+    },
+    {
+      "type": "prose",
+      "text": "A latch clicked behind her. Jenny reached for the handle. It did not turn."
+    },
+    {
+      "type": "prose",
+      "text": "She looked back. Daniel had stepped through a narrow door beside the partition. Luke hovered near him on the other side of the glass."
+    },
+    {
+      "type": "prose",
+      "text": "“Open it,” Jenny said."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel put his hand on a switch."
+    },
+    {
+      "type": "prose",
+      "text": "A thin hiss came from the wall. Jenny felt cool air against her cheek and breathed in before she understood. Pale wisps curled from the vents."
+    },
+    {
+      "type": "scene",
+      "text": "She pulled her sleeve over her mouth. For an instant, she pictured crossing the room faster than either of them could follow. They would know. Billy’s warning about protecting her identity flashed through her thoughts.",
+      "art": "book-two-chapter-16-gas-v1.webp",
+      "alt": "Jenny covers her mouth with her blouse sleeve and reaches for the locked laboratory door as gas escapes from wall vents; Daniel and a worried Luke watch from behind glass."
+    },
+    {
+      "type": "prose",
+      "text": "Then her knees softened."
+    },
+    {
+      "type": "prose",
+      "text": "She tried to move anyway. Her foot struck the cable she had stepped over on the way in. The door seemed to tilt as she caught its handle. Her notebook slid across the floor."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel watched her stumble. “She nearly got to it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Luke pressed closer to the glass. “You said an interview.”"
+    },
+    {
+      "type": "prose",
+      "text": "“She had one.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny tried to shout. Her sleeve fell away from her face. The last thing she saw was Luke turning toward his uncle."
+    },
+    {
+      "type": "prose",
+      "text": "When she opened her eyes, the gas was gone. The room hummed with machinery."
+    },
+    {
+      "type": "prose",
+      "text": "She tried to lift a hand. Steel held her wrist against an armrest. Her other wrist was secured too, and broad cuffs closed around her ankles. The sheet lay folded on the floor beneath the angled metal chair."
+    },
+    {
+      "type": "scene",
+      "text": "Daniel stood at the switchboard with her notebook. Luke hovered above his shoulder. Behind them, the second station was empty.",
+      "art": "book-two-chapter-16-restrained-v1.webp",
+      "alt": "Jenny, still dressed in her civilian white blouse and pink skirt, sits restrained at the wrists and ankles in an angled metal station while Daniel holds her notebook and Luke watches uneasily. The adjacent station is empty."
+    },
+    {
+      "type": "prose",
+      "text": "“Let me out,” Jenny said. Her voice sounded thick."
+    },
+    {
+      "type": "prose",
+      "text": "“You’ll feel better shortly.”"
+    },
+    {
+      "type": "prose",
+      "text": "“That wasn’t my question.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel turned a page. “You ask a great many.”"
+    },
+    {
+      "type": "prose",
+      "text": "She tested the cuffs without jerking them. No slack. Her legs still felt heavy. Speed would not take her through steel, and showing what she could do would give him another reason to keep her there."
+    },
+    {
+      "type": "prose",
+      "text": "“Billy knows where I am.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I’m counting on it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny looked past him to the clock. She could not read its hands from the chair."
+    },
+    {
+      "type": "prose",
+      "text": "“He’ll bring the police.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Or someone more useful.” Daniel closed her notebook and set it beside the telephone."
+    },
+    {
+      "type": "prose",
+      "text": "Luke looked from the empty station to Jenny. “What are you going to do with her?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Keep her comfortable. She’s a reporter, Luke. We need her friend to worry.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny held his gaze. “He will.”"
+    },
+    {
+      "type": "prose",
+      "text": "Daniel smiled and checked the telephone receiver was properly seated."
+    },
+    {
+      "type": "prose",
+      "text": "“Now we wait for the inspector to notice.”"
+    }
+  ]
+}

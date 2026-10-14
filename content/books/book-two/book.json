@@ -20,8 +20,9 @@
     "chapter-12.json",
     "chapter-13.json",
     "chapter-14.json",
-    "chapter-15.json"
+    "chapter-15.json",
+    "chapter-16.json"
   ],
-  "cover": "book-two-cover-v1.png",
-  "ebookCover": "book-two-cover-v1.png"
+  "cover": "book-two-cover-v2.png",
+  "ebookCover": "book-two-cover-v2.png"
 }
