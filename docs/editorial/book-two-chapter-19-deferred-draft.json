@@ -1,6 +1,6 @@
 {
-  "status": "Unpublished source material; requires revision before use",
-  "note": "Deferred from Chapter 18 on 2026-10-14. Reserve Flaming Head’s arrival, silent training reminder, aerial chase and escape attempt for Chapter 19. Revise the arrival timing against the new Chapter 18 ending. The former process-start ending is superseded; no transfer or operating-table conversion is established in Chapter 18. Previous art is withdrawn and is not approved for reuse.",
+  "status": "Unpublished source material; requires basement, limo-timing and restraint-state adaptation before use",
+  "note": "Deferred from Chapter 18 on 2026-10-14. Reserve Flaming Head’s arrival, silent training reminder, aerial chase and escape attempt for Chapter 19. Revise the arrival timing against the new Chapter 18 ending. The former process-start ending is superseded; no transfer or operating-table conversion is established in Chapter 18. Previous art is withdrawn and is not approved for reuse. Author-approved continuity update: adapt all laboratory entrances and sightlines to the hidden basement and sunken service yard, with the high basement window above the bench and the secret sewer route through the disused drain. All four cuffs on each human captive are closed and Fist remains injured in one locked cage at Chapter 18’s ending; Jenny has been gassed a second time and woke before Seth. Billy is approaching after Eleanor and Claude’s limousine delayed him; an expanded conversation may appear in Chapter 19 only as a clearly marked “minutes earlier” scene. Claude’s ride offer is sincere, Eleanor knows only that Billy is investigating Daniel, and neither knows about the kidnapping or captures. Do not add a confession or present rent payments as proof of knowing robot funding or police interference. Preserve Flaming Head’s promise not to go to the laboratory alone and the restricted energy-link audience. Do not publish this draft or assume its archived art and former process-start ending are current canon.",
   "sourceChapter": {
     "number": 18,
     "title": "Remember Your Training.",
@@ -426,5 +426,13 @@
         "text": "Then he reached for the controls."
       }
     ]
-  }
+  },
+  "adaptationRequired": [
+    "Basement/service-yard geography and high window; preserve the dry hidden sewer route",
+    "Clearly marked minutes-earlier limo scene, if expanded; urgency and knowledge limits",
+    "Closed original wrist and ankle cuffs for both human captives; no escape yet",
+    "Jenny’s second gas exposure and earlier awakening; Seth’s impaired concentration",
+    "Flaming Head’s promise and energy-link audience; no solo laboratory entry",
+    "Withdrawn art and superseded transfer/process-start ending"
+  ]
 }

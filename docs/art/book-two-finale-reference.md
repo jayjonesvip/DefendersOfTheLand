@@ -13,7 +13,7 @@ Canonical artwork: [book-two-cover-v3.png](../../public/assets/book-two-cover-v3
 
 ## Laboratory and machinery
 
-Use the approved cover for the late-book laboratory's design: crowded analog gauges, switches, thick cables, beakers, dark metal structures and the control console. The large extraction chamber gives off intense orange-gold light, contrasting with deep navy shadows. Cleveland and Terminal Tower are visible through a high window.
+Use the approved cover for character faces, inking and equipment atmosphere, with its spatial layout superseded by the author-approved basement continuity: crowded analog gauges, switches, thick cables, beakers, dark metal structures and the control console. The cover’s orange-gold machinery lighting and navy shadows remain style references. Its tall unobstructed skyline window depicts the earlier layout; it does not establish a basement sightline. Current canon uses a dry hidden workshop beneath the original upstairs laboratory, an ordinary service door opening into a sunken yard, and a small high window above the workshop bench looking into that yard. The collector remains unfinished and empty. Preserve the approved cover file, but flag its geometry for author review before final publication; do not reproduce its city-facing windows in replacement chapter art.
 
 Seth and Jenny's separate restraint stations have angled metal backing and broad riveted steel cuffs at their wrists and ankles; Seth wears superhero gloves and boots, while Jenny has bare hands and ordinary civilian shoes. Keep these details consistent when illustrating the planned capture and rescue. Their clothing remains intact. Their faces should show resistance, concern or attempts to escape as appropriate.
 

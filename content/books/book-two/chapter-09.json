@@ -6,7 +6,11 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "The following evening, Eleanor knocked at Daniel’s laboratory. Its shutters were still down. Inside, something clattered, followed by a hurried scrape of feet."
+      "text": "The following evening, Eleanor went around the shuttered laboratory building and down the steps into its sunken service yard. She knocked at the basement’s ordinary service door. Inside, something clattered, followed by a hurried scrape of feet."
+    },
+    {
+      "type": "prose",
+      "text": "The workshop above them, where Daniel had built the robot, stood empty. He had secretly returned through the sewers after the police search. Luke’s iron jaws had chewed through a disused drain and the brickwork beyond it, opening a narrow route into a workshop concealed behind the basement’s storage shelves. The opening came out above the sewer water; the workshop floor stayed dry."
     },
     {
       "type": "prose",
@@ -14,11 +18,11 @@
     },
     {
       "type": "prose",
-      "text": "“Are you going to leave me in the alley?”"
+      "text": "“Are you going to leave me down here?”"
     },
     {
       "type": "prose",
-      "text": "He pulled the door open. She stepped over a cable and stopped. Old cups crowded the workbench. A gray film covered the windows. Something beneath her shoe made a sticky sound."
+      "text": "He pulled the door open. She stepped over a cable and stopped. Old cups crowded the workbench. A gray film covered the small window high in the wall facing the yard. Something beneath her shoe made a sticky sound."
     },
     {
       "type": "prose",
@@ -140,7 +144,7 @@
     },
     {
       "type": "prose",
-      "text": "“The landlord will still keep his accounts,” Daniel said."
+      "text": "“The landlord will still keep his accounts,” Daniel said. “And if I stop paying, he’ll take the keys. I need the upstairs kept shut.”"
     },
     {
       "type": "prose",

@@ -18,7 +18,7 @@
     },
     {
       "type": "prose",
-      "text": "Luke glanced at the empty station beside Jenny. Then he rose toward the high window."
+      "text": "Luke glanced at the empty station beside Jenny. Then he rose toward the small basement window high above the workbench, facing the sunken yard."
     },
     {
       "type": "prose",
@@ -36,7 +36,7 @@
     },
     {
       "type": "prose",
-      "text": "Luke slipped through the window. Jenny watched his shadow pass over the glass. Daniel went to the outer door and opened it wide."
+      "text": "Luke slipped through the window and rose out of the yard toward the roofs. Jenny watched his shadow pass over the glass. Daniel lowered the window and latched it, then went to the service door and opened it wide."
     },
     {
       "type": "prose",
@@ -76,7 +76,7 @@
     },
     {
       "type": "prose",
-      "text": "“Put your suit on. Meet me outside the laboratory. We check what’s happening before anyone goes in.”"
+      "text": "“Put your suit on. Meet me by the steps to the laboratory’s service yard. We check what’s happening before anyone goes in.”"
     },
     {
       "type": "prose",
@@ -92,15 +92,15 @@
     },
     {
       "type": "prose",
-      "text": "The glove shot out over the street. Billy reached for the telephone again to report Jenny missing and give the police the address."
+      "text": "The glove shot out over the street. Billy reached for the telephone again to report Jenny missing and give the police the address and the directions downstairs. Then he put down the receiver, locked his office and hurried out to meet Seth."
     },
     {
       "type": "prose",
-      "text": "Fist reached the laboratory roofs first. Below him, the front door stood open. No one waited in the alley."
+      "text": "Fist reached the roofs above the laboratory building first. Below him, steps dropped from the alley into the sunken yard. The service door stood open. No one waited on the steps."
     },
     {
       "type": "prose",
-      "text": "He slowed beside a chimney and looked toward the high workshop window."
+      "text": "He slowed beside a chimney, staying back from the roof’s edge as he looked down toward the yard."
     },
     {
       "type": "prose",
@@ -168,9 +168,13 @@
     },
     {
       "type": "scene",
-      "text": "The laboratory door was open.",
+      "text": "At the end of the alley, stone steps led down into the sunken service yard. The basement door was open.",
       "art": "book-two-chapter-17-door-v1.webp",
       "alt": "Seth reaches the open laboratory entrance and sees Jenny still locked into her restraint station beyond the benches. Jenny calls a warning toward him."
+    },
+    {
+      "type": "prose",
+      "text": "Seth hurried down the steps. From the open threshold, he could see through the front room and the workshop doorway. Beyond the bench, Jenny sat against the metal backing of her chair."
     },
     {
       "type": "prose",
@@ -178,7 +182,7 @@
     },
     {
       "type": "prose",
-      "text": "She heard him. Her chair faced far enough toward the workshop doorway that she could see his red mask beyond the bench."
+      "text": "She heard him. Her chair faced far enough toward the workshop doorway that she could see his red mask beyond the bench, at the service entrance."
     },
     {
       "type": "prose",
@@ -194,7 +198,7 @@
     },
     {
       "type": "prose",
-      "text": "The outer door slammed behind him. Gas hissed from the vents."
+      "text": "The service door slammed behind him. Gas hissed from the vents."
     },
     {
       "type": "scene",
@@ -208,7 +212,11 @@
     },
     {
       "type": "prose",
-      "text": "He pulled. The metal shifted against its mounting, but his hands slipped before he could bend it clear. His knees hit the floor beside her."
+      "text": "Jenny turned her face into her shoulder. Her cuffs kept her hands from reaching her mouth. She coughed and tried to draw a smaller breath, but the gas was already making her head heavy."
+    },
+    {
+      "type": "prose",
+      "text": "He planted his thumb against the cuff’s edge and tried to keep his attention there. Jenny coughed beside him, and he looked up. He pulled again, too quickly. The mounting creaked, but his hands slipped before he could bend the cuff clear. His knees hit the floor beside her."
     },
     {
       "type": "prose",
@@ -216,15 +224,15 @@
     },
     {
       "type": "prose",
-      "text": "Seth reached for Jenny’s hand. He felt her fingers close around his glove. Then the room went dark."
+      "text": "Seth reached for Jenny’s hand. He felt her fingers close weakly around his glove, then loosen. Her head sagged against the metal backing. He tried to say her name. Then the room went dark."
     },
     {
       "type": "prose",
-      "text": "Luke came through the high window with Fist’s cuff clenched between his teeth. The glove hung below him, scuffed and bent, his eyes open but unfocused."
+      "text": "Luke waited outside the closed basement window with Fist’s cuff clenched between his teeth. The glove hung below him, scuffed and bent, his eyes open but unfocused."
     },
     {
       "type": "prose",
-      "text": "Daniel switched on the ventilation. He waited behind the glass until the haze cleared, then stepped out to prepare the second station."
+      "text": "Daniel switched off the gas and turned on the ventilation. He waited behind the glass until the haze cleared, then stepped out to open the high window for Luke and prepare the second station."
     },
     {
       "type": "prose",
@@ -248,6 +256,10 @@
     },
     {
       "type": "prose",
+      "text": "Jenny woke while Daniel was checking Seth’s ankle cuffs. She blinked until the second chair stopped blurring. Seth’s eyes stayed shut. She tried her own wrists, then her ankles; all four of her original cuffs were still closed."
+    },
+    {
+      "type": "prose",
       "text": "When Seth woke, his first thought was Jenny’s hand. He tried to reach for it again."
     },
     {
@@ -264,7 +276,7 @@
     },
     {
       "type": "prose",
-      "text": "“I saw what he’d done to you.” Seth pulled at the armrests. His head swam. He could not keep his thoughts together long enough to make his hands obey."
+      "text": "“I saw what he’d done to you.” Seth pulled at the armrests. His head swam. He could bend steel when he kept his attention on it, but he could not hold one thought still through the dizziness."
     },
     {
       "type": "prose",

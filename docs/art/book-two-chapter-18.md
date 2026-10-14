@@ -9,3 +9,7 @@ Three new illustrations are integrated in manuscript order:
 Original PNGs: `docs/art/originals/book-two/chapter-18/book-two-chapter-18-*-v2.png`. Optimized reader images: `public/assets/book-two-chapter-18-*-v2.webp`. Generation used the built-in image_gen tool, the approved v3 cover, Chapter 17’s captive scene and Chapter 12’s Billy scene as references. Exact prompts and the collector correction prompt are saved in `docs/art/book-two-chapter-18-prompts-v2.json`.
 
 The seven former v1 illustrations remain withdrawn and their original PNGs remain archival. Flaming Head’s arrival and the escape attempt are reserved for Chapter 19. No bent cuffs, plasma, leather restraints, operating table, transfer or rescue occurs in these Chapter 18 illustrations.
+
+## Basement continuity update
+
+The captives-v2 and planning-v2 illustrations still show the earlier upstairs laboratory and need replacement for the concealed basement layout. Keep their literal alt text while the pixels remain unchanged. The Billy approach illustration can stay: Chapter 18 still ends with him walking onto the laboratory’s street after getting out of the limousine. No new limousine illustration or Chapter 19 art is added. See `../editorial/book-two-basement-art-review.md` for the full visual audit.
