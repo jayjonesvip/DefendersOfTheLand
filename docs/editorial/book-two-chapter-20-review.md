@@ -28,7 +28,7 @@ Daniel already knows Seth is Zerdo; neither villain learns Jenny is Pink Blur. F
 
 Fist's punch succeeds through surprise; his leather/cuff remain damaged through every turn, loss of height, failed pursuit and supported street departure. Luke's rescue is not a declaration of loyalty or forgiveness. Daniel has no departing speech. His nephew's original body remains missing; no transfer occurs. The unfinished empty collector, loose wiring and laboratory evidence remain.
 
-On the street, gratitude is mutual before Jenny kisses Seth's cheek. His blush and lid clatter are affectionate; Jenny steadies him and he replaces the lid. Billy carries injured Fist nearby as they walk toward a shop chair to await help; Flaming Head remains close outside.
+On the street, gratitude is mutual before Jenny kisses Seth's cheek. His blush, tumble onto his bottom and banana peel on his hair are affectionate; Jenny checks that he is unhurt, removes the peel and helps him up. Together they clean up and replace the lid. Billy carries injured Fist nearby as they walk toward a shop chair to await help; Flaming Head remains close outside.
 
 ## Six illustrations
 
@@ -39,7 +39,7 @@ All six generated images were visually inspected at full composition size; optim
 3. **The Surprise Punch:** scuffed red glove/torn empty cuff hits Luke's iron jaw beside one damaged cage. The high window's pane is open.
 4. **Two Against One:** corrected an erroneous indoor background to open Cleveland sky/roofs; Flaming Head ahead, Luke between, injured Fist lower behind. No speech or energy-link beam. A recessed stair area is visible below; the prose establishes the exact service-yard route.
 5. **One Good Punch:** corrected interior staging to the sunken yard landing at the open threshold and Daniel's thinning hair. One ordinary blow; plaid cap/high collar, round glasses/lab coat, no gore or extra limbs.
-6. **The Kiss and the Clatter:** two panels; corrected yard location to street sidewalk/shopfront and emphasized blush. Consistent clothes, cheek kiss, steadying arm and lid clatter; Billy supports battered Fist nearby in both panels.
+6. **The Kiss and the Clatter:** two panels; corrected yard location to street sidewalk/shopfront and emphasized blush. The original v1 kept Seth upright; the author follow-up below replaces it with v2 showing his tumble and banana peel. Billy supports battered Fist nearby in both panels.
 
 The optional seventh image of Luke rescuing Daniel is suggested separately in the art manifest, not included in the required six. No required artwork is pending generation.
 
@@ -62,3 +62,10 @@ Re-read Chapter 17: “then stepped out to open the high window for Luke” is e
 Staging follow-up validation: all content JSON parses; refreshed EPUB and site builds pass with the revised exchange and alt text. Book One and Chapter 19 source still compare unchanged against main. `git diff --check` passes.
 
 The full `BOOK_CHROMIUM=/usr/bin/chromium npm test` run also passed after the staging revision, including rendered Chapter 20 prose/art, navigation, progress, EPUB and desktop/mobile checks.
+
+
+## Author follow-up: tumble and banana peel
+
+The author now requests Seth actually fall after catching his boot on the garbage can, with a banana on his head. Interpreted as the familiar banana-peel gag: he lands on his bottom, a peel from the tipped can lands on his hair, and Jenny checks him, removes it and helps him up. He is unhurt, laughs softly and helps tidy the can before they walk together. This supersedes the original brief’s no-fall staging. Injured Fist stays safely in Billy’s arms nearby. The sixth illustration is revised as a v2 sibling; v1 remains archived.
+
+Banana revision validation: inspected generated v2 and the final mobile reader screenshot. Refreshed EPUB/site builds and full `BOOK_CHROMIUM=/usr/bin/chromium npm test` pass, including all six Chapter 20 image decodes, prose/navigation/progress checks and 320/390/1200 px layouts. Content JSON and whitespace checks pass; Book One and Chapter 19 remain unchanged.

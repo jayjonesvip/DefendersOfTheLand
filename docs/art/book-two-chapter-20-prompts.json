@@ -55,11 +55,13 @@
     {
       "id": "kiss-clatter",
       "title": "The Kiss and the Clatter",
-      "prompt": "Landscape hand-inked chapter-book superhero comic, dark contours crosshatching textured color amber light/navy shadows, same established identities as reference cover. No text/speech/typography. Basement if shown has low brick walls and pipes, only small high yard-facing window; no skyline basement windows. Restrained TWO PANEL illustration same Cleveland sidewalk outside lab alley consistent costumes/location/daylight. LEFT civilian Jenny long wavy golden blond hair white blouse modest pink skirt black ordinary shoes kisses masked Seth CHEEK. Seth messy brown hair red mask blue suit large red Z red gloves boots surprised blush. RIGHT Seth catches boot against garbage can lid falling to sidewalk, Jenny gently smiling steadies his arm, no fall/injury. Nearby BOTH panels Billy plaid cap high trench collar cradles ONE scuffed injured red boxing glove eyes torn EMPTY white cuff resting supported on folded coat. Small bodyless Flaming Head above away. No text.",
-      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-kiss-clatter-v1.png",
-      "web": "public/assets/book-two-chapter-20-kiss-clatter-v1.webp",
-      "generatedSource": "/workspace/generated_images/exec-fd4a14e3-8820-4018-bcca-3e78b6bc8247.png",
-      "revisionInstructions": "Replace service yard background in both panels with street sidewalk, shop windows, curb and 1980s car. Bright blush beneath mask; preserve cheek kiss and steadying arm, supported injured Fist."
+      "prompt": "Edit this two-panel chapter-book illustration, retaining exact inked style, faces, costumes, daylight street/shopfront location and LEFT PANEL cheek kiss unchanged. REPLACE RIGHT PANEL with AFTER THE TUMBLE: masked Seth is sitting flat on the SIDEWALK GROUND, bottom on pavement, both legs out in front, red boots visible, blue suit with red Z and red gloves. He is visibly blushing, surprised but unhurt, eyes open. ONE yellow BANANA PEEL has fallen from the tipped garbage can and rests draped across the TOP OF HIS BROWN HAIR, nowhere near eyes. A few dry paper scraps and the can lid lie beside the tipped can. NO disgusting waste, injury, blood, bruises or impact star. Jenny white blouse pink knee skirt black shoes crouches beside him, offers her bare hand to help him up, warm gentle smile not mocking. Exactly two arms/two legs each. Billy nearby continues safely cradling ONE battered red boxing glove Fist on folded coat fabric, torn empty white cuff, never drops him. Bodyless Flaming Head overhead. Keep both panels SAME street-level sidewalk beside shop window, not basement yard. NO speech/text. Affectionate restrained physical comedy. No second Seth within right panel, no duplication except natural same cast across two panels.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-kiss-clatter-v2.png",
+      "web": "public/assets/book-two-chapter-20-kiss-clatter-v2.webp",
+      "generatedSource": "/workspace/generated_images/exec-cde88e0a-29eb-44da-9250-a65e33d966af.png",
+      "revisionInstructions": "Author-requested actual fall onto sidewalk with banana peel on head. Jenny crouches to help; Fist remains safely supported by Billy. Exact edit/provenance in book-two-chapter-20-kiss-revision.json.",
+      "supersededOriginal": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-kiss-clatter-v1.png",
+      "supersededWeb": "public/assets/book-two-chapter-20-kiss-clatter-v1.webp"
     }
   ],
   "optionalSeventh": {
