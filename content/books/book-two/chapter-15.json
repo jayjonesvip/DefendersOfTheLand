@@ -184,6 +184,14 @@
     },
     {
       "type": "prose",
+      "text": "“The collector isn’t finished,” Luke said. “Why are we trying to catch him now?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Because a body like his may not come through that door twice,” Daniel said. “First I secure him. Then the fireball’s energy and the rest of the equipment.”"
+    },
+    {
+      "type": "prose",
       "text": "“Does she know what you did?” he asked."
     },
     {
@@ -204,7 +212,7 @@
     },
     {
       "type": "scene",
-      "text": "Jenny read it twice, then took it to Billy.",
+      "text": "Jenny read it twice, then took it to Billy. In his office, she shut the door before handing it over.",
       "art": "book-two-chapter-15-invitation-v1.webp",
       "alt": "Civilian reporter Jenny reads the laboratory invitation at Billy’s office desk while Billy checks his appointment notebook beside her."
     },
@@ -226,11 +234,11 @@
     },
     {
       "type": "prose",
-      "text": "Billy’s eyes narrowed. “So she’s sending you straight back to him.”"
+      "text": "Billy’s eyes narrowed. “So she’s sending you straight back to him. Jenny, he’s already endangered people. An invitation from her campaign doesn’t make him safe.”"
     },
     {
       "type": "prose",
-      "text": "“The police searched his old workshop upstairs,” Jenny said. “If he’s working underneath it now, I want to find out what he’s doing.”"
+      "text": "“This is the access we’ve been asking for,” Jenny said. “I’ll go openly, as a reporter, and write down what he shows me. If he turns threatening, I trust my feet to get me out.”"
     },
     {
       "type": "prose",
@@ -238,7 +246,7 @@
     },
     {
       "type": "prose",
-      "text": "Jenny nodded. “I’m going to ask questions, Billy.”"
+      "text": "Jenny nodded. “I’ll call.”"
     },
     {
       "type": "prose",
