@@ -10,6 +10,13 @@ async function check(){
   browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{})});
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
+  for(const file of ['paperback.html','1990-vault.html']){
+   await page.goto(base+'/'+file);
+   const text=await page.locator('main').innerText();
+   assert(text.includes('Book Two: Manuscript complete.'),`${file} reflects the manuscript status`);
+   assert(!/Book Two is in progress|while it takes shape|Book Two is coming soon/.test(text),`${file} has no stale sequel copy`);
+   assert.equal(await page.getByRole('link',{name:'Read Book Two free online →',exact:true}).getAttribute('href'),'book-two.html');
+  }
   await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
   await page.goto(base+'/book-two.html');assert(await page.locator('.contents .eyebrow').innerText().then(t=>t.includes('MANUSCRIPT COMPLETE')));assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
