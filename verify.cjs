@@ -15,6 +15,12 @@ assert(downloads.paperback.frontResolutionMeets300Dpi);assert(downloads.paperbac
 assert.equal(downloads.ebooks.length,1);assert.equal(downloads.ebookCovers.length,1);assert.equal(downloads.epub.chapters,18);assert.equal(downloads.epub.layout,'reflowable');
 for(const file of [...downloads.ebooks,...downloads.ebookCovers]){const bytes=fs.readFileSync(path.join(publishing,file.file));assert.equal(bytes.length,file.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),file.sha256);}
 assert.equal(fs.readFileSync(path.join(publishing,downloads.ebooks[0].file)).subarray(0,2).toString(),'PK');
+const bookTwoPdf=JSON.parse(fs.readFileSync(path.join(publishing,'book-two-pdf-build.json')));
+const bookTwoPdfBytes=fs.readFileSync(path.join(publishing,bookTwoPdf.file));
+assert.equal(bookTwoPdfBytes.subarray(0,5).toString(),'%PDF-');assert.equal(bookTwoPdfBytes.length,bookTwoPdf.bytes);
+assert.equal(crypto.createHash('sha256').update(bookTwoPdfBytes).digest('hex'),bookTwoPdf.sha256);
+assert.equal(bookTwoPdf.chapters,JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/book.json'))).chapters.length);
+assert(bookTwoPdf.pages>0);assert(bookTwoPdf.printLayoutIsProvisional);assert(!fs.existsSync(path.join(out,'books',bookTwoPdf.file)),'Full Book Two PDF stays private');
 const epubBuilds=JSON.parse(fs.readFileSync(path.join(publishing,'epub-builds.json'))).books;
 const expectedBooks=fs.readdirSync(path.join(__dirname,'content/books')).filter(id=>{
  const metadata=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books',id,'book.json')));

@@ -49,6 +49,8 @@ jobs:
         with:
           name: kdp-publishing-files
           path: |
+            output/publishing/defenders-of-the-land-book-two-illustrated.pdf
+            output/publishing/book-two-pdf-build.json
             output/publishing/*.epub
             output/publishing/*-ebook-cover.jpg
             output/publishing/epub-builds.json
