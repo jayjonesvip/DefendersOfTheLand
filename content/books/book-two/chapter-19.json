@@ -60,7 +60,7 @@
     },
     {
       "type": "prose",
-      "text": "Flaming Head’s expression changed. Warmth reached Billy, but no words he could understand came with it. He shook his head."
+      "text": "Flaming Head’s expression changed. Warmth reached Billy, but no words he could understand came with it. Billy shook his head."
     },
     {
       "type": "prose",
@@ -121,7 +121,7 @@
     {
       "type": "scene",
       "text": "The collector’s loose wire still lay across the bench. Its glass was empty.",
-      "art": "book-two-chapter-19-familiar-warmth-v1.webp",
+      "art": "book-two-chapter-19-familiar-warmth-v1-green.webp",
       "alt": "Seth and civilian Jenny exchange a subtle hopeful glance while all their wrist and ankle cuffs remain closed. Injured Fist lies in one locked cage beside the empty, unfinished collector; the high window shows the yard’s brick wall."
     },
     {
@@ -195,6 +195,34 @@
     {
       "type": "prose",
       "text": "Fist shifted his scuffed leather against the cage floor. Jenny glanced toward him. One eye opened, then narrowed at Luke. He had received no reminder from the window, and the effort of moving still hurt him."
+    },
+    {
+      "type": "prose",
+      "text": "“You’ll never get away with this,” Seth said."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel glanced at Seth’s cuffs. “You’re hardly in a position to stop me.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny lifted her head. “You invited me here to write about your work. I will. The gas. The locked chairs. All of it.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You won’t be writing anything.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Then stop giving me material.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth pulled his attention away from the steel long enough to look at him. “Let her go. She came here to ask questions.”"
+    },
+    {
+      "type": "prose",
+      "text": "“And she still hasn’t learned when to stop,” Daniel said."
     },
     {
       "type": "prose",

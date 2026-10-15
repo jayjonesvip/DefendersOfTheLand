@@ -1,6 +1,6 @@
 # Book Two final sweep — Chapters 1–21
 
-Base: `397856d` (main including merged Chapter 20). Book One is locked. This review reads the current Book Two prose in order, the continuity ledger, prior audit and Chapter 20 review; archived deferred prose is not used as current canon.
+Initial sweep (historical, as committed in `8f313c8`): base `397856d` (main including merged Chapter 20). Book One is locked. This review reads the current Book Two prose in order, the continuity ledger, prior audit and Chapter 20 review; archived deferred prose is not used as current canon.
 
 ## Findings and corrections
 
@@ -36,7 +36,7 @@ Base: `397856d` (main including merged Chapter 20). Book One is locked. This rev
 
 Six separately generated compositions are integrated in narrative order: street newspaper, concession, next newspaper, private call, processed basement, office belonging. Full PNG originals and optimized reader WebPs are preserved; exact prompts/references and visual review are in `docs/art/book-two-chapter-21-prompts.json`. Generated artwork is for author review, not a claim of author approval.
 
-Validation completed:
+Initial local validation at `8f313c8` (historical; this did not establish CI success):
 
 - All 89 JSON files under content/docs/print parse; metadata lists exactly Chapters 1–21. `node --check verify-book-two.cjs` and `git diff --check` pass.
 - Full `npm run build` passes with the pinned Python environment and Chromium: 24 PDF outputs validated, 50 site pages built, Book Two EPUB has 21 chapters, 1,140 manuscript passages and 57 interior illustrations, with zero missing resources. Book Two cover wrap is still explicitly PROVISIONAL at the unchanged 72-page assumption; no final interior/page-count claim is made.
@@ -45,3 +45,33 @@ Validation completed:
 - Final mobile/desktop Chapter 21 reader screenshots visually inspected. All six illustrations individually reviewed; two revised before final integration. No artwork pending generation.
 - 205 existing Book One/source, print and artwork files compared byte-for-byte against `397856d`; no changes. Final diff likewise contains no Book One or print source changes. Generated publishing outputs and QA screenshots stay outside Git.
 
+
+## Independently reviewed correction pass — PR #5
+
+The remote PR head was checked before editing and remained exactly `8f313c891736adcce982d1507fa4bc1552b4b3ad`. The initial local tests above passed, but the actual GitHub build run `38680756937` **failed** in `verify-vault.cjs` at the mobile Enter/ARIA assertion. This correction pass does not attribute that failure to manuscript prose.
+
+Focused corrections:
+
+- Chapters 1 and 19 clarify the appointment-book name and Billy’s head shake.
+- Chapter 16 moves Luke’s first appearance/waiting place to the front-room cabinet before the shelf-concealed workshop opens.
+- Chapter 19 receives the strengthened seven-paragraph captive exchange; Chapter 20 removes the repeated version and retains its doorway distraction, sightline and explicit cuff removal.
+- Chapter 21 lets Jenny hear/reply to Flaming Head directly, with Seth interpreting for Billy/Fist only; removes the author-facing wall explanation and trims duplicate evidence exposition without changing the reporting, police cooperation, Eleanor’s influence or unresolved questions. The final sentence is untouched.
+- Art review covers all 57 active Book Two chapter illustrations and current cover. Twenty chapter illustrations plus the cover have confirmed blue irises corrected in local masks; two additional Chapter 3 scenes receive local high-wall/plasma edits and green eyes. The cover changes only 111 iris pixels, preserving text, faces, anatomy and composition. Previous assets and originals remain. Lossless eye-only masters have **zero pixel differences outside the reviewed iris masks**; Seth’s eyes, Chapter 17’s wrist cuffs and Chapter 21’s grayscale masked newspaper portrait are preserved. The audit/provenance manifest records each changed asset and masks; no claim of recovered original resolution is made for WebP-only sources.
+
+Navigation investigation:
+
+- Thirty original-order trials under local Chromium 154 with CPU throttling did not randomly reproduce the failure. A controlled deferred-media-event check (now retained as `verify-navigation-race.cjs` and invoked by the CI accessibility suite) then reproduced the same observable sequence: menu visible after Enter, then `aria-expanded=false` when the queued breakpoint listener runs. The callback intentionally closes the menu on viewport changes; this establishes a test/event synchronization race consistent with the reviewed failure; no application-state defect was found.
+- The keyboard test now establishes its mobile viewport **before navigating** into each tested page, so no resize callback from the old desktop document races with Enter. It additionally waits for the intended visible/ARIA state before asserting. Escape, focus restoration, outside click, resize behavior and no-JavaScript accessibility checks all remain; no sleeps or skipped assertions.
+- Downloading the exact CI-pinned local browser was denied by the environment’s outbound policy (`cdn.playwright.dev`). Local checks use installed Chromium; the final GitHub job uses the unchanged Playwright browser-install step. Final-head CI result is reported in the PR validation summary after completion.
+
+Current local validation is recorded below; the final GitHub head and run conclusion are recorded in the PR validation summary after the push. No new story questions were introduced; the unresolved story/publication questions listed above remain deliberately open.
+
+Reader inspection also found the additional-book contents template still hardcoded “IN PROGRESS” despite complete manuscript metadata. Its label now renders the escaped metadata status (“MANUSCRIPT COMPLETE”), with an assertion in the existing Book Two reader check. This preserves the unpublished publication status and does not touch Book One’s contents template.
+
+### Correction-pass local validation
+
+- All 90 content/docs/print JSON files parse. JavaScript syntax and whitespace checks pass. Prose comparisons restrict changes to Chapters 1, 16 and 19–21; other chapter differences are asset references/alt text only. The final sentence, Chapter 20 cuff removal and first public nickname line are unchanged.
+- Full production build passes: 24 PDF outputs validated; 50 reader pages; rebuilt cover WebP, ebook cover and provisional print wrap use v5-green. Final EPUB/site refresh includes the final dialogue wording. Book Two EPUB contains 21 chapters, 1,139 passages, 57 illustrations and zero missing resources.
+- Full `npm test` passes under installed Chromium 154, including the deterministic breakpoint-race reproduction, retained keyboard/accessibility assertions, 950 links/assets, both readers, completion/resume, all six final-chapter image loads in order, 320/390/1200 px layouts and EPUB large-text layouts. EPUBCheck 5.4.0 passes both complete EPUBs and Book One’s sample with zero errors or warnings.
+- Full-resolution mask details and full training/gas/office/cover compositions inspected. Reader-rendered captures of all 22 changed chapter images, the cover and mobile training/captivity/ending scenes inspected. All earlier assets stay preserved. Each eye-only lossless master differs only within its listed local mask.
+- 210 existing Book One/art/print files compared by Git blob hash against `8f313c8` and are unchanged. The only print configuration edit selects the iris-corrected Book Two cover; trim/page-count assumptions are untouched. Publication remains unpublished, cover approval pending, and the existing wrap remains provisional.
