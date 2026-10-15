@@ -25,7 +25,7 @@ Match the cover's detailed hand-inked superhero adventure style: strong dark con
 
 For each finale illustration, inspect and supply the original cover alongside any relevant established character or chapter references. Generate a new composition for the actual scene. Chapter illustrations omit the cover title, author lettering and other cover typography. The cover is a visual reference, not a requirement to repeat its pose or composition in every scene.
 
-The finale remains in development: Jenny is trapped to lure Seth, Seth is gassed and restrained, Daniel seeks Flaming Head's energy for Skyfall, Luke hopes to regain a body, and the final chapter contains the rescue. Keep the art aligned with the final authored version of those events.
+The completed finale preserves these stakes: Jenny is trapped to lure Seth, Seth is gassed and restrained, Daniel seeks Flaming Head's energy for Skyfall, and Luke hopes to regain a body. Chapter 20 contains the rescue; Chapter 21 closes with its reporting and election consequences and the team together. Keep the art aligned with the final authored version of those events.
 
 The original v1 cover is preserved for history. The v2 cover changes Jenny to civilian clothes to match Chapter 16 and the planned continuing captivity. Do not change her into costume during captivity without an explicit authored event.
 
@@ -34,3 +34,7 @@ The v3 cover adds visibly scuffed Fist-O-Mite, a floating red boxing glove with 
 ## Basement artwork revision
 
 Fifteen laboratory scenes now have corrected sibling images: low ceiling, exposed pipes, dry brickwork, one small high yard-facing window, and the service entrance at the bottom of the alley steps. Cover v4 uses the same geometry and preserves the title/author lettering, character designs and restraint state. It is a review candidate, not a newly approved cover. Exact prompts and provenance are in `book-two-basement-prompts.json`; PNG originals are in `originals/book-two/basement-revision/`.
+
+## Final chapter — Tomorrow
+
+Chapter 21 uses the approved v3 character/style reference and relevant established civilian portraits. Its six illustrations run from Jenny’s public reporting through the concession, next-day nickname coverage, private call, permitted post-police basement visit and warm office scene. No nickname appears in the street newspaper before Eleanor’s speech. The basement equipment is absent because police collected it as evidence. The final scene has civilian Seth in his red hoodie, civilian Jenny, supported recovering Fist and Flaming Head safely beside the open window. These new illustrations are review candidates, not a claim of author approval. Narrative completion does not approve cover v4 or finalize publication/print specifications.

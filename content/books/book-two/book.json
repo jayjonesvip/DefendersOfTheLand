@@ -3,7 +3,7 @@
   "title": "Book Two",
   "number": 2,
   "author": "Jay Jones",
-  "status": "In progress",
+  "status": "Manuscript complete",
   "description": "Cleveland’s defenders have more to learn.",
   "chapters": [
     "chapter-01.json",
@@ -25,8 +25,10 @@
     "chapter-17.json",
     "chapter-18.json",
     "chapter-19.json",
-    "chapter-20.json"
+    "chapter-20.json",
+    "chapter-21.json"
   ],
   "cover": "book-two-cover-v4.png",
-  "ebookCover": "book-two-cover-v4.png"
+  "ebookCover": "book-two-cover-v4.png",
+  "publicationStatus": "Unpublished"
 }

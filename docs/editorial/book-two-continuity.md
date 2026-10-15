@@ -1,3 +1,5 @@
+> Current state: Book Two’s narrative is complete through Chapter 21, “Tomorrow.” Publication remains pending. Earlier chapter sections below record the knowledge and physical states at those points in the story; the final chapter and final-sweep report govern the ending.
+
 # Book Two continuity constraints
 
 Book One is finished and locked canon. Its manuscript, robot construction and laboratory history are unchanged. The following basement arrangement begins after its robot attack and is established in Book Two.
@@ -97,3 +99,19 @@ Chapter 20 staging clarification: before Jenny makes plasma, Seth challenges Dan
 
 
 Author follow-up supersedes the original no-fall gag: Seth now lands on his bottom after the kiss, with a banana peel on his hair. He is unhurt, shares a small laugh, accepts Jenny’s help and cleans up. The two-panel illustration uses a v2 sibling; v1 is preserved as superseded art. Fist remains safely supported by Billy throughout.
+
+## Chapter 21: Tomorrow — completed narrative
+
+Jenny checks the invitation, her eyewitness account, Daniel’s statements and the landlord’s payment history; she requests and includes the campaign’s response. The four bulbs used stored electricity, not a demonstrated city-scale source. The collector was unfinished. Jenny’s article names Super Zerdo, never his civilian name, and does not expose her own identity. Rent, campaign promotion and arranging the interview establish connections, not Eleanor’s foreknowledge of captivity, knowing robot funding or responsibility for the earlier police interference. The campaign denies authorizing detention; this is an attributed response, not narrator certification.
+
+Questions persist over the remaining weeks before election night. No working system or convincing independent results appear. Eleanor loses without a named real opponent, voting totals or a fixed date. Her concession speech contains the FIRST PUBLIC use of “Doc Dork”; only afterward do newspapers repeat the phrase beside Daniel’s photograph. Profiles and historical art-reference labels do not constitute in-story use. Claude remains uninvolved.
+
+After defeat, Daniel calls from an unidentified place with bodyless Luke nearby. Eleanor refuses all funding, rent and assistance and ends the arrangement. No new lab, project, successful collector or answer concerning Luke’s missing body is established. Eleanor retains her wealth and connections. Neither villain returns or supplies an address; their settled whereabouts are unknown.
+
+Police receive the team’s accounts after the Chapter 17 missing-person report and Chapter 20 requests for police and medical help. They photograph the basement and collect the collector, papers, cage and restraints as evidence before permitting the landlord’s later visit with Billy and civilian Jenny. Those items were left at the escape and are removed by police, not secretly reclaimed. The front-room/inner-door route, dry brickwork, high yard window and overhead pipes remain. No further rent or return visit by Daniel occurs.
+
+The team cooperates about Daniel’s crimes and Billy’s punch. They do not launch an unsupported separate accusation that Eleanor knowingly orchestrated everything; threats warrant caution, not hidden evidence. Losing removes her immediate mayoral route without making her harmless. Unanswered links remain questions.
+
+Closing: civilian Seth in red hoodie, civilian Jenny, Billy at his desk, Fist still recovering on a cushion, Flaming Head beside the open window safely clear of curtains and papers. Seth interprets his message for Billy and Fist. A six-o’clock visit with sandwiches and tea is planned for tomorrow, with practice deferred until everyone is ready. Seth stays to talk because he enjoys their company. His family history is unchanged.
+
+Chapter 20 carried fix: after tearing an ankle cuff loose at its mounting, Seth bends that detached cuff open and removes it from his boot before opening the other and standing.
