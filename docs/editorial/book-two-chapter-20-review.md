@@ -51,3 +51,14 @@ The optional seventh image of Luke rescuing Daniel is suggested separately in th
 - Build/test outcomes are recorded in the PR description after completion.
 
 Completed checks: `BOOK_CHROMIUM=/usr/bin/chromium npm run build`, followed by the EPUB/site refresh for final alt text and artwork, and `BOOK_CHROMIUM=/usr/bin/chromium npm test` all passed. The complete test run verified 49 pages, 928 links/assets, both books' full EPUBs, public-sample restrictions, image loading, navigation, saved progress and desktop/mobile layouts. The Book Two EPUB contains 20 chapters and 51 interior illustrations. Final mobile reader screenshot was visually checked after the street-scene correction. Generated build outputs remain excluded from Git.
+
+
+## Author staging follow-up
+
+Added the early Seth/Daniel/Jenny reporting exchange before plasma. Luke watches the captives during it, then moves to listen to Billy. Daniel now explicitly opens the partly open service door wide, steps into the threshold to urge Billy to leave, and remains within normal arm’s reach of Billy on the yard landing. Billy lands his single punch before Daniel can step back inside. Daniel falls across that doorway with head/shoulders on the landing; Luke later sees him only after descending over the yard. The same doorway is used for the coat rescue.
+
+Re-read Chapter 17: “then stepped out to open the high window for Luke” is explicit. No closing follows in Chapters 18–19. Retained this established open state instead of adding an unnecessary exterior sash action. Reinspected both relevant illustrations: the surprise-punch scene shows a swung-open glass pane above the damaged cage; the punch scene shows Billy on the yard landing, Daniel at the open threshold and a wide-open door, with ordinary arm’s reach and the steps/retaining wall visible. Images remain unchanged; alt text now states those visible details.
+
+Staging follow-up validation: all content JSON parses; refreshed EPUB and site builds pass with the revised exchange and alt text. Book One and Chapter 19 source still compare unchanged against main. `git diff --check` passes.
+
+The full `BOOK_CHROMIUM=/usr/bin/chromium npm test` run also passed after the staging revision, including rendered Chapter 20 prose/art, navigation, progress, EPUB and desktop/mobile checks.
