@@ -15,8 +15,9 @@ async function check(){
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
   const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));
-  await page.locator('.chapter-body img').evaluate(img=>{img.loading='eager';return img.decode()});
-  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Book Two chapter overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluate(img=>img.naturalWidth>0));}
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-01-quiet-kitchen-v1.webp','assets/book-two-chapter-01-tutoring-graduation.webp']);
+  await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
+  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Book Two chapter overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.locator('[data-font="+"]').click();assert.equal(await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--prose-size')),'22px');await page.locator('#focus').click();assert.equal(await page.locator('#focus').innerText(),'Exit focus');await page.locator('#focus').click();
   await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-1-mobile.png'),fullPage:false});
   await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-1-desktop.png'),fullPage:false});

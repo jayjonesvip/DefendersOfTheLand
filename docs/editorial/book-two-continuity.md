@@ -2,6 +2,14 @@
 
 Book One is finished and locked canon. Its manuscript, robot construction and laboratory history are unchanged. The following basement arrangement begins after its robot attack and is established in Book Two.
 
+## Seth’s family and belonging — Chapter 1
+
+Author-approved backstory: Seth’s mother hated living in Cleveland. When Seth was fourteen, she left to live with her sister in California. Since leaving, she sends a birthday card every year and calls him on Christmas. Neither her name nor his parents’ marital status, custody arrangements or additional family history is established. Her dislike of living in Cleveland does not establish that she hated Seth.
+
+His father is quiet, hardworking and employed at a steel mill. Long hours keep him away from home much of the time. His absence comes from work; no cruelty, indifference, alcoholism or abandonment is established. Chapter 1’s quiet kitchen scene shows Seth doing homework while his father is still at work, with a kept birthday card nearby rather than a birthday celebration taking place.
+
+Seth feels lonely both at home and at school. His new friends, the Defenders, give him companionship and belonging. Billy’s repeated tutoring appointments matter because someone expects Seth and makes time for him. These connections support the schoolwork story; Seth still earns graduation through sustained practice, study and his own examination work. The existing tutoring/graduation illustration and exact ending remain intact. His father’s graduation attendance is unspecified, with no reunion or deliberate refusal to attend added. This background does not explain or alter Seth’s strength or concentration rules; Book One and other chapters remain unchanged by this revision.
+
 ## Hidden basement workshop and routes
 
 Author-confirmed: police searched Daniel’s original upstairs laboratory after the robot attack and found him gone. Daniel secretly returned beneath the same building. Luke’s iron jaws chewed through a disused drain and intervening masonry to make a concealed route from the sewer tunnels. Its opening is above the sewer water; the workshop stays dry. Rent preserves Daniel’s keys/access and lets him keep the upstairs shuttered and apparently abandoned. Book One’s robot was built upstairs, never retroactively in this basement.
