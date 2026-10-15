@@ -33,7 +33,12 @@ else:
             configs.append({'sourceChapter': filename, 'displayChapterNumber': chapter['number'],
                             'openingArtwork': None, 'illustrations': {}})
 assert configs, 'No available chapters to export'
-assert [c['displayChapterNumber'] for c in configs] == list(range(1, len(configs) + 1)), 'Invalid chapter order'
+numbers = [c['displayChapterNumber'] for c in configs]
+if is_origins:
+    assert numbers == list(range(1, len(configs) + 1)), 'Invalid chapter order'
+else:
+    assert all(type(n) is int and n > 0 for n in numbers), 'Invalid chapter number'
+    assert all(a < b for a, b in zip(numbers, numbers[1:])), 'Invalid chapter order'
 if sample:
     configs = configs[:3]
     assert len(configs) == 3, 'Book One sample needs three chapters'

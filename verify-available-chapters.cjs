@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const {availableChapters}=require('./scripts/available-chapters.cjs');
+const entries={first:{number:1,available:true},middle:{number:2,available:false},last:{number:3,available:true}};
+const select=files=>availableChapters({id:'fixture',chapters:files},file=>entries[file]);
+assert.deepEqual(select(['first','middle','last']),[entries.first,entries.last]);
+assert.equal(select(['middle','last'])[0].number,3,'Do not renumber after filtering');
+assert.deepEqual(select(['middle']),[]);
+assert.throws(()=>select(['last','first']),/Invalid chapter order/);
+assert.throws(()=>select(['first','first']),/Invalid chapter order/);
+console.log('PASS: unavailable chapters leave numbering gaps; metadata order and duplicate checks remain enforced.');
