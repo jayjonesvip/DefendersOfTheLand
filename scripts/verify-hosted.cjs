@@ -11,9 +11,12 @@ async function get(file){const response=await fetch(new URL(file,`${base}/`));as
  for(const location of locations){
   const pathname=new URL(location).pathname,file=pathname.slice(rootPath.length)||'index.html';
   const html=await(await get(file)).text();assert(html.includes('Defenders of the Land'),file);assert(!html.includes('http://127.0.0.1'),file);assert(!html.includes('Download chapter PDF'),file);
-  for(const match of html.matchAll(/\bsrc="([^"]+)"/g)){
-   const resource=new URL(match[1],`${base}/${file}`);
-   if(resource.origin===new URL(base).origin)resources.add(resource.href);
+  for(const match of html.matchAll(/\b(src|srcset)=(["'])(.*?)\2/g)){
+   const urls=match[1]==='srcset'?match[3].split(',').map(candidate=>candidate.trim().split(/\s+/)[0]):[match[3]];
+   for(const url of urls.filter(Boolean)){
+    const resource=new URL(url,`${base}/${file}`);
+    if(resource.origin===new URL(base).origin)resources.add(resource.href);
+   }
   }
   assert(html.includes(`<link rel="canonical" href="${location}"`),file);assert(html.includes('application/ld+json'),file);
   if(['index.html','paperback.html','downloads.html','origins.html','books.html'].includes(file)){assert(html.includes(`href="${site.paperback.url}"`),file);assert(html.includes(`href="${site.ebook.url}"`),file);}
