@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen.imagegen",
+  "date": "2026-10-14",
+  "images": [
+    {
+      "scene": "nobody-waiting",
+      "original": "docs/art/originals/book-two/chapter-19/book-two-chapter-19-nobody-waiting-v1.png",
+      "web": "public/assets/book-two-chapter-19-nobody-waiting-v1.webp",
+      "references": [
+        "public/assets/book-two-chapter-18-billy-approach-v2.webp",
+        "public/assets/book-two-chapter-17-door-v2.webp"
+      ],
+      "prompt": "Use case: illustration-story. Asset: new landscape 1536x1024 narrative comic illustration for Book Two Chapter 19, not a cover. Match the supplied character identity references and existing warm hand-inked comic style: firm dark contours, crosshatched textured shading, amber electrical lamps and navy shadows. No typography, captions, speech balloons or watermark. Preserve modest established eye/face proportions. Scene constraints: dry hidden basement, low ceiling/pipes, small narrow HIGH window facing only a sunken yard's brick retaining wall. No city skyline visible from the basement, no panoramic windows, no extra person/cage, no operating table, no successful transfer or rescue. Flaming Head is not shown in any of these three images. All cuffs remain CLOSED and attached to the chairs. Input 1 is Billy's exact identity/clothing/proportions reference ONLY. Input 2 is the actual building basement entrance geography, NOT an instruction to include Seth or Jenny. Compose a NEW scene from the TOP of the alley steps, over/alongside SMALL Billy in his plaid deerstalker, high-collared tan belted trench coat, dark trousers and black shoes. Billy stands at the top cautiously looking DOWN the steps into a visibly deep EMPTY sunken brick service yard. At the bottom a flat yard landing leads into a CLOSED plain metal basement service door with modest outside lamp; the steps DESCEND from Billy to the yard, never rise from the yard to the door. No person waiting on stairs/yard, no glove overhead, no silhouettes/captive visible through masonry, no open door or view into laboratory. Daylight, rough brick retaining walls, small floor drain, restrained suspense. Billy's expressive eyes visible above coat collar, cautious slightly leaning posture, hands not reaching for door."
+    },
+    {
+      "scene": "familiar-warmth",
+      "original": "docs/art/originals/book-two/chapter-19/book-two-chapter-19-familiar-warmth-v1.png",
+      "web": "public/assets/book-two-chapter-19-familiar-warmth-v1.webp",
+      "references": [
+        "public/assets/book-two-chapter-18-captives-v3.webp",
+        "public/assets/book-two-cover-v4.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: new landscape 1536x1024 narrative comic illustration for Book Two Chapter 19, not a cover. Match the supplied character identity references and existing warm hand-inked comic style: firm dark contours, crosshatched textured shading, amber electrical lamps and navy shadows. No typography, captions, speech balloons or watermark. Preserve modest established eye/face proportions. Scene constraints: dry hidden basement, low ceiling/pipes, small narrow HIGH window facing only a sunken yard's brick retaining wall. No city skyline visible from the basement, no panoramic windows, no extra person/cage, no operating table, no successful transfer or rescue. Flaming Head is not shown in any of these three images. All cuffs remain CLOSED and attached to the chairs. Input 1 is primary spatial/captive identity reference; input 2 is character/style/equipment reference ONLY, do not reproduce title or add its cast. NEW interior composition: restrained Seth and civilian Jenny exchange a small subtle hopeful sideways glance, with mouths CLOSED. Both still recovering/tired, no celebratory pose. Seth same messy brown hair, red mask, blue suit/red Z/gloves/boots. Adult Jenny same long loose golden blond hair/face, opaque white blouse, modest pink knee-length skirt, bare hands, black ordinary closed shoes; no mask/superhero costume. Clearly show FOUR intact broad closed riveted steel cuffs on EACH person's wrists/ankles, TWO separate angled metal restraint chairs. One injured red boxing glove Fist with eyes, scuffed/torn leather and torn EMPTY white cuff lies low INSIDE ONE securely closed padlocked bird cage on bench, no limbs and no duplicate cage. Include EMPTY clear glass cylindrical unfinished collector with loose disconnected wires behind them, no inner glow/silhouette/person. Small high window shows only yard brick/sliver daylight; nobody visible there. Warmth is an invisible narrative communication: NO visible orange beams, glowing face, flame, halo, air lettering or conspicuous glow inside. Daniel and Luke are off-frame. Only Seth/Jenny/Fist appear. Glass protected booth may be empty in distant background. Hands remain secured, feet stay within closed cuffs, no plasma."
+    },
+    {
+      "scene": "one-edge",
+      "original": "docs/art/originals/book-two/chapter-19/book-two-chapter-19-one-edge-v1.png",
+      "web": "public/assets/book-two-chapter-19-one-edge-v1.webp",
+      "references": [
+        "public/assets/book-two-chapter-18-captives-v3.webp",
+        "public/assets/book-two-cover-v4.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: new landscape 1536x1024 narrative comic illustration for Book Two Chapter 19, not a cover. Match the supplied character identity references and existing warm hand-inked comic style: firm dark contours, crosshatched textured shading, amber electrical lamps and navy shadows. No typography, captions, speech balloons or watermark. Preserve modest established eye/face proportions. Scene constraints: dry hidden basement, low ceiling/pipes, small narrow HIGH window facing only a sunken yard's brick retaining wall. No city skyline visible from the basement, no panoramic windows, no extra person/cage, no operating table, no successful transfer or rescue. Flaming Head is not shown in any of these three images. All cuffs remain CLOSED and attached to the chairs. Input 1 defines Seth's EXACT identity and steel restraint hardware. Input 2 defines Luke's bodyless blond head and iron jaws, plus inking style ONLY. NEW close composition, quietly tense: foreground Seth's RED-GLOVED hand and wrist are still INSIDE a fully CLOSED broad RIVETED STEEL WRIST CUFF, anchored firmly around the chair armrest. His thumb/fingers press with CONTROL against ONE EDGE of the cuff; show only a SLIGHT LOCAL OUTWARD BOW of intact steel, a few millimeters, not a crack/break/gap/hinge opening. Cuff stays a COMPLETE CLOSED LOOP around wrist, his hand cannot slip out, no exposed freed wrist, no detached cuff or flying fragments, no restraint magically biting his palm. Include enough of Seth's face/red eye mask at left to show controlled still expression and messy brown hair, blue suit with red Z partly visible. Other wrist/ankles remain secured if visible. Background softly readable: Luke's floating spiky BLOND head with riveted iron BEAR-TRAP JAWS and pointed metal teeth turns toward Seth, puzzled watchful eyes, ABSOLUTELY NO neck, body, torso, arms or legs. Keep clear empty air BELOW Luke's jaw. Basement brick/pipes, subdued amber lamp. Only Seth and Luke; Jenny/Fist/Daniel off-frame. No plasma, glow, strength aura, sound effect or freed hand."
+    }
+  ]
+}
