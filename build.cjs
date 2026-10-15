@@ -10,8 +10,8 @@ const configs=fs.readdirSync(path.join(root,'print')).filter(f=>f==='sample.json
 const chapters=configs.map(config=>({...read(`content/books/${book.id}/${config.sourceChapter}`),number:config.displayChapterNumber,config}));
 const additionalBooks=fs.readdirSync(path.join(root,'content/books')).filter(id=>id!==book.id).map(id=>{
  const metadata=read(`content/books/${id}/book.json`);
- const entries=metadata.chapters.map(file=>read(`content/books/${id}/${file}`)).filter(c=>c.available);
- if(metadata.id!==id||entries.some((c,i)=>c.number!==i+1))throw Error(`Invalid chapter order in ${id}`);
+ const entries=require('./scripts/available-chapters.cjs').availableChapters(metadata,file=>read(`content/books/${id}/${file}`));
+ if(metadata.id!==id)throw Error(`Invalid book id in ${id}`);
  return {...metadata,entries};
 }).filter(b=>b.entries.length).sort((a,b)=>a.number-b.number);
 const bookCounts={[book.id]:chapters.length,...Object.fromEntries(additionalBooks.map(b=>[b.id,b.entries.length]))};

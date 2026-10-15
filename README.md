@@ -129,4 +129,6 @@ PR #5’s focused correction pass moves the captive exchange into Chapter 19, fi
 
 ## Automated Book Two PDF
 
+The PDF follows `book.json` order and includes only available chapters, retaining their original numbers when unavailable entries leave gaps. The site builder applies the same ordering validation; neither requires the filtered chapters to be numbered consecutively.
+
 `npm run build` now also produces the full illustrated review PDF at `output/publishing/defenders-of-the-land-book-two-illustrated.pdf`. GitHub Actions includes it and `book-two-pdf-build.json` in the existing **kdp-publishing-files** artifact on each PR/main build. The report records the actual rendered page count, chapter starts, 57 interior illustrations, validated passages and SHA-256. The PDF includes its front cover, title and contents pages; this count is distinct from an approved paperback interior count. Its 6 × 9 review layout and the existing cover-wrap assumptions remain provisional. The full PDF is private and adds no public download or purchase link. Book One’s PDF exporter is unchanged.

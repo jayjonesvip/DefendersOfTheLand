@@ -3,8 +3,8 @@ const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const book=read('content/books/book-two/book.json'),manifest=read('image-manifest.json');
-const chapters=book.chapters.map(f=>read('content/books/book-two/'+f)).filter(c=>c.available);
-if(!chapters.length||chapters.some((c,i)=>c.number!==i+1))throw Error('Invalid Book Two chapter order');
+const chapters=require('./available-chapters.cjs').availableChapters(book,f=>read('content/books/book-two/'+f));
+if(!chapters.length)throw Error('No available Book Two chapters');
 const tmp=path.join(root,'tmp/book-two-pdf');fs.mkdirSync(tmp,{recursive:true});
 const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const expected=[],art=[];

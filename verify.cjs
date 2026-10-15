@@ -1,5 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const out=path.join(__dirname,'dist');let links=0;
+require('./verify-available-chapters.cjs');
 require('./verify-seo.cjs').check();
 for(const f of fs.readdirSync(out).filter(x=>x.endsWith('.html'))){const html=fs.readFileSync(path.join(out,f),'utf8');assert.equal((html.match(/<h1[ >]/g)||[]).length,1,f+' must have one h1');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split(/[?#]/)[0];if(/^(https?:|data:)/.test(ref))continue;assert(fs.existsSync(path.join(out,ref)),`${f}: missing ${ref}`);links++}assert(!html.includes('Blackwell_Family_Character_Files'));assert(!html.includes('PROJECT BLACKOUT BANSHEE'));}
 const publicDownloads=JSON.parse(fs.readFileSync(path.join(out,'books/downloads.json')));
@@ -19,7 +20,9 @@ const bookTwoPdf=JSON.parse(fs.readFileSync(path.join(publishing,'book-two-pdf-b
 const bookTwoPdfBytes=fs.readFileSync(path.join(publishing,bookTwoPdf.file));
 assert.equal(bookTwoPdfBytes.subarray(0,5).toString(),'%PDF-');assert.equal(bookTwoPdfBytes.length,bookTwoPdf.bytes);
 assert.equal(crypto.createHash('sha256').update(bookTwoPdfBytes).digest('hex'),bookTwoPdf.sha256);
-assert.equal(bookTwoPdf.chapters,JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/book.json'))).chapters.length);
+const availableBookTwo=require('./scripts/available-chapters.cjs').availableChapters(JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/book.json'))),file=>JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two',file))));
+assert.equal(bookTwoPdf.chapters,availableBookTwo.length);
+assert.deepEqual(bookTwoPdf.chapterStarts.map(chapter=>chapter.number),availableBookTwo.map(chapter=>chapter.number));
 assert(bookTwoPdf.pages>0);assert(bookTwoPdf.printLayoutIsProvisional);assert(!fs.existsSync(path.join(out,'books',bookTwoPdf.file)),'Full Book Two PDF stays private');
 const epubBuilds=JSON.parse(fs.readFileSync(path.join(publishing,'epub-builds.json'))).books;
 const expectedBooks=fs.readdirSync(path.join(__dirname,'content/books')).filter(id=>{
