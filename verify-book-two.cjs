@@ -11,7 +11,7 @@ async function check(){
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
   await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
-  await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 19 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),19);
+  await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),20);
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
   const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));
@@ -148,10 +148,21 @@ async function check(){
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 19 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.locator('.chapter-body img').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(qa,'book-two-chapter-19-mobile.png'),fullPage:false});
   await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-19-desktop.png'),fullPage:false});
-  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'19 of 19 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-19.html');
-  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));assert.deepEqual(state.read,['origins:4','book-two:1','book-two:2','book-two:3','book-two:4','book-two:5','book-two:6','book-two:7','book-two:8','book-two:9','book-two:10','book-two:11','book-two:12','book-two:13','book-two:14','book-two:15','book-two:16','book-two:17','book-two:18','book-two:19']);assert.equal(state.positions['origins:4'],.35);
+  assert.equal(await page.locator('.chapter-ending a').last().getAttribute('href'),'book-two-chapter-20.html');
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-20.html');assert.equal(await page.locator('h1').innerText(),'One Good Punch');
+  const chapterTwenty=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-20.json')));
+  assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterTwenty.blocks.map(b=>b.text).join('\n'));
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),chapterTwenty.blocks.filter(b=>b.art).map(b=>'assets/'+b.art));
+  assert.equal(await page.locator('.chapter-body img').count(),6);
+  await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
+  assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-19.html');
+  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 20 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
+  await page.setViewportSize({width:390,height:850});await page.locator('.chapter-body img').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(qa,'book-two-chapter-20-mobile.png'),fullPage:false});
+  await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-20-desktop.png'),fullPage:false});
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'20 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-20.html');
+  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));assert.deepEqual(state.read,['origins:4','book-two:1','book-two:2','book-two:3','book-two:4','book-two:5','book-two:6','book-two:7','book-two:8','book-two:9','book-two:10','book-two:11','book-two:12','book-two:13','book-two:14','book-two:15','book-two:16','book-two:17','book-two:18','book-two:19','book-two:20']);assert.equal(state.positions['origins:4'],.35);
   await page.goto(base+'/origins.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'1 of 18 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'origins-chapter-4.html');
-  await page.goto(base+'/origins-chapter-4.html');await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'19 of 19 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-19.html');
+  await page.goto(base+'/origins-chapter-4.html');await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'20 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-20.html');
   for(const file of ['index.html','books.html','book-two.html']){await page.goto(base+'/'+file);for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${file} overflow at ${width}`);}}
   await page.setViewportSize({width:1200,height:900});await page.goto(base+'/books.html');await page.screenshot({path:path.join(qa,'book-library-desktop.png'),fullPage:true});assert.deepEqual(errors,[]);
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r))}

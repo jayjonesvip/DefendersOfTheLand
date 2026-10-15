@@ -1,0 +1,73 @@
+{
+  "chapter": 20,
+  "status": "Generated, visually reviewed; review candidates pending author review",
+  "references": [
+    "public/assets/book-two-cover-v3.png",
+    "public/assets/book-two-chapter-19-familiar-warmth-v1.webp",
+    "public/assets/book-two-chapter-19-nobody-waiting-v1.webp",
+    "public/assets/character-flaming-head-v1.png"
+  ],
+  "illustrations": [
+    {
+      "id": "steady-light",
+      "title": "A Small, Steady Light",
+      "prompt": "New landscape story illustration, detailed hand-inked superhero chapter-book comic style matching references, crosshatching, textured color, dark contours, amber light/navy shadows. No text, typography or speech balloons. Match exact character identities from reference cover, but never copy its skyline basement geometry or glowing collector. Close low three-quarter view in dry brick basement, low pipes. Civilian Jenny long wavy golden blonde hair, white blouse, modest pink skirt, ordinary black shoes, BOTH bare wrists secured to chair armrests by broad steel cuffs. Both ankle cuffs still attached. Small plasma bead just beneath her moving shoe toe heats ONLY the projecting OUTER fastening of one ankle cuff, clear gap from bare skin/shoe/skirt. Careful concerned expression, tiny localized heat. Restrained masked Seth blue suit red Z/gloves/boots in background, all four cuffs closed. Only these two people, villains off-frame. No beams from hands or telekinesis.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-steady-light-v1.png",
+      "web": "public/assets/book-two-chapter-20-steady-light-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-ad6cb39e-cd91-48aa-abdb-f5220976154f.png",
+      "revisionInstructions": "Remove the invented foreground torch/pipe. Keep all cuffs closed and place a tiny foot-generated plasma ball beside the outer ankle fastening, clear of skin and clothes."
+    },
+    {
+      "id": "opening",
+      "title": "An Opening for Fist",
+      "prompt": "Landscape hand-inked chapter-book superhero comic, dark contours crosshatching textured color amber light/navy shadows, same established identities as reference cover. No text/speech/typography. Basement if shown has low brick walls and pipes, only small high yard-facing window; no skyline basement windows. Civilian Jenny long wavy golden blond hair white blouse modest pink knee skirt ordinary black shoes, both WRISTS secured to chair armrests by broad riveted cuffs, both legs FREE and ankle cuffs hanging open. One careful kick sends ONE small plasma ball to UPPER FAR corner of ONE bird cage on bench; localized bars glow/sag starting opening. ONE injured red glove expressive eyes scuffed creased leather torn EMPTY white cuff lies at bottom well BELOW heat. No glove outside cage, no duplicates, villains off-frame. Coherent single instant.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-opening-v1.png",
+      "web": "public/assets/book-two-chapter-20-opening-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-fa6dbb77-612b-4554-91f4-3c62a06daef2.png",
+      "revisionInstructions": "Remove the cuff still encircling Jenny lower ankle; leave an empty open cuff hanging from the chair. Both wrists remain attached. Use a compact projectile and dotted trajectory at the upper cage corner."
+    },
+    {
+      "id": "surprise",
+      "title": "The Surprise Punch",
+      "prompt": "Landscape hand-inked chapter-book superhero comic, dark contours crosshatching textured color amber light/navy shadows, same established identities as reference cover. No text/speech/typography. Basement if shown has low brick walls and pipes, only small high yard-facing window; no skyline basement windows. Close dynamic instant: ONE battered floating red boxing glove Fist, expressive eyes scuffed creased leather and torn EMPTY white cuff, strikes SIDE of floating Luke iron bear-trap jaw as Luke turns surprised. Luke spiky blond hair, head ONLY with iron jaws, NO neck/body/limbs. Behind ONE cage has cooled sagging upper corner opening large enough for glove. Small high window pane swung clear, brick yard beyond. No other characters, no gore/impact text.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-surprise-v1.png",
+      "web": "public/assets/book-two-chapter-20-surprise-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-b4835bd2-9a54-438b-b0c7-32cac41bd8ef.png"
+    },
+    {
+      "id": "two-against-one",
+      "title": "Two Against One",
+      "prompt": "Landscape hand-inked chapter-book superhero comic, dark contours crosshatching textured color amber light/navy shadows, same established identities as reference cover. No text/speech/typography. Basement if shown has low brick walls and pipes, only small high yard-facing window; no skyline basement windows. Above Cleveland roofs, sunken brick service yard steps visible far below. Floating blond spiky HEAD Luke iron bear-trap jaws center facing bodyless fiery face Flaming Head upper left ahead, ONE battered floating red boxing glove Fist behind Luke at LOWER height right tilted unevenly with scuffed creased leather torn white EMPTY cuff. All three separated in space, absolutely no neck/body/limbs on any. No beams or dialogue. Flaming Head match separate reference.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-two-against-one-v1.png",
+      "web": "public/assets/book-two-chapter-20-two-against-one-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-13605cba-74b2-46a3-9116-8ce03099ba06.png",
+      "revisionInstructions": "Replace the entire indoor background with outdoor daytime Cleveland rooftops and open sky; Fist lower behind Luke; no ceiling or laboratory fixtures. Flaming Head focused, no beams."
+    },
+    {
+      "id": "punch",
+      "title": "One Good Punch",
+      "prompt": "Landscape hand-inked chapter-book superhero comic, dark contours crosshatching textured color amber light/navy shadows, same established identities as reference cover. No text/speech/typography. Basement if shown has low brick walls and pipes, only small high yard-facing window; no skyline basement windows. At open basement metal service doorway in sunken brick yard with stone steps. Small detective Billy plaid deerstalker tan trench coat HIGH collar covering lower face delivers exactly ONE ordinary right-hand punch to SIDE of short Daniel's face as Daniel twists back toward inside workshop. Daniel thinning wispy white hair enormous round glasses white lab coat dark tie. Exactly two humans, two arms each, no extra fists or superhero physique. Non-graphic, no blood. Location clear.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-punch-v1.png",
+      "web": "public/assets/book-two-chapter-20-punch-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-c42d02db-d863-427f-b81f-95a2688b18d2.png",
+      "revisionInstructions": "Move both figures outside beside the service threshold; brick yard and steps behind Billy, dark front room behind Daniel. Daniel short, bald crown with wispy side tufts. Single ordinary punch."
+    },
+    {
+      "id": "kiss-clatter",
+      "title": "The Kiss and the Clatter",
+      "prompt": "Edit this two-panel chapter-book illustration, retaining exact inked style, faces, costumes, daylight street/shopfront location and LEFT PANEL cheek kiss unchanged. REPLACE RIGHT PANEL with AFTER THE TUMBLE: masked Seth is sitting flat on the SIDEWALK GROUND, bottom on pavement, both legs out in front, red boots visible, blue suit with red Z and red gloves. He is visibly blushing, surprised but unhurt, eyes open. ONE yellow BANANA PEEL has fallen from the tipped garbage can and rests draped across the TOP OF HIS BROWN HAIR, nowhere near eyes. A few dry paper scraps and the can lid lie beside the tipped can. NO disgusting waste, injury, blood, bruises or impact star. Jenny white blouse pink knee skirt black shoes crouches beside him, offers her bare hand to help him up, warm gentle smile not mocking. Exactly two arms/two legs each. Billy nearby continues safely cradling ONE battered red boxing glove Fist on folded coat fabric, torn empty white cuff, never drops him. Bodyless Flaming Head overhead. Keep both panels SAME street-level sidewalk beside shop window, not basement yard. NO speech/text. Affectionate restrained physical comedy. No second Seth within right panel, no duplication except natural same cast across two panels.",
+      "original": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-kiss-clatter-v2.png",
+      "web": "public/assets/book-two-chapter-20-kiss-clatter-v2.webp",
+      "generatedSource": "/workspace/generated_images/exec-cde88e0a-29eb-44da-9250-a65e33d966af.png",
+      "revisionInstructions": "Author-requested actual fall onto sidewalk with banana peel on head. Jenny crouches to help; Fist remains safely supported by Billy. Exact edit/provenance in book-two-chapter-20-kiss-revision.json.",
+      "supersededOriginal": "docs/art/originals/book-two/chapter-20/book-two-chapter-20-kiss-clatter-v1.png",
+      "supersededWeb": "public/assets/book-two-chapter-20-kiss-clatter-v1.webp"
+    }
+  ],
+  "optionalSeventh": {
+    "title": "Luke Rescues His Uncle",
+    "status": "Suggested separately; not generated or required for the six-image chapter",
+    "prompt": "Exterior view down into sunken brick service yard: bodyless blond Luke lifting unconscious short Daniel by a fold at the BACK of white lab coat, iron teeth visibly separated from flesh/neck. Billy below by open service doorway, fiery bodyless Flaming Head and scuffed injured Fist above. No speech, gore, recovered body or duplicate character; match established hand-inked character references."
+  },
+  "stagingFollowup": "Reinspected existing surprise and punch illustrations against author clarification: high window pane open, service door wide open, Daniel at threshold within normal arm reach, Billy on flat yard landing. Images retained; actual-image alt text clarified. Chapter 17 explicitly opens the window for Luke return, with no later closing."
+}

@@ -1,0 +1,8 @@
+{
+  "scene": "The Kiss and the Clatter",
+  "version": 2,
+  "prompt": "Edit this two-panel chapter-book illustration, retaining exact inked style, faces, costumes, daylight street/shopfront location and LEFT PANEL cheek kiss unchanged. REPLACE RIGHT PANEL with AFTER THE TUMBLE: masked Seth is sitting flat on the SIDEWALK GROUND, bottom on pavement, both legs out in front, red boots visible, blue suit with red Z and red gloves. He is visibly blushing, surprised but unhurt, eyes open. ONE yellow BANANA PEEL has fallen from the tipped garbage can and rests draped across the TOP OF HIS BROWN HAIR, nowhere near eyes. A few dry paper scraps and the can lid lie beside the tipped can. NO disgusting waste, injury, blood, bruises or impact star. Jenny white blouse pink knee skirt black shoes crouches beside him, offers her bare hand to help him up, warm gentle smile not mocking. Exactly two arms/two legs each. Billy nearby continues safely cradling ONE battered red boxing glove Fist on folded coat fabric, torn empty white cuff, never drops him. Bodyless Flaming Head overhead. Keep both panels SAME street-level sidewalk beside shop window, not basement yard. NO speech/text. Affectionate restrained physical comedy. No second Seth within right panel, no duplication except natural same cast across two panels.",
+  "reference": "public/assets/book-two-chapter-20-kiss-clatter-v1.webp",
+  "generatedSource": "/workspace/generated_images/exec-cde88e0a-29eb-44da-9250-a65e33d966af.png",
+  "review": "Visually inspected: same street and costumes, cheek kiss retained; second panel seated Seth with banana peel on brown hair, Jenny offering help, tipped can/lid/paper, Billy supporting injured Fist and Flaming Head nearby."
+}
