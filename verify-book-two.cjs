@@ -11,7 +11,7 @@ async function check(){
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
   await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
   await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
-  await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),20);
+  await page.goto(base+'/book-two.html');assert(await page.locator('.contents .eyebrow').innerText().then(t=>t.includes('MANUSCRIPT COMPLETE')));assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
   const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));
@@ -25,7 +25,7 @@ async function check(){
   const chapterTwo=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-02.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterTwo.blocks.map(b=>b.text).filter(Boolean).join('\n'));
   assert.deepEqual(await page.locator('.scene-heading').allTextContents(),['Jenny’s Practice','Seth’s Practice']);
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-02-jenny-practice-face-v2.webp','assets/book-two-chapter-02-seth-practice-face-v2.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-02-jenny-practice-face-v2-green.webp','assets/book-two-chapter-02-seth-practice-face-v2-green.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   assert(await page.locator('.chapter-body').evaluate(body=>{const headings=body.querySelectorAll('h2'),figures=body.querySelectorAll('figure');return !!(headings[0].compareDocumentPosition(figures[0])&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(figures[0].compareDocumentPosition(headings[1])&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(headings[1].compareDocumentPosition(figures[1])&Node.DOCUMENT_POSITION_FOLLOWING)}));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 2 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
@@ -34,7 +34,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-3.html');assert.equal(await page.locator('h1').innerText(),'Room to Breathe');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-2.html');
   const chapterThree=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-03.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterThree.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-03-rooftop-talk-face-v2.webp','assets/book-two-chapter-03-seth-success-face-v2.webp','assets/book-two-chapter-03-jenny-training-rear-face-v2.webp','assets/book-two-chapter-03-jenny-success-face-v2.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp','assets/book-two-chapter-03-seth-success-face-v2-green.webp','assets/book-two-chapter-03-jenny-training-wall-green-v3.webp','assets/book-two-chapter-03-jenny-success-wall-green-v3.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 3 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-3-mobile.png'),fullPage:false});
@@ -50,7 +50,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-5.html');assert.equal(await page.locator('h1').innerText(),'Words and Actions');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-4.html');
   const chapterFive=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-05.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterFive.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-05-larry-advice.webp','assets/book-two-chapter-05-reporting-rounds.webp','assets/book-two-chapter-05-new-shoes.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-05-larry-advice-green.webp','assets/book-two-chapter-05-reporting-rounds-green.webp','assets/book-two-chapter-05-new-shoes-green.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 5 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-5-mobile.png'),fullPage:false});
@@ -58,7 +58,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-6.html');assert.equal(await page.locator('h1').innerText(),'Where the Water Leads');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-5.html');
   const chapterSix=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-06.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterSix.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-06-perch-farewell.webp','assets/book-two-chapter-06-lake-superior-sunset.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-06-perch-farewell-green.webp','assets/book-two-chapter-06-lake-superior-sunset.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 6 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.screenshot({path:path.join(qa,'book-two-chapter-6-mobile.png'),fullPage:false});
@@ -66,7 +66,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-7.html');assert.equal(await page.locator('h1').innerText(),'The Rent Is Due');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-6.html');
   const chapterSeven=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-07.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterSeven.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-07-landlord.webp','assets/book-two-chapter-07-newsroom-invoice-v2.webp','assets/book-two-chapter-07-campaign.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-07-landlord.webp','assets/book-two-chapter-07-newsroom-invoice-v2-green.webp','assets/book-two-chapter-07-campaign-green.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 7 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.locator('.chapter-body img').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(qa,'book-two-chapter-7-campaign-mobile.png'),fullPage:false});
@@ -86,7 +86,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-10.html');assert.equal(await page.locator('h1').innerText(),'Free Electricity');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-9.html');
   const chapterTen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-10.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterTen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-10-promise-v1.webp','assets/book-two-chapter-10-questions-v1.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-10-promise-v1-green.webp','assets/book-two-chapter-10-questions-v1.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 10 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-11.html');assert.equal(await page.locator('h1').innerText(),'The Greater Source');assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-10.html');
@@ -128,13 +128,13 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-17.html');assert.equal(await page.locator('h1').innerText(),'The Open Door');
   const chapterSeventeen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-17.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterSeventeen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-17-watch-v2.webp','assets/book-two-chapter-17-ambush-v1.webp','assets/book-two-chapter-17-injured-v1.webp','assets/book-two-chapter-17-door-v2.webp','assets/book-two-chapter-17-gas-v2.webp','assets/book-two-chapter-17-captives-v2.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-17-watch-v2.webp','assets/book-two-chapter-17-ambush-v1.webp','assets/book-two-chapter-17-injured-v1.webp','assets/book-two-chapter-17-door-v2.webp','assets/book-two-chapter-17-gas-v2-green.webp','assets/book-two-chapter-17-captives-v2-green.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 17 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-18.html');assert.equal(await page.locator('h1').innerText(),'Not Yet');
   const chapterEighteen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-18.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterEighteen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-18-captives-v3.webp','assets/book-two-chapter-18-planning-v3.webp','assets/book-two-chapter-18-billy-approach-v2.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-18-captives-v3-green.webp','assets/book-two-chapter-18-planning-v3.webp','assets/book-two-chapter-18-billy-approach-v2.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-17.html');
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 18 overflow at ${width}`);}
@@ -142,7 +142,7 @@ async function check(){
   await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-19.html');assert.equal(await page.locator('h1').innerText(),'The Empty Steps');
   const chapterNineteen=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-19.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapterNineteen.blocks.map(b=>b.text).filter(Boolean).join('\n'));
-  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-19-nobody-waiting-v1.webp','assets/book-two-chapter-19-familiar-warmth-v1.webp','assets/book-two-chapter-19-one-edge-v1.webp']);
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['assets/book-two-chapter-19-nobody-waiting-v1.webp','assets/book-two-chapter-19-familiar-warmth-v1-green.webp','assets/book-two-chapter-19-one-edge-v1.webp']);
   await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
   assert.equal(await page.locator('.chapter-ending a').first().getAttribute('href'),'book-two-chapter-18.html');
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 19 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
@@ -159,10 +159,20 @@ async function check(){
   for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 20 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
   await page.setViewportSize({width:390,height:850});await page.locator('.chapter-body img').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(qa,'book-two-chapter-20-mobile.png'),fullPage:false});
   await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-20-desktop.png'),fullPage:false});
-  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'20 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-20.html');
-  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));assert.deepEqual(state.read,['origins:4','book-two:1','book-two:2','book-two:3','book-two:4','book-two:5','book-two:6','book-two:7','book-two:8','book-two:9','book-two:10','book-two:11','book-two:12','book-two:13','book-two:14','book-two:15','book-two:16','book-two:17','book-two:18','book-two:19','book-two:20']);assert.equal(state.positions['origins:4'],.35);
+  assert.equal(await page.locator('.chapter-ending a').last().getAttribute('href'),'book-two-chapter-21.html');
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two-chapter-21.html');
+  const finalChapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-21.json')));
+  assert.equal(await page.locator('h1').innerText(),'Tomorrow');
+  assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),finalChapter.blocks.map(b=>b.text).join('\n'));
+  assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.map(img=>img.getAttribute('src'))),['streets','concession','name','call','address','belong'].map(id=>'assets/book-two-chapter-21-'+id+(id==='belong'?'-v2-green.webp':id==='address'?'-v2.webp':'-v1.webp')));
+  await page.locator('.chapter-body img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
+  for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Chapter 21 overflow at ${width}`);assert(await page.locator('.chapter-body img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));}
+  await page.setViewportSize({width:390,height:850});await page.locator('.chapter-body img').last().scrollIntoViewIfNeeded();await page.screenshot({path:path.join(qa,'book-two-chapter-21-mobile.png'),fullPage:false});
+  await page.setViewportSize({width:1200,height:900});await page.screenshot({path:path.join(qa,'book-two-chapter-21-desktop.png'),fullPage:false});
+  await page.locator('[data-complete]').click();await page.waitForURL('**/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'21 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-21.html');
+  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));assert.deepEqual(state.read,['origins:4','book-two:1','book-two:2','book-two:3','book-two:4','book-two:5','book-two:6','book-two:7','book-two:8','book-two:9','book-two:10','book-two:11','book-two:12','book-two:13','book-two:14','book-two:15','book-two:16','book-two:17','book-two:18','book-two:19','book-two:20','book-two:21']);assert.equal(state.positions['origins:4'],.35);
   await page.goto(base+'/origins.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'1 of 18 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'origins-chapter-4.html');
-  await page.goto(base+'/origins-chapter-4.html');await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'20 of 20 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-20.html');
+  await page.goto(base+'/origins-chapter-4.html');await page.goto(base+'/book-two.html');assert.equal(await page.locator('[data-book-progress]').innerText(),'21 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').getAttribute('href'),'book-two-chapter-21.html');
   for(const file of ['index.html','books.html','book-two.html']){await page.goto(base+'/'+file);for(const width of [320,390,1200]){await page.setViewportSize({width,height:850});assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${file} overflow at ${width}`);}}
   await page.setViewportSize({width:1200,height:900});await page.goto(base+'/books.html');await page.screenshot({path:path.join(qa,'book-library-desktop.png'),fullPage:true});assert.deepEqual(errors,[]);
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r))}

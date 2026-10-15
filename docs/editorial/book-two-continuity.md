@@ -1,3 +1,5 @@
+> Current state: Book Two’s narrative is complete through Chapter 21, “Tomorrow.” Publication remains pending. Earlier chapter sections below record the knowledge and physical states at those points in the story; the final chapter and final-sweep report govern the ending.
+
 # Book Two continuity constraints
 
 Book One is finished and locked canon. Its manuscript, robot construction and laboratory history are unchanged. The following basement arrangement begins after its robot attack and is established in Book Two.
@@ -97,3 +99,31 @@ Chapter 20 staging clarification: before Jenny makes plasma, Seth challenges Dan
 
 
 Author follow-up supersedes the original no-fall gag: Seth now lands on his bottom after the kiss, with a banana peel on his hair. He is unhurt, shares a small laugh, accepts Jenny’s help and cleans up. The two-panel illustration uses a v2 sibling; v1 is preserved as superseded art. Fist remains safely supported by Billy throughout.
+
+## Chapter 21: Tomorrow — completed narrative
+
+Jenny checks the invitation, her eyewitness account, Daniel’s statements and the landlord’s payment history; she requests and includes the campaign’s response. The four bulbs used stored electricity, not a demonstrated city-scale source. The collector was unfinished. Jenny’s article names Super Zerdo, never his civilian name, and does not expose her own identity. Rent, campaign promotion and arranging the interview establish connections, not Eleanor’s foreknowledge of captivity, knowing robot funding or responsibility for the earlier police interference. The campaign denies authorizing detention; this is an attributed response, not narrator certification.
+
+Questions persist over the remaining weeks before election night. No working system or convincing independent results appear. Eleanor loses without a named real opponent, voting totals or a fixed date. Her concession speech contains the FIRST PUBLIC use of “Doc Dork”; only afterward do newspapers repeat the phrase beside Daniel’s photograph. Profiles and historical art-reference labels do not constitute in-story use. Claude remains uninvolved.
+
+After defeat, Daniel calls from an unidentified place with bodyless Luke nearby. Eleanor refuses all funding, rent and assistance and ends the arrangement. No new lab, project, successful collector or answer concerning Luke’s missing body is established. Eleanor retains her wealth and connections. Neither villain returns or supplies an address; their settled whereabouts are unknown.
+
+Police receive the team’s accounts after the Chapter 17 missing-person report and Chapter 20 requests for police and medical help. They photograph the basement and collect the collector, papers, cage and restraints as evidence before permitting the landlord’s later visit with Billy and civilian Jenny. Those items were left at the escape and are removed by police, not secretly reclaimed. The front-room/inner-door route, dry brickwork, high yard window and overhead pipes remain. No further rent or return visit by Daniel occurs.
+
+The team cooperates about Daniel’s crimes and Billy’s punch. They do not launch an unsupported separate accusation that Eleanor knowingly orchestrated everything; threats warrant caution, not hidden evidence. Losing removes her immediate mayoral route without making her harmless. Unanswered links remain questions.
+
+Closing: civilian Seth in red hoodie, civilian Jenny, Billy at his desk, Fist still recovering on a cushion, Flaming Head beside the open window safely clear of curtains and papers. Seth interprets his message for Billy and Fist. A six-o’clock visit with sandwiches and tea is planned for tomorrow, with practice deferred until everyone is ready. Seth stays to talk because he enjoys their company. His family history is unchanged.
+
+Chapter 20 carried fix: after tearing an ankle cuff loose at its mounting, Seth bends that detached cuff open and removes it from his boot before opening the other and standing.
+
+## PR #5 focused corrections after reviewed head 8f313c8
+
+This section supersedes the specific staging/communication descriptions in earlier chapter and audit sections above; those sections otherwise retain their historical scope.
+
+- Chapter 1: Billy writes **Seth’s** name in the appointment book. Family background and the closing sentence are unchanged.
+- Chapter 16: Luke first emerges from behind a cabinet beside the **front-room** bench. Daniel tells him to wait there. Only afterward does Daniel roll the tall shelf aside and open the concealed workshop door for Jenny. No new route or wall-passing power.
+- Chapter 19: Billy explicitly shakes his head when he cannot understand Flaming Head. The captive defiance/reporting exchange now occurs while Daniel is inside, before Billy’s first knock: Jenny promises to report the gas and locked chairs; Seth asks him to let her go. Nobody is freed or speaks aloud to Flaming Head; the final cuff bend remains hidden, small and incomplete. The exchange formerly placed in Chapter 20 is removed there.
+- Chapter 20: Luke watches Seth’s hand, Billy challenges the locked-chair demonstration, and Daniel widens the service door before Luke shifts toward the inner doorway. The screening shelf, distracted villains and hidden plasma remain. The explicit detached ankle-cuff opening/removal, kiss, tumble, banana peel, cleanup and supported Fist remain unchanged.
+- Chapter 21: Jenny understands Flaming Head directly and replies to his promise to be there tomorrow. Seth relays it only to Billy and Fist, then resumes conversation with Billy. The article’s verification and right of response remain; repeated explanatory discussion is shortened. Unproven funding/foreknowledge links and unanswered editor-call/police-order questions remain in the newsroom exchange. The office closes on company rather than another checklist. Daniel’s location remains undisclosed without author-facing commentary about the wall. Election, nickname introduction, cutoff, evidence and final sentence are unchanged.
+- Art canon: Jenny has **green** eyes (locked Book One, chapter-02b.json). Seth’s eyes stay blue. Confirmed blue Book Two irises receive local hue corrections; already green, gray/ambiguous or unresolvable tiny eyes are not redrawn. Two Chapter 3 target scenes now have a high brick wall directly behind the drum, a small separate plasma shot and no physical boot impact. All earlier assets remain preserved.
+- Cover `book-two-cover-v5-green.png` is an iris-only sibling of review candidate v4 (111 changed pixels in the lossless master); v3 remains the previously approved composition/style reference. V5-green is **not author-approved**, and print assumptions remain provisional. Current substitutions and exact masks/provenance are in `docs/art/book-two-pr5-review-fixes.json`.

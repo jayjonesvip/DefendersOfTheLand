@@ -81,12 +81,19 @@ async function check(){
   await page.screenshot({path:path.join(qa,'author-mobile.png'),fullPage:true});
   await page.locator('.author-archive-card').click();
   assert.equal(await page.locator('.vault-breadcrumb a').nth(1).getAttribute('href'),'author.html');
+  await require('./verify-navigation-race.cjs').check(browser,base);
   for(const file of ['index.html','author.html','1990-vault.html','origins-chapter-1.html']){
-   await page.goto(base+'/'+file);await page.setViewportSize({width:390,height:844});
+   // Set the mobile breakpoint before navigation. Otherwise a pending media-query
+   // change from this resize can close the menu after Enter has opened it.
+   await page.setViewportSize({width:390,height:844});await page.goto(base+'/'+file);
    const toggle=page.locator('#nav-toggle'),nav=page.locator('#site-navigation');
    assert(await toggle.isVisible());assert(!(await nav.isVisible()));assert.equal(await toggle.getAttribute('aria-expanded'),'false');
-   await toggle.focus();await page.keyboard.press('Enter');assert(await nav.isVisible());assert.equal(await toggle.getAttribute('aria-expanded'),'true');
-   await nav.locator('a').first().focus();await page.keyboard.press('Escape');assert(!(await nav.isVisible()));assert(await toggle.evaluate(button=>document.activeElement===button));
+   await toggle.focus();await page.keyboard.press('Enter');
+   await page.waitForFunction(()=>document.getElementById('nav-toggle').getAttribute('aria-expanded')==='true'&&document.getElementById('site-navigation').getBoundingClientRect().height>0);
+   assert(await nav.isVisible());assert.equal(await toggle.getAttribute('aria-expanded'),'true');
+   await nav.locator('a').first().focus();await page.keyboard.press('Escape');
+   await page.waitForFunction(()=>document.getElementById('nav-toggle').getAttribute('aria-expanded')==='false'&&document.getElementById('site-navigation').getBoundingClientRect().height===0);
+   assert(!(await nav.isVisible()));assert(await toggle.evaluate(button=>document.activeElement===button));
    await toggle.click();await page.locator('h1').click();assert(!(await nav.isVisible()),'Close menu on outside click');
    await page.setViewportSize({width:1200,height:900});assert(!(await toggle.isVisible()));assert(await nav.isVisible());
    await nav.locator('a').first().focus();await page.setViewportSize({width:390,height:844});await page.waitForFunction(()=>document.activeElement===document.getElementById('nav-toggle'));assert(!(await nav.isVisible()));
