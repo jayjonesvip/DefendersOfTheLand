@@ -6,7 +6,8 @@
   "status": "In progress",
   "description": "Cleveland’s defenders have found their footing. Someone else is still asking for help.",
   "chapters": [
-    "chapter-01.json"
+    "chapter-01.json",
+    "chapter-02.json"
   ],
   "publicationStatus": "Unpublished"
 }

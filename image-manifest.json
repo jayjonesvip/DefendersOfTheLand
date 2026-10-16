@@ -993,5 +993,20 @@
     "file": "book-three-chapter-01-plea-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-02-question-v1.webp": {
+    "file": "book-three-chapter-02-question-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-02-office-v1.webp": {
+    "file": "book-three-chapter-02-office-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-02-departure-v1.webp": {
+    "file": "book-three-chapter-02-departure-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
