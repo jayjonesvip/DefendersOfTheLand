@@ -1,0 +1,12 @@
+{
+  "id": "book-three",
+  "title": "Book Three",
+  "number": 3,
+  "author": "Jay Jones",
+  "status": "In progress",
+  "description": "Cleveland’s defenders have found their footing. Someone else is still asking for help.",
+  "chapters": [
+    "chapter-01.json"
+  ],
+  "publicationStatus": "Unpublished"
+}
