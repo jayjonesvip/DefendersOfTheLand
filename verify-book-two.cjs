@@ -9,7 +9,10 @@ async function check(){
  try{
   browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{})});
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
+  const booksRoot=path.join(__dirname,'content/books');
+  const bookIds=fs.readdirSync(booksRoot).filter(id=>fs.existsSync(path.join(booksRoot,id,'book.json')));
+  await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),bookIds.length);
+  for(const id of bookIds)assert.equal(await page.locator(`.book-card h2 a[href="${id}.html"]`).count(),1,`${id} appears once in the book library`);
   for(const file of ['paperback.html','1990-vault.html']){
    await page.goto(base+'/'+file);
    const text=await page.locator('main').innerText();
