@@ -978,5 +978,20 @@
     "file": "book-two-chapter-03-jenny-success-wall-green-v3.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-01-lakefront-v1.webp": {
+    "file": "book-three-chapter-01-lakefront-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-01-sink-v1.webp": {
+    "file": "book-three-chapter-01-sink-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-01-plea-v1.webp": {
+    "file": "book-three-chapter-01-plea-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

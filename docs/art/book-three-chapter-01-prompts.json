@@ -1,0 +1,25 @@
+{
+  "chapter": 1,
+  "book": "book-three",
+  "status": "Generated illustrations; author review pending",
+  "illustrations": [
+    {
+      "scene": "lakefront",
+      "prompt": "Create ONE landscape full-color narrative illustration for Defenders of the Land Book Three Chapter 1, Cleveland 1987. Match the attached character sheet's EVERYDAY Laura Baxter exactly: adult woman, messy loose brown shoulder-length hair, dark rectangular glasses, plain black T-shirt, gray sweatpants, ordinary sneakers. Match warm detailed inked comic artwork, rich cel-painted colors, expressive restrained acting. This is civilian Laura before she has any costume: NO mask, no bodysuit, no ponytail, no hero name, no text, no labels, no speech balloons, no panel divisions, no other heroes. Laura sits alone on the dry lakeside path above shoreline rocks at dusk, knees bent, wiping tears with the hem of her T-shirt while still modestly clothed. Glasses held in her other hand, hurting after a breakup. Wind stirs messy hair, small waves strike rocks beneath her, distant Cleveland skyline. Quiet close-medium three-quarter view emphasizing face and sadness. BEFORE blast: no fire, no plasma, no glowing water, no explosion.",
+      "reference": "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
+      "review": "Visually reviewed for civilian appearance, scene staging and chapter continuity."
+    },
+    {
+      "scene": "sink",
+      "prompt": "Create ONE landscape full-color narrative illustration for Defenders of the Land Book Three Chapter 1, Cleveland 1987. Match the attached character sheet's EVERYDAY Laura Baxter exactly: adult woman, messy loose brown shoulder-length hair, dark rectangular glasses, plain black T-shirt, gray sweatpants, ordinary sneakers. Match warm detailed inked comic artwork, rich cel-painted colors, expressive restrained acting. This is civilian Laura before she has any costume: NO mask, no bodysuit, no ponytail, no hero name, no text, no labels, no speech balloons, no panel divisions, no other heroes. Interior modest small 1987 apartment bathroom, immediately AFTER brushing teeth and spitting into porcelain sink: Laura steps back in shock, holding a toothbrush in one hand. Mouth normal closed or slightly open, NO flame emerging from mouth. Tiny orange-hot hole burned through bottom of white sink basin, toothpaste foam around it, thin smoke rising. Lower cupboard door ajar reveals a small scorch directly beneath hole. Faucet OFF, no flooding. Compose from side and slightly above so both Laura's startled face and the hole inside basin are clearly visible; mirror may reflect wall but do not invent extra person. No injury.",
+      "reference": "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
+      "review": "Visually reviewed for civilian appearance, scene staging and chapter continuity."
+    },
+    {
+      "scene": "plea",
+      "prompt": "Create ONE landscape full-color narrative illustration for Defenders of the Land Book Three Chapter 1, Cleveland 1987. Match the attached character sheet's EVERYDAY Laura Baxter exactly: adult woman, messy loose brown shoulder-length hair, dark rectangular glasses, plain black T-shirt, gray sweatpants, ordinary sneakers. Match warm detailed inked comic artwork, rich cel-painted colors, expressive restrained acting. This is civilian Laura before she has any costume: NO mask, no bodysuit, no ponytail, no hero name, no text, no labels, no speech balloons, no panel divisions, no other heroes. Weeks later, quiet lakeshore at blue twilight. Laura wears a plain open dark jacket OVER black T-shirt, gray sweatpants, messy loose brown hair. She sits safely on dry path well above rocks, holding her removed glasses between her knees in both hands, tearful face turned outward across darkening water as she quietly asks for help. Wide contemplative composition with Laura in foreground three-quarter profile and broad peaceful lake beyond. No blast, no visible magic, no flames, no Flaming Head, no rescuer. Emotional hopeful plea, dignified loneliness.",
+      "reference": "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
+      "review": "Visually reviewed for civilian appearance, scene staging and chapter continuity."
+    }
+  ]
+}

@@ -5,8 +5,10 @@
   "ending": "",
   "blocks": [
     {
-      "type": "prose",
-      "text": "Laura Baxter took off her glasses to wipe her eyes and found she had nothing dry to wipe them with."
+      "type": "scene",
+      "text": "Laura Baxter took off her glasses to wipe her eyes and found she had nothing dry to wipe them with.",
+      "art": "book-three-chapter-01-lakefront-v1.webp",
+      "alt": "Laura sits crying beside Lake Erie at dusk in her black T-shirt and gray sweatpants, holding her glasses while wiping her eyes."
     },
     {
       "type": "prose",
@@ -97,8 +99,10 @@
       "text": "Something hissed."
     },
     {
-      "type": "prose",
-      "text": "Laura stepped back."
+      "type": "scene",
+      "text": "Laura stepped back.",
+      "art": "book-three-chapter-01-sink-v1.webp",
+      "alt": "Laura recoils with a toothbrush in her hand as smoke rises from a glowing burned hole in her bathroom sink."
     },
     {
       "type": "prose",
@@ -381,8 +385,10 @@
       "text": "“I just need somebody to help me.”"
     },
     {
-      "type": "prose",
-      "text": "She looked across the darkening water."
+      "type": "scene",
+      "text": "She looked across the darkening water.",
+      "art": "book-three-chapter-01-plea-v1.webp",
+      "alt": "Wearing a dark jacket over her black T-shirt, Laura sits alone above the lake at twilight, holding her glasses between her knees as she asks for help."
     },
     {
       "type": "prose",
