@@ -13,6 +13,11 @@ async function check(){
   const bookIds=fs.readdirSync(booksRoot).filter(id=>fs.existsSync(path.join(booksRoot,id,'book.json')));
   await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),bookIds.length);
   for(const id of bookIds)assert.equal(await page.locator(`.book-card h2 a[href="${id}.html"]`).count(),1,`${id} appears once in the book library`);
+  await page.goto(base+'/index.html');
+  for(const id of bookIds.filter(id=>id!=='origins')){
+   assert.equal(await page.locator(`.next-book a.contents-link[href="${id}.html"]`).count(),1,`${id} is discoverable from the homepage`);
+   assert.equal(await page.locator(`.next-book a[href="${id}-chapter-1.html"]`).count(),1,`${id} can be started from the homepage`);
+  }
   for(const file of ['paperback.html','1990-vault.html']){
    await page.goto(base+'/'+file);
    const text=await page.locator('main').innerText();
