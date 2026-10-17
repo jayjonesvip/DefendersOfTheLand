@@ -1,0 +1,582 @@
+{
+  "number": 4,
+  "title": "A Place of Their Own",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "Billy had said to meet him outside the building with the blue doors."
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked up at the tall windows. Then he looked down at the address Billy had written on a scrap of paper."
+    },
+    {
+      "type": "prose",
+      "text": "“This one?”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny leaned over his shoulder. “Unless there's another enormous blue door behind us.”"
+    },
+    {
+      "type": "prose",
+      "text": "They had come in their suits. Seth straightened his red mask while Jenny checked the street, her blonde curls lifting in the breeze. A small truck rattled past the red-brick building and turned toward the warehouses."
+    },
+    {
+      "type": "prose",
+      "text": "Billy waited beneath the entrance lamp with Fist on a folded cushion across his arms. Beside him stood Claude Blackwell, smiling as though he had been waiting all morning to show them something."
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor stood a little apart in her black suit and dark glasses."
+    },
+    {
+      "type": "prose",
+      "text": "Seth slowed."
+    },
+    {
+      "type": "scene",
+      "text": "Claude came forward before he could think of anything to say.",
+      "art": "book-three-chapter-04-welcome-v1.webp",
+      "alt": "Claude welcomes costumed Seth and Jenny at the facility’s blue doors while Billy supports injured Fist on a cushion and Eleanor stands apart."
+    },
+    {
+      "type": "prose",
+      "text": "“I'm glad you could come.” He held up a ring of keys. “Billy tells me you've been practicing on a roof.”"
+    },
+    {
+      "type": "prose",
+      "text": "“It has a good view,” Jenny said."
+    },
+    {
+      "type": "prose",
+      "text": "“And an edge,” Billy said."
+    },
+    {
+      "type": "prose",
+      "text": "“Several,” Seth admitted."
+    },
+    {
+      "type": "prose",
+      "text": "Claude looked back at the building. “I thought we might improve on that.”"
+    },
+    {
+      "type": "prose",
+      "text": "He unlocked the blue doors and held one open."
+    },
+    {
+      "type": "prose",
+      "text": "Inside, the entrance hall smelled of fresh paint. Sunlight fell through tall windows onto a floor that had recently been polished. To the left, another pair of doors stood open on a broad room with blue mats."
+    },
+    {
+      "type": "prose",
+      "text": "Seth stopped on the threshold."
+    },
+    {
+      "type": "prose",
+      "text": "There was space to run. Space to turn around. Space between the equipment and the walls."
+    },
+    {
+      "type": "prose",
+      "text": "He stepped onto a mat and pressed down with one boot."
+    },
+    {
+      "type": "prose",
+      "text": "“Is this for us?”"
+    },
+    {
+      "type": "prose",
+      "text": "“For the Defenders,” Claude said. “Yes.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny walked a little farther into the room. Thick crash mats stood stacked at one side. A heavy bag hung in a clear corner. Weights waited on a rack, and a target plate stood against a high brick wall at the far end."
+    },
+    {
+      "type": "prose",
+      "text": "She looked up. The ceiling was high enough that Seth followed her gaze and began smiling."
+    },
+    {
+      "type": "prose",
+      "text": "“No experiments today,” Billy said."
+    },
+    {
+      "type": "prose",
+      "text": "“I hadn't said anything.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You were looking.”"
+    },
+    {
+      "type": "prose",
+      "text": "Claude laughed. “We'll have somebody go through the equipment with you. Anything unsuitable, tell me. I'd rather have it changed than have you make do.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth walked back across the mats, testing the spring beneath his feet."
+    },
+    {
+      "type": "prose",
+      "text": "“Why?” he asked."
+    },
+    {
+      "type": "prose",
+      "text": "Claude looked at him."
+    },
+    {
+      "type": "prose",
+      "text": "“All this,” Seth said. “Why are you giving it to us?”"
+    },
+    {
+      "type": "prose",
+      "text": "“I've been reading the paper.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny glanced at Billy. He was watching Claude, too."
+    },
+    {
+      "type": "prose",
+      "text": "“You keep turning up when people need you,” Claude said. “I thought you ought to have somewhere to come back to.”"
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor adjusted the bracelet at her wrist."
+    },
+    {
+      "type": "prose",
+      "text": "“Claude has taken a considerable interest,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "“I have,” he agreed, and led them toward the next room."
+    },
+    {
+      "type": "prose",
+      "text": "The operations room had more screens than Seth had ever seen together outside a shop window."
+    },
+    {
+      "type": "prose",
+      "text": "Beige computers sat along a broad desk. One showed green letters against black. Beside them, a bank of smaller television monitors displayed the entrance, a side door and the loading area. Wires ran neatly into channels behind the desks."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny pulled up a chair and bent toward a keyboard without touching it."
+    },
+    {
+      "type": "prose",
+      "text": "“Do these all work?”"
+    },
+    {
+      "type": "prose",
+      "text": "Claude nodded. “There's somebody coming to show you how to use them. Manuals are in the drawers.”"
+    },
+    {
+      "type": "prose",
+      "text": "She opened one. It was full."
+    },
+    {
+      "type": "prose",
+      "text": "“Quite a lot to show us,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "Billy had already noticed the cameras."
+    },
+    {
+      "type": "prose",
+      "text": "“Those are outside?”"
+    },
+    {
+      "type": "prose",
+      "text": "“On this building,” Claude said. “Front, side and loading door. The recorders are underneath.”"
+    },
+    {
+      "type": "scene",
+      "text": "Billy crouched to look at the video decks. Fist leaned over the cushion's edge.",
+      "art": "book-three-chapter-04-operations-v1.webp",
+      "alt": "Claude shows the Defenders the 1987 operations room, with beige computers, wired entrance-camera monitors and video recorders; Billy carries Fist on his cushion."
+    },
+    {
+      "type": "prose",
+      "text": "“What happens if I wave at one?”"
+    },
+    {
+      "type": "prose",
+      "text": "“You appear on television,” Jenny told him."
+    },
+    {
+      "type": "prose",
+      "text": "Fist considered that. “Good equipment.”"
+    },
+    {
+      "type": "prose",
+      "text": "There were telephones, a street map and an empty rack for folders. At the end of the desk sat a radio with a row of buttons, a tuning knob and a narrow display."
+    },
+    {
+      "type": "prose",
+      "text": "Billy went straight to it."
+    },
+    {
+      "type": "prose",
+      "text": "“Police-band scanner,” he said."
+    },
+    {
+      "type": "prose",
+      "text": "“I asked what would be useful,” Claude replied. “That was on the list.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy set Fist's cushion on a clear section of desk. He checked that the torn cuff was supported, then turned the scanner on."
+    },
+    {
+      "type": "prose",
+      "text": "Static filled the room."
+    },
+    {
+      "type": "prose",
+      "text": "Fist opened one eye. “Very useful.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy adjusted the volume and worked the controls. A voice came through, broke into a hiss, then returned."
+    },
+    {
+      "type": "scene",
+      "text": "He leaned nearer, turning the knob a little farther.",
+      "art": "book-three-chapter-04-scanner-v1.webp",
+      "alt": "Billy tunes the police-band scanner while Seth, Jenny and Eleanor listen; Fist rests beside him on a cushion with his torn cuff supported."
+    },
+    {
+      "type": "prose",
+      "text": "The voice became clear enough for them to hear a dispatcher send a car to a stalled vehicle holding up traffic."
+    },
+    {
+      "type": "prose",
+      "text": "Billy stopped touching the controls."
+    },
+    {
+      "type": "prose",
+      "text": "Everyone listened until another voice acknowledged the call."
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked at the map on the wall. “That's only a few streets from here.”"
+    },
+    {
+      "type": "prose",
+      "text": "“It receives,” Billy said. “We listen. We don't get on it and start giving orders.”"
+    },
+    {
+      "type": "prose",
+      "text": "Fist settled again. “I hadn't even started.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy found a pencil beside a fresh pad and wrote down the street, then checked the map. Jenny watched him do it."
+    },
+    {
+      "type": "prose",
+      "text": "“You look at home already,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "Billy glanced around the desk. “There's room for the notebook.”"
+    },
+    {
+      "type": "prose",
+      "text": "“There is an entire library upstairs,” Claude said."
+    },
+    {
+      "type": "prose",
+      "text": "Billy put down the pencil."
+    },
+    {
+      "type": "prose",
+      "text": "The library overlooked part of the training room from a broad mezzanine. Shelves lined the walls, with books on science, engineering, Cleveland and enough other subjects that Seth stopped trying to read every spine."
+    },
+    {
+      "type": "prose",
+      "text": "Maps filled a shallow cabinet. At the center stood a large wooden table, several lamps and chairs that did not have anyone's coat hanging over them yet."
+    },
+    {
+      "type": "prose",
+      "text": "Billy pulled out one chair and tested it."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny took a book from the local-history shelf, opened it and showed him a page. Within a minute they were both leaning over it."
+    },
+    {
+      "type": "prose",
+      "text": "Claude waited with a pleased expression."
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor looked down into the training room."
+    },
+    {
+      "type": "prose",
+      "text": "“You've certainly thought of everything,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "“Not quite.” Claude turned toward Fist, who was still on his cushion in Billy's arms. “There's something else.”"
+    },
+    {
+      "type": "prose",
+      "text": "They went back downstairs and along a short corridor. A small sitting area had a sofa, a low table and a counter with a kettle. Beyond it stood a row of blue lockers."
+    },
+    {
+      "type": "prose",
+      "text": "Claude stopped before one with a brass nameplate."
+    },
+    {
+      "type": "prose",
+      "text": "FIST-O-MITE."
+    },
+    {
+      "type": "prose",
+      "text": "Fist stared at it."
+    },
+    {
+      "type": "prose",
+      "text": "“For your things,” Seth suggested."
+    },
+    {
+      "type": "prose",
+      "text": "“What things?”"
+    },
+    {
+      "type": "prose",
+      "text": "Claude opened the door."
+    },
+    {
+      "type": "prose",
+      "text": "A broad shelf had been fitted inside at a comfortable height. On it lay a deep blue cushion, with a folded blanket at one end. There was room above it for Fist to sit upright without striking the shelf overhead."
+    },
+    {
+      "type": "prose",
+      "text": "Fist looked from the cushion to Claude."
+    },
+    {
+      "type": "prose",
+      "text": "“It's for sleeping?”"
+    },
+    {
+      "type": "prose",
+      "text": "“If you'd like it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy brought him closer. Fist shifted forward, moved carefully from one cushion to the other, and settled with his damaged cuff resting on the soft edge."
+    },
+    {
+      "type": "prose",
+      "text": "Nobody spoke while he tested it."
+    },
+    {
+      "type": "prose",
+      "text": "He turned a little, then a little farther. He looked up at his nameplate on the open door."
+    },
+    {
+      "type": "prose",
+      "text": "“Don't shut that.”"
+    },
+    {
+      "type": "prose",
+      "text": "“We won't,” Claude said."
+    },
+    {
+      "type": "prose",
+      "text": "Fist sank into the cushion."
+    },
+    {
+      "type": "prose",
+      "text": "“This one stays here?”"
+    },
+    {
+      "type": "prose",
+      "text": "“It belongs to you.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth felt Jenny's hand find his. He looked at her, and she smiled without saying anything."
+    },
+    {
+      "type": "prose",
+      "text": "“Thank you,” Fist said."
+    },
+    {
+      "type": "scene",
+      "text": "Claude bent a little so they were closer to eye level. “You're very welcome.”",
+      "art": "book-three-chapter-04-locker-v1.webp",
+      "alt": "Fist settles into his cushioned blue sleeping locker while Claude bends beside him, Billy holds the carrying cushion, and Seth and Jenny smile together."
+    },
+    {
+      "type": "prose",
+      "text": "Eleanor's hand tightened around the clasp of her handbag. By the time Claude straightened, she had loosened it."
+    },
+    {
+      "type": "prose",
+      "text": "“We should let them look around,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "“Of course.” Claude held out the keys to Billy. “I'll have the instructions brought over. And the people to explain the equipment. You have my number if something needs attention.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked down at the keys in his palm."
+    },
+    {
+      "type": "prose",
+      "text": "“I don't know what to say.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You've said thank you. That's plenty.”"
+    },
+    {
+      "type": "prose",
+      "text": "At the doors, Eleanor paused beside Billy."
+    },
+    {
+      "type": "prose",
+      "text": "“Try to keep the place in one piece.”"
+    },
+    {
+      "type": "prose",
+      "text": "“We intend to,” he said."
+    },
+    {
+      "type": "prose",
+      "text": "Claude was already looking up at the windows, pleased with how the light fell through them. Eleanor followed him out. She had said very little about the Defenders themselves."
+    },
+    {
+      "type": "prose",
+      "text": "Seth watched the blue door close."
+    },
+    {
+      "type": "prose",
+      "text": "“Are we really allowed to stay?”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy lifted the keys."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny laughed, and the sound carried into the training room."
+    },
+    {
+      "type": "prose",
+      "text": "They went back inside. Billy returned to the operations desk and began reading the scanner instructions. Jenny brought down a street atlas from the library. Seth found the cups beside the kettle and counted them twice before putting them on the counter."
+    },
+    {
+      "type": "prose",
+      "text": "From the locker alcove, Fist called, “I can still hear you.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Good,” Billy said. “We're putting the kettle on.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth stood in the corridor a moment longer. There were people in the rooms on either side of him, making plans and opening drawers. He knew where they would be tomorrow."
+    },
+    {
+      "type": "prose",
+      "text": "Farther along the lake, Laura Baxter heard a soft sound above the water and looked up."
+    },
+    {
+      "type": "prose",
+      "text": "A small orange light was moving toward her."
+    },
+    {
+      "type": "prose",
+      "text": "She got to her feet, pushing her glasses straight. For an instant she thought something else was falling from the sky."
+    },
+    {
+      "type": "prose",
+      "text": "The light slowed."
+    },
+    {
+      "type": "prose",
+      "text": "There was a face inside it."
+    },
+    {
+      "type": "prose",
+      "text": "Laura backed away from the rocks. Flaming Head stopped well short of her, with the water behind him and the empty path between them."
+    },
+    {
+      "type": "prose",
+      "text": "“Please don't come closer,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "“I won't.”"
+    },
+    {
+      "type": "prose",
+      "text": "She stared at him. The words had reached her as clearly as if someone had spoken beside her ear, but there was nobody there."
+    },
+    {
+      "type": "prose",
+      "text": "“Did you say that?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Yes.”"
+    },
+    {
+      "type": "prose",
+      "text": "She looked along the path. No one was coming."
+    },
+    {
+      "type": "prose",
+      "text": "Flaming Head stayed where he was."
+    },
+    {
+      "type": "scene",
+      "text": "“I think you've been asking for help.”",
+      "art": "book-three-chapter-04-laura-v1.webp",
+      "alt": "On the lakeside path at dusk, Laura in glasses, gray sweatpants and a dark jacket faces Flaming Head, who hovers at a respectful distance above the shoreline rocks."
+    },
+    {
+      "type": "prose",
+      "text": "Laura's fingers tightened around the edge of her jacket."
+    },
+    {
+      "type": "prose",
+      "text": "“You heard me?”"
+    },
+    {
+      "type": "prose",
+      "text": "“I felt that someone needed me. I came to look.”"
+    },
+    {
+      "type": "prose",
+      "text": "For a moment, she could not answer. He was still there when she managed to speak."
+    },
+    {
+      "type": "prose",
+      "text": "“Something happened to me. In the water.”"
+    },
+    {
+      "type": "prose",
+      "text": "“I know something about that.”"
+    },
+    {
+      "type": "prose",
+      "text": "Laura took a careful breath. She had explained it in offices and bathrooms and once to her own reflection. This time the person listening had come to find her."
+    },
+    {
+      "type": "prose",
+      "text": "“Can you make it stop?”"
+    }
+  ]
+}

@@ -65,6 +65,7 @@ In a separate scene, Flaming Head reaches Laura. His ability to understand what 
 ### Chapter 4 art ideas
 
 - **The gift:** exterior establishing view of Claude welcoming the Defenders to the red-brick facility. Use the existing facility concept as a design reference, with final architecture still subject to review. Keep Seth and Jenny's public presentation consistent with what Claude knows.
+- **Testing the scanner:** Billy leans over the operations desk and adjusts the police-band receiver while a dispatch comes through. Period CRT monitors glow nearby, and the others pause to listen.
 - **A place for Fist:** a closer interior scene of Claude showing Fist his cushioned sleeping locker. The glove's reaction supplies the emotional focus; preserve his single-glove anatomy and recovering cuff.
 - **First contact:** a separate lakefront scene of Flaming Head finding civilian Laura. His warm light contrasts with her guarded expression. This is an encounter, not an instant cure.
 
