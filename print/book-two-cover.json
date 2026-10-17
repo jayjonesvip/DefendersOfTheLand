@@ -1,12 +1,12 @@
 {
   "book": "book-two",
-  "frontArtwork": "book-two-cover-v5-green.png",
+  "frontArtwork": "book-two-cover-v6-aftershock.png",
   "printFrontArtwork": "book-two-cover-print.png",
   "printFrontDpi": 300,
   "backArtwork": "book-two-chapter-11-skyfall-plan-v2.webp",
   "series": "DEFENDERS OF THE LAND",
-  "volume": "BOOK TWO",
-  "spineTitle": "DEFENDERS OF THE LAND | BOOK TWO",
+  "volume": "BOOK TWO: AFTERSHOCK",
+  "spineTitle": "DEFENDERS OF THE LAND | AFTERSHOCK",
   "author": "JAY JONES",
   "hook": "Free power for Cleveland.\nA terrible price for its heroes.",
   "blurb": [
