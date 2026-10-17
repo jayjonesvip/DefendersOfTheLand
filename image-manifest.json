@@ -1008,5 +1008,20 @@
     "file": "book-three-chapter-02-departure-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-03-phone-v1.webp": {
+    "file": "book-three-chapter-03-phone-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-03-shelter-v1.webp": {
+    "file": "book-three-chapter-03-shelter-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-03-newspaper-v1.webp": {
+    "file": "book-three-chapter-03-newspaper-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
