@@ -60,6 +60,8 @@ Use period equipment: CRT computers, wired cameras, video monitors, VHS recorder
 
 Eleanor bites her tongue. She hates Claude's generosity toward the Defenders, but stays quiet. She is keeping a low profile and seems occupied with something of her own; her scheme remains unrevealed.
 
+Chapter 4 author-directed detail: Eleanor studies Pink Blur as though she recognizes her from somewhere. Jenny notices and becomes conscious of her mask. Claude interrupts before Eleanor says anything. This creates suspicion without establishing that Eleanor knows Jenny's identity.
+
 In a separate scene, Flaming Head reaches Laura. His ability to understand what has happened offers her an initial reason to hope.
 
 ### Chapter 4 art ideas
