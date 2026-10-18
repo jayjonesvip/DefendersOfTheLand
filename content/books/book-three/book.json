@@ -1,6 +1,6 @@
 {
   "id": "book-three",
-  "title": "Book Three",
+  "title": "Book Three: Clash in Cleveland",
   "number": 3,
   "author": "Jay Jones",
   "status": "In progress",
@@ -13,7 +13,10 @@
     "chapter-05.json",
     "chapter-06.json",
     "chapter-07.json",
-    "chapter-08.json"
+    "chapter-08.json",
+    "chapter-09.json"
   ],
-  "publicationStatus": "Unpublished"
+  "publicationStatus": "Unpublished",
+  "cover": "book-three-cover-clash-in-cleveland-web-v1.webp",
+  "ebookCover": "book-three-cover-clash-in-cleveland-v1.png"
 }

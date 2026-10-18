@@ -1178,5 +1178,45 @@
     "file": "book-three-chapter-08-placement-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-09-call-v1.webp": {
+    "file": "book-three-chapter-09-call-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-lobby-v1.webp": {
+    "file": "book-three-chapter-09-lobby-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-getaway-v1.webp": {
+    "file": "book-three-chapter-09-getaway-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-fist-v1.webp": {
+    "file": "book-three-chapter-09-fist-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-report-v1.webp": {
+    "file": "book-three-chapter-09-report-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-aftermath-v1.webp": {
+    "file": "book-three-chapter-09-aftermath-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-cover-clash-in-cleveland-v1.png": {
+    "file": "book-three-cover-clash-in-cleveland-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-three-cover-clash-in-cleveland-web-v1.webp": {
+    "file": "book-three-cover-clash-in-cleveland-web-v1.webp",
+    "width": 1024,
+    "height": 1536
   }
 }

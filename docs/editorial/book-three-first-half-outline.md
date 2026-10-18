@@ -1,6 +1,6 @@
 # Book Three — working outline
 
-Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. The later rooftop arc and proposed twenty-chapter map now supersede the earlier ten-chapter first-half plan. Titles and later chapter divisions are provisional. Chapters 1–8 are now drafted; their current manuscripts govern scene details.
+Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. The later rooftop arc and proposed twenty-chapter map now supersede the earlier ten-chapter first-half plan. Titles and later chapter divisions are provisional. Chapters 1–9 are now drafted; their current manuscripts govern scene details.
 
 ## 1. Someone, Please
 
@@ -313,7 +313,7 @@ All six images are integrated into the draft, pending author review.
 
 ## Proposed remaining chapters — 8 through 20
 
-This is the current complete chapter map after the author's Terminal Tower direction. Chapters 1–8 are drafted. Chapters 9–20 remain proposed, with the rooftop reversal in Chapters 12–13, the solar sacrifice in Chapter 16, and Dork's public confrontation in Chapters 18–19. Titles and divisions are provisional; the detailed arc notes below provide continuity requirements, not a competing sequence.
+This is the current complete chapter map after the author's Terminal Tower direction. Chapters 1–9 are drafted. Chapters 10–20 remain proposed, with the rooftop reversal in Chapters 12–13, the solar sacrifice in Chapter 16, and Dork's public confrontation in Chapters 18–19. Titles and divisions are provisional; the detailed arc notes below provide continuity requirements, not a competing sequence.
 
 The final threat is Dork with the stolen Army tank, loyal Jaws O' Death and the shrink/enlarge ray. He wants to shrink Terminal Tower and force Cleveland to bow to him. The proposed resolution stops the shot before the landmark is shrunk, defeats and captures Dork and Jaws, and preserves Flaming Head's sacrifice. Those resolution choices are recommendations for this outline rather than already-drafted or separately author-confirmed events.
 
@@ -330,6 +330,8 @@ Daniel tests only what the scene needs to establish. He has evidence for energy 
 Art: the plasma path and rising meter; Luke's returning hope; Daniel beside the empty collector planning its placement. No imprisoned Flaming Head or cured Laura yet.
 
 ### 9. Cleveland's Defenders
+
+Drafted as “Cleveland’s Defenders,” with six illustrations. Two armed robbers are inside; an unarmed getaway driver waits in a rear-wheel-drive sedan behind the bank. Jenny disarms the front guard and opens the civilian route, Seth lifts the car’s driven rear wheels, Fist intercepts the rear robber’s gun wrist, and Billy coordinates with the responding officers. Jenny reports later in civilian clothes.
 
 Return to the donated facility. A police-radio call leads to a fully staged bank-robbery response. Billy coordinates with police, Seth protects people and blocks an escape, Jenny clears civilians and interrupts the robbers, and recovered Fist covers the remaining opening.
 
@@ -479,7 +481,7 @@ Art: the recovered city and intact landmark; a small Laura coda; the team rememb
 
 ## Beyond Chapter 7 — current author-approved direction
 
-The following sequence replaces the former early Chapter 8 jealousy-driven bite of the shrink/enlarge ray, the proposed Dork/Jaws/Lava Lips team formation, and the early warning-only return in Chapter 10. The rooftop climax belongs closer to the end of the book. Final chapter count and divisions remain open; do not compress this whole arc into Chapter 8. Chapters 1–8 remain the current manuscripts. The audit revision has adjusted Chapter 7’s closing emphasis from the Army ray to the collector’s meter needles.
+The following sequence replaces the former early Chapter 8 jealousy-driven bite of the shrink/enlarge ray, the proposed Dork/Jaws/Lava Lips team formation, and the early warning-only return in Chapter 10. The rooftop climax belongs closer to the end of the book. Final chapter count and divisions remain open; do not compress this whole arc into Chapter 8. Chapters 1–9 remain the current manuscripts. The audit revision has adjusted Chapter 7’s closing emphasis from the Army ray to the collector’s meter needles.
 
 ### Development — the collector begins to work
 
