@@ -81,8 +81,10 @@
       "text": "The crowd leaned forward."
     },
     {
-      "type": "prose",
-      "text": "Daniel did too, but his eyes stayed on the soldier's hands."
+      "type": "scene",
+      "text": "Daniel did too, but his eyes stayed on the soldier's hands.",
+      "art": "book-three-chapter-06-demo-v1.webp",
+      "alt": "Daniel leans over the spectator rope, watching a soldier operate the copper-ringed shrink ray as a tiny equipment chest glows inside the white demonstration square."
     },
     {
       "type": "prose",

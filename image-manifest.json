@@ -1123,5 +1123,10 @@
     "file": "book-three-chapter-06-tank-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-06-demo-v1.webp": {
+    "file": "book-three-chapter-06-demo-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

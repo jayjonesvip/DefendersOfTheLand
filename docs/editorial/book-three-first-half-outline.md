@@ -171,9 +171,11 @@ Laura's public appearances have made her recognizable and easier to find. Daniel
 
 Closing line option from Daniel: “Now let's find her.” The reader knows she already likes being feared before he offers her anything.
 
-### Chapter 6 art plan — five proposed illustrations
+### Chapter 6 art plan — six illustrations
 
-All five are proposals for this chapter, not generated assets. Use the established warm, detailed inked comic style and Cleveland in 1987. Laura has brown eyes, brown hair in a ponytail, a black domino eye mask and the established black bodysuit with red/orange/yellow flame patterns at the sides. Her costume comes from Flaming Head. Keep the Chapter 5 mirror art unchanged.
+All six are generated illustrations, pending author review. Use the established warm, detailed inked comic style and Cleveland in 1987. Laura has brown eyes, brown hair in a ponytail, a black domino eye mask and the established black bodysuit with red/orange/yellow flame patterns at the sides. Her costume comes from Flaming Head. Keep the Chapter 5 mirror art unchanged.
+
+- **The live demonstration — Scene 2.** Daniel grips the spectator rope and watches a soldier operate the copper-ringed ray. The tiny chest glows inside the marked square; the full-size tank and display truck remain behind the soldier. Luke stays hidden offscreen.
 
 1. **The crowd parts — Scene 3.** Street-level medium-wide view: costumed Laura walks toward the foreground, coat open, as pedestrians leave a clear path. Her expression shifts toward a restrained, pleased smile. One person recognizes her; another draws back at a shop doorway. No flames or spit. The composition must show her enjoying the response rather than simply looking lonely in a crowd.
 2. **A tank in his pocket — Scene 4.** Daniel holds the miniature empty tank between his fingers, stolen ray in his other hand, as bodyless Luke returns from his distraction. Army barriers and approaching soldiers establish the interrupted theft. Establish one tank design and ray design before generation and reuse them later. Daniel wears his stained off-white lab coat, gray shirt, dark tie and thick round glasses; Luke is a floating blond head with bolted iron jaws, no torso or limbs.
