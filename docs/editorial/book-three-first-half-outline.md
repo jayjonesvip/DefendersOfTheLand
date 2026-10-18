@@ -1,6 +1,6 @@
 # Book Three — first-half outline
 
-Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. Titles and later chapter divisions are provisional. Chapters 1–5 are now drafted; their current manuscripts govern scene details.
+Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. Titles and later chapter divisions are provisional. Chapters 1–6 are now drafted; their current manuscripts govern scene details.
 
 ## 1. Someone, Please
 
@@ -75,7 +75,7 @@ In a separate scene, Flaming Head reaches Laura. His ability to understand what 
 
 Flaming Head tries to teach Laura to control and use her ability to help people. Establish that she can spit burning plasma, with its practical limits still to be developed.
 
-Introduce her costume during this period: a fitted black bodysuit with flames up the sides, a ponytail and a black eye mask. Her everyday clothes are gray sweatpants, a black T-shirt and glasses, with messy brown hair.
+After Laura fears backlash over her poor aim and being identified, Flaming Head gives her a costume through the same golden-flame transformation he used for Seth and Jenny. The disguise does not fix her aim or her saliva. Costume: a fitted black bodysuit with flames up the sides, a ponytail and a black eye mask. Her everyday clothes are gray sweatpants, a black T-shirt and glasses, with messy brown hair.
 
 Training gives her something to attempt, but it does not remove her despair or solve the intimacy she has lost. Show the difference between learning to aim a dangerous power and finding a way to live with it.
 
@@ -95,25 +95,105 @@ Dork hears about her and sees someone who could be useful. End with his interest
 
 ## 6. A Tank in His Pocket
 
-At the Army demonstration, show the ray shrinking equipment and restoring it. Establish the setting and opportunity that make Dork and Luke's theft possible.
+Expanded chapter plan: intercut Dork rebuilding his material power with Laura discovering that other people's fear gives her power. Over several days, her anger at Flaming Head hardens and her guilt about the newsstand fades. Dork does not approach or influence her in this chapter. His approach remains Chapter 7.
 
-They steal the ray and shrink a tank, which Daniel carries away. There is no sleeping passenger: Bob is removed from this version.
+### Scene 1 — The photograph facing out
 
-Dork returns covertly to his original upstairs laboratory, shrinks what remains, transports it and restores it elsewhere. The draft must establish exactly what structure or contents he moves and how they are separated from the surrounding building.
+Open with Laura at home after the argument. The newspaper no longer lies folded to hide her photograph. She studies the flames behind her masked face. At first she remembers the seller's distress; then she returns to the headline and the humiliation of being named by strangers.
 
-He enlarges the tank successfully. He has a base, machinery and parts again. Police still hold Book Two's confiscated basement equipment.
+She remembers Flaming Head admitting that his landing changed her. He has offered practice and a costume, but cannot restore the ordinary life she wanted. In her anger she begins treating those gifts as attempts to make her accept what he did. This is her interpretation; he did not deliberately curse her.
 
-Luke helped make this possible, but his original body remains missing and Daniel still has no demonstrated way to restore him.
+She puts on the costume to go out. Previously she wore it because she feared being recognized and pursued. Now she wants to see what happens when people recognize Lava Lips. Keep the existing Chapter 5 mirror illustration unchanged; a new mirror scene need not be illustrated.
 
-### Chapter 6 art ideas
+### Scene 2 — The Army demonstration
 
-- **The Army demonstration:** equipment reduced before a watching crowd, with period military vehicles and a clear demonstration area. Final ray design, security and geography must follow the draft.
-- **A tank in his pocket:** Dork holds the miniature tank between his fingers while Luke hovers beside him. Keep the tank's model and relative size consistent with the later full-size vehicle. No Bob or other passenger.
-- **The relocated lab:** a wide reveal of the restored laboratory and full-size tank at the new site. Illustrate only after the lab's transport boundaries and destination are settled; no reappearance of confiscated basement equipment.
+Cut to Dork and Luke at the advertised demonstration. A cordoned outdoor display area contains the ray, a test object and an unoccupied tank. A soldier reduces the test object and restores it on a marked clear patch. Make the control change between shrinking and enlarging visible to Daniel and the reader.
+
+Establish the theft opportunity through the actual layout: Daniel joins the spectators while Luke stays out of sight behind the display. The ray is portable, with controls Daniel can operate after watching the demonstration. Its exact appearance is a proposed design until drafted and illustrated consistently.
+
+Luke asks whether this gets them closer to recovering his body. Daniel says they need equipment first. Luke has heard that before, but still wants the plan to work.
+
+### Scene 3 — People make room
+
+Laura walks a busy shopping street in costume, coat open enough for the flame pattern to show. Someone recognizes her from the photograph and says, “Lava Lips.” A conversation stops. A pedestrian steps off her path; a shopkeeper holds the door but keeps his distance.
+
+Her first reaction is the old sting of being stared at. Then she notices that nobody laughs, crowds her or tells her to move. She slows down instead of hurrying away. At a small shop counter, the customer ahead abandons their place and the clerk serves her with nervous haste. She pays normally, but lets the silence stretch because she likes having everyone's attention.
+
+No plasma is needed. Her reputation does the work. People fear an accident as well as an attack; their retreat does not establish that she can control every discharge.
+
+### Scene 4 — The tank disappears
+
+Return to the demonstration after the public test. As the equipment is being prepared for removal, Luke draws the soldiers' attention away from the ray by appearing at the far end of the display. Their reaction gives Daniel a brief opening rather than making the entire security detail vanish.
+
+Daniel takes the ray, shrinks the empty tank and pockets it. The soldiers discover him before he can leave unnoticed. Luke breaks away from the distraction and rejoins him during their escape through the display's service exit. Fix sight lines, distances and pursuit in the draft so the ray does not become a solution to every obstacle. No shrinking people and no passenger inside the tank.
+
+Luke expects thanks. Daniel is already talking about what the tank will let him build.
+
+### Scene 5 — The burned stand
+
+On a later walk, Laura returns to the remains of the newsstand. The seller is sorting damaged fittings beside the blackened counter. He recognizes the costume and stops working. She remembers pulling him clear, but this time the memory brings no urge to apologize.
+
+She thinks about how quickly everyone found a name for her and how little the headline cared that she helped. The seller's ruined livelihood becomes something she pushes out of her thoughts: nobody was hurt; it was an accident; Flaming Head's landing made it possible.
+
+She notices that the seller is watching her mouth. Instead of reassuring him, she lets him watch. She walks away without offering help. The significant change is that she no longer feels bad about the fire and enjoys being the person he is afraid of. Do not rewrite the original fire as deliberate or turn the seller into someone who deserved it.
+
+### Scene 6 — A laboratory he can carry
+
+Dork returns covertly to the original upstairs laboratory. Proposed transport solution: he shrinks surviving freestanding equipment, benches and storage cabinets individually, packs them into a case and leaves the building shell and attached utilities behind. He does not detach or carry the upstairs room itself.
+
+He takes them to a vacant ground-floor industrial workshop with a wide loading entrance and room for the tank. Establish how he gains access; the vacancy does not give him legitimate ownership. Restore each item on a clear patch, then enlarge the tank with its hatch empty. The tank remains a source of weapons and parts; it does not instantly become an unexplained power supply for the lab.
+
+Police still hold the confiscated Book Two basement apparatus, papers, cage and restraints. Nothing in this move recovers Luke's original body or demonstrates a way to restore him.
+
+### Scene 7 — She makes him retreat
+
+Flaming Head finds Laura near the lakeside place where they previously agreed to meet; he does not track her thoughts across the city. She arrives in costume, carrying herself differently. He asks whether she wants to talk. She tells him people recognize her now and get out of her way.
+
+Possible exchange:
+
+> “They're frightened,” he says.
+>
+> “I know.”
+>
+> “Laura—”
+>
+> “You gave me this. You don't get to tell me how to feel about it.”
+
+She blames him more directly: he changed her, cannot undo it, and now wants her to be grateful for lessons. He acknowledges his part without agreeing that the newsstand seller or strangers deserve punishment. When he mentions the fire, she says no one was hurt and refuses to discuss helping the seller.
+
+He keeps his distance. She deliberately steps toward him and watches him move back. She does not attack him or acquire a new ability; she discovers she likes making even him give ground. End her scene with her choosing to leave in costume, without asking him to follow. Her resentment now includes wanting him to feel some of the helplessness she has felt.
+
+### Scene 8 — Two kinds of power
+
+Close in the relocated workshop. Daniel has the tank, machinery and a working place again. Luke asks when they start on his body. Daniel postpones the answer and lays out the Lava Lips article on a restored bench.
+
+Laura's public appearances have made her recognizable and easier to find. Daniel can hear a shopkeeper's account or return to the street identified in the original news report in Chapter 7. He still does not know her civilian identity or the substance of her private argument.
+
+Closing line option from Daniel: “Now let's find her.” The reader knows she already likes being feared before he offers her anything.
+
+### Chapter 6 art plan — five proposed illustrations
+
+All five are proposals for this chapter, not generated assets. Use the established warm, detailed inked comic style and Cleveland in 1987. Laura has brown eyes, brown hair in a ponytail, a black domino eye mask and the established black bodysuit with red/orange/yellow flame patterns at the sides. Her costume comes from Flaming Head. Keep the Chapter 5 mirror art unchanged.
+
+1. **The crowd parts — Scene 3.** Street-level medium-wide view: costumed Laura walks toward the foreground, coat open, as pedestrians leave a clear path. Her expression shifts toward a restrained, pleased smile. One person recognizes her; another draws back at a shop doorway. No flames or spit. The composition must show her enjoying the response rather than simply looking lonely in a crowd.
+2. **A tank in his pocket — Scene 4.** Daniel holds the miniature empty tank between his fingers, stolen ray in his other hand, as bodyless Luke returns from his distraction. Army barriers and approaching soldiers establish the interrupted theft. Establish one tank design and ray design before generation and reuse them later. Daniel wears his stained off-white lab coat, gray shirt, dark tie and thick round glasses; Luke is a floating blond head with bolted iron jaws, no torso or limbs.
+3. **No apology — Scene 5.** Costumed Laura pauses beside the charred newsstand. The seller stands behind the damaged counter, tense and watching her mouth. She meets his gaze with a small, satisfied expression rather than regret. Cold blackened boards, wet-stained paper and damaged fittings connect this to the original scene. No fresh fire, threatening spit or invented injury. This is the chapter's central emotional illustration.
+4. **Making him retreat — Scene 7.** At the familiar lakeside practice place, Laura in costume takes one deliberate step toward Flaming Head. He hovers farther back over the shoreline, visibly troubled, while she holds her ground with growing confidence. He is a small flaming face without a human body. No energy beam, attack or visible telepathic speech; the power in the scene is their changed relationship.
+5. **Everything except Luke — Scene 8.** Wide workshop interior: restored benches and surviving equipment, full-size tank by the loading entrance, Daniel studying the Lava Lips clipping beneath a work lamp. Luke hovers apart, watching Daniel rather than admiring the machinery. The clipping can show the established masked photograph without requiring legible tiny text. No Bob, restored human body, confiscated basement machine or inexplicably operating wall of equipment.
+
+### Drafting priorities
+
+- Give Laura's change several separate choices: wearing the costume publicly, lingering over people's fear, withholding reassurance from the seller, and pressing Flaming Head to retreat. Her appetite for power begins before Dork recruits her.
+- Keep the newsstand loss real. Her declining remorse is a change in Laura, not evidence that the fire did no harm.
+- Preserve the contrast between Chapter 5's accidental fire and this chapter's deliberate enjoyment of intimidation. No second arson is needed for this turn.
+- Use distinct scene breaks for viewpoint changes. Fix the demonstration layout, escape and workshop access before drafting action or generating art. The new Laura scenes span several days; the Army event must still match the advertised date.
+- Chapter 7 begins with Laura already resentful and enjoying her reputation. Dork offers direction and an alliance rather than creating those feelings for her.
 
 ## 7. Dork's Offer
 
-Dork approaches Laura after hearing the stories. He finds her at the moment her anger at Flaming Head has made her receptive to someone who will take her grievance seriously. Show how he finds her; do not assume he overheard a private argument or knows its contents without learning them.
+Dork approaches Laura after hearing the stories and accounts of her costumed public appearances. Chapter 6 has already shown her guilt fading and her enjoyment of being feared. He finds her at the moment her anger at Flaming Head has made her receptive to someone who will take her grievance seriously. Show how he finds her; do not assume he overheard a private argument or knows its contents without learning them.
+
+Author-approved recruitment exchange: Laura asks, “Why should I join you?” Daniel claims he has created a device that will drain the power from “that fireball with a face.” She joins because she wants Flaming Head made helpless. His earlier collector gives the claim a basis, but no demonstrated ability to drain Flaming Head exists; the confiscated collector remains in police custody. Daniel habitually overpromises and underdelivers. Luke recognizes the pattern from the unfulfilled promise to restore his body. Draft any new device or reconstruction explicitly rather than treating confiscated equipment as recovered.
 
 Laura joins forces with him. A possible appeal is the chance to act on her desire for revenge against Flaming Head. Dork sees her power as useful and can encourage her blame; the specific offer and any promises remain to be developed. Her anger gives the alliance a personal motive, while the decision to join remains hers.
 

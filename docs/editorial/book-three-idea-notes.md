@@ -7,6 +7,7 @@ The author is collecting ideas until the story takes shape. These notes preserve
 - The person Flaming Head has been helping is Laura Baxter, known as Lava Lips. Her real name is author-confirmed. Her age is unspecified; the visual concept depicts an adult woman.
 - On the night of the original blast, she was crying beside the lake because her boyfriend had dumped her. Waves crashed and lake water entered her mouth, exposing her to the energy.
 - She discovers the effect after brushing her teeth: when she spits, she burns a hole in the sink.
+- At their first meeting, Laura notices she can hear Flaming Head although his mouth is not moving. He explains that she hears him in her mind and that energy scattered by his landing gave her powers, as it changed others. This admission precedes her request for him to make it stop.
 - She seeks help. Everything appears normal while her saliva stays inside her mouth; once it leaves, it burns. She can spit burning plasma.
 - She cannot kiss someone without hurting them. This deepens her isolation and despair after the breakup.
 - Flaming Head tries to teach her to use her powers to help, but she is too overwhelmed by despair. The exact incidents behind his worried return remain to be developed.
@@ -21,7 +22,8 @@ Laura may come to see Flaming Head as the source of a curse rather than a rescue
 ## Visual concept
 
 - Civilian: gray sweatpants, black T-shirt, glasses, messy brown hair.
-- Costume following Flaming Head's involvement: fitted black bodysuit with flame designs up the sides, brown hair in a ponytail, black mask around the eyes.
+- After Laura fears people will retaliate or find her home because of her poor aim, Flaming Head gives her a costume through the same golden-flame transformation he used for Seth and Jenny. The mask helps protect her identity; it does not improve her aim or suppress her power.
+- Costume: fitted black bodysuit with flame designs up the sides, brown hair in a ponytail, black mask around the eyes.
 - Match the established warm, detailed inked comic illustration style. Costume is a design concept, not proof of a completed recruitment or allegiance.
 - Do not assume she is immune to all heat or that the costume, mask or glasses solve her saliva problem. No cure, mechanism of suppression or new power is established.
 
@@ -45,3 +47,7 @@ The author is considering a smaller villain cast, with Laura taking the major ne
 - Do not assume the electrical accident has happened at the time of Flaming Head's return until the revised chronology is settled.
 
 The author accepted this direction. The revised `book-three-first-half-outline.md` removes Bob, starts with Laura's backstory and plea, ties Flaming Head's departure to feeling her sadness, and ends the first half with his return to warn the Defenders about her alliance with Dork. Earlier suggestions above remain historical where the revised outline resolves them.
+
+## Author-directed Chapter 6 progression
+
+Before Dork approaches Laura, her anger and resentment toward Flaming Head grow. Remembering the newsstand fire, she no longer feels bad about it. People recognize and fear her when she goes out in costume, and she begins to enjoy that power. These changes precede recruitment and arise through her own choices. The expanded Chapter 6 outline intercuts this progression with the Army-ray theft and laboratory relocation; Chapter 7 retains Dork's approach. Chapter 5's mirror illustration stays unchanged.
