@@ -1,6 +1,6 @@
 # Book Three — first-half outline
 
-Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. Titles and chapter divisions are provisional; no manuscript chapters have been changed.
+Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. Titles and later chapter divisions are provisional. Chapters 1–5 are now drafted; their current manuscripts govern scene details.
 
 ## 1. Someone, Please
 
@@ -81,15 +81,17 @@ Training gives her something to attempt, but it does not remove her despair or s
 
 Possible emotional turn: Laura begins blaming Flaming Head for cursing her with the affliction. He is teaching her to use something she wants gone. Her hurt hardens into anger at him, and she wants revenge. This is her understanding of what happened, not proof that he deliberately harmed her. Whether she explicitly asks him for a cure and what he can honestly tell her remain to be developed.
 
-Stories about Lava Lips begin to circulate. The incidents behind those stories remain to be developed; do not assume that every incident was a deliberate attack.
+Author-approved naming: Laura accidentally sneezes burning droplets onto a newsstand. She helps the seller get clear and stays through the emergency response, but the stand is destroyed. A newspaper headline calls her “Lava Lips.” The account includes the accident and her help; she experiences the headline as humiliating. Dork learns of her through that coverage. Luke can later use the already-public name sarcastically in a jealous outburst.
 
 Dork hears about her and sees someone who could be useful. End with his interest in finding her.
 
-### Chapter 5 art ideas
+### Chapter 5 art ideas — integrated
 
-- **Learning to aim:** masked Laura in her black flame-sided costume spits a small plasma shot at an isolated nonflammable target, with Flaming Head guiding from safely to the side. Establish the practice location and safety distances in the draft.
-- **The anger:** Laura faces Flaming Head, hurt becoming accusation. Use expressions and posture rather than a new attack that has not been established in the outline.
-- **Costume reference:** the saved Lava Lips character sheet can guide face, hair, outfit and mask continuity. It is a design aid rather than an automatic chapter illustration; its printed ability descriptions do not override the saliva rule.
+- **Learning to aim:** civilian Laura spits a small plasma shot at a baking sheet backed by bare earth, Flaming Head safely to one side.
+- **The costume:** Laura studies the black flame-sided bodysuit, ponytail and eye mask in her bedroom mirror.
+- **The newsstand fire:** masked Laura pulls the seller clear while a bystander brings an extinguisher. The fire follows an accidental sneeze, not an intentional attack.
+- **The anger:** civilian Laura holds her glasses and newspaper while confronting Flaming Head about what the affliction has taken from her.
+- **Dork takes notice:** Dork studies the naming headline and masked photograph, with bodyless Luke watching and the Army announcement beside him.
 
 ## 6. A Tank in His Pocket
 
@@ -118,6 +120,8 @@ Laura joins forces with him. A possible appeal is the chance to act on her desir
 Flaming Head learns of the alliance. Someone he tried to help is now working with a man who has already endangered his friends. This is the concrete cause of his alarm.
 
 Luke resents Daniel's growing attention to Laura. Once again his uncle is excited about a new possibility while postponing the promise that kept Luke beside him.
+
+During a jealous outburst, Luke can call her “Lava Lips” sarcastically, using the newspaper nickname he knows bothers her. The paper has already coined it in Chapter 5. Exact dialogue and her response remain to be drafted.
 
 End with the new alliance formed and Luke's resentment close to breaking.
 

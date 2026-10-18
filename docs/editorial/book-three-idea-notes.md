@@ -10,7 +10,8 @@ The author is collecting ideas until the story takes shape. These notes preserve
 - She seeks help. Everything appears normal while her saliva stays inside her mouth; once it leaves, it burns. She can spit burning plasma.
 - She cannot kiss someone without hurting them. This deepens her isolation and despair after the breakup.
 - Flaming Head tries to teach her to use her powers to help, but she is too overwhelmed by despair. The exact incidents behind his worried return remain to be developed.
-- Stories about Lava Lips reach Dork. He believes she could be useful to his team. How he approaches her, whether she joins, and what she does remain open.
+- Stories about a woman who spits burning plasma reach Dork. He believes she could be useful to his team. A newspaper names her Lava Lips after the accidental newsstand fire.
+- Current author-approved naming supersedes the earlier Luke-origin idea: a sneeze ignites a newsstand and the newspaper headline dubs her “Lava Lips.” Luke may later use the already-public name sarcastically during a jealous outburst. Laura helps the seller and bystanders get clear; the fire is accidental, and the name humiliates her.
 - Earlier discussion suggested a turn toward evil. Preserve that as a possible direction, without treating despair itself as a villainous act or inventing specific crimes.
 
 ## Possible motive — blaming Flaming Head
