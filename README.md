@@ -29,7 +29,7 @@ npm run preview
 
 Open http://localhost:4175. On Linux, use `npx playwright install --with-deps chromium` to install browser system dependencies too.
 
-`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF and both books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
+`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF, Book Three’s measured paperback interior and wrap, and all three books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
 
 Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` overrides the canonical site URL; the default is `https://clevelandsuperheroes.com` from `content/site.json`. Every site build generates the sitemap, robots.txt, metadata and custom-domain CNAME. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates the publishing editions and public samples.
 
@@ -132,3 +132,21 @@ PR #5’s focused correction pass moves the captive exchange into Chapter 19, fi
 The PDF follows `book.json` order and includes only available chapters, retaining their original numbers when unavailable entries leave gaps. The site builder applies the same ordering validation; neither requires the filtered chapters to be numbered consecutively.
 
 `npm run build` now also produces the full illustrated review PDF at `output/publishing/defenders-of-the-land-book-two-illustrated.pdf`. GitHub Actions includes it and `book-two-pdf-build.json` in the existing **kdp-publishing-files** artifact on each PR/main build. The report records the actual rendered page count, chapter starts, 57 interior illustrations, validated passages and SHA-256. The PDF includes its front cover, title and contents pages; this count is distinct from an approved paperback interior count. Its 6 × 9 review layout and the existing cover-wrap assumptions remain provisional. The full PDF is private and adds no public download or purchase link. Book One’s PDF exporter is unchanged.
+
+## Book Three paperback build
+
+`npm run build` (or `npm run build:pdfs`) paginates every available Book Three chapter, validates its text and illustrations, and then builds the cover against that exact interior PDF. Adding a chapter to the book metadata automatically changes pagination and spine width; there is no page-count setting to maintain.
+
+Edit `print/book-three-cover.json` for the back-cover hook, blurb, illustration, paper and spine title. The front uses the preserved **Clash in Cleveland** cover. Current printing settings are 6 × 9 inches, standard color on white paper, a non-bleed interior and 0.125-inch cover bleed. Spine width is the measured interior page count × 0.002252 inches. The paperback interior excludes the cover and receives one blank end page when needed for an even count. Spine lettering appears only when its width permits safe text.
+
+Every build retains these files in `output/publishing/` and the private **kdp-publishing-files** GitHub Actions artifact:
+
+- `book-three-kdp-interior.pdf` and `book-three-pdf-build.json`
+- `book-three-kdp-cover.pdf` (full back, spine and front wrap)
+- `book-three-front-cover.pdf` and `book-three-back-cover.pdf`
+- `book-three-kdp-cover-preview.png` and `book-three-print-specifications.json`
+- The full EPUB and its JPEG ebook cover
+
+The specifications record the interior filename, checksum, measured pages, spine and wrap dimensions, and reserved barcode area. Builds check those against the interior and exercise cover growth at 72, 80, 160 and 320 pages. Full publishing PDFs remain separate from public samples. `npm run build:site` rebuilds only the website; it does not repaginate publishing files.
+
+The manuscript remains in progress. Print dimensions track each current build; final publishing still requires completing the story and reviewing the KDP proof. The 1024 × 1536 front source is preserved and resampled to 300-DPI placement without adding original detail.

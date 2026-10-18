@@ -13,6 +13,10 @@ for(const book of books){
  const report=JSON.parse(fs.readFileSync(path.join(root,'tmp',book.id==='origins'?'epub':'epub-'+book.id,'quality-report.json'),'utf8'));
  reports.push(report);
  if(fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
+  const config=JSON.parse(fs.readFileSync(path.join(root,'print',book.id+'-cover.json'),'utf8'));
+  if(config.interiorPdf){
+   cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id,'--paperback'],{cwd:root,stdio:'inherit'});
+  }
   cp.execFileSync(python,['scripts/build-paperback-cover.py','--book',book.id],{cwd:root,stdio:'inherit'});
  }
 }

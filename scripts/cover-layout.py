@@ -68,9 +68,11 @@ def export_covers(out,page_count,stem='origins'):
     artwork(c,front,WIDTH+spine+18,27,WIDTH-36,HEIGHT-54)
     c.setFillColor(GOLD);font_size=min(10,(spine-9-.2)/.790)
     if page_count>=80 and font_size>=7:
+        title=CONFIG.get('spineTitle',CONFIG['series']+' | ORIGINS')
+        font_size=min(font_size,(HEIGHT-220)/pdfmetrics.stringWidth(title,'CoverDisplay',1))
         c.setFont('CoverDisplay',font_size)
         # Bounds of the actual uppercase Bangers glyphs: [-24,766] / 1000 em.
-        c.saveState();c.translate(WIDTH+spine/2,HEIGHT-48);c.rotate(-90);baseline=-.371*font_size;c.drawString(0,baseline,CONFIG.get('spineTitle',CONFIG['series']+' | ORIGINS'));c.drawString(HEIGHT-160,baseline,CONFIG['author']);c.restoreState()
+        c.saveState();c.translate(WIDTH+spine/2,HEIGHT-48);c.rotate(-90);baseline=-.371*font_size;c.drawString(0,baseline,title);c.drawString(HEIGHT-160,baseline,CONFIG['author']);c.restoreState()
     c.setStrokeColor(GOLD);c.setLineWidth(.75)
     for yy in [26,HEIGHT-26]:c.line(WIDTH+3,yy,WIDTH+spine-3,yy)
     c.showPage();c.save()

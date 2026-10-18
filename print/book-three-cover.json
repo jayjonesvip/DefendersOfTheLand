@@ -1,0 +1,27 @@
+{
+  "book": "book-three",
+  "frontArtwork": "book-three-cover-clash-in-cleveland-v1.png",
+  "printFrontArtwork": "book-three-cover-print.png",
+  "printFrontDpi": 300,
+  "backArtwork": "book-three-chapter-09-aftermath-v1.webp",
+  "series": "DEFENDERS OF THE LAND",
+  "volume": "BOOK THREE: CLASH IN CLEVELAND",
+  "spineTitle": "CLASH IN CLEVELAND | BOOK THREE",
+  "author": "JAY JONES",
+  "hook": "A stolen tank. A shrink ray.\nA city that refuses to bow.",
+  "blurb": [
+    "Cleveland has defenders. Dr. Daniel Orkleson has a new way to cut them down to size.",
+    "Seth, Pink Blur and a flying boxing glove are learning to work as a team. Across town, a woman called Lava Lips is discovering how good it feels to be feared—and Daniel has an offer she wants to believe.",
+    "With a stolen Army shrink ray, a tank and a metal-jawed menace at his side, the scientist known as Dork has his sights on the city itself. As danger closes in on Terminal Tower, Cleveland’s heroes will need more than power to stand their ground."
+  ],
+  "tagline": "An illustrated Cleveland superhero adventure",
+  "readerUrl": "https://clevelandsuperheroes.com/",
+  "trimWidthInches": 6,
+  "trimHeightInches": 9,
+  "copyrightYear": 2026,
+  "printer": "amazon-kdp",
+  "paper": "standard-color-white",
+  "bleedInches": 0.125,
+  "interiorPdf": "book-three-kdp-interior.pdf",
+  "pageCountIsProvisional": true
+}
