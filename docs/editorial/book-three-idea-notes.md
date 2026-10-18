@@ -2,6 +2,21 @@
 
 The author is collecting ideas until the story takes shape. These notes preserve supplied details without treating every possibility as a settled chapter or completed manuscript event.
 
+
+## Current continuation — the Sun and Dork's city attack
+
+After the rooftop drain, Flaming Head returns and finds Seth and Jenny weakened too. They try and fail to stop crimes. He knows he must go to the Sun to restore them but conceals that it is a one-way journey. They become stronger than before, want to thank him and discover they can no longer feel his presence. The loss is real and sad, despite their new strength.
+
+Dork learns of the crime increase and the Defenders' failures and decides it is time to attack Cleveland. He uses the intact Army ray to shrink and steal a whole bank vault, no longer needing Eleanor's money. The Army tank rolls into town announcing a new power. He does not know Seth and Jenny have been recharged. Exact chapter divisions and confrontation tactics remain open. Laura stays cured, and Jaws keeps his new identity and memory loss. The working outline now carries the full sequence and art ideas.
+
+## Current arc — author-approved rooftop rescue
+
+The later rooftop sequence in `book-three-first-half-outline.md` is now the governing plan. It supersedes older possibilities below concerning an early jealous bite of the Army ray, Jaws liking Laura, an enduring three-villain team, and Flaming Head returning only to warn about her recruitment. Those passages are development history, not current instructions.
+
+Dork gets the new collector working. Laura tests it by spitting through its intake field; the rising meter proves it captures some energy. Luke gains hope about getting his body back. Later, Laura helps stage her apparent captivity on a rooftop and uses her special connection to lure Flaming Head to rescue her. The machine draws him in and weakens him. She feels remorse, burns the rope with her spit and tries to knock the machine over. Contact hurts her and removes her power. Furious Dork orders Luke to cut power; Luke hesitates, then bites the collector control panel. The shock throws him into a nearby building and breaks its wall.
+
+Before Luke awakens, Laura is free of her power. Flaming Head thanks her and vows to keep her safe. She delights in an ordinary harmless sneeze and returns to her old life. Then Luke wakes without memory of being Luke, likes his form and becomes Dork's loyal, dangerous Jaws O' Death. Daniel mourns the damaged machine but welcomes the loyal companion. Weakened Flaming Head returns to the Defenders. This belongs closer to the end; chapter numbers remain open. The working outline records staging and communication continuity requirements.
+
 ## Lava Lips
 
 - The person Flaming Head has been helping is Laura Baxter, known as Lava Lips. Her real name is author-confirmed. Her age is unspecified; the visual concept depicts an adult woman.
@@ -51,3 +66,19 @@ The author accepted this direction. The revised `book-three-first-half-outline.m
 ## Author-directed Chapter 6 progression
 
 Before Dork approaches Laura, her anger and resentment toward Flaming Head grow. Remembering the newsstand fire, she no longer feels bad about it. People recognize and fear her when she goes out in costume, and she begins to enjoy that power. These changes precede recruitment and arise through her own choices. The expanded Chapter 6 outline intercuts this progression with the Army-ray theft and laboratory relocation; Chapter 7 retains Dork's approach. Chapter 5's mirror illustration stays unchanged.
+
+## Author-directed Chapter 7 recruitment and first meeting
+
+Daniel finds Laura alone and brings her to the relocated lab. Luke does not meet her until that arrival. He distrusts anyone with powers from the shared energy and suspects Laura and Flaming Head/the Defenders are working together. Her admission that Flaming Head trained and costumed her fuels his suspicion. This is Luke's belief, not an actual alliance. Laura tours the lab and is drawn to Daniel's claim that his newly reconstructed collector can drain Flaming Head. His unproven promise wins her interest; Luke recognizes another overpromise while his own restoration is postponed. The expanded Chapter 7 outline and six proposed illustrations govern this sequence.
+
+At that first meeting, Laura calls Luke a “monstrosity” while speaking to Daniel as if Luke cannot answer. Luke objects; she does not apologize. Daniel brushes past the insult. This humiliation deepens Luke’s resentment alongside his suspicion of her shared powers and frustration over his promised restoration.
+
+Chapter 7 is now drafted as “Dork’s Offer.” Daniel’s new collector is an empty horizontal glass cylinder with three copper coils and a brass intake on a wheeled trolley, with two analog meters below. It remains untested against Flaming Head. Laura’s insult, Luke’s distrust and Daniel’s dismissals precede Luke’s later accident. Flaming Head learns of the alliance at the lake, without learning the lab address or collector plan.
+
+## Terminal Tower showdown and proposed remaining chapters
+
+The author confirms the final threat: Dork, the Army tank, loyal Jaws and the intact shrink ray. He wants to shrink Terminal Tower and force Cleveland to bow to him. The working outline proposes Chapters 8–20: collector success, Defenders’ bank victory, rooftop preparation and lure, trap, Laura’s rescue/cure and Luke’s accident, Jaws/Flaming Head’s return, failed crime interventions, the Sun sacrifice, recharge/grief and vault theft, the city ultimatum, final showdown and aftermath. The recommended resolution stops the shot before the occupied tower is shrunk and captures Dork and Jaws; this is an outline proposal rather than a separately confirmed outcome. Laura remains cured and Flaming Head’s absence remains real.
+
+## Chapter 8 drafted — The Needle Moves
+
+The first powered test captures some energy from Laura’s spit; the meter rises and a faint glow stays in the glass after shutdown. The captured plasma is made of the same energy as Flaming Head. The author removed the separate tray test and all suggestion that capturing already-expelled plasma might drain Laura herself; the tray only catches residue. Luke remembers an ordinary act from his former life and volunteers to watch the meter, showing renewed hope without another restoration argument. Daniel marks the required close approach on the floor; no unlimited range, rooftop trap, cure or memory loss has occurred yet. Three active illustrations retain the established trolley collector and character designs. The removed tray-test image is preserved as an unused original.
