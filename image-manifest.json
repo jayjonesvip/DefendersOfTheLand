@@ -1048,5 +1048,30 @@
     "file": "book-three-chapter-04-laura-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-three-chapter-02-office-v2-thumb.webp": {
+    "file": "book-three-chapter-02-office-v2-thumb.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-welcome-v2-thumb.webp": {
+    "file": "book-three-chapter-04-welcome-v2-thumb.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-operations-v2-thumb.webp": {
+    "file": "book-three-chapter-04-operations-v2-thumb.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-scanner-v2-thumb.webp": {
+    "file": "book-three-chapter-04-scanner-v2-thumb.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-locker-v2-thumb.webp": {
+    "file": "book-three-chapter-04-locker-v2-thumb.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
