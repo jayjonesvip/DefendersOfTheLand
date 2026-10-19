@@ -1,18 +1,18 @@
 {
   "book": "book-three",
-  "frontArtwork": "book-three-cover-clash-in-cleveland-v1.png",
+  "frontArtwork": "book-three-cover-rooftop-v1.png",
   "printFrontArtwork": "book-three-cover-print.png",
   "printFrontDpi": 300,
-  "backArtwork": "book-three-chapter-09-aftermath-v1.webp",
+  "backArtwork": "book-three-chapter-10-layout-v1.webp",
   "series": "DEFENDERS OF THE LAND",
-  "volume": "BOOK THREE: CLASH IN CLEVELAND",
-  "spineTitle": "CLASH IN CLEVELAND | BOOK THREE",
+  "volume": "BOOK THREE: LAVA LIPS",
+  "spineTitle": "LAVA LIPS | BOOK THREE",
   "author": "JAY JONES",
-  "hook": "A stolen tank. A shrink ray.\nA city that refuses to bow.",
+  "hook": "She wanted revenge.\nHe built the machine.",
   "blurb": [
-    "Cleveland has defenders. Dr. Daniel Orkleson has a new way to cut them down to size.",
-    "Seth, Pink Blur and a flying boxing glove are learning to work as a team. Across town, a woman called Lava Lips is discovering how good it feels to be feared—and Daniel has an offer she wants to believe.",
-    "With a stolen Army shrink ray, a tank and a metal-jawed menace at his side, the scientist known as Dork has his sights on the city itself. As danger closes in on Terminal Tower, Cleveland’s heroes will need more than power to stand their ground."
+    "Laura Baxter cannot even sneeze without starting a fire. Flaming Head offers help—but a costume and target practice cannot give her ordinary life back.",
+    "When her anger turns toward the little flame who changed her life, Dr. Daniel Orkleson makes an offer: help him test a machine that could make Flaming Head helpless. With his floating, metal-jawed nephew Luke at his side, the scientist known as Dork puts his plan in motion high above Cleveland.",
+    "Laura thinks she knows what she wants to see happen. But when her chance comes, she must decide how far she is willing to go."
   ],
   "tagline": "An illustrated Cleveland superhero adventure",
   "readerUrl": "https://clevelandsuperheroes.com/",

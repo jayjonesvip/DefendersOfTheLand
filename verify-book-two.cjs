@@ -10,10 +10,18 @@ async function check(){
   browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{})});
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
   const booksRoot=path.join(__dirname,'content/books');
-  const bookIds=fs.readdirSync(booksRoot).filter(id=>fs.existsSync(path.join(booksRoot,id,'book.json')));
+  const allBookIds=fs.readdirSync(booksRoot).filter(id=>fs.existsSync(path.join(booksRoot,id,'book.json')));
+  const bookIds=allBookIds.filter(id=>{
+   const metadata=JSON.parse(fs.readFileSync(path.join(booksRoot,id,'book.json')));
+   return id==='origins'||metadata.chapters.some(file=>JSON.parse(fs.readFileSync(path.join(booksRoot,id,file))).available);
+  });
   await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),bookIds.length);
   for(const id of bookIds)assert.equal(await page.locator(`.book-card h2 a[href="${id}.html"]`).count(),1,`${id} appears once in the book library`);
   await page.goto(base+'/index.html');
+  for(const id of allBookIds.filter(id=>!bookIds.includes(id))){
+   assert.equal(await page.locator(`a[href="${id}.html"],a[href="${id}-chapter-1.html"]`).count(),0,`${id} has no reading links before chapters exist`);
+   assert(!fs.existsSync(path.join(dist,id+'.html')),`${id} has no empty contents page`);
+  }
   for(const id of bookIds.filter(id=>id!=='origins')){
    assert.equal(await page.locator(`.next-book a.contents-link[href="${id}.html"]`).count(),1,`${id} is discoverable from the homepage`);
    assert.equal(await page.locator(`.next-book a[href="${id}-chapter-1.html"]`).count(),1,`${id} can be started from the homepage`);

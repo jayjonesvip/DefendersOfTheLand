@@ -1,6 +1,6 @@
 # Book Three — working outline
 
-Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. The later rooftop arc and proposed twenty-chapter map now supersede the earlier ten-chapter first-half plan. Titles and later chapter divisions are provisional. Chapters 1–9 are now drafted; their current manuscripts govern scene details.
+Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. The author-approved split now ends Book Three with Laura cured and Flaming Head returning to his friends, around Chapter 14. The solar sacrifice, stolen vault, tank and Terminal Tower showdown move to Book Four. This supersedes the earlier twenty-chapter single-book map. Titles and later chapter divisions are provisional. Chapters 1–11 are now drafted; their current manuscripts govern scene details.
 
 ## 1. Someone, Please
 
@@ -311,11 +311,11 @@ All six images are integrated into the draft, pending author review.
 - The collector is newly reconstructed and unproven against Flaming Head. Keep confiscated equipment in police custody. Neither the collector nor the ray cures Laura in this chapter.
 - Use the drafted collector design and existing tank, Army ray, workshop and character references. Laura retains her black flame-sided suit, black eye mask and brown ponytail. Luke remains a blond floating head with bolted iron jaws and no body or limbs.
 
-## Proposed remaining chapters — 8 through 20
+## Book Three chapter map — 8 through 14
 
-This is the current complete chapter map after the author's Terminal Tower direction. Chapters 1–9 are drafted. Chapters 10–20 remain proposed, with the rooftop reversal in Chapters 12–13, the solar sacrifice in Chapter 16, and Dork's public confrontation in Chapters 18–19. Titles and divisions are provisional; the detailed arc notes below provide continuity requirements, not a competing sequence.
+Chapters 1–11 are drafted. Chapters 12–14 complete Book Three: capture, Laura’s reversal and cure, Luke’s changed identity, and weakened Flaming Head returning to the team. Book Four carries the sacrifice and city showdown; its proposed map follows below. Titles and exact divisions remain provisional.
 
-The final threat is Dork with the stolen Army tank, loyal Jaws O' Death and the shrink/enlarge ray. He wants to shrink Terminal Tower and force Cleveland to bow to him. The proposed resolution stops the shot before the landmark is shrunk, defeats and captures Dork and Jaws, and preserves Flaming Head's sacrifice. Those resolution choices are recommendations for this outline rather than already-drafted or separately author-confirmed events.
+Book Four’s final threat is Dork with the stolen Army tank, loyal Jaws O' Death and the shrink/enlarge ray. He wants to shrink Terminal Tower and force Cleveland to bow to him. The proposed resolution stops the shot before the landmark is shrunk, defeats and captures Dork and Jaws, and preserves Flaming Head's sacrifice. Those resolution choices are recommendations for this outline rather than already-drafted or separately author-confirmed events.
 
 ### 8. The Needle Moves
 
@@ -343,6 +343,8 @@ Art: receiving the call; one clear bank action; the team with relieved civilians
 
 ### 10. Above the City
 
+Drafted with four illustrations: miniature collector arriving, the caught caster, the complete rooftop layout, and Laura’s agreement to become bait. The workshop annex roof has the adjoining taller warehouse wall on its west, including an intact bricked-up window; a southwest stairhouse; a west-facing control panel with an eight-foot clear strip to the impact wall; and a north-facing intake six feet from the low ventilator. Laura will sit against the vent’s south face, facing the collector. The supply lead follows the western wall from the stairhouse before turning to the panel, outside the intake approach. Wheel chocks hold the trolley on a flatter patch above the eastern gutter. The Army ray is separate, stored on a board beside the stairhouse. The standby check does not establish remote capture range. Laura has not called Flaming Head or been tied yet.
+
 Daniel, Laura and Luke prepare the rooftop site. This is an action-and-setting chapter: getting the collector up, restoring it if the Army ray is used for transport, routing its power and checking the intake's reach. Establish the roof edge, approach, control panel, cable, safe standing positions and neighboring wall now, before the climax requires them.
 
 Use one practical difficulty in moving or positioning the machine to reveal the group's dynamics. Luke wants the experiment to succeed; Daniel wants control; Laura expects to witness Flaming Head made helpless. Avoid another collector lecture or repeated argument about Luke's body.
@@ -355,17 +357,19 @@ Art: equipment being placed on the rooftop; a wide geography-establishing view; 
 
 ### 11. A Cry for Help
 
+Drafted with four illustrations: Daniel staging the real ropes, Laura deliberately echoing her original plea, Flaming Head responding at the lake, and his arrival beside her on the roof. Her gloved wrists remain together on her lap, with an accessible rope span joining them to the turns holding her against the vent; mouth and throat are clear. Gray canvas disguises the cylinder while leaving the brass intake open and western controls accessible. Daniel and Luke drop below the collector’s sightline before the arrival. The machine stays off through the final line. Flaming Head follows a familiar sense of need rather than hearing a spoken address or reading Laura’s plan.
+
 Laura takes her place as the apparently bound captive. The rope is real but positioned so she can later reach an accessible length with her spit; her mouth is not gagged. Daniel and Luke occupy the positions established in Chapter 10.
 
 She reaches out through the special connection to Flaming Head. Echo the first chapter's plea, now being used deliberately as bait. Keep the echo brief; do not retell her history or give her unlimited telepathic powers.
 
-Flaming Head senses the call. He knows she has chosen Orkleson and recognizes the risk, but he will not ignore apparent distress. Follow his approach closely enough that his decision to help matters. End when he reaches the rooftop and sees her bound.
+Flaming Head senses the call. He remembers their hostile last meeting but has not witnessed her private alliance with Orkleson. Once he sees the bound Laura and suspicious equipment, he recognizes danger and chooses to help. Follow his approach closely enough that his decision to help matters. End when he reaches the rooftop and sees her bound.
 
 Art: bound Laura making the call; Flaming Head responding; his arrival within the established roof geography. Her call deliberately echoes the plea in Chapter 1.
 
 ### 12. Into the Collector
 
-Flaming Head approaches to free Laura. Daniel activates the collector. The earlier meter test pays off: the needle rises as Flaming Head is drawn toward the intake and his flame diminishes.
+Flaming Head approaches to free Laura. Daniel pulls back the gray camouflage canvas established in Chapter 11 and activates the collector. The earlier meter test pays off: the needle rises as Flaming Head is drawn toward the intake and his flame diminishes.
 
 Laura initially watches the result she wanted. His suffering and continued concern for her begin to change it. Give this reversal physical evidence: he is still trying to reach or reassure the person he thinks needs rescuing, even while she has helped cause his pain.
 
@@ -387,59 +391,71 @@ Art: the rope burning away; Laura hurting herself while trying to topple the mac
 
 ### 14. Jaws O' Death
 
-Luke awakens without memory of being Luke. He likes his floating form and iron jaws, identifies as Jaws O' Death and shows loyalty to Daniel. He does not ask for his body. The name is already part of the series; the new event is his changed identification and loyalty.
+Open with weakened Flaming Head reaching the facility. Seth and Jenny receive him and relay what is needed to Billy and Fist. Keep his account brief and do not give him knowledge of Luke’s awakening: he has already left the rooftop before that happens. Establish his diminished state and a first sign that Seth and Jenny are weaker too; actual failed interventions belong to Book Four.
 
-Daniel sees that the companion who now obeys him has replaced the nephew who questioned him. He is angry about the collector but pleased by the useful result. Laura has left; do not restore the superseded attraction or three-villain-team plot.
+Then return to Daniel and the wrecked collector for Book Three’s final scene. Luke awakens without memory of being Luke. He likes his floating form and iron jaws, identifies as Jaws O’ Death and shows eager, dangerous loyalty to Daniel. He does not ask for his body. The name already exists in the series; the change is his attitude, self-identification and loyalty.
 
-In a separate scene, weakened Flaming Head reaches the facility. Seth and Jenny receive him and relay what is needed to Billy and Fist. Keep his account brief and do not give him knowledge of Jaws's awakening unless he actually witnessed it. His return also reveals a new problem: Seth and Jenny are weakened too.
+Let his new attitude appear in a concrete action or response rather than a speech explaining amnesia. Daniel recognizes that the companion who now obeys him has replaced the nephew who questioned him. He is angry about the ruined machine, but his pleasure at this unexpected result overtakes the failure. Laura has left; do not restore the superseded attraction or three-villain-team plot.
 
-Art: Jaws delighted by his reflection; Daniel's reaction beside the damaged collector; diminished Flaming Head arriving at the team's window.
+The final beat belongs to Dork’s satisfaction with the new Jaws, amid the evidence of his failed experiment. Do not follow it with another team scene. Laura’s cure has closed her main arc; this darker coda ends Book Three and prepares the partnership that threatens Cleveland in Book Four.
 
-### 15. Not Fast Enough
+Art, in order: diminished Flaming Head arriving at the team’s window; Jaws delighted by his reflection; Dork smiling beside the wrecked collector with his eager new companion.
 
-Show the cost through an actual failed crime intervention. Jenny cannot close a distance she previously could have covered; Seth cannot hold or move something he could have managed before. Billy and Fist help protect people, but the offenders escape. Their judgment and experience remain; their familiar physical margin is gone.
+## Book Four — proposed chapter map
 
-A shorter second incident or its immediate consequences establishes a pattern without a repetitive failure montage. Compare these scenes with Chapter 9's coordinated success. Public confidence begins to crack, and newspapers or broadcasts report the rise in crime.
+Book Three closes Laura’s main arc and returns the weakened Flaming Head to his friends. Book Four begins with consequences through action, without replaying the rooftop rescue. The cover depicts Dork, the tank, the Army ray and Jaws meeting Seth, Pink Blur and Fist; Laura and Flaming Head do not appear on this cover. His absence from the cover does not remove his role in the story.
 
-Dork receives those reports. He sees an opportunity to take the city and begins preparing an open attack. He does not know what Flaming Head will do next. Back at the facility, Flaming Head understands what he must do to restore Seth and Jenny.
+### 1. Something’s Wrong
 
-Art: one specific failed interception; the discouraged team tending to the aftermath; Daniel reading about the failures with loyal Jaws beside him.
+A rescue exposes the practical limits of Seth’s strength and Jenny’s speed after Flaming Head’s return. Their judgment and experience remain. Billy and Fist help protect people without receiving the same weakness. Show the difference through one concrete task, with no full rooftop recap.
 
-### 16. Toward the Sun
+Art: a familiar rescue task becoming unexpectedly difficult; the friends checking on one another.
 
-Flaming Head knows the trip to the Sun can recharge Seth and Jenny, but he cannot return. He does not tell them it is a one-way journey. His outward explanation is that he must go somewhere to put things right; avoid an explicit false promise of an ordinary return.
+### 2. Not Fast Enough
 
-Give the farewell quiet space. Seth and Jenny still expect to thank him when he gets back. Billy and Fist respond through the same communication limits as before. Let one small gesture or phrase carry a meaning they will understand afterward.
+A coordinated crime intervention fails despite sensible teamwork. Jenny cannot close a distance she once could have covered; Seth cannot hold or move something he could have managed. Billy and Fist help keep civilians safe, but the offenders escape. Contrast the outcome with Book Three Chapter 9’s earned success. A short consequence establishes the crime increase without a repetitive failure montage.
 
-Follow the departure and the one-way journey. His choice is deliberate and the sacrifice is real. Do not dilute it with an implied hidden survival, reassuring ghost or easy future resurrection.
+Art: the failed interception; the discouraged team helping the people left behind.
 
-Art: the understated farewell; the flame leaving Cleveland; a solitary approach toward the immense light of the Sun.
+### 3. Dork’s Opportunity
 
-### 17. The Empty Window
+Daniel reads reports of the failures and decides this is the moment for an open attack. Jaws’s loyalty is useful and dangerous; do not restore Luke’s memories or his old requests for his body. Daniel prepares the full-size Army tank and tests the stolen shrink/enlarge ray for a vault theft. He no longer needs Eleanor’s patronage. He has no knowledge of the coming solar recharge.
 
-Seth and Jenny feel their strength and speed return, greater than before. Use a familiar action to make the increase legible, ideally one related to their recent failure. Their first impulse is to thank Flaming Head.
+Art: the crime reports beside the ray; Daniel preparing the tank with Jaws nearby.
 
-They reach for his familiar presence and find nothing. Allow another attempt, then silence. Their grief should not be displaced by a long explanation of the energy mechanism. Billy and Fist understand from their response and what they can relay.
+### 4. An Unspoken Goodbye
 
-Intercut Dork's bank-vault theft as the city threat advances. The intact Army ray shrinks the whole vault and its contents; he carries away the wealth that makes him independent of Eleanor. He is acting on the period of weak Defenders and does not learn of the recharge.
+Flaming Head understands what he must do to restore Seth and Jenny: return to the Sun at the cost of his own life. He does not tell his friends the trip is one way, but makes no explicit false promise of an ordinary return. Let a small gesture or phrase carry the farewell; avoid speeches retelling his origin. Seth and Jenny still expect to thank him when he comes back. Preserve Billy and Fist’s established communication limits.
 
-End with his preparations for a public challenge while the team is mourning. Laura remains cured, Jaws retains his new identity, and only the specified speed and strength are amplified.
+Art: a quiet farewell at the facility; his friends watching him leave Cleveland.
 
-Art: the stronger ability revealed; Seth and Jenny at the empty familiar window; the stolen miniature vault in Daniel's possession. No image of Flaming Head secretly watching them.
+### 5. Toward the Sun
 
-### 18. Bow Down, Cleveland
+Follow the solitary journey and his deliberate choice. Seth and Jenny’s familiar abilities return stronger than before. Their first impulse is to thank him, but they cannot feel his presence. The sacrifice is real: no hidden survival, reassuring ghost or easy resurrection.
 
-The Army tank rolls into the city with Jaws escorting or protecting Daniel. Establish who operates the vehicle and how Daniel uses the ray during the confrontation; do not silently invent a new crew. He announces a new power in Cleveland and demands the city's submission.
+Art: the small flame approaching the immense Sun; strength and speed returning on Earth; the empty place where they expect him.
 
-Terminal Tower is his threatened prize. He intends to shrink it unless Cleveland bows to him. His successful vault theft supplies visible evidence that the ray is dangerous, but shrinking an occupied, structurally connected skyscraper remains an untested escalation. Neither the heroes nor the city can safely assume his threat is a bluff.
+### 6. What He Left Them
 
-Billy works with police to clear the immediate area and begin evacuation; the tower and surrounding streets are not conveniently empty. He identifies three problems for the team: the tank, Jaws and Daniel's access to the ray. Keep the geography clear enough that the reader understands his line toward the tower and the team's approach.
+Give the loss space before the final battle. Seth and Jenny learn what their greater strength and speed can do through a familiar action related to their recent failure. Their grief does not vanish because they are stronger. Billy and Fist help them prepare to act again. Only the specified speed and strength are amplified; no universal recharge, invulnerability or teleportation. Laura remains cured and outside costumed service.
 
-The Defenders arrive. Daniel expects the diminished opponents described in the reports. End as he discovers one of them can do far more than before—Seth stopping the tank's movement from a position clear of its gun is a proposed reveal.
+Art: a controlled discovery of greater ability; the team together at the empty familiar window.
 
-Art: the tank entering Cleveland; Daniel making the ultimatum with Terminal Tower unmistakably behind the threatened line; civilians evacuating; the first demonstration of the power he did not expect.
+### 7. The Missing Vault
 
-### 19. Defenders of the Land
+Daniel shrinks and steals an entire bank vault with its contents. Establish the vault as a whole stealable target and account for its connection to the bank before the ray fires. He carries away the wealth that makes him independent of Eleanor. He acts on the reports of weak Defenders and does not learn of their recovery. Preparations for a public challenge advance while the team is mourning.
+
+Art: the bank theft staged clearly; the miniature vault in Daniel’s possession.
+
+### 8. Bow to Dork
+
+The Army tank rolls into the city with Jaws escorting Daniel. Establish who operates it and how Daniel uses the ray; do not invent an unseen crew. He demands Cleveland’s submission and threatens to shrink Terminal Tower. Shrinking an occupied, structurally connected skyscraper remains an untested escalation; neither heroes nor city can assume the threat is a bluff.
+
+Billy coordinates with police to clear the area and begin evacuation. Establish the tank, Jaws, the ray, the tower line and the heroes’ routes. Daniel expects diminished opponents and discovers that one can do much more than before. Seth stopping the tank from a position clear of its gun is a proposed reveal.
+
+Art: the tank’s arrival; the ultimatum and intact tower; civilian evacuation; the first unexpected show of strength.
+
+### 9. Clash at the Tower
 
 Recommended final showdown: the team wins through coordinated use of stronger familiar abilities, not by each acting invulnerable or gaining unrelated new powers.
 
@@ -456,7 +472,7 @@ Daniel's demand for the city to bow fails in full public view. Do not give him a
 
 Art: the battle's clear wide geography; Seth stopping/disabling the tank; Fist diverting Jaws; Jenny interrupting Daniel's shot; the defeated villains with the intact tower behind them. Generate separate successive moments rather than a single impossible composite.
 
-### 20. The Light He Left
+### 10. For the Land
 
 Give the book a complete aftermath. Police hold Daniel, the Army ray and the tank; Jaws's secure custody is accounted for. Establish how the stolen vault and its contents are recovered rather than forgetting the bank theft after the spectacle. The book need not settle every trial or legal proceeding.
 
@@ -477,11 +493,13 @@ Art: the recovered city and intact landmark; a small Laura coda; the team rememb
 - Maintain Dork's information lag: his plan starts during the crime increase, and the solar recharge stays unknown to him until the confrontation.
 - Define the vault as a whole stealable target, including its contents and connection to the bank, before showing it shrink. Stage the tower threat as an untested escalation; stopping it is the recommended outcome, not a completed demonstration of unlimited ray scale.
 - Fix tank operation, ray placement, Jaws's route, evacuation geography and temporary/secure restraint before writing the final fight. Preserve strength versus invulnerability and speed versus teleportation.
-- Keep the rooftop rescue in the later part of the book and give the subsequent sacrifice and final attack their own chapters. The exact length of a setup chapter can change, but do not pad it with the repeated grievances removed in the audit.
+- Keep the rooftop rescue as Book Three’s climax and give the subsequent sacrifice and final attack their own chapters in Book Four. The exact length of a setup chapter can change, but do not pad it with the repeated grievances removed in the audit.
 
 ## Beyond Chapter 7 — current author-approved direction
 
-The following sequence replaces the former early Chapter 8 jealousy-driven bite of the shrink/enlarge ray, the proposed Dork/Jaws/Lava Lips team formation, and the early warning-only return in Chapter 10. The rooftop climax belongs closer to the end of the book. Final chapter count and divisions remain open; do not compress this whole arc into Chapter 8. Chapters 1–9 remain the current manuscripts. The audit revision has adjusted Chapter 7’s closing emphasis from the Army ray to the collector’s meter needles.
+After the book split, these arc notes span the ending of Book Three and Book Four. The chapter maps above govern their current placement.
+
+The following sequence replaces the former early Chapter 8 jealousy-driven bite of the shrink/enlarge ray, the proposed Dork/Jaws/Lava Lips team formation, and the early warning-only return in Chapter 10. The rooftop climax belongs closer to the end of the book. Final chapter count and divisions remain open; do not compress this whole arc into Chapter 8. Chapters 1–11 remain the current manuscripts. The audit revision has adjusted Chapter 7’s closing emphasis from the Army ray to the collector’s meter needles.
 
 ### Development — the collector begins to work
 
@@ -580,11 +598,11 @@ These are proposed scenes, not new generated assets. Distribute them across late
 - **Jaws awakens:** the same blond, iron-jawed bodyless head studies his reflection in broken window glass or another established surface and likes what he sees. Daniel's pleasure contrasts with the loss of Luke's memory. Laura is absent.
 - **The weakened return:** smaller, dimmer Flaming Head arrives at the team's facility; Seth and Jenny respond with concern while Billy and Fist await translation. No unexplained full recovery.
 
-## After the rooftop — the Sun and the attack on Cleveland
+## Book Four arc notes — the Sun and the attack on Cleveland
 
 Author-directed continuation: Flaming Head's loss of power also weakens Seth and Jenny. Their attempts to stop crimes fail. He knows he must go to the Sun to recharge them, but conceals that it is a one-way journey. They become stronger than before and only then discover they can no longer feel him. Meanwhile, Dork has read the rise in crime as an opportunity. He uses the shrink ray to steal a bank vault and rolls the Army tank into the city to announce a new power, unaware the Defenders have become stronger.
 
-These are planning beats, not drafted events. The rooftop arc remains late in the book and leads into this final movement. Final chapter count is open; leave sufficient room for the loss, failed interventions, sacrifice, grief and attack rather than compressing them into one epilogue.
+These are planning beats, not drafted events. The rooftop arc closes Book Three; this continuation belongs to Book Four. Its proposed ten chapters leave room for failed interventions, sacrifice, grief and attack rather than compressing them into an epilogue.
 
 ### His weakness reaches them
 

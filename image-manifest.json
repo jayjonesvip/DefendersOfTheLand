@@ -1218,5 +1218,65 @@
     "file": "book-three-cover-clash-in-cleveland-web-v1.webp",
     "width": 1024,
     "height": 1536
+  },
+  "book-three-chapter-10-arrival-v1.webp": {
+    "file": "book-three-chapter-10-arrival-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-10-layout-v1.webp": {
+    "file": "book-three-chapter-10-layout-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-10-caster-v1.webp": {
+    "file": "book-three-chapter-10-caster-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-10-agreement-v1.webp": {
+    "file": "book-three-chapter-10-agreement-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-cover-tank-v1.png": {
+    "file": "book-four-cover-tank-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-four-cover-tank-web-v1.webp": {
+    "file": "book-four-cover-tank-web-v1.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-three-cover-rooftop-v1.png": {
+    "file": "book-three-cover-rooftop-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-three-cover-rooftop-web-v1.webp": {
+    "file": "book-three-cover-rooftop-web-v1.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-three-chapter-11-staging-v1.webp": {
+    "file": "book-three-chapter-11-staging-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-11-call-v1.webp": {
+    "file": "book-three-chapter-11-call-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-11-response-v1.webp": {
+    "file": "book-three-chapter-11-response-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-11-arrival-v1.webp": {
+    "file": "book-three-chapter-11-arrival-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

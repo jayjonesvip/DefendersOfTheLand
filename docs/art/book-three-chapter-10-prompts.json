@@ -1,0 +1,78 @@
+{
+  "book": "book-three",
+  "chapter": 10,
+  "status": "Four generated illustrations visually reviewed and integrated; author review pending",
+  "rooftopGeography": {
+    "site": "Roof of workshop's lower annex; adjoining taller warehouse to west.",
+    "westernWall": "Intact brick with one bricked-up window; future Chapter 13 impact wall.",
+    "stairhouse": "Southwest against western wall; supply socket just inside doorway.",
+    "collector": "Horizontal cylinder on chocked trolley, intake faces north, panel faces west.",
+    "controlStrip": "Eight feet clear between western panel and neighboring wall.",
+    "vent": "Low northern ventilator, six feet ahead of brass intake; future Laura seat on south face facing machine.",
+    "approach": "North parapet beyond vent; arriving rescuer comes down in front of Laura near intake.",
+    "cable": "From stairhouse along western wall, turning east into control panel, outside intake approach.",
+    "ray": "Separate Army device stored on board beside stairhouse after restoration.",
+    "artAuthority": "Layout illustration is the primary rooftop reference; closer action views compress depth."
+  },
+  "continuityChecks": [
+    "Blue shrinks, red restores, as in Chapter Six.",
+    "Whole unplugged collector shrunk and carried on board; tank remains downstairs.",
+    "Luke guides the move without hands; identity and memory intact.",
+    "Standby check establishes no remote capture range or loss of Laura's bodily power.",
+    "No binding, call, Flaming Head arrival, active drain, accident or cure."
+  ],
+  "illustrations": [
+    {
+      "scene": "arrival",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024 for Defenders of the Land Book Three Chapter 10, Cleveland 1987. Warm detailed inked comic art, rich painted colors, late afternoon sunlight, single scene no panels, captions, balloons or modern devices. Exactly three characters: Daniel Orkleson, older scientist wild thinning white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie; Laura/Lava Lips adult brown-eyed woman, curly brown ponytail, BLACK domino eye mask, opaque BLACK long-sleeve fitted costume with red/orange/yellow FLAME FABRIC side panels, black gloves boots and open dark coat, normal unlit lips; Luke is exactly ONE BODYLESS floating blond male HEAD with bolted STEEL lower jaw and triangular iron teeth, NO neck shoulders torso arms legs, still thoughtful Luke, not memoryless. Collector is distinct from shrink ray: wheeled steel trolley, horizontal GLASS cylinder wrapped by THREE COPPER coil hoops, flared BRASS funnel intake on one end, rectangular side control box with TWO ROUND ANALOG meters and switches, black power lead. Same design as references. Handheld shrink ray is GRAY RECTANGULAR metal BOX with TWO carry handles, short COPPER-RING barrel, round analog gauge red/blue controls, no pistol grip. No tank on roof, no heroes, no Flaming Head, no fire attacks or accidents. At open rooftop stairhouse doorway: Daniel carefully carries a wooden board supporting a MINIATURE collector about twelve inches long, its little three copper rings glass and funnel clearly recognizable. Laura follows through doorway carrying the separate normal-sized rectangular shrink ray by its two handles, barrel pointed DOWN safely. Luke floats a few feet ahead checking roof. Medium view, modest tar-and-gravel industrial annex roof, taller intact red-brick wall along LEFT/west, low parapet and Cleveland skyline beyond. Collector is intentionally shrunk as a WHOLE with trolley, not dismantled. Daniel has normal two hands supporting board. Miniature collector not glowing strongly, no giant equipment here.",
+      "references": [
+        "docs/art/originals/book-three/chapter-08/book-three-chapter-08-test-v1.png",
+        "docs/art/originals/book-three/chapter-09/book-three-chapter-09-report-v1.png",
+        "docs/art/originals/book-three/chapter-07/book-three-chapter-07-collector-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-9b2647df-35b0-4fb9-b5aa-e0e4f4d451a1.png",
+      "original": "docs/art/originals/book-three/chapter-10/book-three-chapter-10-arrival-v1.png",
+      "art": "book-three-chapter-10-arrival-v1.webp",
+      "review": "Reviewed: whole miniature three-coil collector carried on board, separate normal-sized rectangular two-handle Army ray, bodyless Luke, matching costumes and roof doorway. Ray carried away from the group; no active beam."
+    },
+    {
+      "scene": "caster",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024 for Defenders of the Land Book Three Chapter 10, Cleveland 1987. Warm detailed inked comic art, rich painted colors, late afternoon sunlight, single scene no panels, captions, balloons or modern devices. Exactly three characters: Daniel Orkleson, older scientist wild thinning white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie; Laura/Lava Lips adult brown-eyed woman, curly brown ponytail, BLACK domino eye mask, opaque BLACK long-sleeve fitted costume with red/orange/yellow FLAME FABRIC side panels, black gloves boots and open dark coat, normal unlit lips; Luke is exactly ONE BODYLESS floating blond male HEAD with bolted STEEL lower jaw and triangular iron teeth, NO neck shoulders torso arms legs, still thoughtful Luke, not memoryless. Collector is distinct from shrink ray: wheeled steel trolley, horizontal GLASS cylinder wrapped by THREE COPPER coil hoops, flared BRASS funnel intake on one end, rectangular side control box with TWO ROUND ANALOG meters and switches, black power lead. Same design as references. Handheld shrink ray is GRAY RECTANGULAR metal BOX with TWO carry handles, short COPPER-RING barrel, round analog gauge red/blue controls, no pistol grip. No tank on roof, no heroes, no Flaming Head, no fire attacks or accidents. Medium dynamic practical setback on same roof. Collector's FULL-SIZE trolley has started rolling toward a sloped shallow rain gutter on RIGHT/east. Laura on RIGHT/east braces against trolley's LOW steel frame, knees bent, both black-gloved hands pushing frame to stop it. Daniel LEFT/west grabs opposite lower steel rail, startled glasses slipping. Luke bodyless head hovers above near wheel and looks sharply toward blocked caster, guiding them with NO physical hands. One caster catches raised dark roofing seam; a small rectangular wood chock nearby. Three coil glass cylinder brass funnel intact, no electrical sparks, no falling people, no explosion. Western intact brick wall LEFT background, low north vent/parapet and city beyond. Express effort and friction, not supernatural strength. No damage to glass; Laura touches frame only.",
+      "references": [
+        "docs/art/originals/book-three/chapter-08/book-three-chapter-08-test-v1.png",
+        "docs/art/originals/book-three/chapter-09/book-three-chapter-09-report-v1.png",
+        "docs/art/originals/book-three/chapter-07/book-three-chapter-07-collector-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-903a0c6d-c5b6-4c2d-866c-f2ec980964a9.png",
+      "original": "docs/art/originals/book-three/chapter-10/book-three-chapter-10-caster-v1.png",
+      "art": "book-three-chapter-10-caster-v1.webp",
+      "review": "Reviewed: Daniel and Laura brace steel trolley frame while Luke observes without limbs; cylinder remains intact, same three hoops, gutter/seam and wooden chock visible, no electrical accident."
+    },
+    {
+      "scene": "layout",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024 for Defenders of the Land Book Three Chapter 10, Cleveland 1987. Warm detailed inked comic art, rich painted colors, late afternoon sunlight, single scene no panels, captions, balloons or modern devices. Exactly three characters: Daniel Orkleson, older scientist wild thinning white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie; Laura/Lava Lips adult brown-eyed woman, curly brown ponytail, BLACK domino eye mask, opaque BLACK long-sleeve fitted costume with red/orange/yellow FLAME FABRIC side panels, black gloves boots and open dark coat, normal unlit lips; Luke is exactly ONE BODYLESS floating blond male HEAD with bolted STEEL lower jaw and triangular iron teeth, NO neck shoulders torso arms legs, still thoughtful Luke, not memoryless. Collector is distinct from shrink ray: wheeled steel trolley, horizontal GLASS cylinder wrapped by THREE COPPER coil hoops, flared BRASS funnel intake on one end, rectangular side control box with TWO ROUND ANALOG meters and switches, black power lead. Same design as references. Handheld shrink ray is GRAY RECTANGULAR metal BOX with TWO carry handles, short COPPER-RING barrel, round analog gauge red/blue controls, no pistol grip. No tank on roof, no heroes, no Flaming Head, no fire attacks or accidents. High wide establishing shot from southeast looking northwest over rectangular industrial annex rooftop. LEFT/west edge is tall intact red-brick wall of neighboring connected building with an old window fully bricked shut. Small brick stairhouse sits LOWER LEFT/southwest against this wall, open metal door. CENTER roof is ONE fully restored FULL-SIZE collector trolley, cylinder points away from viewer toward NORTH/upper roof and brass intake faces low ventilation housing in UPPER CENTER. The vent is about six feet in front of intake; northern low parapet another ten feet beyond vent, Cleveland skyline/Terminal Tower distant beyond parapet. Collector meter/control panel faces LEFT/west brick wall with eight-foot clear strip between it and wall. Black cable runs from stairhouse door along wall then turns to panel side of trolley, NOT across vent approach. Daniel kneels at cable, Laura stands at vent, bodyless Luke hovers near western control panel. Readable coherent rooftop geometry, no diagrams labels arrows, no shrink beam. Give dominant attention to physical roof and equipment placement rather than character portraits.",
+      "references": [
+        "docs/art/originals/book-three/chapter-08/book-three-chapter-08-test-v1.png",
+        "docs/art/originals/book-three/chapter-09/book-three-chapter-09-report-v1.png",
+        "docs/art/originals/book-three/chapter-07/book-three-chapter-07-collector-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-3e7ec78b-8d26-4540-8b7d-ed4edc64f7e3.png",
+      "original": "docs/art/originals/book-three/chapter-10/book-three-chapter-10-layout-v1.png",
+      "art": "book-three-chapter-10-layout-v1.webp",
+      "review": "Reviewed: authoritative rooftop geography reference for future scenes. Western intact bricked-up window and stair access, western working strip/control panel, northward intake and low vent, cable clear of approach. Camera compresses measured distances."
+    },
+    {
+      "scene": "agreement",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024 for Defenders of the Land Book Three Chapter 10, Cleveland 1987. Warm detailed inked comic art, rich painted colors, late afternoon sunlight, single scene no panels, captions, balloons or modern devices. Exactly three characters: Daniel Orkleson, older scientist wild thinning white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie; Laura/Lava Lips adult brown-eyed woman, curly brown ponytail, BLACK domino eye mask, opaque BLACK long-sleeve fitted costume with red/orange/yellow FLAME FABRIC side panels, black gloves boots and open dark coat, normal unlit lips; Luke is exactly ONE BODYLESS floating blond male HEAD with bolted STEEL lower jaw and triangular iron teeth, NO neck shoulders torso arms legs, still thoughtful Luke, not memoryless. Collector is distinct from shrink ray: wheeled steel trolley, horizontal GLASS cylinder wrapped by THREE COPPER coil hoops, flared BRASS funnel intake on one end, rectangular side control box with TWO ROUND ANALOG meters and switches, black power lead. Same design as references. Handheld shrink ray is GRAY RECTANGULAR metal BOX with TWO carry handles, short COPPER-RING barrel, round analog gauge red/blue controls, no pistol grip. No tank on roof, no heroes, no Flaming Head, no fire attacks or accidents. Quiet ominous medium-wide rooftop scene, cinematic evening gold. Daniel in FOREGROUND LEFT stands at low northern parapet surveying Cleveland streets and Terminal Tower with calculating ambition. Laura in RIGHT MIDGROUND stands beside low rectangular ventilation housing, one black-gloved hand resting on a neatly coiled ordinary rope placed on its top; she looks toward Daniel with a deliberate agreeing expression. She is NOT bound, mouth NOT gagged, no telepathic call yet. Luke floats thoughtfully beside stationary collector in rear LEFT near western control panel. Restored collector is further south behind Laura, brass mouth faces toward vent; black lead reaches stairhouse along taller intact brick wall on LEFT/west. Shrink ray rests separately on wooden board near stairhouse, can be subtle. No giant ghost faces in sky, no shrink beam at city, no Terminal Tower attack, no active trap. Different ambitions revealed through character placement and expressions, subdued menace.",
+      "references": [
+        "docs/art/originals/book-three/chapter-08/book-three-chapter-08-test-v1.png",
+        "docs/art/originals/book-three/chapter-09/book-three-chapter-09-report-v1.png",
+        "docs/art/originals/book-three/chapter-07/book-three-chapter-07-collector-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-8ea37abb-fe78-419f-9a66-927651203190.png",
+      "original": "docs/art/originals/book-three/chapter-10/book-three-chapter-10-agreement-v1.png",
+      "art": "book-three-chapter-10-agreement-v1.webp",
+      "review": "Reviewed: rope stays coiled on vent, Laura unbound and not calling yet; Daniel at parapet, Luke beside stationary collector, separate ray by stairhouse. Warm later light; no Flaming Head or premature betrayal aftermath."
+    }
+  ]
+}
