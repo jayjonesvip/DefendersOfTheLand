@@ -1,6 +1,11 @@
 # Book Three — working outline
 
-Current working outline following the author's decision to center Laura Baxter / Lava Lips and remove Bob. Supersedes the earlier Bob-based first-half and opening outlines. The author-approved split now ends Book Three with Laura cured and Flaming Head returning to his friends, around Chapter 14. The solar sacrifice, stolen vault, tank and Terminal Tower showdown move to Book Four. This supersedes the earlier twenty-chapter single-book map. Titles and later chapter divisions are provisional. Chapters 1–11 are now drafted; their current manuscripts govern scene details.
+## Author rule — Flaming Head’s silent communication
+
+Throughout Book Three, Flaming Head never produces an audible voice. His words arrive privately inside the minds of established recipients: Seth and Jenny, or Laura while their shared-energy connection remains. Daniel, Luke, Billy, Fist and bystanders cannot hear or overhear him. Seth and Jenny relay his messages aloud when Billy or Fist need them. Dialogue tags such as “said” describe mental communication, not sound; no illustration should add an audible speech effect. His later thanks and promise to Laura must follow the fading-connection staging below, without granting her permanent telepathy after her cure.
+
+
+Book Three: Lava Lips now has a complete fourteen-chapter manuscript: Laura is cured, weakened Flaming Head returns to his friends, and the book ends on Dork’s satisfaction with the newly eager Jaws. The solar sacrifice, stolen vault, tank and Terminal Tower showdown belong to Book Four: Clash in Cleveland. Both titles are author-confirmed; Book Four’s later chapter divisions remain a working plan. Chapters 1–14 govern their scene details. This map supersedes the earlier Bob-based outlines and twenty-chapter single-book plan.
 
 ## 1. Someone, Please
 
@@ -369,6 +374,8 @@ Art: bound Laura making the call; Flaming Head responding; his arrival within th
 
 ### 12. Into the Collector
 
+Drafted: the collector takes Flaming Head fully inside the cylinder, the storage meter rises, and Luke watches with renewed hope. Laura admits her part, then sees him weaken while he still watches her bindings with concern. Daniel refuses to stop; Luke does not intervene. The chapter ends with Laura angling the still-intact joining rope away from her coat and taking aim. Escape, cure, the bite and wall impact remain in Chapter 13. Four illustrations cover capture, meters, alarm and decision.
+
 Flaming Head approaches to free Laura. Daniel pulls back the gray camouflage canvas established in Chapter 11 and activates the collector. The earlier meter test pays off: the needle rises as Flaming Head is drawn toward the intake and his flame diminishes.
 
 Laura initially watches the result she wanted. His suffering and continued concern for her begin to change it. Give this reversal physical evidence: he is still trying to reach or reassure the person he thinks needs rescuing, even while she has helped cause his pain.
@@ -379,17 +386,21 @@ Art: the collector catching Flaming Head; the rising meter and fading flame; Lau
 
 ### 13. Cut the Power
 
-Laura burns the accessible rope with her plasma and lunges at the collector to knock it over. Contact hurts her and drains the power that has afflicted her. She must still be powered when she burns the rope; her cure follows contact with the active machine.
+Current author-directed version: after Laura chooses to save Flaming Head, she frees herself and spits a small shot onto Daniel’s loose lab-coat hem when he blocks her. He strips off the coat, stamps out the flame and retreats behind the stairhouse. He does not approach the collector to help her and gives Luke no rescue or shutdown order.
 
-Daniel is furious. With the machine destabilized, he orders Luke to cut the power. Luke hesitates, then bites the collector's control panel. The discharge throws him backward into the already-established neighboring building and breaks its wall. The drain stops. The Army ray is a separate device and is not what he bites.
+Luke tries to stop Laura because she threatens the machine and his hope of getting his body back. He darts across her path; she ducks past him and lunges for the collector. Only now does Flaming Head privately warn her, “Don’t touch the machine, Laura. It’s too dangerous.” Nobody else hears him. Contact with the active machine hurts her and drains her power; the earlier expelled-plasma test did not remotely depower her.
 
-Before Luke awakens, Flaming Head thanks Laura and vows to keep her safe. His message can reach her as the shared connection fades. She sneezes and nothing burns. Give her relief room; she chooses to return to ordinary life rather than remain a powered combatant. Flaming Head is alive but still weak.
+Laura rocks the chocked trolley. Luke clamps his iron jaw over the western control housing and drives against her push to stop her overturning it. The housing buckles and the collector’s stored energy explodes from the western panel, throwing Luke across the established clear strip and through the bricked-up warehouse window. He does not choose to cut power or help her. The Army ray is elsewhere and untouched. This supersedes every earlier version where Daniel orders Luke to shut down the machine.
 
-End on Laura's release from the affliction, with Luke still unconscious. Her cure and relief precede his awakening.
+The explosion cuts power, releases Laura’s grip and splits the glass. Flaming Head escapes, alive but weakened. Daniel comes out of shelter to check on Luke, who remains unconscious. Laura feels terrible about her betrayal and apologizes. Flaming Head is not angry: he thanks her, says he is proud she chose to help, and vows to keep her safe. His final private words reach her as their shared connection fades; no permanent post-cure telepathy.
 
-Art: the rope burning away; Laura hurting herself while trying to topple the machine; the bite and discharge; a separate wall-impact image if needed; the harmless sneeze and her relief.
+Laura enjoys two harmless ordinary sneezes, takes off the mask and heads home before Luke awakens. His awakening/new attitude and the team reunion remain in Chapter Fourteen. The discarded scorched lab coat remains on the roof and Daniel is in shirtsleeves afterward.
+
+Keep the capture and rescue across Chapters Twelve and Thirteen to a fast continuous event of roughly two minutes. Five illustrations: completed rope escape, painful contact, jaw contact/overload explosion, wall impact and harmless sneeze.
 
 ### 14. Jaws O' Death
+
+Drafted as the Book Three finale with four illustrations: diminished return at the facility window, Seth’s difficult practice-bar lift, Jaws admiring his reflection, and Dork’s final satisfied smile beside the wreckage. Seth and Jenny relay mental words for Billy and recovered Fist; Jenny’s slower dash supplies the first speed-loss sign. The villains’ scene follows the team scene and closes the book. Daniel remains in shirtsleeves; Jaws forgets Luke, enjoys his form and eagerly fetches the detached cover without bargaining. No new physical transformation, Laura appearance, crime failure or Sun trip occurs here.
 
 Open with weakened Flaming Head reaching the facility. Seth and Jenny receive him and relay what is needed to Billy and Fist. Keep his account brief and do not give him knowledge of Luke’s awakening: he has already left the rooftop before that happens. Establish his diminished state and a first sign that Seth and Jenny are weaker too; actual failed interventions belong to Book Four.
 
@@ -545,17 +556,15 @@ She lunges at the machine and tries to knock it over. Contact with the active co
 
 During that contact, the collector removes the power that has afflicted her. This is the working staging explanation for the author-directed cure, distinct from the earlier test that captured only expelled plasma. Show the connection through pain, a meter response and later verification, rather than claiming that merely draining Flaming Head automatically cures everybody changed by the lake.
 
-The exact amount of stored energy, whether any is released, and the collector's final physical condition remain to be staged. Flaming Head survives with reduced power, so do not imply that all his strength is instantly restored when the supply is cut.
+The collector’s western housing bursts under the overload and its glass splits; the explosion expends its stored energy. Flaming Head survives with reduced power, so do not imply that all his strength is instantly restored when the supply is cut.
 
-### Daniel orders the power cut — Luke hesitates
+### Luke tries to stop Laura — the collector explodes
 
-Daniel commands Luke to cut the power. He is angry at Laura and focused on his endangered machine. Proposed motive for the order: Laura's attack has made the powered apparatus unstable and he wants to stop further damage. This is a staging choice to make his command credible, not a change of heart in which he decides to rescue Flaming Head.
+Daniel retreats after the coat shot. He makes no attempt to rescue Laura and gives Luke no shutdown order. Luke tries to stop her because overturning the collector threatens his chance of getting his body back. He darts across her path, then clamps the western control housing with his iron jaw to brace the machine against her push.
 
-Luke hesitates, then obeys. Preserve the hesitation without inventing a settled explanation yet: fear of losing the first promising result, uncertainty about Laura, and Daniel's command can all be present in his reaction. Do not turn the bite back into the superseded jealousy-driven attack on the shrink ray.
+The housing buckles, the stored energy explodes from the western panel, and the blast throws Luke backward through the established bricked-up warehouse window. Power cuts out as a consequence of the explosion. This replaces the earlier version in which Luke hesitates and obeys an order to cut power.
 
-Luke chomps down on the collector's control panel to cut the power. The electrical discharge shocks him and hurls him backward into the nearby building, breaking its wall. Establish the distance and impact surface before the bite. The power is interrupted and the drain stops.
-
-Luke remains a bodyless head with iron jaws. No body is restored and no new physical transformation is required for what follows. The Army ray's condition is not automatically changed by damage to the separate collector panel.
+Luke remains a bodyless head with iron jaws. No body is restored and no new physical transformation is required for what follows. The Army ray is elsewhere and untouched.
 
 ### Before Luke awakens — Laura's release
 

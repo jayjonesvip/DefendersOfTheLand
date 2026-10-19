@@ -135,6 +135,8 @@ The PDF follows `book.json` order and includes only available chapters, retainin
 
 ## Book Three paperback build
 
+Flaming Head’s author-approved identity is the isolated `public/assets/character-flaming-head-v1.png` portrait. Use it as the primary reference for new art, including concerned or frightened expressions. See `docs/art/flaming-head-approved-identity.json`; later scene illustrations do not replace this reference.
+
 `npm run build` (or `npm run build:pdfs`) paginates every available Book Three chapter, validates its text and illustrations, and then builds the cover against that exact interior PDF. Adding a chapter to the book metadata automatically changes pagination and spine width; there is no page-count setting to maintain.
 
 Edit `print/book-three-cover.json` for the back-cover hook, blurb, illustration, paper and spine title. The front uses the **Lava Lips** rooftop cover; the earlier #3 tank cover remains preserved as an original. The tank scene moves to planned Book Four, **Clash in Cleveland**, with Laura and Flaming Head removed from that cover. Current printing settings are 6 × 9 inches, standard color on white paper, a non-bleed interior and 0.125-inch cover bleed. Spine width is the measured interior page count × 0.002252 inches. The paperback interior excludes the cover and receives one blank end page when needed for an even count. Spine lettering appears only when its width permits safe text.
@@ -149,4 +151,4 @@ Every build retains these files in `output/publishing/` and the private **kdp-pu
 
 The specifications record the interior filename, checksum, measured pages, spine and wrap dimensions, and reserved barcode area. Builds check those against the interior and exercise cover growth at 72, 80, 160 and 320 pages. Full publishing PDFs remain separate from public samples. `npm run build:site` rebuilds only the website; it does not repaginate publishing files.
 
-The manuscript remains in progress. Print dimensions track each current build; final publishing still requires completing the story and reviewing the KDP proof. The 1024 × 1536 front source is preserved and resampled to 300-DPI placement without adding original detail.
+The fourteen-chapter Book Three manuscript is complete. Print dimensions track each current build; review the generated files and KDP proof before publication. The 1024 × 1536 front source is preserved and resampled to 300-DPI placement without adding original detail.

@@ -3,7 +3,7 @@
   "title": "Book Three: Lava Lips",
   "number": 3,
   "author": "Jay Jones",
-  "status": "In progress",
+  "status": "Manuscript complete",
   "description": "Laura Baxter’s new power has made her feared. Dork offers her a chance to make Flaming Head helpless—and asks her to help set the trap.",
   "chapters": [
     "chapter-01.json",
@@ -16,9 +16,12 @@
     "chapter-08.json",
     "chapter-09.json",
     "chapter-10.json",
-    "chapter-11.json"
+    "chapter-11.json",
+    "chapter-12.json",
+    "chapter-13.json",
+    "chapter-14.json"
   ],
   "publicationStatus": "Unpublished",
-  "cover": "book-three-cover-rooftop-web-v1.webp",
-  "ebookCover": "book-three-cover-rooftop-v1.png"
+  "cover": "book-three-cover-rooftop-web-v2.webp",
+  "ebookCover": "book-three-cover-rooftop-v2.png"
 }

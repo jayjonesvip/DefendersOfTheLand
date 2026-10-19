@@ -1,0 +1,21 @@
+{
+  "character": "Flaming Head",
+  "status": "Identity explicitly approved by author",
+  "authorInstruction": "The isolated image of him is the approved look. Adjust Book Three.",
+  "primaryReference": "public/assets/character-flaming-head-v1.png",
+  "identity": {
+    "face": "Rounded warm orange cartoon face; no pronounced human nose, pointed chin, jawline or cheekbones.",
+    "eyes": "Two enormous vertical oval white eyes, black vertical oval pupils with small highlights; retain proportions in every expression.",
+    "browsAndMouth": "Simple curved black brows and expressive cartoon mouth. Adapt mood through brows and mouth without changing facial identity.",
+    "flames": "Thick painted flowing yellow, gold and orange flame tongues with a sweeping rising crest, strong dark outlines and shaded volume.",
+    "anatomy": "Floating head and flames only; no neck, shoulders, body, arms or legs."
+  },
+  "avoid": [
+    "Human/anime facial proportions, small eyes, sculpted nose or chin",
+    "Pale yellow human-looking skin replacing the orange face",
+    "Neon electrical webs, thin lightning filaments or a face carved from realistic fire",
+    "Using later chapter images or covers as an identity source in place of the isolated portrait"
+  ],
+  "scope": "All active Book Three appearances and cover, and all new Flaming Head art. Other characters and story action must remain consistent.",
+  "expressionRule": "He may be concerned, alarmed or sad without losing the approved eye proportions, round orange face and thick painted flame silhouette."
+}

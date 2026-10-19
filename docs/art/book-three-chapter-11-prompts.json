@@ -51,10 +51,15 @@
         "docs/art/originals/book-three/chapter-06/book-three-chapter-06-retreat-v1.png",
         "docs/art/originals/book-three/chapter-10/book-three-chapter-10-agreement-v1.png"
       ],
-      "generatedSource": "/workspace/generated_images/exec-15ab3266-dd0f-4d0c-a619-8cd59c0e4119.png",
-      "original": "docs/art/originals/book-three/chapter-11/book-three-chapter-11-response-v1.png",
-      "art": "book-three-chapter-11-response-v1.webp",
-      "review": "Only one healthy bright bodyless Flaming Head, moving inland from the water; concerned expression, no human limbs, weakening, Sun journey or other characters."
+      "generatedSource": "/workspace/generated_images/exec-e831ab1f-f904-4083-a2d1-f3588f1f3bc2.png",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-11-response-v2-fh.png",
+      "art": "book-three-chapter-11-response-v2-fh.webp",
+      "review": "Only one healthy bright bodyless Flaming Head, moving inland from the water; concerned expression, no human limbs, weakening, Sun journey or other characters.",
+      "artBeforeIdentityCorrection": "book-three-chapter-11-response-v1.webp",
+      "originalBeforeIdentityCorrection": "docs/art/originals/book-three/chapter-11/book-three-chapter-11-response-v1.png",
+      "generatedSourceBeforeIdentityCorrection": "/workspace/generated_images/exec-15ab3266-dd0f-4d0c-a619-8cd59c0e4119.png",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#11-response",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "scene": "arrival",
@@ -64,9 +69,9 @@
         "docs/art/originals/book-three/chapter-06/book-three-chapter-06-retreat-v1.png",
         "docs/art/originals/book-three/chapter-10/book-three-chapter-10-agreement-v1.png"
       ],
-      "generatedSource": "/workspace/generated_images/exec-860369ae-e1d1-47f3-8616-d814c2a8acda.png",
-      "original": "docs/art/originals/book-three/chapter-11/book-three-chapter-11-arrival-v1.png",
-      "art": "book-three-chapter-11-arrival-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-75f528c4-1796-48d9-9f19-21e7aef6b8b7.png",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-11-arrival-v2-fh.png",
+      "art": "book-three-chapter-11-arrival-v2-fh.webp",
       "review": "Corrected wrist bindings to make front-lap rope clearly visible. One healthy Flaming Head beside seated Laura, canvas-covered collector with open brass intake and resting needles; no suction, beam, drain or villain visible. Roof wall intact.",
       "initialGeneratedSource": "/workspace/generated_images/exec-7ade9a63-8ca5-4819-a8a0-f2df3891ea5a.png",
       "initialOriginal": "docs/art/originals/book-three/chapter-11/book-three-chapter-11-arrival-initial-v1.png",
@@ -74,7 +79,13 @@
       "correctionReferences": [
         "/workspace/generated_images/exec-7ade9a63-8ca5-4819-a8a0-f2df3891ea5a.png",
         "/workspace/generated_images/exec-a1aa815c-a3ec-44d3-8168-fd1a51eb9d35.png"
-      ]
+      ],
+      "artBeforeIdentityCorrection": "book-three-chapter-11-arrival-v1.webp",
+      "originalBeforeIdentityCorrection": "docs/art/originals/book-three/chapter-11/book-three-chapter-11-arrival-v1.png",
+      "generatedSourceBeforeIdentityCorrection": "/workspace/generated_images/exec-860369ae-e1d1-47f3-8616-d814c2a8acda.png",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#11-arrival",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     }
-  ]
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
 }

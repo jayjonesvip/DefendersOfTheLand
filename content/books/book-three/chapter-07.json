@@ -296,10 +296,6 @@
     },
     {
       "type": "prose",
-      "text": "“A present from him, and now you want to work with us?” Luke asked."
-    },
-    {
-      "type": "prose",
       "text": "“Your uncle came looking for me.”"
     },
     {
@@ -364,7 +360,7 @@
     },
     {
       "type": "prose",
-      "text": "Daniel traced the coils with one finger. “The intake gathers the energy. These direct it into the collector. Once he's within reach, he won't have the freedom he's accustomed to.”"
+      "text": "Daniel traced the coils. “These draw the energy into the collector. Once he’s within reach, he won’t be able to float away.”"
     },
     {
       "type": "prose",
@@ -372,25 +368,17 @@
     },
     {
       "type": "prose",
-      "text": "Daniel raised the loose cable. “Not until this is finished. The principle worked in my earlier collector.”"
+      "text": "Daniel raised the loose cable. “I collected this kind of energy from the lake. This one needs its final connection.”"
     },
     {
       "type": "prose",
-      "text": "“The one the police took,” Luke said."
+      "text": "“The police took the last one,” Luke said."
     },
     {
       "type": "scene",
       "text": "Daniel ignored him.",
       "art": "book-three-chapter-07-collector-v1.webp",
       "alt": "Daniel presents an empty glass-cylinder collector with three copper coils on a trolley to Laura while Luke watches skeptically."
-    },
-    {
-      "type": "prose",
-      "text": "The loose cable looked less convincing than his explanation."
-    },
-    {
-      "type": "prose",
-      "text": "Laura took her hand off the trolley."
     },
     {
       "type": "prose",
@@ -586,7 +574,7 @@
     },
     {
       "type": "prose",
-      "text": "Flaming Head stopped moving. She noticed immediately."
+      "text": "Flaming Head stopped moving. His reply reached her mind alone."
     },
     {
       "type": "prose",
@@ -603,7 +591,7 @@
     {
       "type": "scene",
       "text": "She looked toward the rocks. “You don't know what I mean to do.”",
-      "art": "book-three-chapter-07-warning-v1.webp",
+      "art": "book-three-chapter-07-warning-v2-fh.webp",
       "alt": "Laura in costume refuses a troubled Flaming Head’s warning at the familiar lakeside practice place."
     },
     {
@@ -616,11 +604,11 @@
     },
     {
       "type": "prose",
-      "text": "“I know what his equipment did to someone else.”"
+      "text": "“He trapped a fish changed by my energy and used him to power a robot.”"
     },
     {
       "type": "prose",
-      "text": "She thought of Luke above the cabinet. The jaw. The empty space beneath it."
+      "text": "Laura thought of Luke above the cabinet. She had seen what Daniel’s work could leave behind and had come inside anyway."
     },
     {
       "type": "prose",
@@ -672,11 +660,7 @@
     },
     {
       "type": "prose",
-      "text": "“She told you he gave her the suit.”"
-    },
-    {
-      "type": "prose",
-      "text": "“And she told us what she thinks of him.” Daniel tested the fitting with one finger. “We can use that.”"
+      "text": "Daniel tested the fitting with one finger. “We can use that.”"
     },
     {
       "type": "prose",

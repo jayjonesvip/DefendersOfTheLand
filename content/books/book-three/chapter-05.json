@@ -6,15 +6,11 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "Flaming Head did not answer quickly enough."
+      "text": "Flaming Head’s answer did not reach her mind quickly enough."
     },
     {
       "type": "prose",
       "text": "Laura watched his face. The little hope she had allowed herself began to shrink."
-    },
-    {
-      "type": "prose",
-      "text": "“Can you?” she asked again."
     },
     {
       "type": "prose",
@@ -34,15 +30,7 @@
     },
     {
       "type": "prose",
-      "text": "She waited for him to ask about the toothpaste, or the pipes, or whether she had mistaken something else for a burn."
-    },
-    {
-      "type": "prose",
-      "text": "“What happened?” he asked."
-    },
-    {
-      "type": "prose",
-      "text": "So she told him. About brushing her teeth. About the tissue. About turning away before she laughed."
+      "text": "She told him about the toothpaste, the burning tissue and turning away before she laughed."
     },
     {
       "type": "prose",
@@ -82,15 +70,7 @@
     },
     {
       "type": "prose",
-      "text": "“Start small,” he said."
-    },
-    {
-      "type": "prose",
-      "text": "“How small?”"
-    },
-    {
-      "type": "prose",
-      "text": "“As little as you can.”"
+      "text": "“Start with as little as you can,” he said."
     },
     {
       "type": "prose",
@@ -107,20 +87,12 @@
     {
       "type": "scene",
       "text": "An orange streak crossed the space between her and the target. The sheet rang against the bank. A dark spot spread around a tiny glowing hole.",
-      "art": "book-three-chapter-05-practice-v1.webp",
+      "art": "book-three-chapter-05-practice-v2-fh.webp",
       "alt": "Civilian Laura spits a small orange plasma shot at a baking sheet backed by an earth bank while Flaming Head observes from the side."
     },
     {
       "type": "prose",
       "text": "Laura stepped back, then remembered Flaming Head was watching."
-    },
-    {
-      "type": "prose",
-      "text": "“Was that small?”"
-    },
-    {
-      "type": "prose",
-      "text": "“Try less.”"
     },
     {
       "type": "prose",
@@ -226,7 +198,7 @@
     },
     {
       "type": "prose",
-      "text": "Her aim was better. She could make the shot smaller when she took her time. Flaming Head spoke about choosing where to stand, checking what lay beyond a target and knowing when not to use it."
+      "text": "Her aim was better. She could make the shot smaller when she took her time. Through their private connection, Flaming Head guided her in choosing where to stand, checking what lay beyond a target and knowing when not to use it."
     },
     {
       "type": "prose",
@@ -468,15 +440,7 @@
     },
     {
       "type": "prose",
-      "text": "“What?” he asked."
-    },
-    {
-      "type": "prose",
-      "text": "“We need to work on it.” She pressed the folded newspaper against her leg. “That's what you keep saying.”"
-    },
-    {
-      "type": "prose",
-      "text": "“I want to help.”"
+      "text": "“Work on it.” She pressed the folded newspaper against her leg. “That’s what you keep saying.”"
     },
     {
       "type": "prose",
@@ -509,7 +473,7 @@
     {
       "type": "scene",
       "text": "“I asked for help,” she said. “I didn't ask you to teach me how to burn things better.”",
-      "art": "book-three-chapter-05-anger-v1.webp",
+      "art": "book-three-chapter-05-anger-v2-fh.webp",
       "alt": "Tearful Laura confronts a saddened Flaming Head by the lake, holding her glasses and the folded newspaper, with the baking sheet and towel nearby."
     },
     {
@@ -546,7 +510,7 @@
     },
     {
       "type": "prose",
-      "text": "He was sitting on a bench with the newspaper spread across his knees. The Army announcement had been folded into his coat pocket. He took that clipping out, checked the date of the demonstration once more, then laid it beside the new story."
+      "text": "He sat on a bench with the newspaper across his knees and checked the Army demonstration date on the clipping from his pocket."
     },
     {
       "type": "prose",
@@ -558,7 +522,7 @@
     },
     {
       "type": "scene",
-      "text": "Daniel read the account of the fire. He went back to the description of the woman and the bright droplets striking the papers.",
+      "text": "Daniel studied the photograph and the bright droplets striking the papers.",
       "art": "book-three-chapter-05-dork-v1.webp",
       "alt": "Daniel studies the headline “Lava Lips Torches Newsstand” and its photograph of masked Laura warning bystanders while Luke hovers behind his bench; the Army announcement lies beside him."
     },
@@ -573,10 +537,6 @@
     {
       "type": "prose",
       "text": "“I can read.”"
-    },
-    {
-      "type": "prose",
-      "text": "Daniel studied the photograph. The mask hid part of her face, but the flame pattern on the suit was clear."
     },
     {
       "type": "prose",

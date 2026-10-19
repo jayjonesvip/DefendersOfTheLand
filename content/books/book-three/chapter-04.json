@@ -120,15 +120,7 @@
     },
     {
       "type": "prose",
-      "text": "“Why?” he asked."
-    },
-    {
-      "type": "prose",
-      "text": "Claude looked at him."
-    },
-    {
-      "type": "prose",
-      "text": "“All this,” Seth said. “Why are you giving it to us?”"
+      "text": "“Why are you giving us all this?” Seth asked."
     },
     {
       "type": "prose",
@@ -172,7 +164,7 @@
     },
     {
       "type": "prose",
-      "text": "Manuals filled the drawers. Claude had arranged for a technician to explain the computers and the cameras covering the building's front, side and loading door."
+      "text": "Manuals filled the drawers. Claude had arranged for a technician to explain the equipment."
     },
     {
       "type": "scene",
@@ -209,30 +201,14 @@
       "text": "Static filled the room."
     },
     {
-      "type": "prose",
-      "text": "Fist opened one eye. “Very useful.”"
-    },
-    {
-      "type": "prose",
-      "text": "Billy adjusted the volume and worked the controls. A voice came through, broke into a hiss, then returned."
-    },
-    {
       "type": "scene",
-      "text": "He leaned nearer, turning the knob a little farther.",
+      "text": "Billy lowered the volume and tuned past the static.",
       "art": "book-three-chapter-04-scanner-v2-thumb.webp",
       "alt": "Billy tunes the police-band scanner while Seth, Jenny and Eleanor listen; Fist rests beside him on a cushion with his torn cuff supported."
     },
     {
       "type": "prose",
       "text": "The voice became clear enough for them to hear a dispatcher send a car to a stalled vehicle holding up traffic."
-    },
-    {
-      "type": "prose",
-      "text": "Billy stopped touching the controls."
-    },
-    {
-      "type": "prose",
-      "text": "Everyone listened until another voice acknowledged the call."
     },
     {
       "type": "prose",
@@ -268,7 +244,7 @@
     },
     {
       "type": "prose",
-      "text": "The library overlooked part of the training room from a broad mezzanine. Shelves lined the walls, with books on science, engineering, Cleveland and enough other subjects that Seth stopped trying to read every spine."
+      "text": "The library overlooked the training room from a broad mezzanine. Shelves held books on science, engineering and Cleveland."
     },
     {
       "type": "prose",
@@ -454,7 +430,7 @@
     },
     {
       "type": "prose",
-      "text": "Farther along the lake, Laura Baxter heard a soft sound above the water and looked up."
+      "text": "Farther along the lake, Laura Baxter noticed a glow above the water and looked up."
     },
     {
       "type": "prose",
@@ -494,7 +470,7 @@
     },
     {
       "type": "prose",
-      "text": "“You’re hearing me in your mind.”"
+      "text": "“You’re hearing me in your mind. I don’t speak aloud.”"
     },
     {
       "type": "prose",
@@ -507,7 +483,7 @@
     {
       "type": "scene",
       "text": "“I think you've been asking for help.”",
-      "art": "book-three-chapter-04-laura-v1.webp",
+      "art": "book-three-chapter-04-laura-v2-fh.webp",
       "alt": "On the lakeside path at dusk, Laura in glasses, gray sweatpants and a dark jacket faces Flaming Head, who hovers at a respectful distance above the shoreline rocks."
     },
     {
@@ -540,7 +516,7 @@
     },
     {
       "type": "prose",
-      "text": "“Yes. My landing scattered energy through the water. That energy gave you powers. It changed others too.”"
+      "text": "“Yes. My landing scattered energy through the water. It gave you powers, and it’s why you can hear me. It changed others too.”"
     },
     {
       "type": "prose",
@@ -549,14 +525,6 @@
     {
       "type": "prose",
       "text": "“Yes,” he said. “I didn’t know what it would do.”"
-    },
-    {
-      "type": "prose",
-      "text": "“And that’s why I can hear you like this?”"
-    },
-    {
-      "type": "prose",
-      "text": "“Yes.”"
     },
     {
       "type": "prose",

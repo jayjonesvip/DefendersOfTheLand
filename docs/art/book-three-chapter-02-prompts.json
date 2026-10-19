@@ -10,7 +10,13 @@
         "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
         "public/assets/book-two-chapter-21-belong-v2-green.webp"
       ],
-      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging."
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-question-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-question-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-32493ed0-e855-49cc-9241-548fb304652d.png",
+      "art": "book-three-chapter-02-question-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-question",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "scene": "office",
@@ -19,7 +25,13 @@
         "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
         "public/assets/book-two-chapter-21-belong-v2-green.webp"
       ],
-      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging."
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-office-v2-thumb.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-office-v3-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-e4e585fa-1d3d-4e92-a185-2b8f7eca3f73.png",
+      "art": "book-three-chapter-02-office-v3-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-office",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "scene": "departure",
@@ -28,7 +40,14 @@
         "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
         "public/assets/book-two-chapter-21-belong-v2-green.webp"
       ],
-      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging."
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-departure-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-departure-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-bf353453-1023-48d3-8fed-741cc657ba0e.png",
+      "art": "book-three-chapter-02-departure-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-departure",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     }
-  ]
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
 }

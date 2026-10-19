@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-19",
+  "book": "Book Three: Lava Lips",
+  "status": "Complete: manuscript revised and reader/publishing files rebuilt and verified",
+  "scope": {
+    "manuscript": "Read all fourteen chapters; revised Book Three only. Cross-checked relevant primary passages in Books One and Two, not a new line edit of those books.",
+    "baseline": "Local manuscript immediately before this audit, including the approved Chapter Thirteen action and Chapter Fourteen finale. Earlier audit cuts are not included in these totals.",
+    "counting": "Whitespace-delimited words in blocks[].text and ending; excludes titles, image descriptions and metadata."
+  },
+  "metrics": {
+    "beforeWords": 19488,
+    "afterWords": 18266,
+    "wordsRemoved": 1222,
+    "reductionPercent": 6.27,
+    "illustrationsPreserved": 62,
+    "chapters": [
+      {
+        "chapter": 1,
+        "beforeWords": 1482,
+        "afterWords": 1370,
+        "illustrations": 3
+      },
+      {
+        "chapter": 2,
+        "beforeWords": 1148,
+        "afterWords": 981,
+        "illustrations": 3
+      },
+      {
+        "chapter": 3,
+        "beforeWords": 1213,
+        "afterWords": 1091,
+        "illustrations": 3
+      },
+      {
+        "chapter": 4,
+        "beforeWords": 1745,
+        "afterWords": 1668,
+        "illustrations": 5
+      },
+      {
+        "chapter": 5,
+        "beforeWords": 1886,
+        "afterWords": 1784,
+        "illustrations": 5
+      },
+      {
+        "chapter": 6,
+        "beforeWords": 2408,
+        "afterWords": 2358,
+        "illustrations": 6
+      },
+      {
+        "chapter": 7,
+        "beforeWords": 1774,
+        "afterWords": 1736,
+        "illustrations": 6
+      },
+      {
+        "chapter": 8,
+        "beforeWords": 1152,
+        "afterWords": 973,
+        "illustrations": 3
+      },
+      {
+        "chapter": 9,
+        "beforeWords": 1853,
+        "afterWords": 1739,
+        "illustrations": 6
+      },
+      {
+        "chapter": 10,
+        "beforeWords": 1614,
+        "afterWords": 1506,
+        "illustrations": 4
+      },
+      {
+        "chapter": 11,
+        "beforeWords": 1350,
+        "afterWords": 1211,
+        "illustrations": 4
+      },
+      {
+        "chapter": 12,
+        "beforeWords": 427,
+        "afterWords": 427,
+        "illustrations": 4
+      },
+      {
+        "chapter": 13,
+        "beforeWords": 672,
+        "afterWords": 672,
+        "illustrations": 6
+      },
+      {
+        "chapter": 14,
+        "beforeWords": 764,
+        "afterWords": 750,
+        "illustrations": 4
+      }
+    ]
+  },
+  "continuityFixes": [
+    {
+      "chapter": 11,
+      "finding": "Last meeting was misremembered as Laura dismissing him, overlooking their Chapter Seven conversation about her alliance.",
+      "resolution": "Flaming Head remembers Orkleson and his rejected warning. He still does not know the workshop location, collector or rooftop trap.",
+      "sources": [
+        "content/books/book-three/chapter-07.json",
+        "content/books/book-three/chapter-11.json"
+      ]
+    },
+    {
+      "chapter": 7,
+      "finding": "The earlier-collector claim could conflate successful lake-energy collection with the unfinished, confiscated Book Two collector.",
+      "resolution": "Daniel cites the lake collection; Luke separately identifies the confiscated last machine. Flaming Head explicitly warns about Perch, whose captivity he witnessed, rather than implying he witnessed Luke’s transformation.",
+      "sources": [
+        "content/books/origins/chapter-08.json",
+        "content/books/origins/chapter-12.json",
+        "content/books/origins/chapter-17.json",
+        "content/books/book-two/chapter-18.json",
+        "content/books/book-two/chapter-21.json"
+      ]
+    },
+    {
+      "chapter": 9,
+      "finding": "The teller was directed toward the front but subsequently appeared behind Jenny in the staff passage and was brought outside again.",
+      "resolution": "Jenny escorts her to the front officer, doubles back to block the staff passage, then checks on her outside.",
+      "sources": [
+        "content/books/book-three/chapter-09.json"
+      ]
+    },
+    {
+      "chapter": 10,
+      "finding": "The separate Army ray was left beside the stairhouse without clear protection from the collector explosion.",
+      "resolution": "The ray is placed just inside the stairhouse. It remains separate from the collector and available for Book Four.",
+      "sources": [
+        "content/books/book-three/chapter-06.json",
+        "content/books/book-three/chapter-10.json",
+        "content/books/book-three/chapter-13.json"
+      ]
+    },
+    {
+      "chapter": 14,
+      "finding": "Flaming Head departed before the team received its new building; his return needed a route to the new headquarters.",
+      "resolution": "A brief line uses his established ability to sense familiar shared energy. No earlier return, off-page warning or public speech is added.",
+      "sources": [
+        "content/books/book-three/chapter-02.json",
+        "content/books/book-three/chapter-04.json",
+        "content/books/book-three/chapter-11.json"
+      ]
+    },
+    {
+      "chapter": 14,
+      "finding": "Daniel remembered hearing the Jaws name; Book One actually shows him writing it in his notebook.",
+      "resolution": "He remembers writing the old name. The change is Luke embracing it after losing his memory, rather than a newly invented alias.",
+      "sources": [
+        "content/books/origins/chapter-07.json",
+        "content/books/book-three/chapter-14.json"
+      ]
+    }
+  ],
+  "editorialChanges": [
+    {
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "change": "Reduced repeated symptom checks, repeated questions, duplicate offers to help, newspaper rereading and scanner-operation description. Retained Laura’s isolation, Fist’s home, and the costume-giving scene."
+    },
+    {
+      "chapters": [
+        6,
+        7,
+        8
+      ],
+      "change": "Reduced repeated denials of harm, suspicion based on the costume, promises about Luke’s body, and dialogue restating the meter demonstration. Retained Laura’s growing enjoyment of fear and Luke’s first concrete hope."
+    },
+    {
+      "chapters": [
+        9,
+        10,
+        11
+      ],
+      "change": "Reduced reporting-process exposition, repeated equipment checks, repeated lure discussion, breakup recap and incidental travel description. Retained bank-action mechanics, rooftop geography and Laura’s deliberate betrayal."
+    },
+    {
+      "chapters": [
+        12,
+        13
+      ],
+      "change": "Retained these already concise action chapters intact."
+    },
+    {
+      "chapters": [
+        14
+      ],
+      "change": "Removed a second amnesia question-and-answer and a redundant declaration of the collector’s loss; retained reflection, eager obedience and Daniel’s final smile."
+    }
+  ],
+  "continuityChecksRetained": [
+    {
+      "fact": "Shared lake energy changes Seth, Jenny, Perch and Laura; Fist comes from Daniel’s separate reanimation experiment. Billy and Fist do not hear Flaming Head.",
+      "sources": [
+        "content/books/origins/chapter-05.json",
+        "content/books/origins/chapter-17.json",
+        "content/books/book-three/chapter-02.json",
+        "content/books/book-three/chapter-14.json"
+      ]
+    },
+    {
+      "fact": "Flaming Head’s words are private throughout Book Three; unmoving mouth is explicit at Laura’s introduction. Seth/Jenny relay to Billy and Fist. Laura’s connection fades after her cure.",
+      "sources": [
+        "content/books/book-three/chapter-04.json",
+        "content/books/book-three/chapter-11.json",
+        "content/books/book-three/chapter-12.json",
+        "content/books/book-three/chapter-13.json",
+        "content/books/book-three/chapter-14.json"
+      ]
+    },
+    {
+      "fact": "Seth and Jenny received costumes through Flaming Head’s power; masks do not fool people who already know them. Laura receives hers the same way.",
+      "sources": [
+        "content/books/origins/chapter-18.json",
+        "content/books/book-three/chapter-05.json"
+      ]
+    },
+    {
+      "fact": "Fist ends Book Two with a torn cuff and heals gradually before the bank action. Seth’s controlled lift pays off Book Two’s failed drum exercise.",
+      "sources": [
+        "content/books/book-two/chapter-02.json",
+        "content/books/book-two/chapter-17.json",
+        "content/books/book-two/chapter-21.json",
+        "content/books/book-three/chapter-02.json",
+        "content/books/book-three/chapter-09.json"
+      ]
+    },
+    {
+      "fact": "Claude’s gift does not clear Eleanor’s unresolved involvement or make him knowingly complicit. Masked hero photographs do not identify Jenny’s civilian role to the general public.",
+      "sources": [
+        "content/books/book-two/chapter-21.json",
+        "content/books/book-three/chapter-04.json",
+        "content/books/book-three/chapter-09.json"
+      ]
+    },
+    {
+      "fact": "Expelled plasma powers the test; the tray catches residue. Laura loses her power only through direct collector contact in the rescue.",
+      "sources": [
+        "content/books/book-three/chapter-08.json",
+        "content/books/book-three/chapter-13.json"
+      ]
+    },
+    {
+      "fact": "Dork retreats after Laura burns his coat; Luke tries to stop her and braces the housing. The collector explosion hurls him through the western window. He does not choose a heroic power cut.",
+      "sources": [
+        "content/books/book-three/chapter-10.json",
+        "content/books/book-three/chapter-13.json"
+      ]
+    },
+    {
+      "fact": "Laura’s remorse, Flaming Head’s pride and vow, harmless sneezes and departure precede Luke awakening. The ending stays with Daniel pleased by the newly loyal Jaws. Sun sacrifice and tank battle remain for Book Four.",
+      "sources": [
+        "content/books/book-three/chapter-13.json",
+        "content/books/book-three/chapter-14.json"
+      ]
+    }
+  ],
+  "artwork": "All 62 art references and alternative descriptions preserved in their original chapter order. No character artwork regenerated. The coat-fire figure remains immediately after ignition and before Dork tears off the coat.",
+  "validation": {
+    "status": "passed",
+    "reader": "All fourteen chapters match revised source text; all 62 illustrations decode; no horizontal overflow at 320, 390 or 1200 pixels.",
+    "coatArt": "Verified correct position between ignition and removal in both reader and EPUB.",
+    "publishing": "All three EPUBs validated. Book Three paperback validates complete text, all 62 illustrations, page bounds and image/text separation.",
+    "paperbackPages": 114,
+    "spineInches": 0.256728,
+    "cover": "Wrap matches the measured interior hash and page count; cover preview visually reviewed. Existing KDP proof-review status retained.",
+    "site": "npm test passed: 65 pages, 1259 links/assets, navigation, progress, mobile layouts, EPUBs and publishing checksums.",
+    "formatting": "git diff --check passed."
+  },
+  "publication": "Local changes only; no commit or push performed."
+}

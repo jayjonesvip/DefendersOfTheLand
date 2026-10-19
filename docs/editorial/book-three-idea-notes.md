@@ -1,6 +1,6 @@
 # Book Three — developing ideas
 
-The author is collecting ideas until the story takes shape. These notes preserve supplied details without treating every possibility as a settled chapter or completed manuscript event.
+These notes preserve the development history. Book Three: Lava Lips now has a complete fourteen-chapter manuscript; the current chapter files and book-three-first-half-outline.md govern its final staging. Book Four: Clash in Cleveland remains planned. Earlier possibilities below are not completed manuscript events unless reflected in those current sources.
 
 
 ## Current continuation — the Sun and Dork's city attack
@@ -13,7 +13,7 @@ Dork learns of the crime increase and the Defenders' failures and decides it is 
 
 The later rooftop sequence in `book-three-first-half-outline.md` is now the governing plan. It supersedes older possibilities below concerning an early jealous bite of the Army ray, Jaws liking Laura, an enduring three-villain team, and Flaming Head returning only to warn about her recruitment. Those passages are development history, not current instructions.
 
-Dork gets the new collector working. Laura tests it by spitting through its intake field; the rising meter proves it captures some energy. Luke gains hope about getting his body back. Later, Laura helps stage her apparent captivity on a rooftop and uses her special connection to lure Flaming Head to rescue her. The machine draws him in and weakens him. She feels remorse, burns the rope with her spit and tries to knock the machine over. Contact hurts her and removes her power. Furious Dork orders Luke to cut power; Luke hesitates, then bites the collector control panel. The shock throws him into a nearby building and breaks its wall.
+Dork gets the new collector working. Laura tests it by spitting through its intake field; the rising meter proves it captures some energy. Luke gains hope about getting his body back. Later, Laura helps stage her apparent captivity on a rooftop and uses her special connection to lure Flaming Head to rescue her. The machine draws him in and weakens him. She feels remorse, burns the rope with her spit and tries to knock the machine over. Contact hurts her and removes her power. Current author revision: Laura’s coat shot sends Dork away. Luke tries to stop her to protect the collector and his chance of recovering his body. He braces its western control housing with his iron jaw; the destabilized collector explodes and throws him through the established warehouse wall. Dork does not help Laura or order a shutdown.
 
 Before Luke awakens, Laura is free of her power. Flaming Head thanks her and vows to keep her safe. She delights in an ordinary harmless sneeze and returns to her old life. Then Luke wakes without memory of being Luke, likes his form and becomes Dork's loyal, dangerous Jaws O' Death. Daniel mourns the damaged machine but welcomes the loyal companion. Weakened Flaming Head returns to the Defenders. This belongs closer to the end; chapter numbers remain open. The working outline records staging and communication continuity requirements.
 
@@ -102,3 +102,7 @@ Book Three must end with Jaws’s new attitude and Dork’s happiness despite hi
 ## Chapter 11 drafted — A Cry for Help
 
 Laura willingly sits against the vent, bound with her wrists in front and mouth clear. The accessible span of ordinary rope is established for Chapter 13 without her planning a rescue yet. Gray canvas disguises the collector; brass intake stays open, western controls accessible, and power remains off throughout the chapter. Daniel crouches behind the trolley, with Luke in the western working strip; Luke spots the approach and drops out of view. Laura echoes “I just need somebody to help me. Please.” by drawing on genuine remembered need. Flaming Head senses that need rather than hearing exact distant words or receiving an address. He does not know her private deal with Dork. Once he sees the captive and suspicious machinery, he chooses to come lower to help. The chapter ends on her “Help me,” before activation or drain. Four illustrations preserve the roof layout, intact wall and healthy flame.
+
+## Flaming Head identity correction — author-approved portrait
+
+The isolated `public/assets/character-flaming-head-v1.png` portrait is the author-approved identity. Ten active Book Three interior appearances and the Lava Lips front cover have new identity-corrected versions. Round orange face, enormous oval white eyes, oval black pupils, simple brows/mouth and thick painted flame tongues replace the humanized/electrical drift. Scene-specific emotion remains. All manuscript text and image counts stay unchanged; original assets are preserved. The character profile now links the permanent identity specification. Exact edit prompts, sources, new asset mapping and visual reviews are in `docs/art/book-three-flaming-head-identity-corrections.json`.

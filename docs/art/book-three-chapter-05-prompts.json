@@ -10,7 +10,13 @@
         "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
         "docs/art/originals/book-three/chapter-04/book-three-chapter-04-laura-v1.png"
       ],
-      "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter."
+      "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter.",
+      "artBeforeIdentityCorrection": "book-three-chapter-05-practice-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-05-practice-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-a49451bc-4365-4d83-8548-176788b25209.png",
+      "art": "book-three-chapter-05-practice-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#05-practice",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "scene": "costume",
@@ -37,7 +43,13 @@
         "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
         "docs/art/originals/book-three/chapter-04/book-three-chapter-04-laura-v1.png"
       ],
-      "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter."
+      "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter.",
+      "artBeforeIdentityCorrection": "book-three-chapter-05-anger-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-05-anger-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-652721eb-9757-47df-bcac-d60e28281169.png",
+      "art": "book-three-chapter-05-anger-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#05-anger",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "scene": "dork",
@@ -48,5 +60,6 @@
       ],
       "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter."
     }
-  ]
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
 }

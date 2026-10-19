@@ -10,13 +10,18 @@
         "docs/art/originals/book-three/chapter-10/book-three-chapter-10-layout-v1.png",
         "docs/art/originals/book-three/chapter-06/book-three-chapter-06-retreat-v1.png"
       ],
-      "generatedSource": "/workspace/generated_images/exec-952abecc-d4b6-4f55-ab80-e4cbcf1053c5.png",
-      "original": "docs/art/originals/book-three/cover/book-three-cover-rooftop-v1.png",
-      "art": "book-three-cover-rooftop-v1.png",
-      "webArt": "book-three-cover-rooftop-web-v1.webp",
+      "generatedSource": "/workspace/generated_images/exec-46983b86-e442-4ff8-bb9d-df6a2c3f07b5.png",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-cover-rooftop-v2.png",
+      "art": "book-three-cover-rooftop-v2.png",
+      "webArt": "book-three-cover-rooftop-web-v2.webp",
       "review": "Four characters only: Laura in black flame-pattern costume and mask; Dork with huge round glasses; bodyless blond steel-jawed Jaws; one bodyless Flaming Head. Rooftop, three-coil glass collector with brass intake and twin analog meters, orange energy flow. No tank, Army ray or other Defenders. #3, title and author readable.",
       "title": "Lava Lips",
-      "titleStatus": "Author confirmed"
+      "titleStatus": "Author confirmed",
+      "artBeforeIdentityCorrection": "book-three-cover-rooftop-v1.png",
+      "originalBeforeIdentityCorrection": "docs/art/originals/book-three/cover/book-three-cover-rooftop-v1.png",
+      "generatedSourceBeforeIdentityCorrection": "/workspace/generated_images/exec-952abecc-d4b6-4f55-ab80-e4cbcf1053c5.png",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#cover",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
     },
     {
       "book": "book-four",
@@ -32,5 +37,6 @@
       "title": "Clash in Cleveland",
       "titleStatus": "Author confirmed"
     }
-  ]
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
 }
