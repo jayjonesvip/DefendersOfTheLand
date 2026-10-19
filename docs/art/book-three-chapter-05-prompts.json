@@ -25,7 +25,21 @@
         "docs/art/originals/book-three/lava-lips-character-concept-v1.png",
         "docs/art/originals/book-three/chapter-04/book-three-chapter-04-laura-v1.png"
       ],
-      "review": "Reviewed Laura identity and civilian/costume continuity, saliva-origin plasma, rescue staging, bodyless Luke and exact naming headline. No Fist artwork in this chapter."
+      "review": "Revised at author request: calm side view checking mask, with expression emphasized and original rear view archived.",
+      "previousArt": "book-three-chapter-05-costume-v1.webp",
+      "previousOriginal": "docs/art/originals/book-three/chapter-05/book-three-chapter-05-costume-v1.png",
+      "art": "book-three-chapter-05-costume-v2-side.webp",
+      "original": "docs/art/originals/book-three/chapter-05/book-three-chapter-05-costume-v2-side.png",
+      "generatedSource": "/workspace/generated_images/exec-4ccbc955-aa17-4242-95e4-4b04327498d1.png",
+      "revision": {
+        "date": "2026-10-19",
+        "reason": "Author requested a side view and less body-focused presentation for the target audience; retain the previous rear view for the records.",
+        "editReference": "public/assets/book-three-chapter-05-costume-v1.webp",
+        "instructions": "Side view at ordinary eye level, natural upright pose checking mask, thoughtful expression, practical opaque matte high-neck long-sleeved flame-sided costume, understated anatomy; matching reflection, warm 1987 bedroom, glasses and folded clothes. Remove sewing scraps/tools because Flaming Head created the costume. No text or powers.",
+        "review": "Side view replaces rear view; no hip tilt, arched back, exposed skin or glossy body emphasis. Same adult Laura, ponytail, black mask and flame pattern. Original PNG and WebP retained unchanged.",
+        "previousOriginalSha256": "100baf8ee49e9de099525e2191f8c2bf2c15d8c2d72226a9432fbdf55204f601",
+        "previousWebpSha256": "cabe1370ee2907e799244333daa147934ad783a667a04ce10bcf6f794875823d"
+      }
     },
     {
       "scene": "fire",
