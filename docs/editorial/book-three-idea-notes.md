@@ -3,6 +3,11 @@
 These notes preserve the development history. Book Three: Lava Lips now has a complete fourteen-chapter manuscript; the current chapter files and book-three-first-half-outline.md govern its final staging. Book Four: Clash in Cleveland remains planned. Earlier possibilities below are not completed manuscript events unless reflected in those current sources.
 
 
+## Latest author direction — Laura stays bad (October 19, 2026)
+
+This supersedes all rescue/cure proposals below. Laura frees herself but abandons Flaming Head. Daniel overfills the collector; the explosion burns his coat and throws Luke through the warehouse window. Flaming Head escapes weakened and privately warns Seth/Jenny about his former student; they relay to Billy/Fist. Laura retains plasma but conceals its weakening from Daniel. After losing Luke’s memory and resentment, Jaws admires Lava Lips; she enjoys his approval. Keep Chapter Fourteen’s structure and final Dork smile. Pink Blur and Lava Lips have a future confrontation; neither the solar recharge’s effect on Laura nor that fight is yet drafted. Retain Book Four’s current cover, without adding Laura to it.
+
+
 ## Current continuation — the Sun and Dork's city attack
 
 After the rooftop drain, Flaming Head returns and finds Seth and Jenny weakened too. They try and fail to stop crimes. He knows he must go to the Sun to restore them but conceals that it is a one-way journey. They become stronger than before, want to thank him and discover they can no longer feel his presence. The loss is real and sad, despite their new strength.

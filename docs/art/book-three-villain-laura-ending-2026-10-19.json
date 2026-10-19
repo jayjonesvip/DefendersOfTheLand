@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-19",
+  "status": "Integrated and verified; local changes, not pushed",
+  "authorDirection": "Laura stays bad: refuses rescue, keeps weakened plasma power and conceals it from Daniel. Greed-driven collector overload burns Daniel's coat and throws Luke into wall. Jaws likes Laura after memory loss; private warning at facility; final Dork smile retained.",
+  "illustrations": [
+    {
+      "chapter": 13,
+      "scene": "departure",
+      "art": "book-three-chapter-13-departure-v1.webp",
+      "original": "docs/art/originals/book-three/chapter-13/book-three-chapter-13-departure-v1.png",
+      "generatedSource": "/workspace/generated_images/exec-079d2e4d-760d-43a2-ab51-575049c81648.png",
+      "prompt": "ONE finished landscape 1536x1024 narrative illustration for Defenders of the Land, Cleveland 1987 at blue-purple dusk. Match supplied detailed painted INKED COMIC style, clean strong outlines and warm orange/cool blue light. Young-reader adventure: modest practical clothing, understated anatomy, no sexualized framing, no gore. No captions, words, speech balloons, thought bubbles or text. LAURA is adult brown-eyed woman, curly BROWN PONYTAIL, BLACK DOMINO EYE MASK, opaque high-neck BLACK long-sleeved suit with red/orange/yellow flame FABRIC panels at SIDES, black gloves/boots, open dark coat. Her mouth is ordinary, not permanently flaming. Flaming Head is round ORANGE CARTOON FACE ONLY, HUGE vertical oval WHITE eyes with black oval pupils, simple brows/mouth, short dim yellow-orange flame crown when weakened, NO human features, neck, body or limbs. All his communication is SILENT PRIVATE, no speech effects. DANIEL is older thin scientist, messy thinning gray-white hair, huge round magnifying glasses. LUKE/JAWS is ONLY a floating BLOND MALE HEAD with bolted huge IRON JAW and triangular metal teeth; absolutely no neck, torso, arms or legs. Rooftop collector is horizontal glass cylinder encircled by THREE copper coils, brass funnel at north/front, TWO round analog meters at WESTERN control housing, metal wheeled trolley and wooden wheel chocks. North vent six feet from intake, west red-brick warehouse wall eight feet behind controls, southwest stairhouse. No shrink ray visible. REPLACE the rescue/contact action in first reference with deliberate ABANDONMENT. ONLY Laura and exactly ONE Flaming Head. Laura stands several feet AWAY from machine, foreground LEFT front-side three-quarter view, looks back briefly over shoulder with hard guarded expression, one hand on stairhouse door edge RIGHT. She is CHOOSING TO WALK AWAY toward stairs, not approaching or touching machine. Both hands FREE, no rope on her; cut rope beside distant north vent. In middle background active UNBROKEN collector glows, SINGLE weakened Flaming Head fully INSIDE glass looking sadly toward her. Clear space separates Laura from collector; NO energy on her body, no beam from her mouth, no touching or helping. No Dork or Luke anywhere in this cropped view, no explosion yet. Camera emphasizes face and choice, not rear/body. Preserve three-coil apparatus and normal round orange face.",
+      "references": [
+        "public/assets/book-three-chapter-13-contact-v1.webp",
+        "public/assets/book-three-chapter-13-rope-v1.webp"
+      ]
+    },
+    {
+      "chapter": 13,
+      "scene": "overload",
+      "art": "book-three-chapter-13-overload-v1.webp",
+      "original": "docs/art/originals/book-three/chapter-13/book-three-chapter-13-overload-v1.png",
+      "generatedSource": "/workspace/generated_images/exec-f6b1ccde-b8b4-41c7-9bd8-29ab8492a100.png",
+      "prompt": "ONE finished landscape 1536x1024 narrative illustration for Defenders of the Land, Cleveland 1987 at blue-purple dusk. Match supplied detailed painted INKED COMIC style, clean strong outlines and warm orange/cool blue light. Young-reader adventure: modest practical clothing, understated anatomy, no sexualized framing, no gore. No captions, words, speech balloons, thought bubbles or text. LAURA is adult brown-eyed woman, curly BROWN PONYTAIL, BLACK DOMINO EYE MASK, opaque high-neck BLACK long-sleeved suit with red/orange/yellow flame FABRIC panels at SIDES, black gloves/boots, open dark coat. Her mouth is ordinary, not permanently flaming. Flaming Head is round ORANGE CARTOON FACE ONLY, HUGE vertical oval WHITE eyes with black oval pupils, simple brows/mouth, short dim yellow-orange flame crown when weakened, NO human features, neck, body or limbs. All his communication is SILENT PRIVATE, no speech effects. DANIEL is older thin scientist, messy thinning gray-white hair, huge round magnifying glasses. LUKE/JAWS is ONLY a floating BLOND MALE HEAD with bolted huge IRON JAW and triangular metal teeth; absolutely no neck, torso, arms or legs. Rooftop collector is horizontal glass cylinder encircled by THREE copper coils, brass funnel at north/front, TWO round analog meters at WESTERN control housing, metal wheeled trolley and wooden wheel chocks. North vent six feet from intake, west red-brick warehouse wall eight feet behind controls, southwest stairhouse. No shrink ray visible. Replace jaw-biting action with an OVERLOAD caused by excessive stored energy. Tight medium view of WESTERN side of collector: two analog meter needles PEGGED at far ends, control housing suddenly erupts outward in WHITE-ORANGE LIGHT and sparks. Luke floats very close beside it, eyes wide as pressure throws him BACK toward brick wall at frame edge. His teeth OPEN in shock but not touching, clamping or biting ANYTHING. Dork in stained white LAB COAT gray shirt dark tie recoils at far frame edge, a few bright sparks just catching coat LOWER HEM; skin unhurt, hair not on fire. Laura entirely absent. Machine fills most of frame, cylinder upper part and THREE coils recognizable, trapped face NOT visible from this tight crop so don't add any second character/head. No blue lightning from Luke's jaw, no heroic switch pull, no wall impact yet, no body/neck/limbs on Luke. Show unmistakable cause: machinery bursting, Luke a victim of blast.",
+      "references": [
+        "public/assets/book-three-chapter-13-bite-v1.webp",
+        "public/assets/book-three-chapter-12-meter-v1.webp"
+      ]
+    },
+    {
+      "chapter": 13,
+      "scene": "weak-shot",
+      "art": "book-three-chapter-13-weak-shot-v1.webp",
+      "original": "docs/art/originals/book-three/chapter-13/book-three-chapter-13-weak-shot-v1.png",
+      "generatedSource": "/workspace/generated_images/exec-7018d758-f4af-460f-bf8c-9ad2ea0907df.png",
+      "prompt": "ONE finished landscape 1536x1024 narrative illustration for Defenders of the Land, Cleveland 1987 at blue-purple dusk. Match supplied detailed painted INKED COMIC style, clean strong outlines and warm orange/cool blue light. Young-reader adventure: modest practical clothing, understated anatomy, no sexualized framing, no gore. No captions, words, speech balloons, thought bubbles or text. LAURA is adult brown-eyed woman, curly BROWN PONYTAIL, BLACK DOMINO EYE MASK, opaque high-neck BLACK long-sleeved suit with red/orange/yellow flame FABRIC panels at SIDES, black gloves/boots, open dark coat. Her mouth is ordinary, not permanently flaming. Flaming Head is round ORANGE CARTOON FACE ONLY, HUGE vertical oval WHITE eyes with black oval pupils, simple brows/mouth, short dim yellow-orange flame crown when weakened, NO human features, neck, body or limbs. All his communication is SILENT PRIVATE, no speech effects. DANIEL is older thin scientist, messy thinning gray-white hair, huge round magnifying glasses. LUKE/JAWS is ONLY a floating BLOND MALE HEAD with bolted huge IRON JAW and triangular metal teeth; absolutely no neck, torso, arms or legs. Rooftop collector is horizontal glass cylinder encircled by THREE copper coils, brass funnel at north/front, TWO round analog meters at WESTERN control housing, metal wheeled trolley and wooden wheel chocks. North vent six feet from intake, west red-brick warehouse wall eight feet behind controls, southwest stairhouse. No shrink ray visible. ONLY LAURA, no other character or machine. After rooftop explosion, in a sheltered empty recess BEHIND the southwest brick STAIRHOUSE. Laura in same mask, ponytail, dark coat and modest flame-sided costume crouches naturally SIDE-ON beside a battered flat steel offcut lying on bare concrete/gravel, checking a disappointing result. There is only a SMALL SHALLOW ORANGE SCORCH/DIMPLE on the STEEL SHEET, NO hole or molten-through-metal. Her gloved hand hovers over sheet as though verifying she failed to burn through it. A TINY faint orange wisp at scorch is only active energy, no mouth projectile, no flames from face/body, no big fire. Her expression is surprised, anxious, then guarded; she is privately discovering reduced power. Close side-oriented medium shot makes her face, gloved hands and small shallow scorch readable without body emphasis. Unoccupied industrial wall beyond target, no bystanders, no escaping beam. Skyline evening small background. No healthy or weak Flaming Head, no tears of joy, no sneeze or cure, no villain witnesses.",
+      "references": [
+        "public/assets/book-three-chapter-13-rope-v1.webp"
+      ]
+    },
+    {
+      "chapter": 14,
+      "scene": "allies",
+      "art": "book-three-chapter-14-allies-v1.webp",
+      "original": "docs/art/originals/book-three/chapter-14/book-three-chapter-14-allies-v1.png",
+      "generatedSource": "/workspace/generated_images/exec-649ed707-41ab-4bb1-8f84-2cbb0e8a65c1.png",
+      "prompt": "ONE finished landscape 1536x1024 narrative illustration for Defenders of the Land, Cleveland 1987 at blue-purple dusk. Match supplied detailed painted INKED COMIC style, clean strong outlines and warm orange/cool blue light. Young-reader adventure: modest practical clothing, understated anatomy, no sexualized framing, no gore. No captions, words, speech balloons, thought bubbles or text. LAURA is adult brown-eyed woman, curly BROWN PONYTAIL, BLACK DOMINO EYE MASK, opaque high-neck BLACK long-sleeved suit with red/orange/yellow flame FABRIC panels at SIDES, black gloves/boots, open dark coat. Her mouth is ordinary, not permanently flaming. Flaming Head is round ORANGE CARTOON FACE ONLY, HUGE vertical oval WHITE eyes with black oval pupils, simple brows/mouth, short dim yellow-orange flame crown when weakened, NO human features, neck, body or limbs. All his communication is SILENT PRIVATE, no speech effects. DANIEL is older thin scientist, messy thinning gray-white hair, huge round magnifying glasses. LUKE/JAWS is ONLY a floating BLOND MALE HEAD with bolted huge IRON JAW and triangular metal teeth; absolutely no neck, torso, arms or legs. Rooftop collector is horizontal glass cylinder encircled by THREE copper coils, brass funnel at north/front, TWO round analog meters at WESTERN control housing, metal wheeled trolley and wooden wheel chocks. North vent six feet from intake, west red-brick warehouse wall eight feet behind controls, southwest stairhouse. No shrink ray visible. A NEW SCENE on rooftop after explosion, NOT mirror scene. Two main characters: Laura stands in SAME modest suit, open coat and black mask at normal eye-level front-side view, Jaws hovers facing her AT EYE HEIGHT. Jaws looks exuberantly ADMIRING and eager, huge iron teeth in pleased grin, bright interested eyes; Laura looks pleasantly surprised by his approval and lets herself give a small calculating smile. NO romance, kissing, flirting or physical contact. She has no plasma shot on display: she is concealing her reduced power. Dork in GRAY SHIRT sleeves with loosened dark tie (NO lab coat on body) stands a few feet behind near damaged switched-OFF collector, watching pleased. THREE characters total: Laura, one bodyless Jaws, Daniel; no Flaming Head, no duplicate heads/reflections. Background established broken bricked-up warehouse WINDOW and scattered bricks, roof sunset, ruined collector's glass split/control box burst, no active electricity. Burnt empty coat heap near stairhouse. Quiet new villain partnership, warm dangerous approval, no fight or human injuries.",
+      "references": [
+        "public/assets/book-three-chapter-14-reflection-v1.webp",
+        "public/assets/book-three-chapter-13-rope-v1.webp"
+      ]
+    }
+  ],
+  "archivedArt": [
+    "book-three-chapter-13-contact-v1.webp",
+    "book-three-chapter-13-bite-v1.webp",
+    "book-three-chapter-13-sneeze-v1.webp"
+  ],
+  "review": "Departure: Laura separate from machine, one trapped orange cartoon head, free hands, hard expression. Overload: Luke away from controls without jaw contact, two meters pegged, Dork still coated, machinery causes blast. Weak shot: Laura alone, shallow scorch on intact steel. Allies: Laura/Jaws/coatless Daniel, no Flaming Head or romance, ruin and broken window retained. All four 1536x1024, original generations preserved.",
+  "validation": {
+    "chapters": 14,
+    "illustrations": 63,
+    "paperbackPages": 116,
+    "spineInches": 0.261232,
+    "publishing": "All EPUBs and Book Three paperback validate complete text and artwork; current villain ending and correct coat placement verified inside EPUB; cover matches measured PDF and hash.",
+    "reader": "All fourteen chapters match source and all 63 images decode at 320, 390 and 1200 pixels; Chapter Thirteen navigation and coat placement pass.",
+    "suite": "npm test passed: 1260 links/assets, reader navigation/progress, EPUBs and publishing checksums. git diff --check passed.",
+    "previousBooks": "Books One and Two source files verified unchanged from HEAD.",
+    "archive": "Previous Chapter Twelve–Fourteen manuscripts, reviews, outline and art provenance retained under docs/editorial/archive/book-three-redemption-ending-2026-10-19; all previous artwork remains untouched."
+  },
+  "subsequentClarityRevision": "docs/editorial/book-three-eight-fixes-2026-10-19.json; eight approved clarity fixes preserve this ending and all artwork."
+}

@@ -2,10 +2,14 @@
 
 ## Author rule — Flaming Head’s silent communication
 
-Throughout Book Three, Flaming Head never produces an audible voice. His words arrive privately inside the minds of established recipients: Seth and Jenny, or Laura while their shared-energy connection remains. Daniel, Luke, Billy, Fist and bystanders cannot hear or overhear him. Seth and Jenny relay his messages aloud when Billy or Fist need them. Dialogue tags such as “said” describe mental communication, not sound; no illustration should add an audible speech effect. His later thanks and promise to Laura must follow the fading-connection staging below, without granting her permanent telepathy after her cure.
+Throughout Book Three, Flaming Head never produces an audible voice. His words arrive privately inside the minds of established recipients: Seth and Jenny, or Laura while their shared-energy connection remains. Daniel, Luke, Billy, Fist and bystanders cannot hear or overhear him. Seth and Jenny relay his messages aloud when Billy or Fist need them. Dialogue tags such as “said” describe mental communication, not sound; no illustration should add an audible speech effect. Laura retains her shared-energy connection; reduced power does not make his words public or give anybody new telepathy.
 
 
-Book Three: Lava Lips now has a complete fourteen-chapter manuscript: Laura is cured, weakened Flaming Head returns to his friends, and the book ends on Dork’s satisfaction with the newly eager Jaws. The solar sacrifice, stolen vault, tank and Terminal Tower showdown belong to Book Four: Clash in Cleveland. Both titles are author-confirmed; Book Four’s later chapter divisions remain a working plan. Chapters 1–14 govern their scene details. This map supersedes the earlier Bob-based outlines and twenty-chapter single-book plan.
+Book Three: Lava Lips now has a complete fourteen-chapter manuscript: Laura abandons Flaming Head and remains a powered villain, weakened Flaming Head returns with a warning, and the book ends on Dork’s satisfaction with the newly eager Jaws. Laura hides her reduced power; Jaws now admires her. The solar sacrifice, stolen vault, tank and Terminal Tower showdown belong to Book Four: Clash in Cleveland. Both titles are author-confirmed; Book Four’s later chapter divisions remain a working plan. Chapters 1–14 govern their scene details. This map supersedes the earlier Bob-based outlines and twenty-chapter single-book plan.
+
+
+Latest approved clarity pass: [eight fixes, with old/new text](book-three-eight-fixes-2026-10-19.json). Laura’s symptoms last months; Chapter Two is the next afternoon after her plea, and Chapter Four’s tour is two days later, followed by the evening encounter. The optional Fist message is removed entirely at the author’s request. The old lab is unsafe to occupy because its address is known to police; the impact window sits at annex-roof level. Chapters Twelve–Fourteen and all artwork are unchanged by this pass.
+
 
 ## 1. Someone, Please
 
@@ -294,7 +298,7 @@ Flaming Head now knows she has joined his enemy. He does not learn the workshop'
 
 Close at the workshop, after Laura has left. Luke asks Daniel whether he really believes her story. Daniel answers that her anger can be useful. Luke hears that his uncle has accepted the risk for the sake of another ambitious project.
 
-He asks about his body once more. Daniel says they will get to it after the collector. The revised draft ends with Luke watching the collector’s unmoving meter needles despite Daniel brushing aside the insult. The Army ray remains an unused prop, not a foreshadowed bite target. A later successful collector test gives Luke renewed hope before the rooftop control-panel accident.
+He asks about his body once more. Daniel says they will get to it after the collector. The revised draft ends with Luke watching the collector’s unmoving meter needles despite Daniel brushing aside the insult. The Army ray remains an unused prop, not a foreshadowed bite target. A later successful collector test gives Luke renewed hope before the rooftop collector overload.
 
 ### Chapter 7 art plan — six generated illustrations
 
@@ -318,7 +322,7 @@ All six images are integrated into the draft, pending author review.
 
 ## Book Three chapter map — 8 through 14
 
-Chapters 1–11 are drafted. Chapters 12–14 complete Book Three: capture, Laura’s reversal and cure, Luke’s changed identity, and weakened Flaming Head returning to the team. Book Four carries the sacrifice and city showdown; its proposed map follows below. Titles and exact divisions remain provisional.
+All fourteen chapters are drafted. Chapters 12–14 complete Book Three: capture, Laura’s deliberate abandonment, the collector overload, her concealed weakening, Jaws’s changed identity and admiration, and Flaming Head’s private warning to his team. Book Four carries the sacrifice, Laura/Pink Blur conflict and city showdown; its proposed divisions remain provisional.
 
 Book Four’s final threat is Dork with the stolen Army tank, loyal Jaws O' Death and the shrink/enlarge ray. He wants to shrink Terminal Tower and force Cleveland to bow to him. The proposed resolution stops the shot before the landmark is shrunk, defeats and captures Dork and Jaws, and preserves Flaming Head's sacrifice. Those resolution choices are recommendations for this outline rather than already-drafted or separately author-confirmed events.
 
@@ -332,7 +336,7 @@ Luke sees the result. For the first time in a while, he thinks the work might le
 
 Daniel tests only what the scene needs to establish. He has evidence for energy collection, not proof of unlimited range or guaranteed body restoration. End on his decision that Flaming Head must be brought close to the intake.
 
-Art: the plasma path and rising meter; Luke's returning hope; Daniel beside the empty collector planning its placement. No imprisoned Flaming Head or cured Laura yet.
+Art: the plasma path and rising meter; Luke's returning hope; Daniel beside the empty collector planning its placement. No imprisoned Flaming Head or shared weakening yet.
 
 ### 9. Cleveland's Defenders
 
@@ -348,7 +352,7 @@ Art: receiving the call; one clear bank action; the team with relieved civilians
 
 ### 10. Above the City
 
-Drafted with four illustrations: miniature collector arriving, the caught caster, the complete rooftop layout, and Laura’s agreement to become bait. The workshop annex roof has the adjoining taller warehouse wall on its west, including an intact bricked-up window; a southwest stairhouse; a west-facing control panel with an eight-foot clear strip to the impact wall; and a north-facing intake six feet from the low ventilator. Laura will sit against the vent’s south face, facing the collector. The supply lead follows the western wall from the stairhouse before turning to the panel, outside the intake approach. Wheel chocks hold the trolley on a flatter patch above the eastern gutter. The Army ray is separate, stored on a board beside the stairhouse. The standby check does not establish remote capture range. Laura has not called Flaming Head or been tied yet.
+Drafted with four illustrations: miniature collector arriving, the caught caster, the complete rooftop layout, and Laura’s agreement to become bait. The workshop annex roof has the adjoining taller warehouse wall on its west, including an intact bricked-up window; a southwest stairhouse; a west-facing control panel with an eight-foot clear strip to the impact wall; and a north-facing intake six feet from the low ventilator. Laura will sit against the vent’s south face, facing the collector. The supply lead follows the western wall from the stairhouse before turning to the panel, outside the intake approach. Wheel chocks hold the trolley on a flatter patch above the eastern gutter. The Army ray is separate, stored on a board just inside the stairhouse. The standby check does not establish remote capture range. Laura has not called Flaming Head or been tied yet.
 
 Daniel, Laura and Luke prepare the rooftop site. This is an action-and-setting chapter: getting the collector up, restoring it if the Army ray is used for transport, routing its power and checking the intake's reach. Establish the roof edge, approach, control panel, cable, safe standing positions and neighboring wall now, before the climax requires them.
 
@@ -368,53 +372,35 @@ Laura takes her place as the apparently bound captive. The rope is real but posi
 
 She reaches out through the special connection to Flaming Head. Echo the first chapter's plea, now being used deliberately as bait. Keep the echo brief; do not retell her history or give her unlimited telepathic powers.
 
-Flaming Head senses the call. He remembers their hostile last meeting but has not witnessed her private alliance with Orkleson. Once he sees the bound Laura and suspicious equipment, he recognizes danger and chooses to help. Follow his approach closely enough that his decision to help matters. End when he reaches the rooftop and sees her bound.
+Flaming Head senses the call. He remembers her telling him she has joined Orkleson, but knows neither their workshop nor the collector plan. Once he sees the bound Laura and suspicious equipment, he recognizes danger and chooses to help. Follow his approach closely enough that his decision to help matters. End when he reaches the rooftop and sees her bound.
 
 Art: bound Laura making the call; Flaming Head responding; his arrival within the established roof geography. Her call deliberately echoes the plea in Chapter 1.
 
 ### 12. Into the Collector
 
-Drafted: the collector takes Flaming Head fully inside the cylinder, the storage meter rises, and Luke watches with renewed hope. Laura admits her part, then sees him weaken while he still watches her bindings with concern. Daniel refuses to stop; Luke does not intervene. The chapter ends with Laura angling the still-intact joining rope away from her coat and taking aim. Escape, cure, the bite and wall impact remain in Chapter 13. Four illustrations cover capture, meters, alarm and decision.
+The capture, climbing meters, Luke’s hope and Flaming Head’s continued concern stay. Laura’s satisfaction falters at his suffering, but this does not become redemption. “I’ve seen enough” is followed by Daniel’s refusal to stop and her decision to free herself. Four existing illustrations remain. No rescue, cure or contact with machinery occurs.
 
-Flaming Head approaches to free Laura. Daniel pulls back the gray camouflage canvas established in Chapter 11 and activates the collector. The earlier meter test pays off: the needle rises as Flaming Head is drawn toward the intake and his flame diminishes.
+### 13. Her Choice
 
-Laura initially watches the result she wanted. His suffering and continued concern for her begin to change it. Give this reversal physical evidence: he is still trying to reach or reassure the person he thinks needs rescuing, even while she has helped cause his pain.
+Laura burns the accessible ropes while fully powered. She sees a chance to reach the switch. Flaming Head privately warns her to keep clear of the dangerous machine; she echoes his lessons cruelly and chooses the stairs instead. She never touches the collector or spits on Daniel.
 
-Daniel refuses to stop. Luke remains invested in the successful result and what it might mean for his own restoration. Laura realizes the drain will continue unless she acts. End with her turning toward the reachable rope and preparing to free herself.
+Daniel continues draining after Luke reports the full meter. His delayed attempt to stop comes too late: the collector overloads. The western panel explodes, throwing Luke through the established bricked-up window. Sparks ignite Daniel’s lab-coat hem. He tears it off and stamps at it, remaining in shirtsleeves. Luke’s jaws cause neither overload nor power interruption. The ray remains protected inside the stairhouse.
 
-Art: the collector catching Flaming Head; the rising meter and fading flame; Laura's satisfaction becoming real alarm. Do not duplicate him inside and outside the apparatus without a coherent final staging.
+The broken glass releases a weakened Flaming Head. Laura stays in the doorway and gives him no help. He leaves before Luke awakens. There is no apology, thanks, proud reassurance, cure, fading connection or ordinary-sneeze payoff.
 
-### 13. Cut the Power
+Alone behind the stairhouse, Laura tests a shot on an empty steel offcut. It leaves a shallow scorch instead of a hole. She conceals the evidence and tells Daniel her power is unchanged. Her ability remains dangerous; it is reduced, not removed. Six illustrations: rope escape, abandonment, overload, coat fire, wall impact, private weak-shot discovery. Superseded rescue/cure art and manuscript are archived unchanged.
 
-Current author-directed version: after Laura chooses to save Flaming Head, she frees herself and spits a small shot onto Daniel’s loose lab-coat hem when he blocks her. He strips off the coat, stamps out the flame and retreats behind the stairhouse. He does not approach the collector to help her and gives Luke no rescue or shutdown order.
+### 14. Jaws O’ Death
 
-Luke tries to stop Laura because she threatens the machine and his hope of getting his body back. He darts across her path; she ducks past him and lunges for the collector. Only now does Flaming Head privately warn her, “Don’t touch the machine, Laura. It’s too dangerous.” Nobody else hears him. Contact with the active machine hurts her and drains her power; the earlier expelled-plasma test did not remotely depower her.
+Keep the established structure: weakened return at the donated facility, reduced strength/speed, then Jaws’s awakening and Daniel’s final smile. No team scene follows the villain coda. Flaming Head tells Seth/Jenny privately that his former student chose to abandon him and remains with Orkleson. Seth relays the warning to Billy and Fist. Flaming Head has no knowledge of Luke’s later awakening or Laura’s secret test.
 
-Laura rocks the chocked trolley. Luke clamps his iron jaw over the western control housing and drives against her push to stop her overturning it. The housing buckles and the collector’s stored energy explodes from the western panel, throwing Luke across the established clear strip and through the bricked-up warehouse window. He does not choose to cut power or help her. The Army ray is elsewhere and untouched. This supersedes every earlier version where Daniel orders Luke to shut down the machine.
+Luke awakens beyond the broken window, forgets being Luke, enjoys his existing form and claims the already-established Jaws O’ Death name. His resentment of Laura is gone. He asks what she does, admires her destructive power and likes her alias. Laura enjoys his approval and postpones any demonstration to conceal her weakening. No romance, kiss, plasma immunity or new body is introduced.
 
-The explosion cuts power, releases Laura’s grip and splits the glass. Flaming Head escapes, alive but weakened. Daniel comes out of shelter to check on Luke, who remains unconscious. Laura feels terrible about her betrayal and apologizes. Flaming Head is not angry: he thanks her, says he is proud she chose to help, and vows to keep her safe. His final private words reach her as their shared connection fades; no permanent post-cure telepathy.
-
-Laura enjoys two harmless ordinary sneezes, takes off the mask and heads home before Luke awakens. His awakening/new attitude and the team reunion remain in Chapter Fourteen. The discarded scorched lab coat remains on the roof and Daniel is in shirtsleeves afterward.
-
-Keep the capture and rescue across Chapters Twelve and Thirteen to a fast continuous event of roughly two minutes. Five illustrations: completed rope escape, painful contact, jaw contact/overload explosion, wall impact and harmless sneeze.
-
-### 14. Jaws O' Death
-
-Drafted as the Book Three finale with four illustrations: diminished return at the facility window, Seth’s difficult practice-bar lift, Jaws admiring his reflection, and Dork’s final satisfied smile beside the wreckage. Seth and Jenny relay mental words for Billy and recovered Fist; Jenny’s slower dash supplies the first speed-loss sign. The villains’ scene follows the team scene and closes the book. Daniel remains in shirtsleeves; Jaws forgets Luke, enjoys his form and eagerly fetches the detached cover without bargaining. No new physical transformation, Laura appearance, crime failure or Sun trip occurs here.
-
-Open with weakened Flaming Head reaching the facility. Seth and Jenny receive him and relay what is needed to Billy and Fist. Keep his account brief and do not give him knowledge of Luke’s awakening: he has already left the rooftop before that happens. Establish his diminished state and a first sign that Seth and Jenny are weaker too; actual failed interventions belong to Book Four.
-
-Then return to Daniel and the wrecked collector for Book Three’s final scene. Luke awakens without memory of being Luke. He likes his floating form and iron jaws, identifies as Jaws O’ Death and shows eager, dangerous loyalty to Daniel. He does not ask for his body. The name already exists in the series; the change is his attitude, self-identification and loyalty.
-
-Let his new attitude appear in a concrete action or response rather than a speech explaining amnesia. Daniel recognizes that the companion who now obeys him has replaced the nephew who questioned him. He is angry about the ruined machine, but his pleasure at this unexpected result overtakes the failure. Laura has left; do not restore the superseded attraction or three-villain-team plot.
-
-The final beat belongs to Dork’s satisfaction with the new Jaws, amid the evidence of his failed experiment. Do not follow it with another team scene. Laura’s cure has closed her main arc; this darker coda ends Book Three and prepares the partnership that threatens Cleveland in Book Four.
-
-Art, in order: diminished Flaming Head arriving at the team’s window; Jaws delighted by his reflection; Dork smiling beside the wrecked collector with his eager new companion.
+He bites a loose bracket and eagerly fetches the detached cover, paying off his earlier refusal to fetch the connector. Daniel sees the loyal companion he has gained despite his failed machine. The last beat remains his smile. Five illustrations retain the four established finale images and add the new Laura/Jaws partnership.
 
 ## Book Four — proposed chapter map
 
-Book Three closes Laura’s main arc and returns the weakened Flaming Head to his friends. Book Four begins with consequences through action, without replaying the rooftop rescue. The cover depicts Dork, the tank, the Army ray and Jaws meeting Seth, Pink Blur and Fist; Laura and Flaming Head do not appear on this cover. His absence from the cover does not remove his role in the story.
+Book Three establishes Laura as a continuing villain and returns the weakened Flaming Head to his friends with a warning. Book Four begins with consequences through action, without replaying the rooftop trap and overload. The cover depicts Dork, the tank, the Army ray and Jaws meeting Seth, Pink Blur and Fist; Laura and Flaming Head do not appear on this cover. His absence from the cover does not remove his role in the story.
 
 ### 1. Something’s Wrong
 
@@ -448,7 +434,7 @@ Art: the small flame approaching the immense Sun; strength and speed returning o
 
 ### 6. What He Left Them
 
-Give the loss space before the final battle. Seth and Jenny learn what their greater strength and speed can do through a familiar action related to their recent failure. Their grief does not vanish because they are stronger. Billy and Fist help them prepare to act again. Only the specified speed and strength are amplified; no universal recharge, invulnerability or teleportation. Laura remains cured and outside costumed service.
+Give the loss space before the final battle. Seth and Jenny learn what their greater strength and speed can do through a familiar action related to their recent failure. Their grief does not vanish because they are stronger. Billy and Fist help them prepare to act again. Only the specified speed and strength are amplified; no universal recharge, invulnerability or teleportation. Laura remains a powered villain. Her shared-energy link must be accounted for in the later recharge; her confrontation with Pink Blur is part of the continuing threat.
 
 Art: a controlled discovery of greater ability; the team together at the empty familiar window.
 
@@ -479,7 +465,7 @@ Let Dork adapt once he realizes they are stronger. He attempts to force a choice
 
 The proposed outcome leaves Terminal Tower standing: the shot is stopped before the occupied structure is shrunk. Daniel is disarmed and captured; Jaws is restrained for secure custody without regaining Luke's memories. The tank and ray are seized. Exact restraint hardware and the final interception sequence need drafting, not a claim that an ordinary flimsy box can hold Jaws indefinitely.
 
-Daniel's demand for the city to bow fails in full public view. Do not give him a last-minute escape as the default ending of his book-long showdown. His defeat does not revive Flaming Head or undo Laura's cure.
+Daniel's demand for the city to bow fails in full public view. Do not give him a last-minute escape as the default ending of his book-long showdown. His defeat does not revive Flaming Head or automatically redeem Laura.
 
 Art: the battle's clear wide geography; Seth stopping/disabling the tank; Fist diverting Jaws; Jenny interrupting Daniel's shot; the defeated villains with the intact tower behind them. Generate separate successive moments rather than a single impossible composite.
 
@@ -489,7 +475,7 @@ Give the book a complete aftermath. Police hold Daniel, the Army ray and the tan
 
 Cleveland's relief is real. Claude sees the Defenders protect the city he wanted to help, while Daniel no longer has Eleanor's money or anyone's public submission to shield him. Eleanor's own unresolved scheme is not automatically exposed or forgiven by Daniel's capture; do not invent her separate finale without further author direction.
 
-Laura receives a brief ordinary-life coda: glasses, civilian clothes and a harmless sneeze or another small freedom. Avoid repeating the full cure scene. She stays free of the affliction and is not recruited back into costumed service.
+Resolve Laura’s role through her future confrontation with Pink Blur. Both women have caused accidental plasma fires; Jenny accepted responsibility while Laura embraced fear. Laura has no cure or ordinary-life coda. Her precise outcome remains to be drafted.
 
 Seth and Jenny keep their stronger abilities, but the absence of Flaming Head remains. A modest shared remembrance is more effective than several speeches explaining the sacrifice. Their care for the city and for people such as Laura carries his promise forward without pretending he is still secretly present.
 
@@ -499,8 +485,8 @@ Art: the recovered city and intact landmark; a small Laura coda; the team rememb
 
 ### Staging decisions to settle during drafting
 
-- Track the collector's sample capture, direct drain, power cutoff and Laura's cure in the established order. Luke's bite is the rooftop collector-panel accident only.
-- Keep the link between Flaming Head's loss and Seth/Jenny's weakness understandable before the Sun journey, without universalizing it to Fist, Perch or a cured Laura.
+- Track sample capture, Flaming Head’s direct drain, greed-driven collector overload, escape and shared weakening in order. Laura never touches the collector; Luke never bites its active panel.
+- Establish the link between Flaming Head’s loss and Seth/Jenny/Laura’s weakness before the Sun journey. Fist and Billy remain separate; Perch’s off-page response is not automatically settled.
 - Maintain Dork's information lag: his plan starts during the crime increase, and the solar recharge stays unknown to him until the confrontation.
 - Define the vault as a whole stealable target, including its contents and connection to the bank, before showing it shrink. Stage the tower threat as an untested escalation; stopping it is the recommended outcome, not a completed demonstration of unlimited ray scale.
 - Fix tank operation, ray placement, Jaws's route, evacuation geography and temporary/secure restraint before writing the final fight. Preserve strength versus invulnerability and speed versus teleportation.
@@ -510,7 +496,7 @@ Art: the recovered city and intact landmark; a small Laura coda; the team rememb
 
 After the book split, these arc notes span the ending of Book Three and Book Four. The chapter maps above govern their current placement.
 
-The following sequence replaces the former early Chapter 8 jealousy-driven bite of the shrink/enlarge ray, the proposed Dork/Jaws/Lava Lips team formation, and the early warning-only return in Chapter 10. The rooftop climax belongs closer to the end of the book. Final chapter count and divisions remain open; do not compress this whole arc into Chapter 8. Chapters 1–11 remain the current manuscripts. The audit revision has adjusted Chapter 7’s closing emphasis from the Army ray to the collector’s meter needles.
+The current fourteen-chapter manuscript supersedes the former early Chapter Eight bite of the Army ray and early warning-only return. The climax uses a collector overload; Laura remains Dork’s ally and Jaws now admires her. Chapter Seven’s closing emphasis remains the collector’s meter needles, not a ray-biting setup.
 
 ### Development — the collector begins to work
 
@@ -536,76 +522,19 @@ Laura helps Daniel lure Flaming Head to a rooftop where they have positioned the
 
 Daniel stages a scene in which Laura appears to be his bound captive. Use actual rope positioned so that an accessible length can later be burned clear without plasma being aimed into her own skin. Her mouth is not gagged. She is initially cooperating with the deception.
 
-Establish the collector's position, Laura's position, the roof access, the power supply/cable, the controls and the nearby building before the action. Make the intake's line toward Flaming Head visible in the staging. The machine's transport to the roof must be shown or briefly explained; the stolen shrink ray can assist with transport if the eventual draft needs it, but it is not the device Luke later bites.
+Establish the collector's position, Laura's position, the roof access, the power supply/cable, the controls and the nearby building before the action. Make the intake's line toward Flaming Head visible in the staging. The machine's transport to the roof must be shown or briefly explained; the stolen shrink ray can assist with transport if the eventual draft needs it, and remains untouched when the separate collector overloads.
 
 Flaming Head already knows she has joined Orkleson. He is not fooled into forgetting that conversation. He comes because he believes she now needs rescuing, despite the risk and what she has said to him. His willingness to help her is central to her later remorse.
 
-### The trap succeeds — Laura sees the cost
+### The trap succeeds — Laura chooses abandonment
 
-Flaming Head approaches to help Laura and is drawn toward the collector. His power is absorbed. The machine's meter rises as his flames weaken. The earlier plasma test pays off: the reader recognizes what is happening from visible evidence rather than another technical lecture.
+Chapters Twelve–Fourteen above govern the final staging. Laura sees the cost and hesitates, but frees herself and walks away. Dork overfills the collector, causing the explosion, coat fire and Luke’s collision. Laura never touches the machine and keeps her powers. She hides their weakening. Flaming Head returns with a private warning; Jaws awakens pleased with his form and now likes Laura. Dork’s satisfied smile closes the book.
 
-Laura watches the actual suffering of the person who came to rescue her. Her satisfaction falters and becomes remorse. Give the change room through what she sees and chooses; do not settle it with a speech recapping all her grievances.
+The superseded rescue/cure manuscript, outlines and review notes are preserved in `docs/editorial/archive/book-three-redemption-ending-2026-10-19/`; related art originals remain under `docs/art/originals/book-three/`. Those records are historical, not current instructions.
 
-Daniel continues the drain. Laura decides she cannot let it go on.
+### Art for the final chapters
 
-### Laura frees herself and attacks the collector
-
-She spits on the accessible rope and burns herself free. This must occur while she still has her plasma power. Establish the rope's placement in advance so the escape does not invent convenient reach or immunity.
-
-She lunges at the machine and tries to knock it over. Contact with the active collector hurts her. Her effort interrupts the trap; Daniel is furious that she is interfering with his machine.
-
-During that contact, the collector removes the power that has afflicted her. This is the working staging explanation for the author-directed cure, distinct from the earlier test that captured only expelled plasma. Show the connection through pain, a meter response and later verification, rather than claiming that merely draining Flaming Head automatically cures everybody changed by the lake.
-
-The collector’s western housing bursts under the overload and its glass splits; the explosion expends its stored energy. Flaming Head survives with reduced power, so do not imply that all his strength is instantly restored when the supply is cut.
-
-### Luke tries to stop Laura — the collector explodes
-
-Daniel retreats after the coat shot. He makes no attempt to rescue Laura and gives Luke no shutdown order. Luke tries to stop her because overturning the collector threatens his chance of getting his body back. He darts across her path, then clamps the western control housing with his iron jaw to brace the machine against her push.
-
-The housing buckles, the stored energy explodes from the western panel, and the blast throws Luke backward through the established bricked-up warehouse window. Power cuts out as a consequence of the explosion. This replaces the earlier version in which Luke hesitates and obeys an order to cut power.
-
-Luke remains a bodyless head with iron jaws. No body is restored and no new physical transformation is required for what follows. The Army ray is elsewhere and untouched.
-
-### Before Luke awakens — Laura's release
-
-Before Luke regains consciousness, Laura has lost her plasma power. Flaming Head is thankful that she chose to save him and vows to keep her safe. He is weakened but alive.
-
-Communication continuity needs explicit staging: her ability to understand him was linked to the shared energy. Proposed handling is for his thanks and promise to reach her as their connection fades, after her plasma has ceased but before the last sense of his message is gone. Do not quietly establish permanent telepathy after a complete cure. If this handling changes in the draft, provide another clear means for her to receive the vow.
-
-Give her relief a small, ordinary expression. Away from exposed machinery and people, an involuntary sneeze produces no burning droplets. Nothing catches fire. The contrast with the newsstand is the emotional payoff: she loves being able to sneeze normally again.
-
-She returns to her old life, happy to be free of the affliction. Her ordinary civilian identity, glasses and clothes can return without a costume-making scene. Do not add a renewed romance, reunion with the former boyfriend, or an obligation to remain a superhero unless the author asks for it. Her rescue matters; it does not erase the newsstand seller's loss or require an invented restitution scene in this outline.
-
-### Luke awakens as Jaws O' Death
-
-Only after the Laura/Flaming Head aftermath does Luke awaken. He has lost his memory of being Luke. He likes his floating form and iron teeth and no longer asks for his former body. He is loyal to Dork and becomes a dangerous menace known as Jaws O' Death.
-
-The name already appeared earlier in the series; this is a new identification with it and a changed allegiance, not the first historical coining of the name. Keep the established spelling unless the author explicitly renames him.
-
-Daniel is upset about his collector but pleased that he now has a loyal companion. The contrast should land: the nephew whose restoration he kept postponing is gone, and Daniel is satisfied with the useful menace who remains. Do not restore the earlier proposed romance or attraction between Jaws and Laura; she has already left this part of the story.
-
-### Flaming Head returns to the team
-
-Still weakened, Flaming Head flies back to the Defenders. Seth and Jenny understand his messages and relay them to Billy and Fist as needed. His reduced flames and effort make the cost apparent before he explains what happened.
-
-His return now carries the completed experience: Laura's resentment, alliance, betrayal, choice to rescue him and release from her power. Avoid an exhaustive retelling of scenes the reader has just witnessed. Give the team only the information and consequences needed for the next action. Do not assume he witnessed Luke awakening if he left beforehand.
-
-The exact order between Jaws's awakening and Flaming Head's departure can be finalized when the chapter breaks are set, but Laura's rescue, cure and relief must precede the awakening, as the author specified.
-
-### Art ideas for the later arc
-
-These are proposed scenes, not new generated assets. Distribute them across later chapters after final divisions and action geography are settled.
-
-- **The first true result:** costumed Laura spits a small plasma shot through the collector's intake field; a meter visibly climbs, Daniel leans toward the result and Luke watches with new hope. Keep the three-coil glass-cylinder collector distinct from the Army ray. No cure yet.
-- **Luke believes again:** a quieter close view of Luke looking between the meter and his uncle, suspicion briefly displaced by hope. This may replace a separate dialogue-heavy restoration scene.
-- **The rooftop bait:** wide establishing view of apparently bound Laura, the collector's intake line, controls, access and neighboring wall. Daniel's concealment follows the final draft. No inconsistent victim placement between this image and the attack.
-- **The rescue becomes the trap:** Flaming Head caught in the collector's draw, his flame diminishing while the meter rises. Laura's staged expression changes to real alarm. No second Flaming Head or unexplained duplicate inside and outside the cylinder.
-- **Burning the rope:** close narrative moment of saliva-origin plasma severing the accessible rope away from Laura's skin. No hand flame, eye beam or immunity claim.
-- **Her choice:** Laura braces against or lunges into the energized collector, visibly hurting but trying to topple it; Daniel reacts furiously. Track cylinder, trolley and cable positions consistently.
-- **The power cut:** Luke bites the collector's control panel. The electrical discharge and his backward trajectory point toward the established neighboring building. Show the wall impact separately if needed rather than compressing successive moments into one impossible pose.
-- **An ordinary sneeze:** civilian Laura after the cure, startled and then delighted that a sneeze does nothing. No plasma, mask or threatening spectacle. Preserve the modest scale of the payoff.
-- **Jaws awakens:** the same blond, iron-jawed bodyless head studies his reflection in broken window glass or another established surface and likes what he sees. Daniel's pleasure contrasts with the loss of Luke's memory. Laura is absent.
-- **The weakened return:** smaller, dimmer Flaming Head arrives at the team's facility; Seth and Jenny respond with concern while Billy and Fist await translation. No unexplained full recovery.
+Retain Chapter Twelve’s four images. Chapter Thirteen uses rope escape, deliberate abandonment, overload, burning coat, wall impact and hidden weak shot. Chapter Fourteen uses weakened return, practice-bar failure, delighted reflection, new allies and Dork’s final smile. Do not use contact-drain, active-panel biting or harmless-sneeze illustrations in the current edition.
 
 ## Book Four arc notes — the Sun and the attack on Cleveland
 
@@ -680,22 +609,22 @@ Dork does not know Seth and Jenny are now stronger than before. His public chall
 ### Continuity for this final movement
 
 - Seth and Jenny's weakness follows the rooftop drain, and the failed crime interventions precede their solar recharge. Dork plans his attack from those failures, unaware that the recharge has changed the balance.
-- Laura's loss of plasma is a cure, not temporary low energy. The solar gift does not restore her affliction, pull her back into superhero life or undo the harmless-sneeze ending.
+- Laura remains an active villain with reduced plasma power and an intact shared-energy connection. Carry her hidden weakness into Book Four. The planned solar recharge must account for her link as well as Seth/Jenny’s; do not quietly treat her as cured or exempt. Stage her future confrontation with Pink Blur through their contrasting choices about responsibility. Book Four’s existing tank cover stays unchanged.
 - Jaws keeps the post-accident identity, memory loss, loyalty and dangerous behavior. The recharge does not restore Luke's memories or body.
 - Fist's recovery is separate; Perch's whereabouts and response are not automatically resolved. Billy remains an ordinary human.
 - The Sun journey is one-way for Flaming Head. Seth and Jenny cannot feel his presence afterward. Grief remains real even as their abilities become stronger.
 - Keep the existing ability types: greater strength for Seth, greater speed for Jenny. Do not add flight, unrestricted telepathy or new powers solely because they are recharged.
 - Daniel's original dependency on Eleanor belongs to earlier events. The vault theft funds his independence; her reaction and remaining role stay open.
-- The collector control panel, Army ray, tank and stolen vault are separate objects with separately tracked damage and locations. Only the collector panel causes Luke's electrical accident.
+- The collector control panel, Army ray, tank and stolen vault are separate objects with separately tracked damage and locations. The collector overload causes Luke’s blast injury and wall collision; his jaws do not cause the failure.
 - Avoid another full recap of Laura's history when Flaming Head returns. Explain only the new link between his loss and the team's weakness, then let failure and sacrifice carry the plot.
 
 ## Continuity carried forward
 
-- Chapters 1–7 preserve Laura's accidental origin, unmet need, gifted costume, accidental newsstand fire, growing enjoyment of fear and deliberate alliance with Daniel. Her later rescue is a reversal made through action, not proof that the earlier cruelty never happened.
-- Shared-energy communication remains specific. The rooftop lure uses the connection established by her first plea. Stage the final message as the bond fades; do not assume a cured Laura permanently retains every energy-linked ability.
+- Chapters 1–7 preserve Laura's accidental origin, unmet need, gifted costume, accidental newsstand fire, growing enjoyment of fear and deliberate alliance with Daniel. Her later choice to abandon Flaming Head completes the turn toward villainy.
+- Shared-energy communication remains specific. The rooftop lure uses the connection established by her first plea. Laura retains the bond because she retains her power; weakening does not mean a cure.
 - The collector eventually succeeds at energy capture, first from plasma and then from Flaming Head. Daniel's Chapter 7 certainty still preceded proof. Luke's hope is understandable without demonstrating a means of restoring his original body.
-- The power-loss sequence is essential: plasma test does not cure Laura; she still has plasma when she burns the rope; painful contact with the active apparatus removes her power; then Luke's bite interrupts the supply. Her relief comes before Luke awakens.
-- Luke bites the collector's control panel on the rooftop, not the shrink/enlarge ray in the laboratory. His discharge, wall collision, memory loss and loyalty as Jaws occur near the end.
+- The plasma test does not drain Laura remotely. She remains fully powered for the rope escape. The collector’s damage to Flaming Head subsequently weakens Laura, Seth and Jenny through their shared source; she privately verifies the change and lies about it.
+- Luke never bites the active collector or the Army ray. Dork overfills the collector; the blast throws Luke through the western window. Memory loss removes resentment and his wish for a body; he remains a dangerous willing accomplice.
 - Police still hold the earlier basement collector, papers, cage and restraints. The new trolley collector uses reconstructed equipment. The relocated workshop and restored tank remain established.
 - Laura's civilian name is Laura Baxter. Daniel and Luke know only what she has told them or what public reporting provides. Their Chapter 7 encounter does not reveal Seth/Jenny's identities or the Defenders' facility address.
 - Daniel knows Seth's identity, but not that Jenny is Pink Blur. Luke's later memory loss does not erase Daniel's memories.

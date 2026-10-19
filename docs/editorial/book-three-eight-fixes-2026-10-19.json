@@ -1,0 +1,735 @@
+{
+  "date": "2026-10-19",
+  "status": "Complete: seven fixes retained, optional Fist message removed; reader and publishing rebuilds verified",
+  "scope": "Seven approved clarity/pacing fixes remain. At author request the Fist message, its promise/relay and Laura’s dismissal are removed from both chapters. Villain ending and all 63 illustrations preserved.",
+  "fixes": [
+    "Known laboratory is too risky to live/work in; equipment can still be recovered.",
+    "Months-long symptoms and explicit next-afternoon/two-days-later/evening anchors.",
+    "Bricked-up warehouse window sits at annex-roof level.",
+    "Billy identified as private investigator; Inspector is his nickname.",
+    "Author subsequently declined this item: remove the Fist message setup, relay, delivery and dismissal entirely.",
+    "Brief reminders: Jenny reports for the Defender, Eleanor is Claude’s wife, Fist is a red boxing glove.",
+    "Consistent scene markers before Chapter Four’s Laura scene and Chapter Five’s Daniel scene.",
+    "Repeated rooftop checks and positioning trimmed; causal geography and rapid climax retained."
+  ],
+  "metrics": [
+    {
+      "chapter": 1,
+      "beforeWords": 1370,
+      "afterWords": 1370,
+      "illustrations": 3
+    },
+    {
+      "chapter": 2,
+      "beforeWords": 981,
+      "afterWords": 959,
+      "illustrations": 3
+    },
+    {
+      "chapter": 3,
+      "beforeWords": 1091,
+      "afterWords": 1119,
+      "illustrations": 3
+    },
+    {
+      "chapter": 4,
+      "beforeWords": 1668,
+      "afterWords": 1679,
+      "illustrations": 5
+    },
+    {
+      "chapter": 5,
+      "beforeWords": 1784,
+      "afterWords": 1787,
+      "illustrations": 5
+    },
+    {
+      "chapter": 6,
+      "beforeWords": 2358,
+      "afterWords": 2358,
+      "illustrations": 6
+    },
+    {
+      "chapter": 7,
+      "beforeWords": 1736,
+      "afterWords": 1736,
+      "illustrations": 6
+    },
+    {
+      "chapter": 8,
+      "beforeWords": 973,
+      "afterWords": 973,
+      "illustrations": 3
+    },
+    {
+      "chapter": 9,
+      "beforeWords": 1739,
+      "afterWords": 1739,
+      "illustrations": 6
+    },
+    {
+      "chapter": 10,
+      "beforeWords": 1506,
+      "afterWords": 1190,
+      "illustrations": 4
+    },
+    {
+      "chapter": 11,
+      "beforeWords": 1211,
+      "afterWords": 879,
+      "illustrations": 4
+    },
+    {
+      "chapter": 12,
+      "beforeWords": 427,
+      "afterWords": 427,
+      "illustrations": 4
+    },
+    {
+      "chapter": 13,
+      "beforeWords": 570,
+      "afterWords": 570,
+      "illustrations": 6
+    },
+    {
+      "chapter": 14,
+      "beforeWords": 960,
+      "afterWords": 960,
+      "illustrations": 5
+    }
+  ],
+  "changes": [
+    {
+      "chapter": 1,
+      "originalBlock": 60,
+      "operation": "replace",
+      "oldText": "Weeks went by. The bruise on her hip faded. Her hair grew long enough to keep falling into her eyes, and she cut a little off over the kitchen trash can. One side came out shorter. She decided she could live with it.",
+      "newText": "Months went by. The bruise on her hip faded. Her hair grew long enough to keep falling into her eyes, and she cut a little off over the kitchen trash can. One side came out shorter. She decided she could live with it.",
+      "reason": "Fix 2: align the elapsed interval with Chapter Five’s months of symptoms.",
+      "beforePdfPage": 8,
+      "afterPdfPage": 8
+    },
+    {
+      "chapter": 2,
+      "originalBlock": 0,
+      "operation": "replace",
+      "oldText": "Seth lowered the steel drum until its base touched the roof. He kept both hands on it for another moment, then let go.",
+      "newText": "The next afternoon, Seth lowered the steel drum until its base touched the roof. He kept both hands on it for another moment, then let go.",
+      "reason": "Fixes 2, 4 and 6: time anchor and brief canon-based reminders of Billy, Jenny and Fist.",
+      "beforePdfPage": 11,
+      "afterPdfPage": 11
+    },
+    {
+      "chapter": 2,
+      "originalBlock": 31,
+      "operation": "replace",
+      "oldText": "A bus horn sounded in the street below. Seth looked toward the stairwell. They were due at Billy's office. Jenny had left the sandwiches downstairs before practice so they would not get warm on the roof.",
+      "newText": "A bus horn sounded in the street below. Seth looked toward the stairwell. They were due at Billy’s office. He was a private investigator, despite the nickname Inspector Billy. Jenny had left the sandwiches downstairs before practice so they would not get warm on the roof.",
+      "reason": "Fixes 2, 4 and 6: time anchor and brief canon-based reminders of Billy, Jenny and Fist.",
+      "beforePdfPage": 13,
+      "afterPdfPage": 13
+    },
+    {
+      "chapter": 2,
+      "originalBlock": 35,
+      "operation": "replace",
+      "oldText": "By the time Seth and Jenny reached Billy's office, they had changed into their ordinary clothes. Seth pushed up the sleeves of his red hoodie while Jenny put the sandwiches on the desk.",
+      "newText": "By the time Seth and Jenny reached Billy’s office, they had changed into their ordinary clothes. Seth pushed up the sleeves of his red hoodie while Jenny, a reporter for the Defender, put the sandwiches on the desk.",
+      "reason": "Fixes 2, 4 and 6: time anchor and brief canon-based reminders of Billy, Jenny and Fist.",
+      "beforePdfPage": 13,
+      "afterPdfPage": 13
+    },
+    {
+      "chapter": 2,
+      "originalBlock": 37,
+      "operation": "replace",
+      "oldText": "Fist lay on his cushion beside the desk lamp. He raised himself a little when Seth came in, then settled with his torn cuff supported.",
+      "newText": "Fist-O-Mite, a red boxing glove with enormous eyes, lay on his cushion beside the desk lamp. He raised himself a little when Seth came in, then settled with his torn cuff supported.",
+      "reason": "Fixes 2, 4 and 6: time anchor and brief canon-based reminders of Billy, Jenny and Fist.",
+      "beforePdfPage": 14,
+      "afterPdfPage": 14
+    },
+    {
+      "chapter": 3,
+      "originalBlock": 18,
+      "operation": "insert after",
+      "oldText": "",
+      "newText": "The old building still held benches and instruments in the upstairs laboratory. But the police knew that address. He could not settle there and wait to be found.",
+      "reason": "Fix 1: distinguish the risk of living at the known laboratory from briefly retrieving its equipment.",
+      "afterPdfPage": 18
+    },
+    {
+      "chapter": 4,
+      "originalBlock": 0,
+      "operation": "replace",
+      "oldText": "Billy had said to meet him outside the building with the blue doors.",
+      "newText": "Two days later, Billy had asked them to meet him outside the building with the blue doors.",
+      "reason": "Fixes 2, 6 and 7: explicit timing, Eleanor’s relationship and a marked viewpoint transition.",
+      "beforePdfPage": 23,
+      "afterPdfPage": 24
+    },
+    {
+      "chapter": 4,
+      "originalBlock": 6,
+      "operation": "replace",
+      "oldText": "Eleanor stood a little apart in her black suit and dark glasses.",
+      "newText": "Claude’s wife, Eleanor, stood a little apart in her black suit and dark glasses.",
+      "reason": "Fixes 2, 6 and 7: explicit timing, Eleanor’s relationship and a marked viewpoint transition.",
+      "beforePdfPage": 23,
+      "afterPdfPage": 24
+    },
+    {
+      "chapter": 4,
+      "originalBlock": 104,
+      "operation": "insert before",
+      "oldText": "",
+      "newText": "* * *",
+      "reason": "Fixes 2, 6 and 7: explicit timing, Eleanor’s relationship and a marked viewpoint transition."
+    },
+    {
+      "chapter": 4,
+      "originalBlock": 104,
+      "operation": "replace",
+      "oldText": "Farther along the lake, Laura Baxter noticed a glow above the water and looked up.",
+      "newText": "That evening, farther along the lake, Laura Baxter noticed a glow above the water and looked up.",
+      "reason": "Fixes 2, 6 and 7: explicit timing, Eleanor’s relationship and a marked viewpoint transition.",
+      "beforePdfPage": 30,
+      "afterPdfPage": 31
+    },
+    {
+      "chapter": 5,
+      "originalBlock": 16,
+      "operation": "insert before",
+      "oldText": "",
+      "newText": "“A friend asked me to tell you the beginning’s the worst part.”\nFlaming Head’s words reached her privately. Laura looked up from the target.\n“Does he spit holes through his sink?”\n“No.”\n“Then he can keep his advice.”",
+      "reason": "Fixes 5 and 7: deliver Fist’s message for Laura to dismiss, and mark the change to Daniel’s scene.",
+      "afterPdfPage": 35,
+      "finalDisposition": "Removed at author request; this entry records the intermediate delivery/dismissal, not final manuscript text."
+    },
+    {
+      "chapter": 5,
+      "originalBlock": 123,
+      "operation": "insert before",
+      "oldText": "",
+      "newText": "* * *",
+      "reason": "Fixes 5 and 7: deliver Fist’s message for Laura to dismiss, and mark the change to Daniel’s scene."
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 1,
+      "operation": "replace",
+      "oldText": "The lead came away from the wall with a scrape. He wound it around the trolley rail, tucked the plug beneath the last turn and moved the iron tray aside.",
+      "newText": "He wound the disconnected cable around the trolley rail and moved the iron tray aside.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 84,
+      "afterPdfPage": 85
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 10,
+      "operation": "replace",
+      "oldText": "The entire machine stood on the concrete, scarcely a foot long. The cable lay around its rail like black thread. Through the little cylinder she could still see a trace of orange.",
+      "newText": "The machine stood scarcely a foot long, its cable wound like black thread around the rail. A trace of orange remained inside the glass.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 84,
+      "afterPdfPage": 85
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 15,
+      "operation": "replace",
+      "oldText": "The climb was slow. Daniel had to turn sideways at the landing, keeping his board level while his coat caught on a bolt. Laura freed the cloth with one hand. He thanked her without looking away from the miniature glass.",
+      "newText": "Daniel edged around the landing, his coat catching on a bolt. Laura freed it while he kept the board level.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 85,
+      "afterPdfPage": 85
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 19,
+      "operation": "replace",
+      "oldText": "The stairhouse stood against the western wall of the lower annex. Above it rose the adjoining warehouse, another two stories of dark brick. One old window had been filled with newer bricks, leaving a pale rectangle in the wall.",
+      "newText": "The stairhouse stood against the western wall of the lower annex. The adjoining warehouse rose another two stories above it. Low in the wall, a bricked-up window left a pale rectangle with its sill just above roof level.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 85,
+      "afterPdfPage": 86
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 22,
+      "operation": "replace",
+      "oldText": "Daniel set the board down and walked across the roof, watching his shoes. Near a low metal ventilator, he stopped. He looked from the vent to the parapet, then back toward the warehouse wall.",
+      "newText": "Daniel paced out a place beside a low metal ventilator.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 86,
+      "afterPdfPage": 86
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 23,
+      "operation": "remove",
+      "oldText": "Luke hovered over the spot.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 86
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 24,
+      "operation": "replace",
+      "oldText": "“There's a drain on that side,” he said.",
+      "newText": "“There’s a drain on that side,” Luke said.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 86,
+      "afterPdfPage": 86
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 25,
+      "operation": "replace",
+      "oldText": "Daniel followed his gaze east. A shallow gutter ran toward a dark opening beneath the parapet.",
+      "newText": "A shallow gutter led east to an opening beneath the parapet.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 86,
+      "afterPdfPage": 86
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 27,
+      "operation": "replace",
+      "oldText": "He fetched the board, lifted the little trolley onto a clear patch of roofing and took the ray from Laura. She moved behind him. Luke rose out of the space above the machine.",
+      "newText": "Daniel set the board on a clear patch of roofing and took the ray from Laura. She and Luke moved behind him.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 86,
+      "afterPdfPage": 87
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 39,
+      "operation": "replace",
+      "oldText": "The machine pressed against Laura’s shoulder. She held it while Luke checked the ground.",
+      "newText": "Laura braced the machine while Luke checked the ground.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 87,
+      "afterPdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 40,
+      "operation": "remove",
+      "oldText": "Luke dropped nearer the roof.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 87
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 43,
+      "operation": "replace",
+      "oldText": "This time they moved it slowly. Luke watched the casters while Daniel and Laura eased the frame across the seam. When all four wheels stood on the flatter patch, the weight stopped trying to escape her.",
+      "newText": "They eased the trolley over the seam onto the flatter patch.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 87,
+      "afterPdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 45,
+      "operation": "replace",
+      "oldText": "Daniel went back to the stairhouse and returned with two scraps of timber. He wedged one in front of a wheel and the other behind the opposite caster. Then he leaned against the rail.",
+      "newText": "Daniel fetched two scraps of timber and chocked opposite wheels.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 87,
+      "afterPdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 46,
+      "operation": "remove",
+      "oldText": "Luke made a circuit of it, checking each wheel. Laura watched him pass beneath the funnel without touching it.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 47,
+      "operation": "remove",
+      "oldText": "“That side's down,” he said. “Leave it there.”",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 49,
+      "operation": "replace",
+      "oldText": "They turned the brass mouth north toward the ventilator. Daniel paced out the gap, keeping it as short as the successful test downstairs.",
+      "newText": "Daniel faced the brass mouth north toward the ventilator, keeping the gap as short as the successful test downstairs.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 88,
+      "afterPdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 51,
+      "operation": "replace",
+      "oldText": "There was another clear stretch between the vent and the northern parapet. Anyone coming over that edge could cross the roof without a chimney blocking the view.",
+      "newText": "The northern parapet lay clear beyond the vent.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 88,
+      "afterPdfPage": 88
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 59,
+      "operation": "replace",
+      "oldText": "From here she could watch him without seeing his expression change when he noticed her mask. She rested her hands on the warm stone and stayed until Daniel returned, breathing hard, with a heavy extension lead over one shoulder.",
+      "newText": "From here she could watch him without seeing his expression change when he noticed her mask. She stayed until Daniel returned, breathing hard, with a heavy extension cord over one shoulder.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 88,
+      "afterPdfPage": 89
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 63,
+      "operation": "replace",
+      "oldText": "The hum was softer in the open air. Luke lowered himself until his eyes were level with the dials. Daniel stayed at the switch while Laura watched the glass.",
+      "newText": "Luke watched the dials while Daniel worked the switch.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 89,
+      "afterPdfPage": 89
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 66,
+      "operation": "replace",
+      "oldText": "Daniel let it run a little longer, then switched it off. He took a rag from his pocket and wiped a dusty handprint from the cylinder.",
+      "newText": "Daniel switched it off and wiped a dusty handprint from the glass.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 89,
+      "afterPdfPage": 89
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 70,
+      "operation": "replace",
+      "oldText": "While Laura and Luke checked that the chocks had held, Daniel carried the ray back toward the stairhouse. Halfway there he stopped at the parapet.",
+      "newText": "Daniel carried the ray toward the stairhouse, pausing at the parapet.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 90,
+      "afterPdfPage": 90
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 71,
+      "operation": "replace",
+      "oldText": "A truck waited below for a delivery van to move. Farther along, cars had gathered behind a bus. The drivers could do very little until the vehicles in front of them went somewhere else.",
+      "newText": "Below, trucks and cars waited behind a delivery van. None could move until it did.",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 90,
+      "afterPdfPage": 90
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 86,
+      "operation": "remove",
+      "oldText": "Luke glanced from the rope to the machine. He moved slightly aside, leaving the western controls unobstructed.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 90
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 89,
+      "operation": "remove",
+      "oldText": "Now he would come because he thought she needed him again.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 91
+    },
+    {
+      "chapter": 10,
+      "originalBlock": 93,
+      "operation": "remove",
+      "oldText": "She stayed beside the empty place where she would sit, looking into the brass mouth.",
+      "newText": "",
+      "reason": "Fixes 3 and 8: place the impact window at roof level and trim repeated positioning/checks while retaining geography, transport, caster incident, chocks, extension-cord gag and bait decision.",
+      "beforePdfPage": 91
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 1,
+      "operation": "replace",
+      "oldText": "The metal was cold through her coat. From this height, the brass funnel seemed to occupy most of the space in front of her. Daniel had left the machine where they had tested it. Its wheels still rested against the timber chocks.",
+      "newText": "The metal was cold through her coat. The brass funnel filled the space ahead.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 92,
+      "afterPdfPage": 92
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 4,
+      "operation": "remove",
+      "oldText": "Daniel glanced at her hands, then at the place where a visitor would come down to face her.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 92
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 11,
+      "operation": "replace",
+      "oldText": "Daniel sat back on his heels and examined the result. Laura looked past him into the brass mouth, her boots planted on the gravel between it and the vent.",
+      "newText": "Daniel sat back. Laura looked past him into the brass mouth, her boots planted on the gravel.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 93,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 16,
+      "operation": "replace",
+      "oldText": "Daniel checked the knot once more. “She only has to stay there until he comes.”",
+      "newText": "“She only has to stay there until he comes,” Daniel said.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 93,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 17,
+      "operation": "replace",
+      "oldText": "He stood and went to the stairhouse. When he returned, he carried a folded piece of gray canvas.",
+      "newText": "He fetched folded gray canvas from the stairhouse.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 93,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 18,
+      "operation": "replace",
+      "oldText": "Laura shifted her shoulders. The rope moved with her coat, but the turns around the vent kept her from leaning forward. She settled back, irritated by how quickly sitting still had become uncomfortable.",
+      "newText": "Laura shifted against the bindings, already uncomfortable.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 93,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 19,
+      "operation": "replace",
+      "oldText": "Daniel spread the canvas over the collector's cylinder and tucked it around the far end. The cloth broke up the shape of the glass and coils. From the parapet, it might have been another piece of machinery waiting for someone to finish repairing it.",
+      "newText": "Daniel spread the canvas over the glass and coils, disguising them as unfinished equipment.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 21,
+      "operation": "replace",
+      "oldText": "Luke watched him lower himself behind the trolley.",
+      "newText": "Daniel crouched behind the trolley until only his shoes showed.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94,
+      "afterPdfPage": 93
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 22,
+      "operation": "remove",
+      "oldText": "The canvas stopped moving. Daniel's white coat disappeared below the rail.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 23,
+      "operation": "remove",
+      "oldText": "Laura could still see the toes of his shoes.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 26,
+      "operation": "replace",
+      "oldText": "Luke moved into the clear strip beside the western controls. From there he could watch the northern end of the roof through the space beside the vent. The taller warehouse wall stood behind him, its bricked-up window losing the last light.",
+      "newText": "Luke settled beside the western controls, between the collector and warehouse wall.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94,
+      "afterPdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 27,
+      "operation": "remove",
+      "oldText": "The cable lay where they had put it, close to the wall before turning toward the machine. Nothing crossed the open gravel in front of Laura.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 32,
+      "operation": "replace",
+      "oldText": "For a moment, she could think only of how foolish she would look if nothing happened. Daniel was crouched behind his machine. Luke had stopped arguing. Both of them were waiting for something she had never tried to do on purpose.",
+      "newText": "If nothing happened, they would both see it. Daniel and Luke were waiting for something she had never tried on purpose.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 94,
+      "afterPdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 36,
+      "operation": "replace",
+      "oldText": "Laura waited, watching a scrap of cloud drift between two buildings. The sky stayed empty.",
+      "newText": "She waited. The sky stayed empty.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 95,
+      "afterPdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 37,
+      "operation": "replace",
+      "oldText": "Flaming Head’s words had reached her mind beside the lake. She remembered looking at his still mouth, puzzled by the silent connection. He had come because he had felt that she needed him.",
+      "newText": "Flaming Head had felt her need beside the lake. Saying the words had not been enough.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 95,
+      "afterPdfPage": 94
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 43,
+      "operation": "replace",
+      "oldText": "Her hands had tightened without her noticing. She loosened them and looked toward the sky again.",
+      "newText": "She loosened her clenched hands and watched the sky.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 95,
+      "afterPdfPage": 95
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 52,
+      "operation": "remove",
+      "oldText": "The feeling came again.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 96
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 54,
+      "operation": "replace",
+      "oldText": "He crossed the inland streets, slowing above an intersection until the familiar need drew him toward a taller stretch of brickwork.",
+      "newText": "He followed the familiar need inland toward a taller stretch of brickwork.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 96,
+      "afterPdfPage": 96
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 55,
+      "operation": "replace",
+      "oldText": "The last of the sunlight lay across its upper windows. Below them, a lower roof was already in shadow.",
+      "newText": "A lower roof lay in shadow beneath its last sunlit windows.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 96,
+      "afterPdfPage": 96
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 60,
+      "operation": "replace",
+      "oldText": "Luke had risen far enough to look past the vent. His eyes were fixed above the parapet.",
+      "newText": "Luke rose to look beyond the vent.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 97,
+      "afterPdfPage": 96
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 63,
+      "operation": "remove",
+      "oldText": "Laura looked where Luke had been looking.",
+      "newText": "",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 97
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 65,
+      "operation": "replace",
+      "oldText": "She drew a breath through her nose. Her wrists pressed together. The thing she had imagined while Daniel marked the workshop floor was crossing the sky toward her.",
+      "newText": "Her wrists pressed together as the light approached.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 97,
+      "afterPdfPage": 96
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 75,
+      "operation": "replace",
+      "oldText": "Behind him stood a trolley beneath a gray sheet. Its brass funnel pointed toward the place where he would have to come down. A heavy cable ran away from it toward the taller brick wall.",
+      "newText": "Behind him, a gray sheet covered a trolley. Its exposed brass funnel pointed toward her.",
+      "reason": "Fix 8: reduce repeated staging and travel, retaining accessible bindings, silent connection, hidden controls and Flaming Head’s deliberate decision to help despite danger.",
+      "beforePdfPage": 97,
+      "afterPdfPage": 97
+    },
+    {
+      "chapter": 11,
+      "originalBlock": 2,
+      "operation": "replace",
+      "oldText": "He took the rope from the top of the vent.",
+      "newText": "Daniel took the rope from the top of the vent.",
+      "reason": "Fix 8: retain an explicit speaker/actor after trimming nearby staging.",
+      "beforePdfPage": 92,
+      "afterPdfPage": 92
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "reader": "All 14 chapters match source; all 63 images decode at 320/390/1200 pixels; Chapter Thirteen navigation and coat placement pass.",
+    "preservation": "All art references, alt descriptions and per-chapter order preserved; Chapters Twelve–Fourteen match the pre-edit villain-ending baseline exactly.",
+    "publishing": "Rebuilt EPUB and 116-page paperback contain the seven retained fixes and omit the entire Fist message. All 63 illustrations remain; cover matches measured interior.",
+    "suite": "npm test passed all 1260 links/assets, EPUBs, navigation/progress, mobile layouts and publishing checksums. git diff --check passed."
+  },
+  "publication": "Local changes; not pushed.",
+  "pageReferenceNote": "beforePdfPage and afterPdfPage are one-based physical PDF pages, including front matter; originalBlock is the pre-edit chapter block index. Page references supplied where the passage can be uniquely matched.",
+  "publishing": {
+    "pages": 116,
+    "spineInches": 0.261232,
+    "illustrations": 63,
+    "passages": 1412
+  },
+  "communicationCorrection": "Superseded by author request to skip this message altogether; both source and delivery exchanges removed.",
+  "followUpChanges": [
+    {
+      "chapter": 2,
+      "oldText": "Fist lifted himself just enough to look toward the window.",
+      "newText": "Fist lifted himself just enough to look at Seth.",
+      "reason": "Fist addresses Seth rather than Flaming Head.",
+      "finalDisposition": "Removed with the entire message exchange at author request."
+    },
+    {
+      "chapter": 2,
+      "oldText": "",
+      "newText": "Seth turned toward the window. “Fist says the beginning’s the worst part.”",
+      "reason": "Explicit outgoing relay before Flaming Head answers privately.",
+      "finalDisposition": "Removed with the entire message exchange at author request."
+    },
+    {
+      "chapter": 2,
+      "oldText": "“I’ll tell them,” Flaming Head said.",
+      "newText": "“I’ll tell them.” Flaming Head’s reply reached Seth and Jenny alone.",
+      "reason": "Explicit private recipient; the following paragraph retains Seth’s reply relay to Fist.",
+      "finalDisposition": "Removed with the entire message exchange at author request."
+    }
+  ],
+  "followUpDecision": "Remove Chapter Two’s entire message exchange and Chapter Five’s delivery/dismissal. Keep the other seven fixes. Earlier entries in changes/followUpChanges record intermediate edits, not the final text."
+}
