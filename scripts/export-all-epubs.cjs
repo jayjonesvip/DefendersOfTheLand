@@ -18,6 +18,7 @@ for(const book of books){
    cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id,'--paperback'],{cwd:root,stdio:'inherit'});
   }
   cp.execFileSync(python,['scripts/build-paperback-cover.py','--book',book.id],{cwd:root,stdio:'inherit'});
+  if(book.id==='book-three')cp.execFileSync(python,['scripts/preflight-book-three.py'],{cwd:root,stdio:'inherit'});
  }
 }
 // Downloadable samples are a Book One feature, regardless of future book metadata.

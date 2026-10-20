@@ -10,7 +10,7 @@ layout.configure(config)
 normalize=lambda text:re.sub(r'\s+','',text)
 widths=[]
 with tempfile.TemporaryDirectory() as folder:
-    for pages in (72,80,160,320):
+    for pages in (72,80,116,160,320):
         report=layout.export_covers(pathlib.Path(folder),pages,stem='test')
         with fitz.open(pathlib.Path(folder)/'test-kdp-cover.pdf') as doc:
             page=doc[0];widths.append(page.rect.width)
@@ -29,4 +29,4 @@ with tempfile.TemporaryDirectory() as folder:
             if pages==72:assert config['spineTitle'] not in text
             if pages>=160:assert config['spineTitle'] in text
 assert all(b>a for a,b in zip(widths,widths[1:]))
-print('PASS: Book Three wrap grows at 72/80/160/320 pages, with safe spine text and complete back copy.')
+print('PASS: Book Three wrap grows at 72/80/116/160/320 pages, with safe spine text and complete back copy.')

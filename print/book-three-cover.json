@@ -23,5 +23,7 @@
   "paper": "standard-color-white",
   "bleedInches": 0.125,
   "interiorPdf": "book-three-kdp-interior.pdf",
-  "pageCountIsProvisional": true
+  "pageCountIsProvisional": true,
+  "includePdfLinks": false,
+  "spineTextBoundsFactor": 1.104
 }

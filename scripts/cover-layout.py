@@ -46,7 +46,9 @@ def back(c,x=0,y=0,*,illustrated=True,barcode=False):
         else:artwork(c,CONFIG['backArtwork'],32,64,WIDTH-64,min(HEIGHT/2.8,top-114))
     c.setFillColor(GOLD if illustrated else NAVY);c.setFont('CoverDisplay',11);c.drawString(32,top-18,CONFIG['tagline'].upper())
     c.setFillColor(ink);c.setFont('CoverSerif',7.4);label=CONFIG['readerUrl'].removeprefix('https://').rstrip('/')
-    c.drawString(32,26,label);c.linkURL(CONFIG['readerUrl'],(32,22,WIDTH-32,38),relative=1,thickness=0)
+    c.drawString(32,26,label)
+    if CONFIG.get('includePdfLinks',True):
+        c.linkURL(CONFIG['readerUrl'],(32,22,WIDTH-32,38),relative=1,thickness=0)
     c.restoreState()
 
 def page_bytes(*,illustrated=True):
@@ -66,7 +68,7 @@ def export_covers(out,page_count,stem='origins'):
     back(c,barcode=True)
     front=CONFIG.get('printFrontArtwork',CONFIG['frontArtwork'])
     artwork(c,front,WIDTH+spine+18,27,WIDTH-36,HEIGHT-54)
-    c.setFillColor(GOLD);font_size=min(10,(spine-9-.2)/.790)
+    c.setFillColor(GOLD);font_size=min(10,(spine-9-.2)/CONFIG.get('spineTextBoundsFactor',.790))
     if page_count>=80 and font_size>=7:
         title=CONFIG.get('spineTitle',CONFIG['series']+' | ORIGINS')
         font_size=min(font_size,(HEIGHT-220)/pdfmetrics.stringWidth(title,'CoverDisplay',1))

@@ -44,29 +44,45 @@ for page in doc:
 contents_pages=list(range(2,layout['chapters'][0]['page']-1))
 for number in contents_pages:
     for link in doc[number].get_links():doc[number].delete_link(link)
+contents_numbers=0
 for chapter in layout['chapters']:
     found=False
     for number in contents_pages:
         for box in doc[number].search_for(f"{chapter['number']}. {chapter['title']}"):
-            doc[number].insert_link({'kind':fitz.LINK_GOTO,'from':box,'page':chapter['page']-1});found=True
+            if layout.get('paperback'):
+                assert any(w[4]==str(chapter['page']) and w[0]>box.x1 and abs(w[1]-box.y0)<2 for w in doc[number].get_text('words')),('Incorrect printed contents page',chapter['title'])
+                contents_numbers+=1
+            else:
+                doc[number].insert_link({'kind':fitz.LINK_GOTO,'from':box,'page':chapter['page']-1})
+            found=True
     assert found,('Missing contents entry',chapter['title'])
 doc.set_metadata({'title':'Defenders of the Land: '+book['title'],'author':book['author'],'subject':'Unpublished illustrated manuscript'})
-doc.set_toc([[1,c['title'],c['page']] for c in layout['chapters']])
+doc.set_toc([] if layout.get('paperback') else [[1,c['title'],c['page']] for c in layout['chapters']])
 content_pages=len(doc)
 if layout.get('paperback'):
+    # Upload a print PDF without interactive navigation or annotation objects.
+    for page in doc:
+        for link in page.get_links():page.delete_link(link)
+        for annot in list(page.annots() or []):page.delete_annot(annot)
+        for widget in list(page.widgets() or []):page.delete_widget(widget)
     if len(doc)%2:doc.new_page(width=432,height=648)
     assert len(doc)>=72,'Standard-color KDP interior requires at least 72 pages'
 file=out/(f'{args.book}-kdp-interior.pdf' if layout.get('paperback') else f'defenders-of-the-land-{args.book}-illustrated.pdf');doc.save(file,garbage=4,deflate=True)
 report={'bookId':args.book,'file':file.name,'pages':len(doc),'pageCountIncludes':'title, copyright, contents, all available chapters and end padding; no cover' if layout.get('paperback') else 'front cover, title, contents and all available chapters','chapters':len(layout['chapters']),'interiorIllustrations':placements if layout.get('paperback') else placements-1,'passagesChecked':len(expected),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'status':'Unpublished illustrated review PDF; not an approved print interior','pageSizeInches':[6,9],'printLayoutIsProvisional':True,'chapterStarts':layout['chapters']}
 with fitz.open(file) as final:
     destinations=[link['page'] for page in final for link in page.get_links() if link['kind']==fitz.LINK_GOTO]
-    assert set(destinations)=={c['page']-1 for c in layout['chapters']}
-    assert len(final.get_toc())==len(layout['chapters'])
+    assert set(destinations)==(set() if layout.get('paperback') else {c['page']-1 for c in layout['chapters']})
+    assert len(final.get_toc())==(0 if layout.get('paperback') else len(layout['chapters']))
+    if layout.get('paperback'):
+        assert not any(page.get_links() or list(page.annots() or []) or list(page.widgets() or []) for page in final),'Interactive objects in print PDF'
+        report['contentsPageNumbersChecked']=contents_numbers
     assert not any(link.get('uri','').startswith(('http://127.0.0.1','http://localhost')) for page in final for link in page.get_links())
     report['contentsLinksChecked']=len(destinations)
 report.update({'paperbackInterior':bool(layout.get('paperback')),'contentPages':content_pages,'paddingPages':len(doc)-content_pages})
 if layout.get('paperback'):
-    report['status']='Current illustrated paperback manuscript; book still in progress'
+    report['manuscriptStatus']=book['status']
+    report['status']='Complete illustrated paperback manuscript; print proof pending' if book['status']=='Manuscript complete' else 'Current illustrated paperback manuscript; book still in progress'
+    report['printPdfNavigationRemoved']=True
 (out/f'{args.book}-pdf-build.json').write_text(json.dumps(report,indent=2)+'\n')
 print(f"Verified {args.book} illustrated PDF: {len(doc)} pages, {report['chapters']} chapters, {report['interiorIllustrations']} illustrations; complete text, page bounds and image/text separation.")
 if os.environ.get('GITHUB_ACTIONS'):

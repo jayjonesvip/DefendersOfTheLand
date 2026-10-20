@@ -147,6 +147,9 @@ Every build retains these files in `output/publishing/` and the private **kdp-pu
 - `book-three-kdp-cover.pdf` (full back, spine and front wrap)
 - `book-three-front-cover.pdf` and `book-three-back-cover.pdf`
 - `book-three-kdp-cover-preview.png` and `book-three-print-specifications.json`
+- `book-three-preflight.json` and `book-three-upload-guide.txt`
+
+Book Three publishing builds automatically run `scripts/preflight-book-three.py`. The paperback has measured contents-page numbers and no interactive links, annotations or bookmarks; EPUB navigation remains interactive. Preflight checks the measured trim/spine/wrap, image resolution at placement, embedded fonts, safe margins, spine-text clearance and matching file hashes. The narrow spine uses conservative full-font bounds. Front artwork is preserved and resampled into a 300-DPI placement file; its native detail is approximately 186 DPI at that size. KDP Print Previewer and a physical proof remain necessary, especially for cover sharpness and color. The upload guide records the exact paperback/Kindle files, settings, ISBN/barcode handling and AI-content disclosure reminder.
 - The full EPUB and its JPEG ebook cover
 
 The specifications record the interior filename, checksum, measured pages, spine and wrap dimensions, and reserved barcode area. Builds check those against the interior and exercise cover growth at 72, 80, 160 and 320 pages. Full publishing PDFs remain separate from public samples. `npm run build:site` rebuilds only the website; it does not repaginate publishing files.
