@@ -10,7 +10,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  const imageUrl=pageUrl('assets/'+imageFile);
  const author={'@type':'Person','@id':siteUrl+'/#author',name:site.author};
  const website={'@type':'WebSite','@id':siteUrl+'/#website',url:pageUrl('index.html'),name:site.name,description:site.description,inLanguage:'en',creator:{'@id':author['@id']}};
- const bookName=b=>b.number===1?site.paperback.title:`${site.name}: Book ${b.number}`;
+ const bookName=b=>b.number===1?site.paperback.title:`${site.name}: Book ${b.number}: ${b.title}`;
  const bookNode=b=>({'@type':'Book','@id':siteUrl+`/#${b.id}`,name:bookName(b),url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},inLanguage:'en',genre:['Superhero fiction','Science fiction','Action and adventure'],description:b.number===1?site.description:b.description,...(b.number===1?{image:imageUrl,workExample:[{'@id':siteUrl+'/#paperback'},{'@id':siteUrl+'/#ebook'}]}:b.cover?{image:pageUrl('assets/'+(manifest[b.cover]?.file||b.cover))}:{})});
  const paperback={'@type':'Book','@id':siteUrl+'/#paperback',name:site.paperback.title,url:site.paperback.url,author:{'@id':author['@id']},bookFormat:'https://schema.org/Paperback',inLanguage:'en',image:imageUrl,identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:site.paperback.asin},exampleOfWork:{'@id':siteUrl+`/#${book.id}`},potentialAction:{'@type':'BuyAction',target:site.paperback.url}};
  const ebook={...paperback,'@id':siteUrl+'/#ebook',url:site.ebook.url,bookFormat:'https://schema.org/EBook',identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:site.ebook.asin},potentialAction:{'@type':'BuyAction',target:site.ebook.url}};
@@ -40,12 +40,12 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  };
  const chapterPages=new Map();
  for(const b of [ {...book,entries:chapters},...additionalBooks]){
-  if(b.number!==1){descriptions[b.id+'.html']=`Read the continuing Cleveland superhero adventures in ${site.name}: Book ${b.number} by ${site.author}. ${b.entries.length} illustrated chapters available.`;titles[b.id+'.html']=`Book ${b.number} — Read Online | ${site.name}`;}
+  if(b.number!==1){descriptions[b.id+'.html']=`Read the continuing Cleveland superhero adventures in ${site.name}: Book ${b.number}: ${b.title} by ${site.author}. ${b.entries.length} illustrated chapters available.`;titles[b.id+'.html']=`Book ${b.number}: ${b.title} — Read Online | ${site.name}`;}
   for(const c of b.entries){
    const file=`${b.id}-chapter-${c.number}.html`;
    chapterPages.set(file,{book:b,chapter:c});
    titles[file]=`${c.title} — Book ${b.number}, Chapter ${c.number} | ${site.name}`;
-   descriptions[file]=`Read “${c.title},” Chapter ${c.number} of ${site.name}: ${b.number===1?'Book One: Origins':`Book ${b.number}`} by ${site.author}. An illustrated Cleveland superhero adventure.`;
+   descriptions[file]=`Read “${c.title},” Chapter ${c.number} of ${site.name}: ${b.number===1?'Book One: Origins':`Book ${b.number}: ${b.title}`} by ${site.author}. An illustrated Cleveland superhero adventure.`;
   }
  }
  function render(file,html){
