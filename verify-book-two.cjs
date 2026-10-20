@@ -34,7 +34,7 @@ async function check(){
    assert.equal(await page.getByRole('link',{name:'Read Book Two free online →',exact:true}).getAttribute('href'),'book-two.html');
   }
   await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
-  await page.goto(base+'/book-two.html');assert(await page.locator('.contents .eyebrow').innerText().then(t=>t.includes('MANUSCRIPT COMPLETE')));assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
+  await page.goto(base+'/book-two.html');assert.equal(await page.locator('.contents .eyebrow').innerText(),'DEFENDERS OF THE LAND · BOOK TWO');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
   const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));
