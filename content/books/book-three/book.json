@@ -21,7 +21,15 @@
     "chapter-13.json",
     "chapter-14.json"
   ],
-  "publicationStatus": "Unpublished",
+  "publicationStatus": "Published",
   "cover": "book-three-cover-rooftop-web-v2.webp",
-  "ebookCover": "book-three-cover-rooftop-v2.png"
+  "ebookCover": "book-three-cover-rooftop-v2.png",
+  "ebook": {
+    "url": "https://www.amazon.com/dp/B0HNNGKC63",
+    "asin": "B0HNNGKC63"
+  },
+  "paperback": {
+    "url": "https://www.amazon.com/dp/B0HNPMH7BV",
+    "asin": "B0HNPMH7BV"
+  }
 }
