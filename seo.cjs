@@ -8,7 +8,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  const artwork=site.coverImage||cover.frontArtwork;
  const imageFile=manifest[artwork]?.file||artwork;
  const imageUrl=pageUrl('assets/'+imageFile);
- const author={'@type':'Person','@id':siteUrl+'/#author',name:site.author};
+ const author={'@type':'Person','@id':siteUrl+'/#author',name:site.author,sameAs:[site.amazonAuthorUrl]};
  const website={'@type':'WebSite','@id':siteUrl+'/#website',url:pageUrl('index.html'),name:site.name,description:site.description,inLanguage:'en',creator:{'@id':author['@id']}};
  const bookName=b=>b.number===1?site.paperback.title:`${site.name}: Book ${b.number}: ${b.title}`;
  const bookNode=b=>({'@type':'Book','@id':siteUrl+`/#${b.id}`,name:bookName(b),url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},inLanguage:'en',genre:['Superhero fiction','Science fiction','Action and adventure'],description:b.number===1?site.description:b.description,...(b.number===1?{image:imageUrl,workExample:[{'@id':siteUrl+'/#paperback'},{'@id':siteUrl+'/#ebook'}]}:b.cover?{image:pageUrl('assets/'+(manifest[b.cover]?.file||b.cover))}:{})});
@@ -18,19 +18,19 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   'author.html':'Meet Jay Jones, a Cleveland author whose first publishing adventure began with childhood superhero comics rediscovered in the basement. Explore his books and 1990 archive.',
   '1990-vault.html':'Before the books, there were notebooks. Explore nine restored superhero comic pages from 1990 and the childhood origins of Defenders of the Land by Jay Jones.',
   'index.html':site.description,
-  'paperback.html':`Buy ${site.paperback.title} by ${site.author} in paperback or on Kindle. Explore the illustrated Cleveland superhero adventure and read a free sample.`,
+  'paperback.html':`Buy Origins, Aftershock and Lava Lips by ${site.author} on Amazon in paperback or as Kindle ebooks. Explore the illustrated Cleveland superhero adventures.`,
   'origins.html':`Read all ${chapters.length} chapters of Defenders of the Land: Book One: Origins by Jay Jones. An illustrated superhero adventure set in Cleveland in 1987.`,
   'books.html':'Explore Defenders of the Land by Jay Jones: Book One: Origins in paperback, on Kindle and free online, plus the continuing illustrated adventures in Book Two.',
   'characters.html':'Meet the Cleveland superheroes and villains of Defenders of the Land by Jay Jones. Unlock character profiles as you read Book One: Origins.',
   'map.html':'Explore Cleveland landmarks from Defenders of the Land: Book One: Origins. Discover the illustrated superhero story’s connections to the city.',
-  'downloads.html':'Download a free illustrated three-chapter PDF or EPUB sample of Defenders of the Land: Book One: Origins by Jay Jones, or buy the paperback or Kindle ebook on Amazon.',
+  'downloads.html':'Try a free illustrated Origins sample as PDF or EPUB, then find Origins, Aftershock and Lava Lips by Jay Jones on Amazon in paperback and Kindle editions.',
   '404.html':'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'
  };
  const titles={
   'author.html':'About Jay Jones — Author & Archives | Defenders of the Land',
   '1990-vault.html':'From the Vault: 1990 — Original Comics | Defenders of the Land',
   'index.html':'Defenders of the Land | Cleveland Superheroes by Jay Jones',
-  'paperback.html':'Book One: Origins — Paperback & Kindle | Defenders of the Land',
+  'paperback.html':'Paperback & Kindle Editions — Origins, Aftershock & Lava Lips | Defenders of the Land',
   'origins.html':'Book One: Origins — Read All 18 Chapters | Defenders of the Land',
   'books.html':'Books by Jay Jones | Defenders of the Land',
   'characters.html':'Cleveland Superhero Characters | Defenders of the Land',
