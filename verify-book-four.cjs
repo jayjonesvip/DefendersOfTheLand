@@ -53,6 +53,10 @@ async function check(){
     assert((await page.locator('.chapter-body img').nth(1).getAttribute('src')).endsWith('chase-v2.webp'));
     assert((await page.locator('.chapter-body img').last().getAttribute('src')).endsWith('newspaper-v1.webp'));
    }
+   if(chapter.number===3){
+    assert((await page.locator('.chapter-body img').nth(1).getAttribute('src')).endsWith('tank-v3.webp'));
+    assert((await page.locator('.chapter-body img').last().getAttribute('src')).endsWith('bank-v1.webp'));
+   }
    await page.locator('[data-complete]').click();
    await page.waitForURL('**/'+(chapters[index+1]?`book-four-chapter-${chapters[index+1].number}.html`:'book-four.html'));
   }

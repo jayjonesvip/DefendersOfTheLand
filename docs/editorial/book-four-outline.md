@@ -6,7 +6,7 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 
 1. **Something’s Wrong.** Drafted in `content/books/book-four/chapter-01.json`. A loading-platform rescue exposes Seth and Jenny's reduced abilities under pressure. Their teamwork and outside help get the trapped worker clear. Billy and Fist remain unaffected. Chapter 1 is available in the public reader with four selected illustrations and in the current PDF/EPUB exports.
 2. **Not Fast Enough.** Author-accepted plan below: a jewelry-store robbery exposes the team's reduced speed and strength. They help a fallen cyclist while the robbers escape. End with Dork reading the next day's newspaper about the weaker Defenders; this is the fifth and final illustration.
-3. **Dork’s Opportunity.** Dork prepares the Army tank and intact shrink/enlarge ray. Jaws eagerly helps. Laura conceals her weakened plasma with excuses. Dork knows nothing of a coming recharge.
+3. **Dork’s Opportunity.** Drafted in `content/books/book-four/chapter-03.json`, with four approved illustrations. Dork checks the ray, starts the stationary tank, lets eager Jaws help, and assigns Laura a future vault-opening role despite her avoidance of a demonstration. He selects a bank with a freestanding temporary vault during renovations. No theft or solar recharge occurs in this chapter.
 4. **An Unspoken Goodbye.** Flaming Head knows returning to the Sun will cost his life. He leaves without telling his friends the trip is one way; he makes no explicit promise to return.
 5. **Toward the Sun.** Follow his solitary journey. Keep the actual sacrifice/recharge payoff for Chapter 7 so Laura remains weakened through the vault theft. Chapters 5–6 follow events occurring during the same interval.
 6. **The Missing Vault.** Dork shrinks and steals a whole bank vault, then restores it at the workshop. Establish the target's physical separation from the bank before firing. Jaws tries his metal teeth: he gouges accessible locking hardware but cannot break it open. Dork's cutting torch makes slow progress. Laura keeps making excuses when asked to burn it open. They have stolen the vault but cannot yet reach its contents.
@@ -33,7 +33,7 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 - Only Seth/Jenny among the rescue team understand Flaming Head's energy communication. Billy/Fist need spoken relays. Fist is one independent floating glove, without an attached body.
 - Laura abandoned Flaming Head and remains a villain. No cure or redemption is established.
 - The solar sacrifice is real. No hidden survival, ghost or returning spark. Increased strength/speed/plasma do not grant unrelated new abilities.
-- Existing Book Four cover remains unchanged, without Laura or Flaming Head.
+- Latest author cover direction: include Lava Lips on the Book Four tank confrontation cover alongside Dork, Jaws, Zerdo, Pink Blur and Fist. The active six-character v7 cover matches Book One: dimensional gold masthead with red shadow, circular #4 badge, cream serif subtitle and author, vintage print texture. The heroes dominate the foreground to reflect their eventual victory; the three villains remain the threat behind them. This supersedes the earlier v6 ivory design following the author’s series-style direction. Flaming Head remains absent. This supersedes the earlier instruction to omit Laura.
 
 ## Chapter 1 illustration placements
 
@@ -65,3 +65,24 @@ The Chapter 2 manuscript is drafted in `content/books/book-four/chapter-02.json`
 5. **Dork reads the news.** Final image and closing beat: Daniel at the relocated workshop reading the next day's newspaper about the weaker Defenders. His calculating interest carries the turn into Chapter 3. Match his established thick round glasses, wild thinning gray-white hair and post-overload shirtsleeves; his scorched coat has not been restored. The paper reports observable failure, not secret identities, the collector's private effects or knowledge of a coming solar recharge. Exact headline remains to be drafted from the chapter's events.
 
 The cyclist rescue remains both a prose scene and the fourth illustration. Dork reading the newspaper is the fifth illustration and closing beat. All five images are approved for publication; the chase scene uses the corrected side-view v2. Dork’s newspaper remains image five, irrespective of image-generation order.
+
+## Chapter 3 — Dork’s Opportunity
+
+Drafted manuscript: `content/books/book-four/chapter-03.json`, approximately 1,350 words. The chapter and its four approved illustrations are available in the reader and current PDF/EPUB exports. Candidate images, exact prompts, reference paths and placements are recorded in `docs/art/book-four-chapter-03-candidates.json`.
+
+### Story progression
+
+1. Dork puts aside Chapter 2's newspaper and checks the intact Army ray. An empty steel toolbox shrinks on blue and returns to full size on red; no living subject is tested.
+2. Jaws eagerly fetches an oilcan by its loop handle. Daniel uses the tank's instruction booklet, starts the engine from the driver's compartment and shuts it down without moving the tank. No unseen crew, remote control or weapons test is introduced.
+3. Laura avoids demonstrating her diminished plasma on a steel offcut, insisting she wants something worth burning. Jaws admires her and encourages a demonstration; Daniel expects her usual power. She preserves the deception without showing a shot or receiving a recharge.
+4. Dork decides to take a whole vault to finance his work independently of Eleanor, then have Laura burn it open. He later scouts banks alone, leaving the ray secured and Jaws/Laura at the workshop.
+5. The chosen bank is undergoing renovation. Its annex holds a freestanding steel strongroom on a transport frame, with visible clearance beneath it and between it and the building. The unit includes its own floor, walls and roof. It is distinct from a masonry vault integrated into a building. Daniel observes from a public bus stop across the street; a guard and employees are present. No entry or theft occurs yet. He records the bank's name as the chapter's final action.
+
+### Four illustration placements
+
+1. **The ray still works — ray v1.** Dork checks the Army ray on his bench in the relocated workshop, shirtsleeves and black tie; the tank remains in the background. Before the cloth-and-switch check.
+2. **An eager helper — tank v3.** Jaws hands over the oilcan by its loop handle beside the tank's open driver hatch. The corrected v2 fixed the oilcan handoff; v3 raises Jaws to leave a broad air gap above the turret, as requested by the author. All PNG versions are preserved. Before Daniel accepts the can.
+3. **Something worth burning — excuse v1.** Laura folds her arms, Daniel indicates the unburned target and Jaws encourages her. No plasma is emitted. Before Daniel studies her response.
+4. **Choosing the bank — bank v1.** Daniel stands at a bus stop, noting the bank across the street; the freestanding vault is visible through its annex delivery doors. Before those doors begin closing.
+
+The workshop is Dork's relocated laboratory, separate from Claude's donated Defenders facility. Keep Dork in post-overload shirtsleeves, Jaws bodyless and enthusiastically loyal, and Laura powered but secretly weakened. The vault-opening payoff remains in Chapter 7 after the Chapter 6 theft; tank preparation here does not begin the downtown ultimatum. The author approved the chapter for publication after the tank image correction.

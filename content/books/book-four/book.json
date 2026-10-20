@@ -7,9 +7,10 @@
   "description": "Cleveland’s defenders face their greatest loss—and Dork’s bid to bring the city to its knees.",
   "chapters": [
     "chapter-01.json",
-    "chapter-02.json"
+    "chapter-02.json",
+    "chapter-03.json"
   ],
   "publicationStatus": "Unpublished",
-  "cover": "book-four-cover-tank-web-v1.webp",
-  "ebookCover": "book-four-cover-tank-v1.png"
+  "cover": "book-four-cover-tank-series-web-v7.webp",
+  "ebookCover": "book-four-cover-tank-series-v7.png"
 }
