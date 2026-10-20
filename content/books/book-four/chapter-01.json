@@ -1,0 +1,440 @@
+{
+  "number": 1,
+  "title": "Something’s Wrong",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "prose",
+      "text": "The voice on the police radio asked for a rescue truck."
+    },
+    {
+      "type": "prose",
+      "text": "Billy reached for his pencil."
+    },
+    {
+      "type": "prose",
+      "text": "A delivery truck had struck a loading platform behind a warehouse. Part of the steel canopy had come down. One man was trapped; another was keeping traffic out of the service lane."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny was already beside the wall map."
+    },
+    {
+      "type": "prose",
+      "text": "“Two streets past the garage,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "Seth stood up. His shoulder still ached from putting away the practice bar the night before."
+    },
+    {
+      "type": "prose",
+      "text": "Beside the window, Flaming Head lifted a little higher. The flame above his round face bent and settled again."
+    },
+    {
+      "type": "prose",
+      "text": "“Stay here,” Jenny told him. “We’ll come back.”"
+    },
+    {
+      "type": "prose",
+      "text": "The warmth of his answer reached her and Seth together."
+    },
+    {
+      "type": "prose",
+      "text": "“Be careful.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked from one to the other. Seth passed the words on."
+    },
+    {
+      "type": "prose",
+      "text": "“We will,” Billy said. He put the pencil in his coat pocket. “And we ask for help when we need it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Fist floated through the open doorway first."
+    },
+    {
+      "type": "prose",
+      "text": "“Coming?”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth followed him."
+    },
+    {
+      "type": "prose",
+      "text": "* * *",
+      "art": "book-four-chapter-01-call-v1.webp",
+      "alt": "Billy takes a rescue call as Seth, Pink Blur and Fist prepare to leave the facility; diminished Flaming Head watches by the window."
+    },
+    {
+      "type": "prose",
+      "text": "The truck stood crooked against the loading platform, its engine off. A broken timber lay across its hood. Above the platform, the remaining canopy sagged between two bent supports."
+    },
+    {
+      "type": "prose",
+      "text": "A man in a work apron waved them into the lane."
+    },
+    {
+      "type": "prose",
+      "text": "“Over here. He’s talking. He says he can feel his foot.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy stopped beside him. “Anyone else under there?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Just Eddie. Driver’s out. He’s over by the wall.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Keep everyone back from the canopy.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth crouched at the platform’s broken corner. A steel crossbeam had fallen diagonally from the damaged canopy to the concrete below. One end lay on the platform. The other pinned a worker’s boot and lower trouser leg against the lane."
+    },
+    {
+      "type": "prose",
+      "text": "Eddie lay on his side, propped on one elbow. Dust had caught in his eyebrows."
+    },
+    {
+      "type": "prose",
+      "text": "“Super Zerdo,” he said. His face loosened with relief. “Boy, am I glad to see you.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked along the beam before touching it. The overhead end had settled into a split in the platform’s wooden edge. If he raised the lower end, it might pivot there."
+    },
+    {
+      "type": "prose",
+      "text": "“Don’t pull your leg yet.”"
+    },
+    {
+      "type": "prose",
+      "text": "He planted both boots and worked his fingers under the steel, clear of Eddie’s foot."
+    },
+    {
+      "type": "prose",
+      "text": "Only a little, he told himself. He did not have to lift the whole thing over his head. Just enough to let the man move."
+    },
+    {
+      "type": "prose",
+      "text": "He pushed through his legs."
+    },
+    {
+      "type": "prose",
+      "text": "The beam rose a fraction. Grit slipped beneath it. Pain tightened across his shoulders."
+    },
+    {
+      "type": "prose",
+      "text": "“Nearly,” Eddie said."
+    },
+    {
+      "type": "prose",
+      "text": "Seth tried to gain another inch."
+    },
+    {
+      "type": "prose",
+      "text": "His hands began to shake."
+    },
+    {
+      "type": "prose",
+      "text": "“Wait.” He lowered the beam carefully onto the same patch of concrete. “Don’t move.”",
+      "art": "book-four-chapter-01-beam-v2.webp",
+      "alt": "Zerdo strains to lift the fallen steel beam, which runs clearly in front of him, while the trapped worker waits beside the loading platform."
+    },
+    {
+      "type": "prose",
+      "text": "Eddie looked at the steel, then back at him."
+    },
+    {
+      "type": "prose",
+      "text": "Seth crouched beside his shoulder."
+    },
+    {
+      "type": "prose",
+      "text": "“I can’t hold it high enough. We’re going to support it.”"
+    },
+    {
+      "type": "prose",
+      "text": "Behind him, Jenny had gone still."
+    },
+    {
+      "type": "prose",
+      "text": "Billy knelt on Eddie’s other side. “What’s your name?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Eddie.”"
+    },
+    {
+      "type": "prose",
+      "text": "“All right, Eddie. Tell me if anything changes.” He looked toward the man in the apron. “You have solid timber blocks? Short pieces. Nothing split.”"
+    },
+    {
+      "type": "prose",
+      "text": "“In the yard.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Bring them here. Stay clear of that roof.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny touched Seth’s shoulder."
+    },
+    {
+      "type": "prose",
+      "text": "“The garage has jacks. I’ll ask.”"
+    },
+    {
+      "type": "prose",
+      "text": "He nodded. She left at a run."
+    },
+    {
+      "type": "prose",
+      "text": "Fist hovered above the lane entrance, where he could see both the street and Billy."
+    },
+    {
+      "type": "prose",
+      "text": "“When the rescue truck gets here,” Billy called, “bring them straight through.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Got it.”"
+    },
+    {
+      "type": "prose",
+      "text": "* * *"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny reached the corner and had to shorten her stride."
+    },
+    {
+      "type": "prose",
+      "text": "The familiar rush had not come. She could hear each white boot strike the pavement. By the garage door, her breath was scraping at her throat."
+    },
+    {
+      "type": "prose",
+      "text": "A mechanic looked up from a wheel."
+    },
+    {
+      "type": "prose",
+      "text": "“Man trapped at the warehouse,” she said. “We need a jack. Low enough to go under a beam.”"
+    },
+    {
+      "type": "prose",
+      "text": "He set down his wrench."
+    },
+    {
+      "type": "prose",
+      "text": "“Rescue crew coming?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Yes.”"
+    },
+    {
+      "type": "prose",
+      "text": "He pulled a heavy trolley jack from beside the workbench."
+    },
+    {
+      "type": "prose",
+      "text": "“This one. I’m coming with you.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jenny took the handle while he wheeled it over the threshold. Together they hurried it along the pavement. Its little steel wheels rattled at every joint."
+    },
+    {
+      "type": "prose",
+      "text": "She glanced toward the warehouse corner. She should have been back already."
+    },
+    {
+      "type": "prose",
+      "text": "The mechanic caught the jack as a wheel struck a crack."
+    },
+    {
+      "type": "prose",
+      "text": "“Easy. We’ll get it there.”"
+    },
+    {
+      "type": "prose",
+      "text": "* * *"
+    },
+    {
+      "type": "prose",
+      "text": "Seth was still kneeling beside Eddie when the jack arrived."
+    },
+    {
+      "type": "prose",
+      "text": "Billy had placed the timber blocks within reach. The man in the apron stood by the lane entrance, keeping curious workers away from the damaged platform."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny let go of the handle. For a moment she stayed bent over, one white glove against her knee."
+    },
+    {
+      "type": "prose",
+      "text": "“Got it,” she said."
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked at her flushed face. “You all right?”"
+    },
+    {
+      "type": "prose",
+      "text": "She nodded, catching her breath."
+    },
+    {
+      "type": "prose",
+      "text": "A siren rose beyond the buildings.",
+      "art": "book-four-chapter-01-jack-v2.webp",
+      "alt": "Exhausted Pink Blur returns with a trolley jack; Zerdo checks on her as Billy and the rescue crew prepare timber supports. Fist guides the firefighters, his white cuff behind the glove."
+    },
+    {
+      "type": "prose",
+      "text": "Fist shot toward the street. A few moments later he returned ahead of two firefighters carrying equipment."
+    },
+    {
+      "type": "prose",
+      "text": "Billy stood to meet them."
+    },
+    {
+      "type": "prose",
+      "text": "“His boot’s pinned under the lower end. The other end’s caught in the platform. We haven’t moved him.”"
+    },
+    {
+      "type": "prose",
+      "text": "One firefighter crouched beside Eddie. The other examined the beam and the supports above it, then directed everyone clear while the crew secured the fallen steel against slipping."
+    },
+    {
+      "type": "prose",
+      "text": "Seth stepped back. His fingers still felt the edge of the beam."
+    },
+    {
+      "type": "prose",
+      "text": "The mechanic handed over the jack. Under the crew’s direction, its saddle rose against the steel. Timber went beneath the beam as it lifted, filling the gap a little at a time."
+    },
+    {
+      "type": "prose",
+      "text": "This time, when the steel moved, it stayed up."
+    },
+    {
+      "type": "prose",
+      "text": "“Leave the boot,” the firefighter beside Eddie said. “We’ve got room.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth knelt where she pointed. Jenny took Eddie’s other side."
+    },
+    {
+      "type": "prose",
+      "text": "Together they helped him slide clear, leaving the trapped boot behind. He cried out once, then gripped Seth’s sleeve."
+    },
+    {
+      "type": "prose",
+      "text": "“My foot?”"
+    },
+    {
+      "type": "prose",
+      "text": "The firefighter was already checking it."
+    },
+    {
+      "type": "prose",
+      "text": "“Let us look.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth kept his hand beneath Eddie’s elbow until the crew took over."
+    },
+    {
+      "type": "prose",
+      "text": "* * *"
+    },
+    {
+      "type": "prose",
+      "text": "The ambulance attendants settled Eddie onto a stretcher. He was still talking when they lifted him inside."
+    },
+    {
+      "type": "prose",
+      "text": "Seth sat on the curb outside the lane. He opened and closed his hands."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny sat beside him."
+    },
+    {
+      "type": "prose",
+      "text": "For a while they listened to the firefighters working behind the truck.",
+      "art": "book-four-chapter-01-aftermath-v1.webp",
+      "alt": "Zerdo and Pink Blur sit tired and subdued on the curb while paramedics attend the rescued worker behind them."
+    },
+    {
+      "type": "prose",
+      "text": "“He thought I could just lift it,” Seth said."
+    },
+    {
+      "type": "prose",
+      "text": "“I thought I’d be back before you needed me.”"
+    },
+    {
+      "type": "prose",
+      "text": "She rubbed a mark from her white glove. It stayed gray."
+    },
+    {
+      "type": "prose",
+      "text": "Billy came over with Fist at his shoulder."
+    },
+    {
+      "type": "prose",
+      "text": "“The driver’s being checked too,” he said. “They’re keeping the lane closed.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Eddie?” Seth asked."
+    },
+    {
+      "type": "prose",
+      "text": "“They’ll know more at the hospital.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked toward the ambulance. Eddie caught sight of him through the open doors and raised a hand."
+    },
+    {
+      "type": "prose",
+      "text": "Seth raised his own."
+    },
+    {
+      "type": "prose",
+      "text": "“You stayed with him,” Billy said. “That helped.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth nodded, but his eyes went back to the lane. The beam stood on timber now, with a firefighter checking beneath it."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny rested her hand over his."
+    },
+    {
+      "type": "prose",
+      "text": "“We need to tell Flaming Head.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth looked down at their joined hands, then toward the street that led back to the facility."
+    },
+    {
+      "type": "prose",
+      "text": "He wondered how much strength Flaming Head had spent getting home to warn them."
+    }
+  ]
+}

@@ -3,9 +3,11 @@
   "title": "Book Four: Clash in Cleveland",
   "number": 4,
   "author": "Jay Jones",
-  "status": "Planned",
+  "status": "In progress",
   "description": "Cleveland’s defenders face their greatest loss—and Dork’s bid to bring the city to its knees.",
-  "chapters": [],
+  "chapters": [
+    "chapter-01.json"
+  ],
   "publicationStatus": "Unpublished",
   "cover": "book-four-cover-tank-web-v1.webp",
   "ebookCover": "book-four-cover-tank-v1.png"

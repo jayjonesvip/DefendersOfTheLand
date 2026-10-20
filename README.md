@@ -29,7 +29,7 @@ npm run preview
 
 Open http://localhost:4175. On Linux, use `npx playwright install --with-deps chromium` to install browser system dependencies too.
 
-`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF, Book Three’s measured paperback interior and wrap, and all three books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
+`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF, Book Three’s measured paperback interior and wrap, Book Four’s illustrated review PDF, and all four books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
 
 Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` overrides the canonical site URL; the default is `https://clevelandsuperheroes.com` from `content/site.json`. Every site build generates the sitemap, robots.txt, metadata and custom-domain CNAME. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates the publishing editions and public samples.
 
@@ -139,7 +139,7 @@ Flaming Head’s author-approved identity is the isolated `public/assets/charact
 
 `npm run build` (or `npm run build:pdfs`) paginates every available Book Three chapter, validates its text and illustrations, and then builds the cover against that exact interior PDF. Adding a chapter to the book metadata automatically changes pagination and spine width; there is no page-count setting to maintain.
 
-Edit `print/book-three-cover.json` for the back-cover hook, blurb, illustration, paper and spine title. The front uses the **Lava Lips** rooftop cover; the earlier #3 tank cover remains preserved as an original. The tank scene moves to planned Book Four, **Clash in Cleveland**, with Laura and Flaming Head removed from that cover. Current printing settings are 6 × 9 inches, standard color on white paper, a non-bleed interior and 0.125-inch cover bleed. Spine width is the measured interior page count × 0.002252 inches. The paperback interior excludes the cover and receives one blank end page when needed for an even count. Spine lettering appears only when its width permits safe text.
+Edit `print/book-three-cover.json` for the back-cover hook, blurb, illustration, paper and spine title. The front uses the **Lava Lips** rooftop cover; the earlier #3 tank cover remains preserved as an original. The tank scene moves to Book Four, **Clash in Cleveland**, with Laura and Flaming Head removed from that cover. Current printing settings are 6 × 9 inches, standard color on white paper, a non-bleed interior and 0.125-inch cover bleed. Spine width is the measured interior page count × 0.002252 inches. The paperback interior excludes the cover and receives one blank end page when needed for an even count. Spine lettering appears only when its width permits safe text.
 
 Every build retains these files in `output/publishing/` and the private **kdp-publishing-files** GitHub Actions artifact:
 
@@ -155,3 +155,21 @@ Book Three publishing builds automatically run `scripts/preflight-book-three.py`
 The specifications record the interior filename, checksum, measured pages, spine and wrap dimensions, and reserved barcode area. Builds check those against the interior and exercise cover growth at 72, 80, 160 and 320 pages. Full publishing PDFs remain separate from public samples. `npm run build:site` rebuilds only the website; it does not repaginate publishing files.
 
 The fourteen-chapter Book Three manuscript is complete. Print dimensions track each current build; review the generated files and KDP proof before publication. The 1024 × 1536 front source is preserved and resampled to 300-DPI placement without adding original detail.
+
+
+## Book Four reader and publishing flow
+
+**Book Four: Clash in Cleveland** is in progress. Chapter 1, **Something’s Wrong**, is available on the home page, Books page and at `book-four.html`; its reader is `book-four-chapter-1.html`. The staged #4 tank cover is used for the site, illustrated PDF and EPUB. Chapter art uses call v1, corrected beam v2, corrected jack v2 and aftermath v1. The rear-view jack image is retained as an unused alternate.
+
+Add future chapters in `content/books/book-four/`, list them in `book.json` in reading order and set `available: true` when ready for the reader and exports. Keep unwritten chapters in the editorial outline. The reader, contents, progress tracking, EPUB and PDF use the same available chapter list.
+
+Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
+
+Book Four outputs in `output/publishing/`:
+
+- `defenders-of-the-land-book-four-illustrated.pdf` — current illustrated reading/review edition, with cover and linked contents.
+- `book-four-pdf-build.json` — measured pages, available chapters, illustration count and checksum.
+- `defenders-of-the-land-book-four.epub` — reflowable current manuscript with cover and linked navigation.
+- `book-four-ebook-cover.jpg` — standalone front cover from the staged original.
+
+The current exports contain Chapter 1 and identify the book as a work in progress. This short review PDF is not a KDP paperback interior; a measured paperback wrap will follow when enough manuscript exists. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.

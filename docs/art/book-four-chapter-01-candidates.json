@@ -1,0 +1,101 @@
+{
+  "book": "book-four",
+  "chapter": 1,
+  "title": "Something’s Wrong",
+  "date": "2026-10-20",
+  "status": "Selected chapter illustrations integrated for the author-requested Book Four reader and exports",
+  "review": "Visually inspected for established costumes, character identities, period setting and the four story moments. Final author approval remains pending.",
+  "images": [
+    {
+      "number": 1,
+      "key": "call",
+      "status": "Selected for chapter integration",
+      "source": "/workspace/generated_images/exec-406b9e91-006f-4f2e-a7eb-1bcd60d16a05.png",
+      "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-call-v1.png",
+      "prompt": "Create ONE new landscape 3:2 full-bleed chapter-book illustration, no lettering, no panels. Match supplied established illustrated comic characters and warm richly colored detailed inked painted style EXACTLY. Cleveland 1987. New composition in their red-brick donated headquarters operations room in daylight, wall map, analog police radio on desk, CRT monitors. Inspector Billy at desk listening to radio and holding pencil: very SHORT cartoon detective exactly as references, curly brown hair, red/brown plaid deerstalker hat, tan trench coat high collar concealing lower face, huge oval eyes, NOT realistic adult human detective. Seth / Super Zerdo stands ready to leave with serious expression: youthful tousled brown hair, BLUE eyes, RED eye mask, royal BLUE suit, large RED Z on chest, RED cape, gloves and boots, red belt with gold round buckle. Jenny/Pink Blur beside him turning toward open doorway, very long curly golden BLONDE hair, GREEN eyes, WHITE domino eye mask, PINK zip-front jumpsuit with WHITE side and sleeve stripes, WHITE belt gloves tall boots. ONE floating red boxing glove Fist near doorway, anthropomorphic big oval eyes and mouth, white cuff, small tucked thumb following third reference, NO arm/body. ONE diminished Flaming Head hovers at window looking worried: round orange face, huge oval white eyes black pupils and simple brows/mouth, SMALL low yellow/orange flame crown showing weakness, NO neck/body. Use second reference face identity but flame visibly diminished. Five named characters each ONCE, accurate proportions Billy much shorter than Seth/Jenny, glove modest size. Fresh camera angle, purposeful departure, no action glow on heroes, no modern screens or phones.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-call-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-return-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/chapter1-glove-awakening-before-flash.webp"
+      ],
+      "webArt": "book-four-chapter-01-call-v1.webp"
+    },
+    {
+      "number": 2,
+      "key": "beam",
+      "status": "Selected for chapter integration",
+      "source": "/workspace/generated_images/exec-1b23a41c-4305-4a73-a6e6-b2e36fb06219.png",
+      "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-beam-v2.png",
+      "references": [
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-beam-v1.png"
+      ],
+      "previousVersions": [
+        {
+          "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-beam-v1.png",
+          "source": "/workspace/generated_images/exec-a23afd17-2603-44ab-8807-4f799b33b8b4.png",
+          "status": "Rejected by author: beam appears to pass through Zerdo’s body",
+          "prompt": "Create ONE new landscape 3:2 full-bleed narrative chapter-book illustration, no text no panels. Match provided warm highly detailed inked painted comic style and Seth costume/face identity EXACTLY. Cleveland 1987 brick warehouse service lane, daylight. PRIMARY action in foreground: Super Zerdo/Seth a youthful brown tousled-haired BLUE-eyed hero in RED domino eye mask, royal BLUE full suit with large RED Z chest emblem, RED cape/gloves/boots, red belt gold round buckle; he crouches with feet planted, BOTH gloved hands gripping beneath the LOW end of one heavy diagonal steel I-beam trying but barely managing to raise it. Show clear effort, trembling posture, worried eyes, no effortless lift no triumphant smile. Beam extends from upper left where its HIGH end rests in a broken timber-edged waist-high loading platform to LOWER right on concrete. A middle-aged warehouse worker Eddie in faded teal work shirt gray work trousers and brown work boots lies propped on left elbow on concrete to right of Seth; ONLY one boot and lower trouser cuff are trapped under the low end, body otherwise clear. Eddie watches Seth hopefully, non-graphic no blood no visible injury. Clear readable beam-to-boot contact, Seth hands a safe distance from boot, no steel crossing worker torso, no impossible bent limbs. Background tan 1980s delivery box truck stopped at damaged platform, broken timber on hood, sagging corrugated canopy with two bent uprights against red brick. All debris static, no collapse in progress. Low three-quarter cinematic view of entire rescue geometry, warm light and grounded concern. ONLY Seth and Eddie prominent. Do not import bank crowd, glove, detective, Jenny or skyline from reference; reference for Seth identity/style only. Keep strong clear staging suitable for repeat views in subsequent scenes.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-aftermath-v1.webp"
+          ]
+        }
+      ],
+      "promptRecord": "docs/art/book-four-chapter-01-beam-v2-prompt.json",
+      "review": "Beam now has a continuous visible silhouette in front of Zerdo; his torso is behind it and hands support its lower edge. Original v1 preserved.",
+      "webArt": "book-four-chapter-01-beam-v2.webp"
+    },
+    {
+      "number": 3,
+      "key": "jack",
+      "status": "Selected for chapter integration",
+      "source": "/workspace/generated_images/exec-571c4ed0-9d84-42e2-8b54-18ce0605d8f6.png",
+      "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-jack-v2.png",
+      "references": [
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-jack-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/chapter1-glove-awakening-before-flash.webp"
+      ],
+      "previousVersions": [
+        {
+          "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-jack-v1.png",
+          "source": "/workspace/generated_images/exec-08ef557b-3d2b-4a8d-a808-9c626792f7e0.png",
+          "status": "Rejected by author: Fist-O-Mite white cuff should be behind the glove",
+          "prompt": "Create ONE new landscape 3:2 comic chapter illustration, no text, single scene. A LATER MOMENT at SAME brick Cleveland 1987 warehouse rescue as first reference, matching its loading platform, damaged canopy, cream/tan 1980s delivery truck, diagonal heavy I-beam and visual style. Match hero character identities from second reference exactly. Main foreground: Jenny/Pink Blur has just returned from garage with a heavy RED low-profile wheeled hydraulic TROLLEY JACK, long upright black handle; jack sits on concrete beside her NOT carrying it. Jenny has very long curly golden blonde hair, GREEN eyes, WHITE domino mask, PINK zip-front suit with white sleeve and side stripes, white belt gloves tall boots; she is flushed and breathing hard, bent slightly with ONE hand on knee and other released from jack handle, visibly tired but composed. Seth youthful tousled brown hair BLUE eyes RED mask, BLUE suit RED Z cape gloves boots, red belt gold round buckle, crouching near her with concerned expression, empty hands. Adult garage mechanic in dark blue coveralls stands beside jack. Inspector Billy much shorter than everyone, cartoon huge oval eyes curly brown hair red plaid deerstalker and tan high-collared trench coat, at left beside stack of short solid timber blocks. In background near lane entrance ONE small floating RED boxing glove with white cuff and SMALL tucked side thumb (third reference anatomy), no arms/body, guiding two firefighters approaching with equipment. Eddie from first reference still trapped in SAME position behind Seth, mustached middle-aged man teal work shirt gray trousers brown boots, one boot trapped under LOW end beam; mostly background and no gore. Beam high end supported at loading platform left, low end concrete right, do NOT float beam or jack or show active lift yet. Focus on Jenny's fatigue and grounded practical help. Warm detailed inked painted comic style, readable composition, period rescue gear, no phones, no plasma trails no new powers no extra named heroes. Do not reproduce first reference lifting pose.",
+          "references": [
+            "/workspace/generated_images/exec-a23afd17-2603-44ab-8807-4f799b33b8b4.png",
+            "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-aftermath-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/chapter1-glove-awakening-before-flash.webp"
+          ]
+        }
+      ],
+      "promptRecord": "docs/art/book-four-chapter-01-jack-v2-prompt.json",
+      "review": "White cuff now trails behind the red glove on screen right, rather than appearing beside the forward face. Original v1 preserved.",
+      "webArt": "book-four-chapter-01-jack-v2.webp"
+    },
+    {
+      "number": 4,
+      "key": "aftermath",
+      "status": "Selected for chapter integration",
+      "source": "/workspace/generated_images/exec-271b9c26-c28b-475f-bdbc-1a9c791c3661.png",
+      "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-aftermath-v1.png",
+      "prompt": "Create ONE new landscape 3:2 full-bleed narrative comic chapter illustration, no text no lettering single quiet scene. SAME rescue location and characters as first reference, after worker freed. Warm highly detailed inked painted established comic style, Cleveland 1987 daylight, emotionally subdued. Foreground Seth and Jenny sit side by side on curb outside warehouse lane, both tired and shaken rather than celebrating, heads slightly lowered. Seth youthful tousled brown hair BLUE eyes RED domino mask, royal BLUE suit large RED Z, RED cape gloves boots, red belt gold round buckle, both hands relaxed on knees, studying his gloved hands; Jenny very long curly golden blonde hair GREEN eyes WHITE domino mask, PINK zip-front full suit WHITE sleeve and side stripes white belt gloves boots, sitting close beside him glancing toward him in concern, hands resting in her own lap (before later hand-holding). Same exact identities and costumes as second reference. Background 1980s white ambulance with red stripe, rear doors open, paramedics tending worker Eddie on stretcher: SAME dark curly-haired mustached middle-aged worker teal work shirt gray trousers as first ref, alive awake non-graphic no blood. Eddie has ONE brown boot remaining, other foot stockinged under light blanket. Deeper in service lane same cream/tan delivery truck at damaged timber-edged loading platform red brick warehouse with sagging canopy. The fallen steel I-beam now safely held above concrete by substantial STACKED TIMBER CRIBBING beneath low end, firefighters overseeing, no one pinned underneath. Preserve recognizable location, no ongoing collapse. Cinematic eye-level medium-wide composition, strong emotional foreground duo with readable but subordinate successful rescue behind. No smiling crowds, no fists raised, no returning Flaming Head, no Dork no Laura no sun imagery. A human pause after a difficult rescue.",
+      "references": [
+        "/workspace/generated_images/exec-a23afd17-2603-44ab-8807-4f799b33b8b4.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-aftermath-v1.webp"
+      ],
+      "webArt": "book-four-chapter-01-aftermath-v1.webp"
+    }
+  ],
+  "alternates": [
+    {
+      "key": "jack-rear",
+      "status": "Not selected by author; retained as alternate",
+      "original": "docs/art/originals/book-four/chapter-01/book-four-chapter-01-jack-rear-v1.png",
+      "source": "/workspace/generated_images/exec-a5d0c0cf-1a62-4361-a893-56169dce1582.png",
+      "description": "Rear three-quarter view of Pink Blur pumping the trolley jack beneath the beam while firefighters supervise and Zerdo waits beside Eddie. Later rescue moment; manuscript currently assigns jack operation to rescue crew. If selected, adjust that passage to show Jenny pumping under their direction.",
+      "promptRecord": "docs/art/book-four-chapter-01-jack-rear-v1-prompt.json",
+      "references": [
+        "docs/art/originals/book-four/chapter-01/book-four-chapter-01-jack-v2.png"
+      ]
+    }
+  ]
+}

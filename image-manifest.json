@@ -1433,5 +1433,25 @@
     "file": "book-three-chapter-14-allies-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-four-chapter-01-call-v1.webp": {
+    "file": "book-four-chapter-01-call-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-01-beam-v2.webp": {
+    "file": "book-four-chapter-01-beam-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-01-jack-v2.webp": {
+    "file": "book-four-chapter-01-jack-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-01-aftermath-v1.webp": {
+    "file": "book-four-chapter-01-aftermath-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

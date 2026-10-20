@@ -12,6 +12,10 @@ for(const book of books){
  cp.execFileSync(python,['scripts/export-epub.py','--book',book.id],{cwd:root,stdio:'inherit'});
  const report=JSON.parse(fs.readFileSync(path.join(root,'tmp',book.id==='origins'?'epub':'epub-'+book.id,'quality-report.json'),'utf8'));
  reports.push(report);
+ // Books without a paperback configuration still need a current illustrated review PDF.
+ if(book.id!=='origins'&&!fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
+  cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id],{cwd:root,stdio:'inherit'});
+ }
  if(fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
   const config=JSON.parse(fs.readFileSync(path.join(root,'print',book.id+'-cover.json'),'utf8'));
   if(config.interiorPdf){
