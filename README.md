@@ -159,7 +159,7 @@ The fourteen-chapter Book Three manuscript is complete. Print dimensions track e
 
 ## Book Four reader and publishing flow
 
-**Book Four: Clash in Cleveland** is in progress. Chapter 1, **Something’s Wrong**, is available on the home page, Books page and at `book-four.html`; its reader is `book-four-chapter-1.html`. The staged #4 tank cover is used for the site, illustrated PDF and EPUB. Chapter art uses call v1, corrected beam v2, corrected jack v2 and aftermath v1. The rear-view jack image is retained as an unused alternate.
+**Book Four: Clash in Cleveland** is in progress. Chapters 1–2, **Something’s Wrong** and **Not Fast Enough**, are available from the home page, Books page and `book-four.html`; their readers are `book-four-chapter-1.html` and `book-four-chapter-2.html`. The staged #4 tank cover is used for the site, illustrated PDF and EPUB. Chapter art uses call v1, corrected beam v2, corrected jack v2 and aftermath v1. The rear-view jack image is retained as an unused alternate.
 
 Add future chapters in `content/books/book-four/`, list them in `book.json` in reading order and set `available: true` when ready for the reader and exports. Keep unwritten chapters in the editorial outline. The reader, contents, progress tracking, EPUB and PDF use the same available chapter list.
 
@@ -172,4 +172,6 @@ Book Four outputs in `output/publishing/`:
 - `defenders-of-the-land-book-four.epub` — reflowable current manuscript with cover and linked navigation.
 - `book-four-ebook-cover.jpg` — standalone front cover from the staged original.
 
-The current exports contain Chapter 1 and identify the book as a work in progress. This short review PDF is not a KDP paperback interior; a measured paperback wrap will follow when enough manuscript exists. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
+The current exports contain Chapters 1–2 and identify the book as a work in progress. This short review PDF is not a KDP paperback interior; a measured paperback wrap will follow when enough manuscript exists. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
+
+Chapter 2 has five approved illustrations: the map-planning scene, Pink Blur’s corrected side-view pursuit (v2), Zerdo at the dumpster, the cyclist rescue and Dork reading the newspaper as the closing image. The earlier rear-view chase candidate is preserved as a rejected version.

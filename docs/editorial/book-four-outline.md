@@ -5,7 +5,7 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 ## Chapter map
 
 1. **Something’s Wrong.** Drafted in `content/books/book-four/chapter-01.json`. A loading-platform rescue exposes Seth and Jenny's reduced abilities under pressure. Their teamwork and outside help get the trapped worker clear. Billy and Fist remain unaffected. Chapter 1 is available in the public reader with four selected illustrations and in the current PDF/EPUB exports.
-2. **Not Fast Enough.** A crime intervention fails despite sensible teamwork. Civilians are protected, but criminals escape. Public reports begin revealing the team's weakness.
+2. **Not Fast Enough.** Author-accepted plan below: a jewelry-store robbery exposes the team's reduced speed and strength. They help a fallen cyclist while the robbers escape. End with Dork reading the next day's newspaper about the weaker Defenders; this is the fifth and final illustration.
 3. **Dork’s Opportunity.** Dork prepares the Army tank and intact shrink/enlarge ray. Jaws eagerly helps. Laura conceals her weakened plasma with excuses. Dork knows nothing of a coming recharge.
 4. **An Unspoken Goodbye.** Flaming Head knows returning to the Sun will cost his life. He leaves without telling his friends the trip is one way; he makes no explicit promise to return.
 5. **Toward the Sun.** Follow his solitary journey. Keep the actual sacrifice/recharge payoff for Chapter 7 so Laura remains weakened through the vault theft. Chapters 5–6 follow events occurring during the same interval.
@@ -24,6 +24,7 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 - Jaws's teeth and Dork's torch precede the demand that Laura help.
 - Laura is pressed into opening the vault in Chapter 7 and is surprised by her increased power. She has not privately discovered it first.
 - Chapter 1 begins with the loading-platform rescue and four proposed illustrations.
+- Chapter 2's jewelry-store robbery outline and five-image plan are accepted. Keep the cyclist rescue as image four and add Dork reading the newspaper about the weaker Defenders as image five, the closing illustration.
 
 ## Continuity
 
@@ -44,3 +45,23 @@ Four selected illustrations are attached to the manuscript: call v1, beam v2, ja
 4. **After the rescue:** after “Jenny sat beside him.” Seth/Jenny seated on curb, subdued and tired. Ambulance crew attends Eddie in the background; beam remains supported on cribbing under firefighters' supervision. Emotional closing image rather than another lifting pose.
 
 Use existing character and costume references, warm detailed inked comic style, Cleveland in 1987, period vehicles/equipment, and consistent loading-platform geography. Generate and review each scene separately.
+
+## Chapter 2 — Not Fast Enough
+
+The Chapter 2 manuscript is drafted in `content/books/book-four/chapter-02.json`. The five illustrations are author-approved and attached to the manuscript; originals, optimized WebPs, exact prompts and placements are recorded in `docs/art/book-four-chapter-02-candidates.json`. The chapter is available in the reader and current PDF/EPUB exports.
+
+1. **The call.** Billy hears that two men have robbed a neighborhood jewelry store. The team plans around its current limits: Jenny intercepts the getaway car, Seth blocks its route, and Billy/Fist protect the shop. Establish the street, service lane and each hero's approach before the escape.
+2. **The interception falls short.** Jenny reaches the street as the robbers pull away. She cannot close the growing distance and stops before pursuing blindly into traffic. Show reduced speed without making her reckless or forgetting Chapter 1.
+3. **The shortcut.** The driver cuts into a narrow service lane. Seth tries to roll a heavy wheeled dumpster across the exit, which he once could have moved readily. He cannot shift it far enough before the car clears the lane. Keep his body out of the car's path and explain how he reaches the exit without new speed or flight feats.
+4. **People still need them.** The escaping car knocks down a delivery cyclist. Seth/Jenny help the cyclist rather than continue pursuit. Fist stays with the frightened clerk; Billy supplies the vehicle description and partial plate to responding police. Do not abandon the shop or injured civilian merely to chase the car.
+5. **The account and newspaper coda.** At the facility, the team discusses the failed interception without blaming one another. Flaming Head hears Billy's account through Seth's relay. Their previous tactics depended on strength and speed they no longer have. The next day, Dork reads a newspaper report describing the escape and the Defenders' diminished performance. End on his interest in that opportunity, setting up Chapter 3's preparations rather than repeating them here.
+
+### Five illustrations
+
+1. **The robbery call.** The team receives the jewelry-store call and plans its response at the facility. A fresh composition rather than repeating Chapter 1's radio scene exactly.
+2. **Falling behind.** Pink Blur slows while the getaway car pulls farther ahead. Establish the actual gap, traffic and route; no full-strength speed trails.
+3. **Too heavy.** Zerdo strains to move the wheeled dumpster across the service-lane exit as the car gets through the remaining gap. Keep dumpster, hands and body visibly separate; clear vehicle path and coherent perspective.
+4. **The cyclist rescue.** Seth and Jenny help the fallen delivery cyclist while the getaway car disappears into the distance. Their attention is on the injured person; show the practical choice that ends their pursuit. No graphic injury.
+5. **Dork reads the news.** Final image and closing beat: Daniel at the relocated workshop reading the next day's newspaper about the weaker Defenders. His calculating interest carries the turn into Chapter 3. Match his established thick round glasses, wild thinning gray-white hair and post-overload shirtsleeves; his scorched coat has not been restored. The paper reports observable failure, not secret identities, the collector's private effects or knowledge of a coming solar recharge. Exact headline remains to be drafted from the chapter's events.
+
+The cyclist rescue remains both a prose scene and the fourth illustration. Dork reading the newspaper is the fifth illustration and closing beat. All five images are approved for publication; the chase scene uses the corrected side-view v2. Dork’s newspaper remains image five, irrespective of image-generation order.

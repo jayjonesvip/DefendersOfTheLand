@@ -39,20 +39,27 @@ async function check(){
   await page.waitForURL('**/book-four-chapter-1.html');
   await page.goto(base+'/books.html');
   await page.locator('.book-card').filter({has:page.locator('a[href="book-four.html"]')}).locator('a[href="book-four-chapter-1.html"]').click();
-  assert.equal(await page.locator('h1').innerText(),chapters[0].title);
-  assert.equal(await page.locator('.chapter-body p').allTextContents().then(values=>values.join('\n')),chapters[0].blocks.map(block=>block.text).filter(Boolean).join('\n'));
-  assert.equal(await page.locator('.chapter-body img').count(),chapters[0].blocks.filter(block=>block.art).length);
-  for(const width of [320,390,1200]){
-   await page.setViewportSize({width,height:850});
-   await page.locator('.chapter-body img').evaluateAll(images=>Promise.all(images.map(image=>{image.loading='eager';return image.decode();})));
-   assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Book Four overflow at ${width}`);
-   assert(await page.locator('.chapter-body img').evaluateAll(images=>images.every(image=>image.naturalWidth>0&&Math.abs(image.width/image.height-image.naturalWidth/image.naturalHeight)<.02)));
+  for(const [index,chapter] of chapters.entries()){
+   assert.equal(await page.locator('h1').innerText(),chapter.title);
+   assert.equal(await page.locator('.chapter-body p').allTextContents().then(values=>values.join('\n')),chapter.blocks.map(block=>block.text).filter(Boolean).join('\n'));
+   assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(images=>images.map(image=>image.getAttribute('src'))),chapter.blocks.filter(block=>block.art).map(block=>'assets/'+block.art));
+   for(const width of [320,390,1200]){
+    await page.setViewportSize({width,height:850});
+    await page.locator('.chapter-body img').evaluateAll(images=>Promise.all(images.map(image=>{image.loading='eager';return image.decode();})));
+    assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`Book Four chapter ${chapter.number} overflow at ${width}`);
+    assert(await page.locator('.chapter-body img').evaluateAll(images=>images.every(image=>image.naturalWidth>0&&Math.abs(image.width/image.height-image.naturalWidth/image.naturalHeight)<.02)));
+   }
+   if(chapter.number===2){
+    assert((await page.locator('.chapter-body img').nth(1).getAttribute('src')).endsWith('chase-v2.webp'));
+    assert((await page.locator('.chapter-body img').last().getAttribute('src')).endsWith('newspaper-v1.webp'));
+   }
+   await page.locator('[data-complete]').click();
+   await page.waitForURL('**/'+(chapters[index+1]?`book-four-chapter-${chapters[index+1].number}.html`:'book-four.html'));
   }
-  await page.locator('[data-complete]').click();
-  await page.waitForURL('**/'+(chapters.length===1?'book-four.html':'book-four-chapter-2.html'));
-  if(chapters.length===1)assert.equal(await page.locator('[data-book-progress="book-four"]').innerText(),'1 of 1 chapters completed');
+  assert.equal(await page.locator('[data-book-progress="book-four"]').innerText(),`${chapters.length} of ${chapters.length} chapters completed`);
   const state=await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8')));
-  assert(state.read.includes('book-four:1'));assert(!state.read.includes('origins:1'));
+  for(const chapter of chapters)assert(state.read.includes('book-four:'+chapter.number));
+  assert(!state.read.includes('origins:1'));
   assert.deepEqual(errors,[]);
   fs.mkdirSync(path.join(root,'tmp/book-four-review'),{recursive:true});
   await page.goto(base+'/book-four.html');await page.screenshot({path:path.join(root,'tmp/book-four-review/contents-mobile.png'),fullPage:true});

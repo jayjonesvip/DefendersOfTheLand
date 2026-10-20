@@ -6,7 +6,8 @@
   "status": "In progress",
   "description": "Cleveland’s defenders face their greatest loss—and Dork’s bid to bring the city to its knees.",
   "chapters": [
-    "chapter-01.json"
+    "chapter-01.json",
+    "chapter-02.json"
   ],
   "publicationStatus": "Unpublished",
   "cover": "book-four-cover-tank-web-v1.webp",
