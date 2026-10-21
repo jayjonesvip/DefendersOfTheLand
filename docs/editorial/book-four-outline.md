@@ -33,7 +33,7 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 - Only Seth/Jenny among the rescue team understand Flaming Head's energy communication. Billy/Fist need spoken relays. Fist is one independent floating glove, without an attached body.
 - Laura abandoned Flaming Head and remains a villain. No cure or redemption is established.
 - The solar sacrifice is real. No hidden survival, ghost or returning spark. Increased strength/speed/plasma do not grant unrelated new abilities.
-- Latest author cover direction: include Lava Lips on the Book Four tank confrontation cover alongside Dork, Jaws, Zerdo, Pink Blur and Fist. The active six-character v7 cover matches Book One: dimensional gold masthead with red shadow, circular #4 badge, cream serif subtitle and author, vintage print texture. The heroes dominate the foreground to reflect their eventual victory; the three villains remain the threat behind them. This supersedes the earlier v6 ivory design following the author’s series-style direction. Flaming Head remains absent. This supersedes the earlier instruction to omit Laura.
+- Latest author cover direction: include Lava Lips on the Book Four tank confrontation cover alongside Dork, Jaws, Zerdo, Pink Blur and Fist. The active six-character v8 cover matches Book One: dimensional gold masthead with red shadow, circular #4 badge, cream serif subtitle and author, vintage print texture. The heroes dominate the foreground to reflect their eventual victory; the three villains remain the threat behind them. This supersedes the earlier v6 ivory design following the author’s series-style direction. Flaming Head remains absent. This supersedes the earlier instruction to omit Laura.
 
 ## Chapter 1 illustration placements
 
@@ -109,3 +109,13 @@ The manuscript is drafted in `content/books/book-four/chapter-04.json`. Five ill
 ## Chapter 5 — Into the Light
 
 Draft: `content/books/book-four/chapter-05.json`, 442 words excluding scene separators, no dialogue. Three illustrations show the approach with Earth receding, the first warmth at the Sun’s edge, and his small outline entering the light. A slight lifting flame suggests available energy without confirming restoration. The chapter ends inside the glow without revealing the outcome. No cutaways, farewell repetition, recharge on Earth or narrator disclosure of the later cost. Chapter 5 and its three illustrations are approved for publication (`available: true`), together with the preceding Chapter 4. Production records: `docs/art/book-four-chapter-05-candidates.json`.
+
+
+## Chapter 6 — The Missing Vault
+
+Drafted in `content/books/book-four/chapter-06.json`: 1,158 words excluding scene separators, five illustration candidates. Dork and Jaws take the freestanding vault after closing, shrink the complete box and transport frame with blue, and restore it with red on the cleared workshop floor. Laura remains at the workshop. Jaws gouges the projecting lug beside the wheel; Dork’s torch makes a shallow cut at the right-hand door seam. Neither opens the door. Laura suggests the torch to delay her turn, then asks for the metal to cool. Dork sits down to wait. The vault remains sealed, and no plasma or solar recharge is shown. Laura’s unexpected breakthrough stays in Chapter 7.
+
+Art order: theft v1, restored prize v1, teeth v1, torch v1, Laura’s excuse v2. The final v2 reduces and raises Jaws so empty air clearly separates his jaw from the vault roof; v1 is retained as a superseded original. All originals, WebPs, prompts, references and placement anchors are recorded in `docs/art/book-four-chapter-06-candidates.json`. Chapter 6 and its five illustrations are approved for publication (`available: true`).
+
+
+Chapter 3 dialogue revision: reduced repeated tank banter, Laura’s deflections and the newspaper recap. Chapter length is 1,154 words; quoted dialogue is 138 words, down from 255. Four existing illustrations and the vault setup are retained. Author approved publishing all changes, including Chapter 6 and corrected cover v8.

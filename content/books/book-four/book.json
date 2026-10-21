@@ -10,9 +10,10 @@
     "chapter-02.json",
     "chapter-03.json",
     "chapter-04.json",
-    "chapter-05.json"
+    "chapter-05.json",
+    "chapter-06.json"
   ],
   "publicationStatus": "Unpublished",
-  "cover": "book-four-cover-tank-series-web-v7.webp",
-  "ebookCover": "book-four-cover-tank-series-v7.png"
+  "cover": "book-four-cover-tank-series-web-v8.webp",
+  "ebookCover": "book-four-cover-tank-series-v8.png"
 }

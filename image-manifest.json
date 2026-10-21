@@ -1534,6 +1534,11 @@
     "width": 1024,
     "height": 1536
   },
+  "book-four-cover-tank-series-web-v8.webp": {
+    "file": "book-four-cover-tank-series-web-v8.webp",
+    "width": 1024,
+    "height": 1536
+  },
   "book-four-chapter-04-cosmos-v1.webp": {
     "file": "book-four-chapter-04-cosmos-v1.webp",
     "width": 1536,
@@ -1571,6 +1576,31 @@
   },
   "book-four-chapter-05-entry-v1.webp": {
     "file": "book-four-chapter-05-entry-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-06-theft-v1.webp": {
+    "file": "book-four-chapter-06-theft-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-06-prize-v1.webp": {
+    "file": "book-four-chapter-06-prize-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-06-teeth-v1.webp": {
+    "file": "book-four-chapter-06-teeth-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-06-torch-v1.webp": {
+    "file": "book-four-chapter-06-torch-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-06-excuse-v2.webp": {
+    "file": "book-four-chapter-06-excuse-v2.webp",
     "width": 1536,
     "height": 1024
   }

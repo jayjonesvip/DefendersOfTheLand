@@ -39,5 +39,6 @@
     }
   ],
   "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png",
-  "bookFourLatestDirection": "October 20, 2026: match Book One cover identity: gold/red dimensional masthead, circular #4 badge, cream serif subtitle and author, vintage print texture. Hero-led composition reflects Book Four victory; retain Lava Lips, Dork, Jaws and tank. Active v7: docs/art/book-four-cover-series-v7.json. No Book One or Book Three cover change."
+  "bookFourLatestDirection": "October 20, 2026: match Book One cover identity: gold/red dimensional masthead, circular #4 badge, cream serif subtitle and author, vintage print texture. Hero-led composition reflects Book Four victory; retain Lava Lips, Dork, Jaws and tank. Active v8 with corrected Fist thumb: docs/art/book-four-cover-series-v8.json. No Book One or Book Three cover change.",
+  "bookFourLatestCorrection": "Author-approved v8 is active: Fist-O-Mite’s compact thumb is on the lower edge with his rear cuff retained. See docs/art/book-four-cover-series-v8.json."
 }
