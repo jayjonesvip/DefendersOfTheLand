@@ -1668,5 +1668,25 @@
     "file": "book-four-chapter-08-vault-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-four-chapter-09-retrofit-v1.webp": {
+    "file": "book-four-chapter-09-retrofit-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-09-barrier-v1.webp": {
+    "file": "book-four-chapter-09-barrier-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-09-shrink-v1.webp": {
+    "file": "book-four-chapter-09-shrink-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-09-jaws-v1.webp": {
+    "file": "book-four-chapter-09-jaws-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
