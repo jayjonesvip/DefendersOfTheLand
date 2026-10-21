@@ -54,37 +54,33 @@
     },
     {
       "type": "prose",
-      "text": "Laura glanced past her, searching the street above the smoke."
+      "text": "Laura circled toward the tank, keeping Jenny in front of her."
     },
     {
       "type": "prose",
-      "text": "“Where’s Flaming Head?”"
+      "text": "“Where’s that flaming-head friend of yours?”"
     },
     {
       "type": "prose",
-      "text": "“He went back to the Sun. To help us.”"
+      "text": "“He went to the Sun to get back the strength you and your goons stole.”"
     },
     {
       "type": "prose",
-      "text": "Laura’s eyes returned to her."
+      "text": "Laura smiled. “Must have worked. I’m stronger than ever.”"
     },
     {
       "type": "prose",
-      "text": "“He hasn’t come back,” Jenny said."
+      "text": "Jenny kept her hands up. “He hasn’t come back.”"
     },
     {
       "type": "prose",
-      "text": "For a moment Laura stood still.",
-      "art": "book-four-chapter-10-absence-v2.webp",
-      "alt": "Laura’s expression turns briefly somber as Jenny tells her Flaming Head went to the Sun and has not returned."
+      "text": "Laura’s smile faded.",
+      "art": "book-four-chapter-10-absence-v3.webp",
+      "alt": "Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges."
     },
     {
       "type": "prose",
-      "text": "She looked at the blackened coat, then at the mark her shot had left on Jenny’s boot. That morning she had burned through a vault door without trying."
-    },
-    {
-      "type": "prose",
-      "text": "Her mouth tightened. Her eyes lowered."
+      "text": "Her eyes dropped to the scorched coat. For a moment, she seemed to forget Jenny was there."
     },
     {
       "type": "prose",
@@ -92,7 +88,23 @@
     },
     {
       "type": "prose",
-      "text": "Laura shook her head once and stepped forward."
+      "text": "Laura glanced toward it, then set her jaw. Jenny wasn’t getting through."
+    },
+    {
+      "type": "prose",
+      "text": "“Well, I never forgave him for making me like this!”"
+    },
+    {
+      "type": "prose",
+      "text": "She spat a bright ball at Jenny’s face."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny slipped aside. “You’re a powerful woman. What’s wrong with that?”"
+    },
+    {
+      "type": "prose",
+      "text": "The shot scorched the pavement. Laura stepped in and threw a punch."
     },
     {
       "type": "prose",
@@ -120,9 +132,9 @@
     },
     {
       "type": "prose",
-      "text": "Laura lunged again. Jenny gave ground, two quick steps and a turn. Laura followed.",
-      "art": "book-four-chapter-10-setup-v1.webp",
-      "alt": "Jenny slips past Laura’s reaching strike, drawing her into line with the hydrant while Fist approaches it."
+      "text": "Laura spat again. Jenny’s boots blurred as she cut sideways, kicking up dust.",
+      "art": "book-four-chapter-10-setup-v2.webp",
+      "alt": "Laura spits plasma and misses as Jenny dodges with blurred feet and dust rising from the pavement; Fist approaches the hydrant."
     },
     {
       "type": "prose",
@@ -134,7 +146,7 @@
     },
     {
       "type": "prose",
-      "text": "Laura swung at the place her face had been."
+      "text": "The plasma struck empty pavement behind her. Laura turned to follow."
     },
     {
       "type": "prose",
@@ -194,9 +206,7 @@
     },
     {
       "type": "prose",
-      "text": "Laura reached the curb and caught its edge with both hands.",
-      "art": "book-four-chapter-10-open-v1.webp",
-      "alt": "Laura sits soaked and furious beyond the curb while Jenny and Fist turn toward the tank and officers approach from cover."
+      "text": "Laura reached the curb and caught its edge with both hands."
     },
     {
       "type": "prose",
@@ -212,7 +222,7 @@
     },
     {
       "type": "prose",
-      "text": "An officer emerged from the stone doorway behind Laura, keeping his distance. Another came around the corner with a portable radio."
+      "text": "An officer emerged from the stone doorway behind Laura. His partner followed with a fire extinguisher, one hand on its hose."
     },
     {
       "type": "prose",
@@ -224,11 +234,53 @@
     },
     {
       "type": "prose",
-      "text": "The officers spread out instead of approaching head-on."
+      "text": "The second officer raised the nozzle. Laura looked at it, then stayed still."
     },
     {
       "type": "prose",
-      "text": "Laura looked between them, breathing hard."
+      "text": "The first officer drew her hands behind her back and fastened the cuffs."
+    },
+    {
+      "type": "prose",
+      "text": "He helped her to her feet and led her toward a police car waiting in the side street.",
+      "art": "book-four-chapter-10-open-v4.webp",
+      "alt": "Jenny offers Laura a place with the Defenders as the soaked, handcuffed Laura is escorted to a police car; angry Jaws hovers nearby and the second officer carries an extinguisher."
+    },
+    {
+      "type": "prose",
+      "text": "Water dripped from her ponytail and sleeves. The second officer followed with the extinguisher ready."
+    },
+    {
+      "type": "prose",
+      "text": "Jenny stepped closer. “You should have stayed away from Dork. He was just using you.”"
+    },
+    {
+      "type": "prose",
+      "text": "Laura looked back at her."
+    },
+    {
+      "type": "prose",
+      "text": "“If you want to help the city, join the Defenders.”"
+    },
+    {
+      "type": "prose",
+      "text": "Jaws swooped in above the officers, his metal teeth snapping."
+    },
+    {
+      "type": "prose",
+      "text": "“She doesn’t need you!” he barked at Jenny."
+    },
+    {
+      "type": "prose",
+      "text": "Then he turned toward the car. “Don’t worry, Laura. We’ll bail you out!”"
+    },
+    {
+      "type": "prose",
+      "text": "Laura’s eyes went back to Jenny. She said nothing as the officer guided her toward the open door."
+    },
+    {
+      "type": "prose",
+      "text": "Jaws wheeled away toward the tank."
     },
     {
       "type": "prose",
@@ -241,10 +293,6 @@
     {
       "type": "prose",
       "text": "Jenny turned toward it."
-    },
-    {
-      "type": "prose",
-      "text": "This time, Laura was out of the way."
     }
   ]
 }
