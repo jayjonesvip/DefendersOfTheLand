@@ -1648,5 +1648,25 @@
     "file": "book-four-chapter-01-jack-v6.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-four-chapter-08-strength-v1.webp": {
+    "file": "book-four-chapter-08-strength-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-08-speed-v1.webp": {
+    "file": "book-four-chapter-08-speed-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-08-window-v1.webp": {
+    "file": "book-four-chapter-08-window-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-08-vault-v1.webp": {
+    "file": "book-four-chapter-08-vault-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }
