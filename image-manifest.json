@@ -1748,5 +1748,40 @@
     "file": "book-four-chapter-10-open-v4.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-four-chapter-11-impact-v1.webp": {
+    "file": "book-four-chapter-11-impact-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-taunt-v1.webp": {
+    "file": "book-four-chapter-11-taunt-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-miss-v1.webp": {
+    "file": "book-four-chapter-11-miss-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-city-v1.webp": {
+    "file": "book-four-chapter-11-city-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-counter-v1.webp": {
+    "file": "book-four-chapter-11-counter-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-emitter-v2.webp": {
+    "file": "book-four-chapter-11-emitter-v2.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-11-emitter-v3.webp": {
+    "file": "book-four-chapter-11-emitter-v3.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

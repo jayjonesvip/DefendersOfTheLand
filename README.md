@@ -163,6 +163,8 @@ The fourteen-chapter Book Three manuscript is complete. Print dimensions track e
 
 Add future chapters in `content/books/book-four/`, list them in `book.json` in reading order and set `available: true` when ready for the reader and exports. Keep unwritten chapters in the editorial outline. The reader, contents, progress tracking, EPUB and PDF use the same available chapter list.
 
+Chapter 11, **Clash at the Tower**, is now drafted for review: 629 words and six illustrations, continuing directly from Chapter 10’s arrest scene into Fist and Jaws’s aerial fight, then Zerdo knocking Dork’s shot away from Terminal Tower. It is included in the local reader as `book-four-chapter-11.html` and current Book Four review PDF/EPUB exports. Art prompts, references and preserved originals are recorded in `docs/art/book-four-chapter-11-candidates.json`.
+
 Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
 
 Book Four outputs in `output/publishing/`:
