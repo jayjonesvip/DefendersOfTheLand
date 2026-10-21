@@ -7,8 +7,8 @@ Working outline, October 20, 2026. Book Three's completed manuscript governs con
 1. **Something’s Wrong.** Drafted in `content/books/book-four/chapter-01.json`. A loading-platform rescue exposes Seth and Jenny's reduced abilities under pressure. Their teamwork and outside help get the trapped worker clear. Billy and Fist remain unaffected. Chapter 1 is available in the public reader with four selected illustrations and in the current PDF/EPUB exports.
 2. **Not Fast Enough.** Author-accepted plan below: a jewelry-store robbery exposes the team's reduced speed and strength. They help a fallen cyclist while the robbers escape. End with Dork reading the next day's newspaper about the weaker Defenders; this is the fifth and final illustration.
 3. **Dork’s Opportunity.** Drafted in `content/books/book-four/chapter-03.json`, with four approved illustrations. Dork checks the ray, starts the stationary tank, lets eager Jaws help, and assigns Laura a future vault-opening role despite her avoidance of a demonstration. He selects a bank with a freestanding temporary vault during renovations. No theft or solar recharge occurs in this chapter.
-4. **An Unspoken Goodbye.** Flaming Head knows returning to the Sun will cost his life. He leaves without telling his friends the trip is one way; he makes no explicit promise to return.
-5. **Toward the Sun.** Follow his solitary journey. Keep the actual sacrifice/recharge payoff for Chapter 7 so Laura remains weakened through the vault theft. Chapters 5–6 follow events occurring during the same interval.
+4. **More Power.** Drafted as a hopeful departure from Claude’s donated facility. Flaming Head tells his friends he is going to the Sun to look for more power that may help them. The reader-facing chapter does not reveal a fatal cost or call the journey a sacrifice; the friends expect to see him again. Five illustrations end with Earth behind him and the Sun ahead. His journey continues in Chapter 5.
+5. **Into the Light.** Drafted as a short, solitary journey: 442 words, no dialogue, three illustration candidates. Earth recedes, the Sun fills his view, and he enters the light looking for energy. No Cleveland or villain cutaways. Keep the outcome and recharge payoff for Chapter 7 so Laura remains weakened through the vault theft. Chapters 5–6 follow events occurring during the same interval.
 6. **The Missing Vault.** Dork shrinks and steals a whole bank vault, then restores it at the workshop. Establish the target's physical separation from the bank before firing. Jaws tries his metal teeth: he gouges accessible locking hardware but cannot break it open. Dork's cutting torch makes slow progress. Laura keeps making excuses when asked to burn it open. They have stolen the vault but cannot yet reach its contents.
 7. **What He Left Them.** Flaming Head's sacrifice restores and increases Seth and Jenny's familiar abilities. Give their realization of his absence room before returning to the villains. Laura has not tested her plasma and still believes it weak. Dork, impatient after the failed teeth/torch attempts, insists she open the vault. Her small spit unexpectedly burns through the locking mechanism and into the steel beyond; she is as surprised as anyone. Jaws delights in it. Dork asks why she let them struggle. She hides her surprise behind a claim that she needed to find the right spot. Money becomes accessible here. She does not yet know why her power increased.
 8. **Bow to Dork.** Dork brings the tank, ray and Jaws into downtown Cleveland. He demands submission and threatens Terminal Tower. Billy coordinates with police; evacuation and battle geography are established. Specify how Dork operates the tank and uses the ray without inventing a crew.
@@ -86,3 +86,26 @@ Drafted manuscript: `content/books/book-four/chapter-03.json`, approximately 1,3
 4. **Choosing the bank — bank v1.** Daniel stands at a bus stop, noting the bank across the street; the freestanding vault is visible through its annex delivery doors. Before those doors begin closing.
 
 The workshop is Dork's relocated laboratory, separate from Claude's donated Defenders facility. Keep Dork in post-overload shirtsleeves, Jaws bodyless and enthusiastically loyal, and Laura powered but secretly weakened. The vault-opening payoff remains in Chapter 7 after the Chapter 6 theft; tank preparation here does not begin the downtown ultimatum. The author approved the chapter for publication after the tank image correction.
+
+
+## Chapter 4 — More Power
+
+The manuscript is drafted in `content/books/book-four/chapter-04.json`. Five illustration candidates are staged for review: training together, the window conversation, the group at the map table, departure above the rooftops, and the cosmic journey. Chapter 4 is approved for publication with its five illustrations. Production records are in `docs/art/book-four-chapter-04-candidates.json`.
+
+- At Claude’s donated facility, Seth and Jenny work through a modest training exercise suited to their reduced abilities. Flaming Head watches and privately resolves to return to the Sun to restore them.
+- Private continuity retains the eventual cost established in the series plan. Author direction for reader-facing prose: he is leaving to find more power. Do not name a sacrifice, disclose his death/one-way journey through narration, or explicitly promise an ordinary return. Personal exchanges should feel like friends supporting a hopeful plan.
+- Seth and Jenny relay his words to Billy and Fist, who cannot understand the shared-energy communication directly. His friends expect to see him again.
+- He leaves Cleveland, and the closing view follows him into space. Chapter 5 continues the solitary journey; the sacrifice and recharge remain later in the established sequence.
+
+### Five illustrations
+
+1. **Still trying.** Seth and Jenny carefully train while diminished Flaming Head watches at the donated facility.
+2. **Somewhere to look.** A quiet conversation at the facility window: he explains his search for more power, with his friends listening hopefully.
+3. **The friends together.** Billy and Fist join the farewell, with communication relayed through Seth/Jenny.
+4. **Leaving Cleveland.** His friends watch from the window as the small flame recedes above the city.
+5. **Steadfast — cosmos v1.** Flaming Head alone in black space, Earth behind him and the Sun ahead. His familiar round orange face, oval white eyes and black pupils convey steady determination. He has no body or spacecraft; the picture shows his resolve and destination. The Sun has not absorbed him and no recharge is depicted. Original PNG, optimized WebP and prompt are saved as an illustration candidate for review.
+
+
+## Chapter 5 — Into the Light
+
+Draft: `content/books/book-four/chapter-05.json`, 442 words excluding scene separators, no dialogue. Three illustrations show the approach with Earth receding, the first warmth at the Sun’s edge, and his small outline entering the light. A slight lifting flame suggests available energy without confirming restoration. The chapter ends inside the glow without revealing the outcome. No cutaways, farewell repetition, recharge on Earth or narrator disclosure of the later cost. Chapter 5 and its three illustrations are approved for publication (`available: true`), together with the preceding Chapter 4. Production records: `docs/art/book-four-chapter-05-candidates.json`.

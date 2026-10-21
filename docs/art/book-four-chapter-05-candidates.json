@@ -1,0 +1,57 @@
+{
+  "book": "book-four",
+  "chapter": 5,
+  "title": "Into the Light",
+  "status": "Author-approved chapter and illustrations integrated for publication",
+  "review": "Approved by author instruction to push the next chapter; Chapter 4 included as its preceding departure scene.",
+  "images": [
+    {
+      "number": 1,
+      "key": "approach",
+      "label": "Across the dark",
+      "status": "Approved for publication",
+      "source": "/workspace/generated_images/exec-9fe386d0-63fd-46e9-a9f5-8dfb32581eba.png",
+      "original": "docs/art/originals/book-four/chapter-05/book-four-chapter-05-approach-v1.png",
+      "webArt": "book-four-chapter-05-approach-v1.webp",
+      "anchorBefore": "Earth had become a small blue circle behind him.",
+      "alt": "Flaming Head crosses black space toward the growing Sun, with Earth a tiny blue point far behind.",
+      "prompt": "Create ONE landscape 3:2 full-bleed illustrated chapter-book scene in the same richly inked painted comic style as references. No text, panels, borders, captions, speech balloons, diagrams. Flaming Head identity EXACTLY first reference: ONE bodyless ROUND ORANGE face, huge OVAL WHITE EYES with simple oval BLACK pupils, simple black brows, small closed mouth. Painted yellow/orange flame crown, modest and compact as second reference. NO neck, body, limbs, spaceship, astronaut suit, human face, skull, hair, wings. Resolve and concentration, no smile, no anguish. Natural deep BLACK space and blazing gold Sun; restrained ink texture, not photorealistic face. He is alone, seeking power, no other heroes, no villains. No beam to Earth, no completed restoration, no explosion, no death reveal. This chapter shows approach and entry only, energy payoff later. Use second reference for visual continuity but make a distinctly new composition. FIRST image: immense scale, long journey across black emptiness. Sun at RIGHT fills the right third of frame with clear CURVED blazing rim, distant Earth a TINY faint blue point deep upper LEFT, no large Earth globe. Flaming Head SMALL lower left-center, roughly 12 percent frame height, three-quarter side face visible looking resolutely RIGHT toward Sun, a little brighter sunlight along orange cheek. Vast black interval with sparse tiny stars between character and destination, no colorful nebula. Small compact trailing flame crown. Nothing touching him, Sun still well ahead. Quiet forward movement, no speed lines.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/character-flaming-head-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-cosmos-v1.webp"
+      ]
+    },
+    {
+      "number": 2,
+      "key": "corona",
+      "label": "The first warmth",
+      "status": "Approved for publication",
+      "source": "/workspace/generated_images/exec-f9ac0995-c30d-4464-8011-9c88fc4decc8.png",
+      "original": "docs/art/originals/book-four/chapter-05/book-four-chapter-05-corona-v1.png",
+      "webArt": "book-four-chapter-05-corona-v1.webp",
+      "anchorBefore": "The first warmth reached him gently.",
+      "alt": "A small, determined Flaming Head approaches towering folds of golden light at the Sun’s edge.",
+      "prompt": "Create ONE landscape 3:2 full-bleed illustrated chapter-book scene in the same richly inked painted comic style as references. No text, panels, borders, captions, speech balloons, diagrams. Flaming Head identity EXACTLY first reference: ONE bodyless ROUND ORANGE face, huge OVAL WHITE EYES with simple oval BLACK pupils, simple black brows, small closed mouth. Painted yellow/orange flame crown, modest and compact as second reference. NO neck, body, limbs, spaceship, astronaut suit, human face, skull, hair, wings. Resolve and concentration, no smile, no anguish. Natural deep BLACK space and blazing gold Sun; restrained ink texture, not photorealistic face. He is alone, seeking power, no other heroes, no villains. No beam to Earth, no completed restoration, no explosion, no death reveal. This chapter shows approach and entry only, energy payoff later. Use second reference for visual continuity but make a distinctly new composition. SECOND image: closer approach at edge of Sun's outer glow. Sun's curved brilliant surface fills RIGHT TWO THIRDS; deep black space remains LEFT. Towering gold/orange looping ridges of solar fire rise far ahead, immense compared with character; not tentacles grabbing him. Flaming Head lower LEFT about 18 percent frame height, enough side/three-quarter facial detail to recognize oval eyes and orange round face, focused with closed calm mouth, gazing toward the light to RIGHT. His compact flame crown has just begun to lift slightly in the light, a small brighter tip ONLY, not giant renewed power, no aura beam. Warm reflected light across cheek, light pressing toward him while he holds course. Sparse stars fade into glare, no Earth visible, no frightened expression. Painterly flaming surface with clear ink structure, strong scale.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/character-flaming-head-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-cosmos-v1.webp"
+      ]
+    },
+    {
+      "number": 3,
+      "key": "entry",
+      "label": "Into the light",
+      "status": "Approved for publication",
+      "source": "/workspace/generated_images/exec-b88641f1-9735-4a7e-a1d0-14ff59ad0486.png",
+      "original": "docs/art/originals/book-four/chapter-05/book-four-chapter-05-entry-v1.png",
+      "webArt": "book-four-chapter-05-entry-v1.webp",
+      "anchorBefore": "The darkness behind him narrowed to a strip.",
+      "alt": "Flaming Head’s tiny flame-edged outline enters the Sun’s brilliant light.",
+      "prompt": "Create ONE landscape 3:2 full-bleed illustrated chapter-book scene in the same richly inked painted comic style as references. No text, panels, borders, captions, speech balloons, diagrams. Flaming Head identity EXACTLY first reference: ONE bodyless ROUND ORANGE face, huge OVAL WHITE EYES with simple oval BLACK pupils, simple black brows, small closed mouth. Painted yellow/orange flame crown, modest and compact as second reference. NO neck, body, limbs, spaceship, astronaut suit, human face, skull, hair, wings. Resolve and concentration, no smile, no anguish. Natural deep BLACK space and blazing gold Sun; restrained ink texture, not photorealistic face. He is alone, seeking power, no other heroes, no villains. No beam to Earth, no completed restoration, no explosion, no death reveal. This chapter shows approach and entry only, energy payoff later. Use second reference for visual continuity but make a distinctly new composition. THIRD AND FINAL image: quiet breathtaking wide scene of ENTRY into sunlight, NOT an explosion or annihilation. Glowing Sun occupies most of RIGHT and CENTER, pale GOLD approaching warm WHITE in its brilliant surface; deep black curved wedge of space at far LEFT. ONE very TINY recognizable rounded flame-edged silhouette near the border between space and dazzling light, below center, moving RIGHT into light. His small round orange side/profile and faint single visible oval eye can just be discerned in the golden glow; he is at most 7 percent frame height, do not turn into giant face. Both his shape and flame gently merge with bright painted light, no ash, no broken face, no screaming, no corpse, no departing soul, no energy wave toward Earth. Vast surrounding gold light, subtle orange solar textures. Determined quiet forward movement, cliffhanger conceals what happens inside, no triumph pose or visual confirmation of loss.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/character-flaming-head-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-cosmos-v1.webp"
+      ]
+    }
+  ]
+}
