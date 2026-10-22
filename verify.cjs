@@ -24,6 +24,11 @@ const availableBookTwo=require('./scripts/available-chapters.cjs').availableChap
 assert.equal(bookTwoPdf.chapters,availableBookTwo.length);
 assert.deepEqual(bookTwoPdf.chapterStarts.map(chapter=>chapter.number),availableBookTwo.map(chapter=>chapter.number));
 assert(bookTwoPdf.pages>0);assert(bookTwoPdf.printLayoutIsProvisional);assert(!fs.existsSync(path.join(out,'books',bookTwoPdf.file)),'Full Book Two PDF stays private');
+const bookTwoReview=JSON.parse(fs.readFileSync(path.join(publishing,'book-two-review-pdf-build.json')));
+assert.equal(bookTwoReview.file,'defenders-of-the-land-book-two-illustrated.pdf');assert(!bookTwoReview.paperbackInterior);
+assert.equal(bookTwoReview.chapters,bookTwoPdf.chapters);assert.equal(bookTwoReview.interiorIllustrations,bookTwoPdf.interiorIllustrations);
+assert.notEqual(bookTwoReview.file,bookTwoPdf.file,'Review build must preserve the separate paperback report');
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(publishing,bookTwoReview.file))).digest('hex'),bookTwoReview.sha256);
 const epubBuilds=JSON.parse(fs.readFileSync(path.join(publishing,'epub-builds.json'))).books;
 const expectedBooks=fs.readdirSync(path.join(__dirname,'content/books')).filter(id=>{
  const metadata=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books',id,'book.json')));

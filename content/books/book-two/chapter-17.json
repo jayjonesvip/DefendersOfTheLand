@@ -121,8 +121,8 @@
     {
       "type": "scene",
       "text": "Fist rose crookedly. A dark scuff ran across his knuckles.",
-      "art": "book-two-chapter-17-ambush-v1.webp",
-      "alt": "Above the Cleveland rooftops, Luke’s iron jaws drive a surprised Fist toward a steel railing. Fist’s red leather is visibly scuffed and his empty white cuff is torn."
+      "art": "book-two-chapter-17-ambush-design-v1.webp",
+      "alt": "Above the Cleveland rooftops, Luke’s iron jaws drive a surprised Fist toward a steel railing. Fist’s red leather is visibly scuffed and his empty red cuff, with its white inset panel, is torn."
     },
     {
       "type": "prose",
@@ -159,17 +159,17 @@
     {
       "type": "scene",
       "text": "For a moment, the glove’s eyes squeezed shut. His next shove barely moved the jaw.",
-      "art": "book-two-chapter-17-injured-v1.webp",
-      "alt": "A close view shows Fist struggling low above a rooftop with scuffed, creased red leather and a torn white cuff while Luke’s iron jaws loom above him."
+      "art": "book-two-chapter-17-injured-design-v1.webp",
+      "alt": "A close view shows Fist struggling low above a rooftop with scuffed, creased red leather and a torn cuff while Luke’s iron jaws loom above him."
     },
     {
       "type": "prose",
-      "text": "On the street below, Seth came around the corner in his blue suit. He looked for Billy, then up toward the roofs. He could not see Fist behind the sign."
+      "text": "On the street below, Seth came around the corner in his orange suit. He looked for Billy, then up toward the roofs. He could not see Fist behind the sign."
     },
     {
       "type": "scene",
       "text": "At the end of the alley, stone steps led down into the sunken service yard. The basement door was open.",
-      "art": "book-two-chapter-17-door-v2.webp",
+      "art": "book-two-chapter-17-door-design-v1.webp",
       "alt": "Seth reaches the open laboratory entrance and sees Jenny still locked into her restraint station beyond the benches. Jenny calls a warning toward him."
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "type": "prose",
-      "text": "She heard him. Her chair faced far enough toward the workshop doorway that she could see his red mask beyond the bench, at the service entrance."
+      "text": "She heard him. Her chair faced far enough toward the workshop doorway that she could see his orange mask beyond the bench, at the service entrance."
     },
     {
       "type": "prose",
@@ -203,7 +203,7 @@
     {
       "type": "scene",
       "text": "Seth had already drawn breath to answer her. He covered his mouth and reached Jenny’s chair, gripping the edge of one cuff.",
-      "art": "book-two-chapter-17-gas-v2-green.webp",
+      "art": "book-two-chapter-17-gas-design-v1.webp",
       "alt": "Gas curls from the laboratory vents as Seth reaches Jenny’s still-locked wrist cuff. Jenny remains restrained in civilian clothes and tries to warn him; Daniel watches from behind glass."
     },
     {
@@ -268,7 +268,7 @@
     },
     {
       "type": "prose",
-      "text": "She sat beside him, still in her blouse and pink skirt. He was held against the second station by broad cuffs around his red gloves and boots."
+      "text": "She sat beside him, still in her blouse and pink skirt. He was held against the second station by broad cuffs around his brown gloves and boots."
     },
     {
       "type": "prose",
@@ -284,9 +284,9 @@
     },
     {
       "type": "scene",
-      "text": "A scrape came from the bench. Fist pressed his scuffed knuckles against the cage bars. His white cuff was torn. He looked at them, then at Luke.",
-      "art": "book-two-chapter-17-captives-v2-green.webp",
-      "alt": "Seth in his blue and red uniform and Jenny in her white blouse and pink skirt are restrained at adjacent metal stations. Injured Fist is locked in a reinforced bird cage on the bench while Daniel and Luke watch."
+      "text": "A scrape came from the bench. Fist pressed his scuffed knuckles against the cage bars. His cuff was torn. He looked at them, then at Luke.",
+      "art": "book-two-chapter-17-captives-design-v1.webp",
+      "alt": "Seth in his orange uniform with white accents and brown gloves and boots and Jenny in her white blouse and pink skirt are restrained at adjacent metal stations. Injured Fist is locked in a reinforced bird cage on the bench while Daniel and Luke watch."
     },
     {
       "type": "prose",

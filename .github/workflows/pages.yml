@@ -50,7 +50,11 @@ jobs:
           name: kdp-publishing-files
           path: |
             output/publishing/defenders-of-the-land-book-two-illustrated.pdf
+            output/publishing/book-two-kdp-interior.pdf
             output/publishing/book-two-pdf-build.json
+            output/publishing/book-two-review-pdf-build.json
+            output/publishing/book-two-preflight.json
+            output/publishing/book-two-upload-guide.txt
             output/publishing/book-three-kdp-interior.pdf
             output/publishing/book-three-pdf-build.json
             output/publishing/book-three-preflight.json
