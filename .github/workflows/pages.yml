@@ -30,6 +30,8 @@ jobs:
           cache: pip
       - run: npm ci
       - run: python -m pip install -r requirements.txt
+      - name: Test print resolution validation
+        run: python -m unittest discover -s scripts -p 'test_print_resolution.py'
       - run: npx playwright install --with-deps chromium
       - name: Build site, PDFs and EPUB
         run: npm run build
@@ -54,6 +56,7 @@ jobs:
             output/publishing/book-two-pdf-build.json
             output/publishing/book-two-review-pdf-build.json
             output/publishing/book-two-preflight.json
+            output/publishing/book-two-interior-resolution.json
             output/publishing/book-two-upload-guide.txt
             output/publishing/book-three-kdp-interior.pdf
             output/publishing/book-three-pdf-build.json

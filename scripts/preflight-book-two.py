@@ -5,6 +5,7 @@ import pathlib
 
 import pymupdf as fitz
 from PIL import Image
+from print_resolution import inspect_image_resolution
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'output/publishing'
@@ -19,6 +20,7 @@ def inspect_pdf(name, width, height, interior=False):
     path = OUT / name
     fonts, image_dpi = set(), []
     with fitz.open(path) as doc:
+        resolution = inspect_image_resolution(doc) if interior else None
         assert not doc.is_encrypted and not doc.get_toc()
         for page in doc:
             assert abs(page.rect.width - width * 72) < .1
@@ -42,7 +44,8 @@ def inspect_pdf(name, width, height, interior=False):
                             assert not any(box.intersects(picture) for picture in pictures)
         assert all(doc.extract_font(xref)[3] for xref in fonts), 'Font is not embedded'
         return {'file': name, 'pages': len(doc), 'images': len(image_dpi),
-                'minimumPlacedImageDpi': round(min(image_dpi), 2),
+                'minimumPlacedImageDpi': resolution['minimumPlacedImageDpi'] if interior else min(image_dpi),
+                'minimumRequiredDpi': 300 if interior else None,
                 'embeddedFonts': len(fonts), 'interactiveObjects': 0,
                 'bytes': path.stat().st_size, 'sha256': hashlib.sha256(path.read_bytes()).hexdigest()}
 

@@ -116,6 +116,10 @@ Run `npm run build` for the complete publishing package. To rebuild just the pap
 
 The source front is retained at its native resolution; the generated print copy is resampled for 300-DPI placement and excluded from Git. Resampling does not add detail. Inspect the print preview and physical proof before publication.
 
+Book Two paperback illustrations are capped using their native pixel dimensions at a 302-DPI placement target, with a small allowance for PDF coordinate rounding. No interior raster is enlarged or regenerated. Both final PDF export validation and standalone preflight enforce at least 300 effective DPI on both axes of every saved image occurrence, using the PDF transform rather than image DPI metadata. A failure reports the page, pixels, physical placement and measured resolution. The private `book-two-interior-resolution.json` report records every placement and the final PDF checksum. Review PDF, reader and EPUB presentation are unchanged.
+
+Run `python -m unittest discover -s scripts -p 'test_print_resolution.py'` for saved-PDF regression tests. The corrected approved PR #12 manuscript measures 120 print pages (21 chapters, 1,143 passages, 57 illustrations); its measured standard-color-white spine is 0.270240 inches and wrap is 12.520240 x 9.25 inches. Always rebuild the cover from the current interior rather than entering these counts manually. The existing cover front still has about 186 native effective DPI at its current size, despite its resampled 300-DPI print raster; this interior fix does not restore cover detail.
+
 Book Two secret-identity constraints are recorded in [the continuity notes](docs/editorial/book-two-continuity.md). As of Chapter 15, Daniel and Luke do not know Jenny is Pink Blur; Daniel expects Billy to summon the Defenders for a missing reporter.
 
 The [Book Two continuity and dialogue audit](docs/editorial/book-two-continuity-dialogue-audit-2026-10-13.json) covers Chapters 1–17 against the published Book One manuscript, with recorded corrections and unresolved story constraints.

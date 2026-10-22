@@ -29,7 +29,20 @@ const server=http.createServer((req,res)=>{try{const url=decodeURIComponent(req.
  </style><script>window.PagedConfig={auto:false};</script><body><div id="source">${body}</div><script src="${base}/paged.js"></script></body></html>`;
  fs.writeFileSync(path.join(tmp,'source.html'),html);fs.writeFileSync(path.join(tmp,'expected.json'),JSON.stringify(expected));
  browser=await chromium.launch({headless:true,...(process.env.BOOK_CHROMIUM?{executablePath:process.env.BOOK_CHROMIUM}:{})});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.emulateMedia({media:'print'});await page.goto(base+'/print/runtime.html');await page.setContent(html,{waitUntil:'load'});
- await page.evaluate(async()=>{await document.fonts.ready;for(const img of document.images)await img.decode();await new Paged.Previewer().preview(document.getElementById('source').innerHTML,undefined,document.body);document.getElementById('source').remove();});
+ await page.evaluate(async resolutionAware=>{
+  await document.fonts.ready;
+  for(const img of document.images){
+   await img.decode();
+   if(resolutionAware){
+    // Keep approved native pixels intact. 302 leaves room for PDF coordinate
+    // rounding while final-file validation independently enforces 300 DPI.
+    img.style.maxWidth=`min(100%, ${img.naturalWidth/302}in)`;
+    img.style.maxHeight=`min(6.6in, ${img.naturalHeight/302}in)`;
+   }
+  }
+  await new Paged.Previewer().preview(document.getElementById('source').innerHTML,undefined,document.body);
+  document.getElementById('source').remove();
+ },paperback&&bookId==='book-two');
  const layout=await page.evaluate(()=>({pages:document.querySelectorAll('.pagedjs_page').length,chapters:[...document.querySelectorAll('[data-chapter]')].map(e=>({number:Number(e.dataset.chapter),page:Number(e.closest('.pagedjs_page').dataset.pageNumber)})),images:[...document.querySelectorAll('.pagedjs_page img')].map(i=>({width:i.naturalWidth,height:i.naturalHeight}))}));
  if(errors.length||layout.chapters.length!==chapters.length||layout.images.length!==art.length||layout.images.some(i=>!i.width))throw Error('PDF layout/resource failure: '+errors.join('; '));
  layout.paperback=paperback;layout.bookId=bookId;
