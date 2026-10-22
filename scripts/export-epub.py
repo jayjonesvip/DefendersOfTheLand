@@ -103,7 +103,7 @@ if cover_art:
     document('cover.xhtml', title + ' - Cover', f'<section epub:type="cover" class="cover"><img src="images/cover.jpg" alt="{esc(title)} by {esc(book["author"])}. Illustrated front cover."/></section>', 'cover')
 document('title.xhtml', title, f'<section epub:type="titlepage" class="title-page"><h1>{esc(series)}</h1><h2>{esc(volume)}</h2><p>{esc(book["author"])}</p></section>', 'title')
 if not sample and book.get('status', '').lower() == 'in progress':
-    files['EPUB/title.xhtml'] = files['EPUB/title.xhtml'].replace(b'</section>', f'<p>Work in progress: {len(configs)} chapters available.</p></section>'.encode('utf-8'))
+    files['EPUB/title.xhtml'] = files['EPUB/title.xhtml'].replace(b'</section>', f'<p>Work in progress: {len(configs)} {"chapter" if len(configs) == 1 else "chapters"} available.</p></section>'.encode('utf-8'))
 if sample:
     files['EPUB/title.xhtml'] = files['EPUB/title.xhtml'].replace(b'</section>', b'<p>Free sample: Chapters 1-3</p></section>')
 document('copyright.xhtml', 'Copyright', f'<section epub:type="copyright-page"><h1>Copyright</h1><p>Copyright © {copyright_year} {esc(book["author"])}.</p><p>All rights reserved.</p><p>A work of fiction.</p></section>', 'copyright')

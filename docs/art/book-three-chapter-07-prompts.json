@@ -1,0 +1,73 @@
+{
+  "book": "book-three",
+  "chapter": 7,
+  "status": "Generated illustrations; author review pending",
+  "collectorDesign": "Empty horizontal glass cylinder, three copper coils, brass flared intake, wheeled metal trolley and two analog meters beneath; no demonstrated drain. Separate from handheld Army shrink/enlarge ray.",
+  "illustrations": [
+    {
+      "scene": "offer",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Laura is adult woman brown eyes brown hair in high ponytail, BLACK domino eye mask, opaque long-sleeved full black bodysuit with red/orange/yellow flame FABRIC patterns up SIDES, black gloves boots, open dark coat; normal mouth with no flame or plasma. Daniel is older scientist wild white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie. Only Daniel and Laura as principal characters. On shopping street, wary ordinary pedestrians leave distance. Daniel stands confidently speaking to masked Laura, one hand gesturing; she studies him with guarded calculating interest, not smiling romantically. Medium-wide two-shot. NO Luke, NO floating heads, NO Flaming Head, NO lab or devices.",
+      "references": [
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-crowd-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-lab-v1.png"
+      ],
+      "art": "book-three-chapter-07-offer-v1.webp",
+      "review": "Only Daniel and Laura principal characters; Luke absent before first meeting. Laura costume and Daniel identity match references."
+    },
+    {
+      "scene": "arrival",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Laura is adult woman brown eyes brown hair in high ponytail, BLACK domino eye mask, opaque long-sleeved full black bodysuit with red/orange/yellow flame FABRIC patterns up SIDES, black gloves boots, open dark coat; normal mouth with no flame or plasma. Daniel is older scientist wild white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie. Luke is ONLY a floating blond male HEAD with bolted STEEL JAW and triangular iron teeth, absolutely NO BODY NO NECK NO ARMS NO LEGS. Wide ground-floor brick industrial workshop matching lab reference, high windows and wide loading entrance. View from near doorway behind Laura's shoulder: she has just entered, Daniel welcomes her with outstretched arm; far across workbench Luke floats surprised angry at seeing her FIRST TIME. Full-size olive drab rounded-turret tracked tank sits to side near loading entrance, familiar freestanding benches analog machines many unplugged. Laura's pose conveys taking in impressive machinery. All THREE physically separated logically, no duplicated people. No Flaming Head, no attack, no romance. Do not reproduce Laura photograph or newspaper from reference.",
+      "references": [
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-crowd-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-lab-v1.png"
+      ],
+      "art": "book-three-chapter-07-arrival-v1.webp",
+      "review": "Workshop, restored tank and benches match Chapter 6. Laura arrives with Daniel; bodyless steel-jawed Luke first sees her here."
+    },
+    {
+      "scene": "insult",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Laura is adult woman brown eyes brown hair in high ponytail, BLACK domino eye mask, opaque long-sleeved full black bodysuit with red/orange/yellow flame FABRIC patterns up SIDES, black gloves boots, open dark coat; normal mouth with no flame or plasma. Daniel is older scientist wild white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie. Luke is ONLY a floating blond male HEAD with bolted STEEL JAW and triangular iron teeth, absolutely NO BODY NO NECK NO ARMS NO LEGS. Medium three-character confrontation inside brick workshop. Laura at left looks contemptuously sideways toward Daniel, slight dismissive gesture toward Luke as if asking about unwanted equipment. Luke hovers at her eye level at right, visibly humiliated angry hurt expression, iron jaw clenched. Daniel between but slightly behind them impatiently gestures toward another bench, brushing insult aside. Strong expressive readable faces. NO attraction or friendship, no flames or attack, no Flaming Head. Luke has no human body or limbs. Tank optional distant background only.",
+      "references": [
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-crowd-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-lab-v1.png"
+      ],
+      "art": "book-three-chapter-07-insult-v1.webp",
+      "review": "Laura dismissive, Luke hurt and angry, Daniel brushing conflict aside. Correct three-character cast; no body for Luke, attack or attraction."
+    },
+    {
+      "scene": "collector",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Laura is adult woman brown eyes brown hair in high ponytail, BLACK domino eye mask, opaque long-sleeved full black bodysuit with red/orange/yellow flame FABRIC patterns up SIDES, black gloves boots, open dark coat; normal mouth with no flame or plasma. Daniel is older scientist wild white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie. Luke is ONLY a floating blond male HEAD with bolted STEEL JAW and triangular iron teeth, absolutely NO BODY NO NECK NO ARMS NO LEGS. Collector design: horizontal EMPTY translucent glass cylinder about 60cm long mounted waist-high on gray wheeled trolley, THREE thick copper coil hoops around cylinder, brass flared intake funnel at one end, two round analog meters on small separate control box below. One thick unfinished cable hangs unplugged. It is UNLIT, empty, no captive creature or energy. This is NOT the gray handheld shrink ray. Daniel proudly presents trolley collector to Laura in same brick industrial workshop. Laura studies EMPTY cylinder with focused vengeful interest, one gloved hand on trolley edge, Daniel points to copper coil. Luke floats behind at distance skeptical and excluded. All three identities match references. Shrink ray may be OMITTED to keep device distinct. No live test, no energy beams, no glowing machine, no trapped face, no Flaming Head. Detailed medium-wide composition clearly showing three coil cylinder and separate meter box underneath.",
+      "references": [
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-crowd-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-lab-v1.png"
+      ],
+      "art": "book-three-chapter-07-collector-v1.webp",
+      "review": "Three copper coil hoops, empty glass cylinder, brass intake, trolley and twin analog meters; unlit, cable unfinished. Cast and workshop match references."
+    },
+    {
+      "scene": "warning",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Laura is adult woman brown eyes brown hair in high ponytail, BLACK domino eye mask, opaque long-sleeved full black bodysuit with red/orange/yellow flame FABRIC patterns up SIDES, black gloves boots, open dark coat; normal mouth with no flame or plasma. Flaming Head is a SMALL orange-yellow flaming FACE ONLY, bodyless no arms neck legs. ONLY Laura and Flaming Head physically present. New camera angle at familiar lakeside slipway: Laura in costume stands on concrete near shore, arm firmly folded across coat, chin lifted refusing warning. Flaming Head floats to her side over rocks, worried saddened face. Emotional conversational distance, lake and bare earth bank. Different staging from reference, medium shot prioritizing faces. NO Daniel NO Luke NO other heads, no lab hologram or vision, no attack or visible telepathic beam.",
+      "references": [
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-retreat-v1.png"
+      ],
+      "art": "book-three-chapter-07-warning-v2-fh.webp",
+      "review": "Only Laura and bodyless Flaming Head present at lakeside; no visible energy message, lab vision or attack.",
+      "artBeforeIdentityCorrection": "book-three-chapter-07-warning-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-07-warning-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-08511388-7f7f-498e-966c-7657dd844ed5.png",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#07-warning",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
+    },
+    {
+      "scene": "excluded",
+      "prompt": "ONE finished landscape narrative illustration 1536x1024, Cleveland 1987, Defenders of the Land Book Three Chapter 7. Match reference identities and warm detailed inked comic style with rich cel-painted colors. Single scene, no panels, captions or speech balloons, no readable text, no modern screens. Daniel is older scientist wild white-gray hair, HUGE thick round glasses magnifying eyes, stained off-white lab coat gray shirt dark tie. Luke is ONLY a floating blond male HEAD with bolted STEEL JAW and triangular iron teeth, absolutely NO BODY NO NECK NO ARMS NO LEGS. Collector design: horizontal EMPTY translucent glass cylinder about 60cm long mounted waist-high on gray wheeled trolley, THREE thick copper coil hoops around cylinder, brass flared intake funnel at one end, two round analog meters on small separate control box below. One thick unfinished cable hangs unplugged. It is UNLIT, empty, no captive creature or energy. This is NOT the gray handheld shrink ray. Final scene after Laura left. ONLY two characters: Daniel at BACKGROUND right bent over working on collector's lower control box with screwdriver, ignoring Luke; Luke hovers LARGE in foreground left, wounded resentful expression looking DOWN toward the untouched Army shrink ray on a separate foreground workbench. Match collector EXACTLY to FIRST reference: glass cylinder three copper coils, brass flared funnel, wheeled steel trolley, two analog meters beneath. Device remains EMPTY UNLIT, no captured flames. Match shrink ray EXACTLY to second reference: gray rectangular handheld metal box two handles copper-ring short barrel, round gauge red blue controls. Luke floats close to bench but NOT touching, NOT biting ray; no sparks or accident yet. Dusk brick workshop matches references, dim warm lamp, tank optional distant silhouette. Laura ABSENT: remove woman from first reference scene, she must not appear physically or as portrait. NO Flaming Head, no other people, no human body for Luke. Emotional composition emphasizes Luke excluded while uncle prioritizes another project, no speech balloons or words.",
+      "references": [
+        "docs/art/originals/book-three/chapter-07/book-three-chapter-07-collector-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-lab-v1.png"
+      ],
+      "art": "book-three-chapter-07-excluded-v1.webp",
+      "review": "Only Daniel and bodyless Luke present. Three-coil collector empty and unlit; Army ray separate and untouched, no bite or electrical discharge."
+    }
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
+}

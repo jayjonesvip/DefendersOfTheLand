@@ -1,0 +1,594 @@
+{
+  "scope": "Book Three current working manuscripts, Chapters 1–7, including uncommitted Chapter 7. Text audit with targeted checks against Book One and Book Two canon; not an exhaustive new illustration audit.",
+  "date": "2026-10-18",
+  "manuscripts_changed": false,
+  "summary": "Core arc and most continuity hold. One definite small factual mismatch, two clarity concerns and an action-staging weakness need attention. Repetition is the larger issue: Chapter 7, the Luke restoration bargain, and the recurring Laura/Flaming Head argument.",
+  "measurement_note": "Word counts use a simple regex tokenizer. Spoken percentage counts words between curly quotation marks, excluding unquoted interior thoughts. Statistics support close reading; no percentage threshold is treated as a quality rule.",
+  "chapter_metrics": [
+    {
+      "chapter": 1,
+      "title": "Someone, Please",
+      "words": 1482,
+      "quoted_spoken_words": 64,
+      "spoken_percent": 4,
+      "dialogue_opening_blocks": 14,
+      "total_blocks": 96
+    },
+    {
+      "chapter": 2,
+      "title": "Needed Down the Lake",
+      "words": 1296,
+      "quoted_spoken_words": 316,
+      "spoken_percent": 24,
+      "dialogue_opening_blocks": 46,
+      "total_blocks": 105
+    },
+    {
+      "chapter": 3,
+      "title": "No Answer",
+      "words": 1361,
+      "quoted_spoken_words": 374,
+      "spoken_percent": 27,
+      "dialogue_opening_blocks": 58,
+      "total_blocks": 122
+    },
+    {
+      "chapter": 4,
+      "title": "A Place of Their Own",
+      "words": 1795,
+      "quoted_spoken_words": 444,
+      "spoken_percent": 25,
+      "dialogue_opening_blocks": 60,
+      "total_blocks": 148
+    },
+    {
+      "chapter": 5,
+      "title": "Lava Lips",
+      "words": 1923,
+      "quoted_spoken_words": 442,
+      "spoken_percent": 23,
+      "dialogue_opening_blocks": 64,
+      "total_blocks": 151
+    },
+    {
+      "chapter": 6,
+      "title": "A Tank in His Pocket",
+      "words": 2651,
+      "quoted_spoken_words": 393,
+      "spoken_percent": 15,
+      "dialogue_opening_blocks": 87,
+      "total_blocks": 253
+    },
+    {
+      "chapter": 7,
+      "title": "Dork's Offer",
+      "words": 2574,
+      "quoted_spoken_words": 1103,
+      "spoken_percent": 43,
+      "dialogue_opening_blocks": 184,
+      "total_blocks": 315
+    }
+  ],
+  "findings": [
+    {
+      "id": "E01",
+      "priority": "high",
+      "kind": "pacing",
+      "title": "Chapter 7 repeatedly interrogates the same offer",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 169,
+          "block_index": 40,
+          "text": "“What are you offering?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 211,
+          "block_index": 50,
+          "text": "“Have you done it?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 583,
+          "block_index": 142,
+          "text": "“This takes his power?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 621,
+          "block_index": 151,
+          "text": "“Does it work?” Laura asked."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 661,
+          "block_index": 161,
+          "text": "“Turn it on.”"
+        }
+      ],
+      "assessment": "Chapter 7 has approximately 43% spoken words and 184 blocks beginning with dialogue, compared with 15–27% spoken words in Chapters 2–6. The street pitch, collector tour and negotiation repeatedly ask what the device does, whether it works and what Laura gets. The high percentage is supporting evidence, not an automatic defect; the repeated function is the actual problem.",
+      "recommendation": "Keep the recruitment question and drain claim, one pointed demand for proof, Daniel’s evasion, and Laura’s conditions. Condense the range Q&A and repeated machine claims. Aim to remove roughly 400–550 words from Chapter 7 as an editorial target, not a measured count of disposable words."
+    },
+    {
+      "id": "E02",
+      "priority": "high",
+      "kind": "repeated exposition",
+      "title": "Luke asks for his body too many times without a new consequence",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 175,
+          "block_index": 41,
+          "text": "“You said you could finish your work. You said you needed the boy. Then you needed Flaming Head. Then you needed more equipment.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 431,
+          "block_index": 104,
+          "text": "“Does it give me my body back?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 131,
+          "block_index": 30,
+          "text": "“Wonderful. Do any of them say BODY?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 923,
+          "block_index": 226,
+          "text": "“We've got somewhere,” he said."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 761,
+          "block_index": 186,
+          "text": "“And me?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 1243,
+          "block_index": 306,
+          "text": "“My body is work.”"
+        }
+      ],
+      "assessment": "The same bargain recurs in Chapter 3 twice, Chapter 6 twice and Chapter 7 twice: equipment first, Luke later. This is intentional character history, but its full verbal restatement erodes the impact of the new insult and exclusion.",
+      "recommendation": "Keep the full grievance in Chapter 3. Reduce the pre-theft body exchange in Chapter 6 to a glance or one line; retain the lab-ending deferral as the broken bargain becomes concrete. In Chapter 7 keep the public “So she comes first” humiliation and center the final scene on Daniel failing to defend Luke after “monstrosity,” rather than another complete restoration negotiation. Preserve the untouched-ray closing image."
+    },
+    {
+      "id": "E03",
+      "priority": "high",
+      "kind": "repeated exposition",
+      "title": "Laura and Flaming Head replay their grievance across three chapters",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-05.json",
+          "line": 483,
+          "block_index": 117,
+          "text": "“Can you give that man his stand back?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-05.json",
+          "line": 503,
+          "block_index": 122,
+          "text": "“You keep finding things I can do with it. I'm telling you what it's taken from me.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 753,
+          "block_index": 184,
+          "text": "“You gave me this.” She touched the flame pattern at her side. “You don't get to tell me how to feel about it.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 801,
+          "block_index": 196,
+          "text": "“Have you spoken to the man from the newsstand?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 1017,
+          "block_index": 250,
+          "text": "“Laura, he's hurt people.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 1095,
+          "block_index": 269,
+          "text": "“And now you're trying to stop me.”"
+        }
+      ],
+      "assessment": "Chapter 5 establishes that training cannot give Laura her ordinary life back. Chapter 6 repeats that argument before reaching its new material: she minimizes the seller’s loss and enjoys making Flaming Head retreat. Chapter 7 again argues about being controlled before and after announcing Orkleson.",
+      "recommendation": "Give each encounter one purpose: Chapter 5 = help is inadequate; Chapter 6 = she enjoys fear and dismisses responsibility; Chapter 7 = she knowingly chooses Orkleson. Cut much of Chapter 6’s repeated landing/practice grievance before the seller discussion. In Chapter 7 move promptly from Orkleson’s name to a concrete warning and her refusal. Keep her intentional withholding of the collector plan."
+    },
+    {
+      "id": "C01",
+      "priority": "medium",
+      "kind": "confirmed continuity slip",
+      "title": "Laura remembers a water bucket that was not in the fire scene",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-05.json",
+          "line": 301,
+          "block_index": 72,
+          "text": "The seller looked down. He reached for the burning stack, then snatched his hands away as flame climbed the papers behind it."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 17,
+          "block_index": 2,
+          "text": "She remembered the seller reaching for the water bucket. His sleeve had been rough beneath her fingers when she pulled him away."
+        }
+      ],
+      "assessment": "Chapter 5 says the seller reaches for the burning stack of newspapers. Chapter 6 remembers him reaching for a water bucket. No bucket or attempt to fetch water appears in the original incident.",
+      "recommendation": "Change the memory to his reaching for the burning papers. This is a small factual repair; no plot or illustration change is needed."
+    },
+    {
+      "id": "C02",
+      "priority": "medium",
+      "kind": "location clarity",
+      "title": "The upstairs lab scene seems to locate confiscated basement apparatus upstairs",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 549,
+          "block_index": 133,
+          "text": "Daniel returned to the old building after dark."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 565,
+          "block_index": 137,
+          "text": "The laboratory smelled of dust and damp wood. There was a clean rectangle on the floor where one of his machines used to stand."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 573,
+          "block_index": 139,
+          "text": "“They took the basement equipment,” Luke said. “Remember?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 589,
+          "block_index": 143,
+          "text": "Daniel put the ray on an old bench. The collector was gone. So were the cage, the restraints and the records he had wanted to read again."
+        }
+      ],
+      "assessment": "Daniel enters his original upstairs laboratory, sees a clean rectangle, and narration immediately states that the collector, cage and restraints are gone. Book Two Chapter 21 explicitly has police collect those objects from the basement. This can be read as his remembering his overall losses, but the current staging invites the wrong location inference.",
+      "recommendation": "Make the recollection explicitly about what police took from the separate basement, or remove that inventory here and let Luke’s brief reminder suffice. Keep the surviving upstairs benches as the only items being transported. Do not recover confiscated evidence."
+    },
+    {
+      "id": "A01",
+      "priority": "medium",
+      "kind": "action plausibility",
+      "title": "The nearby guard has too much time to stop Daniel",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 313,
+          "block_index": 75,
+          "text": "The officer turned. The soldier beside the case took two steps away from the table."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 321,
+          "block_index": 77,
+          "text": "He lifted the ray by its handles. It was heavier than he expected; one corner struck the padded lid."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 333,
+          "block_index": 80,
+          "text": "Daniel backed toward the tank. The barrel swung past the truck before he steadied it. He could see blue beneath the toggle."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 357,
+          "block_index": 86,
+          "text": "He crouched, trapped the ray against his knees and picked up the tank. Its little gun caught against the opening of his coat pocket. He turned it sideways and pushed it in."
+        }
+      ],
+      "assessment": "After the soldier moves only two steps from the case, Daniel lifts a heavy ray, triggers a noise, backs toward the tank, aims, shrinks it, crouches, picks it up and pockets it while the alerted soldier mainly shouts. These sequential actions take longer than the scene’s narrow opening supports.",
+      "recommendation": "Add one concrete physical obstruction or sustained distraction between soldier and Daniel, or move the table farther from the soldier and shorten the pocketing sequence. Keep the empty tank and Luke’s role; there is no need to introduce a new ray power or make every soldier abandon his post."
+    },
+    {
+      "id": "E04",
+      "priority": "medium",
+      "kind": "dialogue compression",
+      "title": "Chapter 2 announces and explains the departure twice",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 93,
+          "block_index": 21,
+          "text": "“Someone needs help.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 135,
+          "block_index": 31,
+          "text": "“Do they know what happened?” he asked."
+        },
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 223,
+          "block_index": 53,
+          "text": "“I have to go.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 247,
+          "block_index": 59,
+          "text": "Billy drew his hands together on the desk. “Does he know who?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 295,
+          "block_index": 71,
+          "text": "He nodded. Then he turned to Billy and Fist. “He wants to find them first. He says we're managing here.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-02.json",
+          "line": 349,
+          "block_index": 84,
+          "text": "“He'll come back when he can,” he told the others."
+        }
+      ],
+      "assessment": "The rooftop exchange establishes unknown person, shared energy, distress and Flaming Head’s uncertainty. The office scene asks many of the same questions. Billy and Fist need a translation, so some repetition is necessary in-world, but the reader does not need every question a second time.",
+      "recommendation": "Keep Seth’s “There are more like us?” and the emotional reaction on the roof. Summarize most of the office briefing in one narrative paragraph, then preserve the new material: whether to accompany him, Seth’s concern about losing him, Fist’s advice and the departure. Do not let Billy or Fist suddenly understand the energy messages."
+    },
+    {
+      "id": "E05",
+      "priority": "medium",
+      "kind": "repeated exposition",
+      "title": "Chapter 3 restates Eleanor’s refusal and their poverty",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 47,
+          "block_index": 9,
+          "text": "“She's busy.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 95,
+          "block_index": 21,
+          "text": "“This is temporary.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 127,
+          "block_index": 29,
+          "text": "“She isn't going to give you any more.”"
+        },
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 237,
+          "block_index": 56,
+          "text": "Daniel put the coins away. He wanted a bench, a lamp, paper that had not been folded around somebody's lunch. He wanted one conversation in which Luke did not ask a question he could not answer."
+        },
+        {
+          "file": "content/books/book-three/chapter-03.json",
+          "line": 451,
+          "block_index": 109,
+          "text": "“With a properly equipped laboratory, I can do research again. Real work. I can't do it on a piece of cardboard.”"
+        }
+      ],
+      "assessment": "The unanswered call, wet cardboard, coin counting, repeated funding refusal and “I cannot work here” dialogue establish the same reduced circumstances several times before the newspaper changes the chapter. The physical details already communicate much of the explanation.",
+      "recommendation": "Preserve the unanswered phone, wet cardboard and one sharp exchange about Luke’s broken promise. Remove the second funding argument and some laboratory-necessity explanations. Reach the newspaper sooner; retain Daniel’s transformation from hungry fugitive to energized schemer."
+    },
+    {
+      "id": "E06",
+      "priority": "medium",
+      "kind": "repeated exposition",
+      "title": "Chapter 6 recaps the headline’s unfairness after it has already registered",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-05.json",
+          "line": 419,
+          "block_index": 101,
+          "text": "The story beneath described a sneeze, frightened witnesses and the seller being pulled clear. No injuries had been reported. A woman quoted near the end said Laura had helped get people away from the fire."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 29,
+          "block_index": 5,
+          "text": "She had stayed. She had answered questions. She had helped keep people back. Whoever chose those words had put them above her photograph anyway."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 495,
+          "block_index": 120,
+          "text": "There had been a whole paragraph about her helping him. The headline had still made her sound like she had stood there laughing while it burned."
+        },
+        {
+          "file": "content/books/book-three/chapter-06.json",
+          "line": 515,
+          "block_index": 125,
+          "text": "She had not chosen what the lake did to her. She had not chosen to sneeze."
+        }
+      ],
+      "assessment": "The paper acknowledges Laura’s rescue but humiliates her with its headline. Chapter 5 establishes that clearly. Chapter 6’s opening repeats it and the burned-stand scene explains it again. The important new event is that she no longer feels remorse.",
+      "recommendation": "Keep the open photograph at the start and the seller’s fear later. Shorten the internal defense at the stand so her “Nobody was hurt,” refusal to reassure him and departure carry the moral shift. Do not change the fire into deliberate arson or make the seller deserve the loss."
+    },
+    {
+      "id": "E07",
+      "priority": "low",
+      "kind": "dialogue compression",
+      "title": "The facility tour sometimes becomes an equipment question-and-answer list",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-04.json",
+          "line": 87,
+          "block_index": 19,
+          "text": "“Is this for us?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-04.json",
+          "line": 175,
+          "block_index": 41,
+          "text": "“Do these all work?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-04.json",
+          "line": 195,
+          "block_index": 46,
+          "text": "“Those are outside?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-04.json",
+          "line": 209,
+          "block_index": 49,
+          "text": "“What happens if I wave at one?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-04.json",
+          "line": 469,
+          "block_index": 113,
+          "text": "“Are we really allowed to stay?”"
+        }
+      ],
+      "assessment": "Chapter 4 gives the Defenders an earned home and meaningful emotional contrast with Laura. The camera, computer and scanner questions sometimes simply narrate visible functions, and the closing question repeats the earlier confirmation that the gift is theirs.",
+      "recommendation": "Tighten routine equipment explanations and combine minor reactions. Preserve the limited camera coverage, listen-only scanner, Eleanor studying Jenny, and Fist’s locker scene. The locker’s emotional dialogue earns its space; do not cut it just to lower a dialogue percentage."
+    },
+    {
+      "id": "C03",
+      "priority": "low",
+      "kind": "knowledge/inference clarity",
+      "title": "Daniel names Flaming Head before learning Laura knows him",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 109,
+          "block_index": 25,
+          "text": "“Did that flaming head tell you the same thing?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 137,
+          "block_index": 32,
+          "text": "“He's been instructing you?”"
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 149,
+          "block_index": 35,
+          "text": "“No, you don't.” She faced him again. “He did this to me. Now he wants me to be pleased because I can hit a target.”"
+        }
+      ],
+      "assessment": "Daniel has the newspaper and her costume to go on, but the article does not establish her connection to Flaming Head. His leading question can reasonably be a fishing tactic; it is not a confirmed omniscience error. The narration does not yet make that tactic clear.",
+      "recommendation": "Add a brief cue that Daniel tries the name and watches her response, or make his first question explicitly speculative. Keep Laura as the source of the information that Flaming Head trained and costumed her."
+    },
+    {
+      "id": "E08",
+      "priority": "low",
+      "kind": "prose rhythm",
+      "title": "Repeated reaction beats stretch short exchanges",
+      "locations": [
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 113,
+          "block_index": 26,
+          "text": "Laura stopped."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 117,
+          "block_index": 27,
+          "text": "Daniel noticed."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 223,
+          "block_index": 53,
+          "text": "Daniel smiled as though she had made a useful observation."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 603,
+          "block_index": 147,
+          "text": "Daniel straightened a small lever on the control box."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 733,
+          "block_index": 179,
+          "text": "She looked at him."
+        },
+        {
+          "file": "content/books/book-three/chapter-07.json",
+          "line": 845,
+          "block_index": 207,
+          "text": "Daniel waited."
+        }
+      ],
+      "assessment": "Across seven chapters, “looked” occurs 78 times, “watched” 27, “waited” 22 and “for a moment” 11. These are diagnostic counts, not automatic errors. The main issue is Chapter 7’s frequent single-line dialogue alternating with equally small looking/waiting beats that do not change the scene.",
+      "recommendation": "Remove beats that only confirm someone heard a line. Combine questions and answers into fewer paragraphs when attribution is clear. Preserve physical beats with consequences: Laura keeping her coat open, Luke blocking the route, the unused connector and Daniel turning back to work."
+    }
+  ],
+  "chapter_notes": [
+    {
+      "chapter": 1,
+      "assessment": "Strongest restraint. The breakup, sink discovery, isolation and plea progress through concrete events. Keep the ordinary-mouth/external-saliva distinction. The short doctor exchange does not need expansion."
+    },
+    {
+      "chapter": 2,
+      "assessment": "Emotional purpose is sound; shorten the duplicate briefing rather than the departure itself."
+    },
+    {
+      "chapter": 3,
+      "assessment": "Strong character dynamic, delayed newspaper turn. Compress the repeated refusal/poverty setup."
+    },
+    {
+      "chapter": 4,
+      "assessment": "Preserve the homecoming warmth and locker scene. Compress the inventory-like tour dialogue."
+    },
+    {
+      "chapter": 5,
+      "assessment": "Best balance of action and consequential conversation. Preserve the magical costume gift, accidental sneeze, rescue, headline and argument. The sink/tissue recap is already summarized efficiently; do not retell it in full."
+    },
+    {
+      "chapter": 6,
+      "assessment": "Author-directed progression is present: humiliation becomes enjoyment of fear and declining remorse. Preserve street encounter, burned stand and retreat. Repair the bucket memory, clarify old-lab geography and strengthen theft blocking."
+    },
+    {
+      "chapter": 7,
+      "assessment": "Largest revision opportunity. Preserve recruitment pitch, first meeting at lab, monstrosity insult, suspicion, unproven collector and deliberate alliance. Cut repeated explanations and bargaining loops."
+    }
+  ],
+  "continuity_that_holds": [
+    "Laura’s blast-night origin precedes the present-day plea; Chapter 1 explicitly advances through weeks and months.",
+    "Flaming Head’s energy messages are understood by Seth/Jenny and now Laura; Billy/Fist still require interpretation.",
+    "The Chapter 5 costume is created through golden fire, matching the earlier gift to Seth and Jenny. Keep the approved mirror art unchanged.",
+    "The original newsstand fire remains accidental. Laura helps the seller; her later lack of remorse is an intentional change, not a contradiction.",
+    "The newspaper coins Lava Lips before Luke uses it sarcastically.",
+    "Daniel approaches Laura alone. Luke’s first personal meeting with her is at the lab in Chapter 7.",
+    "Laura has not been a Defender and does not learn Seth/Jenny’s civilian identities or the facility address. Luke’s belief that she is working with them remains suspicion.",
+    "The Army ray and reconstructed collector are distinct. The original confiscated collector remains police evidence, and no successful draining of Flaming Head has been shown.",
+    "Luke remains bodyless, remembers his history and has not bitten the ray or suffered memory loss by the end of Chapter 7."
+  ],
+  "forward_watch_items": [
+    {
+      "topic": "Timeline anchors",
+      "assessment": "No demonstrated calendar contradiction, but Chapter 3’s “following week,” Chapter 5’s practices, Chapter 6’s “two days later” and intercut lab move make elapsed time harder to track. Add one clear anchor at the demo and one before Chapter 7; do not invent precise dates unnecessarily."
+    },
+    {
+      "topic": "Flaming Head’s eventual return",
+      "assessment": "Chapter 7 establishes that he knows Laura has joined Orkleson. If the later outline keeps his return in Chapter 10, subsequent chapters need a credible time overlap or reason for delay. This is a forward continuity obligation, not a contradiction already present in Chapters 1–7."
+    }
+  ],
+  "recommended_revision_order": [
+    "Repair the bucket memory and old-lab location ambiguity.",
+    "Strengthen the soldier/Daniel blocking during the theft.",
+    "Tighten Chapter 7 around decisions, injury and consequences.",
+    "Remove duplicate Luke bargains and Laura/Flaming Head arguments while preserving the new emotional turn in each chapter.",
+    "Compress Chapter 2’s translated briefing, Chapter 3’s refusal setup and routine parts of the Chapter 4 tour.",
+    "Finish with a small prose-rhythm pass; preserve meaningful action beats and every author-directed event."
+  ],
+  "audit_stage": "Pre-revision snapshot; original locations and metrics refer to the audited draft.",
+  "follow_up": {
+    "status": "All twelve findings addressed in follow-up edits.",
+    "report": "book-three-chapters-01-07-audit-fixes-2026-10-18.json"
+  }
+}

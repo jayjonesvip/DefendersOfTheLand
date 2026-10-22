@@ -37,6 +37,27 @@ function check(){
    const ebook=graph.find(n=>n.bookFormat==='https://schema.org/EBook');assert.equal(ebook.url,site.ebook.url);assert.equal(ebook.identifier.value,site.ebook.asin);
   }
  }
+ // Publication/artwork reconciliation: exercise the book page and every chapter.
+ const aftershock=JSON.parse(fs.readFileSync(path.join(root,'content/books/book-two/book.json')));
+ assert.equal(aftershock.title,'Aftershock');assert.equal(aftershock.publicationStatus,'Published');
+ assert.equal(aftershock.ebook.asin,'B0HNFGZ9WM');assert.equal(aftershock.paperback.asin,'B0HNFGR781');
+ assert.equal(aftershock.cover,'book-two-cover-v6-aftershock.png');assert.equal(aftershock.ebookCover,aftershock.cover);
+ for(const file of files.filter(f=>f==='book-two.html'||f.startsWith('book-two-chapter-'))){
+  const html=fs.readFileSync(path.join(dist,file),'utf8');
+  const title=html.match(/<title>(.*?)<\/title>/)?.[1];
+  for(const value of [title,meta(html,'description'),meta(html,'og:title'),meta(html,'og:description'),meta(html,'twitter:title'),meta(html,'twitter:description'),meta(html,'og:image:alt')]){
+   assert(value.includes('Aftershock'),`${file}: Aftershock missing from metadata`);
+   assert(!/Book 2: Book Two|Book Two: Book Two/.test(value),`${file}: duplicated volume label`);
+  }
+  assert(meta(html,'og:image').endsWith('/assets/book-two-cover-web-v6-aftershock.webp'),file);
+  assert.equal(meta(html,'twitter:image'),meta(html,'og:image'),file);
+  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])['@graph'];
+  assert.equal(graph.find(n=>n['@type']==='Book').name,`${site.name}: Book 2: Aftershock`);
+ }
+ for(const file of ['index.html','books.html','book-two.html','paperback.html','downloads.html']){
+  const html=fs.readFileSync(path.join(dist,file),'utf8');
+  for(const edition of ['ebook','paperback'])assert(html.includes(`href="${aftershock[edition].url}"`),`${file}: missing Aftershock ${edition} purchase link`);
+ }
  const xml=fs.readFileSync(path.join(dist,'sitemap.xml'),'utf8');
  const locations=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
  assert.deepEqual(locations.sort(),expected.sort(),'Sitemap must include each indexable page exactly once');

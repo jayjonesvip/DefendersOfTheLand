@@ -51,6 +51,14 @@ jobs:
           path: |
             output/publishing/defenders-of-the-land-book-two-illustrated.pdf
             output/publishing/book-two-pdf-build.json
+            output/publishing/book-two-review-pdf-build.json
+            output/publishing/book-two-kdp-interior.pdf
+            output/publishing/book-three-kdp-interior.pdf
+            output/publishing/book-three-pdf-build.json
+            output/publishing/book-three-preflight.json
+            output/publishing/book-three-upload-guide.txt
+            output/publishing/defenders-of-the-land-book-four-illustrated.pdf
+            output/publishing/book-four-pdf-build.json
             output/publishing/*.epub
             output/publishing/*-ebook-cover.jpg
             output/publishing/epub-builds.json

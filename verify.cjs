@@ -16,7 +16,7 @@ assert(downloads.paperback.frontResolutionMeets300Dpi);assert(downloads.paperbac
 assert.equal(downloads.ebooks.length,1);assert.equal(downloads.ebookCovers.length,1);assert.equal(downloads.epub.chapters,18);assert.equal(downloads.epub.layout,'reflowable');
 for(const file of [...downloads.ebooks,...downloads.ebookCovers]){const bytes=fs.readFileSync(path.join(publishing,file.file));assert.equal(bytes.length,file.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),file.sha256);}
 assert.equal(fs.readFileSync(path.join(publishing,downloads.ebooks[0].file)).subarray(0,2).toString(),'PK');
-const bookTwoPdf=JSON.parse(fs.readFileSync(path.join(publishing,'book-two-pdf-build.json')));
+const bookTwoPdf=JSON.parse(fs.readFileSync(path.join(publishing,'book-two-review-pdf-build.json')));
 const bookTwoPdfBytes=fs.readFileSync(path.join(publishing,bookTwoPdf.file));
 assert.equal(bookTwoPdfBytes.subarray(0,5).toString(),'%PDF-');assert.equal(bookTwoPdfBytes.length,bookTwoPdf.bytes);
 assert.equal(crypto.createHash('sha256').update(bookTwoPdfBytes).digest('hex'),bookTwoPdf.sha256);
@@ -41,7 +41,16 @@ for(const report of epubBuilds){
 for(const report of epubBuilds.filter(b=>fs.existsSync(path.join(__dirname,'print',b.bookId+'-cover.json')))){
  const config=JSON.parse(fs.readFileSync(path.join(__dirname,'print',report.bookId+'-cover.json')));
  const spec=JSON.parse(fs.readFileSync(path.join(publishing,report.bookId+'-print-specifications.json')));
- assert.equal(spec.interiorPages,config.interiorPageCount);assert.equal(spec.provisional,config.pageCountIsProvisional);
+ if(config.interiorPdf){
+  const interior=JSON.parse(fs.readFileSync(path.join(publishing,report.bookId+'-pdf-build.json')));
+  const bytes=fs.readFileSync(path.join(publishing,config.interiorPdf));
+  assert.equal(interior.file,config.interiorPdf);assert(interior.paperbackInterior);assert.equal(interior.pages%2,0);assert(interior.pages>=72);
+  assert.equal(interior.chapters,report.chapters);assert.equal(interior.interiorIllustrations,report.interiorIllustrations);
+  assert.equal(spec.interiorPages,interior.pages);assert.equal(spec.interiorFile,interior.file);
+  assert.equal(bytes.length,interior.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),interior.sha256);
+  assert.equal(spec.interiorSha256,interior.sha256);assert(!fs.existsSync(path.join(out,'books',interior.file)));
+ }else assert.equal(spec.interiorPages,config.interiorPageCount);
+ assert.equal(spec.provisional,config.pageCountIsProvisional);
  assert(Math.abs(spec.spineInches-spec.interiorPages*.002252)<1e-9);assert(spec.printFrontEffectiveDpi>=300);assert.deepEqual(spec.barcodeBoxInches,[2,1.2]);
  const bytes=fs.readFileSync(path.join(publishing,report.bookId+'-kdp-cover.pdf'));
  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),spec.sha256);
@@ -49,4 +58,4 @@ for(const report of epubBuilds.filter(b=>fs.existsSync(path.join(__dirname,'prin
  assert(report.coverIncluded,'Configured cover must be in the EPUB');
 }
 for(const pdf of [...downloads.full,...downloads.chapters,...downloads.covers,...downloads.print]){const bytes=fs.readFileSync(path.join(publishing,pdf.file));assert.equal(bytes.subarray(0,5).toString(),'%PDF-');assert.equal(bytes.length,pdf.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),pdf.sha256);assert(pdf.pages>0);}
-require('./verify-hosted-local.cjs').check().then(()=>require('./verify-vault.cjs').check()).then(()=>require('./verify-reader.cjs').check()).then(()=>require('./verify-book-two.cjs').check()).then(()=>require('./verify-epub.cjs').check()).then(()=>console.log(`PASS: ${links} links/assets, two public samples and separate publishing files with matching checksums; full web reader, EPUB chapters, navigation and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});
+require('./verify-hosted-local.cjs').check().then(()=>require('./verify-vault.cjs').check()).then(()=>require('./verify-reader.cjs').check()).then(()=>require('./verify-book-two.cjs').check()).then(()=>require('./verify-epub.cjs').check()).then(()=>require('./verify-book-four.cjs').check()).then(()=>console.log(`PASS: ${links} links/assets, two public samples and separate publishing files with matching checksums; full web reader, EPUB chapters, navigation and desktop/mobile layouts.`)).catch(e=>{console.error(e);process.exitCode=1});

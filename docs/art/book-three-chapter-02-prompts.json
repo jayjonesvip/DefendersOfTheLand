@@ -1,0 +1,53 @@
+{
+  "book": "book-three",
+  "chapter": 2,
+  "status": "Generated illustrations; author review pending",
+  "illustrations": [
+    {
+      "scene": "question",
+      "prompt": "Create ONE finished landscape narrative illustration for Defenders of the Land Book Three Chapter 2, Cleveland 1987. Match attached canonical references exactly for characters and detailed warm inked comic style, rich cel shading, expressive faces, carefully drawn environments. Reference 1 is COSTUMED Seth and Jenny on rooftop; reference 2 is CIVILIAN Seth and Jenny, Billy, Fist and Flaming Head in Billy's small cluttered office. Jenny has GREEN eyes and curly blonde hair; Seth BLUE eyes and tousled brown hair. Flaming Head is a small friendly floating orange/yellow flame HEAD ONLY with big eyes and NO human body. Billy is the very short stocky cartoon detective with enormous white eyes, tan high-collared trench coat hiding lower face and red plaid deerstalker; do not draw normal tall human detective. Fist is ONE small animated RED BOXING GLOVE with face and white cuff, no human arm or body. No text, no speech balloons, no labels, no multi-panel layout, no Laura, no Perch, no new headquarters. At sunset on Jenny's apartment roof, costumed Seth in blue suit with red Z chest emblem, red gloves, red boots, red domino mask turns toward Flaming Head with wide-eyed surprised curiosity as he asks whether there are more like them. Costumed Jenny in pink suit with white side stripes, white gloves and boots and white eye mask listens thoughtfully beside him. Flaming Head hovers clear of wooden stairwell door, gaze turned toward distant lake. Steel drum stands safely upright near stairwell, chalk practice marks on roof. All figures safely away from parapet edge. Cleveland Terminal Tower and strip of lake in background. ONLY these three characters, no Billy or Fist here.",
+      "references": [
+        "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
+        "public/assets/book-two-chapter-21-belong-v2-green.webp"
+      ],
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-question-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-question-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-32493ed0-e855-49cc-9241-548fb304652d.png",
+      "art": "book-three-chapter-02-question-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-question",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
+    },
+    {
+      "scene": "office",
+      "prompt": "Create ONE finished landscape narrative illustration for Defenders of the Land Book Three Chapter 2, Cleveland 1987. Match attached canonical references exactly for characters and detailed warm inked comic style, rich cel shading, expressive faces, carefully drawn environments. Reference 1 is COSTUMED Seth and Jenny on rooftop; reference 2 is CIVILIAN Seth and Jenny, Billy, Fist and Flaming Head in Billy's small cluttered office. Jenny has GREEN eyes and curly blonde hair; Seth BLUE eyes and tousled brown hair. Flaming Head is a small friendly floating orange/yellow flame HEAD ONLY with big eyes and NO human body. Billy is the very short stocky cartoon detective with enormous white eyes, tan high-collared trench coat hiding lower face and red plaid deerstalker; do not draw normal tall human detective. Fist is ONE small animated RED BOXING GLOVE with face and white cuff, no human arm or body. No text, no speech balloons, no labels, no multi-panel layout, no Laura, no Perch, no new headquarters. Inside Billy's ORIGINAL modest warmly lit detective office late afternoon, civilian Seth wears red hoodie and jeans, civilian Jenny white blouse and pink skirt; seated close together at wooden desk, Seth explaining Flaming Head's departure to Billy. Billy sits behind desk in canonical coat and red plaid cap, listening seriously. Fist rests safely on plush blue cushion beside desk lamp, leather scuffed and white cuff torn and supported, NOT flying or punching. Flaming Head hovers OUTSIDE open window, fully clear of curtains tied back and papers moved far from window. Period corded black telephone, tea cups, paper-wrapped sandwiches, folders and wooden bookcases. Restrained thoughtful expressions, caring farewell rather than alarm. Exactly five characters, correct anatomy.",
+      "references": [
+        "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
+        "public/assets/book-two-chapter-21-belong-v2-green.webp"
+      ],
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-office-v2-thumb.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-office-v3-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-e4e585fa-1d3d-4e92-a185-2b8f7eca3f73.png",
+      "art": "book-three-chapter-02-office-v3-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-office",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
+    },
+    {
+      "scene": "departure",
+      "prompt": "Create ONE finished landscape narrative illustration for Defenders of the Land Book Three Chapter 2, Cleveland 1987. Match attached canonical references exactly for characters and detailed warm inked comic style, rich cel shading, expressive faces, carefully drawn environments. Reference 1 is COSTUMED Seth and Jenny on rooftop; reference 2 is CIVILIAN Seth and Jenny, Billy, Fist and Flaming Head in Billy's small cluttered office. Jenny has GREEN eyes and curly blonde hair; Seth BLUE eyes and tousled brown hair. Flaming Head is a small friendly floating orange/yellow flame HEAD ONLY with big eyes and NO human body. Billy is the very short stocky cartoon detective with enormous white eyes, tan high-collared trench coat hiding lower face and red plaid deerstalker; do not draw normal tall human detective. Fist is ONE small animated RED BOXING GLOVE with face and white cuff, no human arm or body. No text, no speech balloons, no labels, no multi-panel layout, no Laura, no Perch, no new headquarters. A quiet farewell viewed from INSIDE Billy's old office looking diagonally past civilian Seth in red hoodie and civilian Jenny in white blouse and pink skirt standing side by side at a safely open window, toward Cleveland rooftops and Lake Erie in distance at evening. Three-quarter rear views with some face profile visible. A SINGLE small Flaming Head is flying away ABOVE rooftops toward lake, recognizable orange flame face small in distance, not a fireball explosion. Window curtain securely tied well back, no fire touching building. Warm office lamplight behind pair, cool evening outside, gentle thoughtful mood. Frame only Seth Jenny and distant Flaming Head; Billy and Fist out of frame rather than invented near window. No physical contact with flame.",
+      "references": [
+        "public/assets/book-two-chapter-03-rooftop-talk-face-v2-green.webp",
+        "public/assets/book-two-chapter-21-belong-v2-green.webp"
+      ],
+      "review": "Reviewed character identity, green Jenny irises, costumes, supported injured Fist and exterior flame staging.",
+      "artBeforeIdentityCorrection": "book-three-chapter-02-departure-v1.webp",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-chapter-02-departure-v2-fh.png",
+      "generatedSource": "/workspace/generated_images/exec-bf353453-1023-48d3-8fed-741cc657ba0e.png",
+      "art": "book-three-chapter-02-departure-v2-fh.webp",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#02-departure",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
+    }
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png"
+}

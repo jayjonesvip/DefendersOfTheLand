@@ -1,0 +1,16 @@
+{
+  "book": "book-four",
+  "title": "Clash in Cleveland",
+  "version": 5,
+  "status": "Staged for author review; live cover metadata unchanged",
+  "source": "/workspace/generated_images/exec-adcf145e-ff37-4e95-ab7c-01070d0dcb57.png",
+  "original": "docs/art/originals/book-four/cover/book-four-cover-tank-lava-lips-v5.png",
+  "art": "book-four-cover-tank-lava-lips-v5.png",
+  "webArt": "book-four-cover-tank-lava-lips-web-v5.webp",
+  "prompt": "Make ONLY a lettering-color change to this existing portrait comic-book cover. The BOTTOM AUTHOR NAME 'JAY JONES' must change from yellow letter fill to vivid RED letter fill with a clear bold ROYAL BLUE BORDER/OUTLINE around EACH letter, reversing the top masthead color treatment. Use bright red fill approximately #E5292D and strong royal blue outline approximately #1464DE; a thin outer black keyline/shadow is acceptable for contrast, but RED FILL and BLUE BORDER must be clearly visible. Keep exact text 'JAY JONES', font shapes, size, position, spacing and baseline unchanged. No yellow remains inside author letters. The TOP SERIES LOGO 'DEFENDERS OF THE LAND' stays BLUE FILL with RED OUTLINE, unchanged. ALL OTHER ELEMENTS stay unchanged: red/yellow main title CLASH IN CLEVELAND, white #4 box, six characters including Lava Lips on upper-left ledge, tank, green Army ray, Cleveland skyline and street rubble. Do not add horizontal red/blue decorative stripes anywhere; those were removed and remain removed. Do not alter title, character designs, positions, lighting, colors or image framing. Same detailed warm inked painted comic style, same portrait resolution/aspect. Only author lettering becomes red with blue border.",
+  "references": [
+    "docs/art/originals/book-four/cover/book-four-cover-tank-lava-lips-v4.png"
+  ],
+  "review": "Author name is red with blue outline; series masthead stays blue with red outline. No decorative top/bottom stripes. Six-character cover includes Lava Lips; title/#4/author remain legible.",
+  "previousRecord": "docs/art/book-four-cover-lava-lips-v4.json"
+}

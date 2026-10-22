@@ -1,0 +1,95 @@
+{
+  "book": "book-four",
+  "chapter": 3,
+  "title": "Dork’s Opportunity",
+  "date": "2026-10-20",
+  "status": "Author-approved Chapter 3 illustrations integrated into reader and current manuscript exports",
+  "review": "Approved by author instruction to push Chapter 3. Tank v3 raises Jaws clearly above turret; ray, Laura and bank scenes retained. Vault theft remains for Chapter 6.",
+  "images": [
+    {
+      "number": 1,
+      "key": "ray",
+      "label": "The ray still works",
+      "status": "Approved by author for publication",
+      "source": "/workspace/generated_images/exec-dd0508cc-0508-4e96-9bdf-37af9913119a.png",
+      "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-ray-v1.png",
+      "webArt": "book-four-chapter-03-ray-v1.webp",
+      "anchorBefore": "He wiped the rings with a cloth and checked the switches.",
+      "alt": "Dork checks the intact Army ray at his workshop bench beside an empty steel toolbox.",
+      "prompt": "Create ONE new landscape 3:2 full-bleed illustrated chapter-book scene, no panels or speech balloons, rich warm detailed inked painted comic style EXACTLY matching references, Cleveland 1987. DORK / Daniel identity EXACTLY from first reference: thin elderly scientist with wild thinning WHITE-GRAY hair, enormous THICK ROUND BLACK spectacles magnifying BLUE eyes, expressive angular long-nosed face. GRAY SHIRT sleeves rolled above elbows, loose BLACK necktie, dark trousers black shoes. Small brown scorch mark at one cuff. NO white lab coat; his lab coat burned. Army shrink/enlarge ray: PORTABLE rectangular GRAY RIVETED METAL BOX, small ROUND ANALOG METER, RED and BLUE switches/buttons, TOP carrying handle, stepped COPPER-RINGED CYLINDRICAL barrel. No pistol-style sci-fi blaster, no modern screen. Close-medium three-quarter view of Daniel inspecting intact Army ray at his battered wooden workbench. Ray rests horizontally on bench, barrel points safely toward EMPTY STEEL TOOLBOX at opposite end. Daniel holds a cloth in one hand to wipe copper rings and checks a side switch with the OTHER hand. Both natural hands clearly attached, no intersections with casing. Switches OFF, no beam firing yet. He looks calculating and newly confident. Folded newspaper lies beneath small tin of screws in far bench corner, not main subject and no readable headline required. Background same relocated brick warehouse lab from first ref, tall windows in daylight, shelves crates bench lamps. Full-size olive tank parked deep background under high windows, not miniature, mostly secondary. Dork ONLY named character; exclude Jaws Laura heroes. Don't recreate newspaper-reading pose from reference, this is equipment inspection. Do NOT import white lab coat from second reference; second ref gives ONLY exact ray design. Natural perspective detailed ordinary workshop, no repaired collector no glowing coils.",
+      "references": [
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-02/book-four-chapter-02-newspaper-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-06-tank-v1.webp"
+      ]
+    },
+    {
+      "number": 2,
+      "key": "tank",
+      "label": "An eager helper",
+      "status": "Approved by author for publication",
+      "source": "/workspace/generated_images/exec-4e1c114e-37f8-48c2-8bca-64129b00acd8.png",
+      "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-tank-v3.png",
+      "webArt": "book-four-chapter-03-tank-v3.webp",
+      "anchorBefore": "Daniel took it.",
+      "alt": "Jaws carries an oilcan by its loop handle to Dork beside the tank's open driver hatch.",
+      "references": [
+        "docs/art/originals/book-four/chapter-03/book-four-chapter-03-tank-v2.png"
+      ],
+      "previousVersions": [
+        {
+          "status": "Superseded: oilcan spout was incorrectly in mouth; v2 uses loop handle",
+          "source": "/workspace/generated_images/exec-eb089f30-4186-4992-8c96-4c11680c6f8b.png",
+          "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-tank-v1.png",
+          "prompt": "Create ONE new landscape 3:2 full-bleed illustrated chapter-book scene, no panels or speech balloons, rich warm detailed inked painted comic style EXACTLY matching references, Cleveland 1987. DORK / Daniel identity EXACTLY from first reference: thin elderly scientist with wild thinning WHITE-GRAY hair, enormous THICK ROUND BLACK spectacles magnifying BLUE eyes, expressive angular long-nosed face. GRAY SHIRT sleeves rolled above elbows, loose BLACK necktie, dark trousers black shoes. Small brown scorch mark at one cuff. NO white lab coat; his lab coat burned. JAWS O' DEATH is ONE BODYLESS FLOATING male HEAD ONLY, spiky BLOND hair, expressive eyes, enormous BOLTED STEEL LOWER JAW with TRIANGULAR IRON TEETH and black side hinge plates. No neck, no shoulders, torso, limbs, hands, arms or legs. Head modest human-head scale. He now looks DELIGHTED, keen to help Daniel, NOT angry resentful or asking for a body. Scene inside same relocated brick industrial workshop: full-size olive-drab Army tank with white star parked stationary, long gun points toward CLOSED loading doors, no firing no smoke. Daniel stands on LEFT track/step beside open driver's hatch, folded paper instruction booklet on hull, leaning down with one NATURAL HUMAN hand accepting a small old-fashioned METAL OILCAN from Jaws. Jaws floats beside hatch at chest/head height, grinning eagerly around oilcan LOOP HANDLE held gently between his steel teeth; can hangs upright naturally below jaw, not impaled inside head, NO HANDS for Jaws. Other Dork hand braces hull, feet on track nonslip. Two characters ONLY; Jaws never duplicated (no mirrors/reflections) and no head emerging from human shoulders. Medium-wide view makes human-head scale versus LARGE tank clear. Workshop high windows daylight tools crates ladders; ray may stay out of frame. Show helpful eager dynamic rather than combat, Dork pleased businesslike. No troops extra crew Laura or heroes, no tiny toy tank, no neck underneath Jaws. The second reference is canonical head and shirtsleeve Dork identity, not rooftop or duplicate reflection.",
+          "references": [
+            "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-02/book-four-chapter-02-newspaper-v1.png",
+            "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-reflection-v1.webp"
+          ]
+        },
+        {
+          "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-tank-v2.png",
+          "webArt": "book-four-chapter-03-tank-v2.webp",
+          "source": "/workspace/generated_images/exec-875007fe-46da-4675-b76f-919dc5d8da43.png",
+          "prompt": "Correct ONLY the OILCAN HANDOFF in this otherwise excellent image. Preserve Dork's identity and shirtsleeves, Jaws bodyless blond head, tank, composition, workshop, natural light, booklet. Current oilcan SPOUT wrongly enters Jaws's mouth as if he is drinking from it. Remove that mouth-to-spout contact COMPLETELY. Redraw a simple small vintage cylindrical metal oilcan with a LARGE UPRIGHT LOOP CARRYING HANDLE attached securely to its TOP cap. Jaws has ONE lower triangular steel tooth gently hooked THROUGH THE LOOP HANDLE, gripping the HANDLE ONLY. The can HANGS UPRIGHT directly BELOW his jaw by this loop, no floating unsupported object. The spout projects diagonally down/sideways AWAY FROM HIS FACE toward empty space and stays well clear of mouth. Daniel's extended hand reaches to accept the can by its body from BELOW, thumb/fingers curled naturally around side, not blocking visible loop-to-tooth connection. Show two separate supports clearly: Jaws tooth through loop, Dork hand taking can body. Jaws remains cheerful, no arm neck body or hand added to him. No liquid or drinking. If necessary shift can closer beneath Jaws and adjust only Dork's reaching forearm/hand, leave other hand braced on tank. Detailed warm inked comic illustration 3:2 same style. Essential simple physical clarity, mouth holds LOOP and NOT SPOUT.",
+          "references": [
+            "docs/art/originals/book-four/chapter-03/book-four-chapter-03-tank-v1.png"
+          ],
+          "status": "Superseded by author request: Jaws looked attached to turret; raise head for clear air gap"
+        }
+      ],
+      "promptRecord": "docs/art/book-four-chapter-03-tank-v3-prompt.json",
+      "review": "Jaws now hovers with a broad visible gap above the turret. Oilcan and Dork reaching hand move upward with him. Earlier versions preserved."
+    },
+    {
+      "number": 3,
+      "key": "excuse",
+      "label": "Something worth burning",
+      "status": "Approved by author for publication",
+      "source": "/workspace/generated_images/exec-5b377d1f-b210-4156-b15e-520299c382a0.png",
+      "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-excuse-v1.png",
+      "webArt": "book-four-chapter-03-excuse-v1.webp",
+      "anchorBefore": "For a moment he studied her. She kept her eyes on his, although she wanted to look away from the target.",
+      "alt": "Laura folds her arms and avoids demonstrating her plasma while Dork indicates a steel target and Jaws encourages her.",
+      "prompt": "Create ONE new landscape 3:2 full-bleed illustrated chapter-book scene, no panels or speech balloons, rich warm detailed inked painted comic style EXACTLY matching references, Cleveland 1987. DORK / Daniel identity EXACTLY from first reference: thin elderly scientist with wild thinning WHITE-GRAY hair, enormous THICK ROUND BLACK spectacles magnifying BLUE eyes, expressive angular long-nosed face. GRAY SHIRT sleeves rolled above elbows, loose BLACK necktie, dark trousers black shoes. Small brown scorch mark at one cuff. NO white lab coat; his lab coat burned. JAWS O' DEATH is ONE BODYLESS FLOATING male HEAD ONLY, spiky BLOND hair, expressive eyes, enormous BOLTED STEEL LOWER JAW with TRIANGULAR IRON TEETH and black side hinge plates. No neck, no shoulders, torso, limbs, hands, arms or legs. Head modest human-head scale. He now looks DELIGHTED, keen to help Daniel, NOT angry resentful or asking for a body. An uneasy demonstration that DOES NOT HAPPEN, inside relocated brick workshop in daylight, NOT rooftop. Three characters, each ONCE. Laura/Lava Lips center-left in waist-up or knee-up ordinary narrative framing: BROWN eyes, curly BROWN hair tied in PONYTAIL, BLACK domino eye mask, opaque BLACK long-sleeved full bodysuit with RED/ORANGE/YELLOW flame FABRIC side panels, BLACK gloves, open dark coat. Match second reference but relaxed practical modest costume fit, no exaggerated curves, no glamour/pinup framing. Laura folds her arms, chin raised in defensive confidence, small uneasy look around eyes as she gives an excuse. Her lips normal, NO FIRE NO plasma spit NO visible power at all. At right Daniel in shirtsleeves gestures toward a flat STEEL OFFCUT propped safely against brick wall in a cleared floor area, an expectant mildly impatient expression; he does not know she is weakened. Jaws floats to Laura's side at face height, grinning admiringly and encouraging her to demonstrate, no menace toward her. Small metal target must be plain and UNBURNED, nothing struck. Existing WORKSHOP setting benches tools, tank a subdued background silhouette if needed. No rebuilt collector, no ropes, no injuries, no friendly heroic Laura redemption. Strong readable triangular staging captures her trapped-by-expectations expression. No speech balloons or text. SECOND reference supplies exact Laura/Jaws design only, DO NOT import rooftop dusk, broken collector or Laura hands-on-hips pose; new folded-arms defensive posture.",
+      "references": [
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-02/book-four-chapter-02-newspaper-v1.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-allies-v1.webp"
+      ]
+    },
+    {
+      "number": 4,
+      "key": "bank",
+      "label": "Choosing the bank",
+      "status": "Approved by author for publication",
+      "source": "/workspace/generated_images/exec-4dbe9d19-2a2c-40b8-b936-929708ee3bf2.png",
+      "original": "docs/art/originals/book-four/chapter-03/book-four-chapter-03-bank-v1.png",
+      "webArt": "book-four-chapter-03-bank-v1.webp",
+      "anchorBefore": "The delivery doors began closing.",
+      "alt": "Dork studies a bank under renovation and its freestanding vault from a bus stop across the street.",
+      "prompt": "Create ONE new landscape 3:2 full-bleed illustrated chapter-book scene, no panels or speech balloons, rich warm detailed inked painted comic style EXACTLY matching references, Cleveland 1987. DORK / Daniel identity EXACTLY from first reference: thin elderly scientist with wild thinning WHITE-GRAY hair, enormous THICK ROUND BLACK spectacles magnifying BLUE eyes, expressive angular long-nosed face. GRAY SHIRT sleeves rolled above elbows, loose BLACK necktie, dark trousers black shoes. Small brown scorch mark at one cuff. NO white lab coat; his lab coat burned. FINAL CHAPTER IMAGE: Daniel quietly studying a BANK from ACROSS A CITY STREET in ordinary afternoon daylight. New exterior camera eye-level medium-wide three-quarter rear/SIDE view. Daniel stands in LEFT foreground next to period BUS STOP sign and posted PAPER timetable, one hand holding SMALL POCKET NOTEBOOK, other hand pencil writing bank's name. Profile of enormous round glasses and thin smile visible; back/body ordinary modest silhouette, no action pose. He wears same gray rolled-sleeve shirt black tie dark trousers, NO lab coat, no disguise, no gadgets in hands except notebook/pencil. He has NOT stolen anything. Across clearly visible two-lane street in RIGHT/deep background, period red brick/stone neighborhood bank with simple readable sign 'BANK', scaffolding upper windows indicating renovation. Adjacent annex has large DELIVERY DOORS partly OPEN; inside doorway a FREESTANDING RECTANGULAR STEEL VAULT/strongroom is visible on a raised STEEL TRANSPORT FRAME, with visible gap BELOW and CLEARANCE BETWEEN vault's sides and building brick walls. Vault enclosed steel floor/walls/roof and closed thick front door, not masonry room integrated into building, not money in public. One ordinary BANK GUARD and employee inside annex closing vault while worker wheels EMPTY PALLET TRUCK away, small background figures. Daniel studies doorway unobtrusively from PUBLIC sidewalk, bus stop gives ordinary reason to stand there. Keep physical perspective coherent, building across road rather than Dork touching vault; scene foreshadows FANTASTICAL future whole-vault theft but shows no attack, NO ray, NO tank, NO Jaws, NO Laura or heroes, no miniature vault, no money flying. Classic Cleveland 1987 street lamps parked period cars, no modern screens/phones. Focus is patient calculating villain selecting target, warm afternoon light contrasts with darker interior annex.",
+      "references": [
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-02/book-four-chapter-02-newspaper-v1.png"
+      ]
+    }
+  ]
+}

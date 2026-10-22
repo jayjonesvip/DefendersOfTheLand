@@ -1,0 +1,44 @@
+{
+  "status": "Both covers generated and visually reviewed; book titles confirmed by author; artwork review pending",
+  "originalTankCoverPreserved": "docs/art/originals/book-three/cover/book-three-cover-clash-in-cleveland-v1.png",
+  "covers": [
+    {
+      "book": "book-three",
+      "prompt": "Create a polished PORTRAIT comic-book front cover approximately 1024x1536, matching the rich warm detailed inked painted comic style and professional bold typography of the FIRST reference but with a completely NEW ROOFTOP COMPOSITION, NOT the tank street scene. Exact crisp readable cover text: top 'DEFENDERS OF THE LAND'; top-right issue badge '#3'; big exciting red/orange/gold title 'LAVA LIPS'; bottom 'JAY JONES'. This is Book Three, Laura's rooftop collector story, Cleveland 1987. FOUR characters exactly, each appears ONCE: 1) Main foreground heroine/antihero LAVA LIPS / Laura, adult woman brown eyes, curly brown ponytail, BLACK domino eye mask, fitted opaque BLACK long sleeve bodysuit with RED ORANGE YELLOW FLAME FABRIC SIDE PANELS, black gloves and boots, dark open coat blowing in rooftop wind. Beautiful strong expressive face, resolute but conflicted looking toward Flaming Head. Her normal lips are NOT on fire. 2) DORK, older scientist with wild thinning white-gray hair, HUGE THICK ROUND glasses magnifying eyes, stained off-white lab coat gray shirt dark tie, at the collector's side controls with calculating triumphant expression. 3) JAWS is ONE BODYLESS FLOATING BLOND MALE HEAD with bolted steel lower jaw and triangular iron teeth, no neck shoulders torso arms or legs. Hovering near Dork, watchful dangerous expression. 4) FLAMING HEAD is ONE expressive orange/yellow FLAMING FACE only, NO human body neck arms legs. Hovering near the brass mouth of collector on the rooftop, warm bright flame and alarmed determined expression, an arc of orange energy curls from his flame toward the intake. Keep his recognizable whole face OUTSIDE the machine, do not duplicate him inside glass or in sky. Main visual action is the COLLECTOR threatening this little flame, with Laura caught between allegiance and concern. Collector must match second reference exactly in identity: FULL-SIZE WHEELED STEEL TROLLEY holding horizontal transparent GLASS cylinder encircled by EXACTLY THREE copper coil hoops, a flared BRASS FUNNEL at one end and a rectangular side CONTROL BOX with TWO ROUND ANALOG METERS, red/black switches, a black supply cable. Glowing orange captured energy inside glass but NO second face. Collector occupies prominent middle/lower cover, Dork stands at side controls and Jaws floats nearby; Laura is dominant foreground figure to one side, not hidden behind machine. Rooftop industrial annex setting from second reference: intact tall red-brick neighboring wall along left, bricked-up old window, small roof stairhouse and low ventilation housing, low parapet, Cleveland skyline with Terminal Tower distant in sunset. Dramatic rooftop wind, glowing coils, vivid atmosphere, clear visual hierarchy and ample readable title space. A symbolic cover confrontation, no graphic injury. Laura UNBOUND, no cure or amnesia shown. Absolutely NO TANK, NO handheld shrink ray, NO Seth, NO Pink Blur, NO boxing glove, NO detective, NO extra characters, NO modern screens. First reference is typography/style and identities only; remove its street battle entirely. Second reference is the canonical collector, rooftop and Laura/Dork/Jaws designs; third gives exact Flaming Head face identity. Maintain costume colors and bodyless designs. All four characters must remain clearly recognizable and title unobstructed.",
+      "references": [
+        "docs/art/originals/book-three/cover/book-three-cover-clash-in-cleveland-v1.png",
+        "docs/art/originals/book-three/chapter-10/book-three-chapter-10-layout-v1.png",
+        "docs/art/originals/book-three/chapter-06/book-three-chapter-06-retreat-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-46983b86-e442-4ff8-bb9d-df6a2c3f07b5.png",
+      "original": "docs/art/originals/book-three/flaming-head-approved-v1/book-three-cover-rooftop-v2.png",
+      "art": "book-three-cover-rooftop-v2.png",
+      "webArt": "book-three-cover-rooftop-web-v2.webp",
+      "review": "Four characters only: Laura in black flame-pattern costume and mask; Dork with huge round glasses; bodyless blond steel-jawed Jaws; one bodyless Flaming Head. Rooftop, three-coil glass collector with brass intake and twin analog meters, orange energy flow. No tank, Army ray or other Defenders. #3, title and author readable.",
+      "title": "Lava Lips",
+      "titleStatus": "Author confirmed",
+      "artBeforeIdentityCorrection": "book-three-cover-rooftop-v1.png",
+      "originalBeforeIdentityCorrection": "docs/art/originals/book-three/cover/book-three-cover-rooftop-v1.png",
+      "generatedSourceBeforeIdentityCorrection": "/workspace/generated_images/exec-952abecc-d4b6-4f55-ab80-e4cbcf1053c5.png",
+      "identityCorrection": "docs/art/book-three-flaming-head-identity-corrections.json#cover",
+      "activeIdentityReference": "public/assets/character-flaming-head-v1.png"
+    },
+    {
+      "book": "book-four",
+      "prompt": "Edit this existing illustrated portrait book cover, preserving its excellent composition, detailed warm inked comic style, typography, colors and all central action. Change ONLY the following: 1) Change the top-right issue badge from '#3' to '#4', matching its exact bold black type and white badge style. 2) COMPLETELY REMOVE Lava Lips/Laura, the black-costumed brown-haired woman on the upper LEFT rooftop beside the title. Replace her entire silhouette, hair and all costume parts with coherent empty rooftop/building architecture and sky in the same perspective. No other woman or figure replaces her. 3) COMPLETELY REMOVE Flaming Head, the orange flaming face in the upper RIGHT sky beside the title, including his face, flame halo and stray embers. Replace with matching clear blue/golden sky, clouds and city architecture where needed. There must be NO floating flame face or ghost and NO Laura anywhere. PRESERVE exactly the series text 'DEFENDERS OF THE LAND', title 'CLASH IN CLEVELAND', author 'JAY JONES', Dork with his thick round glasses holding the gray rectangular copper-barrel shrink ray in the olive-drab tank, the bodyless blond iron-jawed Jaws head, Seth with red mask blue suit red Z, blonde white-masked Pink Blur in pink-and-white costume, and the one floating red boxing glove with compact tucked thumb and white cuff. Keep Terminal Tower skyline and dramatic confrontation. Five characters total only. No other additions or changes; sharp professional full front cover, same portrait aspect and size.",
+      "references": [
+        "docs/art/originals/book-three/cover/book-three-cover-clash-in-cleveland-v1.png"
+      ],
+      "generatedSource": "/workspace/generated_images/exec-576f6109-7ba4-49f7-9f39-483a06db64d2.png",
+      "original": "docs/art/originals/book-four/cover/book-four-cover-tank-v1.png",
+      "art": "book-four-cover-tank-v1.png",
+      "webArt": "book-four-cover-tank-web-v1.webp",
+      "review": "Precise edit preserves street confrontation, Dork, box-shaped Army ray, tank, Jaws, Seth, Pink Blur and Fist. Badge reads #4. Laura and Flaming Head removed completely, with coherent architecture and sky reconstructed. Title and author preserved.",
+      "title": "Clash in Cleveland",
+      "titleStatus": "Author confirmed"
+    }
+  ],
+  "activeFlamingHeadIdentityReference": "public/assets/character-flaming-head-v1.png",
+  "bookFourLatestDirection": "October 20, 2026: match Book One cover identity: gold/red dimensional masthead, circular #4 badge, cream serif subtitle and author, vintage print texture. Hero-led composition reflects Book Four victory; retain Lava Lips, Dork, Jaws and tank. Active v8 with corrected Fist thumb: docs/art/book-four-cover-series-v8.json. No Book One or Book Three cover change.",
+  "bookFourLatestCorrection": "Author-approved v8 is active: Fist-O-Mite’s compact thumb is on the lower edge with his rear cuff retained. See docs/art/book-four-cover-series-v8.json."
+}

@@ -22,6 +22,8 @@
   "printer": "amazon-kdp",
   "paper": "standard-color-white",
   "bleedInches": 0.125,
-  "interiorPageCount": 72,
-  "pageCountIsProvisional": true
+  "pageCountIsProvisional": true,
+  "interiorPdf": "book-two-kdp-interior.pdf",
+  "includePdfLinks": false,
+  "spineTextBoundsFactor": 1.104
 }

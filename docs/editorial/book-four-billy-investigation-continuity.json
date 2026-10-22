@@ -1,0 +1,22 @@
+{
+  "status": "Author-approved for publication",
+  "authorDirection": "Entire old laboratory building vanished through shrinking and relocation; Billy connects newspapers about ray, tank, building and vault. Insert interim chapter before powers return.",
+  "chapter": 7,
+  "title": "Something Big",
+  "nextChapter": {
+    "number": 8,
+    "title": "What He Left Them",
+    "event": "Powers return"
+  },
+  "relatedRevisions": [
+    {
+      "file": "content/books/book-three/chapter-06.json",
+      "change": "Show complete laboratory building shrunk, carried and restored; keep existing six illustration anchors."
+    },
+    {
+      "file": "content/books/book-four/chapter-03.json",
+      "change": "Dork chooses a separate vault to avoid taking another whole building, consistent with building-scale shrinking."
+    }
+  ],
+  "publishing": "Chapter 7 available; whole-building continuity revisions integrated in Book Three Chapter 6 and Book Four Chapter 3."
+}

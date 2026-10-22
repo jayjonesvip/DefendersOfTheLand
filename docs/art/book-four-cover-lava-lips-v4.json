@@ -1,0 +1,22 @@
+{
+  "book": "book-four",
+  "title": "Clash in Cleveland",
+  "version": 4,
+  "status": "Staged for author review; live cover metadata unchanged",
+  "source": "/workspace/generated_images/exec-47d84f84-e2af-463a-b371-a9b3a0324885.png",
+  "original": "docs/art/originals/book-four/cover/book-four-cover-tank-lava-lips-v4.png",
+  "art": "book-four-cover-tank-lava-lips-v4.png",
+  "webArt": "book-four-cover-tank-lava-lips-web-v4.webp",
+  "prompt": "Edit ONLY the TOP SERIES LOGO lettering 'DEFENDERS OF THE LAND' on this existing portrait comic cover: change ALL its letter FILL from yellow to a vivid saturated ROYAL BLUE, and give every letter a clearly visible bold RED BORDER/OUTLINE. Apply to ALL words including small 'OF THE'. Keep EXACT wording 'DEFENDERS OF THE LAND', same font, letter shapes, sizes, positions, perspective and composition. Use blue fill approx #1464DE with solid bright red outline approx #E5292D, optionally a THIN outer black keyline/drop shadow for legibility, but BLUE letters and RED border must dominate. No yellow fill remaining in top series logo. Preserve sky naturally behind lettering, no decorative horizontal stripes or banners. Preserve EVERYTHING ELSE: white issue '#4' box black numerals, red 'CLASH', yellow/red 'CLEVELAND', 'IN', yellow author 'JAY JONES', all six characters including Lava Lips on left rooftop, green ray, tank, Cleveland skyline and debris. Keep top and bottom free of decorative red/blue stripes as in reference; do not add ornaments or bars. No character or art changes. Same warm detailed inked comic style portrait aspect/resolution. Only recolor series masthead to blue with red border.",
+  "references": [
+    "docs/art/originals/book-four/cover/book-four-cover-tank-lava-lips-v3.png"
+  ],
+  "review": "Blue series lettering with red border; top/bottom decorative stripes removed; six-character cover with Lava Lips retained; all title, issue and author text legible.",
+  "previousRevision": {
+    "version": 3,
+    "original": "docs/art/originals/book-four/cover/book-four-cover-tank-lava-lips-v3.png",
+    "source": "/workspace/generated_images/exec-ccaeecde-0051-4ba3-bad8-b717ee24de9b.png",
+    "prompt": "Perform a narrow cleanup edit of this existing comic-book cover. REMOVE ALL decorative horizontal RED AND BLUE STRIPES/BARS and their BLACK OUTLINES at TWO locations: 1) across the TOP behind and to the left/right of the yellow 'DEFENDERS OF THE LAND' series logo, including ANY fragments or odd red/blue shapes visible behind/around the small words 'OF THE'; 2) along the BOTTOM on BOTH sides of yellow author name 'JAY JONES'. Reconstruct natural matching BLUE SKY and CLOUDS behind the TOP stripe locations, with absolutely no decorative colored bars remaining. Reconstruct matching STREET RUBBLE/STONE/SHADOW artwork behind the BOTTOM stripe locations, leaving the author's name floating cleanly over the illustration. Clean any visual clutter immediately behind 'OF THE' so the words are sharp and readable with normal consistent black letter outline, no random shapes or distorted background. PRESERVE EXACT existing wording, shapes, colors and placement of ALL TEXT: 'DEFENDERS OF THE LAND', '#4' inside white issue box, 'CLASH IN CLEVELAND', 'JAY JONES'. Keep comic lettering and its black outlines intact; only remove decorative stripes, not RED title letters or BLACK text strokes. Preserve entire rest of cover: Laura/Lava Lips on left rooftop with black mask brown ponytail black flame-sided costume, Pink Blur, blue/red Zerdo, one floating red glove with rear white cuff, Dork holding green-firing ray atop tank, bodyless blond iron-jawed head, olive Army tank, Terminal Tower Cleveland skyline, dust and street debris. SIX characters unchanged, no additions or removals, no character redesign or new effects. Maintain same polished detailed warm inked comic style, portrait dimensions, image resolution and composition. This is solely a decorative-bar removal and small-series-text cleanup, no new banners/frames/ornaments to replace the stripes.",
+    "changes": "Removed red/blue decorative top and bottom stripes and cleaned background behind OF THE."
+  }
+}

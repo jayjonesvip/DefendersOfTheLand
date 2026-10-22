@@ -7,7 +7,10 @@
   "webCopy": "public/assets/book-two-cover-web-v6-aftershock.webp",
   "paperbackBackPanel": {
     "file": "docs/art/book-two-aftershock-back.png",
-    "dimensions": [1800, 2700],
+    "dimensions": [
+      1800,
+      2700
+    ],
     "source": "print/book-two-cover.json and scripts/cover-layout.py",
     "note": "Separate back panel with existing repository copy and illustration. Author will handle final paperback sizing, spine, barcode and upload."
   },
@@ -16,5 +19,10 @@
     "Add a left-side #2 badge matching Book One"
   ],
   "note": "Generated lettering edit, visually reviewed; not a claim of pixel-identical preservation outside lettering. Previous original assets retained. Paperback geometry remains provisional.",
-  "prompt": "Use case: text-localization. Edit Image 1 (Book Two basement cover); Image 2 is ONLY a typography/layout reference from Book One. Preserve Image 1 artwork, all characters, faces, eye colors (woman green eyes, hero blue eyes), poses, clothes, restraints, cage/glove, machinery, pipes, lighting, colors, textures, composition, main yellow/red DEFENDERS OF THE LAND title and JAY JONES author credit exactly. Change ONLY two lettering elements: replace the cream subtitle BOOK TWO with AFTERSHOCK, spelled A F T E R S H O C K, using matching cream bold serif type at the same position beneath main title. Keep subtitle clear and centered with the existing rules adjusted as necessary. Add a cream circular badge with black outline and bold black #2 on the LEFT side just below the main title, matching Image 2's #1 badge style and approximate relative size/position (around x85,y305 on 1024x1536). Keep badge entirely on dark background, away from character heads and subtitle. Do not import any artwork or characters from Image 2. Do not redraw or restyle artwork. Full flat front cover only, same 2:3 portrait dimensions, no mockup, no new text."
+  "prompt": "Use case: text-localization. Edit Image 1 (Book Two basement cover); Image 2 is ONLY a typography/layout reference from Book One. Preserve Image 1 artwork, all characters, faces, eye colors (woman green eyes, hero blue eyes), poses, clothes, restraints, cage/glove, machinery, pipes, lighting, colors, textures, composition, main yellow/red DEFENDERS OF THE LAND title and JAY JONES author credit exactly. Change ONLY two lettering elements: replace the cream subtitle BOOK TWO with AFTERSHOCK, spelled A F T E R S H O C K, using matching cream bold serif type at the same position beneath main title. Keep subtitle clear and centered with the existing rules adjusted as necessary. Add a cream circular badge with black outline and bold black #2 on the LEFT side just below the main title, matching Image 2's #1 badge style and approximate relative size/position (around x85,y305 on 1024x1536). Keep badge entirely on dark background, away from character heads and subtitle. Do not import any artwork or characters from Image 2. Do not redraw or restyle artwork. Full flat front cover only, same 2:3 portrait dimensions, no mockup, no new text.",
+  "reconciliation": {
+    "date": "2026-10-22",
+    "publicationMetadata": "Preserved from current main: Aftershock, Published, Kindle and paperback ASINs/URLs.",
+    "printGeometry": "Replacement wrap now measures book-two-kdp-interior.pdf; the separate back panel remains preserved source artwork. Print proofing remains pending."
+  }
 }

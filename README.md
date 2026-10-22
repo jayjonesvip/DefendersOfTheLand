@@ -2,11 +2,11 @@
 
 Book Two’s narrative is complete through Chapter 21, **Tomorrow**, in `content/books/book-two/`. Jenny’s checked reporting exposes the limits of Daniel’s electricity demonstration; the remaining campaign unravels, Eleanor loses and publicly coins “Doc Dork,” and she ends Daniel’s support. Daniel and Luke’s whereabouts remain unknown. The book closes with the Defenders together in Billy’s office and Seth expected back tomorrow.
 
-All 21 available chapters appear in `book.json` order in the web reader and private EPUB export. Manuscript completion is separate from publication: Book Two is **unpublished**, with no Kindle or paperback purchase link. The current front cover v6-aftershock adds the #2 series badge and Aftershock subtitle; v5-green and earlier versions are preserved. The paperback wrap’s dimensions and 72-page assumption remain provisional until a Book Two interior build establishes the final page count.
+All 21 available chapters appear in `book.json` order in the web reader and private EPUB export. Book Two, **Aftershock**, is **published** on [Kindle](https://www.amazon.com/dp/B0HNFGZ9WM) and in [paperback](https://www.amazon.com/dp/B0HNFGR781). The current front cover v6-aftershock adds the #2 series badge and Aftershock subtitle; earlier versions remain preserved. Repository publishing builds are replacement-edition candidates; the measured cover/interior pair still requires print proofing before a new KDP upload.
 
 Chapter 21 has six separate illustrations, preserved original PNGs, optimized WebPs, exact production prompts and descriptive alt text. See [the final continuity sweep](docs/editorial/book-two-final-sweep.md), [continuity notes](docs/editorial/book-two-continuity.md) and [art provenance](docs/art/book-two-chapter-21-prompts.json). Chapter 20’s detached ankle cuff is now explicitly opened and removed from Seth’s boot before he stands. Book One remains finished and locked; its sources and artwork are unchanged.
 
-Book Two is titled **Book Two: Aftershock**. Per-book completion, saved positions and resume links stay separate. Historical audit and deferred-draft documents retain their original scope and are superseded by the current manuscript and final sweep where indicated.
+Book Two is titled **Aftershock**; `book.json` stores the title without a volume prefix because the reader and SEO generator add the book number. Per-book completion, saved positions and resume links stay separate. Historical audit and deferred-draft documents retain their original scope and are superseded by the current manuscript and final sweep where indicated.
 
 The illustrated web reader for **Book One: Origins**, by Jay Jones.
 
@@ -29,7 +29,7 @@ npm run preview
 
 Open http://localhost:4175. On Linux, use `npx playwright install --with-deps chromium` to install browser system dependencies too.
 
-`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF and both books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
+`npm run build` generates and validates the 24 Book One PDFs, Book Two’s illustrated review PDF, Book Three’s measured paperback interior and wrap, Book Four’s illustrated review PDF, and all four books’ EPUBs, creates the combined three-chapter samples, moves complete editions to `output/publishing/`, then builds the site in `dist/`. Only the sample PDF and EPUB are deployed. `npm test` checks download hashes, local links, exact chapter prose, navigation, image loading, reading progress, and desktop/mobile layouts, including EPUB chapters at large text sizes. PDF validation checks every manuscript passage, page bounds, missing illustrations, and text overlapping artwork. GitHub builds also require EPUBCheck 5.4.0 to pass before deploying.
 
 Optional environment variables: `PDF_PYTHON` selects a Python executable; `BOOK_CHROMIUM` selects a Chromium browser executable; `SITE_URL` overrides the canonical site URL; the default is `https://clevelandsuperheroes.com` from `content/site.json`. Every site build generates the sitemap, robots.txt, metadata and custom-domain CNAME. Windows builds also detect installed Chrome or Edge. `npm run build:site` rebuilds HTML using previously generated PDFs; `npm run build:pdfs` regenerates the publishing editions and public samples.
 
@@ -114,11 +114,11 @@ The current front cover is `public/assets/book-two-cover-v6-aftershock.png`; its
 
 Separate paperback artwork is available as `public/assets/book-two-cover-v6-aftershock.png` (front) and `docs/art/book-two-aftershock-back.png` (back panel, 1800 × 2700 pixels). These are panel artwork, not a final sized wrap. The author will handle final paperback layout and upload.
 
-The current wrap is **provisional**: 6 × 9 inches, standard color on white paper, 0.125-inch exterior bleed, and an explicit 72-page assumption. Its spine is 0.162144 inches and the complete wrap is 12.412144 × 9.25 inches. Book Two’s narrative is complete; its interior has not been paginated for a final print edition, so this is not a final interior page count. No spine lettering is used at this width. A 2 × 1.2-inch blank barcode area is reserved on the back. Text is vector-based and the front remains uncropped within safe margins.
+The replacement wrap is **provisional pending print proofing**: 6 × 9 inches, standard color on white paper, 0.125-inch exterior bleed, and a non-bleed interior. `interiorPdf` points to `book-two-kdp-interior.pdf`; each build measures its even page count and hashes that exact PDF into `book-two-print-specifications.json`. Spine width is the measured page count × 0.002252 inches; wrap width is 12.25 inches plus the spine, and height is 9.25 inches. The obsolete 72-page assumption is removed. A 2 × 1.2-inch blank barcode area is reserved on the back. Text is vector-based and the front remains uncropped within safe margins.
 
-Run `python scripts/build-paperback-cover.py --book book-two` to recreate the current wrap. Once the final interior is paginated, update `interiorPageCount` in its configuration and set `pageCountIsProvisional` to `false`. For a one-off final-count export, use `--pages ACTUAL_EVEN_COUNT --final`; update the configuration too so subsequent builds keep that count. The current standard-color configuration requires at least 72 pages.
+Run `npm run build` to paginate the current manuscript before building the matching cover, or `npm run build:epub` to regenerate the EPUB and measured paperback pair. `python scripts/build-paperback-cover.py --book book-two` requires that interior to exist and measures it again; `--pages` is rejected for measured covers. Keep `pageCountIsProvisional` true until print proofing is complete. The preserved separate back-panel PNG is source/reference artwork, not a substitute for the generated wrap with its spine, bleed and reserved barcode area.
 
-The approved source is 1024 × 1536 pixels, about 186 DPI at its 5.5 × 8.25-inch placement. The print copy is resampled to 1650 × 2475 pixels for 300-DPI placement; resampling preserves the approved composition but does not recover detail. Inspect KDP Print Previewer and order a physical proof before publication. The generated print copy is excluded from Git and rebuilt from the approved original.
+The approved source is 1024 × 1536 pixels, about 186 DPI at its 5.5 × 8.25-inch placement. The print copy is resampled to 1650 × 2475 pixels for 300-DPI placement; resampling preserves the approved composition but does not recover detail. Inspect KDP Print Previewer and order a physical proof before publication. The generated print copy is excluded from Git and rebuilt from the approved original. The October 22 reconciliation build measured 122 interior pages, a 0.274744-inch spine and a 12.524744 × 9.25-inch wrap. Geometry, file hashes, embedded fonts, margins and spine clearance passed. Some existing interior illustrations measured below 300 DPI (minimum approximately 233 DPI), so the replacement remains provisional; geometry verification is not a print-quality approval.
 
 Book Two secret-identity constraints are recorded in [the continuity notes](docs/editorial/book-two-continuity.md). As of Chapter 15, Daniel and Luke do not know Jenny is Pink Blur; Daniel expects Billy to summon the Defenders for a missing reporter.
 
@@ -133,4 +133,53 @@ PR #5’s focused correction pass moves the captive exchange into Chapter 19, fi
 
 The PDF follows `book.json` order and includes only available chapters, retaining their original numbers when unavailable entries leave gaps. The site builder applies the same ordering validation; neither requires the filtered chapters to be numbered consecutively.
 
-`npm run build` now also produces the full illustrated review PDF at `output/publishing/defenders-of-the-land-book-two-illustrated.pdf`. GitHub Actions includes it and `book-two-pdf-build.json` in the existing **kdp-publishing-files** artifact on each PR/main build. The report records the actual rendered page count, chapter starts, 57 interior illustrations, validated passages and SHA-256. The PDF includes its front cover, title and contents pages; this count is distinct from an approved paperback interior count. Its 6 × 9 review layout and the existing cover-wrap assumptions remain provisional. The full PDF is private and adds no public download or purchase link. Book One’s PDF exporter is unchanged.
+`npm run build` now also produces the full illustrated review PDF at `output/publishing/defenders-of-the-land-book-two-illustrated.pdf`. GitHub Actions includes it and `book-two-review-pdf-build.json` in the existing **kdp-publishing-files** artifact on each PR/main build. The report records the actual rendered page count, chapter starts, 57 interior illustrations, validated passages and SHA-256. The PDF includes its front cover, title and contents pages; this count is distinct from an approved paperback interior count. Its 6 × 9 review layout remains provisional. A separate `book-two-kdp-interior.pdf` excludes the cover, includes copyright and printed contents page numbers, and receives even-page padding; `book-two-pdf-build.json` describes this paperback interior. Cover geometry uses that paperback PDF, never the review PDF. Both stay private; existing Amazon purchase links remain available. Book One’s PDF exporter is unchanged.
+
+## Book Three paperback build
+
+Flaming Head’s author-approved identity is the isolated `public/assets/character-flaming-head-v1.png` portrait. Use it as the primary reference for new art, including concerned or frightened expressions. See `docs/art/flaming-head-approved-identity.json`; later scene illustrations do not replace this reference.
+
+`npm run build` (or `npm run build:pdfs`) paginates every available Book Three chapter, validates its text and illustrations, and then builds the cover against that exact interior PDF. Adding a chapter to the book metadata automatically changes pagination and spine width; there is no page-count setting to maintain.
+
+Edit `print/book-three-cover.json` for the back-cover hook, blurb, illustration, paper and spine title. The front uses the **Lava Lips** rooftop cover; the earlier #3 tank cover remains preserved as an original. The tank scene moves to Book Four, **Clash in Cleveland**, with Laura and Flaming Head removed from that cover. Current printing settings are 6 × 9 inches, standard color on white paper, a non-bleed interior and 0.125-inch cover bleed. Spine width is the measured interior page count × 0.002252 inches. The paperback interior excludes the cover and receives one blank end page when needed for an even count. Spine lettering appears only when its width permits safe text.
+
+Every build retains these files in `output/publishing/` and the private **kdp-publishing-files** GitHub Actions artifact:
+
+- `book-three-kdp-interior.pdf` and `book-three-pdf-build.json`
+- `book-three-kdp-cover.pdf` (full back, spine and front wrap)
+- `book-three-front-cover.pdf` and `book-three-back-cover.pdf`
+- `book-three-kdp-cover-preview.png` and `book-three-print-specifications.json`
+- `book-three-preflight.json` and `book-three-upload-guide.txt`
+
+Book Three publishing builds automatically run `scripts/preflight-book-three.py`. The paperback has measured contents-page numbers and no interactive links, annotations or bookmarks; EPUB navigation remains interactive. Preflight checks the measured trim/spine/wrap, image resolution at placement, embedded fonts, safe margins, spine-text clearance and matching file hashes. The narrow spine uses conservative full-font bounds. Front artwork is preserved and resampled into a 300-DPI placement file; its native detail is approximately 186 DPI at that size. KDP Print Previewer and a physical proof remain necessary, especially for cover sharpness and color. The upload guide records the exact paperback/Kindle files, settings, ISBN/barcode handling and AI-content disclosure reminder.
+- The full EPUB and its JPEG ebook cover
+
+The specifications record the interior filename, checksum, measured pages, spine and wrap dimensions, and reserved barcode area. Builds check those against the interior and exercise cover growth at 72, 80, 160 and 320 pages. Full publishing PDFs remain separate from public samples. `npm run build:site` rebuilds only the website; it does not repaginate publishing files.
+
+The fourteen-chapter Book Three manuscript is complete. Print dimensions track each current build; review the generated files and KDP proof before publication. The 1024 × 1536 front source is preserved and resampled to 300-DPI placement without adding original detail.
+
+
+## Book Four reader and publishing flow
+
+**Book Four: Clash in Cleveland** is in progress. Chapters 1–7, **Something’s Wrong**, **Not Fast Enough**, **Dork’s Opportunity**, **More Power**, **Into the Light**, **The Missing Vault** and **Something Big**, are available from the home page, Books page and `book-four.html`; their readers are `book-four-chapter-1.html`, `book-four-chapter-2.html`, `book-four-chapter-3.html`, `book-four-chapter-4.html`, `book-four-chapter-5.html`, `book-four-chapter-6.html` and `book-four-chapter-7.html`. The six-character #4 tank cover v8 with corrected Fist-O-Mite thumb matches Book One’s dimensional gold/red masthead, cream serif subtitle/author and vintage comic texture. It includes Lava Lips and foregrounds the Defenders to reflect Book Four’s heroic victory, across the site, illustrated PDF and EPUB. Chapter 1 art uses call v2, corrected beam v2, jack v6 with the Billy/Fist corrections, and aftermath v1. The rear-view jack image is retained as an unused alternate.
+
+Add future chapters in `content/books/book-four/`, list them in `book.json` in reading order and set `available: true` when ready for the reader and exports. Keep unwritten chapters in the editorial outline. The reader, contents, progress tracking, EPUB and PDF use the same available chapter list.
+
+Chapter 11, **Clash at the Tower**, is now drafted for review: 629 words and six illustrations, continuing directly from Chapter 10’s arrest scene into Fist and Jaws’s aerial fight, then Zerdo knocking Dork’s shot away from Terminal Tower. It is included in the local reader as `book-four-chapter-11.html` and current Book Four review PDF/EPUB exports. Art prompts, references and preserved originals are recorded in `docs/art/book-four-chapter-11-candidates.json`.
+
+Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
+
+Book Four outputs in `output/publishing/`:
+
+- `defenders-of-the-land-book-four-illustrated.pdf` — current illustrated reading/review edition, with cover and linked contents.
+- `book-four-pdf-build.json` — measured pages, available chapters, illustration count and checksum.
+- `defenders-of-the-land-book-four.epub` — reflowable current manuscript with cover and linked navigation.
+- `book-four-ebook-cover.jpg` — standalone front cover from the staged original.
+
+The current exports contain Chapters 1–7 and identify the book as a work in progress. This short review PDF is not a KDP paperback interior; a measured paperback wrap will follow when enough manuscript exists. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
+
+Chapter 2 has five approved illustrations: the map-planning scene, Pink Blur’s corrected side-view pursuit (v2), Zerdo at the dumpster, the cyclist rescue and Dork reading the newspaper as the closing image. The earlier rear-view chase candidate is preserved as a rejected version.
+
+Chapter 3 has four approved illustrations: Dork checking the Army ray, Jaws helping at the tank (v3 with a clear gap above the turret), Laura avoiding a demonstration and Dork studying the bank. Earlier tank and cover versions are preserved as production history.
+
+Book Four uses the author-approved Chapter 7 telephone illustration as Billy’s identity reference: light peach skin and shaggy brown hair. Earlier illustrations now use Chapter 1 call v2 and jack v6, Chapter 2 call v2, and Chapter 4 friends/departure v2. The jack scene also corrects Fist-O-Mite’s glove profile and rear white cuff. Chapter 7 follows Billy’s newspaper-board investigation; the powers return in planned Chapter 8. The lab-moving passage in Book Three Chapter 6 now shows the whole building shrinking and relocating, consistent with the missing-building clue.

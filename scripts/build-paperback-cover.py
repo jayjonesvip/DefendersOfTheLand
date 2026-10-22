@@ -13,10 +13,19 @@ assert re.fullmatch(r'[a-z0-9-]+',args.book),'Invalid book ID'
 config_path=pathlib.Path('print')/f'{args.book}-cover.json'
 config=json.loads((root/config_path).read_text(encoding='utf-8'))
 assert config['book']==args.book
-pages=args.pages if args.pages is not None else config['interiorPageCount']
+interior=None
+if config.get('interiorPdf'):
+    assert args.pages is None,'This cover derives its page count from the built interior PDF'
+    interior=root/'output/publishing'/config['interiorPdf']
+    assert interior.exists(),'Build the paperback interior before the cover'
+    with fitz.open(interior) as doc:
+        pages=len(doc)
+        assert all(abs(p.rect.width-432)<.1 and abs(p.rect.height-648)<.1 for p in doc),'Interior trim must match the cover'
+else:
+    pages=args.pages if args.pages is not None else config['interiorPageCount']
 assert pages%2==0 and pages>=72,'Standard-color paperback needs an even count of at least 72 pages'
 assert config['paper']=='standard-color-white','This cover configuration uses standard color on white paper'
-assert not args.final or args.pages is not None,'Final covers require the actual interior count via --pages'
+assert not args.final or args.pages is not None or interior,'Final covers require an actual interior page count'
 provisional=False if args.final else config.get('pageCountIsProvisional',True)
 subprocess.run([sys.executable,'scripts/prepare-print-cover.py','--config',str(config_path)],cwd=root,check=True)
 spec=importlib.util.spec_from_file_location('cover_layout',root/'scripts/cover-layout.py')
@@ -24,6 +33,8 @@ module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);mod
 out=root/'output/publishing';out.mkdir(parents=True,exist_ok=True)
 report=module.export_covers(out,pages,stem=args.book)
 report.update({'bookId':args.book,'provisional':provisional,'pageCountBasis':'provisional assumption; final interior pagination required' if provisional else 'explicit final interior page count','barcodeBoxInches':[2,1.2],'interiorBleed':False})
+if interior:
+    report.update({'pageCountBasis':'measured from generated paperback interior PDF','interiorFile':interior.name,'interiorSha256':hashlib.sha256(interior.read_bytes()).hexdigest()})
 with Image.open(root/'public/assets'/config['frontArtwork']) as image:
     report['originalFrontPixels']=list(image.size)
     report['originalFrontEffectiveDpi']=min(image.width/5.5,image.height/8.25)

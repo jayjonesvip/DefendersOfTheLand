@@ -8,5 +8,6 @@ run(process.execPath,['scripts/export-illustrated.cjs','--paperback']);
 run(python,['scripts/export-text.py']);
 run(python,['scripts/finalize-pdfs.py']);
 run(process.execPath,['scripts/export-all-epubs.cjs']);
+run(python,['scripts/verify-dynamic-cover.py']);
 run(process.execPath,['scripts/export-book-two-pdf.cjs']);
 run(python,['scripts/publish-samples.py']);

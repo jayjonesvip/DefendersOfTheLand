@@ -1,6 +1,6 @@
 {
   "id": "book-two",
-  "title": "Book Two: Aftershock",
+  "title": "Aftershock",
   "number": 2,
   "author": "Jay Jones",
   "status": "Manuscript complete",
@@ -30,5 +30,13 @@
   ],
   "cover": "book-two-cover-v6-aftershock.png",
   "ebookCover": "book-two-cover-v6-aftershock.png",
-  "publicationStatus": "Unpublished"
+  "publicationStatus": "Published",
+  "ebook": {
+    "url": "https://www.amazon.com/dp/B0HNFGZ9WM",
+    "asin": "B0HNFGZ9WM"
+  },
+  "paperback": {
+    "url": "https://www.amazon.com/dp/B0HNFGR781",
+    "asin": "B0HNFGR781"
+  }
 }

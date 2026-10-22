@@ -9,7 +9,23 @@ async function check(){
  try{
   browser=await chromium.launch({headless:true,...(executable?{executablePath:executable}:{})});
   const page=await browser.newPage(),errors=[],base=`http://127.0.0.1:${server.address().port}`;page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),2);
+  const booksRoot=path.join(__dirname,'content/books');
+  const allBookIds=fs.readdirSync(booksRoot).filter(id=>fs.existsSync(path.join(booksRoot,id,'book.json')));
+  const bookIds=allBookIds.filter(id=>{
+   const metadata=JSON.parse(fs.readFileSync(path.join(booksRoot,id,'book.json')));
+   return id==='origins'||metadata.chapters.some(file=>JSON.parse(fs.readFileSync(path.join(booksRoot,id,file))).available);
+  });
+  await page.goto(base+'/books.html');assert.equal(await page.locator('.book-card').count(),bookIds.length);
+  for(const id of bookIds)assert.equal(await page.locator(`.book-card h2 a[href="${id}.html"]`).count(),1,`${id} appears once in the book library`);
+  await page.goto(base+'/index.html');
+  for(const id of allBookIds.filter(id=>!bookIds.includes(id))){
+   assert.equal(await page.locator(`a[href="${id}.html"],a[href="${id}-chapter-1.html"]`).count(),0,`${id} has no reading links before chapters exist`);
+   assert(!fs.existsSync(path.join(dist,id+'.html')),`${id} has no empty contents page`);
+  }
+  for(const id of bookIds.filter(id=>id!=='origins')){
+   assert.equal(await page.locator(`.next-book a.contents-link[href="${id}.html"]`).count(),1,`${id} is discoverable from the homepage`);
+   assert.equal(await page.locator(`.next-book a[href="${id}-chapter-1.html"]`).count(),1,`${id} can be started from the homepage`);
+  }
   for(const file of ['paperback.html','1990-vault.html']){
    await page.goto(base+'/'+file);
    const text=await page.locator('main').innerText();
@@ -18,7 +34,7 @@ async function check(){
    assert.equal(await page.getByRole('link',{name:'Read Book Two free online →',exact:true}).getAttribute('href'),'book-two.html');
   }
   await page.evaluate(()=>localStorage.setItem('defenders-book-progress-v8',JSON.stringify({read:['origins:4'],positions:{'origins:4':.35},last:'origins:4'})));
-  await page.goto(base+'/book-two.html');assert(await page.locator('.contents .eyebrow').innerText().then(t=>t.includes('MANUSCRIPT COMPLETE')));assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
+  await page.goto(base+'/book-two.html');assert.equal(await page.locator('.contents .eyebrow').innerText(),'DEFENDERS OF THE LAND · BOOK TWO');assert.equal(await page.locator('[data-book-progress]').innerText(),'0 of 21 chapters completed');assert.equal(await page.locator('[data-resume]').isVisible(),false);assert.equal(await page.locator('.chapter-list li').count(),21);
   await page.locator('.chapter-list a').first().click();await page.waitForURL('**/book-two-chapter-1.html');assert.equal(await page.locator('h1').innerText(),'One More Thing to Finish');
   const chapter=JSON.parse(fs.readFileSync(path.join(__dirname,'content/books/book-two/chapter-01.json')));
   assert.equal(await page.locator('.chapter-body p').allTextContents().then(ps=>ps.join('\n')),chapter.blocks.map(b=>b.text).join('\n'));

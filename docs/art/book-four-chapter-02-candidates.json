@@ -1,0 +1,121 @@
+{
+  "book": "book-four",
+  "chapter": 2,
+  "title": "Not Fast Enough",
+  "date": "2026-10-20",
+  "status": "Author-approved chapter illustrations integrated for publication",
+  "review": "Five images accepted for publication by author instruction to merge Chapter 2. Chase v2 replaces the rejected rear-view v1. Dork’s newspaper closes the sequence.",
+  "images": [
+    {
+      "number": 1,
+      "key": "call",
+      "label": "The robbery call",
+      "status": "Approved for publication",
+      "source": "/workspace/generated_images/exec-f261d952-c0b8-475a-88eb-e6f9020ff770.png",
+      "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-call-v2.png",
+      "webArt": "book-four-chapter-02-call-v2.webp",
+      "anchorBefore": "Seth leaned over the map.",
+      "alt": "Billy marks the delivery-lane exits on a map while Zerdo, Pink Blur, Fist and diminished Flaming Head prepare their response to a jewelry-store robbery.",
+      "prompt": "Make a precise, LOCALIZED CHARACTER-CONSISTENCY EDIT to the FIRST image, using ONLY Inspector Billy in the SECOND image as the AUTHOR-APPROVED IDENTITY REFERENCE. Keep the FIRST image's exact composition, perspective, character placements, poses, expressions, action, lighting, costumes, props, other characters and background as closely as possible. Change ONLY INSPECTOR BILLY'S SKIN TONE AND HAIR to match reference2. Approved Billy: light warm PEACH skin on face/ears/hands, the same skin tone in highlight and shade as reference2 adjusted for target's existing lighting, NOT a deep orange/brown face and mismatched hands. Hair is medium/dark CHESTNUT BROWN with shaggy layered pointed TUFTS/fringe and side locks as in reference2, NOT a dense halo of tight rust-red CURLS or orange ringlets, no new beard. Keep his very SHORT compact cartoon proportions, enormous oval WHITE eyes with black oval pupils, red/brown PLAID DEERSTALKER cap, TAN belted trenchcoat, high collar HIDING mouth and lower face. He remains the same tiny detective; do NOT turn him into a realistic tall adult, do NOT expose mouth or add face detail. Keep same cap, collar and eye shape/eye direction as first image. Do NOT copy the second image's telephone/newspaper/corkboard/desk composition into the target. No extra hand or character, no text/caption. No global recoloring, no changes to anybody else, no outfit redesign. Preserve first image's landscape 3:2 full-bleed rich inked painted comic style. Billy is the SMALL detective in CENTER at the map table with both hands on the map and a pencil. Match both hand skin tones with his face, preserve each hand's existing pose and the map route.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-02-call-v1.webp",
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-07/book-four-chapter-07-telephone-v1.png"
+      ],
+      "previousVersions": [
+        {
+          "number": 1,
+          "key": "call",
+          "label": "The robbery call",
+          "status": "Superseded by approved-reference Billy correction",
+          "source": "/workspace/generated_images/exec-1b192c4f-23c6-49b5-bea4-50d21473819c.png",
+          "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-call-v1.png",
+          "webArt": "book-four-chapter-02-call-v1.webp",
+          "anchorBefore": "Seth leaned over the map.",
+          "alt": "Billy marks the delivery-lane exits on a map while Zerdo, Pink Blur, Fist and diminished Flaming Head prepare their response to a jewelry-store robbery.",
+          "prompt": "ONE new landscape 3:2 full-bleed illustrated prose-book scene. Match established warm richly detailed inked painted comic style, expressive faces, fine black linework, cinematic light, Cleveland 1987. Single scene, no panels, no speech balloons. Seth/Super Zerdo: youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, royal BLUE suit large RED Z on chest, RED cape gloves boots, RED belt ROUND GOLD buckle. Jenny/Pink Blur: very long CURLY golden BLONDE hair, GREEN eyes, WHITE domino eye mask, PINK zip-front full-length jumpsuit WHITE outer sleeve/side-leg stripes WHITE belt gloves tall boots. Preserve identity and costume exactly. A FRESH high three-quarter camera from above the operations TABLE, framing a street MAP as team plans jewelry-store robbery response. Do NOT repeat reference poses or door/window departure shot. Seth at left and Jenny at right lean slightly toward map listening seriously, Inspector Billy central nearest table marking route with pencil: VERY SHORT whimsical cartoon detective with huge oval white eyes black pupils, curly brown hair, red/brown plaid deerstalker cap, TAN trench coat with collar up concealing mouth, reference exact. Billy stands on floor behind table much shorter than heroes, map close enough to reach. ONE floating RED boxing glove Fist at table's far right, large oval eyes mouth, SMALL tucked red side thumb, SHORT WHITE wrist cuff AT REAR facing away from his eyes, no arm/body. Use second ref for boxing glove shape; rotate cuff behind glove if horizontal, never white cheek-button. Five characters only: add ONE small DIMINISHED Flaming Head hovering near window in background, round orange face huge oval white eyes black pupils small low orange/yellow flame crown, no neck/body. Red-brick headquarters, green-shaded desk lamp, analog radio on desk in background, paper cups and two glasses beside map, corkboard, daylight through industrial windows. Map diagram shows one long rectangular block of shops, lane behind, narrow crossing foot passage near east exit, pencil tip on east exit; no readable map labels needed. Hands natural and distinct, no weapon no flames from humans, concerned coordinated planning rather than smiling victory. NO robbers, no newspaper, no modern tech.",
+          "references": [
+            "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-call-v1.png",
+            "/workspace/DefendersOfTheLand/public/assets/chapter1-glove-awakening-before-flash.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "key": "chase",
+      "label": "Falling behind",
+      "status": "Approved by author for Chapter 2 publication",
+      "source": "/workspace/generated_images/exec-434ae20e-2d27-49cd-a94d-dd51925f1f6d.png",
+      "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-chase-v2.png",
+      "webArt": "book-four-chapter-02-chase-v2.webp",
+      "anchorBefore": "The rear bumper drew away.",
+      "alt": "Pink Blur runs after a dark green sedan but falls farther behind as the robbers drive down the delivery lane.",
+      "references": [
+        "docs/art/originals/book-four/chapter-02/book-four-chapter-02-chase-v1.png",
+        "docs/art/originals/book-four/chapter-02/book-four-chapter-02-call-v1.png"
+      ],
+      "previousVersions": [
+        {
+          "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-chase-v1.png",
+          "webArt": "book-four-chapter-02-chase-v1.webp",
+          "source": "/workspace/generated_images/exec-81f68e52-fe58-4685-a885-54b5d9ccc7ad.png",
+          "prompt": "ONE new landscape 3:2 full-bleed illustrated prose-book scene. Match established warm richly detailed inked painted comic style, expressive faces, fine black linework, cinematic light, Cleveland 1987. Single scene, no panels, no speech balloons. Seth/Super Zerdo: youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, royal BLUE suit large RED Z on chest, RED cape gloves boots, RED belt ROUND GOLD buckle. Jenny/Pink Blur: very long CURLY golden BLONDE hair, GREEN eyes, WHITE domino eye mask, PINK zip-front full-length jumpsuit WHITE outer sleeve/side-leg stripes WHITE belt gloves tall boots. Preserve identity and costume exactly. Focus ONLY on Jenny/Pink Blur RUNNING AFTER an escaping car down narrow brick commercial DELIVERY LANE in daytime. She remains weakened: her stride is effortful, cheeks flushed, mouth open breathing, worried determined expression. FULL FIGURE, athletic normal sprint, no superhuman glow or speed trails, no plasma. Eye-level cinematic wide three-quarter side/rear perspective, Jenny in left foreground running toward right/deep background, side-profile white eye mask and green eye visible as she looks toward car. Do not frame her running toward viewer. Dark FOREST GREEN boxy late-1970s/1980s American FOUR-DOOR SEDAN (Chevrolet Caprice-like), dark vinyl roof, silver bumpers, rectangular red taillamps, pale rear license plate, seen from rear three-quarter already several car lengths AHEAD toward right/deeper lane. TWO adult male robbers silhouettes inside front seats, passenger twisted to look out rear window, no gun waving. Jenny is visibly LOSING ground: generous empty pavement between her and car, no touching car. Single straight lane, red brick shop backs and plain service doors, overcast warm sun, clear distant eastern exit to cross street, one big dark green wheeled DUMPSTER near right wall by far exit, no overturned bin yet. Pavement uneven but no active debris cloud. Establish recognizable car/lane for subsequent images. No Seth, no Billy, no Fist, no fallen cyclist yet, no crowd, no truck from reference. Existing image is costume/style reference only, new robbery setting.",
+          "references": [
+            "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-aftermath-v1.png"
+          ],
+          "status": "Rejected by author: rear view looks too adult"
+        }
+      ],
+      "promptRecord": "docs/art/book-four-chapter-02-chase-v2-prompt.json",
+      "review": "Side-profile running composition, simpler proportions and more fabric folds; reduced rear-body emphasis. Original preserved."
+    },
+    {
+      "number": 3,
+      "key": "dumpster",
+      "label": "Too heavy",
+      "status": "Approved by author for Chapter 2 publication",
+      "source": "/workspace/generated_images/exec-3f676d57-db1a-4e6b-bcc9-4b5e3369efb2.png",
+      "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-dumpster-v1.png",
+      "webArt": "book-four-chapter-02-dumpster-v1.webp",
+      "anchorBefore": "The driver braked, saw the gap and aimed for it.",
+      "alt": "Zerdo strains against a heavy wheeled dumpster while the getaway car passes through the gap and Pink Blur approaches from behind.",
+      "prompt": "ONE new landscape 3:2 full-bleed illustrated prose-book scene. Match established warm richly detailed inked painted comic style, expressive faces, fine black linework, cinematic light, Cleveland 1987. Single scene, no panels, no speech balloons. Seth/Super Zerdo: youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, royal BLUE suit large RED Z on chest, RED cape gloves boots, RED belt ROUND GOLD buckle. Jenny/Pink Blur: very long CURLY golden BLONDE hair, GREEN eyes, WHITE domino eye mask, PINK zip-front full-length jumpsuit WHITE outer sleeve/side-leg stripes WHITE belt gloves tall boots. Preserve identity and costume exactly. NEW CAMERA for SAME robbery lane as FIRST reference at EASTERN EXIT to cross street, moments later. Focus on Zerdo failing to push heavy wheeled dumpster across exit while same green getaway sedan passes through REMAINING GAP. Eye-level wide shot from just outside lane on sidewalk looking back inward, three-quarter side view. LEFT foreground: Seth in deep natural pushing stance with TWO red-gloved palms FLAT against EXTERIOR SIDE of one large rectangular DARK GREEN STEEL commercial DUMPSTER. Both arms extended, feet planted, body clearly ENTIRELY OUTSIDE container, chest/waist/legs all visible and anatomically separated from bin; no object intersects body, hands rest on solid side panel rather than through metal. Dumpster open lid tilted back shows wet timber broken plaster old flooring. FOUR small visible swivel CASTERS, wheels turn correctly on ground, bin heavy and hardly moved from left brick wall, does NOT span whole lane. Seth looks strained worried, no glow no effortless lifting. RIGHT side leave CLEAR WIDE open drivable gap between bin and right wall, car passes through it with space. SAME dark forest-green boxy 1980s Chevrolet Caprice-like FOUR-DOOR sedan BLACK vinyl roof silver bumpers rectangular lamps from first reference. Show FRONT/side three-quarter car approaching viewer and turning out of lane, front wheels turn, TWO adult male robbers inside, passenger holds dark cloth bag on lap. No crash contact with hero or dumpster. Seth remains safely against wall beyond car's track, capable of stepping into narrow pedestrian passage beside him. Pink Blur small distant background BEHIND CAR in lane still running after it, costume reference exact no speedtrails. Brick shop back walls, side doors and uneven pavement match first reference, cross street at bottom foreground visible; no cyclist collision yet. SECOND reference is Seth identity and strain only: absolutely NO I-beam, no truck no worker no jack from it. Clear human-object separation is essential, coherent physical perspective. No Billy Fist or other heroes.",
+      "references": [
+        "/workspace/generated_images/exec-81f68e52-fe58-4685-a885-54b5d9ccc7ad.png",
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-beam-v2.png"
+      ]
+    },
+    {
+      "number": 4,
+      "key": "cyclist",
+      "label": "The cyclist rescue",
+      "status": "Approved by author for Chapter 2 publication",
+      "source": "/workspace/generated_images/exec-0514205f-3d17-4e97-a2fe-ba3a1e683735.png",
+      "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-cyclist-v1.png",
+      "webArt": "book-four-chapter-02-cyclist-v1.webp",
+      "anchorBefore": "Frank looked from one to the other.",
+      "alt": "Zerdo and Pink Blur stay beside the injured delivery cyclist and overturned bicycle while the green getaway car recedes.",
+      "prompt": "ONE new landscape 3:2 full-bleed illustrated prose-book scene. Match established warm richly detailed inked painted comic style, expressive faces, fine black linework, cinematic light, Cleveland 1987. Single scene, no panels, no speech balloons. Seth/Super Zerdo: youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, royal BLUE suit large RED Z on chest, RED cape gloves boots, RED belt ROUND GOLD buckle. Jenny/Pink Blur: very long CURLY golden BLONDE hair, GREEN eyes, WHITE domino eye mask, PINK zip-front full-length jumpsuit WHITE outer sleeve/side-leg stripes WHITE belt gloves tall boots. Preserve identity and costume exactly. SAME jewelry-robbery setting as FIRST reference, at sidewalk beside EAST exit of brick commercial delivery lane. NEW later moment: car has clipped delivery cyclist, heroes STOP to HELP instead of pursuing. Frame humane rescue in foreground, escape subordinate in distance. Seth kneels LEFT beside fallen adult delivery cyclist Frank, one red gloved hand rests gently near man's shoulder, the other gestures reassuringly, attentive concerned expression. Jenny kneels RIGHT facing Frank, white-gloved hands relaxed resting on own knees as she asks where hurt, slightly flushed breathless, GREEN eyes visible, WHITE domino mask, original long curly blond hair. Frank ordinary adult man with SHORT DARK straight hair, NO mustache, olive-green work jacket over cream shirt, brown trousers torn only at one knee, brown shoes; he sits on pavement leaning against brick wall, holds his OWN injured wrist against stomach without heroes manipulating it, non-graphic NO blood visible, alert talking. Overturned black period bicycle lies on sidewalk several feet away with BENT front wheel, detached small wire delivery basket and a few paper-wrapped sandwiches scattered nearby. Their bodies completely distinct, hands correct, no bicycle through limbs. In deeper street background SAME dark FOREST-GREEN boxy 1980s four-door sedan BLACK vinyl roof CHROME bumpers RECTANGULAR red taillamps from first image recedes far away, turned out of lane and driving away from camera, not parked by heroes. Lane entrance brick walls visible to side, same dark green dumpster only background by lane mouth; no beam, jack, warehouse truck or ambulance yet. Across street a bakery doorway and adult woman in apron turning inward to call help, minor background figure. Gentle warm daylight, determined compassionate expressions not victory smiles, this is THEIR CHOICE TO STAY. Second reference supplies exact Seth/Jenny identities/style only, do not import old worker mustache/teal shirt or loading-platform accident. No Fist Billy or Flaming Head, no powers effects.",
+      "references": [
+        "/workspace/generated_images/exec-81f68e52-fe58-4685-a885-54b5d9ccc7ad.png",
+        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-01/book-four-chapter-01-aftermath-v1.png"
+      ]
+    },
+    {
+      "number": 5,
+      "key": "newspaper",
+      "label": "Dork reads the news",
+      "status": "Approved by author for Chapter 2 publication",
+      "source": "/workspace/generated_images/exec-67b7ba63-d384-4ba1-be4a-3c0260e0cf12.png",
+      "original": "docs/art/originals/book-four/chapter-02/book-four-chapter-02-newspaper-v1.png",
+      "webArt": "book-four-chapter-02-newspaper-v1.webp",
+      "anchorBefore": "Then he drew the newspaper closer.",
+      "alt": "In shirtsleeves at the relocated workshop, Dork reads a newspaper headed Robbers Outrun Defenders; the intact Army ray and stolen tank remain nearby.",
+      "prompt": "ONE new landscape 3:2 full-bleed illustrated prose-book scene. Match established warm richly detailed inked painted comic style, expressive faces, fine black linework, cinematic light, Cleveland 1987. Single scene, no panels, no speech balloons. CLOSING SCENE: Dr Daniel Orkleson / DORK reading the NEXT MORNING NEWSPAPER about weaker Defenders inside his relocated brick workshop. Match Dork identity from FIRST reference: thin elderly scientist wild thinning WHITE-GRAY hair, enormous THICK ROUND BLACK spectacles magnifying blue eyes, long angular nose expressive lined face, GRAY SHIRT with sleeves rolled above elbows, BLACK loose necktie, dark trousers. NO LAB COAT: his coat burned in previous chapter. A small brown scorch stain on shirt cuff. Calculating interested expression, subtle dawning smile rather than manic laugh. Three-quarter medium-wide view Dork seated at battered wooden workbench holding folded broadsheet in BOTH natural hands, eyes focused on paper. Newspaper page tilted so exact bold clear headline 'ROBBERS OUTRUN DEFENDERS' is readable to viewer, secondary subheading 'Heroes struggle in jewelry-store escape'. Black/white small newspaper photo of recognizable masked Zerdo straining beside a wheeled dumpster, fine newsprint columns, do not add sensational secret information. Paper may be folded with outward headline visible while he reads inside page. On bench to one side, intact vintage Army shrink ray from SECOND reference, rectangular gray riveted metal casing analog meter red/blue switches copper stepped cylindrical barrel; powered OFF, no beam, untouched. FULL-SIZE OLIVE-DRAB TANK with white star remains parked deep background beneath tall industrial windows, no one operating it. Morning sunlight and dust, cables tools workshop details subtle. SECOND ref supplies ONLY workshop and ray identity, NOT its coat or Jaws. Dork is the ONLY character here. Exclude Jaws, Laura, heroes, Flaming Head; no repaired collector, no Sun foreshadowing, no holograms no screens. Strong narrative contrast between ordinary paper report and villain's interest. Preserve coherent perspective readable hands and newspaper.",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-victory-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-06-lab-v1.webp"
+      ]
+    }
+  ]
+}
