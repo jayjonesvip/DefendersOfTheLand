@@ -13,5 +13,6 @@
   ],
   "direction": "Move Fist-O-Mite thumb to opposite side.",
   "review": "Upper lobe removed; compact thumb now beneath glove next to rear cuff. Eyes/mouth and cuff direction retained. Series treatment, six-character composition and lettering preserved.",
-  "previousRecord": "docs/art/book-four-cover-series-v7.json"
+  "previousRecord": "docs/art/book-four-cover-series-v7.json",
+  "historicalReferenceStatus": "Superseded for active artwork by docs/art/book-four-character-redesign.json and the current approved character sheets. Preserve this file only as production history."
 }
