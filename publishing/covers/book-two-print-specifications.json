@@ -1,0 +1,47 @@
+{
+  "files": [
+    "book-two-front-cover.pdf",
+    "book-two-back-cover.pdf",
+    "book-two-kdp-cover.pdf"
+  ],
+  "interiorPages": 120,
+  "paper": "standard-color-white",
+  "trimInches": [
+    6.0,
+    9.0
+  ],
+  "spineInches": 0.27024000000000004,
+  "wrapInches": [
+    12.52024,
+    9.25
+  ],
+  "bleedInches": 0.125,
+  "frontArtwork": "book-two-aftershock-cover-print.png",
+  "bookId": "book-two",
+  "provisional": false,
+  "pageCountBasis": "measured from generated paperback interior PDF",
+  "barcodeBoxInches": [
+    2,
+    1.2
+  ],
+  "interiorBleed": false,
+  "interiorFile": "book-two-kdp-interior.pdf",
+  "interiorSha256": "84c87e3c1a315fa458c071f7d30294b22d31bf1a6f6eca928091ec1c7e0fb9e0",
+  "originalFrontPixels": [
+    1024,
+    1536
+  ],
+  "originalFrontEffectiveDpi": 186.1818181818182,
+  "printFrontPixels": [
+    1650,
+    2475
+  ],
+  "printFrontEffectiveDpi": 300.0,
+  "notes": [
+    "Spine width must match the final interior PDF before KDP upload.",
+    "The approved front was resampled for its 300-DPI placement without restoring new detail. Review KDP Print Previewer and a physical proof.",
+    "Amazon barcode space is reserved on the back."
+  ],
+  "preview": "book-two-kdp-cover-preview.png",
+  "sha256": "3a41b0fa09788d182a48d9bf5adf33437b601a4bc16ba4caa83f0953872f0685"
+}

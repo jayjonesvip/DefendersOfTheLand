@@ -1,0 +1,47 @@
+{
+  "files": [
+    "book-three-front-cover.pdf",
+    "book-three-back-cover.pdf",
+    "book-three-kdp-cover.pdf"
+  ],
+  "interiorPages": 116,
+  "paper": "standard-color-white",
+  "trimInches": [
+    6.0,
+    9.0
+  ],
+  "spineInches": 0.261232,
+  "wrapInches": [
+    12.511232,
+    9.25
+  ],
+  "bleedInches": 0.125,
+  "frontArtwork": "book-three-cover-print.png",
+  "bookId": "book-three",
+  "provisional": true,
+  "pageCountBasis": "measured from generated paperback interior PDF",
+  "barcodeBoxInches": [
+    2,
+    1.2
+  ],
+  "interiorBleed": false,
+  "interiorFile": "book-three-kdp-interior.pdf",
+  "interiorSha256": "7206aaf12157c96cc84f1666fd17a1d865f65d3d732bf6f7992d757b3063e929",
+  "originalFrontPixels": [
+    1024,
+    1536
+  ],
+  "originalFrontEffectiveDpi": 186.1818181818182,
+  "printFrontPixels": [
+    1650,
+    2475
+  ],
+  "printFrontEffectiveDpi": 300.0,
+  "notes": [
+    "Spine width must match the final interior PDF before KDP upload.",
+    "The approved front was resampled for its 300-DPI placement without restoring new detail. Review KDP Print Previewer and a physical proof.",
+    "Amazon barcode space is reserved on the back."
+  ],
+  "preview": "book-three-kdp-cover-preview.png",
+  "sha256": "2afebe9bf89b2b060e42f6f1871d566a3c625eff13ea1a1804061ea14cc1078d"
+}

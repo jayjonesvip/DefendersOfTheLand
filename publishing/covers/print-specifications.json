@@ -1,0 +1,43 @@
+{
+  "files": [
+    "origins-front-cover.pdf",
+    "origins-back-cover.pdf",
+    "origins-kdp-cover.pdf"
+  ],
+  "interiorPages": 94,
+  "paper": "standard-color-white",
+  "trimInches": [
+    6.0,
+    9.0
+  ],
+  "spineInches": 0.21168800000000002,
+  "wrapInches": [
+    12.461688,
+    9.25
+  ],
+  "bleedInches": 0.125,
+  "frontArtwork": "origins-cover-unlikely-heroes-cover-print.png",
+  "frontImagePixels": [
+    1650,
+    2475
+  ],
+  "frontEffectiveDpi": 300.0,
+  "frontResolutionMeets300Dpi": true,
+  "originalFrontImagePixels": [
+    1024,
+    1536
+  ],
+  "originalFrontEffectiveDpi": 186.1818181818182,
+  "frontResampled": true,
+  "specificationSource": "https://kdp.amazon.com/en_US/help/topic/G201953020",
+  "interiorBleed": false,
+  "barcodeBoxInches": [
+    2,
+    1.2
+  ],
+  "notes": [
+    "Cover dimensions, bleed and spine match the interior page count.",
+    "The approved front has been resampled to 300 DPI without adding new image detail. Review a physical proof before publishing.",
+    "The blank 2 x 1.2 inch barcode area is reserved for the KDP-generated barcode."
+  ]
+}

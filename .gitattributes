@@ -1,2 +1,5 @@
 # Preserve the supplied retrospective exactly, including its original line endings.
 content/vault/1990Vault.md -text
+# Preserve cover exports and their recorded hashes on every platform.
+publishing/covers/* -text
+publishing/covers/*.pdf binary

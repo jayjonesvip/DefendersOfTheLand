@@ -67,7 +67,7 @@ Upload `defenders-of-the-land-origins.epub` as the Kindle manuscript and `origin
 
 The Pages workflow builds and tests pull requests. Pushes to `main` and manual runs also deploy the site, including freshly generated combined samples. In repository **Settings → Pages**, the build source must be **GitHub Actions**.
 
-Generated publishing files, PDFs, HTML, temporary render files, and dependencies are excluded from Git. The workflow publishes `dist/` as a Pages artifact, so large PDFs do not increase repository history. Original high-resolution art and private authoring notes remain outside this public repository.
+Build output in `output/` and `dist/`, temporary render files, and dependencies are excluded from Git. The requested cover exports are retained separately in `publishing/covers/`; refresh that snapshot after artwork, back copy or pagination changes. The workflow publishes `dist/` as a Pages artifact, while the cover snapshot and full publishing editions stay outside the deployed reader.
 
 Deployment checks every sitemap page and its referenced images/scripts, checks both sample downloads against their size and SHA-256 checksum, and confirms the previous full-book and individual chapter download URLs return 404. Asset URLs come from the generated pages, including every responsive `srcset` candidate and fallback `src`, rather than a fixed list of artwork versions. Run `npm run test:hosted` to repeat this check. `npm test` also exercises the hosted checker against the local build under a URL prefix and verifies that a missing current illustration or srcset-only Vault image fails it. Bundled fonts retain their SIL Open Font License notices in `print/fonts/` and the deployed font directory.
 
