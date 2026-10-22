@@ -7,19 +7,19 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter2-billy-newspaper.png",
+  "openingArtwork": "chapter2-billy-newspaper-design-v1.webp",
   "illustrations": {
-    "chapter2-billy-newspaper.png": {
+    "chapter2-billy-newspaper-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null
     },
-    "chapter2-lake-demonstration.png": {
+    "chapter2-lake-demonstration-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter2-billy-night.png": {
+    "chapter2-billy-night-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null

@@ -1,0 +1,8 @@
+{
+  "book": "Book One: Origins",
+  "cover": "public/assets/origins-cover-curious-fist-v5.png",
+  "webAsset": "public/assets/origins-cover-curious-fist-web-v5.webp",
+  "basedOn": "public/assets/origins-cover-older-billy-v4.png",
+  "change": "Fist-O-Mite looks down toward the glowing lake beneath Seth\u2019s fingers with a curious expression.",
+  "scope": "Versioned front-cover artwork; no publication or print wraparound rebuild."
+}

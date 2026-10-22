@@ -1,0 +1,532 @@
+{
+  "book": "Book One: Origins",
+  "status": "Complete; Book One exports and local reader validated",
+  "updatedIllustrations": 40,
+  "updatedArtPlacements": 40,
+  "unchangedIllustrations": 22,
+  "cover": "public/assets/origins-cover-unlikely-heroes-v6.png",
+  "characterPortraits": [
+    "seth-dossier-orange-v1.png",
+    "billy-dossier-older-v1.png",
+    "fist-portrait-approved-v2.png"
+  ],
+  "textChanges": [
+    {
+      "file": "chapter-02.json",
+      "before": "his red hoodie damp at the cuffs.",
+      "after": "his orange hoodie damp at the cuffs."
+    },
+    {
+      "file": "chapter-02.json",
+      "before": "in his red Z hoodie at dusk.",
+      "after": "in his orange hoodie with a brown-bordered white Z at dusk."
+    },
+    {
+      "file": "chapter-18.json",
+      "before": "His hoodie and jeans were gone. A blue suit covered him, with red accents at his shoulders, wrists and boots. A bold red Z marked his chest. He touched the red mask covering his eyes, then looked down at himself in disbelief.",
+      "after": "His hoodie and jeans were gone. An orange suit covered him, with white accents at his shoulders and sides, brown gloves and boots, and a white belt. A bold white Z marked his chest. He touched the orange mask covering his eyes, edged with white, then looked down at himself in disbelief."
+    },
+    {
+      "file": "chapter-18.json",
+      "before": "Seth touches his red eye mask",
+      "after": "Seth touches his orange eye mask"
+    },
+    {
+      "file": "chapter-18.json",
+      "before": "Seth wears a blue suit with red accents, a red chest Z and red eye mask;",
+      "after": "Seth wears an orange suit with white accents, a white chest Z and belt, brown gloves and boots, and an orange eye mask edged in white;"
+    },
+    {
+      "file": "chapter-20.json",
+      "before": "put the blue suit where he could reach it again.",
+      "after": "put the orange suit where he could reach it again."
+    },
+    {
+      "file": "chapter-03.json",
+      "before": "Short and stocky, he wore a plaid cap and a brown trench coat.",
+      "after": "Short and stocky, with graying hair beneath his plaid cap and lines around his watchful eyes, he wore a tan trench coat."
+    }
+  ],
+  "artwork": [
+    {
+      "id": 1,
+      "chapters": [
+        1
+      ],
+      "oldKey": "chapter5-glove-auction.png",
+      "newFile": "chapter5-glove-auction-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter5-glove-auction-design-v1.png",
+      "sha256": "edafe2b8beb46fc7502e0e5c07c039771024e648f8fac0ce0f838892d86fa44e"
+    },
+    {
+      "id": 2,
+      "chapters": [
+        1
+      ],
+      "oldKey": "chapter1-glove-awakening-before-flash.png",
+      "newFile": "chapter1-glove-awakening-before-flash-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-glove-awakening-before-flash-design-v1.png",
+      "sha256": "cafc22c59de5da6fcf034899739a4e5d0c4983ea9c7fb20119b38ca0f21b7916"
+    },
+    {
+      "id": 3,
+      "chapters": [
+        1
+      ],
+      "oldKey": "chapter4-glove-punch.png",
+      "newFile": "chapter4-glove-punch-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter4-glove-punch-design-v1.png",
+      "sha256": "f13bdfa28ad6774984e99b706eae4bd02fd7b47d0a781ccda72d877d1c2412e9"
+    },
+    {
+      "id": 4,
+      "chapters": [
+        1
+      ],
+      "oldKey": "chapter4-glove-escape.png",
+      "newFile": "chapter4-glove-escape-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter4-glove-escape-design-v1.png",
+      "sha256": "92ae22389980dc8489f0d249278dc2003b0e3cf0214e2c4b3f45b7ffb70525ee",
+      "correction": "Removed the extra side thumb; retained one swept-back top fold.",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 11,
+      "chapters": [
+        3
+      ],
+      "oldKey": "chapter1-shore.jpg",
+      "newFile": "chapter1-shore-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-shore-design-v1.png",
+      "sha256": "e72bbad8e2353f44cdcfd25d7501f4f81abb7d15fe588a1e614c93d4f5d23e52"
+    },
+    {
+      "id": 12,
+      "chapters": [
+        3
+      ],
+      "oldKey": "chapter1-impact.jpg",
+      "newFile": "chapter1-impact-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-impact-design-v1.png",
+      "sha256": "c7fdc1e83e01a2c221e5e70e343cdb0d4fce7167e69d5fcbe7fc57d86b924a3c"
+    },
+    {
+      "id": 13,
+      "chapters": [
+        4
+      ],
+      "oldKey": "chapter1-awakening.jpg",
+      "newFile": "chapter1-awakening-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-awakening-design-v1.png",
+      "sha256": "948d578b66a2b651b2d28479af730d51e099c561b0da5f3f994a8795e898b9b5"
+    },
+    {
+      "id": 14,
+      "chapters": [
+        4
+      ],
+      "oldKey": "chapter2-bus-rail.png",
+      "newFile": "chapter2-bus-rail-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter2-bus-rail-design-v1.png",
+      "sha256": "3f1b1d465c4db3cc3bf795f997700605617a2a12b736fb4838ce6b17913df0bd"
+    },
+    {
+      "id": 15,
+      "chapters": [
+        4
+      ],
+      "oldKey": "chapter1-strength.jpg",
+      "newFile": "chapter1-strength-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-strength-design-v1.png",
+      "sha256": "5529054f42733e7c0b38833c3c5b49a56944d5c4819f3dbff163591a776872ad"
+    },
+    {
+      "id": 16,
+      "chapters": [
+        4
+      ],
+      "oldKey": "chapter1-fallen-tree-rescue.png",
+      "newFile": "chapter1-fallen-tree-rescue-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter1-fallen-tree-rescue-design-v1.png",
+      "sha256": "03d94620de44141764f59d679555f3e07fd3175c79bfab804c0f5466e81888c8"
+    },
+    {
+      "id": 17,
+      "chapters": [
+        4
+      ],
+      "oldKey": "chapter4-daniel-overhears-seth-jenny.png",
+      "newFile": "chapter4-daniel-overhears-seth-jenny-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter4-daniel-overhears-seth-jenny-design-v1.png",
+      "sha256": "add69991e44db75d312d7a279a7e3bccebe5671942f2b98193b8fb9b892c0296"
+    },
+    {
+      "id": 20,
+      "chapters": [
+        6
+      ],
+      "oldKey": "chapter2-billy-newspaper.png",
+      "newFile": "chapter2-billy-newspaper-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter2-billy-newspaper-design-v1.png",
+      "sha256": "5c348638a41449f84e8bb8276bf8be91c8144f821f4542c9d835bb5061ebebfe"
+    },
+    {
+      "id": 21,
+      "chapters": [
+        6
+      ],
+      "oldKey": "chapter2-lake-demonstration.png",
+      "newFile": "chapter2-lake-demonstration-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter2-lake-demonstration-design-v1.png",
+      "sha256": "c460a968c0664bb57e9e3f808256ccc227208e10c364c904c996672f2498c2fa"
+    },
+    {
+      "id": 22,
+      "chapters": [
+        6
+      ],
+      "oldKey": "chapter2-billy-night.png",
+      "newFile": "chapter2-billy-night-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter2-billy-night-design-v1.png",
+      "sha256": "d4e00a987f7f55d15aef76e93519253f90019e74a6b28bd004aac9914833dc9e"
+    },
+    {
+      "id": 25,
+      "chapters": [
+        7
+      ],
+      "oldKey": "chapter3-blackwell-family-visit.png",
+      "newFile": "chapter3-blackwell-family-visit-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter3-blackwell-family-visit-design-v1.png",
+      "sha256": "31d75f09ae86b9df34c8df5303297defbe0f9f5632cd3483c8fcd0d03dd748de"
+    },
+    {
+      "id": 26,
+      "chapters": [
+        8
+      ],
+      "oldKey": "chapter7-billy-seth-meeting.png",
+      "newFile": "chapter7-billy-seth-meeting-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter7-billy-seth-meeting-design-v1.png",
+      "sha256": "93e3e42b39e37159b37a08c59e1595e099b518896df47f5f253b30c7b3ee7afa"
+    },
+    {
+      "id": 27,
+      "chapters": [
+        8
+      ],
+      "oldKey": "chapter7-fist-arrives.png",
+      "newFile": "chapter7-fist-arrives-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter7-fist-arrives-design-v1.png",
+      "sha256": "5676a3feb84e30f38431af53775047efe24a903cb1bd8cbd1e5759750936963f",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 28,
+      "chapters": [
+        8
+      ],
+      "oldKey": "chapter7-seth-tree-demonstration.png",
+      "newFile": "chapter7-seth-tree-demonstration-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter7-seth-tree-demonstration-design-v1.png",
+      "sha256": "6f6361e7de15f139579b0f440f731f06421e4d9fb4318846c36a185d12c415db"
+    },
+    {
+      "id": 29,
+      "chapters": [
+        9
+      ],
+      "oldKey": "chapter9-seth-cafe-no-bob.png",
+      "newFile": "chapter9-seth-cafe-no-bob-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter9-seth-cafe-no-bob-design-v1.png",
+      "sha256": "cc715458483db471324ae8d393e9e50da4768f059e1529aaffb8638ff6853d7c"
+    },
+    {
+      "id": 30,
+      "chapters": [
+        9
+      ],
+      "oldKey": "chapter10-fist-and-jaws-roof-v2.png",
+      "newFile": "chapter10-fist-and-jaws-roof-v2-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter10-fist-and-jaws-roof-v2-design-v1.png",
+      "sha256": "363bacfafbe229f0a2bff38a9ccdba51c61dec38722f1654ca8102756dd792c0"
+    },
+    {
+      "id": 31,
+      "chapters": [
+        9
+      ],
+      "oldKey": "chapter9-seth-beam-catch-closeup.png",
+      "newFile": "chapter9-seth-beam-catch-closeup-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter9-seth-beam-catch-closeup-design-v1.png",
+      "sha256": "1fa35ba261d667c302d77b343cc4512e91d2f6e722895147670866da3f79bcfd"
+    },
+    {
+      "id": 32,
+      "chapters": [
+        9
+      ],
+      "oldKey": "chapter9-fist-knocks-jaws-away.png",
+      "newFile": "chapter9-fist-knocks-jaws-away-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter9-fist-knocks-jaws-away-design-v1.png",
+      "sha256": "69e67f989a90d60286ec12f99e52e3488d3d0dda96ade1eb98faf4940b07c9a2",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 33,
+      "chapters": [
+        9
+      ],
+      "oldKey": "chapter9-cafe-rescue-no-bob.png",
+      "newFile": "chapter9-cafe-rescue-no-bob-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter9-cafe-rescue-no-bob-design-v1.png",
+      "sha256": "0227ea3b874ac952eaaa83a9a924eb9ad56761012dacf328465499c0773b30be"
+    },
+    {
+      "id": 34,
+      "chapters": [
+        10
+      ],
+      "oldKey": "chapter11-billy-checks-roof-v2.png",
+      "newFile": "chapter11-billy-checks-roof-v2-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter11-billy-checks-roof-v2-design-v1.png",
+      "sha256": "c27c5848177c2456874e16abbe702bac1287dbbd2b3afcbc9c5cef865f2cbd67"
+    },
+    {
+      "id": 39,
+      "chapters": [
+        12
+      ],
+      "oldKey": "chapter12-seth-meets-perch.png",
+      "newFile": "chapter12-seth-meets-perch-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter12-seth-meets-perch-design-v1.png",
+      "sha256": "81ecd99dcc3ab73e5c41869e5e786e801dd25f4a3b4e672e3be851bed65e829e"
+    },
+    {
+      "id": 40,
+      "chapters": [
+        13
+      ],
+      "oldKey": "chapter14-seth-braces-cart.png",
+      "newFile": "chapter14-seth-braces-cart-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter14-seth-braces-cart-design-v1.png",
+      "sha256": "ae42ba9918323b5674cbe89145323f92eca773ab2d8c51c7fb09a1d80aad6d77"
+    },
+    {
+      "id": 41,
+      "chapters": [
+        13
+      ],
+      "oldKey": "chapter13-fist-cutoff-whole-glove.png",
+      "newFile": "chapter13-fist-cutoff-whole-glove-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter13-fist-cutoff-whole-glove-design-v1.png",
+      "sha256": "fc2fee414bebce0b437692af7b8b48ee9f76f6bc133ab8f506efade5489b77b1",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 42,
+      "chapters": [
+        13
+      ],
+      "oldKey": "chapter13-perch-intake-rescue.png",
+      "newFile": "chapter13-perch-intake-rescue-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter13-perch-intake-rescue-design-v1.png",
+      "sha256": "3af01dc5c73668034ceb383918c81d60af42c64b21e520dba2f10aa099caeeef",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 43,
+      "chapters": [
+        13
+      ],
+      "oldKey": "chapter13-perch-gate-opening.png",
+      "newFile": "chapter13-perch-gate-opening-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter13-perch-gate-opening-design-v1.png",
+      "sha256": "fb19f6cd7d4d9b410df9650b1acf5eed88909a58be4d5f0ea0515b75faae5d5a",
+      "perchScaleCorrection": "Enlarged Perch inside the intake cage to show his eighteen-inch size relative to Seth; preserved the cage and scene."
+    },
+    {
+      "id": 44,
+      "chapters": [
+        13
+      ],
+      "oldKey": "chapter13-seth-smashes-extractor.png",
+      "newFile": "chapter13-seth-smashes-extractor-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter13-seth-smashes-extractor-design-v1.png",
+      "sha256": "677239ea7eb465c30c2d21ff6e23a296c98cae484ec082a1bafb4cccf0df0d09"
+    },
+    {
+      "id": 47,
+      "chapters": [
+        15
+      ],
+      "oldKey": "chapter15-flaming-head-reveal.png",
+      "newFile": "chapter15-flaming-head-reveal-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter15-flaming-head-reveal-design-v1.png",
+      "sha256": "bcfdfc5b57730848b8303cacfdc180ed0c2984d86da94bba277954e6307818c9"
+    },
+    {
+      "id": 49,
+      "chapters": [
+        16
+      ],
+      "oldKey": "chapter16-flame-transformation.png",
+      "newFile": "chapter16-flame-transformation-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter16-flame-transformation-design-v1.png",
+      "sha256": "a34be7b85b9b50a7b0eec4de46c06185fcddf64c82fd42bc56374e18dad22efc",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 50,
+      "chapters": [
+        16
+      ],
+      "oldKey": "chapter16-costume-reveal-closeup.png",
+      "newFile": "chapter16-costume-reveal-closeup-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter16-costume-reveal-closeup-design-v1.png",
+      "sha256": "b26271284100c1ed62a502029ffaa448df17eb992d697c2b6ed4b747419afd7c"
+    },
+    {
+      "id": 51,
+      "chapters": [
+        16
+      ],
+      "oldKey": "chapter16-team-hero-gear-v2.png",
+      "newFile": "chapter16-team-hero-gear-v2-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter16-team-hero-gear-v2-design-v1.png",
+      "sha256": "1d4f798af13a51b193c64d2c1787f9e3564112692b2d61a6c0c2c0f60a0132f8"
+    },
+    {
+      "id": 54,
+      "chapters": [
+        17
+      ],
+      "oldKey": "chapter17-fist-jaws-billboard.png",
+      "newFile": "chapter17-fist-jaws-billboard-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter17-fist-jaws-billboard-design-v1.png",
+      "sha256": "20e863dbcbd27eea92722643a3ae81eda6b2d78846f80a4e35944435628e0e60",
+      "cuffCorrection": "Matched approved character sheet: inset white rectangular panel outlined in black, red leather margins and black hollow wrist rim."
+    },
+    {
+      "id": 55,
+      "chapters": [
+        17
+      ],
+      "oldKey": "chapter17-zerdo-tears-robot.png",
+      "newFile": "chapter17-zerdo-tears-robot-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter17-zerdo-tears-robot-design-v1.png",
+      "sha256": "23b56576a40ae138e50bb0e9bc64a08439399e40bfc667cb8b134a8504d6cd3e"
+    },
+    {
+      "id": 57,
+      "chapters": [
+        17
+      ],
+      "oldKey": "chapter17-perch-rescue.png",
+      "newFile": "chapter17-perch-rescue-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter17-perch-rescue-design-v1.png",
+      "sha256": "7a106001840ddf2280516f776cfcbcb9a27558acc48ff92671b5ad56b7b233af"
+    },
+    {
+      "id": 59,
+      "chapters": [
+        18
+      ],
+      "oldKey": "chapter18-perch-returns-lake-v2.png",
+      "newFile": "chapter18-perch-returns-lake-v2-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter18-perch-returns-lake-v2-design-v1.png",
+      "sha256": "5d932179189145b236f5ae156ad85f1f489df7a4cdb037e753d4a5536dc4813e"
+    },
+    {
+      "id": 61,
+      "chapters": [
+        18
+      ],
+      "oldKey": "chapter18-city-rallies.png",
+      "newFile": "chapter18-city-rallies-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter18-city-rallies-design-v1.png",
+      "sha256": "3f9c82ef12984a7c790842b3c73128652adc834279b88b595f41bec1af470957"
+    },
+    {
+      "id": 62,
+      "chapters": [
+        18
+      ],
+      "oldKey": "chapter17-billy-eleanor-newsroom.png",
+      "newFile": "chapter17-billy-eleanor-newsroom-design-v1.webp",
+      "originalPNG": "docs/art/originals/book-one-redesign-v1/chapter17-billy-eleanor-newsroom-design-v1.png",
+      "sha256": "37c193f3a69ffdaf37e176ecbab5c367703e1b8219361c9dba365be37c99a154"
+    }
+  ],
+  "scope": "Book One and shared character profiles; Books Two onward unchanged; no remote publication.",
+  "validation": {
+    "chapters": 18,
+    "storyPassagesVerified": 482,
+    "sceneIllustrations": 62,
+    "revisedIllustrations": 40,
+    "readingPDFPages": 93,
+    "printInteriorPages": 94,
+    "missingParagraphs": 0,
+    "textImageCollisions": 0,
+    "epubMissingResources": 0,
+    "readerCheck": "passed",
+    "epubDesktopMobileLargeText": "passed",
+    "siteAssetCheck": "passed",
+    "publication": "Local files only"
+  },
+  "outputs": [
+    {
+      "file": "output/publishing/defenders-of-the-land-origins.epub",
+      "bytes": 32627617,
+      "sha256": "30b153d61a5da372d639e4c4b780def4bfdaf501021f88147c55387ddcb1d740"
+    },
+    {
+      "file": "output/publishing/defenders-of-the-land-origins-illustrated.pdf",
+      "bytes": 37018904,
+      "sha256": "3fc43f1b3b5eae3f70ff5a0366c52e0b474d57844d1ceca90956320e4d04d8f6"
+    },
+    {
+      "file": "output/publishing/origins-kdp-interior.pdf",
+      "bytes": 38978232,
+      "sha256": "ca15165cbf95cb01c047136050f190f81a4d4aa87811ced5751d409488e81306"
+    },
+    {
+      "file": "output/publishing/origins-kdp-cover.pdf",
+      "bytes": 17149761,
+      "sha256": "ea466cf8e0d46df49653268ff7226b417fb55b2cf929de003df29cda4ebf6f41"
+    }
+  ],
+  "cuffContinuityReview": {
+    "reference": "docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png",
+    "reviewedSceneIds": [
+      2,
+      3,
+      4,
+      27,
+      30,
+      32,
+      41,
+      42,
+      49,
+      51,
+      54,
+      59,
+      61
+    ],
+    "correctedSceneIds": [
+      4,
+      27,
+      32,
+      41,
+      42,
+      49,
+      54
+    ],
+    "cover": "Matches the approved cuff; retained."
+  },
+  "coverSelection": {
+    "concept": "c",
+    "name": "The Unlikely Heroes",
+    "previousCover": "public/assets/origins-cover-curious-fist-v5.png"
+  }
+}

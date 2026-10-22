@@ -6,12 +6,12 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "William Warrner was a private investigator, though everyone called him Inspector Billy. The nickname carried no police authority. Short and stocky, he wore a plaid cap and a brown trench coat. With his collar pulled high beneath his watchful eyes, he crouched on the lakefront path and examined a washed-up bottle cap through his magnifying glass. It told him very little. Most bottle caps did. More interesting was the water: clear enough to show every pebble, despite a fisherman’s assurance that it had looked nothing like this last week."
+      "text": "William Warrner was a private investigator, though everyone called him Inspector Billy. The nickname carried no police authority. Short and stocky, with graying hair beneath his plaid cap and lines around his watchful eyes, he wore a tan trench coat. With his collar pulled high beneath his watchful eyes, he crouched on the lakefront path and examined a washed-up bottle cap through his magnifying glass. It told him very little. Most bottle caps did. More interesting was the water: clear enough to show every pebble, despite a fisherman’s assurance that it had looked nothing like this last week."
     },
     {
       "type": "scene",
       "text": "Billy unfolded the newspaper. Daniel Orkleson claimed credit for the improvement, but supplied no measurements or treatment dates. There was, however, a generous supply of Daniel Orkleson.",
-      "art": "chapter2-billy-newspaper.png",
+      "art": "chapter2-billy-newspaper-design-v1.webp",
       "alt": "Inspector Billy reads The Cleveland Defender headline claiming Orkleson cleaned Lake Erie, with the scientist pictured beneath it."
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter2-lake-demonstration.png",
+      "art": "chapter2-lake-demonstration-design-v1.webp",
       "alt": "Billy examines the lake intake machine while Jenny questions Orkleson, who guards its glowing storage case.",
       "text": "Two days later, they found Daniel working beside the lake in a white coat. His machine stood on wheels, with one cable entering the water and another connecting the housing to a smaller storage case. He had arranged no audience. Billy and Jenny approached from the public path."
     },
@@ -94,7 +94,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter2-billy-night.png",
+      "art": "chapter2-billy-night-design-v1.webp",
       "alt": "Inspector Billy stands back from the damaged lakefront railing, watching an unexplained blue glow under Lake Erie at night.",
       "text": "He returned to the lake after dark. Blue light moved beneath the water and vanished beyond the shore. No cable followed it. No machine stood nearby."
     },

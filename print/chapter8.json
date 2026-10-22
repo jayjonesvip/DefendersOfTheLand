@@ -7,19 +7,19 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter7-billy-seth-meeting.png",
+  "openingArtwork": "chapter7-billy-seth-meeting-design-v1.webp",
   "illustrations": {
-    "chapter7-billy-seth-meeting.png": {
+    "chapter7-billy-seth-meeting-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null
     },
-    "chapter7-fist-arrives.png": {
+    "chapter7-fist-arrives-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter7-seth-tree-demonstration.png": {
+    "chapter7-seth-tree-demonstration-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null

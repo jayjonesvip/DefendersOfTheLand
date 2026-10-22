@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "scene",
-      "art": "chapter5-glove-auction.png",
+      "art": "chapter5-glove-auction-design-v1.webp",
       "alt": "Daniel Orkleson buys an ordinary scuffed red boxing glove with a white cuff at a 1987 sporting memorabilia auction.",
       "text": "Dr. Daniel Orkleson was an eccentric scientist with wild white hair, enormous round glasses, and little patience for anyone else’s opinions. At a Cleveland auction in 1987, he outbid three collectors for a boxing glove. The catalogue identified it as a glove worn in the ring by a powerful professional heavyweight: scuffed red leather, padded knuckles, and a worn white cuff. The other bidders wanted sporting history. Daniel wanted what the fighter had left inside it."
     },
@@ -32,13 +32,13 @@
     },
     {
       "type": "scene",
-      "art": "chapter1-glove-awakening-before-flash.png",
+      "art": "chapter1-glove-awakening-before-flash-design-v1.webp",
       "alt": "A newly living red boxing glove with enormous eyes and an empty white cuff hovers above Daniel Orkleson’s experiment table.",
       "text": "The glove looked straight at Daniel. He opened his mouth to give its first command."
     },
     {
       "type": "scene",
-      "art": "chapter4-glove-punch.png",
+      "art": "chapter4-glove-punch-design-v1.webp",
       "alt": "The living boxing glove flies into Daniel Orkleson’s face, knocking his glasses askew.",
       "text": "The whole glove flew forward and punched him in the face."
     },
@@ -80,7 +80,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter4-glove-escape.png",
+      "art": "chapter4-glove-escape-design-v1.webp",
       "alt": "The living boxing glove flies out of the laboratory window over a Cleveland alley while Daniel protests behind him.",
       "text": "It shot through the window and into the alley. Air rushed around its white cuff as the laboratory light fell away behind it."
     },

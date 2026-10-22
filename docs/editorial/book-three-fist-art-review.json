@@ -2,7 +2,7 @@
   "scope": "All five active Book Three illustrations depicting Fist-O-Mite through Chapter 4",
   "status": "Five edited siblings visually reviewed and integrated; original v1 artwork preserved",
   "approvedReference": {
-    "userAttachment": "1000026128.jpg — approved Book One interior screenshot supplied by author",
+    "userAttachment": "1000026128.jpg \u2014 approved Book One interior screenshot supplied by author",
     "matchingRepositoryAssets": [
       "public/assets/chapter1-glove-awakening-before-flash.webp",
       "public/assets/chapter4-glove-punch.webp"
@@ -37,5 +37,7 @@
     }
   ],
   "recommendedCorrection": "Use the approved Book One glove as the primary anatomy reference for all five images. Reduce and tuck the thumb against the main body, preserving a single dominant rounded glove silhouette. Retain face, expression, glove orientation, scuffed leather, injured white cuff, cushion/support, other characters and scene composition. Preserve original versions and review each edited sibling before substitution. Do not use Book Two or current Book Three Fist anatomy as the primary shape reference.",
-  "limits": "Qualitative visual review. Image-generation edits can change pixels outside the requested thumb area; no pixel-exact preservation claim. Manuscript prose and Book One remain unchanged."
+  "limits": "Qualitative visual review. Image-generation edits can change pixels outside the requested thumb area; no pixel-exact preservation claim. Manuscript prose and Book One remain unchanged.",
+  "supersededBy": "docs/art/book-three-character-redesign.json",
+  "continuityNote": "Historical review of the earlier design. For current Book Three art use the author-approved Fist character sheet, sculpted face, single swept-back thumb fold and red cuff with inset black-outlined white panel."
 }

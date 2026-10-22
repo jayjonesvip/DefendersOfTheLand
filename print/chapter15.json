@@ -7,9 +7,9 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter15-flaming-head-reveal.png",
+  "openingArtwork": "chapter15-flaming-head-reveal-design-v1.webp",
   "illustrations": {
-    "chapter15-flaming-head-reveal.png": {
+    "chapter15-flaming-head-reveal-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null

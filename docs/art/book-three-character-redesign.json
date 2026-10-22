@@ -1,0 +1,338 @@
+{
+  "book": "Book Three: Lava Lips",
+  "status": "Complete; revised art integrated and Book Three publishing files and local reader validated",
+  "reviewedIllustrations": 63,
+  "updatedIllustrations": 14,
+  "unchangedIllustrations": 49,
+  "references": [
+    "docs/art/super-zerdo-approved-outfits.json",
+    "docs/art/inspector-billy-approved-identity.json",
+    "docs/art/fist-o-mite-approved-identity.json"
+  ],
+  "coverReview": "Existing cover and back artwork contain none of the three revised characters; retained.",
+  "continuity": [
+    "Seth: orange hero suit, white Z/accents/belt, brown gloves/boots, orange mask edged white, blue eyes; orange civilian hoodie with white Z and brown border.",
+    "Billy: older adult in Doc Dork generation, gray hair/brows, lined face, short stocky adult proportions, tan trenchcoat, red-brown plaid cap, black shoes.",
+    "Fist: sculpted face and small red nose, one swept-back thumb fold, short red cuff with black-outlined white inset panel and black wrist rim.",
+    "Injured Fist retains scuffs, torn cuff and blue cushion in Chapters 2/4; Chapter 9/14 depict repaired cuff and free hover.",
+    "Jenny retains white gloves; weakened Flaming Head remains diminished at the ending; newspaper photograph remains grayscale."
+  ],
+  "textChanges": [
+    {
+      "file": "chapter-02.json",
+      "block": 8,
+      "field": "text",
+      "before": "Seth nudged the drum with one red boot. \u201cI'm getting fond of finishing.\u201d",
+      "after": "Seth nudged the drum with one brown boot. \u201cI'm getting fond of finishing.\u201d"
+    },
+    {
+      "file": "chapter-02.json",
+      "block": 35,
+      "field": "text",
+      "before": "By the time Seth and Jenny reached Billy\u2019s office, they had changed into their ordinary clothes. Seth pushed up the sleeves of his red hoodie while Jenny, a reporter for the Defender, put the sandwiches on the desk.",
+      "after": "By the time Seth and Jenny reached Billy\u2019s office, they had changed into their ordinary clothes. Seth pushed up the sleeves of his orange hoodie while Jenny, a reporter for the Defender, put the sandwiches on the desk."
+    },
+    {
+      "file": "chapter-02.json",
+      "block": 62,
+      "field": "alt",
+      "before": "Seth in his red hoodie and Jenny in civilian clothes watch from Billy\u2019s open window as Flaming Head flies above Cleveland\u2019s roofs toward Lake Erie.",
+      "after": "Seth in his orange hoodie and Jenny in civilian clothes watch from Billy\u2019s open window as Flaming Head flies above Cleveland\u2019s roofs toward Lake Erie."
+    },
+    {
+      "file": "chapter-04.json",
+      "block": 4,
+      "field": "text",
+      "before": "They had come in their suits. Seth straightened his red mask while Jenny checked the street, her blonde curls lifting in the breeze. A small truck rattled past the red-brick building and turned toward the warehouses.",
+      "after": "They had come in their suits. Seth straightened his orange mask while Jenny checked the street, her blonde curls lifting in the breeze. A small truck rattled past the red-brick building and turned toward the warehouses."
+    },
+    {
+      "file": "chapter-09.json",
+      "block": 3,
+      "field": "text",
+      "before": "Fist hovered a few feet away, watching Billy instead of the pad. The seam at his white cuff had closed. Scuffs still crossed the red leather, but he no longer needed the folded towel beneath him when he slept.",
+      "after": "Fist hovered a few feet away, watching Billy instead of the pad. The seam at his cuff had closed. Scuffs still crossed the red leather, but he no longer needed the folded towel beneath him when he slept."
+    },
+    {
+      "file": "chapter-09.json",
+      "block": 94,
+      "field": "text",
+      "before": "Jenny stayed in her white mask. Seth kept his red one in place. Fist turned toward the camera with the expression of someone who had been ready for it all afternoon.",
+      "after": "Jenny stayed in her white mask. Seth kept his orange one in place. Fist turned toward the camera with the expression of someone who had been ready for it all afternoon."
+    },
+    {
+      "file": "chapter-09.json",
+      "block": 103,
+      "field": "text",
+      "before": "The report named the Defenders. It did not name the boy beneath the red mask or connect the white-masked woman to the byline.",
+      "after": "The report named the Defenders. It did not name the boy beneath the orange mask or connect the white-masked woman to the byline."
+    },
+    {
+      "file": "chapter-14.json",
+      "block": 4,
+      "field": "text",
+      "before": "The answer reached their minds, faint but clear. Behind them, Billy waited at the desk. Fist hovered beside his shoulder, his repaired white cuff steady. Neither could hear Flaming Head.",
+      "after": "The answer reached their minds, faint but clear. Behind them, Billy waited at the desk. Fist hovered beside his shoulder, his repaired cuff steady. Neither could hear Flaming Head."
+    }
+  ],
+  "artwork": [
+    {
+      "id": 4,
+      "chapter": 2,
+      "chapterFile": "chapter-02.json",
+      "block": 27,
+      "asset": "book-three-chapter-02-question-v2-fh.webp",
+      "file": "book-three-chapter-02-question-v2-fh.webp",
+      "newFile": "book-three-chapter-02-question-design-v1.webp",
+      "characters": {
+        "seth": "hero"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-02-question-design-v1.png",
+      "sha256": "163fd4a9e494378e019cf72e011ffd728c2065a112ba8b11518a5dfbec42ac13"
+    },
+    {
+      "id": 5,
+      "chapter": 2,
+      "chapterFile": "chapter-02.json",
+      "block": 51,
+      "asset": "book-three-chapter-02-office-v3-fh.webp",
+      "file": "book-three-chapter-02-office-v3-fh.webp",
+      "newFile": "book-three-chapter-02-office-design-v1.webp",
+      "characters": {
+        "seth": "civilian",
+        "billy": true,
+        "fist": "injured"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-02-office-design-v1.png",
+      "sha256": "e6188b15618ae3d6bd0d0d3f7f1a7fb527bb28ee5047097cffe2aae5c5d41323"
+    },
+    {
+      "id": 6,
+      "chapter": 2,
+      "chapterFile": "chapter-02.json",
+      "block": 62,
+      "asset": "book-three-chapter-02-departure-v2-fh.webp",
+      "file": "book-three-chapter-02-departure-v2-fh.webp",
+      "newFile": "book-three-chapter-02-departure-design-v1.webp",
+      "characters": {
+        "seth": "civilian"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-02-departure-design-v1.png",
+      "sha256": "166448788db1deb10a1d0028081b2b1fcf4670b9b053b102827f2d02905236e4"
+    },
+    {
+      "id": 10,
+      "chapter": 4,
+      "chapterFile": "chapter-04.json",
+      "block": 8,
+      "asset": "book-three-chapter-04-welcome-v2-thumb.webp",
+      "file": "book-three-chapter-04-welcome-v2-thumb.webp",
+      "newFile": "book-three-chapter-04-welcome-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "injured"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-04-welcome-design-v1.png",
+      "sha256": "005eaf21a576c86f305c807fc34bfae27c3dc70b897cdacaa6733fe9e0ec833e"
+    },
+    {
+      "id": 11,
+      "chapter": 4,
+      "chapterFile": "chapter-04.json",
+      "block": 40,
+      "asset": "book-three-chapter-04-operations-v2-thumb.webp",
+      "file": "book-three-chapter-04-operations-v2-thumb.webp",
+      "newFile": "book-three-chapter-04-operations-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "injured"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-04-operations-design-v1.png",
+      "sha256": "826b3482b0ecaadf5096f954376ce18a643c709fd01a56b3114b60fc0bcb9903"
+    },
+    {
+      "id": 12,
+      "chapter": 4,
+      "chapterFile": "chapter-04.json",
+      "block": 48,
+      "asset": "book-three-chapter-04-scanner-v2-thumb.webp",
+      "file": "book-three-chapter-04-scanner-v2-thumb.webp",
+      "newFile": "book-three-chapter-04-scanner-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "injured"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-04-scanner-design-v1.png",
+      "sha256": "8b76f5cec5ffee2531898db28802ca7238b8067ddc6bc92155b19c03a7ed01c1"
+    },
+    {
+      "id": 13,
+      "chapter": 4,
+      "chapterFile": "chapter-04.json",
+      "block": 87,
+      "asset": "book-three-chapter-04-locker-v2-thumb.webp",
+      "file": "book-three-chapter-04-locker-v2-thumb.webp",
+      "newFile": "book-three-chapter-04-locker-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "injured"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-04-locker-design-v1.png",
+      "sha256": "0a8e53df08588560b37c77a30431b48e9e79159b790a0a3db95e6d7010526684"
+    },
+    {
+      "id": 35,
+      "chapter": 9,
+      "chapterFile": "chapter-09.json",
+      "block": 17,
+      "asset": "book-three-chapter-09-call-v1.webp",
+      "file": "book-three-chapter-09-call-v1.webp",
+      "newFile": "book-three-chapter-09-call-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "recovered"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-09-call-design-v1.png",
+      "sha256": "0da56b223d24d1412e4e2c2368267379dad5235b2c0b534322f04daca97d5838"
+    },
+    {
+      "id": 37,
+      "chapter": 9,
+      "chapterFile": "chapter-09.json",
+      "block": 64,
+      "asset": "book-three-chapter-09-getaway-v1.webp",
+      "file": "book-three-chapter-09-getaway-v1.webp",
+      "newFile": "book-three-chapter-09-getaway-design-v1.webp",
+      "characters": {
+        "seth": "hero"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-09-getaway-design-v1.png",
+      "sha256": "38ec912c9b020ada8af03de37f454f7aff436eca1e1c3093af22764b504c3660"
+    },
+    {
+      "id": 38,
+      "chapter": 9,
+      "chapterFile": "chapter-09.json",
+      "block": 70,
+      "asset": "book-three-chapter-09-fist-v1.webp",
+      "file": "book-three-chapter-09-fist-v1.webp",
+      "newFile": "book-three-chapter-09-fist-design-v1.webp",
+      "characters": {
+        "fist": "recovered"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-09-fist-design-v1.png",
+      "sha256": "7d6b698e1049b68a0dfa148bba5c2dffebd863108db3976b0ef8d8f581b0cbdf"
+    },
+    {
+      "id": 39,
+      "chapter": 9,
+      "chapterFile": "chapter-09.json",
+      "block": 94,
+      "asset": "book-three-chapter-09-aftermath-v1.webp",
+      "file": "book-three-chapter-09-aftermath-v1.webp",
+      "newFile": "book-three-chapter-09-aftermath-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "recovered"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-09-aftermath-design-v1.png",
+      "sha256": "12538d30dc515c0ed5fdda45e484cbf6f69142233198feca9919e664d3c34c91"
+    },
+    {
+      "id": 40,
+      "chapter": 9,
+      "chapterFile": "chapter-09.json",
+      "block": 118,
+      "asset": "book-three-chapter-09-report-v1.webp",
+      "file": "book-three-chapter-09-report-v1.webp",
+      "newFile": "book-three-chapter-09-report-design-v1.webp",
+      "characters": {
+        "seth": "photo",
+        "billy": true,
+        "fist": "photo",
+        "photo": true
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-09-report-design-v1.png",
+      "sha256": "68c46f61e349ec000955a8e64fc1d8cef5cb588020fe0f71dd15f8b1e0924116"
+    },
+    {
+      "id": 59,
+      "chapter": 14,
+      "chapterFile": "chapter-14.json",
+      "block": 2,
+      "asset": "book-three-chapter-14-return-v1.webp",
+      "file": "book-three-chapter-14-return-v1.webp",
+      "newFile": "book-three-chapter-14-return-design-v1.webp",
+      "characters": {
+        "seth": "hero",
+        "billy": true,
+        "fist": "recovered"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-14-return-design-v1.png",
+      "sha256": "c95898883d8fc20a2b9385bcdbc3a6ea84b97a65936ca4405ff04b09d5c0d9e5"
+    },
+    {
+      "id": 60,
+      "chapter": 14,
+      "chapterFile": "chapter-14.json",
+      "block": 20,
+      "asset": "book-three-chapter-14-weight-v1.webp",
+      "file": "book-three-chapter-14-weight-v1.webp",
+      "newFile": "book-three-chapter-14-weight-design-v1.webp",
+      "characters": {
+        "seth": "hero"
+      },
+      "originalPNG": "docs/art/originals/book-three-redesign-v1/book-three-chapter-14-weight-design-v1.png",
+      "sha256": "e0ede0b6de35a45ab985364c3d94dd1595e2cf6c193ae421467e7790062e05d9"
+    }
+  ],
+  "scope": "Book Three and approval-reference metadata only; original artwork retained; no remote publication.",
+  "validation": {
+    "chapters": 14,
+    "storyPassagesVerified": 1409,
+    "sceneIllustrations": 63,
+    "revisedIllustrations": 14,
+    "readingPDFPages": 115,
+    "printInteriorPages": 116,
+    "printedContentsPageNumbersChecked": 14,
+    "printInteractiveObjects": 0,
+    "epubMissingResources": 0,
+    "epubDesktopMobileLargeText": "passed",
+    "bookThreeReaderDesktopMobile": "passed; full prose and current images in all 14 chapters",
+    "siteAssetCheck": "passed",
+    "publication": "Local files only"
+  },
+  "outputs": [
+    {
+      "file": "output/publishing/defenders-of-the-land-book-three.epub",
+      "bytes": 30328616,
+      "sha256": "4dbacaf090cd0f223203e8c1b198fba9f522230dcad794fbe82c92119a8b5417"
+    },
+    {
+      "file": "output/publishing/defenders-of-the-land-book-three-illustrated.pdf",
+      "bytes": 30331123,
+      "sha256": "164e885e7e86548c12a15674911e5a58ce8fab351faacd92e7c986a10a091546"
+    },
+    {
+      "file": "output/publishing/book-three-kdp-interior.pdf",
+      "bytes": 49435396,
+      "sha256": "8e1a04e72be7f54530610f942a9e4084eb6e6136c712e35af972c13252572683"
+    },
+    {
+      "file": "output/publishing/book-three-kdp-cover.pdf",
+      "bytes": 17921897,
+      "sha256": "33635e4966810b980103e7eda3371ae912c76a4c698c2b0baa8c4a8999e854d8"
+    },
+    {
+      "file": "output/publishing/book-three-ebook-cover.jpg",
+      "bytes": 858716,
+      "sha256": "1203cfae18e1d6fe5436498354bd22dafc95cff3b66e19f614d63e4945135018"
+    }
+  ]
+}

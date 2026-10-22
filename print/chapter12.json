@@ -7,9 +7,9 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter12-seth-meets-perch.png",
+  "openingArtwork": "chapter12-seth-meets-perch-design-v1.webp",
   "illustrations": {
-    "chapter12-seth-meets-perch.png": {
+    "chapter12-seth-meets-perch-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null

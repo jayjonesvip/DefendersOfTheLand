@@ -4,13 +4,14 @@
   "alias": "Inspector Billy",
   "name": "William Warrner",
   "tag": "SMALL DETECTIVE. BIG PICTURE.",
-  "image": "billy-dossier.png",
+  "image": "billy-dossier-older-v1.png",
   "sheet": "Inspector_Billy_Character_Sheet.png",
   "role": "Private investigator",
   "powers": "A sharp eye, a magnifying glass and a field notebook. Inspector Billy is a nickname, not a police rank. No supernatural abilities confirmed.",
   "personality": "Quiet, observant, paranoid and tenacious. No detail is too small.",
-  "relationships": "Former schoolmate of Daniel Orkleson. Their friendship collapsed over Daniel’s unethical experiments; Billy helped expose them. His investigation will eventually lead to Seth.",
+  "relationships": "Former schoolmate of Daniel Orkleson. Their friendship collapsed over Daniel\u2019s unethical experiments; Billy helped expose them. His investigation will eventually lead to Seth.",
   "appearances": "Chapter 6: An Old Friend with New Lies",
   "quote": "Some people see problems. I see clues.",
-  "group": "heroes"
+  "group": "heroes",
+  "appearance": "A short, stocky older man of Daniel Orkleson\u2019s generation, with graying hair and sideburns, a lined face, a plaid deerstalker and a high-collared tan trench coat."
 }
