@@ -83,7 +83,10 @@ if layout.get('paperback'):
     report['manuscriptStatus']=book['status']
     report['status']='Complete illustrated paperback manuscript; print proof pending' if book['status']=='Manuscript complete' else 'Current illustrated paperback manuscript; book still in progress'
     report['printPdfNavigationRemoved']=True
-(out/f'{args.book}-pdf-build.json').write_text(json.dumps(report,indent=2)+'\n')
+cover_config=root/'print'/f'{args.book}-cover.json'
+has_print_interior=cover_config.exists() and bool(json.loads(cover_config.read_text()).get('interiorPdf'))
+report_name=f'{args.book}-review-pdf-build.json' if has_print_interior and not layout.get('paperback') else f'{args.book}-pdf-build.json'
+(out/report_name).write_text(json.dumps(report,indent=2)+'\n')
 print(f"Verified {args.book} illustrated PDF: {len(doc)} pages, {report['chapters']} chapters, {report['interiorIllustrations']} illustrations; complete text, page bounds and image/text separation.")
 if os.environ.get('GITHUB_ACTIONS'):
     print(f"::notice title={args.book} PDF::Verified {len(doc)} pages; {report['chapters']} chapters and {report['interiorIllustrations']} interior illustrations. Private publishing artifact: {file.name}")

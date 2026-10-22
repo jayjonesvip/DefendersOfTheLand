@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "prose",
-      "text": "Jenny reached the roof in her pink suit and white mask. Seth was waiting beside the stairwell in his blue uniform. He had changed at home and hurried over. The steel drum stood where they had left it, its blackened patch facing the wall."
+      "text": "Jenny reached the roof in her pink suit and white mask. Seth was waiting beside the stairwell in his orange uniform. He had changed at home and hurried over. The steel drum stood where they had left it, its blackened patch facing the wall."
     },
     {
       "type": "prose",
@@ -22,9 +22,9 @@
     },
     {
       "type": "scene",
-      "text": "“There.” He raised his red-gloved hand and pointed.",
-      "art": "book-two-chapter-13-arrival-v2.webp",
-      "alt": "On the rooftop in full superhero uniforms, Jenny stands in side profile looking left across the sky while Seth, viewed from behind, points right toward an approaching bright orange object above Cleveland. Jenny wears her pink suit, white mask, gloves and boots; Seth wears blue with red gloves and boots."
+      "text": "“There.” He raised his brown-gloved hand and pointed.",
+      "art": "book-two-chapter-13-arrival-design-v1.webp",
+      "alt": "On the rooftop in full superhero uniforms, Jenny stands in side profile looking left across the sky while Seth, viewed from behind, points right toward an approaching bright orange object above Cleveland. Jenny wears her pink suit, white mask, gloves and boots; Seth wears orange with white accents and brown gloves and boots."
     },
     {
       "type": "prose",
@@ -61,7 +61,7 @@
     {
       "type": "scene",
       "text": "Jenny nodded. Flaming Head’s bright expression faded. His eyes lowered toward the roof, and the flames curled more slowly around his face.",
-      "art": "book-two-chapter-13-conversation-v1.webp",
+      "art": "book-two-chapter-13-conversation-design-v1.webp",
       "alt": "On Jenny’s apartment roof, costumed Jenny and Seth talk with Flaming Head, whose lowered eyes and thoughtful expression show concern about Daniel extracting his energy."
     },
     {
