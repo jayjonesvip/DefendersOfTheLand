@@ -1,6 +1,6 @@
 {
-  "scope": "Book Four only, as explicitly selected by author",
-  "status": "Author-approved Billy identity and five earlier scene corrections active for publication",
+  "scope": "Historical Book Four production record; active identity is docs/art/inspector-billy-approved-identity.json.",
+  "status": "Historical approval superseded by the current older-adult Billy sheet; not an active identity guide.",
   "approvedReference": "docs/art/originals/book-four/chapter-07/book-four-chapter-07-telephone-v1.png",
   "approvedWebReference": "book-four-chapter-07-telephone-v1.webp",
   "identity": {
@@ -81,5 +81,6 @@
       "status": "Approved for publication"
     }
   ],
-  "preservation": "Previous original illustrations retained. Chapter prose and illustration order unchanged. Other books’ art untouched."
+  "preservation": "Previous original illustrations retained. Chapter prose and illustration order unchanged. Other books’ art untouched.",
+  "historicalReferenceStatus": "Superseded for active artwork by docs/art/book-four-character-redesign.json and the current approved character sheets. Preserve this file only as production history."
 }

@@ -214,5 +214,6 @@
         }
       ]
     }
-  ]
+  ],
+  "historicalDesignGuidance": "Fist anatomy/cuff guidance in these older prompts is superseded by docs/art/fist-o-mite-approved-identity.json and docs/art/book-four-character-redesign.json; retain scene staging and Laura coat chronology."
 }

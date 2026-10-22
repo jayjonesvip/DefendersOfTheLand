@@ -50,7 +50,7 @@ async function check(){
     assert(await page.locator('.chapter-body img').evaluateAll(images=>images.every(image=>image.naturalWidth>0&&Math.abs(image.width/image.height-image.naturalWidth/image.naturalHeight)<.02)));
    }
    if(chapter.number===2){
-    assert((await page.locator('.chapter-body img').nth(1).getAttribute('src')).endsWith('chase-v2.webp'));
+    assert((await page.locator('.chapter-body img').nth(1).getAttribute('src')).endsWith('chase-design-v1.webp'));
     assert((await page.locator('.chapter-body img').last().getAttribute('src')).endsWith('newspaper-v1.webp'));
    }
    if(chapter.number===3){
