@@ -2,6 +2,7 @@
 import argparse,hashlib,io,json,os,pathlib,re
 from PIL import Image
 import pymupdf as fitz
+from print_resolution import inspect_image_resolution
 root=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--book',default='book-two');args=parser.parse_args()
 assert re.fullmatch(r'book-[a-z]+',args.book),'Invalid book ID'
@@ -70,6 +71,11 @@ if layout.get('paperback'):
 file=out/(f'{args.book}-kdp-interior.pdf' if layout.get('paperback') else f'defenders-of-the-land-{args.book}-illustrated.pdf');doc.save(file,garbage=4,deflate=True)
 report={'bookId':args.book,'file':file.name,'pages':len(doc),'pageCountIncludes':'title, copyright, contents, all available chapters and end padding; no cover' if layout.get('paperback') else 'front cover, title, contents and all available chapters','chapters':len(layout['chapters']),'interiorIllustrations':placements if layout.get('paperback') else placements-1,'passagesChecked':len(expected),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'status':'Unpublished illustrated review PDF; not an approved print interior','pageSizeInches':[6,9],'printLayoutIsProvisional':True,'chapterStarts':layout['chapters']}
 with fitz.open(file) as final:
+    if args.book=='book-two' and layout.get('paperback'):
+        resolution=inspect_image_resolution(final)
+        resolution.update({'file':file.name,'pages':len(final),'sha256':report['sha256']})
+        report['minimumPlacedImageDpi']=resolution['minimumPlacedImageDpi']
+        (out/'book-two-interior-resolution.json').write_text(json.dumps(resolution,indent=2)+'\n')
     destinations=[link['page'] for page in final for link in page.get_links() if link['kind']==fitz.LINK_GOTO]
     assert set(destinations)==(set() if layout.get('paperback') else {c['page']-1 for c in layout['chapters']})
     assert len(final.get_toc())==(0 if layout.get('paperback') else len(layout['chapters']))
