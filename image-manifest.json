@@ -1783,5 +1783,315 @@
     "file": "book-four-chapter-11-emitter-v3.webp",
     "width": 1536,
     "height": 1024
+  },
+  "Fist_O_Mite_Character_Sheet.png": {
+    "file": "Fist_O_Mite_Character_Sheet.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "origins-cover-orange-zerdo-fist-web-v3.webp": {
+    "file": "origins-cover-orange-zerdo-fist-web-v3.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "origins-cover-older-billy-web-v4.webp": {
+    "file": "origins-cover-older-billy-web-v4.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "origins-cover-curious-fist-web-v5.webp": {
+    "file": "origins-cover-curious-fist-web-v5.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "seth-dossier-orange-v1.png": {
+    "file": "seth-dossier-orange-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "billy-dossier-older-v1.png": {
+    "file": "billy-dossier-older-v1.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "fist-portrait-approved-v2.png": {
+    "file": "fist-portrait-approved-v2.png",
+    "width": 1254,
+    "height": 1254
+  },
+  "chapter5-glove-auction-design-v1.webp": {
+    "file": "chapter5-glove-auction-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-glove-awakening-before-flash-design-v1.webp": {
+    "file": "chapter1-glove-awakening-before-flash-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-glove-punch-design-v1.webp": {
+    "file": "chapter4-glove-punch-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-glove-escape-design-v1.webp": {
+    "file": "chapter4-glove-escape-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-shore-design-v1.webp": {
+    "file": "chapter1-shore-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-impact-design-v1.webp": {
+    "file": "chapter1-impact-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-awakening-design-v1.webp": {
+    "file": "chapter1-awakening-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-bus-rail-design-v1.webp": {
+    "file": "chapter2-bus-rail-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-strength-design-v1.webp": {
+    "file": "chapter1-strength-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter1-fallen-tree-rescue-design-v1.webp": {
+    "file": "chapter1-fallen-tree-rescue-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter4-daniel-overhears-seth-jenny-design-v1.webp": {
+    "file": "chapter4-daniel-overhears-seth-jenny-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-billy-newspaper-design-v1.webp": {
+    "file": "chapter2-billy-newspaper-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-lake-demonstration-design-v1.webp": {
+    "file": "chapter2-lake-demonstration-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter2-billy-night-design-v1.webp": {
+    "file": "chapter2-billy-night-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter3-blackwell-family-visit-design-v1.webp": {
+    "file": "chapter3-blackwell-family-visit-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-billy-seth-meeting-design-v1.webp": {
+    "file": "chapter7-billy-seth-meeting-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-fist-arrives-design-v1.webp": {
+    "file": "chapter7-fist-arrives-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter7-seth-tree-demonstration-design-v1.webp": {
+    "file": "chapter7-seth-tree-demonstration-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-seth-cafe-no-bob-design-v1.webp": {
+    "file": "chapter9-seth-cafe-no-bob-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter10-fist-and-jaws-roof-v2-design-v1.webp": {
+    "file": "chapter10-fist-and-jaws-roof-v2-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-seth-beam-catch-closeup-design-v1.webp": {
+    "file": "chapter9-seth-beam-catch-closeup-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-fist-knocks-jaws-away-design-v1.webp": {
+    "file": "chapter9-fist-knocks-jaws-away-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter9-cafe-rescue-no-bob-design-v1.webp": {
+    "file": "chapter9-cafe-rescue-no-bob-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter11-billy-checks-roof-v2-design-v1.webp": {
+    "file": "chapter11-billy-checks-roof-v2-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter12-seth-meets-perch-design-v1.webp": {
+    "file": "chapter12-seth-meets-perch-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter14-seth-braces-cart-design-v1.webp": {
+    "file": "chapter14-seth-braces-cart-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-fist-cutoff-whole-glove-design-v1.webp": {
+    "file": "chapter13-fist-cutoff-whole-glove-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-perch-intake-rescue-design-v1.webp": {
+    "file": "chapter13-perch-intake-rescue-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-perch-gate-opening-design-v1.webp": {
+    "file": "chapter13-perch-gate-opening-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter13-seth-smashes-extractor-design-v1.webp": {
+    "file": "chapter13-seth-smashes-extractor-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter15-flaming-head-reveal-design-v1.webp": {
+    "file": "chapter15-flaming-head-reveal-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-flame-transformation-design-v1.webp": {
+    "file": "chapter16-flame-transformation-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-costume-reveal-closeup-design-v1.webp": {
+    "file": "chapter16-costume-reveal-closeup-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter16-team-hero-gear-v2-design-v1.webp": {
+    "file": "chapter16-team-hero-gear-v2-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-fist-jaws-billboard-design-v1.webp": {
+    "file": "chapter17-fist-jaws-billboard-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-zerdo-tears-robot-design-v1.webp": {
+    "file": "chapter17-zerdo-tears-robot-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-perch-rescue-design-v1.webp": {
+    "file": "chapter17-perch-rescue-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter18-perch-returns-lake-v2-design-v1.webp": {
+    "file": "chapter18-perch-returns-lake-v2-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter18-city-rallies-design-v1.webp": {
+    "file": "chapter18-city-rallies-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "chapter17-billy-eleanor-newsroom-design-v1.webp": {
+    "file": "chapter17-billy-eleanor-newsroom-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "origins-cover-unlikely-heroes-web-v6.webp": {
+    "file": "origins-cover-unlikely-heroes-web-v6.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "book-three-chapter-02-question-design-v1.webp": {
+    "file": "book-three-chapter-02-question-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-02-office-design-v1.webp": {
+    "file": "book-three-chapter-02-office-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-02-departure-design-v1.webp": {
+    "file": "book-three-chapter-02-departure-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-welcome-design-v1.webp": {
+    "file": "book-three-chapter-04-welcome-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-operations-design-v1.webp": {
+    "file": "book-three-chapter-04-operations-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-scanner-design-v1.webp": {
+    "file": "book-three-chapter-04-scanner-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-04-locker-design-v1.webp": {
+    "file": "book-three-chapter-04-locker-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-call-design-v1.webp": {
+    "file": "book-three-chapter-09-call-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-getaway-design-v1.webp": {
+    "file": "book-three-chapter-09-getaway-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-fist-design-v1.webp": {
+    "file": "book-three-chapter-09-fist-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-aftermath-design-v1.webp": {
+    "file": "book-three-chapter-09-aftermath-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-09-report-design-v1.webp": {
+    "file": "book-three-chapter-09-report-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-14-return-design-v1.webp": {
+    "file": "book-three-chapter-14-return-design-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-three-chapter-14-weight-design-v1.webp": {
+    "file": "book-three-chapter-14-weight-design-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

@@ -1,0 +1,15 @@
+{
+  "book": "Book One: Origins",
+  "title": "The Unlikely Heroes",
+  "approvedConcept": "c",
+  "source": "docs/art/originals/book-one-cover-concepts-v1/c-the-unlikely-heroes.png",
+  "cover": "public/assets/origins-cover-unlikely-heroes-v6.png",
+  "webAsset": "public/assets/origins-cover-unlikely-heroes-web-v6.webp",
+  "printAsset": "public/assets/origins-cover-unlikely-heroes-cover-print.png",
+  "sha256": "ff8794b78fe1e328a89c3293f9b0680b220cf9ed18b73c12085caea59d743bbb",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "scope": "Book One front cover, paperback wrap, ebook cover, PDF/EPUB editions, samples and local reader. No remote publication."
+}

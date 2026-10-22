@@ -3,7 +3,8 @@
   "introducedIn": 5,
   "alias": "Fist-O-Mite",
   "name": "Fist-O-Mite",
-  "image": "fist-portrait-v1.png",
+  "image": "fist-portrait-approved-v2.png",
   "role": "A living, floating boxing glove",
-  "personality": "Outspoken and independent, Fist-O-Mite refuses to be treated as someone’s property. He chooses for himself who deserves his help."
+  "personality": "Outspoken and independent, Fist-O-Mite refuses to be treated as someone\u2019s property. He chooses for himself who deserves his help.",
+  "sheet": "Fist_O_Mite_Character_Sheet.png"
 }

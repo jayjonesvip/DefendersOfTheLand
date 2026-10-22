@@ -1,0 +1,11 @@
+{
+  "book": "Book One: Origins",
+  "cover": "public/assets/origins-cover-orange-zerdo-fist-v3.png",
+  "webAsset": "public/assets/origins-cover-orange-zerdo-fist-web-v3.webp",
+  "basedOn": "public/assets/origins-cover-v2.png",
+  "changes": [
+    "Seth: orange hoodie, white Z with brown outline, blue jeans, brown sneakers.",
+    "Fist-O-Mite: approved dimensional face, half-lidded eyes, small red nose, cocky smirk and white cuff."
+  ],
+  "scope": "New front-cover artwork saved as a versioned asset; no publication or full wraparound print-cover rebuild."
+}

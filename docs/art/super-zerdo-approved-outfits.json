@@ -1,0 +1,28 @@
+{
+  "character": "Super Zerdo / Seth Zerdowski",
+  "status": "Outfits approved by author; character sheet updated to match",
+  "primaryReference": "docs/art/originals/super-zerdo-orange-v1/Super_Zerdo_Character_Sheet.png",
+  "webAsset": "public/assets/Super_Zerdo_Character_Sheet.webp",
+  "approvedOutfitReferences": {
+    "hero": "docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png",
+    "civilian": "docs/art/originals/super-zerdo-orange-v1/seth-orange-hoodie-blue-eyes.png"
+  },
+  "heroCostume": {
+    "suit": "Orange fitted bodysuit",
+    "glovesAndBoots": "Dark brown gauntlet gloves and tall boots",
+    "accents": "White shoulders and side/outer-leg stripes",
+    "chestEmblem": "Plain white Z",
+    "belt": "White belt with circular buckle",
+    "mask": "Orange domino mask with thin white trim"
+  },
+  "streetClothes": {
+    "top": "Orange pullover hoodie, hood down",
+    "chestEmblem": "White Z with dark brown border",
+    "trousers": "Blue jeans",
+    "shoes": "Brown low-top sneakers",
+    "handsAndFace": "Bare hands; no superhero mask"
+  },
+  "scope": "Applied to Book One and Book Three illustrations, matching appearance descriptions and shared character portraits. This latest pass updates Book Three only.",
+  "identityRule": "Preserve established facial identity, hair, eye-color canon, age and personality. This is an outfit update.",
+  "eyeColor": "Blue; preserve the established book identity."
+}

@@ -6,7 +6,7 @@
   "blocks": [
     {
       "type": "scene",
-      "art": "chapter1-awakening.jpg",
+      "art": "chapter1-awakening-design-v1.webp",
       "text": "Seth woke on the wet rocks. His palms should have been scraped raw. They were not. He touched his face, then his ribs. Everything seemed to be where he had left it.",
       "dialogue": "I’m… still here?",
       "alt": "Seth pushes himself upright on the wet shore after the impact."
@@ -22,12 +22,12 @@
     {
       "type": "scene",
       "text": "On the bus to school, Seth grabbed the metal seat rail as the driver turned a corner. The tube crumpled beneath his fingers. He kept his hand over the dent until his stop. By lunchtime, he had stopped trying to explain things. After school, he headed back to the lake. He needed somewhere quiet. Somewhere with rocks.",
-      "art": "chapter2-bus-rail.png",
+      "art": "chapter2-bus-rail-design-v1.webp",
       "alt": "Seventeen-year-old student Seth accidentally bends a metal seat rail while catching his balance on a Cleveland city bus."
     },
     {
       "type": "scene",
-      "art": "chapter1-strength.jpg",
+      "art": "chapter1-strength-design-v1.webp",
       "text": "The boulder came up as though it were a cardboard box. Seth’s feet slid. He almost dropped it on his own shoe, then lowered it with a crack that sent a gull into the air.",
       "dialogue": "Okay. That is definitely new.",
       "alt": "Seth awkwardly lifts an impossibly heavy shoreline boulder."
@@ -50,7 +50,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter1-fallen-tree-rescue.png",
+      "art": "chapter1-fallen-tree-rescue-design-v1.webp",
       "text": "Seth slid both hands beneath the trunk and lifted. He held it steady while the helpers pulled the fisherman clear.",
       "dialogue": "I’ve got it. I think.",
       "alt": "Seth lifts a fallen tree as two bystanders pull a fisherman clear; a young woman with a notebook watches with impressed curiosity."
@@ -85,7 +85,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter4-daniel-overhears-seth-jenny.png",
+      "art": "chapter4-daniel-overhears-seth-jenny-design-v1.webp",
       "alt": "Daniel crouches behind shoreline bushes with an analog meter, secretly listening to Seth and Jenny beside the fallen tree.",
       "text": "Beyond the path, Daniel crouched behind the bushes with a portable meter. He had spent the day taking readings along the lake, trying to trace the light he had seen. He reached the bushes as the reporter asked how long the boy had been able to lift trees. Now he heard about the wave, the broken tap, and the bus rail. He looked from the boy to the needle on his meter, then slipped away while they were still talking."
     },

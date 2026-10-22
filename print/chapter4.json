@@ -7,27 +7,27 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter1-awakening.jpg",
+  "openingArtwork": "chapter1-awakening-design-v1.webp",
   "illustrations": {
-    "chapter1-awakening.jpg": {
+    "chapter1-awakening-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true
     },
-    "chapter2-bus-rail.png": {
+    "chapter2-bus-rail-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter1-strength.jpg": {
+    "chapter1-strength-design-v1.webp": {
       "layout": "half-page",
       "print": true
     },
-    "chapter1-fallen-tree-rescue.png": {
+    "chapter1-fallen-tree-rescue-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter4-daniel-overhears-seth-jenny.png": {
+    "chapter4-daniel-overhears-seth-jenny-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null

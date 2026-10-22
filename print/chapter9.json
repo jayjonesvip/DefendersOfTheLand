@@ -7,29 +7,29 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter9-seth-cafe-no-bob.png",
+  "openingArtwork": "chapter9-seth-cafe-no-bob-design-v1.webp",
   "illustrations": {
-    "chapter9-seth-cafe-no-bob.png": {
+    "chapter9-seth-cafe-no-bob-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null
     },
-    "chapter10-fist-and-jaws-roof-v2.png": {
+    "chapter10-fist-and-jaws-roof-v2-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter9-cafe-rescue-no-bob.png": {
+    "chapter9-cafe-rescue-no-bob-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter9-fist-knocks-jaws-away.png": {
+    "chapter9-fist-knocks-jaws-away-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter9-seth-beam-catch-closeup.png": {
+    "chapter9-seth-beam-catch-closeup-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null

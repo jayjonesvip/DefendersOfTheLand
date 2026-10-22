@@ -14,14 +14,14 @@
     },
     {
       "type": "prose",
-      "text": "After school, he walked to the lake because the lake never asked how his day had gone. Downtown stood behind him, its windows catching the last light. Seth sat on the rocks, his red hoodie damp at the cuffs."
+      "text": "After school, he walked to the lake because the lake never asked how his day had gone. Downtown stood behind him, its windows catching the last light. Seth sat on the rocks, his orange hoodie damp at the cuffs."
     },
     {
       "type": "scene",
-      "art": "chapter1-shore.jpg",
+      "art": "chapter1-shore-design-v1.webp",
       "text": "A gull worked at a discarded sandwich wrapper. Seth watched it win.",
       "dialogue": "At least somebody knows what they’re doing.",
-      "alt": "Seth sits on the Lake Erie shoreline in his red Z hoodie at dusk."
+      "alt": "Seth sits on the Lake Erie shoreline in his orange hoodie with a brown-bordered white Z at dusk."
     },
     {
       "type": "prose",
@@ -33,7 +33,7 @@
     },
     {
       "type": "scene",
-      "art": "chapter1-impact.jpg",
+      "art": "chapter1-impact-design-v1.webp",
       "text": "The streak struck beyond the rocks. A wall of water rose, lit from within. Seth took one step backward. There was no time for another.",
       "dialogue": "",
       "alt": "A bright streak strikes Lake Erie, sending an illuminated wave toward Seth."

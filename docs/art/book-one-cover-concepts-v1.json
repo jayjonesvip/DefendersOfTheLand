@@ -1,0 +1,40 @@
+{
+  "status": "Concept C approved and applied to Book One.",
+  "concepts": [
+    {
+      "id": "a",
+      "name": "Robot Showdown",
+      "path": "/workspace/generated_images/exec-cb683e5c-0aff-4c9b-b63c-8d4550a9b6a5.png",
+      "file": "docs/art/originals/book-one-cover-concepts-v1/a-robot-showdown.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "828a441879151e0c58691c9e7cd7c56d370ff9c08b503b3f87e97b4536b4aa1a"
+    },
+    {
+      "id": "b",
+      "name": "Cleveland\u2019s Last Stand",
+      "path": "/workspace/generated_images/exec-a80fd392-ae67-4379-9a88-b85f6bb74933.png",
+      "file": "docs/art/originals/book-one-cover-concepts-v1/b-clevelands-last-stand.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "1ef65cd4d78c038be8f795ea462dc1bd7c31d95e71294e32ac6023cb5d7ab6df"
+    },
+    {
+      "id": "c",
+      "name": "The Unlikely Heroes",
+      "path": "/workspace/generated_images/exec-79781421-8dd7-43ba-828c-de0e1f938f9b.png",
+      "file": "docs/art/originals/book-one-cover-concepts-v1/c-the-unlikely-heroes.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "ff8794b78fe1e328a89c3293f9b0680b220cf9ed18b73c12085caea59d743bbb"
+    }
+  ],
+  "selectedConcept": "c",
+  "activeCover": "public/assets/origins-cover-unlikely-heroes-v6.png"
+}

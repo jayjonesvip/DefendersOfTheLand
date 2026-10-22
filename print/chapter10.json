@@ -7,9 +7,9 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter11-billy-checks-roof-v2.png",
+  "openingArtwork": "chapter11-billy-checks-roof-v2-design-v1.webp",
   "illustrations": {
-    "chapter11-billy-checks-roof-v2.png": {
+    "chapter11-billy-checks-roof-v2-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null

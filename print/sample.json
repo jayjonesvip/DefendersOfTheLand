@@ -5,31 +5,31 @@
   "bleed": false,
   "color": "color",
   "approvedInterior": false,
-  "openingArtwork": "chapter5-glove-auction.png",
+  "openingArtwork": "chapter5-glove-auction-design-v1.webp",
   "illustrations": {
-    "chapter4-glove-punch.png": {
+    "chapter4-glove-punch-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter4-glove-escape.png": {
+    "chapter4-glove-escape-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     },
-    "chapter5-glove-auction.png": {
+    "chapter5-glove-auction-design-v1.webp": {
       "layout": "chapter-opening",
       "print": true,
       "caption": null
     },
-    "chapter1-glove-awakening-before-flash.png": {
+    "chapter1-glove-awakening-before-flash-design-v1.webp": {
       "layout": "full-width",
       "print": true,
       "caption": null
     }
   },
   "cover": {
-    "reference": "issue-cover.jpg",
+    "reference": "origins-cover-unlikely-heroes-v6.png",
     "pageCount": null,
     "paperType": null,
     "inkType": null,
