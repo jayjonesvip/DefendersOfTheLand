@@ -75,16 +75,17 @@
       "number": 4,
       "key": "departure",
       "label": "Above the rooftops",
-      "status": "Approved for publication",
-      "source": "/workspace/generated_images/exec-1cb18ad5-99cf-415d-8ed7-4a34c4f26e30.png",
-      "original": "docs/art/originals/book-four/chapter-04/book-four-chapter-04-departure-v2.png",
-      "webArt": "book-four-chapter-04-departure-v2.webp",
+      "status": "Integrated; author-requested character identity correction",
+      "source": "/workspace/generated_images/exec-c45b2429-65a7-4723-84d5-447845905c49.png",
+      "original": "docs/art/originals/book-four/chapter-04/book-four-chapter-04-departure-identity-v1.png",
+      "webArt": "book-four-chapter-04-departure-identity-v1.webp",
       "anchorBefore": "At first they could follow him easily.",
       "alt": "The four friends watch Flaming Head rise above the rooftops through the facility’s open window.",
-      "prompt": "Make a precise, LOCALIZED CHARACTER-CONSISTENCY EDIT to the FIRST image, using ONLY Inspector Billy in the SECOND image as the AUTHOR-APPROVED IDENTITY REFERENCE. Keep the FIRST image's exact composition, perspective, character placements, poses, expressions, action, lighting, costumes, props, other characters and background as closely as possible. Change ONLY INSPECTOR BILLY'S SKIN TONE AND HAIR to match reference2. Approved Billy: light warm PEACH skin on face/ears/hands, the same skin tone in highlight and shade as reference2 adjusted for target's existing lighting, NOT a deep orange/brown face and mismatched hands. Hair is medium/dark CHESTNUT BROWN with shaggy layered pointed TUFTS/fringe and side locks as in reference2, NOT a dense halo of tight rust-red CURLS or orange ringlets, no new beard. Keep his very SHORT compact cartoon proportions, enormous oval WHITE eyes with black oval pupils, red/brown PLAID DEERSTALKER cap, TAN belted trenchcoat, high collar HIDING mouth and lower face. He remains the same tiny detective; do NOT turn him into a realistic tall adult, do NOT expose mouth or add face detail. Keep same cap, collar and eye shape/eye direction as first image. Do NOT copy the second image's telephone/newspaper/corkboard/desk composition into the target. No extra hand or character, no text/caption. No global recoloring, no changes to anybody else, no outfit redesign. Preserve first image's landscape 3:2 full-bleed rich inked painted comic style. Billy is the VERY SHORT detective at LOWER CENTER, seen from BEHIND/SIDE looking up through the open window. Correct visible SIDE HAIR to shaggy brown tufts rather than curly ringlets and any visible face/hand skin to light warm peach. Preserve his turned-away pose and existing huge visible eye, do not rotate him toward camera. Preserve distant tiny Flaming Head in the sky.",
+      "prompt": "Edit IMAGE 1 with a precise LOCALIZED correction to FIST-O-MITE ONLY, the floating red glove near the window. Reference2 is his approved FACE; reference3 shows his approved silhouette, side view, hover and cuff. Fist must match references2/3: ONE elongated red leather living boxing glove, sculpted red brow/cheeks, SMALL rounded red nose, white eyes with dark pupils in the same natural facial arrangement, and mouth formed in the leather rather than a separate human face. Keep his glove identity, not a round floating red human head. ONE SMALL TUCKED thumb/fold BEHIND the face like a swept tuft, no prominent side bulb, underside thumb, extra appendage or giant thumb. Short RED LEATHER cuff with ONE INSET WHITE RECTANGULAR PANEL, thin BLACK rectangular keyline, visible RED MARGINS ON ALL FOUR SIDES, narrow black wrist rim, DARK HOLLOW wrist opening; no all-white sleeve, laces, lettering, buckle, arm, hand or body. Keep his exact original location, size and flight orientation with cuff trailing, readable upright face and natural perspective. Adapt his approved features to quiet hopeful attention as his friend Flaming Head departs; do NOT remove or enlarge the tiny orange Flaming Head in the sky. Do not copy the reference's background, typography, static pose or any other angle/scene. Preserve ALL other image content as closely as possible: older gray-haired Billy, Jenny, orange/white/brown Zerdo with NO CAPE, hands, window, skyline, furniture, lighting, time of day and original painted inked comic style. Do not change anyone else's age, face, pose or outfit. One full LANDSCAPE 3:2 scene, no text/panels/duplicate glove.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-departure-v1.webp",
-        "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-07/book-four-chapter-07-telephone-v1.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-04-departure-design-v1.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/fist-o-mite-approved-face.png",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
       ],
       "previousVersions": [
         {
@@ -102,8 +103,29 @@
             "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-02-call-v1.webp",
             "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-return-v1.webp"
           ]
+        },
+        {
+          "number": 4,
+          "key": "departure",
+          "label": "Above the rooftops",
+          "status": "Approved for publication",
+          "source": "/workspace/generated_images/exec-1cb18ad5-99cf-415d-8ed7-4a34c4f26e30.png",
+          "original": "docs/art/originals/book-four/chapter-04/book-four-chapter-04-departure-v2.png",
+          "webArt": "book-four-chapter-04-departure-v2.webp",
+          "anchorBefore": "At first they could follow him easily.",
+          "alt": "The four friends watch Flaming Head rise above the rooftops through the facility’s open window.",
+          "prompt": "Make a precise, LOCALIZED CHARACTER-CONSISTENCY EDIT to the FIRST image, using ONLY Inspector Billy in the SECOND image as the AUTHOR-APPROVED IDENTITY REFERENCE. Keep the FIRST image's exact composition, perspective, character placements, poses, expressions, action, lighting, costumes, props, other characters and background as closely as possible. Change ONLY INSPECTOR BILLY'S SKIN TONE AND HAIR to match reference2. Approved Billy: light warm PEACH skin on face/ears/hands, the same skin tone in highlight and shade as reference2 adjusted for target's existing lighting, NOT a deep orange/brown face and mismatched hands. Hair is medium/dark CHESTNUT BROWN with shaggy layered pointed TUFTS/fringe and side locks as in reference2, NOT a dense halo of tight rust-red CURLS or orange ringlets, no new beard. Keep his very SHORT compact cartoon proportions, enormous oval WHITE eyes with black oval pupils, red/brown PLAID DEERSTALKER cap, TAN belted trenchcoat, high collar HIDING mouth and lower face. He remains the same tiny detective; do NOT turn him into a realistic tall adult, do NOT expose mouth or add face detail. Keep same cap, collar and eye shape/eye direction as first image. Do NOT copy the second image's telephone/newspaper/corkboard/desk composition into the target. No extra hand or character, no text/caption. No global recoloring, no changes to anybody else, no outfit redesign. Preserve first image's landscape 3:2 full-bleed rich inked painted comic style. Billy is the VERY SHORT detective at LOWER CENTER, seen from BEHIND/SIDE looking up through the open window. Correct visible SIDE HAIR to shaggy brown tufts rather than curly ringlets and any visible face/hand skin to light warm peach. Preserve his turned-away pose and existing huge visible eye, do not rotate him toward camera. Preserve distant tiny Flaming Head in the sky.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-departure-v1.webp",
+            "/workspace/DefendersOfTheLand/docs/art/originals/book-four/chapter-07/book-four-chapter-07-telephone-v1.png"
+          ]
+        },
+        {
+          "webArt": "book-four-chapter-04-departure-design-v1.webp",
+          "status": "Previously active design correction; original provenance retained in historical design reports"
         }
-      ]
+      ],
+      "sha256": "379909a4608fcf4e6b6e396b0337b696a448821ddfb0076c1a5f949bb4dedc7e"
     },
     {
       "number": 5,

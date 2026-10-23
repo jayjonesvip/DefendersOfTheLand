@@ -41,18 +41,42 @@
       "number": 3,
       "key": "window",
       "label": "No answer",
-      "status": "Approved for publication",
-      "source": "/workspace/generated_images/exec-788a2c5d-2d9b-4ec9-a0ad-d2ca5cae17e3.png",
-      "original": "docs/art/originals/book-four/chapter-08/book-four-chapter-08-window-v1.png",
-      "webArt": "book-four-chapter-08-window-v1.webp",
+      "status": "Integrated; author-requested character identity correction",
+      "source": "/workspace/generated_images/exec-b47eea4f-7c22-48ab-a450-4c828db0d2b2.png",
+      "original": "docs/art/originals/book-four/chapter-08/book-four-chapter-08-window-identity-v1.png",
+      "webArt": "book-four-chapter-08-window-identity-v1.webp",
       "anchorBefore": "Seth came beside her and drew the curtain clear.",
       "alt": "Seth, Jenny, Billy and Fist wait at the open facility window; the bright sky outside is empty.",
-      "prompt": "Create ONE new landscape 3:2 full-bleed chapter-book illustration in exact rich warm painted inked comic style of references, Cleveland 1987. NO panels, borders, captions or speech balloons. SETH / ZERDO youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, BLUE full suit with big RED Z, RED cape/gloves/boots, red belt GOLD round buckle. Normal youthful proportions, no bodybuilder bulk or adult face redesign. JENNY / PINK BLUR youthful natural modest proportions, long CURLY GOLDEN BLONDE hair, GREEN eyes, WHITE domino eye mask, opaque practical PINK zip-front full jumpsuit with WHITE side/sleeve stripes, WHITE belt/gloves/tall boots. No exaggerated curves, no rear-focused pose. CLAUDE-DONATED FACILITY training room: restored RED BRICK, tall BLACK-FRAMED windows showing Cleveland in clear MORNING daylight, blue-gray floor mats, cream tape route and stopping square, simple weight rack and low shelf, paper/analog 1987 equipment only. Their familiar strength and speed have returned stronger; NO glowing bodies, new flight, healing, laser powers or lightning aura. FLAMING HEAD is ABSENT, do not import him from references, no tiny orange face, spark, reflection or ghost anywhere. THIRD IMAGE: quiet WIDE interior view of open facility WINDOW, hopeful excitement now SUBDUED CONCERN. Seth RIGHT, Jenny LEFT in front/side modest view, both looking out at EMPTY clear blue MORNING sky above Cleveland. Billy SMALL lower CENTER, author-approved look EXACT from reference2: tiny compact cartoon detective, LIGHT WARM PEACH skin face/ears/bare hands, shaggy CHESTNUT BROWN pointed fringe/side locks NOT red curly ringlets, huge oval WHITE eyes black pupils, RED/BROWN PLAID deerstalker and TAN coat high collar hiding mouth. Billy looks up toward friends with concern, not smiling; small notebook held closed at side. FIST-O-MITE is ONE small clearly formed RED BOXING GLOVE floating LEFT of window, expressive eyes and modest concerned mouth on FRONT pointing RIGHT toward empty sky, WHITE WRIST CUFF trailing at REAR SCREEN LEFT, compact tucked thumb UNDER near wrist, no big red ear-lobe, no sphere-head/neck/body/arms. Match corrected glove anatomy reference3 but oriented to look right. Natural positioning four friends each once, no overlap/intersection. Jenny's gloved hands rest on sill, Seth holds curtain clear with one hand, other lowered. Window is EMPTY: absolutely NO Flaming Head, tiny fire face, flying figure, orange point, returning spark or spiritual silhouette. Do NOT copy sunset or actual Flaming Head from reference1, only room/window geography; use MORNING sunlight. Quiet room, no tears spectacle, no victory celebration, no ghostly ray. Emotional focus on waiting for their friend.",
+      "prompt": "Edit IMAGE 1 with a precise LOCALIZED correction to FIST-O-MITE ONLY, the floating red glove near the window. Reference2 is his approved FACE; reference3 shows his approved silhouette, side view, hover and cuff. Fist must match references2/3: ONE elongated red leather living boxing glove, sculpted red brow/cheeks, SMALL rounded red nose, white eyes with dark pupils in the same natural facial arrangement, and mouth formed in the leather rather than a separate human face. Keep his glove identity, not a round floating red human head. ONE SMALL TUCKED thumb/fold BEHIND the face like a swept tuft, no prominent side bulb, underside thumb, extra appendage or giant thumb. Short RED LEATHER cuff with ONE INSET WHITE RECTANGULAR PANEL, thin BLACK rectangular keyline, visible RED MARGINS ON ALL FOUR SIDES, narrow black wrist rim, DARK HOLLOW wrist opening; no all-white sleeve, laces, lettering, buckle, arm, hand or body. Keep his exact original location, size and flight orientation with cuff trailing, readable upright face and natural perspective. Adapt his approved features to worried watchfulness, listening for his absent friend; keep sky EMPTY, no Flaming Head, spark or new figure. Do not copy the reference's background, typography, static pose or any other angle/scene. Preserve ALL other image content as closely as possible: older gray-haired Billy, Jenny, orange/white/brown Zerdo with NO CAPE, hands, window, skyline, furniture, lighting, time of day and original painted inked comic style. Do not change anyone else's age, face, pose or outfit. One full LANDSCAPE 3:2 scene, no text/panels/duplicate glove.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-departure-v2.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-telephone-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-01-jack-v6.webp"
-      ]
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-08-window-design-v1.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/fist-o-mite-approved-face.png",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+      ],
+      "previousVersions": [
+        {
+          "number": 3,
+          "key": "window",
+          "label": "No answer",
+          "status": "Approved for publication",
+          "source": "/workspace/generated_images/exec-788a2c5d-2d9b-4ec9-a0ad-d2ca5cae17e3.png",
+          "original": "docs/art/originals/book-four/chapter-08/book-four-chapter-08-window-v1.png",
+          "webArt": "book-four-chapter-08-window-v1.webp",
+          "anchorBefore": "Seth came beside her and drew the curtain clear.",
+          "alt": "Seth, Jenny, Billy and Fist wait at the open facility window; the bright sky outside is empty.",
+          "prompt": "Create ONE new landscape 3:2 full-bleed chapter-book illustration in exact rich warm painted inked comic style of references, Cleveland 1987. NO panels, borders, captions or speech balloons. SETH / ZERDO youthful tousled BROWN hair, BLUE eyes, RED domino eye mask, BLUE full suit with big RED Z, RED cape/gloves/boots, red belt GOLD round buckle. Normal youthful proportions, no bodybuilder bulk or adult face redesign. JENNY / PINK BLUR youthful natural modest proportions, long CURLY GOLDEN BLONDE hair, GREEN eyes, WHITE domino eye mask, opaque practical PINK zip-front full jumpsuit with WHITE side/sleeve stripes, WHITE belt/gloves/tall boots. No exaggerated curves, no rear-focused pose. CLAUDE-DONATED FACILITY training room: restored RED BRICK, tall BLACK-FRAMED windows showing Cleveland in clear MORNING daylight, blue-gray floor mats, cream tape route and stopping square, simple weight rack and low shelf, paper/analog 1987 equipment only. Their familiar strength and speed have returned stronger; NO glowing bodies, new flight, healing, laser powers or lightning aura. FLAMING HEAD is ABSENT, do not import him from references, no tiny orange face, spark, reflection or ghost anywhere. THIRD IMAGE: quiet WIDE interior view of open facility WINDOW, hopeful excitement now SUBDUED CONCERN. Seth RIGHT, Jenny LEFT in front/side modest view, both looking out at EMPTY clear blue MORNING sky above Cleveland. Billy SMALL lower CENTER, author-approved look EXACT from reference2: tiny compact cartoon detective, LIGHT WARM PEACH skin face/ears/bare hands, shaggy CHESTNUT BROWN pointed fringe/side locks NOT red curly ringlets, huge oval WHITE eyes black pupils, RED/BROWN PLAID deerstalker and TAN coat high collar hiding mouth. Billy looks up toward friends with concern, not smiling; small notebook held closed at side. FIST-O-MITE is ONE small clearly formed RED BOXING GLOVE floating LEFT of window, expressive eyes and modest concerned mouth on FRONT pointing RIGHT toward empty sky, WHITE WRIST CUFF trailing at REAR SCREEN LEFT, compact tucked thumb UNDER near wrist, no big red ear-lobe, no sphere-head/neck/body/arms. Match corrected glove anatomy reference3 but oriented to look right. Natural positioning four friends each once, no overlap/intersection. Jenny's gloved hands rest on sill, Seth holds curtain clear with one hand, other lowered. Window is EMPTY: absolutely NO Flaming Head, tiny fire face, flying figure, orange point, returning spark or spiritual silhouette. Do NOT copy sunset or actual Flaming Head from reference1, only room/window geography; use MORNING sunlight. Quiet room, no tears spectacle, no victory celebration, no ghostly ray. Emotional focus on waiting for their friend.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-departure-v2.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-telephone-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-01-jack-v6.webp"
+          ]
+        },
+        {
+          "webArt": "book-four-chapter-08-window-design-v1.webp",
+          "status": "Previously active design correction; original provenance retained in historical design reports"
+        }
+      ],
+      "sha256": "b92376d2aa196bd95909971bc698c7cb9e6d55112a46a9698e1b5a5ea618b19a"
     },
     {
       "number": 4,

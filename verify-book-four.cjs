@@ -8,13 +8,25 @@ async function check(){
  const orangeCorrections=read('docs/art/book-four-audit-corrections-2026-10-23.json').records.filter(record=>record.chapter===12);
  assert.equal(orangeCorrections.length,10,'Every Chapter 12 Zerdo appearance needs its approved orange correction');
  const revisionArt=read('docs/art/book-four-chapter-12-submitted-revision-art-2026-10-23.json').images;
+ const identityArt=read('docs/art/book-four-billy-fist-corrections-2026-10-23.json').images;
+ assert.equal(identityArt.length,12,'Twelve reviewed character corrections remain selected');
+ const replacements=[...revisionArt,...identityArt];
+ const currentArt=image=>{
+  const seen=new Set();
+  while(replacements.some(next=>next.previousArt===image.newArt)){
+   assert(!seen.has(image.newArt),'Artwork replacement cycle');seen.add(image.newArt);
+   image=replacements.find(next=>next.previousArt===image.newArt);
+  }
+  return image;
+ };
  for(const correction of orangeCorrections){
-  const current=revisionArt.find(image=>image.previousArt===correction.newArt)||correction;
+  const current=currentArt(correction);
   assert(illustrations.some(block=>block.art===current.newArt),`Approved orange artwork no longer active: ${current.key}`);
   const bytes=fs.readFileSync(path.join(root,'public/assets',current.newArt));
   assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),current.sha256,`Reviewed orange artwork changed: ${current.key}`);
  }
- for(const image of revisionArt){
+ for(const reviewed of [...revisionArt,...identityArt]){
+  const image=currentArt(reviewed);
   assert(illustrations.some(block=>block.art===image.newArt),`Revised action artwork no longer active: ${image.key}`);
   const bytes=fs.readFileSync(path.join(root,'public/assets',image.newArt));
   assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),image.sha256,`Reviewed action artwork changed: ${image.key}`);

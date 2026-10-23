@@ -18,7 +18,14 @@ the original audit preserves its pre-edit quotations. Preserve Chapter 12's
 latest author-submitted revision, seventeen illustration sequence and orange
 costume corrections; see `docs/editorial/book-four-chapter-12-submitted-revision-2026-10-23.json`.
 Its earlier fourteen-image draft and blue-costume images remain archived sources,
-not active costume references. Other selected character designs are retained.
+not active costume references. Subsequent author-requested Billy/Fist corrections
+are recorded in `docs/art/book-four-billy-fist-corrections-2026-10-23.json`.
+Billy must remain an older adult with gray hair/sideburns, weathered face and
+mature features, matching `docs/art/inspector-billy-approved-identity.json`.
+Fist must match `docs/art/fist-o-mite-approved-identity.json`: red leather glove,
+small tucked top/back thumb, sculpted face, short red cuff with one inset white
+rectangle and red margins, black wrist rim. No protruding underside thumb,
+all-white sleeve or floating round human head. Superseded art remains archived.
 Zerdo wears the approved orange/white/brown costume throughout Book Four and
 must have no cape, including on the cover. Do not introduce further story or
 art changes merely because a historical production note describes older work.
