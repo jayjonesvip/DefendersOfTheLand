@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-23",
+  "book": "book-four",
+  "chapter": 12,
+  "baselineCommit": "962dd2d81f06792f76a76542e3e3393ecaa536d7",
+  "authority": "Jay selected Apply with canon corrections for the pasted replacement Chapter 12. Prior direction: Zerdo orange throughout, no cape; Books One–Three locked.",
+  "status": "Implemented and validated locally; not pushed or deployed",
+  "submittedSource": {
+    "file": "docs/editorial/archive/book-four-chapter-12-submitted-revision-2026-10-23.txt",
+    "sha256": "3f9b17a3254198d3d668c97e6701f0c48841dff49c73840518b0888a04106605",
+    "preservation": "Exact submitted text and revision notes retained."
+  },
+  "priorDraft": "docs/editorial/archive/book-four-chapter-12-before-submitted-revision-2026-10-23.json",
+  "metrics": {
+    "words": 1336,
+    "illustrations": 17,
+    "newIllustrations": 3,
+    "revisedIllustrations": 2,
+    "retainedIllustrations": 12,
+    "bookInteriorIllustrations": 70
+  },
+  "canonAdjustments": [
+    {
+      "submitted": "A motor turns the turret independently.",
+      "applied": "The tank turns on its tracks and drags the fixed, damaged turret back toward the tower.",
+      "basis": "Book Four Chapter 9 block 7 fixes the turret forward and uses the tank to aim; Chapter 11 buckles its mounting."
+    },
+    {
+      "submitted": "Blue automatically resets to red with a fixed two-second interval.",
+      "applied": "Selector colors remain blue for shrinking/red for restoration. Seth sees a brief opening when Dork moves his hand from firing to the reverse lever; no automatic selector/reset/cooldown is invented.",
+      "basis": "Established manual selector and driver firing switch in Books Three and Four."
+    },
+    {
+      "submitted": "A spare lead restores partial power and sends another blue shot into the distance; a pigeon drops.",
+      "applied": "Dork reaches for the torn lead but Jenny catches his wrist before a reconnection. Removed the extra distant shot/pigeon gag. The added Chapter 12 shot has the visible lamp target; the unseen Chapter 11 shot remains the Bouncing Bob seed.",
+      "basis": "docs/editorial/future-story-seeds.md; existing cable disconnect and Chapter 13 working captured ray."
+    },
+    {
+      "submitted": "Jaws calls Laura Lady in the car.",
+      "applied": "Jaws calls Laura by name; he still does not recognize Fist.",
+      "basis": "Book Three Chapter 14 establishes amnesia about his former identity and new acquaintance with Laura; Book Four Chapter 10 has him promise to bail Laura out."
+    },
+    {
+      "submitted": "Laura spits a glob of lava.",
+      "applied": "Laura fires plasma from her mouth. Her name remains Lava Lips.",
+      "basis": "Locked Book Three plasma training and existing Book Four attacks."
+    },
+    {
+      "submitted": "Jenny pries clips off the ray cradle.",
+      "applied": "Jenny uses the tool-rack wrench to loosen the retaining nuts on the bolted cradle before drawing the intact ray out.",
+      "basis": "Book Four Chapter 9 bolted installation; prior validated Chapter 12 removal staging."
+    },
+    {
+      "submitted": "Jenny arrives with a towing chain without retrieving it.",
+      "applied": "She removes the hull’s chain before Seth destroys the tank, then uses it for Jaws.",
+      "basis": "Prior validated Chapter 12 chain staging and Chapter 13 handoff."
+    },
+    {
+      "submitted": "Flaming Head could have melted the turret ring instantly.",
+      "applied": "Seth almost calls for his absent friend; no new instant-melting capability or confirmed death is asserted.",
+      "basis": "Existing powers and unresolved solar absence."
+    },
+    {
+      "submitted": "Fist’s white cuff.",
+      "applied": "The white inset panel on his red cuff. New glove images use the tucked thumb and red cuff panel; no injury is added.",
+      "basis": "Approved identity and October 23 audit."
+    }
+  ],
+  "retainedSubmittedBeats": [
+    "The live blue shot and miniature lamp head.",
+    "The tank reverses, throws Jenny and strains against Seth before the turret comes off.",
+    "Fist’s quieter response to Jaws not recognizing him.",
+    "Laura actively attacks the boards while Jaws attempts to free her.",
+    "Jaws refuses the first cuff bait; Fist uses the torn armor before the uppercut.",
+    "Dork’s gun/cost/theft/Army-tank exchanges, engine cough and wreck.",
+    "Jaw chain with nose/eyes clear, rear towing eye and guarded handoff.",
+    "Laura’s invitation remains unanswered; Billy pockets the lamp; Terminal Tower remains intact; Still there."
+  ],
+  "chapter13Handoff": {
+    "changes": "The lamp head joins the two tiny cruisers on the Army tray and is restored in the cleared area; a repair crew will refit it. All other Chapter 13 events and ending unchanged.",
+    "sourceSha256": "bd62ca37ea92ced0b28b6c1abea4b4d05fb962ce6317f186aa4faea0e07221ce"
+  },
+  "artRecord": "docs/art/book-four-chapter-12-submitted-revision-art-2026-10-23.json",
+  "chapter12SourceSha256": "f663907312b55e88ad86db2415c380f14d9d9da7a4dcfe93a60b1624b5ed4a4f",
+  "validation": {
+    "canonLock": "246 protected Books One–Three source hashes passed; no lock inventory changes.",
+    "chapter11": "Unchanged byte for byte from the baseline, including the original stray shot.",
+    "artReview": "Five final image outputs reviewed. Corrected duplicate lamp fixtures and reduced Jaws head scale/corrected cuff. Zerdo stays orange, no cape; all earlier images retained.",
+    "exports": "Book Four only: EPUB and 104-page illustrated PDF rebuilt and verified; 13 chapters, 70 illustrations, complete prose, image/text separation, linked contents and checksums.",
+    "fullSuite": "npm test passed: 1569 links/assets; canon guard, hosted verifier, Vault, readers, all four EPUBs, PDF/EPUB checksums and desktop/mobile layouts.",
+    "finalBookFourCheck": "Final Book Four reader/PDF/EPUB checks repeated after the PDF closing-scene layout correction.",
+    "pdfVisualReview": "Reviewed all Chapter 12 PDF pages 82–98, Chapter 13 opening and final page. The final window illustration and complete closing paragraphs now share page 104.",
+    "pdfLayoutChange": "Book Four only: group the final illustrated scene and ending in the PDF renderer. Other books use the same generated chapter markup and styles as before. No manuscript edits for pagination.",
+    "sourceIntegrity": "Chapters 1–11 unchanged byte for byte; Chapter 13 differs only in the lamp tray/restoration handoff; all prior art and submitted text preserved.",
+    "publication": "No retailer upload, repository push or deployment."
+  },
+  "exports": {
+    "pdf": {
+      "bookId": "book-four",
+      "file": "defenders-of-the-land-book-four-illustrated.pdf",
+      "pages": 104,
+      "pageCountIncludes": "front cover, title, contents and all available chapters",
+      "chapters": 13,
+      "interiorIllustrations": 70,
+      "passagesChecked": 1149,
+      "bytes": 34022729,
+      "sha256": "2bb7d9984c01ad6ef14741981915867acef5e65a3364d6c601e40ebbe8431942",
+      "status": "Unpublished illustrated review PDF; not an approved print interior",
+      "pageSizeInches": [
+        6,
+        9
+      ],
+      "printLayoutIsProvisional": true,
+      "chapterStarts": [
+        {
+          "number": 1,
+          "page": 4,
+          "title": "Something’s Wrong"
+        },
+        {
+          "number": 2,
+          "page": 12,
+          "title": "Not Fast Enough"
+        },
+        {
+          "number": 3,
+          "page": 22,
+          "title": "Dork’s Opportunity"
+        },
+        {
+          "number": 4,
+          "page": 30,
+          "title": "More Power"
+        },
+        {
+          "number": 5,
+          "page": 39,
+          "title": "Into the Light"
+        },
+        {
+          "number": 6,
+          "page": 43,
+          "title": "The Missing Vault"
+        },
+        {
+          "number": 7,
+          "page": 50,
+          "title": "Something Big"
+        },
+        {
+          "number": 8,
+          "page": 55,
+          "title": "More Than Before"
+        },
+        {
+          "number": 9,
+          "page": 62,
+          "title": "Bow to Dork"
+        },
+        {
+          "number": 10,
+          "page": 68,
+          "title": "Lava Lips and Pink Blur"
+        },
+        {
+          "number": 11,
+          "page": 76,
+          "title": "Clash at the Tower"
+        },
+        {
+          "number": 12,
+          "page": 82,
+          "title": "Off Comes the Top"
+        },
+        {
+          "number": 13,
+          "page": 99,
+          "title": "For the Land"
+        }
+      ],
+      "contentsLinksChecked": 13,
+      "paperbackInterior": false,
+      "contentPages": 104,
+      "paddingPages": 0
+    },
+    "epub": {
+      "bookId": "book-four",
+      "title": "Defenders of the Land: Clash in Cleveland",
+      "status": "Draft complete",
+      "coverIncluded": true,
+      "file": "defenders-of-the-land-book-four.epub",
+      "sha256": "429e4936e782ca0f6a7f0ec842ce86e1ffe18b635df7f154936e8cf9aab99bbe",
+      "bytes": 34060208,
+      "chapters": 13,
+      "paragraphsChecked": 1149,
+      "interiorIllustrations": 70,
+      "layout": "reflowable",
+      "missingResources": 0
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-23",
+  "authority": "Jay: Apply with canon corrections. Orange Zerdo remains required.",
+  "images": [
+    {
+      "key": "lamp",
+      "sourceGenerated": "/workspace/generated_images/exec-0ea7fe50-3c76-4343-9309-44844700f376.png",
+      "prompt": "Make a precise localized correction to this existing image. It incorrectly shows TWO large falling lantern heads at the RIGHT. REMOVE BOTH and all their loose shards/duplicates, restoring the sky. Show ONLY ONE VERY SMALL intact lantern HEAD FIXTURE, coffee-cup size, falling beside the lamp pole at about the current LOWER head's position. It must be visibly MINIATURE (about one third the width and height of that existing lower head), not a full-size lantern and not two phases of an animation. The same SINGLE BLUE beam from the tank emitter touches this ONE miniature fixture; adjust its endpoint only. Full-sized pole remains upright with an EMPTY mounting point, no lantern still attached. Keep Zerdo ORANGE with white Z and brown gloves/boots, no cape. Preserve ALL other image detail and original 3:2 framing: poses, faces, hands, tank, copper emitter, Dork in lower driver hatch, Jenny, intact Terminal Tower and sky. No extra character, text or panel. One moment, one lamp head, not before/after.",
+      "references": [
+        "/workspace/generated_images/exec-9dcda375-e900-4458-9bf5-59d23ce277b2.png"
+      ],
+      "newArt": "book-four-chapter-12-lamp-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-revision-v1.png",
+      "sha256": "05b714aae64aa3754da6c420eb12857420a97c0b949e8a4e4dc4a3aa3125dbb2",
+      "sourceSha256": "adc7121db67ae70ff26236ae8558e7f3b367b024c56fb55dccaa2537e6f3c850",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "charactersIncludeZerdo": true
+    },
+    {
+      "key": "reverse",
+      "sourceGenerated": "/workspace/generated_images/exec-07cefb29-3881-4c9c-912f-7675c7868bca.png",
+      "prompt": "Create ONE new adjacent action scene using these existing chapter pictures for exact identities, orange costume, tank hardware and rich painted inked comic style. LANDSCAPE 3:2, Cleveland Public Square, bright afternoon, intact Terminal Tower in distant skyline. The tank abruptly REVERSES, tearing small chunks from the pavement. Its crooked turret is STILL ATTACHED and has a SHORT copper-ringed emitter, NOT a long cannon. Orange Zerdo stands planted beside the hull, feet braced, gripping the turret rim with BOTH brown-gloved hands as it strains away from him; no firing beam. Jenny has just been THROWN OFF the near low hull and is ROLLING ON CLEAR PAVEMENT to recover, safely to the side of the tracks. Show ONE Jenny, ONE Zerdo, ONE Dork in the LOWER FRONT driver hatch, no one inside turret or under tracks. Jenny: curly golden blonde hair, green eyes, pink/white full suit, white mask/gloves/boots, gray scuffs on both glove palms, unhurt alert face. Zerdo: exact reference ORANGE suit with WHITE Z, white shoulders/side stripes/belt, BROWN gloves/boots, orange eye mask, blue eyes, brown hair; NO CAPE. Keep head sizes natural. Tank intact lower hull, turret not yet removed. No new heroes, duplicates, blood, text or panels. Express sudden motion with dust and diagonal poses, clear space around Jenny.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp",
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-extract-orange-v1.webp"
+      ],
+      "newArt": "book-four-chapter-12-reverse-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-revision-v1.png",
+      "sha256": "43ae32a9c6078f0d305e826efa65291c501d34eb45a8bdeafcb2c02eb202307b",
+      "sourceSha256": "88aa2ee5c64342e0933cbae291002d64d47699723e97406f6d7d338d1f62446b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "charactersIncludeZerdo": true
+    },
+    {
+      "key": "steel-bait",
+      "sourceGenerated": "/workspace/generated_images/exec-b9ac9e85-d2b4-46e3-b42c-870ebaf7caa3.png",
+      "prompt": "Edit this existing image with TWO localized consistency corrections only. 1) JAWS head at upper right is TOO LARGE compared with the tank: reduce his ENTIRE blond bodyless head plus metal jaw and hair to about 65% of its current width and height. Keep him biting THE SAME torn steel edge at the SAME contact point; reposition the smaller whole head just above that edge, retaining identical expression and recognizable face. Restore background/tank surface where oversized hair/head was. One head only, normal human head dimensions compared to armor, no body. 2) Fist at lower left: his cuff must be SHORT RED LEATHER with ONE inset WHITE RECTANGULAR PANEL, fine BLACK panel border and visible RED margins on all four sides, narrow black wrist rim and dark hollow opening, not an all-white wraparound cuff. Preserve Fist's exact face, bodyless glove silhouette, small tucked thumb and flight pose. Keep the bite/sparks, torn edge, dust, empty destroyed tank, EMPTY turret hole, Terminal Tower, painted inked comic style and 3:2 composition. No extra punch or duplicated figures, text, blood or missing teeth.",
+      "references": [
+        "/workspace/generated_images/exec-b2ed73ec-2d65-42d2-ae44-e6bfb0db3719.png"
+      ],
+      "newArt": "book-four-chapter-12-steel-bait-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-steel-bait-revision-v1.png",
+      "sha256": "5fadccd2878ce3dc4649450f7bb1370544a8d0188476dac9576cb6b561dd0552",
+      "sourceSha256": "32e9277258ff3812287ad02ad44eaa586ce0a1b199404fb19b86f52bef7a8058",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "charactersIncludeZerdo": false
+    },
+    {
+      "key": "intercept",
+      "sourceGenerated": "/workspace/generated_images/exec-13d990e7-3030-42f4-af44-99c646b9f7e3.png",
+      "prompt": "Edit this existing chosen chapter illustration to match the revised action while preserving its rich painted inked comic style and identities. Keep Fist striking Jaws SIDEWAYS AWAY from Laura's police cruiser, ONE red glove and ONE bodyless blond metal-jawed head. Keep Jaws NORMAL HUMAN head size relative to the cruiser (use perspective, not giant floating heads), Fist similar scale, small tucked thumb. Fist RED short cuff with ONE inset WHITE rectangular panel, black trim, visible red margins, dark opening. In the background near the existing cruiser, Laura is CUFFED hands behind back, in black suit with red-orange flame pattern and NO COAT. She leans just past an officer's arm, firing ONE small bright ORANGE PLASMA glob from her mouth TOWARD A STACK OF WOODEN BOARDS beside a STONE PLANTER safely to one side, not toward any person. The boards are beginning to flame. ONE officer with fire extinguisher moves toward the fire; the other keeps hold of Laura and pulls her behind the OPEN rear car door. Don't show her freely escaping or touching handcuffs. Frame so mouth-to-boards action is clearly visible and Fist/Jaws interception clear; prioritize readable scale instead of huge foreground heads. Cleveland Public Square, intact Terminal Tower, afternoon blue sky, wet pavement. No other hero, no caption, words, panels, lava river or red ray. One full landscape 3:2 scene.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-intercept-v2.webp"
+      ],
+      "newArt": "book-four-chapter-12-intercept-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-revision-v1.png",
+      "sha256": "0e47a9a7e77f82e6a2f1986d5d0e4d11c33e764e04b337b7de81981ad8c548ab",
+      "sourceSha256": "cf489c7e61c3a90f028c6e2b2782ed5e5b6be4c80dcc40ce2b0901c13650d1c1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "charactersIncludeZerdo": false,
+      "previousArt": "book-four-chapter-12-intercept-v2.webp"
+    },
+    {
+      "key": "aftermath",
+      "sourceGenerated": "/workspace/generated_images/exec-c4f25e06-e9d2-43a5-8723-b2e1a2db098f.png",
+      "prompt": "Make a LOCALIZED PROP correction to this selected wide aftermath illustration. Keep the whole original scene and every character EXACTLY: ORANGE/WHITE/BROWN Zerdo, no cape, holding the chain securing Jaws's CLOSED iron jaw; small bodyless Jaws with eyes/nose clear; small Fist with tucked thumb; Dork under guard at left; Laura CUFFED with hands behind back and no coat, Jenny and police at right; destroyed tank with EMPTY emitter hole and intact Terminal Tower. Change ONLY BILLY at far left: instead of resting his hand on the CAPTURED GRAY RAY BOX, have him holding ONE TINY old-fashioned metal-and-glass STREETLAMP HEAD in one bare hand near his coat pocket. The miniature fixture is COFFEE-CUP SIZE, a recognizable lantern housing, not a mug or flashlight. Keep the captured ray box resting on the pavement exactly where it is, guarded, short copper rings unchanged; Billy is NOT holding that heavy ray now. Small blackened burned wooden boards/ash may lie beside the distant planter, fire fully OUT. No flame or damage added to any building. Preserve Billy's selected existing face, hair, cap and body shape; no redesign. Preserve original 3:2 framing, painted comic style and light. No new character, extra hand, text or panels.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-orange-v1.webp"
+      ],
+      "newArt": "book-four-chapter-12-aftermath-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-revision-v1.png",
+      "sha256": "5add786c22e1733625cd2b2b1f45bef0ad47d13d520bb847a9cec7151981d2b9",
+      "sourceSha256": "5aab959431016cdd6f02495f2af772b025828626d2d2fe9514e2dab0cdd9b739",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "charactersIncludeZerdo": true,
+      "previousArt": "book-four-chapter-12-aftermath-orange-v1.webp"
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "key": "lamp",
+      "sourceGenerated": "/workspace/generated_images/exec-9dcda375-e900-4458-9bf5-59d23ce277b2.png",
+      "prompt": "Use this existing illustration as the EXACT character, hardware, location and painted inked comic style reference. Create ONE adjacent action illustration for the same chapter, full landscape 3:2. Scene: Cleveland Public Square under bright afternoon sky. The tank turret is STILL ATTACHED but crooked from prior blow. Orange-suited Zerdo grips its side, STRAINING to force its short COPPER-RINGED ray opening DOWN and SIDEWAYS AWAY from intact Terminal Tower. Dork is in the LOWER FRONT HULL DRIVER HATCH controlling the shot. ONE BLUE ray runs from the copper emitter toward an EMPTY CURB and strikes ONLY the detachable HEAD FIXTURE atop a nearby old-fashioned streetlamp. Show the lamp head now TINY, coffee-cup size, falling free toward the gutter, with the upright full-sized pole remaining in place. Clear target and beam path; NO beam toward the tower, no red beam, no explosion, no people in beam path. Jenny can be approaching the hull from safely behind the barrel line. Preserve Zerdo's exact approved vivid ORANGE suit, plain WHITE Z, white shoulders/side stripes/belt, BROWN gloves and boots, orange mask, blue eyes. NO CAPE. Same Jenny curly blonde hair, green eyes, pink/white suit. Natural head proportions, exactly two arms each, no extra characters or weapons. Tank has ONLY the SHORT COPPER RAY, never a long cannon. No text/labels/panels. Do not show any other distant shot or destination.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp"
+      ],
+      "reason": "Duplicate full-sized lantern fixtures; replaced by one miniature fixture.",
+      "original": "docs/art/archive/book-four-chapter-12-lamp-revision-rejected-v1.png",
+      "sourceSha256": "eca488752824f556ea3177c60ac6b6e3bc2b6f4ade33cf71d19405cfaa6d3031"
+    },
+    {
+      "key": "steel-bait",
+      "sourceGenerated": "/workspace/generated_images/exec-b2ed73ec-2d65-42d2-ae44-e6bfb0db3719.png",
+      "prompt": "Edit this selected existing Fist/Jaws/wreck illustration into the NEXT action moment, preserving their exact facial identities, small tucked glove thumb and detailed inked painted comic style. One LANDSCAPE 3:2 scene. LOWER the action close to the crushed tank hull on the pavement: Jaws has lunged after Fist's cuff and his iron teeth CLANG AGAINST A TORN FOLDED EDGE OF TANK ARMOR. A few bright metallic sparks show metal-on-metal contact; NO blood or broken teeth, no flesh injury. Fist has slipped DOWN AND ASIDE beneath the bite, cuff safely clear, ready to come up for the punch next. Depict only this single clear moment, ONE Fist and ONE bodyless human-sized Jaws, no duplicated motion figures, no giant heads. Jaws's blond head is normal human head size relative to the tank; eyes angry and surprised. Fist a living red glove with one SMALL TUCKED thumb fold behind its face, no protruding giant thumb or extra appendage; short RED cuff with inset WHITE rectangular panel and black trim, dark hollow opening, no arm/body. Show both faces in readable profile close to the torn metal, wrecked tank EMPTY and turret's round emitter hole EMPTY. Intact Terminal Tower in background, some dust, bright afternoon light. No copper ray added to wreck, no other characters, words, captions or panels.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-charge-v3.webp"
+      ],
+      "reason": "Head too large and cuff wrap white; corrected scale and inset panel.",
+      "original": "docs/art/archive/book-four-chapter-12-steel-bait-revision-rejected-v1.png",
+      "sourceSha256": "0992eaa997fe2329efb521ca905501ef441a65d4a51f0ab094b00ed140083375"
+    }
+  ],
+  "review": "All final scenes inspected. One duplicated-fixture correction and one Jaws scale/cuff correction. Existing scenes and all earlier versions retained."
+}

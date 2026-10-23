@@ -7,10 +7,17 @@ async function check(){
  const illustrations=chapters.flatMap(chapter=>chapter.blocks.filter(block=>block.art));
  const orangeCorrections=read('docs/art/book-four-audit-corrections-2026-10-23.json').records.filter(record=>record.chapter===12);
  assert.equal(orangeCorrections.length,10,'Every Chapter 12 Zerdo appearance needs its approved orange correction');
+ const revisionArt=read('docs/art/book-four-chapter-12-submitted-revision-art-2026-10-23.json').images;
  for(const correction of orangeCorrections){
-  assert(illustrations.some(block=>block.art===correction.newArt),`Approved orange artwork no longer active: ${correction.key}`);
-  const bytes=fs.readFileSync(path.join(root,'public/assets',correction.newArt));
-  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),correction.sha256,`Reviewed orange artwork changed: ${correction.key}`);
+  const current=revisionArt.find(image=>image.previousArt===correction.newArt)||correction;
+  assert(illustrations.some(block=>block.art===current.newArt),`Approved orange artwork no longer active: ${current.key}`);
+  const bytes=fs.readFileSync(path.join(root,'public/assets',current.newArt));
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),current.sha256,`Reviewed orange artwork changed: ${current.key}`);
+ }
+ for(const image of revisionArt){
+  assert(illustrations.some(block=>block.art===image.newArt),`Revised action artwork no longer active: ${image.key}`);
+  const bytes=fs.readFileSync(path.join(root,'public/assets',image.newArt));
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),image.sha256,`Reviewed action artwork changed: ${image.key}`);
  }
  const pdf=read('output/publishing/book-four-pdf-build.json');
  const epub=read('tmp/epub-book-four/quality-report.json');

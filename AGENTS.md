@@ -15,8 +15,9 @@ Book Four remains an unpublished working draft. Jay authorized the October 23
 audit pass and orange Zerdo corrections. See
 `docs/editorial/book-four-audit-applied-2026-10-23.json` for the applied changes;
 the original audit preserves its pre-edit quotations. Preserve Chapter 12's
-chosen action/compositions, fourteen illustration sequence and latest orange
-costume corrections. Its earlier blue-costume images remain archived sources,
+latest author-submitted revision, seventeen illustration sequence and orange
+costume corrections; see `docs/editorial/book-four-chapter-12-submitted-revision-2026-10-23.json`.
+Its earlier fourteen-image draft and blue-costume images remain archived sources,
 not active costume references. Other selected character designs are retained.
 Zerdo wears the approved orange/white/brown costume throughout Book Four and
 must have no cape, including on the cover. Do not introduce further story or

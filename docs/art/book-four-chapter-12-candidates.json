@@ -2,14 +2,14 @@
   "book": "book-four",
   "chapter": 12,
   "title": "Off Comes the Top",
-  "status": "October 23 audit corrections integrated; original artwork preserved",
-  "review": "Author-selected action/compositions retained. Ten Zerdo appearances corrected to approved orange/white/brown outfit, no cape. Four Fist/Jaws-only illustrations retained unchanged. Cuff wording corrected; 962-word prose and fourteen illustration sequence retained. Original blue-costume WebPs and PNGs preserved.",
+  "status": "Author-submitted revision with canon corrections integrated",
+  "review": "1336 words; seventeen illustrations. Existing orange costume and no cape retained. Submitted action expanded with live shot shrinking a lamp, reversing tank/Jenny fall, Laura plasma attack, failed first feint and steel-edge bait. Fixed turret and manual blue/red selector retained; no automatic reset or extra shot into the distance. Twelve earlier selected illustrations retained; five new/revised scene assets include two replacements and three additions. Earlier prose and all art preserved in history.",
   "images": [
     {
       "number": 1,
       "key": "control",
       "label": "Not another shot",
-      "anchorBefore": "His hand went toward the firing control.",
+      "anchorBefore": "Seth’s hands closed around the crooked turret.",
       "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-9d3bf054-1030-4b8c-9cfa-1a80e50c68c9.png",
@@ -50,10 +50,72 @@
       "sha256": "11d955c95be44cbd4efef68bc003e8b9f0e841932a3dd59f5d25ae674e7ccd73"
     },
     {
-      "number": 2,
+      "key": "lamp",
+      "label": "Lamp",
+      "previousVersions": [],
+      "webArt": "book-four-chapter-12-lamp-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-revision-v1.png",
+      "source": "/workspace/generated_images/exec-0ea7fe50-3c76-4343-9309-44844700f376.png",
+      "prompt": "Make a precise localized correction to this existing image. It incorrectly shows TWO large falling lantern heads at the RIGHT. REMOVE BOTH and all their loose shards/duplicates, restoring the sky. Show ONLY ONE VERY SMALL intact lantern HEAD FIXTURE, coffee-cup size, falling beside the lamp pole at about the current LOWER head's position. It must be visibly MINIATURE (about one third the width and height of that existing lower head), not a full-size lantern and not two phases of an animation. The same SINGLE BLUE beam from the tank emitter touches this ONE miniature fixture; adjust its endpoint only. Full-sized pole remains upright with an EMPTY mounting point, no lantern still attached. Keep Zerdo ORANGE with white Z and brown gloves/boots, no cape. Preserve ALL other image detail and original 3:2 framing: poses, faces, hands, tank, copper emitter, Dork in lower driver hatch, Jenny, intact Terminal Tower and sky. No extra character, text or panel. One moment, one lamp head, not before/after.",
+      "references": [
+        "/workspace/generated_images/exec-9dcda375-e900-4458-9bf5-59d23ce277b2.png"
+      ],
+      "alt": "Zerdo forces the crooked mounted ray away from Terminal Tower as one blue shot shrinks a single streetlamp head at the empty curb.",
+      "anchorBefore": "The lamp head shrank to the size of a coffee cup, slipped free of its mount and dropped into the gutter with a clang.",
+      "sha256": "05b714aae64aa3754da6c420eb12857420a97c0b949e8a4e4dc4a3aa3125dbb2",
+      "status": "Integrated; prepared for author review from submitted revision",
+      "number": 2
+    },
+    {
+      "number": 3,
+      "key": "cuff",
+      "label": "Teeth at the cuff",
+      "anchorBefore": "The teeth clanged shut an inch from the cuff.",
+      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired red cuff with an inset white panel.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-183b2c4b-1739-478c-bb6e-fd58be85514d.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v2.png",
+      "webArt": "book-four-chapter-12-cuff-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. AERIAL CLOSE near miss above Cleveland rooftops. Exactly TWO flying characters, bodyless. FIST-O-MITE one independent expressive RED boxing glove with big cartoon eyes and small mouth, white stitched REPAIRED cuff trailing, tucked underside thumb, NO arm wrist torso or second glove. JAWS same spiky blond floating HUMAN HEAD with rectangular riveted STEEL JAW and triangular iron teeth, no neck body limbs. Fist tilts UP-LEFT with face looking back determined, Jaws toRIGHT bites down BEHIND white cuff, visible full hand-width GAP, no tooth contact. Dynamic roll with curved motion arc instead of straight chase; detailed roofs small below. No torn fabric or blood, keep both entirely visible.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v1.png"
+        }
+      ]
+    },
+    {
+      "key": "reverse",
+      "label": "Reverse",
+      "previousVersions": [],
+      "webArt": "book-four-chapter-12-reverse-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-revision-v1.png",
+      "source": "/workspace/generated_images/exec-07cefb29-3881-4c9c-912f-7675c7868bca.png",
+      "prompt": "Create ONE new adjacent action scene using these existing chapter pictures for exact identities, orange costume, tank hardware and rich painted inked comic style. LANDSCAPE 3:2, Cleveland Public Square, bright afternoon, intact Terminal Tower in distant skyline. The tank abruptly REVERSES, tearing small chunks from the pavement. Its crooked turret is STILL ATTACHED and has a SHORT copper-ringed emitter, NOT a long cannon. Orange Zerdo stands planted beside the hull, feet braced, gripping the turret rim with BOTH brown-gloved hands as it strains away from him; no firing beam. Jenny has just been THROWN OFF the near low hull and is ROLLING ON CLEAR PAVEMENT to recover, safely to the side of the tracks. Show ONE Jenny, ONE Zerdo, ONE Dork in the LOWER FRONT driver hatch, no one inside turret or under tracks. Jenny: curly golden blonde hair, green eyes, pink/white full suit, white mask/gloves/boots, gray scuffs on both glove palms, unhurt alert face. Zerdo: exact reference ORANGE suit with WHITE Z, white shoulders/side stripes/belt, BROWN gloves/boots, orange eye mask, blue eyes, brown hair; NO CAPE. Keep head sizes natural. Tank intact lower hull, turret not yet removed. No new heroes, duplicates, blood, text or panels. Express sudden motion with dust and diagonal poses, clear space around Jenny.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp",
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-extract-orange-v1.webp"
+      ],
+      "alt": "Jenny rolls clear of the reversing tank while orange-suited Zerdo braces beside it and grips the still-attached crooked turret.",
+      "anchorBefore": "She hit the pavement, rolled and came up with both white gloves scraped gray.",
+      "sha256": "43ae32a9c6078f0d305e826efa65291c501d34eb45a8bdeafcb2c02eb202307b",
+      "status": "Integrated; prepared for author review from submitted revision",
+      "number": 4
+    },
+    {
+      "number": 5,
       "key": "lift",
       "label": "Off comes the top",
-      "anchorBefore": "The whole assembly came up in his hands.",
+      "anchorBefore": "The whole top of the tank came up in his hands.",
       "alt": "Zerdo tears the complete turret clear of the tank, with its copper emitter attached and its firing cable disconnected.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-5c45657e-a414-4577-9a26-d117d2a366d6.png",
@@ -94,37 +156,10 @@
       "sha256": "a00c7f60760ae73c31910af6f475a315bab2d2690af754f44a981b2c751fbd74"
     },
     {
-      "number": 3,
-      "key": "cuff",
-      "label": "Teeth at the cuff",
-      "anchorBefore": "Fist rolled hard. Iron teeth clapped shut behind his red cuff.",
-      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired red cuff with an inset white panel.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-183b2c4b-1739-478c-bb6e-fd58be85514d.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v2.png",
-      "webArt": "book-four-chapter-12-cuff-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
-      "references": [
-        "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png"
-      ],
-      "previousVersions": [
-        {
-          "version": 1,
-          "source": "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png",
-          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. AERIAL CLOSE near miss above Cleveland rooftops. Exactly TWO flying characters, bodyless. FIST-O-MITE one independent expressive RED boxing glove with big cartoon eyes and small mouth, white stitched REPAIRED cuff trailing, tucked underside thumb, NO arm wrist torso or second glove. JAWS same spiky blond floating HUMAN HEAD with rectangular riveted STEEL JAW and triangular iron teeth, no neck body limbs. Fist tilts UP-LEFT with face looking back determined, Jaws toRIGHT bites down BEHIND white cuff, visible full hand-width GAP, no tooth contact. Dynamic roll with curved motion arc instead of straight chase; detailed roofs small below. No torn fabric or blood, keep both entirely visible.",
-          "references": [
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp"
-          ],
-          "status": "Superseded by author-requested costume/anatomy corrections",
-          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v1.png"
-        }
-      ]
-    },
-    {
-      "number": 4,
+      "number": 6,
       "key": "extract",
       "label": "Out of the driver’s seat",
-      "anchorBefore": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
+      "anchorBefore": "She hauled him through the hatch and onto the street. His shoes scraped the armor all the way down.",
       "alt": "Jenny pulls Dork from the lower hull driver opening while Zerdo holds the detached turret safely aside.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-e9b98de8-2d8d-4753-9db9-100a9234b111.png",
@@ -166,7 +201,7 @@
       "sha256": "e81bbdcb299f4c29ab664fd014ea9311045022135baac046b759d2364ecb4c20"
     },
     {
-      "number": 5,
+      "number": 7,
       "key": "arrest",
       "label": "Billy takes over",
       "anchorBefore": "An officer fastened cuffs behind Dork’s back. The other took his arm.",
@@ -211,7 +246,7 @@
       "sha256": "1751191441a01fe89287af7e6e58e9d3dac879b1d1f3560e24d8b6022b7f7565"
     },
     {
-      "number": 6,
+      "number": 8,
       "key": "ray",
       "label": "Get the ray out",
       "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
@@ -256,10 +291,10 @@
       "sha256": "81536f7dbec005f85e6c1a6057906cfafe533ad4f0d05b7dcf28800a3fcf9bce"
     },
     {
-      "number": 7,
+      "number": 9,
       "key": "dive",
       "label": "We’ll bail you out",
-      "anchorBefore": "He broke away from Fist and dived.",
+      "anchorBefore": "He dropped like a stone toward the police car, teeth wide, aimed at the door hinges.",
       "alt": "Jaws dives toward Laura’s police cruiser with Fist pursuing from above.",
       "status": "Draft prepared for author review; requested corrections applied",
       "source": "/workspace/generated_images/exec-2f01bda1-1096-4fd3-b4c8-d8d63346a632.png",
@@ -284,18 +319,18 @@
       ]
     },
     {
-      "number": 8,
+      "number": 10,
       "key": "intercept",
       "label": "The glove gets there first",
       "anchorBefore": "His knuckles struck the side of the iron jaw.",
-      "alt": "Fist punches Jaws sideways away from the police cruiser and Laura’s escort.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-7969a129-53ac-46b2-ad29-9498ceac4fb0.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v2.png",
-      "webArt": "book-four-chapter-12-intercept-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "alt": "Fist punches Jaws away from Laura’s cruiser while cuffed Laura fires plasma at wooden boards and an officer approaches with an extinguisher.",
+      "status": "Integrated; prepared for author review from submitted revision",
+      "source": "/workspace/generated_images/exec-13d990e7-3030-42f4-af44-99c646b9f7e3.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-revision-v1.png",
+      "webArt": "book-four-chapter-12-intercept-revision-v1.webp",
+      "prompt": "Edit this existing chosen chapter illustration to match the revised action while preserving its rich painted inked comic style and identities. Keep Fist striking Jaws SIDEWAYS AWAY from Laura's police cruiser, ONE red glove and ONE bodyless blond metal-jawed head. Keep Jaws NORMAL HUMAN head size relative to the cruiser (use perspective, not giant floating heads), Fist similar scale, small tucked thumb. Fist RED short cuff with ONE inset WHITE rectangular panel, black trim, visible red margins, dark opening. In the background near the existing cruiser, Laura is CUFFED hands behind back, in black suit with red-orange flame pattern and NO COAT. She leans just past an officer's arm, firing ONE small bright ORANGE PLASMA glob from her mouth TOWARD A STACK OF WOODEN BOARDS beside a STONE PLANTER safely to one side, not toward any person. The boards are beginning to flame. ONE officer with fire extinguisher moves toward the fire; the other keeps hold of Laura and pulls her behind the OPEN rear car door. Don't show her freely escaping or touching handcuffs. Frame so mouth-to-boards action is clearly visible and Fist/Jaws interception clear; prioritize readable scale instead of huge foreground heads. Cleveland Public Square, intact Terminal Tower, afternoon blue sky, wet pavement. No other hero, no caption, words, panels, lava river or red ray. One full landscape 3:2 scene.",
       "references": [
-        "/workspace/generated_images/exec-dfe70f2c-2e9a-425e-aaf2-5c5d9beb07dd.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-intercept-v2.webp"
       ],
       "previousVersions": [
         {
@@ -308,14 +343,30 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v1.png"
+        },
+        {
+          "number": 8,
+          "key": "intercept",
+          "label": "The glove gets there first",
+          "anchorBefore": "His knuckles struck the side of the iron jaw.",
+          "alt": "Fist punches Jaws sideways away from the police cruiser and Laura’s escort.",
+          "status": "Preserved; superseded by author-submitted action revision",
+          "source": "/workspace/generated_images/exec-7969a129-53ac-46b2-ad29-9498ceac4fb0.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v2.png",
+          "webArt": "book-four-chapter-12-intercept-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-dfe70f2c-2e9a-425e-aaf2-5c5d9beb07dd.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "0e47a9a7e77f82e6a2f1986d5d0e4d11c33e764e04b337b7de81981ad8c548ab"
     },
     {
-      "number": 9,
+      "number": 11,
       "key": "clear",
       "label": "Clear the tank",
-      "anchorBefore": "She raised her hand to Seth.",
+      "anchorBefore": "Dork and his guards were clear. Billy and the ray were clear. The officers had Laura behind her door.",
       "alt": "Billy carries the disconnected ray behind cover as Jenny checks the empty hull and signals Zerdo.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-89021c47-5beb-41d0-a0e2-9cc81d911135.png",
@@ -358,10 +409,10 @@
       "sha256": "1339f7a045eb4d98b7a08f96a052c8260da68a0e0e1f3425c04af2f04f5e2882"
     },
     {
-      "number": 10,
+      "number": 12,
       "key": "raise",
       "label": "Up it goes",
-      "anchorBefore": "He lifted it high.",
+      "anchorBefore": "Seth took the empty turret shell and lifted it overhead.",
       "alt": "Zerdo raises the empty turret shell overhead, with its front emitter opening visibly empty.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-7cc0fc5d-0143-4ad6-b6b6-19c598daf08c.png",
@@ -402,10 +453,10 @@
       "sha256": "468da348acfae3fecce5fcac2d0bf0a3af7addffb67a4a5238c6d058ff754e79"
     },
     {
-      "number": 11,
+      "number": 13,
       "key": "smash",
       "label": "Down comes the tank",
-      "anchorBefore": "He brought the turret down.",
+      "anchorBefore": "He brought the shell down.",
       "alt": "Zerdo smashes the empty turret shell across the vacant hull, folding armor and buckling the tracks.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-8168dd9b-8675-4d7f-9650-034e30696eed.png",
@@ -446,10 +497,10 @@
       "sha256": "df26933b79531ffcdc97911eeee661299a19599cc68e6db6a24d8feb89c15490"
     },
     {
-      "number": 12,
+      "number": 14,
       "key": "charge",
       "label": "Jaws comes back",
-      "anchorBefore": "He charged with his teeth wide open.",
+      "anchorBefore": "He came in fast, teeth open.",
       "alt": "Jaws charges Fist above the wrecked tank while the glove waits and begins a last-second dodge.",
       "status": "Draft prepared for author review; requested corrections applied",
       "source": "/workspace/generated_images/exec-6390588b-1f99-43d1-996c-1137f5c34c32.png",
@@ -484,10 +535,27 @@
       ]
     },
     {
-      "number": 13,
+      "key": "steel-bait",
+      "label": "Steel Bait",
+      "previousVersions": [],
+      "webArt": "book-four-chapter-12-steel-bait-revision-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-steel-bait-revision-v1.png",
+      "source": "/workspace/generated_images/exec-b9ac9e85-d2b4-46e3-b42c-870ebaf7caa3.png",
+      "prompt": "Edit this existing image with TWO localized consistency corrections only. 1) JAWS head at upper right is TOO LARGE compared with the tank: reduce his ENTIRE blond bodyless head plus metal jaw and hair to about 65% of its current width and height. Keep him biting THE SAME torn steel edge at the SAME contact point; reposition the smaller whole head just above that edge, retaining identical expression and recognizable face. Restore background/tank surface where oversized hair/head was. One head only, normal human head dimensions compared to armor, no body. 2) Fist at lower left: his cuff must be SHORT RED LEATHER with ONE inset WHITE RECTANGULAR PANEL, fine BLACK panel border and visible RED margins on all four sides, narrow black wrist rim and dark hollow opening, not an all-white wraparound cuff. Preserve Fist's exact face, bodyless glove silhouette, small tucked thumb and flight pose. Keep the bite/sparks, torn edge, dust, empty destroyed tank, EMPTY turret hole, Terminal Tower, painted inked comic style and 3:2 composition. No extra punch or duplicated figures, text, blood or missing teeth.",
+      "references": [
+        "/workspace/generated_images/exec-b2ed73ec-2d65-42d2-ae44-e6bfb0db3719.png"
+      ],
+      "alt": "Fist slips beneath the bite as Jaws’s iron teeth strike torn tank armor; his red cuff has an inset white panel and the wreck’s emitter hole is empty.",
+      "anchorBefore": "The iron teeth slammed into the folded armor and screeched along it. Jaws jerked back with a howl, his jaw buzzing.",
+      "sha256": "5fadccd2878ce3dc4649450f7bb1370544a8d0188476dac9576cb6b561dd0552",
+      "status": "Integrated; prepared for author review from submitted revision",
+      "number": 15
+    },
+    {
+      "number": 16,
       "key": "down",
       "label": "Fist wins the round",
-      "anchorBefore": "Jaws hit the clear pavement beside the wreck and skidded to a stop.",
+      "anchorBefore": "Jaws flew out of the dust and hit clear pavement. He skidded to a stop beside the wreck.",
       "alt": "Jaws lies dazed on clear pavement beside the wreck while Fist guards him and Jenny approaches.",
       "status": "Integrated; author-authorized costume correction",
       "source": "/workspace/generated_images/exec-4c682431-c07c-41a1-bf17-b785d9ccef54.png",
@@ -530,19 +598,18 @@
       "sha256": "e1a75e6a5bbef1f110b02ce3a288c4fe218d332dd2bd5142fd4ded3b34dd7b5e"
     },
     {
-      "number": 14,
+      "number": 17,
       "key": "aftermath",
       "label": "The square belongs to the city again",
-      "anchorBefore": "Above them, every window of Terminal Tower caught the afternoon light.",
-      "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower.",
-      "status": "Integrated; author-authorized costume correction",
-      "source": "/workspace/generated_images/exec-e2d52da0-eac1-40b1-8f3c-f6a619d36d46.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-orange-v1.png",
-      "webArt": "book-four-chapter-12-aftermath-orange-v1.webp",
-      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Seth holding chain that secures small Jaws's CLOSED iron jaw. Preserve chain connection, breathing clearance, Laura cuffed under police escort, captured ray and Dork under guard. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
+      "anchorBefore": "Fist watched Jaws. Seth held the tether.",
+      "alt": "Orange-suited Zerdo holds Jaws’s jaw tether beside the wreck while Billy holds the tiny lamp head, the captured ray rests under guard, and Laura and Dork remain in custody.",
+      "status": "Integrated; prepared for author review from submitted revision",
+      "source": "/workspace/generated_images/exec-c4f25e06-e9d2-43a5-8723-b2e1a2db098f.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-revision-v1.png",
+      "webArt": "book-four-chapter-12-aftermath-revision-v1.webp",
+      "prompt": "Make a LOCALIZED PROP correction to this selected wide aftermath illustration. Keep the whole original scene and every character EXACTLY: ORANGE/WHITE/BROWN Zerdo, no cape, holding the chain securing Jaws's CLOSED iron jaw; small bodyless Jaws with eyes/nose clear; small Fist with tucked thumb; Dork under guard at left; Laura CUFFED with hands behind back and no coat, Jenny and police at right; destroyed tank with EMPTY emitter hole and intact Terminal Tower. Change ONLY BILLY at far left: instead of resting his hand on the CAPTURED GRAY RAY BOX, have him holding ONE TINY old-fashioned metal-and-glass STREETLAMP HEAD in one bare hand near his coat pocket. The miniature fixture is COFFEE-CUP SIZE, a recognizable lantern housing, not a mug or flashlight. Keep the captured ray box resting on the pavement exactly where it is, guarded, short copper rings unchanged; Billy is NOT holding that heavy ray now. Small blackened burned wooden boards/ash may lie beside the distant planter, fire fully OUT. No flame or damage added to any building. Preserve Billy's selected existing face, hair, cap and body shape; no redesign. Preserve original 3:2 framing, painted comic style and light. No new character, extra hand, text or panels.",
       "references": [
-        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-v2.webp",
-        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-orange-v1.webp"
       ],
       "previousVersions": [
         {
@@ -572,9 +639,26 @@
           "references": [
             "/workspace/generated_images/exec-9a9959c1-7fda-4880-a8df-cee763f024af.png"
           ]
+        },
+        {
+          "number": 14,
+          "key": "aftermath",
+          "label": "The square belongs to the city again",
+          "anchorBefore": "Above them, every window of Terminal Tower caught the afternoon light.",
+          "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower.",
+          "status": "Preserved; superseded by author-submitted action revision",
+          "source": "/workspace/generated_images/exec-e2d52da0-eac1-40b1-8f3c-f6a619d36d46.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-orange-v1.png",
+          "webArt": "book-four-chapter-12-aftermath-orange-v1.webp",
+          "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Seth holding chain that secures small Jaws's CLOSED iron jaw. Preserve chain connection, breathing clearance, Laura cuffed under police escort, captured ray and Dork under guard. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
+          "references": [
+            "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-v2.webp",
+            "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+          ],
+          "sha256": "de8d12c452dec2f16514528f0daaa8656f84d011843ccf27b58a525ab503e75d"
         }
       ],
-      "sha256": "de8d12c452dec2f16514528f0daaa8656f84d011843ccf27b58a525ab503e75d"
+      "sha256": "5add786c22e1733625cd2b2b1f45bef0ad47d13d520bb847a9cec7151981d2b9"
     }
   ]
 }
