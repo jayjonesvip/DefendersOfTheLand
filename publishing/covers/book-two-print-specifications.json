@@ -26,7 +26,7 @@
   ],
   "interiorBleed": false,
   "interiorFile": "book-two-kdp-interior.pdf",
-  "interiorSha256": "84c87e3c1a315fa458c071f7d30294b22d31bf1a6f6eca928091ec1c7e0fb9e0",
+  "interiorSha256": "e826b24e1d01ee0056c3692658790068af6f3ec948fee2e988fe6c4477f28c9a",
   "originalFrontPixels": [
     1024,
     1536
@@ -43,5 +43,5 @@
     "Amazon barcode space is reserved on the back."
   ],
   "preview": "book-two-kdp-cover-preview.png",
-  "sha256": "3a41b0fa09788d182a48d9bf5adf33437b601a4bc16ba4caa83f0953872f0685"
+  "sha256": "c200e02d14f3c0e1e4e2adcc5e3ebe2214e900fe854a33a19bdcc9fe4c50206b"
 }

@@ -26,7 +26,7 @@
   ],
   "interiorBleed": false,
   "interiorFile": "book-three-kdp-interior.pdf",
-  "interiorSha256": "7206aaf12157c96cc84f1666fd17a1d865f65d3d732bf6f7992d757b3063e929",
+  "interiorSha256": "22709296de513ab7534fce6252e1d97292524d75b73282294369fa665b500519",
   "originalFrontPixels": [
     1024,
     1536
@@ -43,5 +43,5 @@
     "Amazon barcode space is reserved on the back."
   ],
   "preview": "book-three-kdp-cover-preview.png",
-  "sha256": "2afebe9bf89b2b060e42f6f1871d566a3c625eff13ea1a1804061ea14cc1078d"
+  "sha256": "45a25e74d47a20164449899cd7b6582010472f73b69acec8cb9b02060293a3c9"
 }

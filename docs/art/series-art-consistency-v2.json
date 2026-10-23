@@ -1,0 +1,1146 @@
+{
+  "scope": "Follow-up to the all-four-book audit: 232 active interiors and four covers reviewed.",
+  "status": "Complete; visually reviewed, publishing pipeline and regression validation passed; ready for author review.",
+  "updatedImages": 22,
+  "byBook": {
+    "1": 7,
+    "2": 0,
+    "3": 10,
+    "4": 5
+  },
+  "references": [
+    "public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp",
+    "public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+    "docs/art/fist-o-mite-approved-identity.json"
+  ],
+  "preservation": [
+    "No manuscript text, dialogue, chapter order or illustration order changed.",
+    "Existing orange/white/brown Zerdo costume, older gray-haired Billy, approved Fist form, dimensional face, inset cuff panel and green/blue eye canon retained.",
+    "Book One café beam support, whole-glove punches and robot/Perch rescue preserved.",
+    "Fist injury/repair chronology in Book Three preserved; he is recovered in Chapter 9 and later.",
+    "Flaming Head remains diminished on return and during later training.",
+    "Laura wears coat in meeting/kick and removes it afterward; capped hydrant is consistent until side outlet breaks and water sprays sideways.",
+    "Book Two and the Book One, Two and Four front covers retain their audited artwork; Book Three receives a matching series masthead in a separate documented edit.",
+    "Previous original PNGs and WebPs retained as production history."
+  ],
+  "changedChapters": [
+    "content/books/origins/chapter-11.json",
+    "content/books/origins/chapter-18.json",
+    "content/books/origins/chapter-19.json",
+    "content/books/origins/chapter-20.json",
+    "content/books/book-three/chapter-02.json",
+    "content/books/book-three/chapter-04.json",
+    "content/books/book-three/chapter-09.json",
+    "content/books/book-three/chapter-14.json",
+    "content/books/book-four/chapter-10.json"
+  ],
+  "changedPrintConfigs": [
+    "print/chapter16.json",
+    "print/chapter17.json",
+    "print/chapter18.json",
+    "print/chapter9.json"
+  ],
+  "illustrations": [
+    {
+      "id": "B1-32",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 9,
+      "chapterTitle": "Room to Get Out",
+      "chapterFile": "content/books/origins/chapter-11.json",
+      "block": 19,
+      "asset": "chapter9-fist-knocks-jaws-away-design-v1.webp",
+      "file": "chapter9-fist-knocks-jaws-away-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Fist-O-Mite flies his whole glove body into Jaws’s iron jaw and sends the floating head hurtling away from the café while Seth holds the beam.",
+      "context": "Before Luke could recover, Fist-O-Mite turned and flew straight into the side of his jaw. The blow sent the floating head spinning down the street, far beyond the café.",
+      "printIncluded": true,
+      "sha256": "59d8146bfa07d1b8cc8f5f95988810be0d737f868e0a06e103bea0b5a2e16d83",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter9-fist-knocks-jaws-away-design-v1.webp",
+        "/workspace/DefendersOfTheLand/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+      ],
+      "prompt": "Edit the first image while preserving its composition, painting style, action and all unaffected details. Use the second image only as Fist-O-Mite's approved identity reference. Correct the flying red glove so he has ONE tucked top/back thumb fold behind the face, with no protruding round side/front pad against Jaws. Preserve his punch using his entire single glove body, dimensional red leather face and small round red nose. Match the short red cuff, inset white rectangular panel with thin black keyline, red margins on all four sides and black rim from the reference. Also change the blonde reporter Jenny's two blue irises to natural GREEN. She stays in a white blouse and pink skirt. Keep Seth in his orange hoodie, jeans, brown sneakers and bare hands holding the overhead beam, and retain older Billy, Jaws's steel jaw, stars, debris and cafe street. Same landscape 3:2 aspect ratio; output one finished illustration.",
+      "newFile": "chapter9-fist-knocks-jaws-away-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-32",
+          "book": "1",
+          "chapter": "9",
+          "asset": "chapter9-fist-knocks-jaws-away-design-v1.webp",
+          "priority": "Fix",
+          "issue": "Jenny has blue eyes instead of the manuscript’s green eyes; Fist also retains a forward/side thumb pad.",
+          "change": "Restore natural green irises. Match Fist’s single tucked top/back thumb fold while retaining full-glove impact and café rescue staging."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-5975c51a-ae5d-4c4a-b2fc-df7c73f995b4.png",
+      "reviewed": true,
+      "reviewNotes": "Natural green Jenny irises, single rear fold, formed red nose and short inset-panel red cuff; cafe rescue and whole-glove impact preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter9-fist-knocks-jaws-away-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-54",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 17,
+      "chapterTitle": "The Fight for the City",
+      "chapterFile": "content/books/origins/chapter-19.json",
+      "block": 19,
+      "asset": "chapter17-fist-jaws-billboard-design-v1.webp",
+      "file": "chapter17-fist-jaws-billboard-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Fist-O-Mite strikes with his entire glove body, sending the bodyless Jaws O’ Death through a rooftop billboard above Cleveland.",
+      "context": "High above the street, Jaws O’ Death burst through a billboard as Fist drove into him again. Splinters flew around the iron teeth. Terminal Tower rose beyond them, above Public Square.",
+      "printIncluded": true,
+      "sha256": "87b97b78219cb2d734276889015b87fbaee8a6bf17ef4be226e260ecb54cd3c4",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter17-fist-jaws-billboard-design-v1.webp",
+        "/workspace/DefendersOfTheLand/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Fist-O-Mite strikes with his entire glove body, sending the bodyless Jaws O’ Death through a rooftop billboard above Cleveland.\nIMAGE 2 is approved Fist sheet. Fist must be ONE continuous living RED LEATHER boxing glove, elongated single glove shape with dimensional leather brow, cheeks and small ROUND RED NOSE, expressive white eyes/dark pupils and mouth formed in the leather. ONE tucked TOP/BACK thumb fold behind the face like a swept-back quiff. REMOVE the extra protruding round FRONT/SIDE/UNDERSIDE pad: no second thumb, no second glove, no knuckle appendage sticking out in front of his face. His own one glove body makes the punch contact. SHORT RED cuff with ONE inset WHITE rectangular panel, thin BLACK rectangular keyline and visible RED margins on ALL FOUR sides, narrow black padded wrist rim, dark hollow opening. White is an inset panel, NOT a long white sleeve. No laces/text, arm/hand/body. Cuff HEALED in Book One. Retain the scene-specific expression instead of imposing a smile.\nESSENTIAL STAGING: Fist alone gets the anatomy edit. Remove the extra round red lobe beneath/in front of his face at the impact: he punches Jaws with the single main glove mass, not another fist/side thumb. Keep Jaws’s floating blond head and steel jaws, billboard breaking, skyline, impact and speed trails.",
+      "newFile": "chapter17-fist-jaws-billboard-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-54",
+          "book": "1",
+          "chapter": "17",
+          "asset": "chapter17-fist-jaws-billboard-design-v1.webp",
+          "priority": "Fix",
+          "issue": "Fist has an extra round front/underside lobe as well as the tucked rear fold; reads as a second thumb.",
+          "change": "Use one continuous glove and one tucked top/back fold; remove projecting front lobe and preserve impact with Jaws and billboard."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-1025c998-9de2-4aef-98b4-815c2c9846c5.png",
+      "reviewed": true,
+      "reviewNotes": "Reviewed at full resolution: requested identity correction applied; staging, outfits and story preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter17-fist-jaws-billboard-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-49",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 16,
+      "chapterTitle": "The Plan",
+      "chapterFile": "content/books/origins/chapter-18.json",
+      "block": 20,
+      "asset": "chapter16-flame-transformation-design-v1.webp",
+      "file": "chapter16-flame-transformation-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Flaming Head circles Seth and Jenny in comforting golden flames while Billy and Fist recoil from the heat.",
+      "context": "Flaming Head swept around them. A bright trail followed him, circling their shoulders, then their feet. Flames rose in a golden spiral until Seth and Jenny stood inside a column of light.",
+      "printIncluded": true,
+      "sha256": "e403090ae541d4fd3ead561e7aa30bdbb043f1140f179106f60f47de471ca487",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter16-flame-transformation-design-v1.webp",
+        "/workspace/DefendersOfTheLand/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make ONE very targeted correction to image 1, the finished landscape book illustration. ONLY edit the small red living boxing glove Fist-O-Mite at the RIGHT. His nose is currently a nearly flat red ridge. Give him a clearly visible small three-dimensional ROUND RED OVAL BUTTON NOSE, protruding from his red leather face BETWEEN the lower inner corners of his eyes and ABOVE his open mouth, like the raised red leather nose in IMAGE 2. Show a small highlight, defined rounded contour and soft shadow below this nose so it reads at book print size. Preserve his alarmed surprised wide eyes, raised brows and open mouth reacting to the heat: do NOT copy image 2's smirk. He must be one continuous red leather glove with ONE tucked top/back fold, no additional side/underside thumb pad. His short red cuff and inset white rectangular panel with black outline, red margins and black hollow opening are already correct: preserve them. Keep absolutely ALL OTHER characters, mature faces, GREEN Jenny eyes/BLUE Seth eyes, civilian clothes, protective embrace, Billy shielding his face, Flaming Head, flames, room props, city, composition and colors as in image 1. Do not enlarge Fist or change his position. Output ONE finished 3:2 landscape illustration.",
+      "newFile": "chapter16-flame-transformation-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-49",
+          "book": "1",
+          "chapter": "16",
+          "asset": "chapter16-flame-transformation-design-v1.webp",
+          "priority": "Fix",
+          "issue": "Fist’s surprised face reverts to flat oversized eyes/mouth without the approved formed red nose and facial depth.",
+          "change": "Match dimensional red leather brow/cheeks/nose and surprised expression from current sheet; retain fear of heat, not default smirk."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-fd3976c8-ade9-4fd2-9dac-8aee21cf9e24.png",
+      "reviewed": true,
+      "reviewNotes": "Corrective pass visually reviewed at full resolution; final anatomy/iris correction and all existing staging checked.",
+      "generationHistory": [
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-a03bce00-4e0b-4d6c-a31a-28b368e19143.png",
+          "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Flaming Head circles Seth and Jenny in comforting golden flames while Billy and Fist recoil from the heat.\nIMAGE 2 is approved Fist sheet. Fist must be ONE continuous living RED LEATHER boxing glove, elongated single glove shape with dimensional leather brow, cheeks and small ROUND RED NOSE, expressive white eyes/dark pupils and mouth formed in the leather. ONE tucked TOP/BACK thumb fold behind the face like a swept-back quiff. REMOVE the extra protruding round FRONT/SIDE/UNDERSIDE pad: no second thumb, no second glove, no knuckle appendage sticking out in front of his face. His own one glove body makes the punch contact. SHORT RED cuff with ONE inset WHITE rectangular panel, thin BLACK rectangular keyline and visible RED margins on ALL FOUR sides, narrow black padded wrist rim, dark hollow opening. White is an inset panel, NOT a long white sleeve. No laces/text, arm/hand/body. Cuff HEALED in Book One. Retain the scene-specific expression instead of imposing a smile.\nIMAGE 3 is mature Jenny/Seth face reference only; keep original CIVILIAN CLOTHES. Jenny and Seth remain UNMASKED CIVILIANS in their current clothes. Give them the same graduation-age YOUNG ADULT facial structure as image 3, natural proportional almond eyes and defined nose/jaw, not oversized circular eyes or round child faces. Jenny GREEN irises, golden blonde hair; Seth BLUE irises and tousled brown hair. Keep white blouse/pink skirt and orange hoodie/blue jeans/brown shoes and BARE HANDS. No superhero clothes/masks, no added character. Retain their protective alarmed expressions.\nESSENTIAL STAGING: Fist is at RIGHT and is startled by the heat: give him the approved surprised face WITH sculpted red brow/cheeks/small red nose. His expression may be open-mouthed and alarmed. Jenny and Seth are still UNMASKED CIVILIANS at CENTER: keep her white blouse/pink skirt and his orange hoodie/blue jeans/bare hands, and their protective startled embrace. Apply mature facial proportions and GREEN Jenny/BLUE Seth eyes without changing clothes. Keep golden transformation flames, Flaming Head identity, older Billy shielding his face and all room props."
+        },
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-fd3976c8-ade9-4fd2-9dac-8aee21cf9e24.png",
+          "prompt": "Make ONE very targeted correction to image 1, the finished landscape book illustration. ONLY edit the small red living boxing glove Fist-O-Mite at the RIGHT. His nose is currently a nearly flat red ridge. Give him a clearly visible small three-dimensional ROUND RED OVAL BUTTON NOSE, protruding from his red leather face BETWEEN the lower inner corners of his eyes and ABOVE his open mouth, like the raised red leather nose in IMAGE 2. Show a small highlight, defined rounded contour and soft shadow below this nose so it reads at book print size. Preserve his alarmed surprised wide eyes, raised brows and open mouth reacting to the heat: do NOT copy image 2's smirk. He must be one continuous red leather glove with ONE tucked top/back fold, no additional side/underside thumb pad. His short red cuff and inset white rectangular panel with black outline, red margins and black hollow opening are already correct: preserve them. Keep absolutely ALL OTHER characters, mature faces, GREEN Jenny eyes/BLUE Seth eyes, civilian clothes, protective embrace, Billy shielding his face, Flaming Head, flames, room props, city, composition and colors as in image 1. Do not enlarge Fist or change his position. Output ONE finished 3:2 landscape illustration."
+        }
+      ],
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter16-flame-transformation-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-50",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 16,
+      "chapterTitle": "The Plan",
+      "chapterFile": "content/books/origins/chapter-18.json",
+      "block": 28,
+      "asset": "chapter16-costume-reveal-closeup-design-v1.webp",
+      "file": "chapter16-costume-reveal-closeup-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth touches his orange eye mask and Jenny examines her white gloves as their new hero suits form and the last golden sparks fade.",
+      "context": "",
+      "printIncluded": true,
+      "sha256": "b0d845777117d999e870d0b5c65c0bb722029f05f7f1f4d65288f7bc9f84cc87",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter16-costume-reveal-closeup-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth touches his orange eye mask and Jenny examines her white gloves as their new hero suits form and the last golden sparks fade.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Jenny and Seth have JUST received hero outfits; retain surprise and their hands inspecting clothes. Keep golden spiraling flames, Flaming Head overhead, room and all costume details.",
+      "newFile": "chapter16-costume-reveal-closeup-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-50",
+          "book": "1",
+          "chapter": "16",
+          "asset": "chapter16-costume-reveal-closeup-design-v1.webp",
+          "priority": "Review",
+          "issue": "Jenny/Seth faces drift toward round oversized-eye cartoon designs compared with the approved mature Book Two references.",
+          "change": "Targeted face/eye/proportion refinement; preserve costumes, expression, story action and Perch size. Review blue/green iris consistency while correcting faces."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-69f6316e-d796-454a-8523-254caa1b830b.png",
+      "reviewed": true,
+      "reviewNotes": "Reviewed at full resolution: requested identity correction applied; staging, outfits and story preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter16-costume-reveal-closeup-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-51",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 16,
+      "chapterTitle": "The Plan",
+      "chapterFile": "content/books/origins/chapter-18.json",
+      "block": 30,
+      "asset": "chapter16-team-hero-gear-v2-design-v1.webp",
+      "file": "chapter16-team-hero-gear-v2-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth wears an orange suit with white accents, a white chest Z and belt, brown gloves and boots, and an orange eye mask edged in white; Jenny wears pink with white leg stripes, boots, gloves and eye mask, beside Billy, Fist and Flaming Head.",
+      "context": "Billy lowered his hands. Seth and Jenny stood beside him in their new hero gear, with Fist hovering at Seth’s shoulder and Flaming Head glowing above them. Outside, another heavy footfall shook the street.",
+      "printIncluded": true,
+      "sha256": "c5c87b062b610e2b618f679368108824b6ae742d7dcbac10698b47558da72d03",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter16-team-hero-gear-v2-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth wears an orange suit with white accents, a white chest Z and belt, brown gloves and boots, and an orange eye mask edged in white; Jenny wears pink with white leg stripes, boots, gloves and eye mask, beside Billy, Fist and Flaming Head.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve whole-team arrangement: older Billy foreground left, Jenny and Seth in new costumes center, approved Fist right, Flaming Head overhead. Keep everyone’s exact count and expressions.",
+      "newFile": "chapter16-team-hero-gear-v2-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-51",
+          "book": "1",
+          "chapter": "16",
+          "asset": "chapter16-team-hero-gear-v2-design-v1.webp",
+          "priority": "Review",
+          "issue": "Jenny/Seth faces drift toward round oversized-eye cartoon designs compared with the approved mature Book Two references.",
+          "change": "Targeted face/eye/proportion refinement; preserve costumes, expression, story action and Perch size. Review blue/green iris consistency while correcting faces."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-85c5d9bf-5e38-44a2-b9a9-93d3d57a4130.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter16-team-hero-gear-v2-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-57",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 17,
+      "chapterTitle": "The Fight for the City",
+      "chapterFile": "content/books/origins/chapter-19.json",
+      "block": 40,
+      "asset": "chapter17-perch-rescue-design-v1.webp",
+      "file": "chapter17-perch-rescue-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth lowers Perch’s freed tank beside Jenny and Flaming Head while the robot settles onto its knees before collapsing.",
+      "context": "Seth lowered the intact tank to the pavement. Jenny guided it away from the robot’s slack hand, while Flaming Head stayed close to Perch. Behind them, the machine sagged on its knees.",
+      "printIncluded": true,
+      "sha256": "7e57a32c3cc56ff776f3e641adcc9758da8aa59ae803d8534d3bb9fe20633ef2",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter17-perch-rescue-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth lowers Perch’s freed tank beside Jenny and Flaming Head while the robot settles onto its knees before collapsing.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve freed cylindrical glass tank with live Perch, human hand contacts, disabled robot kneeling/collapsing behind and orange-faced Flaming Head. Keep Perch EXACTLY the existing size/design. Mature Jenny/Seth faces, same rescue poses.",
+      "newFile": "chapter17-perch-rescue-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-57",
+          "book": "1",
+          "chapter": "17",
+          "asset": "chapter17-perch-rescue-design-v1.webp",
+          "priority": "Review",
+          "issue": "Jenny/Seth faces drift toward round oversized-eye cartoon designs compared with the approved mature Book Two references.",
+          "change": "Targeted face/eye/proportion refinement; preserve costumes, expression, story action and Perch size. Review blue/green iris consistency while correcting faces."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-cf9192a8-b3c2-40dc-a0f3-2c21451c908a.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter17-perch-rescue-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B1-59",
+      "book": 1,
+      "bookId": "origins",
+      "chapter": 18,
+      "chapterTitle": "Defenders of the Land",
+      "chapterFile": "content/books/origins/chapter-20.json",
+      "block": 5,
+      "asset": "chapter18-perch-returns-lake-v2-design-v1.webp",
+      "file": "chapter18-perch-returns-lake-v2-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth releases Perch from the tank into Lake Erie while Jenny, Fist and Flaming Head watch beside the shore.",
+      "context": "Seth tilted the tank carefully. Water poured over the stone edge, and Perch slipped into Lake Erie with a bright splash. His yellow fins opened wide. For a moment he floated just below the surface, looking up at his friends.",
+      "printIncluded": true,
+      "sha256": "d41bef98cefb333296eb5253d79c464f83bf131ec35a7526f65685682e038548",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/chapter18-perch-returns-lake-v2-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth releases Perch from the tank into Lake Erie while Jenny, Fist and Flaming Head watch beside the shore.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve Seth kneeling/tipping tank into Lake Erie, Jenny watching, approved Fist and Flaming Head and fish exiting water at EXACT current size and pose. Adjust human faces only.",
+      "newFile": "chapter18-perch-returns-lake-v2-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B1-59",
+          "book": "1",
+          "chapter": "18",
+          "asset": "chapter18-perch-returns-lake-v2-design-v1.webp",
+          "priority": "Review",
+          "issue": "Jenny/Seth faces drift toward round oversized-eye cartoon designs compared with the approved mature Book Two references.",
+          "change": "Targeted face/eye/proportion refinement; preserve costumes, expression, story action and Perch size. Review blue/green iris consistency while correcting faces."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-a3279331-3b8e-475a-bc6e-644ed988637c.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/chapter18-perch-returns-lake-v2-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-04",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 2,
+      "chapterTitle": "Needed Down the Lake",
+      "chapterFile": "content/books/book-three/chapter-02.json",
+      "block": 27,
+      "asset": "book-three-chapter-02-question-design-v1.webp",
+      "file": "book-three-chapter-02-question-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Costumed Seth and Jenny sit on the practice roof looking up at Flaming Head as Seth asks whether others were changed like them.",
+      "context": "“There are more like us?”",
+      "printIncluded": true,
+      "sha256": "d434e9ba298f277d46834c200c6442af74a409a98fe4ded1a005b7c217adb60e",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-02-question-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Costumed Seth and Jenny sit on the practice roof looking up at Flaming Head as Seth asks whether others were changed like them.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Seth and Jenny sit cross-legged on rooftop looking UP at Flaming Head, asking a serious question; keep seated poses, orange/pink costumes, concerned expressions and floating head’s approved face/flames.",
+      "newFile": "book-three-chapter-02-question-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-04",
+          "book": "3",
+          "chapter": "2",
+          "asset": "book-three-chapter-02-question-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-d5ff2d80-8803-494c-9204-76db7b47d883.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-02-question-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-10",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 4,
+      "chapterTitle": "A Place of Their Own",
+      "chapterFile": "content/books/book-three/chapter-04.json",
+      "block": 8,
+      "asset": "book-three-chapter-04-welcome-design-v1.webp",
+      "file": "book-three-chapter-04-welcome-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Claude welcomes costumed Seth and Jenny at the facility’s blue doors while Billy supports injured Fist on a cushion and Eleanor stands apart.",
+      "context": "Claude came forward before he could think of anything to say.",
+      "printIncluded": true,
+      "sha256": "64cd69092b98c48d5d498f83fc85587a64223c8700c055e97ab564f41ad8ba44",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-04-welcome-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Claude welcomes costumed Seth and Jenny at the facility’s blue doors while Billy supports injured Fist on a cushion and Eleanor stands apart.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Claude in blue suit welcomes them at blue facility doors, holding keys; Eleanor in black stands apart. Billy is an older gray-haired adult and supports Fist on a blue cushion. Fist is STILL INJURED with a visibly TORN/FRAYED cuff, preserve this. Change Jenny/Seth facial treatment only.",
+      "newFile": "book-three-chapter-04-welcome-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-10",
+          "book": "3",
+          "chapter": "4",
+          "asset": "book-three-chapter-04-welcome-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-a0338bfe-bba0-41a6-acf0-a3f9a0f1c028.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-04-welcome-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-11",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 4,
+      "chapterTitle": "A Place of Their Own",
+      "chapterFile": "content/books/book-three/chapter-04.json",
+      "block": 40,
+      "asset": "book-three-chapter-04-operations-design-v1.webp",
+      "file": "book-three-chapter-04-operations-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Claude shows the Defenders the 1987 operations room, with beige computers, wired entrance-camera monitors and video recorders; Billy carries Fist on his cushion.",
+      "context": "Billy crouched to look at the video decks. Fist leaned over the cushion's edge.",
+      "printIncluded": true,
+      "sha256": "6a137826d1a97c25af4aa60e7234fc035f319eef2279e8e0ffefdfa4c5c08412",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-04-operations-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Claude shows the Defenders the 1987 operations room, with beige computers, wired entrance-camera monitors and video recorders; Billy carries Fist on his cushion.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve Claude pointing at facility equipment, older Billy taking notes, screens/map desk. Fist STILL INJURED, on blue cushion, preserve torn cuff. Keep tools/lettering/layout.",
+      "newFile": "book-three-chapter-04-operations-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-11",
+          "book": "3",
+          "chapter": "4",
+          "asset": "book-three-chapter-04-operations-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-d568585a-2bfc-48e3-a151-9d87fd85e63f.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-04-operations-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-12",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 4,
+      "chapterTitle": "A Place of Their Own",
+      "chapterFile": "content/books/book-three/chapter-04.json",
+      "block": 48,
+      "asset": "book-three-chapter-04-scanner-design-v1.webp",
+      "file": "book-three-chapter-04-scanner-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Billy tunes the police-band scanner while Seth, Jenny and Eleanor listen; Fist rests beside him on a cushion with his torn cuff supported.",
+      "context": "Billy lowered the volume and tuned past the static.",
+      "printIncluded": true,
+      "sha256": "fc51fa0bd5d10a4d6eab532eac39260c341dec7df98815a7338bdd2c6d117beb",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-04-scanner-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Billy tunes the police-band scanner while Seth, Jenny and Eleanor listen; Fist rests beside him on a cushion with his torn cuff supported.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve older Billy working police scanner, Eleanor apart, heroes leaning toward it. Fist STILL INJURED on cushion with torn cuff. Do not heal/hover him early.",
+      "newFile": "book-three-chapter-04-scanner-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-12",
+          "book": "3",
+          "chapter": "4",
+          "asset": "book-three-chapter-04-scanner-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-7a15544f-04d2-4208-865f-ae6eaa8eca94.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-04-scanner-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-13",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 4,
+      "chapterTitle": "A Place of Their Own",
+      "chapterFile": "content/books/book-three/chapter-04.json",
+      "block": 87,
+      "asset": "book-three-chapter-04-locker-design-v1.webp",
+      "file": "book-three-chapter-04-locker-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Fist settles into his cushioned blue sleeping locker while Claude bends beside him, Billy holds the carrying cushion, and Seth and Jenny smile together.",
+      "context": "Claude bent a little so they were closer to eye level. “You're very welcome.”",
+      "printIncluded": true,
+      "sha256": "d5a96b06ac347385e9f2fb6e152c08e63e83cfb8e45d81edcda5cb15ef3a7060",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-04-locker-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Fist settles into his cushioned blue sleeping locker while Claude bends beside him, Billy holds the carrying cushion, and Seth and Jenny smile together.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve Claude caring for Fist, open locker labeled FIST-O-MITE, blue cushions, older Billy carrying empty cushion and all storage props. Fist’s current injured/repair state stays exactly as shown; adjust human hero faces only.",
+      "newFile": "book-three-chapter-04-locker-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-13",
+          "book": "3",
+          "chapter": "4",
+          "asset": "book-three-chapter-04-locker-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-9e0f8ee3-fc18-4232-affc-446604166913.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-04-locker-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-35",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 9,
+      "chapterTitle": "Cleveland’s Defenders",
+      "chapterFile": "content/books/book-three/chapter-09.json",
+      "block": 17,
+      "asset": "book-three-chapter-09-call-design-v1.webp",
+      "file": "book-three-chapter-09-call-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Billy writes the bank address from the police-band scanner as Seth, Jenny and recovered Fist prepare to leave the facility.",
+      "context": "Billy wrote down the address and the reported details.",
+      "printIncluded": true,
+      "sha256": "674a2074b7aba60de12186d8b1adfd759c2f3f4cea56c1f05630c97e0e189deb",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-call-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Billy writes the bank address from the police-band scanner as Seth, Jenny and recovered Fist prepare to leave the facility.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Billy writes bank address from police scanner; Jenny/Seth and Fist prepare to leave. Fist is NOW RECOVERED, healed cuff and free hover. Keep older Billy’s face, all equipment and postures.",
+      "newFile": "book-three-chapter-09-call-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-35",
+          "book": "3",
+          "chapter": "9",
+          "asset": "book-three-chapter-09-call-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-37ce42b7-17ab-46ee-a6b0-a8a6a3b8c14a.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-09-call-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-36",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 9,
+      "chapterTitle": "Cleveland’s Defenders",
+      "chapterFile": "content/books/book-three/chapter-09.json",
+      "block": 50,
+      "asset": "book-three-chapter-09-lobby-v1.webp",
+      "file": "book-three-chapter-09-lobby-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Pink Blur guides customers through the bank’s open front doors after the front robber is disarmed.",
+      "context": "He was watching.",
+      "printIncluded": true,
+      "sha256": "d2326a5d5d57e4870f584e3899d68547f11e5ef3359168f5153ed43fae2bdd39",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-lobby-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Pink Blur guides customers through the bank’s open front doors after the front robber is disarmed.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Jenny is the ONLY hero; do NOT add Seth or anyone from references. Keep her leading elderly woman to safety through bank lobby, bystanders and robbery action in background. Natural adult Jenny face, GREEN eyes.",
+      "newFile": "book-three-chapter-09-lobby-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-36",
+          "book": "3",
+          "chapter": "9",
+          "asset": "book-three-chapter-09-lobby-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-63f43c82-18dc-47ea-8d29-c8f7b4e17e8d.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-09-lobby-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-39",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 9,
+      "chapterTitle": "Cleveland’s Defenders",
+      "chapterFile": "content/books/book-three/chapter-09.json",
+      "block": 94,
+      "asset": "book-three-chapter-09-aftermath-design-v1.webp",
+      "file": "book-three-chapter-09-aftermath-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth, Jenny, Billy and recovered Fist stand outside the bank as relieved civilians thank them and police escort the three suspects away.",
+      "context": "Jenny stayed in her white mask. Seth kept his orange one in place. Fist turned toward the camera with the expression of someone who had been ready for it all afternoon.",
+      "printIncluded": true,
+      "sha256": "ce259c9aff3e884d102826a5335fafaa59a9e5ad0b9a1fa1b6ff211a8100a223",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-09-aftermath-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth, Jenny, Billy and recovered Fist stand outside the bank as relieved civilians thank them and police escort the three suspects away.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Preserve relieved bank crowd, child speaking with officers, older Billy writing and healed hovering Fist. Match Jenny/Seth approved faces, green/blue eyes, keep hand gestures and all bystanders.",
+      "newFile": "book-three-chapter-09-aftermath-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-39",
+          "book": "3",
+          "chapter": "9",
+          "asset": "book-three-chapter-09-aftermath-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-14c700a9-4517-4688-8f0f-f8b3371640e1.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-09-aftermath-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-59",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 14,
+      "chapterTitle": "Jaws O’ Death",
+      "chapterFile": "content/books/book-three/chapter-14.json",
+      "block": 2,
+      "asset": "book-three-chapter-14-return-design-v1.webp",
+      "file": "book-three-chapter-14-return-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Weakened Flaming Head arrives at the facility window as Seth and Jenny lean toward him; Billy and recovered Fist watch their reactions.",
+      "context": "Seth opened the window. Jenny stood beside him, her hand against the frame.",
+      "printIncluded": true,
+      "sha256": "bf9b3d2ad207a3ec33cfeffacded4450cb9d82963bcedb23fa32f6bdd6fd9ba8",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-return-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Weakened Flaming Head arrives at the facility window as Seth and Jenny lean toward him; Billy and recovered Fist watch their reactions.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Flaming Head returns WEAK, with SMALL DIM flames, as heroes lean to window and Billy/Fist watch. Keep head’s rounded orange face/large eyes and SMALL weak flame, not full-power portrait.",
+      "newFile": "book-three-chapter-14-return-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-59",
+          "book": "3",
+          "chapter": "14",
+          "asset": "book-three-chapter-14-return-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-e29b8c8b-7a07-4b5e-81ee-b3f9c3032b1d.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-14-return-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B3-60",
+      "book": 3,
+      "bookId": "book-three",
+      "chapter": 14,
+      "chapterTitle": "Jaws O’ Death",
+      "chapterFile": "content/books/book-three/chapter-14.json",
+      "block": 20,
+      "asset": "book-three-chapter-14-weight-design-v1.webp",
+      "file": "book-three-chapter-14-weight-design-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Seth strains to lift his familiar practice bar with both hands while Jenny steadies his elbow and diminished Flaming Head watches.",
+      "context": "“Both hands,” she said.",
+      "printIncluded": true,
+      "sha256": "bae678e9aba70286384ebe697706d1fe8b070533737528b620b0d8ada008a37a",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-three-chapter-14-weight-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Seth strains to lift his familiar practice bar with both hands while Jenny steadies his elbow and diminished Flaming Head watches.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies approved mature Seth/Jenny facial identities, not poses.\nESSENTIAL STAGING: Seth STRUGGLES to lift familiar barbell with BOTH BROWN-gloved hands; Jenny steadies his elbow. They are alarmed at reduced powers, not smiling/triumphant. Preserve barbell/plates, actual grip, dim weak Flaming Head and room.",
+      "newFile": "book-three-chapter-14-weight-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B3-60",
+          "book": "3",
+          "chapter": "14",
+          "asset": "book-three-chapter-14-weight-design-v1.webp",
+          "priority": "Review",
+          "issue": "Hero Jenny/Seth faces remain more stylized/young than the approved mature training and civilian identities. This is a visual consistency recommendation, not an obsolete costume.",
+          "change": "Compare with approved Book Two mature face references; prioritize Chapter 2 rooftop and Chapter 4/9 group scenes. Keep natural adult body proportions and story-appropriate expressions. Preserve Fist injury/recovery chronology and Flaming Head’s later weakness."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-5a9096ce-3b6c-4fc5-ac75-603948cea5d7.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-three-chapter-14-weight-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B4-38",
+      "book": 4,
+      "bookId": "book-four",
+      "chapter": 10,
+      "chapterTitle": "Lava Lips and Pink Blur",
+      "chapterFile": "content/books/book-four/chapter-10.json",
+      "block": 0,
+      "asset": "book-four-chapter-10-meeting-v1.webp",
+      "file": "book-four-chapter-10-meeting-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Jenny faces Laura on the street beside a yellow fire hydrant, with Dork’s modified tank beyond the burning debris.",
+      "context": "Jenny came through the gap between the burning boards and stopped beside a yellow fire hydrant.",
+      "printIncluded": true,
+      "sha256": "ade0af8dcda795627feb4106a0875c4ce3f3cb8510e8c3e04d33636eae2a448c",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-meeting-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Jenny faces Laura on the street beside a yellow fire hydrant, with Dork’s modified tank beyond the burning debris.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies ONLY the capped hydrant hardware continuity.\nESSENTIAL STAGING: Jenny and Laura face off. Laura still wears her long BLACK COAT over flame-pattern suit. The SAME yellow hydrant as setup reference must have its RIGHT-facing SIDE OUTLET CLOSED by a solid YELLOW round cap with a small square wrench nut; no dark open threaded hole, no water. Reference for hydrant only; do not copy setup poses or remove Laura’s coat early.",
+      "newFile": "book-four-chapter-10-meeting-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B4-38",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-meeting-v1.webp",
+          "priority": "Fix",
+          "issue": "Hydrant side outlet is open, but the same outlet is visibly capped in the revised setup illustration before Fist strikes it.",
+          "change": "Make pre-strike hydrant consistent with the capped setup scene; preserve later broken side outlet and sideways spray."
+        },
+        {
+          "id": "B4-38",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-meeting-v1.webp",
+          "priority": "Review",
+          "issue": "These five Chapter 10 images retain the older Jenny face treatment while neighboring revised images use the mature reference.",
+          "change": "Apply a targeted maturity/identity pass as needed, preserving Laura’s coat chronology, plasma direction, water staging and arrest positions."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-96e21225-39aa-4c68-b4b1-86718254675c.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-four-chapter-10-meeting-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B4-39",
+      "book": 4,
+      "bookId": "book-four",
+      "chapter": 10,
+      "chapterTitle": "Lava Lips and Pink Blur",
+      "chapterFile": "content/books/book-four/chapter-10.json",
+      "block": 6,
+      "asset": "book-four-chapter-10-kick-v1.webp",
+      "file": "book-four-chapter-10-kick-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Jenny kicks a bright plasma ball back toward Laura, where it catches only the loose edge of Laura’s coat.",
+      "context": "Jenny planted one boot and kicked.",
+      "printIncluded": true,
+      "sha256": "8a4dbe21e8bd2cdaaf758db9108c0e57103079ecc45522ad61d79448fe211194",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-kick-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-design-v1.webp"
+      ],
+      "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the plasma-kick scene. Laura is the BROWN-haired woman at RIGHT in a black mask and long black coat. Change ONLY Laura's two BLUE irises to natural medium/dark BROWN. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration.",
+      "newFile": "book-four-chapter-10-kick-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B4-39",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-kick-v1.webp",
+          "priority": "Fix",
+          "issue": "Hydrant side outlet is open, but the same outlet is visibly capped in the revised setup illustration before Fist strikes it.",
+          "change": "Make pre-strike hydrant consistent with the capped setup scene; preserve later broken side outlet and sideways spray."
+        },
+        {
+          "id": "B4-39",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-kick-v1.webp",
+          "priority": "Review",
+          "issue": "These five Chapter 10 images retain the older Jenny face treatment while neighboring revised images use the mature reference.",
+          "change": "Apply a targeted maturity/identity pass as needed, preserving Laura’s coat chronology, plasma direction, water staging and arrest positions."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-c07ced1c-2f76-4476-b1d7-ab768f0a110c.png",
+      "reviewed": true,
+      "previousCandidate": "/workspace/generated_images/exec-32e09159-ed9e-4445-b434-f501a2752040.png",
+      "reviewNotes": "Corrective pass visually reviewed at full resolution; final anatomy/iris correction and all existing staging checked.",
+      "generationHistory": [
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-32e09159-ed9e-4445-b434-f501a2752040.png",
+          "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Jenny kicks a bright plasma ball back toward Laura, where it catches only the loose edge of Laura’s coat.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nIMAGE 3 supplies ONLY the capped hydrant hardware continuity.\nESSENTIAL STAGING: Keep Jenny’s raised boot redirecting Laura’s small plasma shot into Laura’s COAT HEM, which is starting to singe; coat still ON. Yellow hydrant SIDE OUTLET must be CLOSED with solid yellow round cap and central square wrench nut, same as setup scene, no water yet. Preserve foot/plasma trajectory and positions."
+        },
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-c07ced1c-2f76-4476-b1d7-ab768f0a110c.png",
+          "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the plasma-kick scene. Laura is the BROWN-haired woman at RIGHT in a black mask and long black coat. Change ONLY Laura's two BLUE irises to natural medium/dark BROWN. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration."
+        }
+      ],
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-four-chapter-10-kick-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B4-40",
+      "book": 4,
+      "bookId": "book-four",
+      "chapter": 10,
+      "chapterTitle": "Lava Lips and Pink Blur",
+      "chapterFile": "content/books/book-four/chapter-10.json",
+      "block": 16,
+      "asset": "book-four-chapter-10-absence-v3.webp",
+      "file": "book-four-chapter-10-absence-v3.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges.",
+      "context": "Laura’s smile faded.",
+      "printIncluded": true,
+      "sha256": "f1a130986192cc6e7a7bd56614979a42007f95d6688c022e28d01dc6f7ce5544",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-absence-v3.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+      ],
+      "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the TWO-PANEL diptych. Laura is the large foreground BROWN-haired woman in BOTH panels. Her LEFT PANEL irises are blue: change ONLY those two irises to natural medium/dark BROWN, exactly matching her already-correct BROWN irises in the RIGHT panel. Preserve both panels and her sadness versus anger. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration.",
+      "newFile": "book-four-chapter-10-absence-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B4-40",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-absence-v3.webp",
+          "priority": "Review",
+          "issue": "These five Chapter 10 images retain the older Jenny face treatment while neighboring revised images use the mature reference.",
+          "change": "Apply a targeted maturity/identity pass as needed, preserving Laura’s coat chronology, plasma direction, water staging and arrest positions."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-8c98be6f-77bc-474e-bd9f-f4648577d551.png",
+      "reviewed": true,
+      "previousCandidate": "/workspace/generated_images/exec-29660036-e25f-4e11-8620-a95684b66fc2.png",
+      "reviewNotes": "Corrective pass visually reviewed at full resolution; final anatomy/iris correction and all existing staging checked.",
+      "generationHistory": [
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-29660036-e25f-4e11-8620-a95684b66fc2.png",
+          "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nESSENTIAL STAGING: Keep the EXACT TWO-PANEL diptych. Laura’s face, sorrow then anger, black mask, brown ponytail, plasma spitting and coat-OFF flame-panel bodysuit remain unchanged in BOTH close-ups. Only background Jenny’s visible faces/proportions get mature identity correction. No Seth or Fist added; no coat tails."
+        },
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-8c98be6f-77bc-474e-bd9f-f4648577d551.png",
+          "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the TWO-PANEL diptych. Laura is the large foreground BROWN-haired woman in BOTH panels. Her LEFT PANEL irises are blue: change ONLY those two irises to natural medium/dark BROWN, exactly matching her already-correct BROWN irises in the RIGHT panel. Preserve both panels and her sadness versus anger. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration."
+        }
+      ],
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-four-chapter-10-absence-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B4-43",
+      "book": 4,
+      "bookId": "book-four",
+      "chapter": 10,
+      "chapterTitle": "Lava Lips and Pink Blur",
+      "chapterFile": "content/books/book-four/chapter-10.json",
+      "block": 43,
+      "asset": "book-four-chapter-10-swept-v1.webp",
+      "file": "book-four-chapter-10-swept-v1.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "The rushing water sweeps Laura backward toward the far curb while Jenny stands clear and Laura’s discarded coat tumbles separately.",
+      "context": "Laura lost her footing.",
+      "printIncluded": true,
+      "sha256": "f30ab5a257beb93c67482c8fb343ad83e585987a09d863a47037365caedc31b3",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-swept-v1.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+      ],
+      "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the water-sweep scene. Laura is the BROWN-haired woman at foreground RIGHT being swept backward by water, wearing a black mask and flame-patterned black suit with NO coat. Change ONLY Laura's two GREEN/TEAL irises to natural medium/dark BROWN. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration.",
+      "newFile": "book-four-chapter-10-swept-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B4-43",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-swept-v1.webp",
+          "priority": "Review",
+          "issue": "These five Chapter 10 images retain the older Jenny face treatment while neighboring revised images use the mature reference.",
+          "change": "Apply a targeted maturity/identity pass as needed, preserving Laura’s coat chronology, plasma direction, water staging and arrest positions."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-657fd7d6-ad1d-4894-ac9c-3650b0a3eb04.png",
+      "reviewed": true,
+      "previousCandidate": "/workspace/generated_images/exec-8bf21097-ff9b-42c1-8746-16c5b6d65dce.png",
+      "reviewNotes": "Corrective pass visually reviewed at full resolution; final anatomy/iris correction and all existing staging checked.",
+      "generationHistory": [
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-8bf21097-ff9b-42c1-8746-16c5b6d65dce.png",
+          "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: The rushing water sweeps Laura backward toward the far curb while Jenny stands clear and Laura’s discarded coat tumbles separately.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nESSENTIAL STAGING: Laura is swept backward by SIDEWAYS water from broken hydrant; Jenny stands CLEAR. Laura’s removed coat is separately on the wet road; coat is OFF her body. Keep current water direction, bodies, clothes, discarded coat and tank."
+        },
+        {
+          "sourceGenerated": "/workspace/generated_images/exec-657fd7d6-ad1d-4894-ac9c-3650b0a3eb04.png",
+          "prompt": "Perform a tiny eye-color continuity correction to IMAGE 1, the water-sweep scene. Laura is the BROWN-haired woman at foreground RIGHT being swept backward by water, wearing a black mask and flame-patterned black suit with NO coat. Change ONLY Laura's two GREEN/TEAL irises to natural medium/dark BROWN. IMAGE 2 supplies ONLY Laura's approved BROWN iris color. Keep the black pupils and natural white eye whites. Jenny is the BLONDE woman in pink: her GREEN irises are correct and must remain GREEN. Do NOT change any faces, expressions, eyes' shape/size, masks, hair, costumes, hands, body proportions, exact pose, artwork style, lighting, props, tank, closed/broken hydrant state, water, plasma, composition or panel layout. All pixels outside Laura's irises should remain as close to IMAGE 1 as possible. No added characters, text, captions or mockup. One finished landscape 3:2 illustration."
+        }
+      ],
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-four-chapter-10-swept-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "B4-44",
+      "book": 4,
+      "bookId": "book-four",
+      "chapter": 10,
+      "chapterTitle": "Lava Lips and Pink Blur",
+      "chapterFile": "content/books/book-four/chapter-10.json",
+      "block": 56,
+      "asset": "book-four-chapter-10-open-v4.webp",
+      "file": "book-four-chapter-10-open-v4.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alt": "Jenny offers Laura a place with the Defenders as the soaked, handcuffed Laura is escorted to a police car; angry Jaws hovers nearby and the second officer carries an extinguisher.",
+      "context": "He helped her to her feet and led her toward a police car waiting in the side street.",
+      "printIncluded": true,
+      "sha256": "2451ea6d538e4e43e8d10cddb2c42cbd52f705c6f651a6ff1d570abcce56baec",
+      "references": [
+        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp",
+        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+      ],
+      "prompt": "Make a TARGETED CONSISTENCY EDIT to IMAGE 1, the existing book illustration. Output one finished image with SAME landscape aspect ratio, panel count, composition, warm detailed painted/inked comic style and lighting. Preserve story action, character placements, props, architecture, lettering, image edges and all unaffected faces. Following images are identity references ONLY; do not import their backgrounds, poses or additional characters.\nSCENE: Jenny offers Laura a place with the Defenders as the soaked, handcuffed Laura is escorted to a police car; angry Jaws hovers nearby and the second officer carries an extinguisher.\nIMAGE 2 is approved mature Jenny face/age reference only. For Jenny/Seth ALREADY PRESENT in Image 1 ONLY, they must look like the SAME graduation-age YOUNG ADULTS in the approved Book Two reference, with its mature facial structure: proportional almond-shaped eyes, natural eye whites, defined nose and jaw, natural brow/cheeks, adult head-to-body proportions. Replace the oversized circular eyes/round childlike face treatment. Jenny has natural GREEN irises, long curly golden blonde hair, pink suit with continuous white side stripes and white belt/mask/gloves/boots. Seth has clear BLUE irises, tousled brown hair, orange mask with white trim, orange fitted suit with plain white Z, white shoulder/side stripes and white belt with circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots. No cape, no back Z or rear belt buckle. Keep their existing bodies/poses, costumes and scene expressions; do not make them middle-aged or import the reference pose/background. Change faces/head scale only as needed to match the approved age and identity, not a new character.\nESSENTIAL STAGING: Laura is soaked, COAT OFF, handcuffed and escorted to police car; second officer has extinguisher. Jenny offers her a place with Defenders. Bodyless Jaws hovers angry. Keep all poses and arrest, discarded coat and broken-hydrant water; change Jenny’s face only.",
+      "newFile": "book-four-chapter-10-open-consistency-v2.webp",
+      "issues": [
+        {
+          "id": "B4-44",
+          "book": "4",
+          "chapter": "10",
+          "asset": "book-four-chapter-10-open-v4.webp",
+          "priority": "Review",
+          "issue": "These five Chapter 10 images retain the older Jenny face treatment while neighboring revised images use the mature reference.",
+          "change": "Apply a targeted maturity/identity pass as needed, preserving Laura’s coat chronology, plasma direction, water staging and arrest positions."
+        }
+      ],
+      "status": "Integrated; visually reviewed",
+      "sourceGenerated": "/workspace/generated_images/exec-97cd4919-6646-42a8-8109-20177d269cbe.png",
+      "reviewed": true,
+      "reviewNotes": "Visually reviewed at full resolution: requested identity/continuity correction applied; story, staging, wardrobe, props and scene-specific expressions preserved.",
+      "originalPNG": "docs/art/originals/series-consistency-v2/book-four-chapter-10-open-consistency-v2.png",
+      "newDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "baselineCommit": "3cfe844d30179cc4feefe22fe442016879889d7f",
+  "correctivePasses": 4,
+  "additionalContinuity": "Laura retains brown irises in all five Chapter 10 images; three returned candidates received targeted corrective passes.",
+  "validation": {
+    "manuscriptPreservation": "All chapter JSON fields except illustration art references match baseline; all text/dialogue/order preserved.",
+    "updatedInteriorPlacements": 22,
+    "bookTwoSource": "All Book Two chapter and book metadata bytes unchanged.",
+    "visualReview": "All 22 final interiors and Book Three cover reviewed at full resolution; four corrective passes checked.",
+    "environmentRestart": "Workspace restart interrupted the final Book Two review export. Prior completed publishing stages retained; final export, sample publication and site stages resumed explicitly.",
+    "assetIntegrity": "All 22 original WebP hashes unchanged; new PNG hashes, WebP dimensions, exact manifest keys and chapter block references checked.",
+    "publishingPipeline": "All publishing stages completed. Final Book Two review export, sample publication and site stages resumed after environment restart.",
+    "regressionSuite": "npm test passed: 77 pages, 1517 links/assets, reader state, mobile layouts, EPUB previews and publishing hashes.",
+    "epubCheck": "EPUBCheck 5.4.0 passed for all four complete EPUBs and the public sample: zero errors or warnings.",
+    "printResolutionTests": "Seven saved-PDF print-resolution tests passed.",
+    "renderedPDFReview": [
+      "Origins paperback page 45",
+      "Book Three paperback page 25",
+      "Book Four review PDF page 70",
+      "Book Three full-wrap preview"
+    ],
+    "reviewPDF": {
+      "file": "/workspace/outputs/defenders-art-consistency-review.pdf",
+      "pages": 23,
+      "sha256": "a5d3fa357fe1688312ac8fd9a28080ff0605e09b493518542403359af7989d19"
+    },
+    "coverSnapshot": "publishing/covers/; 21 files refreshed, hashes checked, public reader URL retained.",
+    "paperbackPages": {
+      "origins": 94,
+      "book-two": 120,
+      "book-three": 116
+    },
+    "bookFourReviewPages": 82
+  }
+}

@@ -334,5 +334,6 @@
       "bytes": 858716,
       "sha256": "1203cfae18e1d6fe5436498354bd22dafc95cff3b66e19f614d63e4945135018"
     }
-  ]
+  ],
+  "followup": "The all-book consistency follow-up supersedes affected artwork references in this historical pass: docs/art/series-art-consistency-v2.json."
 }
