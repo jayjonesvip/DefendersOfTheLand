@@ -1,0 +1,1017 @@
+{
+  "date": "2026-10-23",
+  "baselineCommit": "904b25f05fd8c6f34b89ee97efa59b32113289fc",
+  "authority": "Jay: lock the first three books as final, done, published canon.",
+  "policy": "Do not revise Books One–Three to resolve a later-book inconsistency. Explicit author instruction to reopen a named book/change is required. Preserve current prose, art, cover and print source files.",
+  "books": [
+    {
+      "id": "origins",
+      "title": "Origins",
+      "number": 1,
+      "status": "Final published canon — author locked",
+      "chapters": 18
+    },
+    {
+      "id": "book-two",
+      "title": "Aftershock",
+      "number": 2,
+      "status": "Final published canon — author locked",
+      "chapters": 21
+    },
+    {
+      "id": "book-three",
+      "title": "Lava Lips",
+      "number": 3,
+      "status": "Final published canon — author locked",
+      "chapters": 14
+    }
+  ],
+  "scope": "Repository source snapshot: book/chapter JSON, referenced public assets, and existing print JSON/configuration plus their referenced assets. Generated PDF/EPUB bytes and renderer code are outside this source lock; this is not a claim that downloaded retailer editions have been independently compared.",
+  "bookFour": "Unpublished working draft; its audit is advisory. Preserve the author-selected 962-word Chapter 12 and fourteen corrected illustrations unless explicitly directed otherwise.",
+  "files": [
+    {
+      "path": "content/books/book-three/book.json",
+      "sha256": "5eeb2cb6a087868b67faba2fb2fec24432887a1f0db9612ec2d6fbee8ac08a15"
+    },
+    {
+      "path": "content/books/book-three/chapter-01.json",
+      "sha256": "42a3b5235f70ad3103901b6b94921c1445e3da45af56e759d338dc86b82e293e"
+    },
+    {
+      "path": "content/books/book-three/chapter-02.json",
+      "sha256": "0727ef32300db8cc4baa17ced874f1f5ab8e324ba64e59e934ec8f0fe1583131"
+    },
+    {
+      "path": "content/books/book-three/chapter-03.json",
+      "sha256": "5abbbe40b3655bdd0c8f97d93d0a1ae8081b39e78766c1d63055cb80d8ce0ef2"
+    },
+    {
+      "path": "content/books/book-three/chapter-04.json",
+      "sha256": "9abe895fce4f1e45c055b68982a24c050b2d6789b49aa530b711f443c2ac709b"
+    },
+    {
+      "path": "content/books/book-three/chapter-05.json",
+      "sha256": "b1dec5eadcb0c5dec34ee9164c39facca84908cc4103c9a50e35aeeb7d551d2a"
+    },
+    {
+      "path": "content/books/book-three/chapter-06.json",
+      "sha256": "5a0a2b51571d28ea0b46d7c587e6ae192747827545015f123a59f978bf28c1ef"
+    },
+    {
+      "path": "content/books/book-three/chapter-07.json",
+      "sha256": "1d9448c147f5d35b04f80be978d0e2cb670d67bfd641568472124c4d89cfa60c"
+    },
+    {
+      "path": "content/books/book-three/chapter-08.json",
+      "sha256": "37bdec60075173c0f7db806c43aaa7cc8afb581663337553d45eeea8c4e9f319"
+    },
+    {
+      "path": "content/books/book-three/chapter-09.json",
+      "sha256": "8c656708c7477d9c093adb962959b4030b7b279c0d4d73da03ec7d113348c7c2"
+    },
+    {
+      "path": "content/books/book-three/chapter-10.json",
+      "sha256": "231bfd1bce257ca2ac14e3fe241936f84b937eba243e38b6ea7950c20ff20d43"
+    },
+    {
+      "path": "content/books/book-three/chapter-11.json",
+      "sha256": "737bcee8162626a3fed61cf93ef00674b94bc6e9ba93444717ee383e808ab063"
+    },
+    {
+      "path": "content/books/book-three/chapter-12.json",
+      "sha256": "e3a3e51bf19d785c7c17f3fd73c42ee40bb9fa7f50b49d422b5f8af478945dd3"
+    },
+    {
+      "path": "content/books/book-three/chapter-13.json",
+      "sha256": "6543d859cec5a4dd025a8c4349c90b2de6522475f00ac7b6cb9ea06ff067d6fc"
+    },
+    {
+      "path": "content/books/book-three/chapter-14.json",
+      "sha256": "aa982ddf7af65ad241c34ec221d990b2c3cb0363e33192bcf3a878e0384717c6"
+    },
+    {
+      "path": "content/books/book-two/book.json",
+      "sha256": "097aadcec361d4760fdabc234c0ed897010e6886f23da957a89a85ce7e08d871"
+    },
+    {
+      "path": "content/books/book-two/chapter-01.json",
+      "sha256": "8ea45b527c12527993985406d3ff9792461cb0cdf86be8e86d3f3b0875447837"
+    },
+    {
+      "path": "content/books/book-two/chapter-02.json",
+      "sha256": "c4b6ef93e3da8a8c201a2de507fd940344d008d93fc702d1695a3ab72139a927"
+    },
+    {
+      "path": "content/books/book-two/chapter-03.json",
+      "sha256": "bd8e0e26b7199ce8d22bcb57af127e8e6f470a86f9fd70cdd8b447a2d5584a34"
+    },
+    {
+      "path": "content/books/book-two/chapter-04.json",
+      "sha256": "c7db9e1beb9e02e3336b22a37b1b35f62392ed909f9cf3a07c1117725ad1cb73"
+    },
+    {
+      "path": "content/books/book-two/chapter-05.json",
+      "sha256": "66efa5594d1d1fc9068b2192a52a00cb950f7c92b73a0d593099e65a0de0fd5b"
+    },
+    {
+      "path": "content/books/book-two/chapter-06.json",
+      "sha256": "0b92d45626985ef295cb7362d7aec2fd14c9b97025a073b0006f1374963ab1e3"
+    },
+    {
+      "path": "content/books/book-two/chapter-07.json",
+      "sha256": "83948452222da95def6c4ad00b617dad960c974c441762363d202d1091c86513"
+    },
+    {
+      "path": "content/books/book-two/chapter-08.json",
+      "sha256": "a5f1d00751c1440a0c7f51b064411d1159cf0ec73ba52eb1ef155819cb341129"
+    },
+    {
+      "path": "content/books/book-two/chapter-09.json",
+      "sha256": "7c93c08237c53c603a189cc57ff1e32d80f72d628560ff0fbc990a4b0d3fbc76"
+    },
+    {
+      "path": "content/books/book-two/chapter-10.json",
+      "sha256": "3f9e8a8f33c6bf88d6652c479967fedcf01d5df363cdd81bc641bbd0dab01329"
+    },
+    {
+      "path": "content/books/book-two/chapter-11.json",
+      "sha256": "abfb22ab96409187450eaca6107fda72fdcb7338c0d2f3d7e2470d8f0ab01067"
+    },
+    {
+      "path": "content/books/book-two/chapter-12.json",
+      "sha256": "2a697ce3c918d91b924ca88a216070a1228fd1bc4fdfb80930a528f723936afc"
+    },
+    {
+      "path": "content/books/book-two/chapter-13.json",
+      "sha256": "5eec8b700b1e9a215849f9f2539c083c1617e6c2afd6e208632103ea7f12ac25"
+    },
+    {
+      "path": "content/books/book-two/chapter-14.json",
+      "sha256": "f39ad5f5b076468a7e731182ec0d13ef66b0e2c2c229e55347284882562006de"
+    },
+    {
+      "path": "content/books/book-two/chapter-15.json",
+      "sha256": "08f563b395f096b6329343fbfe7a91534cc61d344bc484343968acac51aa4f29"
+    },
+    {
+      "path": "content/books/book-two/chapter-16.json",
+      "sha256": "171718feb4ba6c40f7b0c8b5e44d5c7fb9c6f2ffe3e82b67d21f32f56960f60c"
+    },
+    {
+      "path": "content/books/book-two/chapter-17.json",
+      "sha256": "20e2f63d127797e32b20390cdf6a338644fcf3a0d0bd0b9bc2ce3d79317c0184"
+    },
+    {
+      "path": "content/books/book-two/chapter-18.json",
+      "sha256": "3c0b8f39cb720f8a29eb5c0ea5e2c69ea20643da0189890ca36e11c765638ca5"
+    },
+    {
+      "path": "content/books/book-two/chapter-19.json",
+      "sha256": "8eb55f9580022ff4e54e29896bc437d3bea4e70fde923dc7de6d71fd5ddb51b4"
+    },
+    {
+      "path": "content/books/book-two/chapter-20.json",
+      "sha256": "89b435bf19fb8719336b78f6aafb7fac6d985ced60d767c86367cb56eac27a00"
+    },
+    {
+      "path": "content/books/book-two/chapter-21.json",
+      "sha256": "e0171d73593bbd9ea5d811196563ad5383f66423c2bd43670011378c735067c9"
+    },
+    {
+      "path": "content/books/origins/book.json",
+      "sha256": "28c1d13f8c5cd7ea05a494979120932e3ed6c1a76349397564bb71d5e38ed169"
+    },
+    {
+      "path": "content/books/origins/chapter-02.json",
+      "sha256": "32e15cf15fe911a53f942876a2c0dbc9a34886a66d6817d5e0f3376b140847de"
+    },
+    {
+      "path": "content/books/origins/chapter-02b.json",
+      "sha256": "305ce5115b3232c1144fefbd5459ba01cb74a1dfa48e72a5e59af641a7044a84"
+    },
+    {
+      "path": "content/books/origins/chapter-03.json",
+      "sha256": "5da3a6b073d17c5221fa5e2fb93c39c7eeafe1c5238d295191338eb1a3622b24"
+    },
+    {
+      "path": "content/books/origins/chapter-03a.json",
+      "sha256": "601b951dcb24fcce4bb70da29360c8d9bcacc2ceedb45c0cb2c59879b8d2ee55"
+    },
+    {
+      "path": "content/books/origins/chapter-04.json",
+      "sha256": "de970a83d358dd5f0701589341e5d32c65176b0451f257f00a5b5135241647da"
+    },
+    {
+      "path": "content/books/origins/chapter-05.json",
+      "sha256": "70e1a7f14bf8110fb322738267fc6994ff65e137573750350ccc4214aaac8bc2"
+    },
+    {
+      "path": "content/books/origins/chapter-07.json",
+      "sha256": "757cf30e033846f2745d6298f43ed49f10a77110047dc177e1e3c17208fe5e8c"
+    },
+    {
+      "path": "content/books/origins/chapter-08.json",
+      "sha256": "4750542a38d00706f81aa0c7ff93c7b51127b8b539f8ba54ddcb9b3fd8cd9ed2"
+    },
+    {
+      "path": "content/books/origins/chapter-11.json",
+      "sha256": "ae232ccbca2dd4dcb5c33f2e542ff23ddf516a7843c397d9c305261b8d0a8ff7"
+    },
+    {
+      "path": "content/books/origins/chapter-12.json",
+      "sha256": "c69e75984beab88ea10d44c92389597056ef703a77ae43127daf18092e7b69d2"
+    },
+    {
+      "path": "content/books/origins/chapter-13.json",
+      "sha256": "a9197de67bcb61cd20eccceab9c54d1bb097aa70ff9bfc1ac6b98dedea61d43c"
+    },
+    {
+      "path": "content/books/origins/chapter-14.json",
+      "sha256": "bc176dfc0767a0ba1856506e56a950f9cdbfaddbc371a8975cc97b09ef0cfcff"
+    },
+    {
+      "path": "content/books/origins/chapter-15.json",
+      "sha256": "a6a5136f5103f0896c2b35ca6145eb01766e0dcd5e1424328532362f247e9b6c"
+    },
+    {
+      "path": "content/books/origins/chapter-16.json",
+      "sha256": "d6220ed2d8d8e65e2bd0485c6d80673809cf48608678f75e5cf205d672adec16"
+    },
+    {
+      "path": "content/books/origins/chapter-17.json",
+      "sha256": "149f4dab6b2b1bc2b83818fae2cc52a10409625f04297ecbd3144866dc92bd81"
+    },
+    {
+      "path": "content/books/origins/chapter-18.json",
+      "sha256": "16067ff76a283f4deab56a483d8b86cab90e12788bbc50f12194f5db63ab0e84"
+    },
+    {
+      "path": "content/books/origins/chapter-19.json",
+      "sha256": "06a79d049d21449d4806b66f4d00f7a35abfa1d8399ce671fe506bad06797a22"
+    },
+    {
+      "path": "content/books/origins/chapter-20.json",
+      "sha256": "89e943d55b06098389df7fcb81f6fda759de10f8cffe38d1948d4f5c94f73639"
+    },
+    {
+      "path": "print/book-three-cover.json",
+      "sha256": "02f958e78bce16557a104e2d4d9760f995ae51c635e65fe1894cdecd72a7ca40"
+    },
+    {
+      "path": "print/book-two-cover.json",
+      "sha256": "b5e8320a039d3d55be9ec082e10a65ee7ffb761a857f0035e54ad3cca71b0e02"
+    },
+    {
+      "path": "print/chapter10.json",
+      "sha256": "07c2c8a1ba481cc10c4672f7477741749b9208c173b2f59bd255f6080c4f419c"
+    },
+    {
+      "path": "print/chapter11.json",
+      "sha256": "fad21723da680d2e8973da272e1d5da9d2b3bbb04981bd58198462e039dafc81"
+    },
+    {
+      "path": "print/chapter12.json",
+      "sha256": "f06fcadf9ff7565e5627c8c325b460cfcdf237394d999aa4a1450536a2311923"
+    },
+    {
+      "path": "print/chapter13.json",
+      "sha256": "968fc26e5be8dd26879c8388b5f1f0d6939df1e801a5a3b3ea505dbe4e8dd835"
+    },
+    {
+      "path": "print/chapter14.json",
+      "sha256": "cd7516f4dba60ff8693461aef532dc8a8b1546d5753f06ca83a3d3bf1751f315"
+    },
+    {
+      "path": "print/chapter15.json",
+      "sha256": "47f11df9ccdad74c6603ea5560d03f654e84a305bbd022f38b6af9b6cbc31409"
+    },
+    {
+      "path": "print/chapter16.json",
+      "sha256": "e3e53ef20d011a042a578f7438f12ac603f23e0a409a3c390c15bff128524c54"
+    },
+    {
+      "path": "print/chapter17.json",
+      "sha256": "b364f9162d44cd55aadeac25bd34701dfea1de70a97e540bfe7f53eaff6e506c"
+    },
+    {
+      "path": "print/chapter18.json",
+      "sha256": "9fa447d84be2d4e21c49e30ddeeea83aa65e990767c1cc986f43b9a2f9dd5999"
+    },
+    {
+      "path": "print/chapter2.json",
+      "sha256": "5b56943fcc6165123e0fcab5b00a8bf381bf162a311e5080626736c2df22d94c"
+    },
+    {
+      "path": "print/chapter3.json",
+      "sha256": "881a1a2ebe5d036e7778a918de6a7a2da72a96e019570c899600e13476880323"
+    },
+    {
+      "path": "print/chapter4.json",
+      "sha256": "736aba7e8f4346f3764a29e65d68eb933fab7984b3973bbecbc69d970017bcec"
+    },
+    {
+      "path": "print/chapter5.json",
+      "sha256": "f1c2cc23110a6265b0ccc099fa3f17c8e509146fef8c7455089e784372ca79cf"
+    },
+    {
+      "path": "print/chapter6.json",
+      "sha256": "ef218da6445195bb9f334b0e692edec8fee0a53b7742ecf9608d4688632644c3"
+    },
+    {
+      "path": "print/chapter7.json",
+      "sha256": "4cc349de15fa91c7174d34ef1aed15ba706e1ae621ee8ebfebdc10ca80433046"
+    },
+    {
+      "path": "print/chapter8.json",
+      "sha256": "cc442e1e51148a6916c518cb06b19fb4577606759c61eb36b85dabd15f545246"
+    },
+    {
+      "path": "print/chapter9.json",
+      "sha256": "8310da78c6bc5086ffe62c146ef1240bcd48664713b7df85b1842f16a1a119c1"
+    },
+    {
+      "path": "print/cover.json",
+      "sha256": "814f3a34e855bcbf5f0e0b25c892cfa2ffb609ecff504de4009109b98b84e08d"
+    },
+    {
+      "path": "print/sample.json",
+      "sha256": "cd9aca75b9b9dbb6b47c997ae8bbcf1c6d5d2e705913f165b125d386453cf319"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-lakefront-v1.webp",
+      "sha256": "0be5288f8d3834909cea937df2058debd63fa1d086b1f66c4966715dcbb3ae55"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-plea-v1.webp",
+      "sha256": "fb60add668ae1200de27360f7f4a2e6b1614a713cc1af2f22bd1c909c99bf690"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-sink-v1.webp",
+      "sha256": "92939e51e64ffcb1f2883d16daa569e9a37447a559d9923c9befa2ec2c8d7dc8"
+    },
+    {
+      "path": "public/assets/book-three-chapter-02-departure-design-v1.webp",
+      "sha256": "166448788db1deb10a1d0028081b2b1fcf4670b9b053b102827f2d02905236e4"
+    },
+    {
+      "path": "public/assets/book-three-chapter-02-office-design-v1.webp",
+      "sha256": "e6188b15618ae3d6bd0d0d3f7f1a7fb527bb28ee5047097cffe2aae5c5d41323"
+    },
+    {
+      "path": "public/assets/book-three-chapter-02-question-consistency-v2.webp",
+      "sha256": "f4f30231d955568ff22c89f654c0bcee6cf3e186649eb5ba195faa60e0d49e97"
+    },
+    {
+      "path": "public/assets/book-three-chapter-03-newspaper-v1.webp",
+      "sha256": "3cad5174657cbc32f7c72f7e91395d9d89fce801b634502b50293923a51f0b80"
+    },
+    {
+      "path": "public/assets/book-three-chapter-03-phone-v1.webp",
+      "sha256": "56a66efb6e3ea287ea6f503869da305aa92f85a3978966061f72bdcbd56cc71d"
+    },
+    {
+      "path": "public/assets/book-three-chapter-03-shelter-v1.webp",
+      "sha256": "bd654d7b6a2bdad64001a55cb930e37f97cffdffb55a051ace4db4c38e16c83b"
+    },
+    {
+      "path": "public/assets/book-three-chapter-04-laura-v2-fh.webp",
+      "sha256": "66134316463a7c50c75f1d5b77d46744580261071f2ce463b962e80205d0f4d6"
+    },
+    {
+      "path": "public/assets/book-three-chapter-04-locker-consistency-v2.webp",
+      "sha256": "074eadd2de429ae14dd586a8039223b6bafdb0122e6628fb903fa295c59b073c"
+    },
+    {
+      "path": "public/assets/book-three-chapter-04-operations-consistency-v2.webp",
+      "sha256": "0dcd302accbca2d1f0acb219d4097b55540a360a2321920ab8768abdcf95fc48"
+    },
+    {
+      "path": "public/assets/book-three-chapter-04-scanner-consistency-v2.webp",
+      "sha256": "4c05787302eb2d801a25bde0b639fe0c1ec3f46156adf8380156e7f81ee910aa"
+    },
+    {
+      "path": "public/assets/book-three-chapter-04-welcome-consistency-v2.webp",
+      "sha256": "fb5ad8377817a6399e94962ca53e8deb5f09a6f78692d8e50e70a3dc1755fcaa"
+    },
+    {
+      "path": "public/assets/book-three-chapter-05-anger-v2-fh.webp",
+      "sha256": "d85e0425b3239866931967a1f98cdc2f477718eeae06ad64347abca7277da6e6"
+    },
+    {
+      "path": "public/assets/book-three-chapter-05-costume-v2-side.webp",
+      "sha256": "96a9cac8df8c291a0fba73d3992e692e3cb2376579f42ddfc9fbf03528305f19"
+    },
+    {
+      "path": "public/assets/book-three-chapter-05-dork-v1.webp",
+      "sha256": "d4243ff2f96de7047b287ec8c23285804f714482c60556e5ef67c76af9ff6f7b"
+    },
+    {
+      "path": "public/assets/book-three-chapter-05-fire-v1.webp",
+      "sha256": "e6be61577a5f1f1c26acc558c520dcaef0c4f0ff954eeb8a3636e349ccb50f87"
+    },
+    {
+      "path": "public/assets/book-three-chapter-05-practice-v2-fh.webp",
+      "sha256": "26c9aa1ef8d21eb8fc00538ef7127f1933e0c0b29f4e3356a13b591e52784d36"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-crowd-v1.webp",
+      "sha256": "c2e54bb617ff67c1fb12c612017d707fe01d90271e98e8e89747d315ba68244f"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-demo-v1.webp",
+      "sha256": "b55b92818380f1592544bf528086de21247e451bdc2b2d3008d3ea7ea9f4aea5"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-lab-v1.webp",
+      "sha256": "cf1cfde77b4d9499165d3d5fc9001b36098e2164c04cc2870b28b27e2de43e77"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-retreat-v2-fh.webp",
+      "sha256": "6f53dd406c0c8912359b7a1ad73f0a0cf454fa98c52fa5191b40a84d297699a3"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-stand-v1.webp",
+      "sha256": "01671d6da9af5d3649db474d3c967de29402d370f9e1be19e728e2c7bb570052"
+    },
+    {
+      "path": "public/assets/book-three-chapter-06-tank-v1.webp",
+      "sha256": "eddd3bca22d937f5e19e8809a6a9a05a8c034f13fba48f652390391418c2b13b"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-arrival-v1.webp",
+      "sha256": "93a5f897968b8e0bcbf001cda933b78f14bbe6b16a5ec6785dbf4b71cd11478a"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-collector-v1.webp",
+      "sha256": "e2def3f3f1c9cf6e4aa2bc8154438d4debc87359842ac6830965bf436bfbb6f4"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-excluded-v1.webp",
+      "sha256": "613e9da4ec06d512238cf351bb9588a5a241561342a2fd0d87296ee3e382518e"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-insult-v1.webp",
+      "sha256": "f1df9f92ef9f6c4f41bb5f1ac26a5bf170b231052f0227286a5be6e9dbac0625"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-offer-v1.webp",
+      "sha256": "ced8fd991df716f92f5215bf2064b15f89e69e6e9ed3a9c78f0f22870af3712e"
+    },
+    {
+      "path": "public/assets/book-three-chapter-07-warning-v2-fh.webp",
+      "sha256": "a36459ef6b9745ec2c3e52d1f62de87c9eeabba6c5ae1be2041041b331cde20c"
+    },
+    {
+      "path": "public/assets/book-three-chapter-08-hope-v1.webp",
+      "sha256": "a19807532d4434782a771d2767efe3e3542ed0d1ee28db16436c72e48ffa3375"
+    },
+    {
+      "path": "public/assets/book-three-chapter-08-placement-v1.webp",
+      "sha256": "405d6b7819d8131328783a4523670a122e6a495b0c9515e01cb1c40738292427"
+    },
+    {
+      "path": "public/assets/book-three-chapter-08-test-v1.webp",
+      "sha256": "7f7be6f4a67ef3f6783905f2b16ba3f0c2b8bd4a283c76ecd854633a9e8b52fb"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-aftermath-consistency-v2.webp",
+      "sha256": "67f782265bcde15840e63622ae36d46f51b8e959e6651c54b73a48521e28a0ef"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-call-consistency-v2.webp",
+      "sha256": "a5c01223e679f61228bdd3654235822ea7824f7f8bd9734aa6d6895906ca8ef1"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-fist-design-v1.webp",
+      "sha256": "7d6b698e1049b68a0dfa148bba5c2dffebd863108db3976b0ef8d8f581b0cbdf"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-getaway-design-v1.webp",
+      "sha256": "38ec912c9b020ada8af03de37f454f7aff436eca1e1c3093af22764b504c3660"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-lobby-consistency-v2.webp",
+      "sha256": "b9b6f054988ae0f43bdd03f5748463d72cc8113ab437a56bdbccdafa9ca21094"
+    },
+    {
+      "path": "public/assets/book-three-chapter-09-report-design-v1.webp",
+      "sha256": "68c46f61e349ec000955a8e64fc1d8cef5cb588020fe0f71dd15f8b1e0924116"
+    },
+    {
+      "path": "public/assets/book-three-chapter-10-agreement-v1.webp",
+      "sha256": "0e5cfba3fbcaa4aa1e9c85092706520f09197f8420c0b0c54c5108864581db13"
+    },
+    {
+      "path": "public/assets/book-three-chapter-10-arrival-v1.webp",
+      "sha256": "5b7bbbc68826121475bc5d88feca6396b192b29b5e41b63b50d6cf1fc6f1be6e"
+    },
+    {
+      "path": "public/assets/book-three-chapter-10-caster-v1.webp",
+      "sha256": "33299bc2e7acd4ebf960a5e40465fc780e8b2ecf81e23efa3bce2ffa91786e06"
+    },
+    {
+      "path": "public/assets/book-three-chapter-10-layout-v1.webp",
+      "sha256": "636144495f5244847992650a5703c4cc0bbc89cd26c7ccf7930798f0618d5f0e"
+    },
+    {
+      "path": "public/assets/book-three-chapter-11-arrival-v2-fh.webp",
+      "sha256": "1c9d600ab0be948bb0c6e05bf5669770cfe6ce075019ed61de6c1b58c3c38dc6"
+    },
+    {
+      "path": "public/assets/book-three-chapter-11-call-v1.webp",
+      "sha256": "89939d8d9cbc833c370f983a128bdffab0079c86c2da5e5dceaa618a59ca46d8"
+    },
+    {
+      "path": "public/assets/book-three-chapter-11-response-v2-fh.webp",
+      "sha256": "aed1bc2df76c7f22a7d2953c013c6b28fadd349d4753be2ed16ffa685fdbf27f"
+    },
+    {
+      "path": "public/assets/book-three-chapter-11-staging-v1.webp",
+      "sha256": "5b089d9e9a2de91ebca930ff1584beb0ecafcb6ac89ad932d3c1bf67e26d91e8"
+    },
+    {
+      "path": "public/assets/book-three-chapter-12-alarm-v1.webp",
+      "sha256": "956c9dbdf4233391615597e956a9854889baf331d685e50addd607067eff49e3"
+    },
+    {
+      "path": "public/assets/book-three-chapter-12-capture-v1.webp",
+      "sha256": "14fbf166a45eced500f7300486324afa01f798aa149197f5a607715143e95453"
+    },
+    {
+      "path": "public/assets/book-three-chapter-12-decision-v1.webp",
+      "sha256": "eeebe37eaae3688e3b200c47f4e634d6bdd3cbc1d142aeca83cda733f13d5cd3"
+    },
+    {
+      "path": "public/assets/book-three-chapter-12-meter-v1.webp",
+      "sha256": "5b89309c9daa1596df2a733690947bd9250ee0170dc59e7f908a96a12f86e151"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-coat-v1.webp",
+      "sha256": "6ec480026fba07c12bb88f98e752836c6bbec6717a6627b3e0cc99aa007c3c12"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-departure-v1.webp",
+      "sha256": "0ee8eedbae9a631c171d34156839ddb56807c54506423ba8f8ca7ea6840693f8"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-impact-v1.webp",
+      "sha256": "8996743946d5df02a02a4a9befd6ee640527996ddeabe5afafc5ba85b4151470"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-overload-v1.webp",
+      "sha256": "a907e94669dc4188411a78745a39413a0841df5f61b9a4f9f14ab7e79200c06a"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-rope-v1.webp",
+      "sha256": "02573cb44fe476af8c105d51b704dac9591385f6b54f9ef13a7011894fbae757"
+    },
+    {
+      "path": "public/assets/book-three-chapter-13-weak-shot-v1.webp",
+      "sha256": "dac7b6017f2d0d17f8b8e85abd97bfc657e3e6ad21d4b86f80e1533615a8882c"
+    },
+    {
+      "path": "public/assets/book-three-chapter-14-allies-v1.webp",
+      "sha256": "1d4b7f33867c1720512692c878334c86dd541fbaf1e31a54aa53552b926ad76d"
+    },
+    {
+      "path": "public/assets/book-three-chapter-14-reflection-v1.webp",
+      "sha256": "4d7311eb64d722bc94377a255bdccf2acd8936a6e9144b7b819e478f0268bde0"
+    },
+    {
+      "path": "public/assets/book-three-chapter-14-return-consistency-v2.webp",
+      "sha256": "d095c4f6ddccf0cd01c233873b316403dd187c62f3a63ea13f49378bd829443a"
+    },
+    {
+      "path": "public/assets/book-three-chapter-14-victory-v1.webp",
+      "sha256": "75b8458ca313e48d29e5a4da30a37824ec8179f3465855095387e5b943f59f80"
+    },
+    {
+      "path": "public/assets/book-three-chapter-14-weight-consistency-v2.webp",
+      "sha256": "61a99b10fa54e0edf16fcc2aba691941c16400f9610192f4c3175604540a4bdd"
+    },
+    {
+      "path": "public/assets/book-three-cover-print.png",
+      "sha256": "04efdb98901de3f0d3e70f52981a31b2f729a7f32f366ab888fce39c42184bcf"
+    },
+    {
+      "path": "public/assets/book-three-cover-series-title-v3.png",
+      "sha256": "99012930734f1f3f32e7f51ab2e5a011ebc7026a19f207a775d4413b7000d939"
+    },
+    {
+      "path": "public/assets/book-three-cover-series-title-web-v3.webp",
+      "sha256": "4313b57514427b1aa65eecfd7dc68610ac36fe37b5f31ae792585a41165aaefc"
+    },
+    {
+      "path": "public/assets/book-two-aftershock-cover-print.png",
+      "sha256": "8d0b2ab48e587f3d63b80b48c74162f8cc014b94503fec824cf9c2b79432c3e4"
+    },
+    {
+      "path": "public/assets/book-two-chapter-01-quiet-kitchen-design-v1.webp",
+      "sha256": "027949d2267d7e3a78c068162c0124e89883877b6bc6b6de64d7851cc0923e04"
+    },
+    {
+      "path": "public/assets/book-two-chapter-01-tutoring-graduation-design-v1.webp",
+      "sha256": "03f3b9da144b176227b4d5745b5374b220294703d7d4ce53a82387e1b2f7909d"
+    },
+    {
+      "path": "public/assets/book-two-chapter-02-jenny-practice-face-design-v1.webp",
+      "sha256": "fed811504bc9c78419f997143eab5450af8e31d2d2b7e27a20b7c349501edf75"
+    },
+    {
+      "path": "public/assets/book-two-chapter-02-seth-practice-face-design-v1.webp",
+      "sha256": "efbf5916ea385aa98a13227fab242a9c40f1a17a40e302cc9058cb6bcf880ba7"
+    },
+    {
+      "path": "public/assets/book-two-chapter-03-jenny-success-wall-green-design-v1.webp",
+      "sha256": "138400612d7e761f5aa8ca8b0210366c3e07e4bef6cf2ef7f9304c55540ff9f1"
+    },
+    {
+      "path": "public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+      "sha256": "c298be8a79ced53113bd0af4379ad899149f4dedbf51d81ad19e0f46f48dab2d"
+    },
+    {
+      "path": "public/assets/book-two-chapter-03-rooftop-talk-face-design-v1.webp",
+      "sha256": "34a037bc39cb81cab1af9bccc0f6a02f75d9feebdc09b5a3966f53cd053ed18c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-03-seth-success-face-design-v1.webp",
+      "sha256": "b0e1783aeef8504ef12fc1e997cd10532c856f67ce1d14794ecf2087b2351801"
+    },
+    {
+      "path": "public/assets/book-two-chapter-04-jenny-award-green.webp",
+      "sha256": "860daf439145bc4c395978138eea5ee5843789fcf281cf10980b2d78d99a9ebe"
+    },
+    {
+      "path": "public/assets/book-two-chapter-05-larry-advice-green.webp",
+      "sha256": "3390d8a451c087abb0001ef942047fad97d9c454cc989a6010bace2a26310e35"
+    },
+    {
+      "path": "public/assets/book-two-chapter-05-new-shoes-green.webp",
+      "sha256": "34ca4cf8ba4554965dfe9928c537f716fca43c59817104c209340343fccf77b8"
+    },
+    {
+      "path": "public/assets/book-two-chapter-05-reporting-rounds-green.webp",
+      "sha256": "9817f8824f7e9c7ebc94a246f21957c614dbbc85375bde7627b6b7a82c64afc9"
+    },
+    {
+      "path": "public/assets/book-two-chapter-06-lake-superior-sunset.webp",
+      "sha256": "dae6563fe64e1d4a5a2a9e235f4721e6e1fbf9b7061c69c60345c2addafed88c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-06-perch-farewell-green-design-v1.webp",
+      "sha256": "47a2e892523437ad8c203bdfff2fd362e39a887989efdf2bb4ab44b6c2e1a311"
+    },
+    {
+      "path": "public/assets/book-two-chapter-07-campaign-green-design-v1.webp",
+      "sha256": "a010cb26d3ec0496ebae271b0093e64dbbd06837617037e8c2cc27f20c653a6c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-07-landlord-design-v1.webp",
+      "sha256": "36809c3c1873a23f8a7864fb87c439775fa7f242e700e9e5e705e6b8408e17e4"
+    },
+    {
+      "path": "public/assets/book-two-chapter-07-newsroom-invoice-design-v1.webp",
+      "sha256": "f2bbf92d06d778cc054d147a4b64a654bbb3f302bf365f3df9485244655b0253"
+    },
+    {
+      "path": "public/assets/book-two-chapter-08-eleanor-threat-design-v1.webp",
+      "sha256": "8731842413999e8f82c4db52e59358e15c968edaa898903349a2d8e7cac9c1fd"
+    },
+    {
+      "path": "public/assets/book-two-chapter-09-arrival-v2.webp",
+      "sha256": "92a5a77d29e4b6f3fdddf5ae822841a305e5515a3504a3d5e161910985a5279b"
+    },
+    {
+      "path": "public/assets/book-two-chapter-09-cash-v2.webp",
+      "sha256": "b669b6a511cf4d134ef7ffefb6e194c572eff6a4fb8390ee646c1eb86d6dec8c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-09-luke-v2.webp",
+      "sha256": "efe5778a834e7686260c1effbb765747d7ccbb539b5ef955940bba7738b83359"
+    },
+    {
+      "path": "public/assets/book-two-chapter-10-promise-v1-green.webp",
+      "sha256": "b2774925d4b9c5560bdf4b2b2ebfaf9ddd483550025f6b71dfc4a640993ab07a"
+    },
+    {
+      "path": "public/assets/book-two-chapter-10-questions-v1.webp",
+      "sha256": "3299546fc66f97679dc97e86c4b0bcdbfcd44b8076732583f9b382de12d73559"
+    },
+    {
+      "path": "public/assets/book-two-chapter-11-skyfall-plan-v2.webp",
+      "sha256": "aa67bff6a3b8eed7bcb90bfb0f548fe8696eb46a7ffa1ec8d448e6aa4a526269"
+    },
+    {
+      "path": "public/assets/book-two-chapter-12-play-it-cool-design-v1.webp",
+      "sha256": "991aa67d4f641b0eed96bc114ab1eb00c8fa2ec441af408a2da26a05ac9dd14a"
+    },
+    {
+      "path": "public/assets/book-two-chapter-13-arrival-design-v1.webp",
+      "sha256": "53eb708329e3b844cedb9cf8e70fb3d45b2a481a78117a4bab553ea49ea6eb25"
+    },
+    {
+      "path": "public/assets/book-two-chapter-13-conversation-design-v1.webp",
+      "sha256": "cb6e42689c98336dbafe868dd4745076fd4b2d546d0057defb3c5e71286432e3"
+    },
+    {
+      "path": "public/assets/book-two-chapter-14-newspaper-plan-design-v1.webp",
+      "sha256": "a2db886133dcee7654fbcf937ef47724d9ff5105078ab111f1844b25e923361a"
+    },
+    {
+      "path": "public/assets/book-two-chapter-15-invitation-design-v1.webp",
+      "sha256": "c757afd2896c4fb86e3dbcf6e06bc17e69515f6726744765688b413c03b23201"
+    },
+    {
+      "path": "public/assets/book-two-chapter-15-phone-v2.webp",
+      "sha256": "fb1885bfb2b2d3ea0d5065d00e95a23ca1746b3a7e152650e62d96e269c54012"
+    },
+    {
+      "path": "public/assets/book-two-chapter-16-demonstration-v2.webp",
+      "sha256": "91bfac1fcacb666a32a37fe0a950cbde560a8310543682bbde08a73c1c74bb98"
+    },
+    {
+      "path": "public/assets/book-two-chapter-16-gas-v2.webp",
+      "sha256": "c1fafd70abaa6d9ded8f3edf38c8cd0991e626842fbea7565c44f81d07e403d3"
+    },
+    {
+      "path": "public/assets/book-two-chapter-16-restrained-v2.webp",
+      "sha256": "77de66b0ca15648d19a3c49ae6d995383922e830f96225816cfc4217c936c04c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-ambush-design-v1.webp",
+      "sha256": "240372441b458ebb9d7a61426f8d7d9d7c6a78b9fde3bbb5b6a315bc4bd4815c"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-captives-design-v1.webp",
+      "sha256": "acbcd25be539f757ce75e6d3df213473aa043d3e5ef9307e59c7b25c5f67bbcd"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-door-design-v1.webp",
+      "sha256": "2df03a872e4a505f6eb7cb880a13256f84b024a00e726cf6a38e60960a936ae3"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-gas-design-v1.webp",
+      "sha256": "f0102b21acd18c6f777454bd7175a4b5a974fab134b9fe2879a0dec42b3e1525"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-injured-design-v1.webp",
+      "sha256": "2b40101d466ba0366da4c35e1d15ef080687194f1b8c8d59997bfc610205c603"
+    },
+    {
+      "path": "public/assets/book-two-chapter-17-watch-v2.webp",
+      "sha256": "3e30ea1969faaf563a39e482e2393456384b6e0091f22978a65b11080e9222ba"
+    },
+    {
+      "path": "public/assets/book-two-chapter-18-billy-approach-design-v1.webp",
+      "sha256": "37b83b4430f74f8c2670ce5c63d0fc71d05860caec981d559f5dd3615bafd161"
+    },
+    {
+      "path": "public/assets/book-two-chapter-18-captives-design-v1.webp",
+      "sha256": "3972783fb34cb19cdc70eccd91a2a1d7bc0445649efff46c8a04bb21c7481192"
+    },
+    {
+      "path": "public/assets/book-two-chapter-18-planning-v3.webp",
+      "sha256": "a591f0ae8774a9ffde078d9aa57ffdb2409450a589b7f9a2065833bdcbb8438b"
+    },
+    {
+      "path": "public/assets/book-two-chapter-19-familiar-warmth-design-v1.webp",
+      "sha256": "b542cd78f858f7ce21c764fa78bf2b706747645a38ca95f058076015444bf0d7"
+    },
+    {
+      "path": "public/assets/book-two-chapter-19-nobody-waiting-design-v1.webp",
+      "sha256": "362b41fd7760c6072ca2953ca49ca31058fc7bdb5d2d01cc2a8eeace66f565cb"
+    },
+    {
+      "path": "public/assets/book-two-chapter-19-one-edge-design-v1.webp",
+      "sha256": "3b9bfbafa7cf10017588ac07e0ce143a974f14a606a7d0be1cd7f4e0297995d5"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-kiss-clatter-design-v1.webp",
+      "sha256": "eeb82ca8703b16bd2e2da3cd381f822bcefcbef595c22d4a6b4d72faee3e454f"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-opening-design-v1.webp",
+      "sha256": "5144503ff2612dafccaa2063643b4d9f2d6e68983361f39db5b4f21c17d7d958"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-punch-design-v1.webp",
+      "sha256": "87a9c610c93cf0dd1943f137a4e421574d19b0cf3369d5fad2c54669347c7174"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-steady-light-design-v1.webp",
+      "sha256": "197fdc975b846aca31cf38bab3d1908b9b82c3243f6151b5be19bfbdb2886e89"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-surprise-design-v1.webp",
+      "sha256": "aab9f20b4b84a4f286cd3f2cf4d98c0b24e1dd5a65f06062ce7c4c61d99bce40"
+    },
+    {
+      "path": "public/assets/book-two-chapter-20-two-against-one-design-v1.webp",
+      "sha256": "3f4b755f832084fd4fd044f55f5c32f97449b805d6668c0627e6b1d992494c7b"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-address-design-v1.webp",
+      "sha256": "d828155e787d334380363dd12f2a192dc83db7431764dd943974bfd38d091bea"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-belong-design-v1.webp",
+      "sha256": "2738e9c0d43b181b4af8c7b471832e0b5e93c88d98feacac660b8079023c5538"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-call-v1.webp",
+      "sha256": "366516a4a9e14ec2f6ebb3d5190c04151fdfddab4f1e5ad588a9717811581891"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-concession-v1.webp",
+      "sha256": "7d5ff1f442f4242566e58844921b25d622fe4a01be860a90934bebca08b36958"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-name-v1.webp",
+      "sha256": "20952da51600761c28802e423d4554cf3d29e90ac18ee274252277fc4ba4e91f"
+    },
+    {
+      "path": "public/assets/book-two-chapter-21-streets-design-v1.webp",
+      "sha256": "4cf37061a8a63cc5daaa7296fcfd433fc2468a7b67772bbba3e7a53de0533ecb"
+    },
+    {
+      "path": "public/assets/book-two-cover-aftershock-design-v1.png",
+      "sha256": "02bee819a5b3c8e96636aba87add1604f78de9974915814430031e78be31d4bd"
+    },
+    {
+      "path": "public/assets/book-two-cover-aftershock-design-web-v1.webp",
+      "sha256": "6eb0ba1597a723ce8a3bb0951e017a38312bb3a303632ebe933bd4cef0b7d3b3"
+    },
+    {
+      "path": "public/assets/chapter1-awakening-design-v1.webp",
+      "sha256": "948d578b66a2b651b2d28479af730d51e099c561b0da5f3f994a8795e898b9b5"
+    },
+    {
+      "path": "public/assets/chapter1-fallen-tree-rescue-design-v1.webp",
+      "sha256": "03d94620de44141764f59d679555f3e07fd3175c79bfab804c0f5466e81888c8"
+    },
+    {
+      "path": "public/assets/chapter1-glove-awakening-before-flash-design-v1.webp",
+      "sha256": "cafc22c59de5da6fcf034899739a4e5d0c4983ea9c7fb20119b38ca0f21b7916"
+    },
+    {
+      "path": "public/assets/chapter1-impact-design-v1.webp",
+      "sha256": "c7fdc1e83e01a2c221e5e70e343cdb0d4fce7167e69d5fcbe7fc57d86b924a3c"
+    },
+    {
+      "path": "public/assets/chapter1-shore-design-v1.webp",
+      "sha256": "e72bbad8e2353f44cdcfd25d7501f4f81abb7d15fe588a1e614c93d4f5d23e52"
+    },
+    {
+      "path": "public/assets/chapter1-strength-design-v1.webp",
+      "sha256": "5529054f42733e7c0b38833c3c5b49a56944d5c4819f3dbff163591a776872ad"
+    },
+    {
+      "path": "public/assets/chapter10-fist-and-jaws-roof-v2-design-v1.webp",
+      "sha256": "363bacfafbe229f0a2bff38a9ccdba51c61dec38722f1654ca8102756dd792c0"
+    },
+    {
+      "path": "public/assets/chapter11-billy-checks-roof-v2-design-v1.webp",
+      "sha256": "c27c5848177c2456874e16abbe702bac1287dbbd2b3afcbc9c5cef865f2cbd67"
+    },
+    {
+      "path": "public/assets/chapter12-seth-meets-perch-design-v1.webp",
+      "sha256": "81ecd99dcc3ab73e5c41869e5e786e801dd25f4a3b4e672e3be851bed65e829e"
+    },
+    {
+      "path": "public/assets/chapter13-fist-cutoff-whole-glove-design-v1.webp",
+      "sha256": "fc2fee414bebce0b437692af7b8b48ee9f76f6bc133ab8f506efade5489b77b1"
+    },
+    {
+      "path": "public/assets/chapter13-perch-gate-opening-design-v1.webp",
+      "sha256": "fb19f6cd7d4d9b410df9650b1acf5eed88909a58be4d5f0ea0515b75faae5d5a"
+    },
+    {
+      "path": "public/assets/chapter13-perch-intake-rescue-design-v1.webp",
+      "sha256": "3af01dc5c73668034ceb383918c81d60af42c64b21e520dba2f10aa099caeeef"
+    },
+    {
+      "path": "public/assets/chapter13-seth-smashes-extractor-design-v1.webp",
+      "sha256": "677239ea7eb465c30c2d21ff6e23a296c98cae484ec082a1bafb4cccf0df0d09"
+    },
+    {
+      "path": "public/assets/chapter14-seth-braces-cart-design-v1.webp",
+      "sha256": "ae42ba9918323b5674cbe89145323f92eca773ab2d8c51c7fb09a1d80aad6d77"
+    },
+    {
+      "path": "public/assets/chapter15-flaming-head-reveal-design-v1.webp",
+      "sha256": "bcfdfc5b57730848b8303cacfdc180ed0c2984d86da94bba277954e6307818c9"
+    },
+    {
+      "path": "public/assets/chapter16-costume-reveal-closeup-consistency-v2.webp",
+      "sha256": "ddaacf6a4a6af935a59607269319283eeef00bee92151cd54a8a7fef547281c0"
+    },
+    {
+      "path": "public/assets/chapter16-flame-transformation-consistency-v2.webp",
+      "sha256": "afa2549c919e3b889dfe77b4048187668c2c0cefcc3717b1b7acf95c2c3be6af"
+    },
+    {
+      "path": "public/assets/chapter16-team-hero-gear-v2-consistency-v2.webp",
+      "sha256": "b0464651366e2df6b2305723ea5f5ea73ddc59fd252bdc113ce2641d3af76016"
+    },
+    {
+      "path": "public/assets/chapter17-billy-eleanor-newsroom-design-v1.webp",
+      "sha256": "37c193f3a69ffdaf37e176ecbab5c367703e1b8219361c9dba365be37c99a154"
+    },
+    {
+      "path": "public/assets/chapter17-fist-jaws-billboard-consistency-v2.webp",
+      "sha256": "95b4cc89fa33f287956520c430d5bae4a4b6756f48086673176f4abd3414c761"
+    },
+    {
+      "path": "public/assets/chapter17-perch-rescue-consistency-v2.webp",
+      "sha256": "69c8b4b51e7eda297e2efece44e8f8b28b672997a015f72ce7bc5427dff2fdf1"
+    },
+    {
+      "path": "public/assets/chapter17-zerdo-tears-robot-design-v1.webp",
+      "sha256": "23b56576a40ae138e50bb0e9bc64a08439399e40bfc667cb8b134a8504d6cd3e"
+    },
+    {
+      "path": "public/assets/chapter18-city-rallies-design-v1.webp",
+      "sha256": "3f9c82ef12984a7c790842b3c73128652adc834279b88b595f41bec1af470957"
+    },
+    {
+      "path": "public/assets/chapter18-perch-returns-lake-v2-consistency-v2.webp",
+      "sha256": "dd4cf0d61ab20ddcc58e3b44e99d9e80c0687fc964b09346344849d7c4dae376"
+    },
+    {
+      "path": "public/assets/chapter2-billy-newspaper-design-v1.webp",
+      "sha256": "5c348638a41449f84e8bb8276bf8be91c8144f821f4542c9d835bb5061ebebfe"
+    },
+    {
+      "path": "public/assets/chapter2-billy-night-design-v1.webp",
+      "sha256": "d4e00a987f7f55d15aef76e93519253f90019e74a6b28bd004aac9914833dc9e"
+    },
+    {
+      "path": "public/assets/chapter2-bus-rail-design-v1.webp",
+      "sha256": "3f1b1d465c4db3cc3bf795f997700605617a2a12b736fb4838ce6b17913df0bd"
+    },
+    {
+      "path": "public/assets/chapter2-lake-demonstration-design-v1.webp",
+      "sha256": "c460a968c0664bb57e9e3f808256ccc227208e10c364c904c996672f2498c2fa"
+    },
+    {
+      "path": "public/assets/chapter3-blackwell-family-visit-design-v1.webp",
+      "sha256": "31d75f09ae86b9df34c8df5303297defbe0f9f5632cd3483c8fcd0d03dd748de"
+    },
+    {
+      "path": "public/assets/chapter4-daniel-overhears-seth-jenny-design-v1.webp",
+      "sha256": "add69991e44db75d312d7a279a7e3bccebe5671942f2b98193b8fb9b892c0296"
+    },
+    {
+      "path": "public/assets/chapter4-glove-escape-design-v1.webp",
+      "sha256": "92ae22389980dc8489f0d249278dc2003b0e3cf0214e2c4b3f45b7ffb70525ee"
+    },
+    {
+      "path": "public/assets/chapter4-glove-punch-design-v1.webp",
+      "sha256": "f13bdfa28ad6774984e99b706eae4bd02fd7b47d0a781ccda72d877d1c2412e9"
+    },
+    {
+      "path": "public/assets/chapter5-glove-auction-design-v1.webp",
+      "sha256": "edafe2b8beb46fc7502e0e5c07c039771024e648f8fac0ce0f838892d86fa44e"
+    },
+    {
+      "path": "public/assets/chapter7-billy-seth-meeting-design-v1.webp",
+      "sha256": "93e3e42b39e37159b37a08c59e1595e099b518896df47f5f253b30c7b3ee7afa"
+    },
+    {
+      "path": "public/assets/chapter7-fist-arrives-design-v1.webp",
+      "sha256": "5676a3feb84e30f38431af53775047efe24a903cb1bd8cbd1e5759750936963f"
+    },
+    {
+      "path": "public/assets/chapter7-seth-tree-demonstration-design-v1.webp",
+      "sha256": "6f6361e7de15f139579b0f440f731f06421e4d9fb4318846c36a185d12c415db"
+    },
+    {
+      "path": "public/assets/chapter9-cafe-rescue-no-bob-design-v1.webp",
+      "sha256": "0227ea3b874ac952eaaa83a9a924eb9ad56761012dacf328465499c0773b30be"
+    },
+    {
+      "path": "public/assets/chapter9-fist-knocks-jaws-away-consistency-v2.webp",
+      "sha256": "863b9bc32625636f6f1ce236f462976e2636e09ff62a80e6e52c7485b297f52c"
+    },
+    {
+      "path": "public/assets/chapter9-seth-beam-catch-closeup-design-v1.webp",
+      "sha256": "1fa35ba261d667c302d77b343cc4512e91d2f6e722895147670866da3f79bcfd"
+    },
+    {
+      "path": "public/assets/chapter9-seth-cafe-no-bob-design-v1.webp",
+      "sha256": "cc715458483db471324ae8d393e9e50da4768f059e1529aaffb8638ff6853d7c"
+    },
+    {
+      "path": "public/assets/origins-cover-unlikely-heroes-cover-print.png",
+      "sha256": "ffc215c4b3133ee50d0feee4b2b65aed9fe3c2946f0fd04dbd53ba7155c6bd6d"
+    },
+    {
+      "path": "public/assets/origins-cover-unlikely-heroes-v6.png",
+      "sha256": "ff8794b78fe1e328a89c3293f9b0680b220cf9ed18b73c12085caea59d743bbb"
+    },
+    {
+      "path": "public/assets/origins-cover-unlikely-heroes-web-v6.webp",
+      "sha256": "30fecfb16c09ea5c1763d3f6509077ae3e59e718d9f4dec06d1d473a2676b76b"
+    }
+  ]
+}

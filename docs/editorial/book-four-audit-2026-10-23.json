@@ -1,0 +1,889 @@
+{
+  "date": "2026-10-23",
+  "book": "Book Four: Clash in Cleveland",
+  "baselineCommit": "904b25f05fd8c6f34b89ee97efa59b32113289fc",
+  "mode": "Audit only — no prose, plot or image edits",
+  "canon": "Books One–Three locked as final published canon by author direction; resolve issues only in later work. See series-canon-lock-2026-10-23.json.",
+  "summary": "The core plot is coherent with the checked earlier-book canon. Dialogue is restrained overall. The strongest editing opportunity is repeated procedure and explanation in the vault and recovery scenes, plus two small copy-continuity issues. The selected Chapter 12 has known visual differences and must be preserved.",
+  "scope": {
+    "prose": "Read all 13 current Book Four chapters in source order. Checked targeted primary canon passages in Origins and Books Two–Three, particularly Fist’s origin/injury/recovery, telepathy, the building/ray theft, Laura’s grievance and weakening, and Jaws’s amnesia. This is not a fresh exhaustive audit of the locked books.",
+    "art": "Contact-sheet review of the current cover and all 67 active interior illustrations against their current anchors. Thumbnail review establishes broad setting, costume and staging differences; it is not a full-resolution anatomy/iris/thumb certification. No images regenerated or edited.",
+    "limits": "No new retailer download comparison, new PDF pagination review, physics rewrite, or claim that every latent continuity question has been ruled out."
+  },
+  "metrics": {
+    "totalWords": 12554,
+    "chapters": 13,
+    "interiorIllustrations": 67,
+    "quotedSpeechWords": 1245,
+    "quotedSpeechPercent": 9.9,
+    "method": "Whitespace-separated source prose block text, including scene-break markers, matching the restored Chapter 12 count of 962. Quoted-speech estimate counts text between curly double quotation marks; indicative rather than a literary quality threshold.",
+    "potentialCutRange": "Roughly 350–580 words across the optional tightening notes, about 3–5% of the draft. This is a ceiling for a selective pass, not a quota. Do not cut every suggestion mechanically."
+  },
+  "findings": [
+    {
+      "id": "C01",
+      "category": "Copy continuity",
+      "priority": "Fix before finalizing",
+      "title": "Chapter 12 calls Fist’s whole cuff white",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 17,
+          "line": 77,
+          "quote": "Fist rolled hard. Iron teeth clapped shut behind his white cuff."
+        },
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 90,
+          "line": 389,
+          "quote": "The white cuff twitched."
+        },
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 96,
+          "line": 415,
+          "quote": "Fist hovered above him, cuff safely out of reach."
+        }
+      ],
+      "assessment": "Chapters 2, 10 and 11 specify a red cuff with an inset white panel. The restored Chapter 12 reintroduces “white cuff” three times. This is a terminology inconsistency; it does not require a story change.",
+      "recommendationOnly": "When a copy pass is authorized, describe the red cuff or its white panel consistently. Keep the author-selected Chapter 12 pixels unchanged.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "C02",
+      "category": "Copy continuity",
+      "priority": "Fix before finalizing",
+      "title": "Laura’s shot both goes through and nearly goes through",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 61,
+          "line": 257,
+          "quote": "The shot had gone through."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 62,
+          "line": 261,
+          "quote": "Even before Flaming Head’s capture, she would have expected to work at steel that thick. Now the hole shone deep inside the door, well beyond the ruined locking piece."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 74,
+          "line": 309,
+          "quote": "Laura remained by the chalk line, looking at the depth of the burn. She had meant to hide how little power she had left."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 75,
+          "line": 313,
+          "quote": "Instead, she had nearly burned through the door."
+        }
+      ],
+      "assessment": "“The shot had gone through” establishes penetration. “Instead, she had nearly burned through the door” subsequently sounds like it stopped short. The bolts opening confirms the successful result.",
+      "recommendationOnly": "Use one description of the already-established successful penetration in the later reflection; do not weaken or increase her demonstrated power.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "A01",
+      "category": "Art/story continuity",
+      "priority": "Review before finalizing",
+      "title": "The vault theft illustration appears to be in Dork’s workshop",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 3,
+          "line": 17,
+          "quote": "Inside the annex, the temporary vault stood where Daniel had seen it that afternoon. The bank had closed, the workers had gone, and the room beyond the steel box was dark. Stacks of plasterboard waited beneath the scaffolding."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 10,
+          "line": 45,
+          "quote": "The beam touched the steel. Rivets drew closer together. The great wheel contracted, and the top of the vault sank below the scaffolding."
+        }
+      ],
+      "assessment": "Active image book-four-chapter-06-theft-v1.webp depicts the ray aimed at a vault in a machine-filled workshop matching Dork’s laboratory. The text places the theft inside the bank renovation annex, with stacks of plasterboard and scaffolding. The setting makes the theft look like another laboratory demonstration.",
+      "recommendationOnly": "Keep the theft at the bank in prose. Log this as an illustration-setting correction for a separately authorized art pass; do not move the story event.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "A02",
+      "category": "Author-selected visual exception",
+      "priority": "Record; preserve current selection",
+      "title": "Zerdo changes costume and Billy changes appearance in Chapter 12",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 9,
+          "line": 43,
+          "quote": "The whole assembly came up in his hands."
+        },
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 35,
+          "line": 153,
+          "quote": "An officer fastened cuffs behind Dork’s back. The other took his arm."
+        },
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 46,
+          "line": 199,
+          "quote": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it."
+        },
+        {
+          "file": "content/books/book-four/chapter-12.json",
+          "block": 113,
+          "line": 483,
+          "quote": "Above them, every window of Terminal Tower caught the afternoon light."
+        }
+      ],
+      "assessment": "The cover and surrounding Chapters 1–11 and 13 depict orange/white/brown Zerdo and older gray-haired Billy. The restored Chapter 12 depicts blue/red Zerdo and a younger brown-haired Billy. No in-story costume change is supplied. Fist also has a broad white cuff in these images. These are visible continuity differences, but Jay expressly chose this earlier art and prose after comparison.",
+      "recommendationOnly": "Retain all fourteen corrected Chapter 12 images and the 962-word draft. Do not regenerate, recolor, replace them, add a costume-change scene, or return to the rejected prose to resolve this note. Reconcile only if the author later requests it.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "E01",
+      "category": "Repeated exposition",
+      "priority": "Good tightening opportunity",
+      "title": "The freestanding vault’s mechanics are explained several times",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 86,
+          "line": 355,
+          "quote": "The first bank Daniel passed had its vault deep inside the main building. Taking a door would leave him with a door. He wanted the money without bringing another whole building home."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 90,
+          "line": 371,
+          "quote": "Beyond the annex’s open delivery doors stood a large steel strongroom on a raised transport frame. Its walls, floor and roof formed a single enclosed unit. He could see daylight beneath the frame and clear space between its sides and the brickwork."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 93,
+          "line": 383,
+          "quote": "He had seen temporary vaults advertised for banks undergoing construction. This one had been set inside the annex rather than built into it. The surrounding room would stay where it was."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 94,
+          "line": 387,
+          "quote": "The steel box was the thing he needed to take."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 96,
+          "line": 395,
+          "quote": "He had no ray with him. He would need to check more than a glimpse through a doorway before bringing it."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 97,
+          "line": 399,
+          "quote": "But he could see the whole vault."
+        },
+        {
+          "file": "content/books/book-four/chapter-03.json",
+          "block": 98,
+          "line": 403,
+          "quote": "And he could picture it on his bench, small enough to fit beside the toolbox."
+        }
+      ],
+      "assessment": "The annex, transport frame, daylight beneath and separate walls already establish a removable vault. The explanation that it was set inside rather than built in, the summary of what to take, and the repeated ability to see the whole vault repeat that point. Chapter 6 block 8 restates it again.",
+      "recommendationOnly": "Keep the distinct removable vault, renovation setting, Daniel’s reconnaissance and the decision not to steal another building. Condense the repeated explanation around those concrete details. Approximate opportunity: 45–75 words.",
+      "storyEventsToPreserve": "The entire laboratory was already shrunk and relocated in locked Book Three Chapter 6; the vault is a separate enclosed unit, not an ordinary door removed from a bank wall."
+    },
+    {
+      "id": "E02",
+      "category": "Repeated action/logistics",
+      "priority": "Largest tightening opportunity",
+      "title": "Vault opening delays repeat the same failure beats",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 41,
+          "line": 173,
+          "quote": "Daniel pulled the wheel."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 42,
+          "line": 177,
+          "quote": "It moved a little, then stopped against the locks. He tried it in the other direction with the same result."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 51,
+          "line": 215,
+          "quote": "Jaws let go, backed off and came at the lug from a different angle."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 54,
+          "line": 227,
+          "quote": "Three bright gouges marked the steel. The lug remained attached. The door remained shut."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 55,
+          "line": 231,
+          "quote": "Daniel tried the wheel again."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 56,
+          "line": 235,
+          "quote": "Nothing."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 72,
+          "line": 301,
+          "quote": "The bright spot beneath the torch deepened into a narrow black groove. Daniel worked along it, stopped to inspect it, then went over the same short stretch again."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 79,
+          "line": 329,
+          "quote": "He raised the dark lenses and bent toward the seam. Soot marked the steel around a shallow cut. Beyond it, the door was solid."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 81,
+          "line": 337,
+          "quote": "Daniel put one gloved hand on the wheel and tried again."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 82,
+          "line": 341,
+          "quote": "It stopped in exactly the same place."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 103,
+          "line": 427,
+          "quote": "Behind her, Jaws tried the wheel once more."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 104,
+          "line": 431,
+          "quote": "The steel gave a dull clunk."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 107,
+          "line": 443,
+          "quote": "The three of them had brought an entire bank vault home."
+        },
+        {
+          "file": "content/books/book-four/chapter-06.json",
+          "block": 108,
+          "line": 447,
+          "quote": "Every dollar was still on the other side of the steel."
+        }
+      ],
+      "assessment": "Jaws fails, checks, retries, Daniel checks the wheel; then the torch fails, is inspected and the wheel is checked again. The end repeats both the failed wheel and the money being inaccessible. Laura’s deliberate delay is valuable, but several checks convey no new obstacle.",
+      "recommendationOnly": "Keep both failed methods, the contrast with Laura’s weakness and her cooling excuse. Shorten repeated wheel tests and duplicate descriptions of the unmoved steel. Approximate opportunity: 110–170 words.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "E03",
+      "category": "Repeated inference",
+      "priority": "Moderate tightening opportunity",
+      "title": "Billy explains the same connection before and after pinning it up",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 15,
+          "line": 67,
+          "quote": "He put the two photographs side by side."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 16,
+          "line": 71,
+          "quote": "An empty space where a building had been."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 17,
+          "line": 75,
+          "quote": "An empty space where a vault had been."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 28,
+          "line": 119,
+          "quote": "A vanished laboratory could still be a working laboratory somewhere else."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 35,
+          "line": 147,
+          "quote": "One machine could explain all three disappearances."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 36,
+          "line": 151,
+          "quote": "That did not prove who had used it."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 45,
+          "line": 191,
+          "quote": "He had no new address for Orkleson. He had a building to look for."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 50,
+          "line": 211,
+          "quote": "The vault could supply money. The laboratory gave Orkleson somewhere to work. The ray let him take things the police could scarcely explain."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 51,
+          "line": 215,
+          "quote": "And he had a tank."
+        },
+        {
+          "file": "content/books/book-four/chapter-07.json",
+          "block": 53,
+          "line": 223,
+          "quote": "Orkleson was planning something big."
+        }
+      ],
+      "assessment": "The paired empty-space photographs, the possible relocated laboratory, the red-thread diagram and the final list of what each stolen item supplies all explain the same connection. This chapter earns Billy his investigation role; the issue is repeated inference, not its existence.",
+      "recommendationOnly": "Keep Billy’s actual deduction, question mark, call to police and lack of an address. Trim one restatement once the board makes the connection visible. Approximate opportunity: 35–55 words.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "E04",
+      "category": "Explanatory recap",
+      "priority": "Small tightening opportunity",
+      "title": "Telepathy is re-explained in the missing-friend scene",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 35,
+          "line": 151,
+          "quote": "Seth listened for Flaming Head too."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 36,
+          "line": 155,
+          "quote": "There had never been any mistaking him when he spoke to them. His words arrived clearly, without anyone else in the room hearing. Seth had come to expect that voice whenever the small orange face appeared at the glass."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 37,
+          "line": 159,
+          "quote": "Now he could hear Jenny breathing beside him."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 39,
+          "line": 167,
+          "quote": "No answer came."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 41,
+          "line": 175,
+          "quote": "They had no way to telephone him. No address to check. The map on Billy’s desk ended long before the place their friend had gone."
+        },
+        {
+          "file": "content/books/book-four/chapter-08.json",
+          "block": 42,
+          "line": 179,
+          "quote": "Seth’s arm still felt strong. He wished he had someone to thank."
+        }
+      ],
+      "assessment": "The book has already demonstrated that only Seth and Jenny hear Flaming Head, with explicit relay in Chapters 1, 2 and 4. Paragraph 36 briefly explains the rule again while the emotional event is his silence. The phone/address explanation also restates his unreachable absence.",
+      "recommendationOnly": "Let one brief remembered contrast and the unanswered call carry the scene. Keep the window vigil and uncertainty about his fate. Approximate opportunity: 25–45 words.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "E05",
+      "category": "Procedural exposition",
+      "priority": "Good tightening opportunity",
+      "title": "The ending spends substantial space proving containment logistics",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 5,
+          "line": 25,
+          "quote": "The recovery crew brought a steel equipment cage from the truck and bolted it to the bed. While Seth kept the towing chain snug, a mechanic folded a steel brace around Jaws’s closed iron jaw and secured it with bolts, checking that it bore against metal rather than skin. Only then did Seth unhook the tether from the wreck and put Jaws inside. They locked the cage."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 6,
+          "line": 29,
+          "quote": "Jaws rose against the bars. The cage stayed on the truck. With his jaw held shut, he could not get his teeth around anything."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 7,
+          "line": 33,
+          "quote": "Seth kept a hand on it until the last fastening was checked. Two soldiers stayed beside the cage for the journey to a guarded vehicle bay, where police would take over the watch."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 8,
+          "line": 37,
+          "quote": "Laura left separately in a cleared police transport van. Jenny rode with her, watching her face; the fire engine followed close behind. At the station, officers had cleared a ground-floor wash bay of fuel, tools and loose equipment. Masonry walls, a floor drain and a hose crew would have to serve until a better holding room was ready."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 9,
+          "line": 41,
+          "quote": "Jenny stayed through the handover. She explained that Laura could aim and fire without using her hands, then pointed out the hose crew's clear approach to the bench. The guards took their positions before she left."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 19,
+          "line": 83,
+          "quote": "Most of the bundles still stood on the shelves. The manager checked their bands against his records while an officer wrote down each stack."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 22,
+          "line": 95,
+          "quote": "They found the extra bundles in the drawer beside the cold cutting torch. The officer added those to the count. The bank would have to check every dollar, but no money had to be left behind with the machinery."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 23,
+          "line": 99,
+          "quote": "The police sealed the building. The vault would go home on a proper truck."
+        }
+      ],
+      "assessment": "The cage, brace, truck fastening, guards, destination, cleared wash bay, drain and hose approach are all individually explained before the emotional ending. This prevents obvious escape problems, but the accumulated logistics slow the denouement. The inventory also restates how the money is accounted for.",
+      "recommendationOnly": "Retain enough detail to establish that flight and mouth-fired plasma remain active hazards. Condense repeated fastening/guard checks and inventory reassurance. Do not imply that cuffs alone contain Laura or that water removes her power. Approximate opportunity: 65–105 words.",
+      "storyEventsToPreserve": "Jaws stays restrained; Laura remains powered, separately supervised and undecided; Dork remains arrested; the vault and drawer money are recovered; the ray and both cars return to Army/police custody."
+    },
+    {
+      "id": "D01",
+      "category": "Repetitive dialogue",
+      "priority": "Optional tightening",
+      "title": "Flaming Head’s farewell repeats reassurance exchanges",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 75,
+          "line": 311,
+          "quote": "“Keep helping people.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 77,
+          "line": 319,
+          "quote": "Billy nodded. “We can manage that.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 79,
+          "line": 327,
+          "quote": "“We’ll keep practising.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 81,
+          "line": 335,
+          "quote": "“Ask for help when you need it.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 83,
+          "line": 343,
+          "quote": "“We did get the jack.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 84,
+          "line": 347,
+          "quote": "“I know.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 85,
+          "line": 351,
+          "quote": "“And the firefighters knew what they were doing.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 86,
+          "line": 355,
+          "quote": "“I know that too.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 89,
+          "line": 367,
+          "quote": "“You don’t have to lift everything by yourself.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 91,
+          "line": 375,
+          "quote": "“I’m learning.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 105,
+          "line": 431,
+          "quote": "“Mind the frame,” Jenny said."
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 107,
+          "line": 439,
+          "quote": "“I can see it.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-04.json",
+          "block": 108,
+          "line": 347,
+          "quote": "“I know.”"
+        }
+      ],
+      "assessment": "“Keep helping people,” “keep practising,” asking for help, two “I know” answers, and the later frame/I-know exchange each fit the voices. Together they lengthen a farewell whose destination has already been established. This is localized repetition, not a dialogue-heavy book.",
+      "recommendationOnly": "Keep the distinctive jokes and the central promise; remove one reassurance loop rather than rewriting the conversation. Approximate opportunity: 15–30 words.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "P01",
+      "category": "Pacing repetition",
+      "priority": "Optional tightening",
+      "title": "Chapter 2 repeats the already-established failed-power lesson",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 33,
+          "line": 139,
+          "quote": "Her boots struck the uneven pavement. She stretched her stride, waiting for the familiar rush that used to carry her past moving cars before their drivers could turn their heads."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 34,
+          "line": 143,
+          "quote": "The rear bumper drew away."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 35,
+          "line": 149,
+          "quote": "She pushed harder. A loose curl stuck across her mask. She shook it clear without slowing."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 37,
+          "line": 157,
+          "quote": "Jenny could see his face getting smaller."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 41,
+          "line": 173,
+          "quote": "She kept running."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 49,
+          "line": 205,
+          "quote": "There had been a time when he could have lifted the whole thing and set it across the lane. He tried to get his hands low enough for a better grip, but the weight settled heavily into his arms."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 51,
+          "line": 213,
+          "quote": "Seth looked at the space he had left open. Wide enough. Still much too wide."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 78,
+          "line": 323,
+          "quote": "“I couldn’t catch them,” she said quietly."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 79,
+          "line": 327,
+          "quote": "“I couldn’t move it.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 107,
+          "line": 441,
+          "quote": "“We knew the exits. We got to both ends.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 109,
+          "line": 449,
+          "quote": "“And they still went past us.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 111,
+          "line": 457,
+          "quote": "“I thought a few seconds would be enough.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 112,
+          "line": 461,
+          "quote": "“So did I,” Jenny said."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 114,
+          "line": 469,
+          "quote": "“You came back when someone needed you.”"
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 115,
+          "line": 473,
+          "quote": "Seth repeated the words. Billy glanced at the little flame, then at Jenny."
+        },
+        {
+          "file": "content/books/book-four/chapter-02.json",
+          "block": 116,
+          "line": 477,
+          "quote": "“Yes,” he said. “We did.”"
+        }
+      ],
+      "assessment": "Chapter 1 already demonstrates that both heroes are weak and that staying with a casualty matters. Chapter 2 must add the robbers’ escape and the report that prompts Dork. Its repeated chase effort and long debrief restate the earlier lesson.",
+      "recommendationOnly": "Keep the robbery, escape, injured cyclist, team’s choice to stay and Dork’s newspaper discovery. Trim a few repeated chase/debrief beats. Approximate opportunity: 60–100 words.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "C03",
+      "category": "Blocking clarity",
+      "priority": "Optional clarification; not a proven contradiction",
+      "title": "Car restoration briefly makes Seth’s position unclear",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 28,
+          "line": 119,
+          "quote": "Seth carried the first little cruiser to the center of a closed stretch of street. Its doors were open. The officers had checked both cars before allowing anyone to move them."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 29,
+          "line": 123,
+          "quote": "Everyone went behind the marked line."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 30,
+          "line": 127,
+          "quote": "The technician selected red."
+        },
+        {
+          "file": "content/books/book-four/chapter-13.json",
+          "block": 31,
+          "line": 131,
+          "quote": "Light touched the little car. Its tires spread across the pavement. The roof rose past Seth's knee, then his waist, until the cruiser stood full-sized in the space they had cleared."
+        }
+      ],
+      "assessment": "“Everyone went behind the marked line” is followed by the car growing past Seth’s knee and waist. This can describe its height from his safe position, but can also read as if he remained beside it. The text does not prove he is inside the exclusion area; the illustration places him behind the car.",
+      "recommendationOnly": "If copyedited, describe the growing car by its own changing height or retain an explicit view from behind the line. Preserve the safe restoration and the technician operating the ray.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    },
+    {
+      "id": "D02",
+      "category": "Character voice",
+      "priority": "Optional tone review",
+      "title": "Jenny’s response may undersell Laura’s established grievance",
+      "passages": [
+        {
+          "file": "content/books/book-four/chapter-10.json",
+          "block": 21,
+          "line": 95,
+          "quote": "“Well, I never forgave him for making me like this!”"
+        },
+        {
+          "file": "content/books/book-four/chapter-10.json",
+          "block": 23,
+          "line": 103,
+          "quote": "Jenny slipped aside. “You’re a powerful woman. What’s wrong with that?”"
+        }
+      ],
+      "assessment": "“You’re a powerful woman. What’s wrong with that?” is plausible from Jenny, who has not heard Laura’s private account. Readers of locked Book Three know the power has damaged Laura’s ordinary life and ability to trust intimacy. The line can sound dismissive even if that is Jenny’s limited understanding.",
+      "recommendationOnly": "Retain Laura’s anger and Jenny’s confidence. Decide whether the blunt response is intentional. Any softening must not give Jenny knowledge of private conversations or turn the exchange into a biography or redemption speech.",
+      "storyEventsToPreserve": "All current events, outcomes and character knowledge."
+    }
+  ],
+  "chapterReview": [
+    {
+      "chapter": 1,
+      "title": "Something’s Wrong",
+      "words": 1167,
+      "quotedSpeechWords": 243,
+      "quotedSpeechPercent": 20.8,
+      "illustrations": 4,
+      "assessment": "Strong concrete opening. The failed lift and ordinary rescue establish weakened powers through action. Preserve Eddie’s rescue and the quiet curb aftermath.",
+      "sourceSha256": "4a6e6e5ac8b2305f0addeff26b00d592895023ed3e71f996b3b87928920892d9"
+    },
+    {
+      "chapter": 2,
+      "title": "Not Fast Enough",
+      "words": 1496,
+      "quotedSpeechWords": 226,
+      "quotedSpeechPercent": 15.1,
+      "illustrations": 5,
+      "assessment": "Longest chapter. The escape and newspaper trigger are essential; repeated failure/debrief beats are the main optional cuts.",
+      "sourceSha256": "b93d43f4336f1b12cfb2ea4b167b363fc490f504f44536918078b930d82d8d2a"
+    },
+    {
+      "chapter": 3,
+      "title": "Dork’s Opportunity",
+      "words": 1162,
+      "quotedSpeechWords": 138,
+      "quotedSpeechPercent": 11.9,
+      "illustrations": 4,
+      "assessment": "Good Dork/Jaws humor and Laura concealment. Tighten repeated removable-vault explanations.",
+      "sourceSha256": "c23c75077fce11d40572b2333a8a28b8f3a55a4dbd3adbbfc2572d200bfa3bb8"
+    },
+    {
+      "chapter": 4,
+      "title": "More Power",
+      "words": 1231,
+      "quotedSpeechWords": 287,
+      "quotedSpeechPercent": 23.3,
+      "illustrations": 5,
+      "assessment": "The farewell earns later silence. Keep the Sun decision and telepathy relay; shorten only repeated reassurance.",
+      "sourceSha256": "8bbfae501deed88372e9ef2419589d5fc4271032dc712529ef42b78154b8683b"
+    },
+    {
+      "chapter": 5,
+      "title": "Into the Light",
+      "words": 448,
+      "quotedSpeechWords": 0,
+      "quotedSpeechPercent": 0.0,
+      "illustrations": 3,
+      "assessment": "Lean 448-word visual journey. No dialogue. Preserve the disappearance into light and unknown fate; no scientific explanation needed.",
+      "sourceSha256": "c4677253f5f40343eabce64f2b127b2d516d597d6489ee04992ff106ea04d874"
+    },
+    {
+      "chapter": 6,
+      "title": "The Missing Vault",
+      "words": 1170,
+      "quotedSpeechWords": 46,
+      "quotedSpeechPercent": 3.9,
+      "illustrations": 5,
+      "assessment": "Largest procedural slowdown. Keep the theft, two failed opening methods and Laura’s bluff; shorten repetition. One illustration-setting discrepancy.",
+      "sourceSha256": "65f33261b803f2e74eca1c54a41519ceba3b4a653704761c0012b4ea07314550"
+    },
+    {
+      "chapter": 7,
+      "title": "Something Big",
+      "words": 657,
+      "quotedSpeechWords": 0,
+      "quotedSpeechPercent": 0.0,
+      "illustrations": 3,
+      "assessment": "Keep this detective chapter. Trim repeated inference rather than cutting Billy’s discovery or claiming he already knows the new address.",
+      "sourceSha256": "a8c056973556f6e218884c07bb6ace42c30d5d0acb0d5df988cc006a1087afed"
+    },
+    {
+      "chapter": 8,
+      "title": "More Than Before",
+      "words": 1072,
+      "quotedSpeechWords": 25,
+      "quotedSpeechPercent": 2.3,
+      "illustrations": 4,
+      "assessment": "Good parallel return of power for heroes and Laura. Fix penetration wording and reduce the telepathy recap; do not explain away the mystery.",
+      "sourceSha256": "38bf7ae74020d87188494a4fb7eb4df78407b67a272cfb420821d21780a2a9f0"
+    },
+    {
+      "chapter": 9,
+      "title": "Bow to Dork",
+      "words": 856,
+      "quotedSpeechWords": 20,
+      "quotedSpeechPercent": 2.3,
+      "illustrations": 4,
+      "assessment": "Clear escalation. The fixed turret, firing lead, empty cruisers and evacuation remain important setup. Little dialogue or exposition needs cutting.",
+      "sourceSha256": "7bd4439e3b986d72e97f231c50847483c6847ae9ed3ce07bada634caee6f69e1"
+    },
+    {
+      "chapter": 10,
+      "title": "Lava Lips and Pink Blur",
+      "words": 705,
+      "quotedSpeechWords": 92,
+      "quotedSpeechPercent": 13.0,
+      "illustrations": 7,
+      "assessment": "Fast action and clear hydrant tactic. Preserve the coat removal, plasma hazard, guarded arrest and open invitation. Jenny’s one response is an optional voice check.",
+      "sourceSha256": "6390f76cd3971d4df4b48d892033a31edb7690d8212c8a4bc3ca3cf487ac5296"
+    },
+    {
+      "chapter": 11,
+      "title": "Clash at the Tower",
+      "words": 633,
+      "quotedSpeechWords": 55,
+      "quotedSpeechPercent": 8.7,
+      "illustrations": 6,
+      "assessment": "Action-forward and economical. Jaws’s memory loss matches Book Three. Preserve the unseen stray shot and Bouncing Bob seed; no landing reveal.",
+      "sourceSha256": "9e65bce58ac10fb282528ddbd3d9c14f785b21ae2a023f54f70296a67e9053fe"
+    },
+    {
+      "chapter": 12,
+      "title": "Off Comes the Top",
+      "words": 962,
+      "quotedSpeechWords": 83,
+      "quotedSpeechPercent": 8.6,
+      "illustrations": 14,
+      "assessment": "Preserve the preferred 962 words and fourteen corrected illustrations. Strong intercut action. Record white-cuff wording and selected-art differences without replacing the chapter.",
+      "sourceSha256": "e12e4f782479ed5d027c5bb5f1896deb70ea8711641d078906729d7fb3d323d0"
+    },
+    {
+      "chapter": 13,
+      "title": "For the Land",
+      "words": 995,
+      "quotedSpeechWords": 30,
+      "quotedSpeechPercent": 3.0,
+      "illustrations": 3,
+      "assessment": "Works as a resolution, but repeated custody/inventory checks delay the emotional ending. Preserve arrests, recovered property, open invitation and empty window.",
+      "sourceSha256": "ec9675b98044b3604ea8fcb4655afef135bf76a3141cf679fce3a84f68246a6c"
+    }
+  ],
+  "continuityConfirmed": [
+    "Book Three Chapter 14 establishes weakened strength/speed, Laura’s related weakness and Jaws’s lost identity. Book Four carries those states forward.",
+    "Only Seth and Jenny among the facility team directly hear Flaming Head; Billy and Fist receive relayed speech. Laura can hear him through the shared energy. No new mind-reading power is needed.",
+    "Fist’s restored flight predates Book Four; he remains independent of the lake-derived weakening. His memory of the earlier injury and Jaws’s lack of recognition are compatible.",
+    "Blue shrinks and red restores. Dork mounts the existing ray, fixes the turret facing forward and supplies a driver firing lead. The Chapter 11 mounting buckles, the shot misses Terminal Tower, and the ray is still present when Chapter 12 begins.",
+    "The Army ray survived the rooftop collector explosion: Book Three Chapter 10 leaves it just inside the stairhouse, separate from the collector.",
+    "Book Three Chapter 6 already establishes entire-building shrinking/relocation. Book Four’s separate temporary vault and Billy’s missing-building investigation fit that canon.",
+    "Laura removes her coat before the hydrant sweep. Water and supervision constrain her actions; the story does not cure her mouth-fired power.",
+    "The Chapter 12 chain handoff connects to Chapter 13’s bolted jaw brace and cage. No recovered memories or lost flight are asserted.",
+    "Laura does not accept the Defenders invitation. Flaming Head’s fate stays unresolved; the ending shows absence and grief rather than a confirmed death.",
+    "The unseen Chapter 11 shot remains the Bouncing Bob future seed. Its destination, recipient and effect remain unwritten.",
+    "No cape was visible on Zerdo in the active cover/illustration contact sheets. Chapter 12’s blue costume is an acknowledged selected-art difference, not a reason to restore a cape."
+  ],
+  "protectedChoices": [
+    "All current story events, sequence, outcomes, powers and character knowledge.",
+    "The earlier 962-word Chapter 12 and all fourteen author-selected corrected illustrations.",
+    "No new science/power explanation, destination for the stray ray, accepted Laura redemption, Flaming Head death confirmation or return.",
+    "No edits to locked Books One–Three or updates to their hashes to accommodate Book Four."
+  ],
+  "recommendedOrder": [
+    "Fix the two small copy-continuity issues in an authorized copy pass.",
+    "Selectively tighten vault logistics and the denouement, keeping clear causality and containment.",
+    "Decide whether any optional farewell/debrief lines need shortening.",
+    "Retain the chosen Chapter 12 art; treat its continuity differences as documented exceptions unless separately reopened."
+  ],
+  "validation": {
+    "bookFourTextAndArtChanges": "None",
+    "lockedSources": "246 hashed source files; verified unchanged",
+    "reviewArtifact": "Passages use 1-based source block numbers and exact quotes for review.",
+    "canonGuardRegressionTests": "Passed: real snapshot accepted; modified and missing fixture source rejected without touching protected files.",
+    "fullSuite": "npm test passed with system Chromium: canon guard, reader, hosted verifier, Vault, all book/PDF/EPUB parity checks; 1566 links/assets checked."
+  }
+}

@@ -1,12 +1,12 @@
 # Defenders of the Land
 
-Book Two’s narrative is complete through Chapter 21, **Tomorrow**, in `content/books/book-two/`. Jenny’s checked reporting exposes the limits of Daniel’s electricity demonstration; the remaining campaign unravels, Eleanor loses and publicly coins “Doc Dork,” and she ends Daniel’s support. Daniel and Luke’s whereabouts remain unknown. The book closes with the Defenders together in Billy’s office and Seth expected back tomorrow.
+**Books One–Three are final published canon, locked by Jay on October 23, 2026:** Origins, Aftershock and Lava Lips. Preserve their prose, active artwork, covers, chapter order and print source configuration. Later books must follow this canon. Reopening a locked book requires explicit author direction.
 
-All 21 available chapters appear in `book.json` order in the web reader and private EPUB export. Manuscript completion is separate from publication: Book Two is **unpublished**, with no Kindle or paperback purchase link. Its iris-corrected cover v5-green remains a review candidate (v4 is preserved); v3 is the approved character/style reference. The paperback wrap’s dimensions and 72-page assumption remain provisional until a Book Two interior build establishes the final page count.
+The [canon inventory](docs/editorial/series-canon-lock-2026-10-23.json) records 246 protected source files and their SHA-256 hashes. `npm run test:canon` checks them, and the check also runs in `npm test`. Generated exports and shared rendering code are outside this source inventory; preserve published content when maintaining those tools. Older production notes describe their historical draft state and do not reopen these books.
 
-Chapter 21 has six separate illustrations, preserved original PNGs, optimized WebPs, exact production prompts and descriptive alt text. See [the final continuity sweep](docs/editorial/book-two-final-sweep.md), [continuity notes](docs/editorial/book-two-continuity.md) and [art provenance](docs/art/book-two-chapter-21-prompts.json). Chapter 20’s detached ankle cuff is now explicitly opened and removed from Seth’s boot before he stands. Book One remains finished and locked; its sources and artwork are unchanged.
+Book Four: **Clash in Cleveland** remains an unpublished working draft. The [October 23 audit](docs/editorial/book-four-audit-2026-10-23.json) records continuity, dialogue and exposition recommendations without changing its story or artwork. The author-selected 962-word Chapter 12 and fourteen corrected illustrations remain in place; its visual differences are documented exceptions, not authorization to replace it.
 
-Book Two has no assigned subtitle. Per-book completion, saved positions and resume links stay separate. Historical audit and deferred-draft documents retain their original scope and are superseded by the current manuscript and final sweep where indicated.
+Per-book completion, saved positions and resume links stay separate. Historical audit and deferred-draft documents retain their original scope.
 
 The illustrated web reader for **Book One: Origins**, by Jay Jones.
 
