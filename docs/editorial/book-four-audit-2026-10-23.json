@@ -885,5 +885,6 @@
     "reviewArtifact": "Passages use 1-based source block numbers and exact quotes for review.",
     "canonGuardRegressionTests": "Passed: real snapshot accepted; modified and missing fixture source rejected without touching protected files.",
     "fullSuite": "npm test passed with system Chromium: canon guard, reader, hosted verifier, Vault, all book/PDF/EPUB parity checks; 1566 links/assets checked."
-  }
+  },
+  "implementation": "Subsequently authorized by Jay and implemented in docs/editorial/book-four-audit-applied-2026-10-23.json. Original quotations and measurements below are preserved as the pre-edit audit."
 }

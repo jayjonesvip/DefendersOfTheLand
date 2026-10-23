@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-23",
+  "authority": "Jay requested orange Zerdo throughout and application of book-four-audit-2026-10-23.json.",
+  "method": "Existing scenes edited with image generation; generated PNGs preserved and converted to WebP. Original scene sequence and earlier pixels retained.",
+  "records": [
+    {
+      "chapter": 12,
+      "key": "control",
+      "sourceGenerated": "/workspace/generated_images/exec-9d3bf054-1030-4b8c-9cfa-1a80e50c68c9.png",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+      "previousArt": "book-four-chapter-12-control-v2.webp",
+      "newArt": "book-four-chapter-12-control-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-orange-v1.png",
+      "sha256": "11d955c95be44cbd4efef68bc003e8b9f0e841932a3dd59f5d25ae674e7ccd73",
+      "sourceSha256": "fbf40903282a24ac396863eccfc0bd9bcc23109500d5131cf8eff52b2c5951e1",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "lift",
+      "sourceGenerated": "/workspace/generated_images/exec-5c45657e-a414-4577-9a26-d117d2a366d6.png",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+      "previousArt": "book-four-chapter-12-lift-v2.webp",
+      "newArt": "book-four-chapter-12-lift-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-orange-v1.png",
+      "sha256": "a00c7f60760ae73c31910af6f475a315bab2d2690af754f44a981b2c751fbd74",
+      "sourceSha256": "95a13eb2dd8368704c310fba412f51fde41f060a92a6538ad1dbd848851710be",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "extract",
+      "sourceGenerated": "/workspace/generated_images/exec-e9b98de8-2d8d-4753-9db9-100a9234b111.png",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+      "previousArt": "book-four-chapter-12-extract-v2.webp",
+      "newArt": "book-four-chapter-12-extract-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-orange-v1.png",
+      "sha256": "e81bbdcb299f4c29ab664fd014ea9311045022135baac046b759d2364ecb4c20",
+      "sourceSha256": "78f8bf749cea02b44b47a517303181fc1ca3fca76777a37ed9e1d25ba168ece4",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "arrest",
+      "sourceGenerated": "/workspace/generated_images/exec-2122fd20-e704-4971-9c10-027b32e0e047.png",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+      "previousArt": "book-four-chapter-12-arrest-v2.webp",
+      "newArt": "book-four-chapter-12-arrest-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-orange-v1.png",
+      "sha256": "1751191441a01fe89287af7e6e58e9d3dac879b1d1f3560e24d8b6022b7f7565",
+      "sourceSha256": "1c470b1289f0663f41b70222f645bf8c988ec5bdd61592206b64d5315c48b81f",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "ray",
+      "sourceGenerated": "/workspace/generated_images/exec-c1ee09c3-6ccd-48eb-b0e7-89e4d991dfe4.png",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Jenny removing the intact COPPER-BARRELED RAY BOX from inside the detached turret while Zerdo steadies its shell. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
+      "previousArt": "book-four-chapter-12-ray-v2.webp",
+      "newArt": "book-four-chapter-12-ray-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-orange-v1.png",
+      "sha256": "81536f7dbec005f85e6c1a6057906cfafe533ad4f0d05b7dcf28800a3fcf9bce",
+      "sourceSha256": "5d650fc358277a0cc6e0ab2727d4782489e5d60ce4ecca2d6b773021f695ed4d",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "clear",
+      "sourceGenerated": "/workspace/generated_images/exec-89021c47-5beb-41d0-a0e2-9cc81d911135.png",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Zerdo raises the EMPTY turret shell: keep the LARGE ROUND EMITTER HOLE EMPTY and the lower hull EMPTY. No ray, gun, barrel or driver added. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
+      "previousArt": "book-four-chapter-12-clear-v2.webp",
+      "newArt": "book-four-chapter-12-clear-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-orange-v1.png",
+      "sha256": "1339f7a045eb4d98b7a08f96a052c8260da68a0e0e1f3425c04af2f04f5e2882",
+      "sourceSha256": "e5734cea15ef57a5364044a92ef4339df96dab126af6a3d1c961637999c97fd6",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "raise",
+      "sourceGenerated": "/workspace/generated_images/exec-7cc0fc5d-0143-4ad6-b6b6-19c598daf08c.png",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Zerdo raises the EMPTY turret shell: keep the LARGE ROUND EMITTER HOLE EMPTY and the lower hull EMPTY. No ray, gun, barrel or driver added. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
+      "previousArt": "book-four-chapter-12-raise-v2.webp",
+      "newArt": "book-four-chapter-12-raise-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-orange-v1.png",
+      "sha256": "468da348acfae3fecce5fcac2d0bf0a3af7addffb67a4a5238c6d058ff754e79",
+      "sourceSha256": "774ac57fc63717252f0e7ef0794aed0bac553515c056c8e5e6b9c6d3271e4e35",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "smash",
+      "sourceGenerated": "/workspace/generated_images/exec-8168dd9b-8675-4d7f-9650-034e30696eed.png",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, empty turret shell striking EMPTY lower tank hull, empty round emitter hole, no copper ray, no Dork inside tank. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
+      "previousArt": "book-four-chapter-12-smash-v2.webp",
+      "newArt": "book-four-chapter-12-smash-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-orange-v1.png",
+      "sha256": "df26933b79531ffcdc97911eeee661299a19599cc68e6db6a24d8feb89c15490",
+      "sourceSha256": "1656abef8ba0d3706cb2f2b1fa68f138277de8993b3cdd96a629c4cb49d59568",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "down",
+      "sourceGenerated": "/workspace/generated_images/exec-4c682431-c07c-41a1-bf17-b785d9ccef54.png",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Jaws DAZED on pavement, Fist small beside him, Jenny holding towing chain, empty wreck behind. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
+      "previousArt": "book-four-chapter-12-down-v2.webp",
+      "newArt": "book-four-chapter-12-down-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-orange-v1.png",
+      "sha256": "e1a75e6a5bbef1f110b02ce3a288c4fe218d332dd2bd5142fd4ded3b34dd7b5e",
+      "sourceSha256": "9e0be0d8d713bb54d4b48f26ea7a2cf24f1d4ddbdb0a6a11eafb6b79e019afed",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 12,
+      "key": "aftermath",
+      "sourceGenerated": "/workspace/generated_images/exec-e2d52da0-eac1-40b1-8f3c-f6a619d36d46.png",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Seth holding chain that secures small Jaws's CLOSED iron jaw. Preserve chain connection, breathing clearance, Laura cuffed under police escort, captured ray and Dork under guard. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
+      "previousArt": "book-four-chapter-12-aftermath-v2.webp",
+      "newArt": "book-four-chapter-12-aftermath-orange-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-orange-v1.png",
+      "sha256": "de8d12c452dec2f16514528f0daaa8656f84d011843ccf27b58a525ab503e75d",
+      "sourceSha256": "eef125a1f4488e31e8131d1d7c176ba710728419aac56aa71027c75232238bc2",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "chapter": 6,
+      "key": "theft",
+      "sourceGenerated": "/workspace/generated_images/exec-2bf1a032-113d-4c5c-815e-4f97fe8c58dc.png",
+      "prompt": "Edit this existing landscape comic illustration. Preserve Dork at left operating the handheld Army ray, his face/clothing/hands, Jaws small floating above him, the blue shrinking beam, the separate closed steel vault on its transport frame, character proportions and rich painted inked comic style. Correct ONLY THE SETTING to clearly be a BANK RENOVATION ANNEX during a NIGHTTIME THEFT, not Dork's machine workshop. Keep the established scaffolding at right; remove scientific apparatus, tool-filled workbenches, loose machinery and any tank. Replace foreground workshop equipment with neat stacks of pale PLASTERBOARD SHEETS, a few wrapped building materials and a plain concrete construction floor. Behind the freestanding vault keep clear separation from ordinary brick annex walls. Include an unoccupied dark bank service corridor beyond an open internal door, with a counter/grille far in the background (no people). The open DELIVERY DOORS at rear left still show Cleveland skyline at night. The vault remains separate enclosed steel walls/floor/roof, not joined to building, being shrunk by BLUE light; not restored by red light. Do not change the action, add Laura/heroes, duplicate Jaws, change his head size, add labels or text. One full landscape 3:2 image matching the original scene framing and lighting.",
+      "previousArt": "book-four-chapter-06-theft-v1.webp",
+      "newArt": "book-four-chapter-06-theft-annex-v2.webp",
+      "original": "docs/art/originals/book-four/chapter-06/book-four-chapter-06-theft-annex-v2.png",
+      "sha256": "a41cc7d1c988aae057666534402a2d448c7207f05478a0fb2cb0bea8a91347ea",
+      "sourceSha256": "7ef41f419b08ccb1cc09f195dca41b4dbab5b5a0643f401959ff760cdb03f738",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

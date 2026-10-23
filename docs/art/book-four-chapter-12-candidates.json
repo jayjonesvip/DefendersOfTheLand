@@ -2,8 +2,8 @@
   "book": "book-four",
   "chapter": 12,
   "title": "Off Comes the Top",
-  "status": "Draft chapter and fourteen illustrations prepared for author review",
-  "review": "962 words, fourteen illustrations. Approved action outline implemented. No cape on Zerdo; Fist has a small tucked underside thumb in every appearance. Jaws reduced in dive, pavement and aftermath scenes. Ray removed intact before empty turret shell crushes vacant hull. Jaws temporarily tethered by closed metal jaw using previously established tank tow chain, with Seth and Fist guarding; supervised transport requested. Laura remains powered and under escort, invitation unanswered. Original and superseded illustrations retained.",
+  "status": "October 23 audit corrections integrated; original artwork preserved",
+  "review": "Author-selected action/compositions retained. Ten Zerdo appearances corrected to approved orange/white/brown outfit, no cape. Four Fist/Jaws-only illustrations retained unchanged. Cuff wording corrected; 962-word prose and fourteen illustration sequence retained. Original blue-costume WebPs and PNGs preserved.",
   "images": [
     {
       "number": 1,
@@ -11,13 +11,14 @@
       "label": "Not another shot",
       "anchorBefore": "His hand went toward the firing control.",
       "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-c1480da5-708e-4d78-8838-832c1eb567f2.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v2.png",
-      "webArt": "book-four-chapter-12-control-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-9d3bf054-1030-4b8c-9cfa-1a80e50c68c9.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-orange-v1.png",
+      "webArt": "book-four-chapter-12-control-orange-v1.webp",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
       "references": [
-        "/workspace/generated_images/exec-98e290e4-4ede-44a0-994a-1be737a52b91.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -29,8 +30,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v1.png"
+        },
+        {
+          "number": 1,
+          "key": "control",
+          "label": "Not another shot",
+          "anchorBefore": "His hand went toward the firing control.",
+          "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-c1480da5-708e-4d78-8838-832c1eb567f2.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v2.png",
+          "webArt": "book-four-chapter-12-control-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-98e290e4-4ede-44a0-994a-1be737a52b91.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "11d955c95be44cbd4efef68bc003e8b9f0e841932a3dd59f5d25ae674e7ccd73"
     },
     {
       "number": 2,
@@ -38,13 +55,14 @@
       "label": "Off comes the top",
       "anchorBefore": "The whole assembly came up in his hands.",
       "alt": "Zerdo tears the complete turret clear of the tank, with its copper emitter attached and its firing cable disconnected.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-2377b33d-968e-4474-8ace-fc25b07ff31d.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v2.png",
-      "webArt": "book-four-chapter-12-lift-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-5c45657e-a414-4577-9a26-d117d2a366d6.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-orange-v1.png",
+      "webArt": "book-four-chapter-12-lift-orange-v1.webp",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
       "references": [
-        "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-lift-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -56,15 +74,31 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v1.png"
+        },
+        {
+          "number": 2,
+          "key": "lift",
+          "label": "Off comes the top",
+          "anchorBefore": "The whole assembly came up in his hands.",
+          "alt": "Zerdo tears the complete turret clear of the tank, with its copper emitter attached and its firing cable disconnected.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-2377b33d-968e-4474-8ace-fc25b07ff31d.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v2.png",
+          "webArt": "book-four-chapter-12-lift-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "a00c7f60760ae73c31910af6f475a315bab2d2690af754f44a981b2c751fbd74"
     },
     {
       "number": 3,
       "key": "cuff",
       "label": "Teeth at the cuff",
-      "anchorBefore": "Fist rolled hard. Iron teeth clapped shut behind his white cuff.",
-      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired white cuff.",
+      "anchorBefore": "Fist rolled hard. Iron teeth clapped shut behind his red cuff.",
+      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired red cuff with an inset white panel.",
       "status": "Draft prepared for author review; requested corrections applied",
       "source": "/workspace/generated_images/exec-183b2c4b-1739-478c-bb6e-fd58be85514d.png",
       "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v2.png",
@@ -92,13 +126,14 @@
       "label": "Out of the driver’s seat",
       "anchorBefore": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
       "alt": "Jenny pulls Dork from the lower hull driver opening while Zerdo holds the detached turret safely aside.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-cb77fd96-2192-41ac-b841-35fb2af86084.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v2.png",
-      "webArt": "book-four-chapter-12-extract-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-e9b98de8-2d8d-4753-9db9-100a9234b111.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-orange-v1.png",
+      "webArt": "book-four-chapter-12-extract-orange-v1.webp",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
       "references": [
-        "/workspace/generated_images/exec-df398a96-0fb9-4f98-a8b3-91b4cec89dac.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-extract-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -111,8 +146,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v1.png"
+        },
+        {
+          "number": 4,
+          "key": "extract",
+          "label": "Out of the driver’s seat",
+          "anchorBefore": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
+          "alt": "Jenny pulls Dork from the lower hull driver opening while Zerdo holds the detached turret safely aside.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-cb77fd96-2192-41ac-b841-35fb2af86084.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v2.png",
+          "webArt": "book-four-chapter-12-extract-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-df398a96-0fb9-4f98-a8b3-91b4cec89dac.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "e81bbdcb299f4c29ab664fd014ea9311045022135baac046b759d2364ecb4c20"
     },
     {
       "number": 5,
@@ -120,13 +171,14 @@
       "label": "Billy takes over",
       "anchorBefore": "An officer fastened cuffs behind Dork’s back. The other took his arm.",
       "alt": "Billy directs two officers as they take the struggling Dork into custody behind a stone planter.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-9462184a-0767-4c54-bc56-dac9dec6b86b.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v2.png",
-      "webArt": "book-four-chapter-12-arrest-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-2122fd20-e704-4971-9c10-027b32e0e047.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-orange-v1.png",
+      "webArt": "book-four-chapter-12-arrest-orange-v1.webp",
+      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
       "references": [
-        "/workspace/generated_images/exec-de3c65f5-d2cc-49ec-a2ad-cd76443e500a.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-arrest-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -139,8 +191,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v1.png"
+        },
+        {
+          "number": 5,
+          "key": "arrest",
+          "label": "Billy takes over",
+          "anchorBefore": "An officer fastened cuffs behind Dork’s back. The other took his arm.",
+          "alt": "Billy directs two officers as they take the struggling Dork into custody behind a stone planter.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-9462184a-0767-4c54-bc56-dac9dec6b86b.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v2.png",
+          "webArt": "book-four-chapter-12-arrest-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-de3c65f5-d2cc-49ec-a2ad-cd76443e500a.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "1751191441a01fe89287af7e6e58e9d3dac879b1d1f3560e24d8b6022b7f7565"
     },
     {
       "number": 6,
@@ -148,13 +216,14 @@
       "label": "Get the ray out",
       "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
       "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-e5df2665-e03c-4753-94e3-9cffd70ef19c.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v2.png",
-      "webArt": "book-four-chapter-12-ray-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-c1ee09c3-6ccd-48eb-b0e7-89e4d991dfe4.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-orange-v1.png",
+      "webArt": "book-four-chapter-12-ray-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Jenny removing the intact COPPER-BARRELED RAY BOX from inside the detached turret while Zerdo steadies its shell. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
       "references": [
-        "/workspace/generated_images/exec-82163f72-e9da-4b89-a389-f961d0333e48.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-ray-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -167,8 +236,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v1.png"
+        },
+        {
+          "number": 6,
+          "key": "ray",
+          "label": "Get the ray out",
+          "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
+          "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-e5df2665-e03c-4753-94e3-9cffd70ef19c.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v2.png",
+          "webArt": "book-four-chapter-12-ray-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-82163f72-e9da-4b89-a389-f961d0333e48.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "81536f7dbec005f85e6c1a6057906cfafe533ad4f0d05b7dcf28800a3fcf9bce"
     },
     {
       "number": 7,
@@ -232,13 +317,14 @@
       "label": "Clear the tank",
       "anchorBefore": "She raised her hand to Seth.",
       "alt": "Billy carries the disconnected ray behind cover as Jenny checks the empty hull and signals Zerdo.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-ec42a944-18c3-47dd-bcdc-1c0c92f71168.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v2.png",
-      "webArt": "book-four-chapter-12-clear-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIX DORK in small BACKGROUND arrest group: he is a NORMAL HUMAN older man with WILD GRAY HAIR HUGE ROUND BLACK GLASSES and HUMAN MOUTH, gray rolled shirtsleeves black tie. Remove wrongly added blond hair or steel jaw from Dork; he is NOT Jaws and has no iron teeth. No other scene changes. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-89021c47-5beb-41d0-a0e2-9cc81d911135.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-orange-v1.png",
+      "webArt": "book-four-chapter-12-clear-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Zerdo raises the EMPTY turret shell: keep the LARGE ROUND EMITTER HOLE EMPTY and the lower hull EMPTY. No ray, gun, barrel or driver added. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
       "references": [
-        "/workspace/generated_images/exec-d2d66750-3fd7-4184-9f91-4d135f7dbf73.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-clear-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -252,8 +338,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v1.png"
+        },
+        {
+          "number": 9,
+          "key": "clear",
+          "label": "Clear the tank",
+          "anchorBefore": "She raised her hand to Seth.",
+          "alt": "Billy carries the disconnected ray behind cover as Jenny checks the empty hull and signals Zerdo.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-ec42a944-18c3-47dd-bcdc-1c0c92f71168.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v2.png",
+          "webArt": "book-four-chapter-12-clear-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIX DORK in small BACKGROUND arrest group: he is a NORMAL HUMAN older man with WILD GRAY HAIR HUGE ROUND BLACK GLASSES and HUMAN MOUTH, gray rolled shirtsleeves black tie. Remove wrongly added blond hair or steel jaw from Dork; he is NOT Jaws and has no iron teeth. No other scene changes. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-d2d66750-3fd7-4184-9f91-4d135f7dbf73.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "1339f7a045eb4d98b7a08f96a052c8260da68a0e0e1f3425c04af2f04f5e2882"
     },
     {
       "number": 10,
@@ -261,13 +363,14 @@
       "label": "Up it goes",
       "anchorBefore": "He lifted it high.",
       "alt": "Zerdo raises the empty turret shell overhead, with its front emitter opening visibly empty.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-d3fc9112-132f-484e-8f1a-d0dcfbb5ab26.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v2.png",
-      "webArt": "book-four-chapter-12-raise-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-7cc0fc5d-0143-4ad6-b6b6-19c598daf08c.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-orange-v1.png",
+      "webArt": "book-four-chapter-12-raise-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Zerdo raises the EMPTY turret shell: keep the LARGE ROUND EMITTER HOLE EMPTY and the lower hull EMPTY. No ray, gun, barrel or driver added. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
       "references": [
-        "/workspace/generated_images/exec-8c96cc37-c8d2-45aa-aedf-dd57c308727b.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-raise-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -279,8 +382,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v1.png"
+        },
+        {
+          "number": 10,
+          "key": "raise",
+          "label": "Up it goes",
+          "anchorBefore": "He lifted it high.",
+          "alt": "Zerdo raises the empty turret shell overhead, with its front emitter opening visibly empty.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-d3fc9112-132f-484e-8f1a-d0dcfbb5ab26.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v2.png",
+          "webArt": "book-four-chapter-12-raise-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-8c96cc37-c8d2-45aa-aedf-dd57c308727b.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "468da348acfae3fecce5fcac2d0bf0a3af7addffb67a4a5238c6d058ff754e79"
     },
     {
       "number": 11,
@@ -288,13 +407,14 @@
       "label": "Down comes the tank",
       "anchorBefore": "He brought the turret down.",
       "alt": "Zerdo smashes the empty turret shell across the vacant hull, folding armor and buckling the tracks.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-de91580f-6442-45ad-92ce-fc1ed9d26363.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v2.png",
-      "webArt": "book-four-chapter-12-smash-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-8168dd9b-8675-4d7f-9650-034e30696eed.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-orange-v1.png",
+      "webArt": "book-four-chapter-12-smash-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, empty turret shell striking EMPTY lower tank hull, empty round emitter hole, no copper ray, no Dork inside tank. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
       "references": [
-        "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-smash-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -306,8 +426,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v1.png"
+        },
+        {
+          "number": 11,
+          "key": "smash",
+          "label": "Down comes the tank",
+          "anchorBefore": "He brought the turret down.",
+          "alt": "Zerdo smashes the empty turret shell across the vacant hull, folding armor and buckling the tracks.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-de91580f-6442-45ad-92ce-fc1ed9d26363.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v2.png",
+          "webArt": "book-four-chapter-12-smash-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "df26933b79531ffcdc97911eeee661299a19599cc68e6db6a24d8feb89c15490"
     },
     {
       "number": 12,
@@ -353,13 +489,14 @@
       "label": "Fist wins the round",
       "anchorBefore": "Jaws hit the clear pavement beside the wreck and skidded to a stop.",
       "alt": "Jaws lies dazed on clear pavement beside the wreck while Fist guards him and Jenny approaches.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-a6cca10c-d953-4b1b-819f-5b38fec5a1ee.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v2.png",
-      "webArt": "book-four-chapter-12-down-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce head/jaw to 40% current linear size; he is a normal human-sized floating head resting on pavement, slightly closer to camera but not giant compared to Zerdo or Jenny. Reduce Fist to 50% current size, comparable to Jaws head. Preserve dazed eyes, closed intact iron jaw and open clear space around them. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-4c682431-c07c-41a1-bf17-b785d9ccef54.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-orange-v1.png",
+      "webArt": "book-four-chapter-12-down-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Jaws DAZED on pavement, Fist small beside him, Jenny holding towing chain, empty wreck behind. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
       "references": [
-        "/workspace/generated_images/exec-f53989f0-a5c9-40f0-8dc1-087734efadaf.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-down-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -373,8 +510,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v1.png"
+        },
+        {
+          "number": 13,
+          "key": "down",
+          "label": "Fist wins the round",
+          "anchorBefore": "Jaws hit the clear pavement beside the wreck and skidded to a stop.",
+          "alt": "Jaws lies dazed on clear pavement beside the wreck while Fist guards him and Jenny approaches.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-a6cca10c-d953-4b1b-819f-5b38fec5a1ee.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v2.png",
+          "webArt": "book-four-chapter-12-down-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce head/jaw to 40% current linear size; he is a normal human-sized floating head resting on pavement, slightly closer to camera but not giant compared to Zerdo or Jenny. Reduce Fist to 50% current size, comparable to Jaws head. Preserve dazed eyes, closed intact iron jaw and open clear space around them. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-f53989f0-a5c9-40f0-8dc1-087734efadaf.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "e1a75e6a5bbef1f110b02ce3a288c4fe218d332dd2bd5142fd4ded3b34dd7b5e"
     },
     {
       "number": 14,
@@ -382,13 +535,14 @@
       "label": "The square belongs to the city again",
       "anchorBefore": "Above them, every window of Terminal Tower caught the afternoon light.",
       "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower.",
-      "status": "Draft prepared for author review; requested corrections applied",
-      "source": "/workspace/generated_images/exec-47947774-fd72-4859-97de-17eaff029068.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v2.png",
-      "webArt": "book-four-chapter-12-aftermath-v2.webp",
-      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce Jaws entire head/jaw to 55% current linear size, comparable humanhead to Zerdo's head, reduce Fist to 65% current size too. IMPORTANT CLOSE JAWS'S IRON MOUTH FULLY, metal upper and lower rows touching. The heavy towing chain loops around CLOSED UPPER AND LOWER METAL SIDE PLATES together, mechanically holding metal jaw halves SHUT, not around skin or neck. Nose eyes unobstructed, no human body. The short chain tether runs to rear tow eye of wreck AND Seth holds it. Do not leave mouth open through restraint. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "status": "Integrated; author-authorized costume correction",
+      "source": "/workspace/generated_images/exec-e2d52da0-eac1-40b1-8f3c-f6a619d36d46.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-orange-v1.png",
+      "webArt": "book-four-chapter-12-aftermath-orange-v1.webp",
+      "prompt": "Edit IMAGE 1 only: precise localized costume correction for Super Zerdo, the brown-haired BLUE suited superhero. IMAGE 2 is approved COSTUME reference only. Change BLUE suit to vivid ORANGE, RED Z to plain WHITE Z, WHITE shoulders and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gloves and boots, ORANGE eye mask with thin white trim; preserve BLUE eyes. NO CAPE. Keep his exact pose, facial identity, head size, hands, expression, anatomy and position. Leave all other characters unchanged, including Jenny, Billy, small Jaws and Fist. Preserve Fist's small tucked thumb and existing proportions; never enlarge Jaws. Preserve tank debris and story state, Seth holding chain that secures small Jaws's CLOSED iron jaw. Preserve chain connection, breathing clearance, Laura cuffed under police escort, captured ray and Dork under guard. Preserve original painted inked comic style, rich colors, lighting, foreground, skyline and full landscape 3:2 composition. Change ONLY Zerdo costume surfaces. No additional character, text, cape, object or story action.",
       "references": [
-        "/workspace/generated_images/exec-9a9959c1-7fda-4880-a8df-cee763f024af.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-v2.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
       ],
       "previousVersions": [
         {
@@ -403,8 +557,24 @@
           ],
           "status": "Superseded by author-requested costume/anatomy corrections",
           "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v1.png"
+        },
+        {
+          "number": 14,
+          "key": "aftermath",
+          "label": "The square belongs to the city again",
+          "anchorBefore": "Above them, every window of Terminal Tower caught the afternoon light.",
+          "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower.",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-47947774-fd72-4859-97de-17eaff029068.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v2.png",
+          "webArt": "book-four-chapter-12-aftermath-v2.webp",
+          "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce Jaws entire head/jaw to 55% current linear size, comparable humanhead to Zerdo's head, reduce Fist to 65% current size too. IMPORTANT CLOSE JAWS'S IRON MOUTH FULLY, metal upper and lower rows touching. The heavy towing chain loops around CLOSED UPPER AND LOWER METAL SIDE PLATES together, mechanically holding metal jaw halves SHUT, not around skin or neck. Nose eyes unobstructed, no human body. The short chain tether runs to rear tow eye of wreck AND Seth holds it. Do not leave mouth open through restraint. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+          "references": [
+            "/workspace/generated_images/exec-9a9959c1-7fda-4880-a8df-cee763f024af.png"
+          ]
         }
-      ]
+      ],
+      "sha256": "de8d12c452dec2f16514528f0daaa8656f84d011843ccf27b58a525ab503e75d"
     }
   ]
 }

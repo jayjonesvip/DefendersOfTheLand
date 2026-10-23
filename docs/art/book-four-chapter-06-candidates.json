@@ -2,25 +2,43 @@
   "book": "book-four",
   "chapter": 6,
   "title": "The Missing Vault",
-  "status": "Author-approved chapter and five illustrations integrated for publication",
+  "status": "October 23 audit corrections integrated; original artwork preserved",
   "review": "Bank vault is a separate enclosed steel box on its frame, shrunk blue and restored red. Jaws and torch fail. Laura stalls without firing plasma; no solar recharge or money accessed yet. Final illustration v2 gives Jaws clear air above the vault.",
   "images": [
     {
       "number": 1,
       "key": "theft",
       "label": "The whole vault",
-      "status": "Approved for publication",
-      "source": "/workspace/generated_images/exec-bd980497-6b55-4b27-abc5-728ca927d2c5.png",
-      "original": "docs/art/originals/book-four/chapter-06/book-four-chapter-06-theft-v1.png",
-      "webArt": "book-four-chapter-06-theft-v1.webp",
+      "status": "Integrated; author-authorized bank-annex setting clarification",
+      "source": "/workspace/generated_images/exec-2bf1a032-113d-4c5c-815e-4f97fe8c58dc.png",
+      "original": "docs/art/originals/book-four/chapter-06/book-four-chapter-06-theft-annex-v2.png",
+      "webArt": "book-four-chapter-06-theft-annex-v2.webp",
       "anchorBefore": "The beam touched the steel. Rivets drew closer together. The great wheel contracted, and the top of the vault sank below the scaffolding.",
-      "alt": "Dork fires the blue shrink ray at the freestanding vault in the bank’s renovation annex.",
-      "prompt": "Create ONE landscape 3:2 full-bleed illustration in exact warm rich inked painted chapter-book comic style of reference images, Cleveland 1987. No text, speech balloons, captions, panels or borders. DORK/Daniel identity: thin elderly scientist, wild thinning GRAY-WHITE hair, enormous ROUND thick BLACK spectacles magnifying BLUE eyes, long angular nose, GRAY SHIRT rolled sleeves, loose BLACK necktie, dark trousers black shoes, NO white lab coat (burned). JAWS: ONE FLOATING BODYLESS human male HEAD, spiky BLOND hair, expressive eyes, large BOLTED STEEL lower jaw with triangular IRON TEETH and dark side hinges; absolutely no neck, shoulders, body, arms, limbs, shadow-body or robot torso. Human-head-sized and clearly floating free of surroundings, no merger with tank/vault. LAURA/LAVA LIPS: adult woman, brown eyes, brown curly hair tied back loose ponytail, BLACK eye mask, long BLACK jumpsuit with red/yellow FLAME-COLORED FABRIC side panels (NOT emitting fire), black gloves/boots, open long dark coat. Normal lips, no glowing power, no plasma. Only specified characters, each once. Vault identity: ONE FREESTANDING enclosed RECTANGULAR gray/dark STEEL strongroom, flat steel roof/floor and sides, visible side depth and rivets, closed rectangular thick front DOOR with heavy strap hinges at LEFT, circular spoke handle at waist-height, separate metal latch/lug beside handle, raised on steel transport frame. It is a complete metal box, not a brick room, tank, safe with glass, open cutaway or floating door. No visible money or interior, door CLOSED throughout chapter. FIRST CHAPTER IMAGE: nighttime bank renovation annex, blue night through OPEN large loading doors, ordinary industrial electric light, scaffolding and stacked building materials along wall. Dork LEFT foreground holding portable Army ray with BOTH hands: rectangular gray RIVETED METAL BOX, round analog meter, red/blue controls, handle, stepped COPPER-RINGED cylindrical barrel, exactly reference1; avoid pistol or futuristic screen. Barrel points RIGHT at the vault safely several feet ahead, thin soft BLUE beam connects barrel to closed vault front, ray BLUE shrink mode, not red. ONE vault visible in mid-shrink, now around Dork's waist/shoulder height rather than original over-human height, its entire self-contained steel BOX AND TRANSPORT FRAME visibly encompassed by subtle blue aura. No duplicate miniature/full vault, no ghost vault overlays. CLEAR empty space UNDER frame, BETWEEN steel vault and surrounding brick walls and above its roof shows whole object separate from masonry. Jaws floats in upper-left background by loading doors, watchful and eager, not touching ray or vault, no neck. NO Laura in this image (she waits at workshop), NO people inside vault, no bank staff, guard, police, heroes, tank or money. Wide three-quarter readable new interior view. Entire coherent box shrinks; surrounding building stays intact.",
+      "alt": "Dork shrinks the freestanding vault inside the bank renovation annex, with plasterboard and scaffolding behind it and Jaws watching.",
+      "prompt": "Edit this existing landscape comic illustration. Preserve Dork at left operating the handheld Army ray, his face/clothing/hands, Jaws small floating above him, the blue shrinking beam, the separate closed steel vault on its transport frame, character proportions and rich painted inked comic style. Correct ONLY THE SETTING to clearly be a BANK RENOVATION ANNEX during a NIGHTTIME THEFT, not Dork's machine workshop. Keep the established scaffolding at right; remove scientific apparatus, tool-filled workbenches, loose machinery and any tank. Replace foreground workshop equipment with neat stacks of pale PLASTERBOARD SHEETS, a few wrapped building materials and a plain concrete construction floor. Behind the freestanding vault keep clear separation from ordinary brick annex walls. Include an unoccupied dark bank service corridor beyond an open internal door, with a counter/grille far in the background (no people). The open DELIVERY DOORS at rear left still show Cleveland skyline at night. The vault remains separate enclosed steel walls/floor/roof, not joined to building, being shrunk by BLUE light; not restored by red light. Do not change the action, add Laura/heroes, duplicate Jaws, change his head size, add labels or text. One full landscape 3:2 image matching the original scene framing and lighting.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-ray-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-bank-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-tank-v3.webp"
-      ]
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-06-theft-v1.webp"
+      ],
+      "previousVersions": [
+        {
+          "number": 1,
+          "key": "theft",
+          "label": "The whole vault",
+          "status": "Preserved earlier version; superseded by author-authorized October 23 correction",
+          "source": "/workspace/generated_images/exec-bd980497-6b55-4b27-abc5-728ca927d2c5.png",
+          "original": "docs/art/originals/book-four/chapter-06/book-four-chapter-06-theft-v1.png",
+          "webArt": "book-four-chapter-06-theft-v1.webp",
+          "anchorBefore": "The beam touched the steel. Rivets drew closer together. The great wheel contracted, and the top of the vault sank below the scaffolding.",
+          "alt": "Dork fires the blue shrink ray at the freestanding vault in the bank’s renovation annex.",
+          "prompt": "Create ONE landscape 3:2 full-bleed illustration in exact warm rich inked painted chapter-book comic style of reference images, Cleveland 1987. No text, speech balloons, captions, panels or borders. DORK/Daniel identity: thin elderly scientist, wild thinning GRAY-WHITE hair, enormous ROUND thick BLACK spectacles magnifying BLUE eyes, long angular nose, GRAY SHIRT rolled sleeves, loose BLACK necktie, dark trousers black shoes, NO white lab coat (burned). JAWS: ONE FLOATING BODYLESS human male HEAD, spiky BLOND hair, expressive eyes, large BOLTED STEEL lower jaw with triangular IRON TEETH and dark side hinges; absolutely no neck, shoulders, body, arms, limbs, shadow-body or robot torso. Human-head-sized and clearly floating free of surroundings, no merger with tank/vault. LAURA/LAVA LIPS: adult woman, brown eyes, brown curly hair tied back loose ponytail, BLACK eye mask, long BLACK jumpsuit with red/yellow FLAME-COLORED FABRIC side panels (NOT emitting fire), black gloves/boots, open long dark coat. Normal lips, no glowing power, no plasma. Only specified characters, each once. Vault identity: ONE FREESTANDING enclosed RECTANGULAR gray/dark STEEL strongroom, flat steel roof/floor and sides, visible side depth and rivets, closed rectangular thick front DOOR with heavy strap hinges at LEFT, circular spoke handle at waist-height, separate metal latch/lug beside handle, raised on steel transport frame. It is a complete metal box, not a brick room, tank, safe with glass, open cutaway or floating door. No visible money or interior, door CLOSED throughout chapter. FIRST CHAPTER IMAGE: nighttime bank renovation annex, blue night through OPEN large loading doors, ordinary industrial electric light, scaffolding and stacked building materials along wall. Dork LEFT foreground holding portable Army ray with BOTH hands: rectangular gray RIVETED METAL BOX, round analog meter, red/blue controls, handle, stepped COPPER-RINGED cylindrical barrel, exactly reference1; avoid pistol or futuristic screen. Barrel points RIGHT at the vault safely several feet ahead, thin soft BLUE beam connects barrel to closed vault front, ray BLUE shrink mode, not red. ONE vault visible in mid-shrink, now around Dork's waist/shoulder height rather than original over-human height, its entire self-contained steel BOX AND TRANSPORT FRAME visibly encompassed by subtle blue aura. No duplicate miniature/full vault, no ghost vault overlays. CLEAR empty space UNDER frame, BETWEEN steel vault and surrounding brick walls and above its roof shows whole object separate from masonry. Jaws floats in upper-left background by loading doors, watchful and eager, not touching ray or vault, no neck. NO Laura in this image (she waits at workshop), NO people inside vault, no bank staff, guard, police, heroes, tank or money. Wide three-quarter readable new interior view. Entire coherent box shrinks; surrounding building stays intact.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-ray-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-bank-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-tank-v3.webp"
+          ]
+        }
+      ],
+      "sha256": "a41cc7d1c988aae057666534402a2d448c7207f05478a0fb2cb0bea8a91347ea"
     },
     {
       "number": 2,

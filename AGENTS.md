@@ -11,11 +11,16 @@ Run `npm run test:canon` to check it. Do not regenerate its hashes to accept
 unrequested drift. A technical change to shared rendering code must preserve
 locked content and be checked for effects on the published books.
 
-Book Four remains an unpublished working draft. The October 23 audit is advisory:
-do not apply its proposed cuts or art changes without author direction. Preserve
-the author-selected 962-word Chapter 12 and its fourteen corrected illustrations.
-Its older costume/identity differences are documented, not authorization to
-replace the chosen artwork. Zerdo must have no cape, including on the cover.
+Book Four remains an unpublished working draft. Jay authorized the October 23
+audit pass and orange Zerdo corrections. See
+`docs/editorial/book-four-audit-applied-2026-10-23.json` for the applied changes;
+the original audit preserves its pre-edit quotations. Preserve Chapter 12's
+chosen action/compositions, fourteen illustration sequence and latest orange
+costume corrections. Its earlier blue-costume images remain archived sources,
+not active costume references. Other selected character designs are retained.
+Zerdo wears the approved orange/white/brown costume throughout Book Four and
+must have no cape, including on the cover. Do not introduce further story or
+art changes merely because a historical production note describes older work.
 
 Preserve the Chapter 11 stray ray as the Bouncing Bob future-story seed. Do not
 invent its destination, recipient or consequences. Flaming Head remains absent

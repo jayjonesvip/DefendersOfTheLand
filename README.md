@@ -4,7 +4,7 @@
 
 The [canon inventory](docs/editorial/series-canon-lock-2026-10-23.json) records 246 protected source files and their SHA-256 hashes. `npm run test:canon` checks them, and the check also runs in `npm test`. Generated exports and shared rendering code are outside this source inventory; preserve published content when maintaining those tools. Older production notes describe their historical draft state and do not reopen these books.
 
-Book Four: **Clash in Cleveland** remains an unpublished working draft. The [October 23 audit](docs/editorial/book-four-audit-2026-10-23.json) records continuity, dialogue and exposition recommendations without changing its story or artwork. The author-selected 962-word Chapter 12 and fourteen corrected illustrations remain in place; its visual differences are documented exceptions, not authorization to replace it.
+Book Four: **Clash in Cleveland** remains an unpublished working draft. The [October 23 audit](docs/editorial/book-four-audit-2026-10-23.json) preserves the original review. Jay subsequently authorized its selective copy/pacing pass and orange Zerdo correction; the [applied review](docs/editorial/book-four-audit-applied-2026-10-23.json) records the result. Chapter 12 keeps its selected action/compositions, 962 words and fourteen illustrations, with ten Zerdo appearances corrected to the approved orange/white/brown outfit and no cape. Its earlier images remain preserved. Books One–Three stay unchanged.
 
 Per-book completion, saved positions and resume links stay separate. Historical audit and deferred-draft documents retain their original scope.
 

@@ -5,6 +5,13 @@ async function check(){
  const book=read('content/books/book-four/book.json');
  const chapters=require('./scripts/available-chapters.cjs').availableChapters(book,file=>read('content/books/book-four/'+file));
  const illustrations=chapters.flatMap(chapter=>chapter.blocks.filter(block=>block.art));
+ const orangeCorrections=read('docs/art/book-four-audit-corrections-2026-10-23.json').records.filter(record=>record.chapter===12);
+ assert.equal(orangeCorrections.length,10,'Every Chapter 12 Zerdo appearance needs its approved orange correction');
+ for(const correction of orangeCorrections){
+  assert(illustrations.some(block=>block.art===correction.newArt),`Approved orange artwork no longer active: ${correction.key}`);
+  const bytes=fs.readFileSync(path.join(root,'public/assets',correction.newArt));
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),correction.sha256,`Reviewed orange artwork changed: ${correction.key}`);
+ }
  const pdf=read('output/publishing/book-four-pdf-build.json');
  const epub=read('tmp/epub-book-four/quality-report.json');
  for(const report of [pdf,epub]){

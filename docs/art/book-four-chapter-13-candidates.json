@@ -26,7 +26,8 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Older Billy, open left-hinged freestanding vault with plasma damage, bank manager, police inventory, vault money and separate drawer bundles. No villains or tank added."
+      "reviewNotes": "Older Billy, open left-hinged freestanding vault with plasma damage, bank manager, police inventory, vault money and separate drawer bundles. No villains or tank added.",
+      "anchorBefore": "Billy stood back while the bank manager and police went in."
     },
     {
       "chapter": 13,
@@ -52,7 +53,8 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Single red restoration beam targets empty period cruiser; observers clear of beam behind boundary. Second miniature car on tray and captured device consistent."
+      "reviewNotes": "Single red restoration beam targets empty period cruiser; observers clear of beam behind boundary. Second miniature car on tray and captured device consistent.",
+      "anchorBefore": "Light touched the little car. Its tires spread across the pavement and its roof rose until the cruiser stood full-sized in the cleared space."
     },
     {
       "chapter": 13,
@@ -92,7 +94,8 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Corrected Jenny face matches approved young-adult identity, green eye and white mask. Four friends only; healed Fist and older Billy, plain rear of Seth costume with no back emblem/buckle. Empty sky and no Flaming Head/spark/ghost."
+      "reviewNotes": "Corrected Jenny face matches approved young-adult identity, green eye and white mask. Four friends only; healed Fist and older Billy, plain rear of Seth costume with no back emblem/buckle. Empty sky and no Flaming Head/spark/ghost.",
+      "anchorBefore": "The four friends stayed there while the city lights came on."
     }
   ]
 }
