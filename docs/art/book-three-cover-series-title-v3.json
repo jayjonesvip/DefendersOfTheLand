@@ -1,0 +1,48 @@
+{
+  "id": "B3-cover",
+  "sourceGenerated": "/workspace/generated_images/exec-f0d0ab33-16cd-4fb7-b1ee-5947b4938ac1.png",
+  "reviewed": true,
+  "prompt": "Edit IMAGE 1, Book Three's existing cover. IMAGE 2 is the approved Book Two typography reference. Preserve IMAGE 1's detailed painted comic rooftop illustration, ALL character identities, anatomy, expressions and placements, the copper ray machine and sunset Cleveland skyline. Change ONLY typography and immediately surrounding upper sky. Replace the thin one-line series masthead, red/blue rules and #3 box with the SAME prominent stacked series masthead as IMAGE 2: huge bold dimensional yellow-gold DEFENDERS on first line, smaller OF THE beside huge LAND on second line, thick BLACK outline and RED extruded shadows, same letterforms and hierarchy. Make the series title dominant and readable at thumbnail size. Beneath it put exact cream serif uppercase 'BOOK THREE: LAVA LIPS' with restrained thin gold rules like IMAGE 2. Remove the oversized jagged fiery LAVA LIPS lettering, leaving only the new subtitle. Use the existing upper sky/title space; do NOT cover characters' heads or crop the scene. At bottom match IMAGE 2's cream serif uppercase 'JAY JONES' with thin gold rules. Preserve Laura's black mask, curly brown ponytail, black coat and flame-patterned outfit; Dork's glasses and lab coat; blond bodyless steel-jawed Luke; approved orange-faced Flaming Head with large oval white eyes and painted flames. ONE finished portrait cover in SAME 2:3 ratio, no added words, characters, issue badge, symbols, panels or mockup. Exact readable wording.",
+  "status": "Complete; visually reviewed, publishing pipeline and regression validation passed; ready for author review.",
+  "sourceCover": {
+    "cover": "book-three-cover-rooftop-web-v2.webp",
+    "ebookCover": "book-three-cover-rooftop-v2.png"
+  },
+  "newCover": {
+    "cover": "book-three-cover-series-title-web-v3.webp",
+    "ebookCover": "book-three-cover-series-title-v3.png"
+  },
+  "originalPNG": "docs/art/originals/book-three-series-title-v3/book-three-cover-series-title-v3.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "sha256": "99012930734f1f3f32e7f51ab2e5a011ebc7026a19f207a775d4413b7000d939",
+  "referenceCover": "public/assets/book-two-cover-aftershock-design-v1.png",
+  "review": "Exact series title/subtitle/author spelling checked at full size and thumbnail size; skyline, rooftop ray and established characters retained; no mockup.",
+  "validation": {
+    "environmentRestart": "Workspace restart interrupted the final Book Two review export. Prior completed publishing stages retained; final export, sample publication and site stages resumed explicitly.",
+    "publishingPipeline": "All publishing stages completed. Final Book Two review export, sample publication and site stages resumed after environment restart.",
+    "regressionSuite": "npm test passed: 77 pages, 1517 links/assets, reader state, mobile layouts, EPUB previews and publishing hashes.",
+    "epubCheck": "EPUBCheck 5.4.0 passed for all four complete EPUBs and the public sample: zero errors or warnings.",
+    "printResolutionTests": "Seven saved-PDF print-resolution tests passed.",
+    "renderedPDFReview": [
+      "Origins paperback page 45",
+      "Book Three paperback page 25",
+      "Book Four review PDF page 70",
+      "Book Three full-wrap preview"
+    ],
+    "reviewPDF": {
+      "file": "/workspace/outputs/defenders-art-consistency-review.pdf",
+      "pages": 23,
+      "sha256": "a5d3fa357fe1688312ac8fd9a28080ff0605e09b493518542403359af7989d19"
+    },
+    "coverSnapshot": "publishing/covers/; 21 files refreshed, hashes checked, public reader URL retained.",
+    "paperbackPages": {
+      "origins": 94,
+      "book-two": 120,
+      "book-three": 116
+    },
+    "bookFourReviewPages": 82
+  }
+}

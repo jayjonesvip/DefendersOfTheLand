@@ -13,7 +13,7 @@
       ],
       "provisional": false,
       "originalFrontEffectiveDpi": 186.1818181818182,
-      "interiorSha256": "b54f60ae6281b4a53a933d3da867d45beacba62c1ffcb7a60db658db953ee0ba",
+      "interiorSha256": "c3eaa8f128f30389bedda4d5d12cfb5a54b3752ce4fabae6f3332e86ea53ce5f",
       "readerUrl": "https://clevelandsuperheroes.com/",
       "sourceConfig": "print/cover.json",
       "sourceConfigSha256": "814f3a34e855bcbf5f0e0b25c892cfa2ffb609ecff504de4009109b98b84e08d"
@@ -29,7 +29,7 @@
       ],
       "provisional": false,
       "originalFrontEffectiveDpi": 186.1818181818182,
-      "interiorSha256": "84c87e3c1a315fa458c071f7d30294b22d31bf1a6f6eca928091ec1c7e0fb9e0",
+      "interiorSha256": "e826b24e1d01ee0056c3692658790068af6f3ec948fee2e988fe6c4477f28c9a",
       "readerUrl": "https://clevelandsuperheroes.com/",
       "sourceConfig": "print/book-two-cover.json",
       "sourceConfigSha256": "b5e8320a039d3d55be9ec082e10a65ee7ffb761a857f0035e54ad3cca71b0e02"
@@ -45,18 +45,18 @@
       ],
       "provisional": true,
       "originalFrontEffectiveDpi": 186.1818181818182,
-      "interiorSha256": "7206aaf12157c96cc84f1666fd17a1d865f65d3d732bf6f7992d757b3063e929",
+      "interiorSha256": "22709296de513ab7534fce6252e1d97292524d75b73282294369fa665b500519",
       "readerUrl": "https://clevelandsuperheroes.com/",
       "sourceConfig": "print/book-three-cover.json",
-      "sourceConfigSha256": "a3d9e607a1091352071d34f32f9d0efcfa3693ee5a9f2424f02f2f992ba90ad7"
+      "sourceConfigSha256": "02f958e78bce16557a104e2d4d9760f995ae51c635e65fe1894cdecd72a7ca40"
     }
   ],
   "bookFourPaperbackConfigured": false,
   "files": [
     {
       "file": "COVER-FILES.txt",
-      "bytes": 1731,
-      "sha256": "3105dd4970443597a90edd3311f30ba97fe9465c77e6976650dc937a4f5696ad"
+      "bytes": 1806,
+      "sha256": "d89b4a7a032ecf65c931d6338cbab3626279800d475e11f14384c3aebd6055c6"
     },
     {
       "file": "book-four-ebook-cover.jpg",
@@ -66,37 +66,37 @@
     {
       "file": "book-three-back-cover.pdf",
       "bytes": 4997062,
-      "sha256": "90f927b8621616b3772947ca7663867c1b2458637488b6b5d8a098d6933b602c"
+      "sha256": "6dbd8f14f9ffb3e74ecd45160e2cbee344314bb71f923367a9a93c55c143ab8b"
     },
     {
       "file": "book-three-ebook-cover.jpg",
-      "bytes": 858716,
-      "sha256": "1203cfae18e1d6fe5436498354bd22dafc95cff3b66e19f614d63e4945135018"
+      "bytes": 801628,
+      "sha256": "d656fc00633ab36e2a2dbf93e44a6ae08dc2204cc04d0691f46b4a4d34c051b7"
     },
     {
       "file": "book-three-front-cover.pdf",
-      "bytes": 5144900,
-      "sha256": "fe621d87cc3e29d0c2ce36f981928fc21a90ef9cfef63ab8d456cc343326b2b6"
+      "bytes": 5102779,
+      "sha256": "d43bb4d6cf21857d76272c43bbaa637452df1231e09fc4276c7a3638623a0b72"
     },
     {
       "file": "book-three-kdp-cover-preview.png",
-      "bytes": 2448385,
-      "sha256": "d7d738400584f2f5c4256bc4a590df24c48343f3769298fddd7a38acd7291d6c"
+      "bytes": 2434285,
+      "sha256": "277ffeef47e1eabf854791764ac23703b1ac3ec63da829dc4e593679e11156b8"
     },
     {
       "file": "book-three-kdp-cover.pdf",
-      "bytes": 17921897,
-      "sha256": "2afebe9bf89b2b060e42f6f1871d566a3c625eff13ea1a1804061ea14cc1078d"
+      "bytes": 17749380,
+      "sha256": "45a25e74d47a20164449899cd7b6582010472f73b69acec8cb9b02060293a3c9"
     },
     {
       "file": "book-three-print-specifications.json",
       "bytes": 1290,
-      "sha256": "665cc4b235907b2c87e4897476862ea1cd5b5ef34b00fa79088d128e9fe49b13"
+      "sha256": "68ddfa1798bd4b6156d260b1ce92d2614c31e882db93f33a4a956282ce0c6596"
     },
     {
       "file": "book-two-back-cover.pdf",
       "bytes": 4582795,
-      "sha256": "2f18d27f3da82a55bb7bc888174f7bcd8ebe335825d000cb79804f992f401fdb"
+      "sha256": "b3904c76309dbebb1c29655521c02d17b2f10532873d16503e7bb88c928abab6"
     },
     {
       "file": "book-two-ebook-cover.jpg",
@@ -106,7 +106,7 @@
     {
       "file": "book-two-front-cover.pdf",
       "bytes": 4765663,
-      "sha256": "2842876f5e616831e21246e3d830063eb53a8640798b2f05e6b5fb53a4d185b9"
+      "sha256": "d0106aceeb3a25a1691baafbd50d074d35a9fbdb4b1a8e22e8050296f1bcdd80"
     },
     {
       "file": "book-two-kdp-cover-preview.png",
@@ -116,17 +116,17 @@
     {
       "file": "book-two-kdp-cover.pdf",
       "bytes": 16368246,
-      "sha256": "3a41b0fa09788d182a48d9bf5adf33437b601a4bc16ba4caa83f0953872f0685"
+      "sha256": "c200e02d14f3c0e1e4e2adcc5e3ebe2214e900fe854a33a19bdcc9fe4c50206b"
     },
     {
       "file": "book-two-print-specifications.json",
       "bytes": 1298,
-      "sha256": "d0ad9b651521f1bce8a014df554079381c97f992c39c7fdd0c64013a5cb30094"
+      "sha256": "a5d28142943546028e5ceda3e480132b24b025d3e7a1b4e6c4e78e4538ebe106"
     },
     {
       "file": "origins-back-cover.pdf",
       "bytes": 4415472,
-      "sha256": "ab32dc53446d5fca5bc2726633462d2df7a95cffc1ba9241a0fd6d3c96708b29"
+      "sha256": "626b400ec188d2c76ee95e8066db6fd48956defd6ecbd5fcc7183471b63cf52b"
     },
     {
       "file": "origins-cover-preview.png",
@@ -141,12 +141,12 @@
     {
       "file": "origins-front-cover.pdf",
       "bytes": 5108228,
-      "sha256": "3f7856680fb3bff41fa3719378f7642102b3766d2e0ddd4e587724255ba1ac16"
+      "sha256": "fc6dbed1fc23f3501920ce9fe68db76b71da8cb2a746d878faf8a099d055c12b"
     },
     {
       "file": "origins-kdp-cover.pdf",
       "bytes": 17149716,
-      "sha256": "546798020720c57bac070c0072cb80ef1d246a07df36a17af67d273af68804e3"
+      "sha256": "227df22a1999bba28af2cfd57bdd7eab76fc2f478e2fa859a37587ced17a3643"
     },
     {
       "file": "print-specifications.json",

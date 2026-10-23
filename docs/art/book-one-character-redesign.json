@@ -528,5 +528,6 @@
     "concept": "c",
     "name": "The Unlikely Heroes",
     "previousCover": "public/assets/origins-cover-curious-fist-v5.png"
-  }
+  },
+  "followup": "The all-book consistency follow-up supersedes affected artwork references in this historical pass: docs/art/series-art-consistency-v2.json."
 }
