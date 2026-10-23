@@ -3,7 +3,7 @@
   "title": "Clash in Cleveland",
   "number": 4,
   "author": "Jay Jones",
-  "status": "In progress",
+  "status": "Draft complete",
   "description": "Cleveland’s defenders face their greatest loss—and Dork’s bid to bring the city to its knees.",
   "chapters": [
     "chapter-01.json",
@@ -16,7 +16,9 @@
     "chapter-08.json",
     "chapter-09.json",
     "chapter-10.json",
-    "chapter-11.json"
+    "chapter-11.json",
+    "chapter-12.json",
+    "chapter-13.json"
   ],
   "publicationStatus": "Unpublished",
   "cover": "book-four-cover-clash-design-web-v1.webp",
