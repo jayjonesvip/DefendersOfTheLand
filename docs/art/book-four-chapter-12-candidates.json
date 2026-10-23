@@ -2,204 +2,409 @@
   "book": "book-four",
   "chapter": 12,
   "title": "Off Comes the Top",
-  "status": "Complete illustrated draft; visually reviewed; author review pending",
+  "status": "Draft chapter and fourteen illustrations prepared for author review",
+  "review": "962 words, fourteen illustrations. Approved action outline implemented. No cape on Zerdo; Fist has a small tucked underside thumb in every appearance. Jaws reduced in dive, pavement and aftermath scenes. Ray removed intact before empty turret shell crushes vacant hull. Jaws temporarily tethered by closed metal jaw using previously established tank tow chain, with Seth and Fist guarding; supervised transport requested. Laura remains powered and under escort, invitation unanswered. Original and superseded illustrations retained.",
   "images": [
     {
-      "chapter": 12,
+      "number": 1,
+      "key": "control",
+      "label": "Not another shot",
+      "anchorBefore": "His hand went toward the firing control.",
+      "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-c1480da5-708e-4d78-8838-832c1eb567f2.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v2.png",
+      "webArt": "book-four-chapter-12-control-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-98e290e4-4ede-44a0-994a-1be737a52b91.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-98e290e4-4ede-44a0-994a-1be737a52b91.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. ZERDO/Seth: youthful brown messy hair BLUE eyes RED domino mask BLUE full jumpsuit RED Z chest RED cape RED gloves RED tall boots red belt gold buckle, natural proportions. JENNY: youthful long curly golden BLONDE hair GREEN eyes WHITE domino mask opaque PINK full jumpsuit WHITE stripes belt gloves tall boots, natural modest proportions. DORK: older skinny man wild GRAY hair huge ROUND black glasses rolled GRAY shirtsleeves black tie black trousers black shoes. Olive military TRACKED tank, no crew except Dork in LOWER HULL driver hatch, never turret seat. Short stepped COPPER-RINGED emitter mounted through square bolted turret plate, NOT long cannon. CLOSE dramatic low angle tightly composed at FRONT hull DRIVER opening: Dork leaning back down inside his lower driver seat reaching toward a small WIRED FIRING CONTROL mounted inside hull, his frightened face visible, his reaching hand clear. At top of frame Zerdo's TWO red-gloved hands grip the buckled LOWER OUTER EDGE of crooked STILL ATTACHED turret, part of blue sleeves/red cape visible at left; enough body context to show these hands belong to Zerdo standing beside tank. Turret still seated on ring, dent from previous punch. NO blue beam, no shot, no explosion. No other people closeup. Moment before lift.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 2,
       "key": "lift",
-      "asset": "book-four-chapter-12-lift-v1.webp",
-      "anchor": "The whole assembly came up in his hands.",
-      "alt": "Zerdo tears the complete turret from the tank, its copper-ringed ray still mounted inside and its firing cable disconnected; Dork remains in the lower hull’s driver opening.",
+      "label": "Off comes the top",
+      "anchorBefore": "The whole assembly came up in his hands.",
+      "alt": "Zerdo tears the complete turret clear of the tank, with its copper emitter attached and its firing cable disconnected.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-2377b33d-968e-4474-8ace-fc25b07ff31d.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v2.png",
+      "webArt": "book-four-chapter-12-lift-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+        "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png"
       ],
-      "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: Public Square midday immediately after the turret punch in reference1. WIDE LOW ANGLE heroic climax-in-progress: Zerdo stands on pavement beside olive WWII-style tank, BOTH dark brown gloved hands under the lower rim of its ENTIRE detached round turret, arms lifting that heavy turret just ABOVE HIS HEAD and a full visible AIR GAP above the now OPEN CIRCULAR turret ring on hull. BOTH brown boots planted on pavement, orange mask face clear. Copper-ringed SHORT emitter remains bolted through front plate of lifted turret; ray box INSIDE turret, NO beam, no long cannon. One visibly UNPLUGGED firing cable dangling between turret and hull, no sparks/fire/explosion. Dork stays visible in separate LOWER FRONT HULL driver hatch below turret ring, shocked, no other crew. Jenny alone at far left OUTSIDE weight and emitter line. Intact Terminal Tower behind, empty street, no Fist/Jaws or other crowd. Turret roughly half tank width, NOT a giant tank suspended whole. All hands readable.",
-      "source": "/workspace/generated_images/exec-a5bc31ba-5971-4eef-b3e3-51cdf79ca393.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v1.png",
-      "webArt": "book-four-chapter-12-lift-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "11afd6ffcb40271ff984f2d72123801e78137a79ca383988ddb09ac91953624c",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "Complete turret lifted above open hull ring; copper emitter stays mounted, control cable visibly unplugged, Dork remains in separate forward driver position. Natural hero proportions and canonical costumes."
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. ZERDO/Seth: youthful brown messy hair BLUE eyes RED domino mask BLUE full jumpsuit RED Z chest RED cape RED gloves RED tall boots red belt gold buckle, natural proportions. JENNY: youthful long curly golden BLONDE hair GREEN eyes WHITE domino mask opaque PINK full jumpsuit WHITE stripes belt gloves tall boots, natural modest proportions. DORK: older skinny man wild GRAY hair huge ROUND black glasses rolled GRAY shirtsleeves black tie black trousers black shoes. Olive military TRACKED tank, no crew except Dork in LOWER HULL driver hatch, never turret seat. Short stepped COPPER-RINGED emitter mounted through square bolted turret plate, NOT long cannon. BIG HEROIC LOW ANGLE: Zerdo stands boots planted on pavement LEFT of tank, both red-gloved hands hold whole heavy olive turret HIGH CLEAR OF HULL above shoulder height. Lifted TURRET is a hollow steel assembly, short copper-ringed emitter still securely IN its front plate. Torn turret-ring bolts below, ONE disconnected black cable dangling freely with loose end visibly separated from lower hull. Huge OPEN CIRCULAR TURRET RING on otherwise intact turretless hull RIGHT. Dork still at LOWER FRONT HULL driver opening BELOW and clear of lifted turret; small Jenny farLEFT standing safely clear. Clear air between turret and hull proves separation. Exactly one turret, one hull, one copper emitter. No beam, no new longgun. Hero lifting metal NOT standing on tank.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v1.png"
+        }
+      ]
     },
     {
-      "chapter": 12,
+      "number": 3,
+      "key": "cuff",
+      "label": "Teeth at the cuff",
+      "anchorBefore": "Fist rolled hard. Iron teeth clapped shut behind his white cuff.",
+      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired white cuff.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-183b2c4b-1739-478c-bb6e-fd58be85514d.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v2.png",
+      "webArt": "book-four-chapter-12-cuff-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-845da02a-d94b-44e6-967b-f1d28c686ec8.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. AERIAL CLOSE near miss above Cleveland rooftops. Exactly TWO flying characters, bodyless. FIST-O-MITE one independent expressive RED boxing glove with big cartoon eyes and small mouth, white stitched REPAIRED cuff trailing, tucked underside thumb, NO arm wrist torso or second glove. JAWS same spiky blond floating HUMAN HEAD with rectangular riveted STEEL JAW and triangular iron teeth, no neck body limbs. Fist tilts UP-LEFT with face looking back determined, Jaws toRIGHT bites down BEHIND white cuff, visible full hand-width GAP, no tooth contact. Dynamic roll with curved motion arc instead of straight chase; detailed roofs small below. No torn fabric or blood, keep both entirely visible.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "key": "extract",
+      "label": "Out of the driver’s seat",
+      "anchorBefore": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
+      "alt": "Jenny pulls Dork from the lower hull driver opening while Zerdo holds the detached turret safely aside.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-cb77fd96-2192-41ac-b841-35fb2af86084.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v2.png",
+      "webArt": "book-four-chapter-12-extract-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-df398a96-0fb9-4f98-a8b3-91b4cec89dac.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-df398a96-0fb9-4f98-a8b3-91b4cec89dac.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. ZERDO/Seth: youthful brown messy hair BLUE eyes RED domino mask BLUE full jumpsuit RED Z chest RED cape RED gloves RED tall boots red belt gold buckle, natural proportions. JENNY: youthful long curly golden BLONDE hair GREEN eyes WHITE domino mask opaque PINK full jumpsuit WHITE stripes belt gloves tall boots, natural modest proportions. DORK: older skinny man wild GRAY hair huge ROUND black glasses rolled GRAY shirtsleeves black tie black trousers black shoes. Olive military TRACKED tank, no crew except Dork in LOWER HULL driver hatch, never turret seat. Short stepped COPPER-RINGED emitter mounted through square bolted turret plate, NOT long cannon. Clear street-level ACTION. Tank RIGHT is TURRETLESS, its upper hull has EMPTY CIRCULAR ring opening, no copper emitter anywhere on hull. Dork half out of LOWER FRONT driver hatch, climbing onto street as Jenny LEFT of opening pulls his forearm firmly with both white-gloved hands, Dork protesting. Safe coherent human extraction, no person squeezed in turret ring, no broken bones. In leftBACKGROUND Zerdo holds single detached olive turret CLEAR to side, copper-ringed emitter STILL in turret, disconnected wire dangling. Jenny and Dork foreground readable, Zerdo secondary but distinct; exactly these three people. Hull intact not yet smashed. No floating parts, beam or duplicate turret.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 5,
       "key": "arrest",
-      "asset": "book-four-chapter-12-arrest-v1.webp",
-      "anchor": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
-      "alt": "Jenny brings Dork out through the tank’s lower forward driver hatch to waiting officers and Billy while Zerdo holds the detached turret safely to one side.",
+      "label": "Billy takes over",
+      "anchorBefore": "An officer fastened cuffs behind Dork’s back. The other took his arm.",
+      "alt": "Billy directs two officers as they take the struggling Dork into custody behind a stone planter.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-9462184a-0767-4c54-bc56-dac9dec6b86b.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v2.png",
+      "webArt": "book-four-chapter-12-arrest-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-connections-design-v1.webp"
+        "/workspace/generated_images/exec-de3c65f5-d2cc-49ec-a2ad-cd76443e500a.png"
       ],
-      "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: Midday same Public Square. MAIN ACTION foreground-right: Jenny firmly escorts Dork by ONE wrist and elbow as he climbs out through the separate OPEN LOWER FORWARD DRIVER HATCH in sloping front hull of olive tracked tank; he steps from armor toward pavement, gray shirt dark trousers, huge round glasses. Hull turret is completely ABSENT leaving clear open top circular mounting. Behind left, Zerdo on pavement supports the detached round turret clear to LEFT of Jenny/Dork path, copper-ringed emitter still attached NO beam, show dark-brown gloves/boots. Billy OLDER lined gray-sideburned face, stocky short ADULT in tan coat plaid hat waits beside TWO adult navy uniformed 1980s Cleveland officers several paces away. Clearly separate everyone and coherent limbs, one tank hull one turret. Terminal Tower intact. No villains besides Dork, no fire.",
-      "source": "/workspace/generated_images/exec-0d13b00d-de2d-4587-ae91-0d41cb0127f8.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v1.png",
-      "webArt": "book-four-chapter-12-arrest-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "0a0800b882c80dd19fe0c3b4529e5e178f82b2a031cf9adc445e7b105bd7efd1",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "Jenny removes Dork through the forward lower driver hatch; Seth keeps detached turret to one side. Billy is visibly older; two officers wait clear."
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-de3c65f5-d2cc-49ec-a2ad-cd76443e500a.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration, exactly match reference visual style, warm richly detailed ink lines, Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings and intact Terminal Tower when skyline visible. No captions, speech balloons, words, sound-effect lettering, logos, panel borders or collage. Readable anatomy, exactly two arms/legs per human. No ghosts or new characters. ZERDO/Seth: youthful brown messy hair BLUE eyes RED domino mask BLUE full jumpsuit RED Z chest RED cape RED gloves RED tall boots red belt gold buckle, natural proportions. JENNY: youthful long curly golden BLONDE hair GREEN eyes WHITE domino mask opaque PINK full jumpsuit WHITE stripes belt gloves tall boots, natural modest proportions. DORK: older skinny man wild GRAY hair huge ROUND black glasses rolled GRAY shirtsleeves black tie black trousers black shoes. Street-level medium-wide arrest on SAFE FAR SIDE of broad stone planter. Dork center fullbody hands cuffed BEHIND BACK, two navy-uniform Cleveland 1980s police officers escort him, he twists angrily but no violence/injury. Jenny beside officers white gloves lowered. BILLY atLEFT same distinctive small detective reference2: RED AND BLACK PLAID DEERSTALKER cap, BROWN hair huge oval cartoon eyes, TAN trenchcoat HIGH UPSTANDING collar hiding lowerface, brown trousers/shoes; he points officers along clear sidewalk, do NOT make Billy an adult policeman or give mask. Turretless tank small distantBACKGROUND beyond planter, Zerdo holding removed turret offside if visible tiny. No Laura or Jaws in foreground, do not reuse Laura arrest. No handheld gun.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-telephone-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v1.png"
+        }
+      ]
     },
     {
-      "chapter": 12,
+      "number": 6,
       "key": "ray",
-      "asset": "book-four-chapter-12-ray-v1.webp",
-      "anchor": "She loosened both straps, unplugged the remaining short lead and slid the box backward. The copper rings came through the front plate with it.",
-      "alt": "Jenny uses a socket wrench to release the ray’s mounting straps inside the detached turret as Zerdo steadies it; the intact gray box and copper emitter come out together.",
+      "label": "Get the ray out",
+      "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
+      "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-e5df2665-e03c-4753-94e3-9cffd70ef19c.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v2.png",
+      "webArt": "book-four-chapter-12-ray-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/generated_images/exec-e0597b0b-884d-4929-963f-16c20268b39a.png"
+        "/workspace/generated_images/exec-82163f72-e9da-4b89-a389-f961d0333e48.png"
       ],
-      "prompt": "TARGETED BACKGROUND CONTINUITY EDIT of this existing 3:2 landscape illustration. Preserve ALL foreground artwork exactly: mature Jenny's green eyes/WHITE mask/pink suit/white gloves and boots, Zerdo's blue eyes/orange mask/orange WHITE-Z suit/BROWN gloves and boots, their two hands each, socket wrench, detached turret resting on side, single gray ray box/copper emitter, unplugged cable and two loose mounting straps. FIX ONLY THE DISTANT TANK at far RIGHT behind Zerdo: that hull has already lost its turret, now seen in the foreground. DELETE the small second TURRET and any copper emitter/cannon visible above the distant hull. Replace with a low FLAT TURRET-LESS hull roof with an OPEN DARK CIRCULAR EMPTY TURRET MOUNTING RING. Keep its existing tracks, hull position/scale, sidewalk/buildings and intact Terminal Tower. Exactly ONE turret in the entire scene: the detached foreground shell. Exactly ONE ray: foreground box. No people or foreground changes, no text, beam, fire, long gun or duplicate parts.",
-      "source": "/workspace/generated_images/exec-2f80647d-c20d-4093-ac19-bc208c4a11a6.png",
-      "generationHistory": [
+      "previousVersions": [
         {
-          "source": "/workspace/generated_images/exec-e0597b0b-884d-4929-963f-16c20268b39a.png",
-          "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: CLOSE MEDIUM equipment rescue on cleared pavement midday. Detached olive rounded tank turret RESTS on its side on pavement with torn-open underside accessible. Jenny crouches at left, WHITE gloved hand using SOCKET WRENCH to loosen an exposed steel strap and other hand supporting SINGLE intact gray shrink-ray box being SLID BACKWARDS OUT of turret. Recognizable copper-ringed SHORT emitter is attached to SAME gray box and has come clear of square front plate. Empty front opening behind it, NO duplicate emitter or second ray, NO beam. Two heavy mounting straps loosened, unplugged control cable. Zerdo crouches right steadies heavy outer shell with BOTH BROWN gloves. His visible eye BLUE, Jenny eyes GREEN. Both fully recognizable natural young-adult faces. No Dork/crew or other characters. Empty turret-less hull distant behind; Terminal Tower intact. Show complete device shape and clear separated fingers/tools.",
+          "version": 1,
+          "source": "/workspace/generated_images/exec-82163f72-e9da-4b89-a389-f961d0333e48.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky stone buildings and intact Terminal Tower. No words captions speech bubbles printed sound effects logos panels or collage. Clear coherent anatomy TWO arms/legs per human. ZERDO same youthful brown messy hair blue eyes RED mask BLUE full suit RED Z chest RED cape RED gloves tall boots red belt gold buckle. JENNY same youthful long curly golden blonde hair green eyes WHITE mask PINK opaque full suit WHITE stripes belt gloves boots, natural modest proportions. MEDIUM CLOSE mechanical action street-level: whole REMOVED OLIVE TANK TURRET lies safely on pavement with OPEN UNDERSIDE facing camera at an angle. Jenny crouches LEFT beside underside, WHITE-gloved hands drawing ONE gray riveted RECTANGULAR RAY BOX (analog gauge, red/blue buttons, top handle, stepped SHORT COPPER-RINGED EMITTER attached at its front as reference2) BACKWARD OUT of accessible mounting cradle. Emitter slid ALMOST FULLY out of ROUND FRONT HOLE in turret, clear visible ring of empty space around end, just ONE emitter connected to carried box. Loose nuts and one wrench beside mounting bracket, one slack disconnected cable. Zerdo RIGHT braces turret with both red hands; he isn't holding ray. NO actual tank hull in foreground; turretless intact hull tiny background. No Dork Jenny duplicates crew or beam. Make extraction readable and ray a manageable 50cm box distinct from much larger hollow turret. Visible white star on olive armor. Device never doubled.",
           "references": [
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
-            "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-03-ray-v1.webp"
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-06-theft-v1.webp"
           ],
-          "review": "Rejected: background hull still has a duplicate turret.",
-          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v1-rejected-01.png",
-          "excludedFromPublication": true
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v1.png"
         }
-      ],
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v1.png",
-      "webArt": "book-four-chapter-12-ray-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "d2daa00e62636f602134f2638229cf38d0ae08421dc4067366f603a606a84e37",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "Single gray ray and copper emitter remain one unit; straps, socket wrench and disconnected lead visible. Corrected distant hull has an empty turret ring, with no duplicate turret."
+      ]
     },
     {
-      "chapter": 12,
+      "number": 7,
+      "key": "dive",
+      "label": "We’ll bail you out",
+      "anchorBefore": "He broke away from Fist and dived.",
+      "alt": "Jaws dives toward Laura’s police cruiser with Fist pursuing from above.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-2f01bda1-1096-4fd3-b4c8-d8d63346a632.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-dive-v2.png",
+      "webArt": "book-four-chapter-12-dive-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS IS MUCH TOO BIG. REDUCE his entire floating head/iron jaw to 35% of its CURRENT linear size, keeping same location/flight path, a normal human-sized head comparable to nearby officers' heads allowing slight perspective. NOT a giant head. Reduce Fist to 70% of current size too so one normal head and one head-sized glove chase. Reconstruct sky behind reduced figures, preserve officers Laura cruiser unchanged. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-b498e510-1212-4804-9154-94e81329e9ef.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-b498e510-1212-4804-9154-94e81329e9ef.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky stone buildings and intact Terminal Tower. No words captions speech bubbles printed sound effects logos panels or collage. Clear coherent anatomy TWO arms/legs per human. DYNAMIC STEEP AERIAL DIVE toward arrest street. JAWS main upperRIGHT: floating blond human HEAD with riveted STEEL JAW triangular iron teeth, NO neck torso arms body. Angrily diving diagonally downLEFT toward a BLUE/WHITE 1980s FULLSIZE police cruiser belowLEFT, rear door OPEN. FIST follows a few lengths behind highRIGHT, one red expressive boxing glove white stitched cuff NO arm/body, much smaller but recognizable. BELOW by car: wet LAURA curly BROWN ponytail BLACK mask full opaque BLACK suit red/yellow flame FABRIC side panels, wrists cuffed BEHIND BACK, stepping backward behind open rear door; navy police escort with her and second officer holding RED extinguisher. Laura looking UP tense/angry, not attacking or freed. Clear long path between Jaws and officers, nobody touched yet. Same stone facade golden daylight wet curb, tiny discarded black coat faraway optional. NO fire or beam.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-dive-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "key": "intercept",
+      "label": "The glove gets there first",
+      "anchorBefore": "His knuckles struck the side of the iron jaw.",
+      "alt": "Fist punches Jaws sideways away from the police cruiser and Laura’s escort.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-7969a129-53ac-46b2-ad29-9498ceac4fb0.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v2.png",
+      "webArt": "book-four-chapter-12-intercept-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-dfe70f2c-2e9a-425e-aaf2-5c5d9beb07dd.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-dfe70f2c-2e9a-425e-aaf2-5c5d9beb07dd.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky stone buildings and intact Terminal Tower. No words captions speech bubbles printed sound effects logos panels or collage. Clear coherent anatomy TWO arms/legs per human. SIDE VIEW dynamic interception several meters ABOVE EMPTY CLEAR PAVEMENT. FIST LEFT same ONE independent RED expressive boxing glove, white repaired cuff trailingLEFT thumb tucked, NO arm body, his padded knuckles punch RIGHT into SIDE of JAWS metal jaw. JAWS right same floating blond human head iron rectangular riveted jaw triangular teeth, NO neck/body, flies sideways towardRIGHT AWAY FROM cruiser. Small yellow impact star and readable lateral rightward motion. Far LEFT background BLUE/WHITE 1980s cruiser open rear door with LAURA BLACK mask curly brown ponytail opaque BLACK flame-fabric full suit hands still cuffed behind, police escort and extinguisher officer safely small. Neither fighter contacts car/officers. Jaws bodyless, exactly one glove/one head foreground. No broken teeth blood beam or flames.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "key": "clear",
+      "label": "Clear the tank",
+      "anchorBefore": "She raised her hand to Seth.",
+      "alt": "Billy carries the disconnected ray behind cover as Jenny checks the empty hull and signals Zerdo.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-ec42a944-18c3-47dd-bcdc-1c0c92f71168.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v2.png",
+      "webArt": "book-four-chapter-12-clear-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIX DORK in small BACKGROUND arrest group: he is a NORMAL HUMAN older man with WILD GRAY HAIR HUGE ROUND BLACK GLASSES and HUMAN MOUTH, gray rolled shirtsleeves black tie. Remove wrongly added blond hair or steel jaw from Dork; he is NOT Jaws and has no iron teeth. No other scene changes. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-d2d66750-3fd7-4184-9f91-4d135f7dbf73.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-d2d66750-3fd7-4184-9f91-4d135f7dbf73.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings, intact Terminal Tower. No captions words speech bubbles printed sound effects logos panels collage, except hero costume's established RED Z. Coherent TWO arms/legs per human. ZERDO: youthful messy BROWN hair BLUE eyes RED mask BLUE suit RED Z chest RED cape gloves tall boots red belt gold buckle. JENNY: youthful long CURLY GOLDEN BLONDE hair GREEN eyes WHITE mask PINK full opaque suit WHITE stripes belt gloves tall boots, modest natural proportions. BILLY: small detective with RED/BLACK PLAID DEERSTALKER, BROWN hair huge oval cartoon eyes TAN trenchcoat high collar concealing lower face, brown pants shoes, never adult police. Street-level mediumwide, moments BEFORE tank smash. EMPTY TURRETLESS olive tracked hull RIGHT fully intact, large circular roof ring OPEN. Jenny beside lower FRONT DRIVER opening, leaning to check EMPTY seat, one white-gloved hand raised giving all-clear. In LEFT foreground Billy carries one gray RAY BOX in both hands low and pointed diagonally down away from people: rivets top handle analog gauge red/blue buttons and SHORT COPPER-RINGED EMITTER, exactly as reference3. Billy moving BEHIND broad stone planter toward navy police officer on safe side. Dork may be small cuffed with another officer fartherLEFT. SINGLE empty olive turret shell resting in background near Zerdo, EMPTY ROUND front hole NO copper emitter on turret. A heavy steel tow chain lies on curb well clear of tank. Copper device only in Billy hands, no firing or extra weapon. Exactly one hull one shell.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-v3.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-telephone-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-06-theft-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "key": "raise",
+      "label": "Up it goes",
+      "anchorBefore": "He lifted it high.",
+      "alt": "Zerdo raises the empty turret shell overhead, with its front emitter opening visibly empty.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-d3fc9112-132f-484e-8f1a-d0dcfbb5ab26.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v2.png",
+      "webArt": "book-four-chapter-12-raise-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-8c96cc37-c8d2-45aa-aedf-dd57c308727b.png"
+      ],
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-8c96cc37-c8d2-45aa-aedf-dd57c308727b.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky stone buildings and intact Terminal Tower. No words captions speech bubbles printed sound effects logos panels or collage. Clear coherent anatomy TWO arms/legs per human. ZERDO same youthful brown messy hair blue eyes RED mask BLUE full suit RED Z chest RED cape RED gloves tall boots red belt gold buckle. JENNY same youthful long curly golden blonde hair green eyes WHITE mask PINK opaque full suit WHITE stripes belt gloves boots, natural modest proportions. HUGE low-angle pause BEFORE impact: Zerdo boots planted pavement LEFT of TURRETLESS EMPTY TANK HULL RIGHT, TWO red-gloved hands supporting whole huge detached OLIVE TURRET SHELL high above his head ready to swing DOWN. Crucial: RAY WAS REMOVED, so turret has a totally EMPTY DARK ROUND FRONT APERTURE within square bolted frontplate, NO copper rings barrel emitter box gun or firing beam anywhere in lifted shell. Hollow underside and torn ring visible. Tank hull belowRIGHT intact so far with EMPTY circular roof hole, no one inside. RED cape flowingLEFT. Dork farLEFT tiny behind distant planter with two navy police, hands cuffed behindback, OUTSIDE turret swing, not inside tank. Jenny and Billy out of foreground. Exactly one lifted shell one hull. Do not draw completed crushing action yet. The empty aperture large enough to read. No explosion.",
+          "references": [
+            "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v1.png"
+        }
+      ]
+    },
+    {
+      "number": 11,
       "key": "smash",
-      "asset": "book-four-chapter-12-smash-v1.webp",
-      "anchor": "He brought the turret down.",
-      "alt": "Zerdo brings the empty turret shell down onto the evacuated tank, crushing its armor and buckling its tracks; Terminal Tower stands intact beyond the cleared street.",
+      "label": "Down comes the tank",
+      "anchorBefore": "He brought the turret down.",
+      "alt": "Zerdo smashes the empty turret shell across the vacant hull, folding armor and buckling the tracks.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-de91580f-6442-45ad-92ce-fc1ed9d26363.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v2.png",
+      "webArt": "book-four-chapter-12-smash-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/generated_images/exec-9f954547-3118-4aaa-b941-a18d3399b73b.png"
+        "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png"
       ],
-      "prompt": "TARGETED ANATOMY CORRECTION to this existing illustration. Preserve exactly its landscape 3:2 composition, painted inked style, characters, costume colors, crushing impact, EMPTY turret front opening, rubble, tank track shape, intact Terminal Tower, and distant Jenny. Zerdo mistakenly has THREE ARMS. He must have EXACTLY TWO ARMS TOTAL: retain ONLY the TWO ARMS RAISED ABOVE HIS HEAD holding the turret with TWO DARK BROWN GLOVED HANDS. DELETE COMPLETELY the EXTRA THIRD ARM extending horizontally/down-right across his chest toward the tank and the extra brown hand resting on the hull near the CENTER of the picture. Reconstruct the orange suit torso and crushed tank surface naturally where that extra arm/hand were. Both remaining arms attach naturally one to each shoulder and both hands grip the turret's underside while bringing it down. Clear normal anatomy, two shoulders two elbows two wrists two brown gloves TOTAL. No other anatomy or object changes. Seth is same mature graduation-age brown-haired BLUE-eyed young man with orange white-edged domino mask, orange suit WHITE front Z/shoulders/leg stripes, WHITE belt circular front buckle, BROWN gloves/boots. Do not add beam/emitter/fire/cannon/people or change his action. One complete finished corrected illustration, no labels or text.",
-      "source": "/workspace/generated_images/exec-997d958e-09e3-4496-b339-3098818db40f.png",
-      "generationHistory": [
+      "previousVersions": [
         {
-          "source": "/workspace/generated_images/exec-9f954547-3118-4aaa-b941-a18d3399b73b.png",
-          "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: LARGEST HEROIC ACTION climax: dynamic WIDE LOW ANGLE on CLEARED Public Square pavement. Zerdo alone prominent, natural young adult in orange/WHITE Z suit BROWN gloves/boots, feet planted and BOTH arms swinging an EMPTY olive round TURRET SHELL DOWN ACROSS empty tank HULL. Exact instant impact: turret shell hits hull roof just above tracks, hull plates fold inward, one track breaks loose as long iron loop, dust and tiny metal fragments low to ground, NO fireball, flames, shells, beam or victims. Turret shell has EMPTY square front plate opening: copper emitter and ray removed, NO cannon and NO copper rings on impact shell. No one inside tank, hatch OPEN EMPTY. Everyone kept out of swing area: only a SMALL distant Jenny behind large stone planter at LEFT. Dork/Billy/ray are OFFSCREEN securely behind stone building corner, do NOT add them near wreck. Intact Terminal Tower distant center, bright blue sky. Clear readable downward force, not Zerdo holding entire tank or punching it. One hull and one detached shell.",
+          "version": 1,
+          "source": "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky stone buildings and intact Terminal Tower. No words captions speech bubbles printed sound effects logos panels or collage. Clear coherent anatomy TWO arms/legs per human. ZERDO same youthful brown messy hair blue eyes RED mask BLUE full suit RED Z chest RED cape RED gloves tall boots red belt gold buckle. JENNY same youthful long curly golden blonde hair green eyes WHITE mask PINK opaque full suit WHITE stripes belt gloves boots, natural modest proportions. CHAPTER'S BIGGEST ACTION IMAGE, spectacular clear SIDE THREEQUARTER VIEW. Zerdo LEFT standing feet planted on clear STREET, both red-gloved hands DRIVE SINGLE DETACHED EMPTY OLIVE TURRET SHELL DOWN across EMPTY TURRETLESS TANK HULL atRIGHT. Show MOMENT OF CRUSHING IMPACT: hull armor folding inward under heavy turret, broken right track BUCKLING AND SPILLING across pavement, pale dust and short steel fragments safely confined to empty wreck. RED cape streamsLEFT. His body outside impact area, TWO arms only. TURRET SHELL has EMPTY BLACK ROUND FRONT HOLE within square bolted plate, NO copper rings or emitter, machine removed earlier. RAY AND ALL PEOPLE removed from destruction area, no Dork inside tank, no victims. Entire hull unoccupied, no person under falling shell. Intact Terminal Tower tall in leftbackground. One tank, one shell, no duplicated turret, no longgun. NO shells flame fireball explosion blast bomb or blue beam; pure crushing steel impact. WIDE strong action reading, warm comic impact lines without text.",
           "references": [
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
-            "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+            "/workspace/generated_images/exec-ff9e929d-126b-4c02-a7ee-1d1a486063b3.png"
           ],
-          "review": "Rejected: third arm in smashing pose.",
-          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v1-rejected-01.png",
-          "excludedFromPublication": true
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v1.png"
         }
-      ],
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v1.png",
-      "webArt": "book-four-chapter-12-smash-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "6076daed9b5a74c2ad601ee44dbdee2e59adecdefa5e3437bed8ac14792d10c7",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "Corrected pose has exactly two arms holding empty turret shell. Empty front opening, crushed evacuated hull and buckled tracks visible; Jenny stays behind planter and Terminal Tower remains intact."
+      ]
     },
     {
-      "chapter": 12,
-      "key": "jaws",
-      "asset": "book-four-chapter-12-jaws-v1.webp",
-      "anchor": "Seth bent the steel around the outside of the iron jaw. He folded its ends together beneath the casing, holding the upper and lower metal sections closed. Nothing covered Jaws’s nose or eyes.",
-      "alt": "With Fist hovering beside him, Zerdo folds a heavy steel mounting strap around Jaws’s closed metal jaw casing; the bodyless head’s nose and eyes remain clear.",
+      "number": 12,
+      "key": "charge",
+      "label": "Jaws comes back",
+      "anchorBefore": "He charged with his teeth wide open.",
+      "alt": "Jaws charges Fist above the wrecked tank while the glove waits and begins a last-second dodge.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-6390588b-1f99-43d1-996c-1137f5c34c32.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-charge-v3.png",
+      "webArt": "book-four-chapter-12-charge-v3.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/generated_images/exec-38a3d9b1-84f1-4824-8fe5-28f79dd5b453.png"
+        "/workspace/generated_images/exec-6e6a650d-f752-4eec-9dfe-269a3ded4c11.png"
       ],
-      "prompt": "TARGETED CORRECTION of this finished illustration. Keep same landscape 3:2 framing, exact painted inked style, warm colors, wrecked tank, intact Terminal Tower, Fist's approved red glove face/button nose/cuff, and Zerdo/Jaws identities. FIX ONLY steel restraint and Zerdo's hand positions: currently a metal strap wrongly extends up over Jaws's forehead and blocks an eye. REMOVE ALL of that strap ABOVE the existing METAL JAW'S UPPER horizontal frame. Reconstruct forehead/hair/eyebrow/eye so BOTH EYES, NOSE and ENTIRE HUMAN FACE ABOVE THE JAW are COMPLETELY CLEAR. Add instead ONE compact heavy U-shaped STEEL CLAMP around the OUTSIDE LEFT METAL CORNER of the jaw casing ONLY: its top lip hooks over the jaw's upper horizontal METAL bar BELOW THE NOSE, its short vertical section crosses ONLY the left riveted metal corner, and its bottom folds under the LOWER METAL frame. It bridges upper/lower metal casing to hold teeth CLOSED. It never reaches the eyes, forehead, hair, cheeks or skin. Jaw remains CLOSED with teeth visible and his head BODYLESS. Move Zerdo's UPPER brown-gloved hand down from above Jaws's hair to GRIP THE CLAMP AT THE METAL JAW CORNER JUST BELOW NOSE LEVEL. His lower brown-gloved hand bends clamp under lower metal frame. Exactly TWO naturally attached arms/hands total, both touching metal ONLY. His BLUE eyes, orange white-edged domino mask, orange WHITE-Z suit, white belt and DARK BROWN gloves unchanged. No injury, no extra glove/arm/body, no beam/text. One finished corrected image.",
-      "source": "/workspace/generated_images/exec-f9ca5e2e-5649-4769-a485-fcb33c94294f.png",
-      "generationHistory": [
+      "previousVersions": [
         {
-          "source": "/workspace/generated_images/exec-38a3d9b1-84f1-4824-8fe5-28f79dd5b453.png",
-          "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: MEDIUM CLOSE on capture over wrecked EMPTY olive tank hull. Zerdo at left leans in, BOTH BROWN GLOVED hands bending ONE thick dull-steel mounting strap around OUTSIDE of Jaws's already CLOSED rectangular METAL JAW casing. The strap is a narrow U-brace running over upper metal frame, down sides and folded under LOWER steel jaw to prevent it opening. NOT over human forehead/nose/eyes/skin. Jaws at right is a SINGLE BODYLESS blond head, angry eyes and NO neck/torso, teeth CLOSED, nose and eyes completely clear, no blood/injury. Glove hands touch METAL ONLY. Fist floats at upper left observing with determined satisfaction, one continuous red boxing glove, correct SHORT RED cuff with ONE inset WHITE outlined rectangle, round RED button nose, one top/back thumbfold no second thumb. Fist is roughly same scale as Jaws head. No Jenny/Laura/Dork/other bodies. Intact Terminal Tower distant. Match approved Fist face and cuff reference2, NOT white cuff wrapped around entire glove. Capture not another punch, clear gap between Fist and jaws.",
+          "version": 1,
+          "source": "/workspace/generated_images/exec-efebe911-0c3d-41c9-a5c8-1306ca145216.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings, intact Terminal Tower. No captions words speech bubbles printed sound effects logos panels collage, except hero costume's established RED Z. Coherent TWO arms/legs per human. FIST: ONE independent expressive RED boxing glove WHITE stitched REPAIRED cuff thumb tucked underside, NO arm body wrist or second glove. JAWS: ONE floating HUMAN HEAD spiky blond hair eyes riveted RECTANGULAR STEEL JAW triangular teeth, NO neck torso body limbs. TIGHT dynamic showdown above newly WRECKED olive tank: Jaws RIGHT charging LEFT teeth WIDE open angry furious, Fist LEFT waiting poised then just STARTING to drop BELOW jaw trajectory, white cuff high and safely out of teeth. Clear full glove and entire head, space between them not yet touching. Foreground flyers each about quarterwidth. Below middle distance CRUSHED TURRETLESS tank hull broken tracks, empty turret shell lodged across hull, EMPTY DARK ROUND aperture NO copper barrel emitter, accurate wreck reference2. No person trapped under wreck. Intact tower behind. Short right-to-left motion strokes behind Jaws, small downward curved stroke by glove, NO impacts or punch yet, NO blood or injuries. No other fullbody characters flying.",
           "references": [
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
-            "/workspace/DefendersOfTheLand/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png",
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-consistency-v2.webp"
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp",
+            "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png"
           ],
-          "review": "Rejected: restraint extends over forehead and eye rather than metal casing only.",
-          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-jaws-v1-rejected-01.png",
-          "excludedFromPublication": true
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-charge-v1.png"
+        },
+        {
+          "version": 2,
+          "source": "/workspace/generated_images/exec-6e6a650d-f752-4eec-9dfe-269a3ded4c11.png",
+          "prompt": "Edit this illustration to correct FIGHT DIRECTION only. Preserve same full-bleed 3:2 painted inked style, intact Terminal Tower, crushed tank below with EMPTY turret front hole, blue midday sky and character identities. JAWS at upperRIGHT MUST FACE LEFT and charge LEFT TOWARD FIST. Turn ONLY Jaws's head so his NOSE and OPEN IRON TEETH point SCREEN-LEFT, his visible eye looking LEFT directly at glove. Blond hair streams to screenRIGHT; leftward speed streaks trail atRIGHT of head. Jaws stays bodyless with no neck. FIST at upperLEFT faces RIGHT toward approaching Jaws, red knuckles screenRIGHT and white stitched cuff screenLEFT; glove has begun dipping DOWNWARD slightly BELOW Jaws's open biting mouth, clear air gap, no contact or impact yet. Make the two opponents FACE EACH OTHER, not fly the same direction. One red glove and one blond human head only, no added arms/body. A curved downward white motion tick near glove indicates last-instant dodge. No text or speech balloons.",
+          "references": [
+            "/workspace/generated_images/exec-efebe911-0c3d-41c9-a5c8-1306ca145216.png"
+          ],
+          "status": "Direction corrected; superseded by thumb correction",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-charge-v2.png"
         }
-      ],
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-jaws-v1.png",
-      "webArt": "book-four-chapter-12-jaws-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "f9da4f5ceb2aaf1ea031e0250e16ad0bd5ba90ba3fafb1feec65c57abce54df2",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "Short steel brace bridges upper/lower metal jaw casing only. Eyes, nose, forehead and skin clear; bodyless head remains held by Seth. Correct Fist face, button nose, single top/back thumbfold and red cuff with inset white panel."
+      ]
     },
     {
-      "chapter": 12,
-      "key": "laura",
-      "asset": "book-four-chapter-12-laura-v1.webp",
-      "anchor": "Laura looked away. She gave no answer.",
-      "alt": "The soaked, coatless Laura looks down beside the police car after Jenny leaves the offer to help open; officers and a firefighter maintain supervision.",
+      "number": 13,
+      "key": "down",
+      "label": "Fist wins the round",
+      "anchorBefore": "Jaws hit the clear pavement beside the wreck and skidded to a stop.",
+      "alt": "Jaws lies dazed on clear pavement beside the wreck while Fist guards him and Jenny approaches.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-a6cca10c-d953-4b1b-819f-5b38fec5a1ee.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v2.png",
+      "webArt": "book-four-chapter-12-down-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce head/jaw to 40% current linear size; he is a normal human-sized floating head resting on pavement, slightly closer to camera but not giant compared to Zerdo or Jenny. Reduce Fist to 50% current size, comparable to Jaws head. Preserve dazed eyes, closed intact iron jaw and open clear space around them. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
       "references": [
-        "/workspace/generated_images/exec-e128d282-034b-4796-a0b9-00ce13f12fe8.png"
+        "/workspace/generated_images/exec-f53989f0-a5c9-40f0-8dc1-087734efadaf.png"
       ],
-      "prompt": "TARGETED COSTUME CORRECTION to this exact existing landscape illustration. Preserve same composition, detailed painted/inked style, ALL faces/expressions/body proportions/poses/limbs and props, wet pavement, surrendered coatless Laura's closed/downcast eyes and black mask/ponytail/flame-fabric suit/hands cuffed behind her, two officers, firefighter's charged hose, cruiser, extinguisher and city setting. ONLY correct Jenny at LEFT: give her the clearly visible canonical OPAQUE WHITE DOMINO EYE MASK, a neat shaped white band across bridge of nose and around BOTH eyes, with two almond eye holes showing her existing natural GREEN irises. White mask wraps temples and matches her white gloves/boots/belt. Keep her mature graduation-age face, curly golden-blonde hair, open mouth and calm alert expression and all her pink/white suit exactly. Do not change Laura's mask, add plasma, change eye colors, age, costume or anything else. No text. One finished illustration.",
-      "source": "/workspace/generated_images/exec-a3934262-3825-4782-a2bf-c15691d92e50.png",
-      "generationHistory": [
+      "previousVersions": [
         {
-          "source": "/workspace/generated_images/exec-e128d282-034b-4796-a0b9-00ce13f12fe8.png",
-          "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: Quiet arrest beat same wet Public Square side street after battle midday. Laura foreground RIGHT standing next to OPEN rear door blue/white 1980s police cruiser, COAT OFF wet ponytail and costume, hands cuffed BEHIND her back. She lowers BROWN eyes in weary deliberate surrender, mouth closed NO plasma, powers not cured. Jenny foreground LEFT maintains attentive balanced stance with feet apart and open white-gloved hands, calm but ready not celebrating or embracing. Adult mature face GREEN eyes white mask blonde curls. Two navy officers beside car keep space; at far left a firefighter at a respectful distance holds CHARGED HOSE nozzle down, NO water sprayed at anyone, wet ground only. Extinguisher beside officer. No Fist, Jaws, Dork, or flames. No coat on Laura. Background discreet broken tank silhouette far away only if visible. Warm painterly inked detail, expressions carry emotional beat.",
+          "version": 1,
+          "source": "/workspace/generated_images/exec-f53989f0-a5c9-40f0-8dc1-087734efadaf.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings, intact Terminal Tower. No captions words speech bubbles printed sound effects logos panels collage, except hero costume's established RED Z. Coherent TWO arms/legs per human. ZERDO: youthful messy BROWN hair BLUE eyes RED mask BLUE suit RED Z chest RED cape gloves tall boots red belt gold buckle. JENNY: youthful long CURLY GOLDEN BLONDE hair GREEN eyes WHITE mask PINK full opaque suit WHITE stripes belt gloves tall boots, modest natural proportions. BILLY: small detective with RED/BLACK PLAID DEERSTALKER, BROWN hair huge oval cartoon eyes TAN trenchcoat high collar concealing lower face, brown pants shoes, never adult police. FIST: ONE independent expressive RED boxing glove WHITE stitched REPAIRED cuff thumb tucked underside, NO arm body wrist or second glove. JAWS: ONE floating HUMAN HEAD spiky blond hair eyes riveted RECTANGULAR STEEL JAW triangular teeth, NO neck torso body limbs. LOW PAVEMENT VIEW after fight. Jaws head resting tilted upright on clear STREET in foreground RIGHT, dazed unfocused eyes, blond hair rumpled, metal jaw INTACT and mouth nearlyclosed, not bloody no bruises no broken teeth. Fist hovering just LEFT ABOVE him watching alert determined, cuff clear of jaw, only one glove. Jenny approaches fromLEFT background fullbody with a COILED HEAVY STEEL TOW CHAIN in both white-gloved hands, not yet on Jaws, focused. Nearby background crushed olive TANK WRECK with EMPTY turret shell settled across crushed hull broken track, shell front empty round aperture NO copper emitter. No one in wreck. No neck or torso under Jaws; head unmistakably independent. No impact stars cartoon stars over head or text. Dork/Billy/Laura not needed in frame.",
           "references": [
-            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-consistency-v2.webp",
-            "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp",
+            "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png"
           ],
-          "review": "Rejected: Jenny's white domino mask insufficiently defined.",
-          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-laura-v1-rejected-01.png",
-          "excludedFromPublication": true
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v1.png"
         }
+      ]
+    },
+    {
+      "number": 14,
+      "key": "aftermath",
+      "label": "The square belongs to the city again",
+      "anchorBefore": "Above them, every window of Terminal Tower caught the afternoon light.",
+      "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower.",
+      "status": "Draft prepared for author review; requested corrections applied",
+      "source": "/workspace/generated_images/exec-47947774-fd72-4859-97de-17eaff029068.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v2.png",
+      "webArt": "book-four-chapter-12-aftermath-v2.webp",
+      "prompt": "Edit the provided image with the following precise corrections, preserving composition, scene action, all established faces/costumes/props and painted inked style. ZERDO MUST HAVE NO CAPE: completely remove ALL red cape cloth at his neck, shoulders, back, flying behind him or pooled below him, including small background Zerdo. Restore background and fitted BLUE suit shoulders/back; retain RED gloves boots belt mask and RED Z chest emblem. No replacement scarf or trailing fabric. FIST-O-MITE ANATOMY: correct the floating RED BOXING GLOVE to ONE smooth padded knuckle block with expressive eyes/mouth, WHITE stitched cuff trailing. Its THUMB must be VERY SMALL, tightly TUCKED UNDER THE UNDERSIDE of the knuckle block, nearly hidden in silhouette (a tiny nub at most 5-8% glove width). REMOVE large protruding thumb/lobe, swollen sideways thumb, finger-like bumps, second glove and any arm/wrist/body. Keep normal boxing glove identity, NOT a mitten, red ball, hand or two-lobed fist. Keep face on main knuckle padding. JAWS HEAD SCALE: reduce Jaws entire head/jaw to 55% current linear size, comparable humanhead to Zerdo's head, reduce Fist to 65% current size too. IMPORTANT CLOSE JAWS'S IRON MOUTH FULLY, metal upper and lower rows touching. The heavy towing chain loops around CLOSED UPPER AND LOWER METAL SIDE PLATES together, mechanically holding metal jaw halves SHUT, not around skin or neck. Nose eyes unobstructed, no human body. The short chain tether runs to rear tow eye of wreck AND Seth holds it. Do not leave mouth open through restraint. No text, captions, panels or new characters. Keep same landscape 3:2 crop. Apply costume correction ONLY if Zerdo is already visible; do not add him or any extra character.",
+      "references": [
+        "/workspace/generated_images/exec-9a9959c1-7fda-4880-a8df-cee763f024af.png"
       ],
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-laura-v1.png",
-      "webArt": "book-four-chapter-12-laura-v1.webp",
-      "dimensions": [
-        1536,
-        1024
-      ],
-      "sha256": "40c74a7e26a438ffd38847eeaa15122a669b72c8b974021d2abceb0a9bd68fd6",
-      "status": "Visually reviewed; author review pending",
-      "reviewed": true,
-      "authorApproved": false,
-      "reviewNotes": "White domino mask restored on mature green-eyed Jenny. Laura stays soaked, coatless, cuffed behind back and downcast; officers and charged hose retain supervision, no cure or beam.",
-      "placementReview": "Reused unchanged after Laura looks away without answering Jenny. Her downcast pose also fits the unresolved invitation; the original generation prompt records the earlier surrender draft."
+      "previousVersions": [
+        {
+          "version": 1,
+          "source": "/workspace/generated_images/exec-9a9959c1-7fda-4880-a8df-cee763f024af.png",
+          "prompt": "ONE full-bleed LANDSCAPE 3:2 painted inked superhero chapter-book illustration matching references exactly, rich warm colors detailed inkwork Cleveland Public Square 1987 BRIGHT MIDDAY blue sky golden stone buildings, intact Terminal Tower. No captions words speech bubbles printed sound effects logos panels collage, except hero costume's established RED Z. Coherent TWO arms/legs per human. ZERDO: youthful messy BROWN hair BLUE eyes RED mask BLUE suit RED Z chest RED cape gloves tall boots red belt gold buckle. JENNY: youthful long CURLY GOLDEN BLONDE hair GREEN eyes WHITE mask PINK full opaque suit WHITE stripes belt gloves tall boots, modest natural proportions. BILLY: small detective with RED/BLACK PLAID DEERSTALKER, BROWN hair huge oval cartoon eyes TAN trenchcoat high collar concealing lower face, brown pants shoes, never adult police. FIST: ONE independent expressive RED boxing glove WHITE stitched REPAIRED cuff thumb tucked underside, NO arm body wrist or second glove. JAWS: ONE floating HUMAN HEAD spiky blond hair eyes riveted RECTANGULAR STEEL JAW triangular teeth, NO neck torso body limbs. WIDE CINEMATIC ENSEMBLE AFTERMATH accounts for heroes/villains in THREE WELL SPACED GROUPS, no action impact, dust settled, warm light. CENTER midground wrecked OLIVE tank hull crushed with broken tracks and EMPTY turret shell settled into it, dark EMPTY ROUND front hole, no copper on wreck. FOREGROUND RIGHT Zerdo stands looking UP toward INTACT TERMINAL TOWER, one lowered red hand HOLDS SLACK controlled steel towing-chain tether; its short length connects wreck rear towing eye to bodyless JAWS HEAD resting on street beside wreck. A couple loops of chain around ONLY CLOSED STEEL JAW SIDE PLATES bind metal upper/lower halves, NOT his neck nose eyes hair or human face, face unobstructed and no body, breathing through nose clear, no injured expression just angry. FIST hovers nearby guarding. LEFT behind stone planter BILLY in plaid deerstalker tan coat stands beside gray riveted RAY BOX on pavement with TOP HANDLE analog gauge red/blue controls SHORT COPPER RING EMITTER pointed DOWN and inactive, police officer guards device; DORK gray wildhair round glasses gray shirtsleeves tie sitting handcuffed behindback between two navy police, not wearing brown suit. FAR RIGHT MIDGROUND small BLUE/WHITE 1980s police cruiser open rear door: LAURA curly brown ponytail BLACK mask full opaque BLACK flame-fabric suit wet, hands cuffed BEHIND BACK, Jenny facing her nearby and TWO navy officers escort, one carrying RED extinguisher. No flames, no flight recovery, no beam, no cheering crowd or extra duplicate characters. Keep groups separated by clear pavement so everyone is readable, make main focus wreck and Zerdo/Fist/Jaws, others secondary small. ONE Zerdo ONE Jenny ONE Billy ONE Dork ONE Laura ONE glove ONE Jaws total.",
+          "references": [
+            "/workspace/generated_images/exec-58edef6a-55bc-430c-a257-9d821a96143c.png",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v4.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-telephone-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-counter-v1.webp"
+          ],
+          "status": "Superseded by author-requested costume/anatomy corrections",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v1.png"
+        }
+      ]
     }
-  ],
-  "placementRevision": "Action-heavy prose restored from the earlier Chapter 12; all six current illustrations retained unchanged. Updated anchors and Laura description, without regenerating art."
+  ]
 }

@@ -10,7 +10,9 @@
     },
     {
       "type": "prose",
-      "text": "His hand went toward the firing control."
+      "text": "His hand went toward the firing control.",
+      "art": "book-four-chapter-12-control-v2.webp",
+      "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim."
     },
     {
       "type": "prose",
@@ -39,8 +41,8 @@
     {
       "type": "prose",
       "text": "The whole assembly came up in his hands.",
-      "art": "book-four-chapter-12-lift-v1.webp",
-      "alt": "Zerdo tears the complete turret from the tank, its copper-ringed ray still mounted inside and its firing cable disconnected; Dork remains in the lower hull’s driver opening."
+      "art": "book-four-chapter-12-lift-v2.webp",
+      "alt": "Zerdo tears the complete turret clear of the tank, with its copper emitter attached and its firing cable disconnected."
     },
     {
       "type": "prose",
@@ -72,7 +74,9 @@
     },
     {
       "type": "prose",
-      "text": "Fist rolled hard. Iron teeth clapped shut behind the white panel on his cuff."
+      "text": "Fist rolled hard. Iron teeth clapped shut behind his white cuff.",
+      "art": "book-four-chapter-12-cuff-v2.webp",
+      "alt": "Fist rolls away as Jaws snaps his metal teeth just behind the repaired white cuff."
     },
     {
       "type": "prose",
@@ -109,8 +113,8 @@
     {
       "type": "prose",
       "text": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
-      "art": "book-four-chapter-12-arrest-v1.webp",
-      "alt": "Jenny brings Dork out through the tank’s lower forward driver hatch to waiting officers and Billy while Zerdo holds the detached turret safely to one side."
+      "art": "book-four-chapter-12-extract-v2.webp",
+      "alt": "Jenny pulls Dork from the lower hull driver opening while Zerdo holds the detached turret safely aside."
     },
     {
       "type": "prose",
@@ -146,7 +150,9 @@
     },
     {
       "type": "prose",
-      "text": "An officer fastened cuffs behind Dork’s back. The other took his arm."
+      "text": "An officer fastened cuffs behind Dork’s back. The other took his arm.",
+      "art": "book-four-chapter-12-arrest-v2.webp",
+      "alt": "Billy directs two officers as they take the struggling Dork into custody behind a stone planter."
     },
     {
       "type": "prose",
@@ -174,33 +180,25 @@
     },
     {
       "type": "prose",
-      "text": "Through the torn underside she could see the gray box. Two steel straps held it against the front plate. The broken control cable hung loose beneath it."
+      "text": "The ray’s metal box sat in a bolted cradle. Its broken control lead hung beside the turret ring."
     },
     {
       "type": "prose",
-      "text": "A firefighter brought a socket wrench from his truck. Jenny fitted it over the first exposed nut."
+      "text": "“Tool rack,” Seth said, nodding toward the hull."
     },
     {
       "type": "prose",
-      "text": "“Hold this steady.”"
+      "text": "Jenny fetched a wrench from the clips beside the driver’s seat. While Seth steadied the steel shell, she loosened the cradle’s retaining nuts."
     },
     {
       "type": "prose",
-      "text": "“I am.”"
+      "text": "The last bracket swung free."
     },
     {
       "type": "prose",
-      "text": "“I meant the strap.”"
-    },
-    {
-      "type": "prose",
-      "text": "Seth shifted one hand."
-    },
-    {
-      "type": "prose",
-      "text": "She loosened both straps, unplugged the remaining short lead and slid the box backward. The copper rings came through the front plate with it.",
-      "art": "book-four-chapter-12-ray-v1.webp",
-      "alt": "Jenny uses a socket wrench to release the ray’s mounting straps inside the detached turret as Zerdo steadies it; the intact gray box and copper emitter come out together."
+      "text": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
+      "art": "book-four-chapter-12-ray-v2.webp",
+      "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street."
     },
     {
       "type": "prose",
@@ -216,7 +214,9 @@
     },
     {
       "type": "prose",
-      "text": "He broke away from Fist and dived."
+      "text": "He broke away from Fist and dived.",
+      "art": "book-four-chapter-12-dive-v2.webp",
+      "alt": "Jaws dives toward Laura’s police cruiser with Fist pursuing from above."
     },
     {
       "type": "prose",
@@ -244,7 +244,9 @@
     },
     {
       "type": "prose",
-      "text": "His knuckles struck the side of the iron jaw."
+      "text": "His knuckles struck the side of the iron jaw.",
+      "art": "book-four-chapter-12-intercept-v2.webp",
+      "alt": "Fist punches Jaws sideways away from the police cruiser and Laura’s escort."
     },
     {
       "type": "prose",
@@ -276,11 +278,11 @@
     },
     {
       "type": "prose",
-      "text": "Jenny switched off the engine, pulled out the ignition key and checked the driver’s compartment. Empty."
+      "text": "Jenny checked the driver’s compartment. Empty."
     },
     {
       "type": "prose",
-      "text": "She moved one of the ray’s heavy mounting straps to the curb, out of Seth’s way."
+      "text": "A heavy towing chain hung in clips along the hull. She unhooked it and laid it on the curb, out of Seth’s way."
     },
     {
       "type": "prose",
@@ -288,7 +290,9 @@
     },
     {
       "type": "prose",
-      "text": "She raised her hand to Seth."
+      "text": "She raised her hand to Seth.",
+      "art": "book-four-chapter-12-clear-v2.webp",
+      "alt": "Billy carries the disconnected ray behind cover as Jenny checks the empty hull and signals Zerdo."
     },
     {
       "type": "prose",
@@ -304,7 +308,9 @@
     },
     {
       "type": "prose",
-      "text": "He lifted it high."
+      "text": "He lifted it high.",
+      "art": "book-four-chapter-12-raise-v2.webp",
+      "alt": "Zerdo raises the empty turret shell overhead, with its front emitter opening visibly empty."
     },
     {
       "type": "prose",
@@ -325,8 +331,8 @@
     {
       "type": "prose",
       "text": "He brought the turret down.",
-      "art": "book-four-chapter-12-smash-v1.webp",
-      "alt": "Zerdo brings the empty turret shell down onto the evacuated tank, crushing its armor and buckling its tracks; Terminal Tower stands intact beyond the cleared street."
+      "art": "book-four-chapter-12-smash-v2.webp",
+      "alt": "Zerdo smashes the empty turret shell across the vacant hull, folding armor and buckling the tracks."
     },
     {
       "type": "prose",
@@ -346,7 +352,7 @@
     },
     {
       "type": "prose",
-      "text": "The loose track rattled once."
+      "text": "The engine coughed once."
     },
     {
       "type": "prose",
@@ -366,7 +372,9 @@
     },
     {
       "type": "prose",
-      "text": "He charged with his teeth wide open."
+      "text": "He charged with his teeth wide open.",
+      "art": "book-four-chapter-12-charge-v3.webp",
+      "alt": "Jaws charges Fist above the wrecked tank while the glove waits and begins a last-second dodge."
     },
     {
       "type": "prose",
@@ -378,7 +386,7 @@
     },
     {
       "type": "prose",
-      "text": "The red cuff twitched."
+      "text": "The white cuff twitched."
     },
     {
       "type": "prose",
@@ -394,7 +402,9 @@
     },
     {
       "type": "prose",
-      "text": "Jaws hit the clear pavement beside the wreck and skidded to a stop."
+      "text": "Jaws hit the clear pavement beside the wreck and skidded to a stop.",
+      "art": "book-four-chapter-12-down-v2.webp",
+      "alt": "Jaws lies dazed on clear pavement beside the wreck while Fist guards him and Jenny approaches."
     },
     {
       "type": "prose",
@@ -406,49 +416,31 @@
     },
     {
       "type": "prose",
-      "text": "Seth caught the closed metal casing between his gloves and lifted Jaws low over the empty armor, fingers clear of the teeth."
+      "text": "Jenny arrived with the towing chain."
     },
     {
       "type": "prose",
-      "text": "“Jenny. That bent strap.”"
+      "text": "“Keep him there.”"
     },
     {
       "type": "prose",
-      "text": "Jenny fetched the ray’s heavy mounting strap from the curb."
+      "text": "Before Jaws could open his teeth, she passed the chain around the closed metal jaw. Seth came beside her and pulled it snug against the iron side plates, leaving Jaws’s nose and eyes clear."
     },
     {
       "type": "prose",
-      "text": "Seth bent the steel around the outside of the iron jaw. He folded its ends together beneath the casing, holding the upper and lower metal sections closed. Nothing covered Jaws’s nose or eyes.",
-      "art": "book-four-chapter-12-jaws-v1.webp",
-      "alt": "With Fist hovering beside him, Zerdo folds a heavy steel mounting strap around Jaws’s closed metal jaw casing; the bodyless head’s nose and eyes remain clear."
+      "text": "They fastened the short tether to the tank’s undamaged rear towing eye."
     },
     {
       "type": "prose",
-      "text": "Jaws tried to bite. His teeth could not part far enough to catch the strap."
+      "text": "Jaws tried to rise. The chain drew tight."
     },
     {
       "type": "prose",
-      "text": "He flew toward the street. Seth caught the brace and brought him back."
+      "text": "He tried his teeth. The links held the metal halves together."
     },
     {
       "type": "prose",
-      "text": "“Still flies,” Fist said."
-    },
-    {
-      "type": "prose",
-      "text": "“Then I’m not letting go.”"
-    },
-    {
-      "type": "prose",
-      "text": "Fist hovered beside the captive head. The red leather around his own cuff was whole."
-    },
-    {
-      "type": "prose",
-      "text": "“That’s enough biting.”"
-    },
-    {
-      "type": "prose",
-      "text": "Jaws glared at him. There was still no recognition in his eyes."
+      "text": "Seth kept a hand on the chain. Fist did not move away."
     },
     {
       "type": "prose",
@@ -472,13 +464,11 @@
     },
     {
       "type": "prose",
-      "text": "Laura looked away. She gave no answer.",
-      "art": "book-four-chapter-12-laura-v1.webp",
-      "alt": "The soaked, coatless Laura looks down beside the police car after Jenny leaves the offer to help open; officers and a firefighter maintain supervision."
+      "text": "Laura looked away. She gave no answer."
     },
     {
       "type": "prose",
-      "text": "The officer with the extinguisher stayed nearby. A fire crew brought a charged hose around the corner. Jenny warned the escort that Laura could still fire without using her hands. His partner radioed for supervised transport and a fire crew to accompany it. Nobody hurried her into an unguarded car."
+      "text": "The officer with the extinguisher stayed nearby while his partner radioed for supervised transport. Nobody hurried her into an unguarded car."
     },
     {
       "type": "prose",
@@ -486,11 +476,13 @@
     },
     {
       "type": "prose",
-      "text": "Fist watched Jaws. Seth held the brace."
+      "text": "Fist watched Jaws. Seth held the tether."
     },
     {
       "type": "prose",
-      "text": "Above them, every window of Terminal Tower caught the afternoon light."
+      "text": "Above them, every window of Terminal Tower caught the afternoon light.",
+      "art": "book-four-chapter-12-aftermath-v2.webp",
+      "alt": "The Defenders hold the cleared square around the wrecked tank, secured ray and guarded villains beneath intact Terminal Tower."
     },
     {
       "type": "prose",

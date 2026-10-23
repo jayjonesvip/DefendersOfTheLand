@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-23",
+  "status": "Author-selected earlier Chapter 12 restored and validated for main",
+  "source_page": "https://chatgpt.com/space/page_a5f9f3968d988191aab36441070c5b6d",
+  "source_archive_sha256": "5c0a15924a205b9374f98a8b4590e0b044963e45642f0adbd2bc085765a3ccc1",
+  "chapter_words": 962,
+  "chapter_illustrations": 14,
+  "book_chapters": 13,
+  "book_illustrations": 67,
+  "restored_files": [
+    {
+      "path": "content/books/book-four/chapter-12.json",
+      "bytes": 14052,
+      "sha256": "e12e4f782479ed5d027c5bb5f1896deb70ea8711641d078906729d7fb3d323d0"
+    },
+    {
+      "path": "docs/art/book-four-chapter-12-candidates.json",
+      "bytes": 58386,
+      "sha256": "543c8135cd622d4d29c2ad08aed416b553885fb2a39bac794da144f56c3d9a07"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-v2.png",
+      "bytes": 3351728,
+      "sha256": "f28c725e46c605574d7c11f11a80f81316c3a293e639bdec20e9cc613b895b8c"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-arrest-v2.png",
+      "bytes": 2739462,
+      "sha256": "ac3bc1b2e3a3278c391c9769171487b64b1a70e4105e6c0c298d3066a262b972"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-charge-v3.png",
+      "bytes": 2854196,
+      "sha256": "432b112dfb47e2a3a57c0c887374e9471d7bf7f2e63023345f0ebc9f7ac517ed"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-clear-v2.png",
+      "bytes": 3012183,
+      "sha256": "e2fa68bf345e20245c4b37483968ad34079d455b0a886e5c0c6773e671a160ad"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-v2.png",
+      "bytes": 3087491,
+      "sha256": "6b96fc0231d6e761fb37e97a272e295de90f91a1b8e78e3d694298a9f9f4907d"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-cuff-v2.png",
+      "bytes": 3197105,
+      "sha256": "f0cc16e5a7bc3b0dd0779e24412a75ac945ac7b38377429ff65eec55440287b9"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-dive-v2.png",
+      "bytes": 3001157,
+      "sha256": "b72ecf395878a6440eaa45eb5e03dff39957917460c22ae96262a0e77ab3b809"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-down-v2.png",
+      "bytes": 3253614,
+      "sha256": "7f67943abcf119ccd87ea9def0c039864f26c6959d1d5b534e95e8b5e184ac79"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-extract-v2.png",
+      "bytes": 3139079,
+      "sha256": "31d98d8e677eec712bb9b4f51f037092c5c0cf99d88ae28b0cc034c32be45243"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-intercept-v2.png",
+      "bytes": 2892215,
+      "sha256": "f64c9acb50e2a3e1c2bdcbac401fc14a4a633f722e0ca6df213f7c864730f38e"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lift-v2.png",
+      "bytes": 2927970,
+      "sha256": "ce3f15b3d2e29dfedf60e9342d25040cb54f3736dec33218449635e185481019"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-raise-v2.png",
+      "bytes": 2901125,
+      "sha256": "6d08cf80a6106ccf2b7ff11499520ad59ba239e65217e5a0f66ba3105fcd698e"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-v2.png",
+      "bytes": 2932806,
+      "sha256": "071dcbcfd33d63ca5d225f60a1aa0e303f02d4bffe981ee5d18dcfa47f972f08"
+    },
+    {
+      "path": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-smash-v2.png",
+      "bytes": 3102956,
+      "sha256": "10a3d6847e6e9d400a9b4a8275b7217f6c04c9a4788cbf23ac4f3759b85bbcf5"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-aftermath-v2.webp",
+      "bytes": 631606,
+      "sha256": "ac0aeb42539c1907517df43c06b38a3046c6f3ded986dbfe3b2aed620a1dcc1d"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-arrest-v2.webp",
+      "bytes": 463124,
+      "sha256": "010c9538bf2be1fc3a1d60ba55a57a591dd565f66746f7713ebe748874090435"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-charge-v3.webp",
+      "bytes": 493618,
+      "sha256": "3552f5abfb068c84f4505ae00b9ca7b59b0ba6e1b38951e69db0883de80d9a65"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-clear-v2.webp",
+      "bytes": 531074,
+      "sha256": "e581347db158c95c72aeef472e6d2f52420f4e7ba8ca852e444dd35694c810f1"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-control-v2.webp",
+      "bytes": 565702,
+      "sha256": "a7b1e9cd823d405b72df981c2d07f4795b42d7623edd72b29e896c89a804b98d"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-cuff-v2.webp",
+      "bytes": 605284,
+      "sha256": "0e87cf2ba5913df9f5d4b33b252dbb68bf20c8c9f74ee153d29660f752cea792"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-dive-v2.webp",
+      "bytes": 529394,
+      "sha256": "47e2680ab64d93b7bcf5c5d606abbd41b445ff750cb47679e33507d6aec5cd42"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-down-v2.webp",
+      "bytes": 580756,
+      "sha256": "6637d2e63138d2e5768ebe24c6de452d0e511cbcbc6054842b3936df670835ed"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-extract-v2.webp",
+      "bytes": 562208,
+      "sha256": "a3abce5b40fffa2c0a8991505d3054ec60af1d7c21ec12df03a74353fda88d6f"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-intercept-v2.webp",
+      "bytes": 519412,
+      "sha256": "97684114b85eab496d3ba81afd98be4060cb22e483b512d93c1d965f1487835a"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-lift-v2.webp",
+      "bytes": 513906,
+      "sha256": "d42595cc61436adf3bf836a40e3b8bda11b7da330bd76e07262fe7938b9cca1b"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-raise-v2.webp",
+      "bytes": 506306,
+      "sha256": "01f37e5be201fe549e40603dc22f305edf77e2e1c40e8a0e71bd7b7eb16dcf42"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-ray-v2.webp",
+      "bytes": 493118,
+      "sha256": "f658889263c72d1f80dc20f2596ecc15be844442ddeeec5efeb711c1028ce367"
+    },
+    {
+      "path": "public/assets/book-four-chapter-12-smash-v2.webp",
+      "bytes": 566192,
+      "sha256": "ad8e407b6493252d1de13cf74042529c815d698335cd9a4a1390037cb45af97c"
+    }
+  ],
+  "chapter13_handoff": "Two paragraphs bridge the restored towing chain to the existing recovery crew jaw brace; remaining Chapter 13 prose and art retained.",
+  "retained": "Other chapters, book metadata, cover and newer book-wide art changes retained.",
+  "validation": {
+    "exact_export_file_hashes": "PASS: all 30 restored files",
+    "full_build": "PASS: npm run build",
+    "full_tests": "PASS: npm test; 1566 links/assets, reader layouts, completion state and EPUB/PDF checksums",
+    "print_resolution_unit_tests": "PASS: 7 tests",
+    "book_four_pdf": {
+      "chapters": 13,
+      "illustrations": 67,
+      "pages": 102,
+      "sha256": "b7d47570682c3ba7d1b7e25d7e8e9db0b431356d20b7116f46145b8afc4a5543"
+    },
+    "book_four_epub": {
+      "chapters": 13,
+      "illustrations": 67,
+      "sha256": "ebcb81e216137094606ec7e399a0db29ec8643860e97847e75609c884707b20a"
+    }
+  }
+}
