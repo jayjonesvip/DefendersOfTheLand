@@ -1,7 +1,8 @@
 {
   "book": "book-four",
   "title": "Clash in Cleveland",
-  "status": "Complete draft; author review pending",
+  "status": "Historical review of the package merged in PR #17; author review pending",
+  "supersededBy": "docs/editorial/book-four-action-restoration-review.json supersedes Chapter 12 and the export measurements below. This file preserves the earlier completion review as a historical snapshot.",
   "baselineCommit": "8b0467370924fbc02992a193d8e6bc85ebfc1d08",
   "scope": "Complete Chapters 12–13 and their illustrations; review continuity and validate all 13 reader chapters and rebuilt publishing exports.",
   "chapters": [

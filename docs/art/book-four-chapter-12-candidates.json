@@ -8,7 +8,7 @@
       "chapter": 12,
       "key": "lift",
       "asset": "book-four-chapter-12-lift-v1.webp",
-      "anchor": "Seth lifted the whole turret clear.",
+      "anchor": "The whole assembly came up in his hands.",
       "alt": "Zerdo tears the complete turret from the tank, its copper-ringed ray still mounted inside and its firing cable disconnected; Dork remains in the lower hull’s driver opening.",
       "references": [
         "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
@@ -32,7 +32,7 @@
       "chapter": 12,
       "key": "arrest",
       "asset": "book-four-chapter-12-arrest-v1.webp",
-      "anchor": "She drew him up through the forward hatch. His shoes found the sloping armor, then the pavement. Billy came around the planter with two officers.",
+      "anchor": "Seth held the turret well to the side while Jenny hauled Dork through the lower hatch and onto the street.",
       "alt": "Jenny brings Dork out through the tank’s lower forward driver hatch to waiting officers and Billy while Zerdo holds the detached turret safely to one side.",
       "references": [
         "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
@@ -94,7 +94,7 @@
       "chapter": 12,
       "key": "smash",
       "asset": "book-four-chapter-12-smash-v1.webp",
-      "anchor": "The turret came down across the empty hull.",
+      "anchor": "He brought the turret down.",
       "alt": "Zerdo brings the empty turret shell down onto the evacuated tank, crushing its armor and buckling its tracks; Terminal Tower stands intact beyond the cleared street.",
       "references": [
         "/workspace/generated_images/exec-9f954547-3118-4aaa-b941-a18d3399b73b.png"
@@ -130,7 +130,7 @@
       "chapter": 12,
       "key": "jaws",
       "asset": "book-four-chapter-12-jaws-v1.webp",
-      "anchor": "Seth bent the steel around the outside of the iron jaw. He folded its ends together beneath the casing, holding the upper and lower metal sections closed. Nothing covered Jaws's nose or eyes.",
+      "anchor": "Seth bent the steel around the outside of the iron jaw. He folded its ends together beneath the casing, holding the upper and lower metal sections closed. Nothing covered Jaws’s nose or eyes.",
       "alt": "With Fist hovering beside him, Zerdo folds a heavy steel mounting strap around Jaws’s closed metal jaw casing; the bodyless head’s nose and eyes remain clear.",
       "references": [
         "/workspace/generated_images/exec-38a3d9b1-84f1-4824-8fe5-28f79dd5b453.png"
@@ -167,8 +167,8 @@
       "chapter": 12,
       "key": "laura",
       "asset": "book-four-chapter-12-laura-v1.webp",
-      "anchor": "“I'm done.”",
-      "alt": "The soaked, coatless Laura lowers her gaze and surrenders beside the police car; Jenny stays alert while officers and a firefighter with a charged hose maintain their distance.",
+      "anchor": "Laura looked away. She gave no answer.",
+      "alt": "The soaked, coatless Laura looks down beside the police car after Jenny leaves the offer to help open; officers and a firefighter maintain supervision.",
       "references": [
         "/workspace/generated_images/exec-e128d282-034b-4796-a0b9-00ce13f12fe8.png"
       ],
@@ -197,7 +197,9 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "White domino mask restored on mature green-eyed Jenny. Laura stays soaked, coatless, cuffed behind back and downcast; officers and charged hose retain supervision, no cure or beam."
+      "reviewNotes": "White domino mask restored on mature green-eyed Jenny. Laura stays soaked, coatless, cuffed behind back and downcast; officers and charged hose retain supervision, no cure or beam.",
+      "placementReview": "Reused unchanged after Laura looks away without answering Jenny. Her downcast pose also fits the unresolved invitation; the original generation prompt records the earlier surrender draft."
     }
-  ]
+  ],
+  "placementRevision": "Action-heavy prose restored from the earlier Chapter 12; all six current illustrations retained unchanged. Updated anchors and Laura description, without regenerating art."
 }
