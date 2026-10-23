@@ -1,0 +1,171 @@
+{
+  "book": "book-four",
+  "title": "Clash in Cleveland",
+  "status": "Complete draft; author review pending",
+  "baselineCommit": "8b0467370924fbc02992a193d8e6bc85ebfc1d08",
+  "scope": "Complete Chapters 12–13 and their illustrations; review continuity and validate all 13 reader chapters and rebuilt publishing exports.",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Something’s Wrong",
+      "source": "content/books/book-four/chapter-01.json",
+      "sha256": "4a6e6e5ac8b2305f0addeff26b00d592895023ed3e71f996b3b87928920892d9",
+      "words": 1167,
+      "illustrations": 4,
+      "continuityReview": "Reduced strength and speed are tested in the beam rescue; the team asks for help and Eddie is removed after the beam is supported."
+    },
+    {
+      "number": 2,
+      "title": "Not Fast Enough",
+      "source": "content/books/book-four/chapter-02.json",
+      "sha256": "b93d43f4336f1b12cfb2ea4b167b363fc490f504f44536918078b930d82d8d2a",
+      "words": 1496,
+      "illustrations": 5,
+      "continuityReview": "The robbers escape; the Defenders prioritize Frank and the clerk. Dork learns only what the newspaper reports."
+    },
+    {
+      "number": 3,
+      "title": "Dork’s Opportunity",
+      "source": "content/books/book-four/chapter-03.json",
+      "sha256": "c23c75077fce11d40572b2333a8a28b8f3a55a4dbd3adbbfc2572d200bfa3bb8",
+      "words": 1162,
+      "illustrations": 4,
+      "continuityReview": "The intact Army ray is demonstrated with blue shrinking and red restoration. Dork starts the tank but does not steal the vault yet; Laura conceals weakness."
+    },
+    {
+      "number": 4,
+      "title": "More Power",
+      "source": "content/books/book-four/chapter-04.json",
+      "sha256": "8bbfae501deed88372e9ef2419589d5fc4271032dc712529ef42b78154b8683b",
+      "words": 1231,
+      "illustrations": 5,
+      "continuityReview": "Flaming Head departs hopefully for the Sun. Only Seth and Jenny hear him directly; Seth relays to Billy and Fist."
+    },
+    {
+      "number": 5,
+      "title": "Into the Light",
+      "source": "content/books/book-four/chapter-05.json",
+      "sha256": "c4677253f5f40343eabce64f2b127b2d516d597d6489ee04992ff106ea04d874",
+      "words": 448,
+      "illustrations": 3,
+      "continuityReview": "A solitary solar journey ends inside the light, without a Cleveland cutaway, return or survival reveal."
+    },
+    {
+      "number": 6,
+      "title": "The Missing Vault",
+      "source": "content/books/book-four/chapter-06.json",
+      "sha256": "65f33261b803f2e74eca1c54a41519ceba3b4a653704761c0012b4ea07314550",
+      "words": 1170,
+      "illustrations": 5,
+      "continuityReview": "The separate vault is stolen and restored. Teeth and torch fail; Laura delays while still weak."
+    },
+    {
+      "number": 7,
+      "title": "Something Big",
+      "source": "content/books/book-four/chapter-07.json",
+      "sha256": "a8c056973556f6e218884c07bb6ace42c30d5d0acb0d5df988cc006a1087afed",
+      "words": 657,
+      "illustrations": 3,
+      "continuityReview": "Billy connects the ray, tank, building and vault reports but has not located the laboratory or established guilt solely from the clippings."
+    },
+    {
+      "number": 8,
+      "title": "More Than Before",
+      "source": "content/books/book-four/chapter-08.json",
+      "sha256": "38bf7ae74020d87188494a4fb7eb4df78407b67a272cfb420821d21780a2a9f0",
+      "words": 1072,
+      "illustrations": 4,
+      "continuityReview": "Seth and Jenny recover stronger familiar powers. Laura discovers stronger plasma only when pressed to open the vault. Money moves to the workbench and drawer."
+    },
+    {
+      "number": 9,
+      "title": "Bow to Dork",
+      "source": "content/books/book-four/chapter-09.json",
+      "sha256": "7bd4439e3b986d72e97f231c50847483c6847ae9ed3ce07bada634caee6f69e1",
+      "words": 856,
+      "illustrations": 4,
+      "continuityReview": "Dork retrofits the ray into a fixed forward turret with a wired driver control. Only empty police cars are shrunk. Billy organizes a safe route."
+    },
+    {
+      "number": 10,
+      "title": "Lava Lips and Pink Blur",
+      "source": "content/books/book-four/chapter-10.json",
+      "sha256": "6390f76cd3971d4df4b48d892033a31edb7690d8212c8a4bc3ca3cf487ac5296",
+      "words": 705,
+      "illustrations": 7,
+      "continuityReview": "Laura removes her burned coat before the hydrant maneuver; sideward water ends the fight but does not remove her power. She is cuffed under extinguisher coverage."
+    },
+    {
+      "number": 11,
+      "title": "Clash at the Tower",
+      "source": "content/books/book-four/chapter-11.json",
+      "sha256": "9e65bce58ac10fb282528ddbd3d9c14f785b21ae2a023f54f70296a67e9053fe",
+      "words": 633,
+      "illustrations": 6,
+      "continuityReview": "Fist immediately attacks Jaws, who does not recognize him. Seth deflects one shot away from intact Terminal Tower; its destination stays unseen and the turret remains attached."
+    },
+    {
+      "number": 12,
+      "title": "Off Comes the Top",
+      "source": "content/books/book-four/chapter-12.json",
+      "sha256": "f757dff5facd5eeeb849bca2e71ab590e9fafffcfe64abb7a018e29c4690a5cb",
+      "words": 910,
+      "illustrations": 6,
+      "continuityReview": "The turret is removed, the cable disconnects, and Dork leaves via the forward driver hatch. The ray is physically unfastened and moved clear before the empty tank is smashed. Jaws is held and braced; Laura chooses surrender under continued supervision."
+    },
+    {
+      "number": 13,
+      "title": "For the Land",
+      "source": "content/books/book-four/chapter-13.json",
+      "sha256": "3176707d15d53cc0d0c535583deba43c66301369d289e953adaf324a5738cb77",
+      "words": 972,
+      "illustrations": 3,
+      "continuityReview": "Jaws receives a fixed cage and bolted jaw brace; Laura remains powered and guarded with hose coverage. Police find the laboratory through Billy and a witness, count both vault and drawer money, and Army technicians restore only empty cars. Flaming Head stays absent."
+    }
+  ],
+  "chapterCount": 13,
+  "interiorIllustrations": 59,
+  "newIllustrations": 9,
+  "preservation": {
+    "chapters1Through11": "Unchanged byte for byte from baseline",
+    "previousArtwork": "Retained without edits",
+    "cover": "Existing approved cover retained",
+    "publicationStatus": "Unpublished"
+  },
+  "newDraftChoices": [
+    "Fist forces Jaws’s metal jaw closed; Seth holds it and folds a recovered steel mounting strap around the metal casing, with nose/eyes clear. A bolted brace and fixed cage maintain custody without removing flight or restoring memories.",
+    "Laura chooses surrender under Jenny’s watch and a charged hose. Separate transport, fire crew escort and a guarded cleared masonry wash bay continue containment without curing her power.",
+    "Billy and a driver’s witness account locate the laboratory; officers inventory both the vault money and the bundles removed to the drawer.",
+    "Army personnel restore the empty police cars in a cleared area; the final facility-window scene honors Flaming Head’s absence and ends with the team helping neighbors."
+  ],
+  "validation": {
+    "sourceChecks": "Passed: consecutive available Chapters 1–13, unique titles, no placeholders, nonempty prose, alt text and final ending line.",
+    "syntaxChecks": "Passed: JavaScript exporters/reader verification and Python EPUB exporter compile.",
+    "printResolutionUnitTests": "Seven existing saved-PDF print-resolution tests passed.",
+    "illustrationReview": "All nine final illustrations reviewed at full resolution. Five targeted corrective passes addressed extra arm, jaw-brace placement, duplicate turret, white mask and mature Jenny face. Rejected candidates archived and excluded from publication.",
+    "readerAndPublishingChecks": "npm test passed: all 13 Book Four chapters, exact prose/art/ending parity, 320/390/1200px layouts, chapter navigation, completion state and export checksums. Full suite covered 79 pages and 1558 links/assets, plus all four EPUB previews.",
+    "epubCheck": "EPUBCheck 5.4.0 passed for the rebuilt Book Four EPUB: zero errors or warnings.",
+    "pdfValidation": "95-page illustrated review PDF: 13 chapters, 59 illustrations and 1095 passages verified against source; page bounds, image/text separation, linked contents and final ending checked.",
+    "epubValidation": "13 chapters, 59 interior illustrations and 1095 passages checked against source; cover, chapter order, linked contents, complete-draft notice and ending present.",
+    "visualPDFReview": "All new-chapter pages 83–95 reviewed in contact sheets, after reviewing all nine final illustrations at full resolution.",
+    "buildScope": "Rebuilt Book Four EPUB and illustrated PDF, then regenerated the site. Refreshed the private aggregate EPUB index from measured reports; all four EPUB archive hashes checked. Other books retain their existing tested exports.",
+    "printEdition": "Book Four remains an unpublished review draft. No Book Four KDP paperback interior or wrap configuration has been added."
+  },
+  "exports": {
+    "reviewPDF": {
+      "file": "defenders-of-the-land-book-four-illustrated.pdf",
+      "bytes": 28691347,
+      "sha256": "0ddd0e0afa40d2aa5f2c74945ea1028653b0c9672cadd499f09c22a7b1da9866",
+      "chapters": 13,
+      "interiorIllustrations": 59,
+      "pages": 95
+    },
+    "epub": {
+      "file": "defenders-of-the-land-book-four.epub",
+      "bytes": 28737734,
+      "sha256": "71ac87c3de1cef3472a487d579be978a4976cb1fd7e856bde074d9e7abbb42d5",
+      "chapters": 13,
+      "interiorIllustrations": 59
+    }
+  }
+}

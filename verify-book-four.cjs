@@ -41,7 +41,7 @@ async function check(){
   await page.locator('.book-card').filter({has:page.locator('a[href="book-four.html"]')}).locator('a[href="book-four-chapter-1.html"]').click();
   for(const [index,chapter] of chapters.entries()){
    assert.equal(await page.locator('h1').innerText(),chapter.title);
-   assert.equal(await page.locator('.chapter-body p').allTextContents().then(values=>values.join('\n')),chapter.blocks.map(block=>block.text).filter(Boolean).join('\n'));
+   assert.equal(await page.locator('.chapter-body p').allTextContents().then(values=>values.join('\n')),[...chapter.blocks.map(block=>block.text),chapter.ending].filter(Boolean).join('\n'));
    assert.deepEqual(await page.locator('.chapter-body img').evaluateAll(images=>images.map(image=>image.getAttribute('src'))),chapter.blocks.filter(block=>block.art).map(block=>'assets/'+block.art));
    for(const width of [320,390,1200]){
     await page.setViewportSize({width,height:850});
