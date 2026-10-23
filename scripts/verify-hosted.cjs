@@ -1,7 +1,22 @@
 const assert=require('node:assert/strict'),crypto=require('node:crypto');
 const site=require('../content/site.json');
 const base=(process.argv[2]||site.url).replace(/\/$/,'');
-async function get(file){const response=await fetch(new URL(file,`${base}/`));assert.equal(response.status,200,`${file}: HTTP ${response.status}`);return response}
+async function get(file,expectedStatus=200){
+ for(let attempt=0;attempt<4;attempt++){
+  let response;
+  try{response=await fetch(new URL(file,`${base}/`),{signal:AbortSignal.timeout(30000)});}
+  catch(error){if(attempt===3)throw error;console.warn(`${file}: ${error.message}; retrying`);}
+  if(response){
+   if(![429,500,502,503,504].includes(response.status)||attempt===3){
+    assert.equal(response.status,expectedStatus,`${file}: HTTP ${response.status}; expected ${expectedStatus}`);
+    return response;
+   }
+   console.warn(`${file}: HTTP ${response.status}; retrying`);
+   await response.body?.cancel();
+  }
+  await new Promise(resolve=>setTimeout(resolve,1000*2**attempt));
+ }
+}
 (async()=>{
  const manifest=await(await get('books/downloads.json')).json();assert.equal(manifest.samples.length,2);assert.equal(manifest.sampleEpub.chapters,3);assert(!manifest.full&&!manifest.ebooks&&!manifest.print);
  const sitemap=await(await get('sitemap.xml')).text(),robots=await(await get('robots.txt')).text();
@@ -24,6 +39,7 @@ async function get(file){const response=await fetch(new URL(file,`${base}/`));as
  for(const resource of resources){const response=await get(resource);await response.arrayBuffer();}
  for(const sample of manifest.samples){const response=await get(`books/${sample.file}`);const bytes=Buffer.from(await response.arrayBuffer());assert.equal(bytes.length,sample.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),sample.sha256,sample.file)}
  const removed=['defenders-of-the-land-origins-illustrated.pdf','defenders-of-the-land-origins-text.pdf','defenders-of-the-land-origins.epub','origins-kdp-interior.pdf','origins-kdp-cover.pdf','origins-front-cover.pdf','origins-back-cover.pdf','origins-ebook-cover.jpg',...Array.from({length:18},(_,i)=>`origins-chapter-${String(i+1).padStart(2,'0')}.pdf`)];
- await Promise.all(removed.map(async file=>{const response=await fetch(`${base}/books/${file}`);assert.equal(response.status,404,`Removed download still available: ${file}`)}));
+ // Avoid a burst of 26 simultaneous missing-file requests immediately after deployment.
+ for(const file of removed){const response=await get(`books/${file}`,404);await response.body?.cancel();}
  console.log(`PASS: ${locations.length} sitemap pages and ${resources.size} referenced assets with canonical metadata, paperback purchase links, two combined samples, and 26 removed download URLs at ${base}`);
 })().catch(e=>{console.error(e);process.exitCode=1});
