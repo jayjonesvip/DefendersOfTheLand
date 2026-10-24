@@ -26,6 +26,11 @@ Fist must match `docs/art/fist-o-mite-approved-identity.json`: red leather glove
 small tucked top/back thumb, sculpted face, short red cuff with one inset white
 rectangle and red margins, black wrist rim. No protruding underside thumb,
 all-white sleeve or floating round human head. Superseded art remains archived.
+The artwork/prose continuity follow-up is recorded in
+`docs/art/book-four-prose-matching-2026-10-23.json`: Laura's cuffs stay behind
+her back; the crooked turret remains seated until torn free; Jenny withdraws
+the ray backward through the open rear; Billy pockets the miniature lamp
+before the final aftermath illustration. Preserve these scene states.
 Zerdo wears the approved orange/white/brown costume throughout Book Four and
 must have no cape, including on the cover. Do not introduce further story or
 art changes merely because a historical production note describes older work.

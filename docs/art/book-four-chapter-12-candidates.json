@@ -11,14 +11,13 @@
       "label": "Not another shot",
       "anchorBefore": "Seth’s hands closed around the crooked turret.",
       "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
-      "status": "Integrated; author-authorized costume correction",
-      "source": "/workspace/generated_images/exec-9d3bf054-1030-4b8c-9cfa-1a80e50c68c9.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-orange-v1.png",
-      "webArt": "book-four-chapter-12-control-orange-v1.webp",
-      "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
+      "source": "/workspace/generated_images/exec-cc73c5cc-4f24-4c0f-921e-49df34a5cfe9.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-prose-v1.png",
+      "webArt": "book-four-chapter-12-control-prose-v1.webp",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve Dork in LOWER HULL driver opening, Jenny beside tank, no beam. No text, panels, new people or story change.",
       "references": [
-        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-v2.webp",
-        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp"
       ],
       "previousVersions": [
         {
@@ -45,25 +44,59 @@
           "references": [
             "/workspace/generated_images/exec-98e290e4-4ede-44a0-994a-1be737a52b91.png"
           ]
+        },
+        {
+          "number": 1,
+          "key": "control",
+          "label": "Not another shot",
+          "anchorBefore": "Seth’s hands closed around the crooked turret.",
+          "alt": "Dork reaches toward the firing control while Zerdo grips the crooked turret’s damaged lower rim.",
+          "status": "Integrated; author-authorized costume correction",
+          "source": "/workspace/generated_images/exec-9d3bf054-1030-4b8c-9cfa-1a80e50c68c9.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-orange-v1.png",
+          "webArt": "book-four-chapter-12-control-orange-v1.webp",
+          "prompt": "Localized costume-only edit using original scene and approved orange costume reference: orange suit and eye mask, white Z/shoulders/side stripes/belt, brown boots/gloves, no cape; retain original composition, action, all other characters and scene hardware.",
+          "references": [
+            "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-v2.webp",
+            "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+          ],
+          "sha256": "11d955c95be44cbd4efef68bc003e8b9f0e841932a3dd59f5d25ae674e7ccd73"
         }
       ],
-      "sha256": "11d955c95be44cbd4efef68bc003e8b9f0e841932a3dd59f5d25ae674e7ccd73"
+      "sha256": "ea99d4e0ab4df86167cdd753dfcbcf6ae2d3bf4d590b6bdc3cade2b194e62f84"
     },
     {
       "key": "lamp",
       "label": "Lamp",
-      "previousVersions": [],
-      "webArt": "book-four-chapter-12-lamp-revision-v1.webp",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-revision-v1.png",
-      "source": "/workspace/generated_images/exec-0ea7fe50-3c76-4343-9309-44844700f376.png",
-      "prompt": "Make a precise localized correction to this existing image. It incorrectly shows TWO large falling lantern heads at the RIGHT. REMOVE BOTH and all their loose shards/duplicates, restoring the sky. Show ONLY ONE VERY SMALL intact lantern HEAD FIXTURE, coffee-cup size, falling beside the lamp pole at about the current LOWER head's position. It must be visibly MINIATURE (about one third the width and height of that existing lower head), not a full-size lantern and not two phases of an animation. The same SINGLE BLUE beam from the tank emitter touches this ONE miniature fixture; adjust its endpoint only. Full-sized pole remains upright with an EMPTY mounting point, no lantern still attached. Keep Zerdo ORANGE with white Z and brown gloves/boots, no cape. Preserve ALL other image detail and original 3:2 framing: poses, faces, hands, tank, copper emitter, Dork in lower driver hatch, Jenny, intact Terminal Tower and sky. No extra character, text or panel. One moment, one lamp head, not before/after.",
+      "previousVersions": [
+        {
+          "key": "lamp",
+          "label": "Lamp",
+          "webArt": "book-four-chapter-12-lamp-revision-v1.webp",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-revision-v1.png",
+          "source": "/workspace/generated_images/exec-0ea7fe50-3c76-4343-9309-44844700f376.png",
+          "prompt": "Make a precise localized correction to this existing image. It incorrectly shows TWO large falling lantern heads at the RIGHT. REMOVE BOTH and all their loose shards/duplicates, restoring the sky. Show ONLY ONE VERY SMALL intact lantern HEAD FIXTURE, coffee-cup size, falling beside the lamp pole at about the current LOWER head's position. It must be visibly MINIATURE (about one third the width and height of that existing lower head), not a full-size lantern and not two phases of an animation. The same SINGLE BLUE beam from the tank emitter touches this ONE miniature fixture; adjust its endpoint only. Full-sized pole remains upright with an EMPTY mounting point, no lantern still attached. Keep Zerdo ORANGE with white Z and brown gloves/boots, no cape. Preserve ALL other image detail and original 3:2 framing: poses, faces, hands, tank, copper emitter, Dork in lower driver hatch, Jenny, intact Terminal Tower and sky. No extra character, text or panel. One moment, one lamp head, not before/after.",
+          "references": [
+            "/workspace/generated_images/exec-9dcda375-e900-4458-9bf5-59d23ce277b2.png"
+          ],
+          "alt": "Zerdo forces the crooked mounted ray away from Terminal Tower as one blue shot shrinks a single streetlamp head at the empty curb.",
+          "anchorBefore": "The lamp head shrank to the size of a coffee cup, slipped free of its mount and dropped into the gutter with a clang.",
+          "sha256": "05b714aae64aa3754da6c420eb12857420a97c0b949e8a4e4dc4a3aa3125dbb2",
+          "status": "Integrated; prepared for author review from submitted revision",
+          "number": 2
+        }
+      ],
+      "webArt": "book-four-chapter-12-lamp-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-prose-v1.png",
+      "source": "/workspace/generated_images/exec-e08b91bc-eab0-426e-ae66-aa7812a4d5ee.png",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve the SINGLE BLUE beam hitting ONE MINIATURE falling lamp head beside pole at right; pole empty top, exactly one miniature head, no extra shot or lamp. No text, panels, new people or story change.",
       "references": [
-        "/workspace/generated_images/exec-9dcda375-e900-4458-9bf5-59d23ce277b2.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-lamp-revision-v1.webp"
       ],
       "alt": "Zerdo forces the crooked mounted ray away from Terminal Tower as one blue shot shrinks a single streetlamp head at the empty curb.",
       "anchorBefore": "The lamp head shrank to the size of a coffee cup, slipped free of its mount and dropped into the gutter with a clang.",
-      "sha256": "05b714aae64aa3754da6c420eb12857420a97c0b949e8a4e4dc4a3aa3125dbb2",
-      "status": "Integrated; prepared for author review from submitted revision",
+      "sha256": "013e2f399b6778d005555da310b9dc53d3bce79f0984c8ecdf3381c49c9e4f0a",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
       "number": 2
     },
     {
@@ -114,19 +147,36 @@
     {
       "key": "reverse",
       "label": "Reverse",
-      "previousVersions": [],
-      "webArt": "book-four-chapter-12-reverse-revision-v1.webp",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-revision-v1.png",
-      "source": "/workspace/generated_images/exec-07cefb29-3881-4c9c-912f-7675c7868bca.png",
-      "prompt": "Create ONE new adjacent action scene using these existing chapter pictures for exact identities, orange costume, tank hardware and rich painted inked comic style. LANDSCAPE 3:2, Cleveland Public Square, bright afternoon, intact Terminal Tower in distant skyline. The tank abruptly REVERSES, tearing small chunks from the pavement. Its crooked turret is STILL ATTACHED and has a SHORT copper-ringed emitter, NOT a long cannon. Orange Zerdo stands planted beside the hull, feet braced, gripping the turret rim with BOTH brown-gloved hands as it strains away from him; no firing beam. Jenny has just been THROWN OFF the near low hull and is ROLLING ON CLEAR PAVEMENT to recover, safely to the side of the tracks. Show ONE Jenny, ONE Zerdo, ONE Dork in the LOWER FRONT driver hatch, no one inside turret or under tracks. Jenny: curly golden blonde hair, green eyes, pink/white full suit, white mask/gloves/boots, gray scuffs on both glove palms, unhurt alert face. Zerdo: exact reference ORANGE suit with WHITE Z, white shoulders/side stripes/belt, BROWN gloves/boots, orange eye mask, blue eyes, brown hair; NO CAPE. Keep head sizes natural. Tank intact lower hull, turret not yet removed. No new heroes, duplicates, blood, text or panels. Express sudden motion with dust and diagonal poses, clear space around Jenny.",
+      "previousVersions": [
+        {
+          "key": "reverse",
+          "label": "Reverse",
+          "webArt": "book-four-chapter-12-reverse-revision-v1.webp",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-revision-v1.png",
+          "source": "/workspace/generated_images/exec-07cefb29-3881-4c9c-912f-7675c7868bca.png",
+          "prompt": "Create ONE new adjacent action scene using these existing chapter pictures for exact identities, orange costume, tank hardware and rich painted inked comic style. LANDSCAPE 3:2, Cleveland Public Square, bright afternoon, intact Terminal Tower in distant skyline. The tank abruptly REVERSES, tearing small chunks from the pavement. Its crooked turret is STILL ATTACHED and has a SHORT copper-ringed emitter, NOT a long cannon. Orange Zerdo stands planted beside the hull, feet braced, gripping the turret rim with BOTH brown-gloved hands as it strains away from him; no firing beam. Jenny has just been THROWN OFF the near low hull and is ROLLING ON CLEAR PAVEMENT to recover, safely to the side of the tracks. Show ONE Jenny, ONE Zerdo, ONE Dork in the LOWER FRONT driver hatch, no one inside turret or under tracks. Jenny: curly golden blonde hair, green eyes, pink/white full suit, white mask/gloves/boots, gray scuffs on both glove palms, unhurt alert face. Zerdo: exact reference ORANGE suit with WHITE Z, white shoulders/side stripes/belt, BROWN gloves/boots, orange eye mask, blue eyes, brown hair; NO CAPE. Keep head sizes natural. Tank intact lower hull, turret not yet removed. No new heroes, duplicates, blood, text or panels. Express sudden motion with dust and diagonal poses, clear space around Jenny.",
+          "references": [
+            "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp",
+            "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-extract-orange-v1.webp"
+          ],
+          "alt": "Jenny rolls clear of the reversing tank while orange-suited Zerdo braces beside it and grips the still-attached crooked turret.",
+          "anchorBefore": "She hit the pavement, rolled and came up with both white gloves scraped gray.",
+          "sha256": "43ae32a9c6078f0d305e826efa65291c501d34eb45a8bdeafcb2c02eb202307b",
+          "status": "Integrated; prepared for author review from submitted revision",
+          "number": 4
+        }
+      ],
+      "webArt": "book-four-chapter-12-reverse-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-prose-v1.png",
+      "source": "/workspace/generated_images/exec-ad9893be-b94e-4c73-9cef-83a48c246f1a.png",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve Jenny fallen/rolling clear in foreground, both white gloves scraped, tank reversing with tracks grounded, Dork in lower driver hatch. No text, panels, new people or story change.",
       "references": [
-        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp",
-        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-extract-orange-v1.webp"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-reverse-revision-v1.webp"
       ],
       "alt": "Jenny rolls clear of the reversing tank while orange-suited Zerdo braces beside it and grips the still-attached crooked turret.",
       "anchorBefore": "She hit the pavement, rolled and came up with both white gloves scraped gray.",
-      "sha256": "43ae32a9c6078f0d305e826efa65291c501d34eb45a8bdeafcb2c02eb202307b",
-      "status": "Integrated; prepared for author review from submitted revision",
+      "sha256": "089e2cec3e22e49dace42c9dfcfbced8ac47a49ff211eeac77f02e2d1542f157",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
       "number": 4
     },
     {
@@ -286,14 +336,13 @@
       "label": "Get the ray out",
       "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
       "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street.",
-      "status": "Integrated; author-authorized costume correction",
-      "source": "/workspace/generated_images/exec-c1ee09c3-6ccd-48eb-b0e7-89e4d991dfe4.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-orange-v1.png",
-      "webArt": "book-four-chapter-12-ray-orange-v1.webp",
-      "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Jenny removing the intact COPPER-BARRELED RAY BOX from inside the detached turret while Zerdo steadies its shell. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
+      "source": "/workspace/generated_images/exec-88604358-5311-419a-bc3d-39ff9e0ab4e4.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-prose-v1.png",
+      "webArt": "book-four-chapter-12-ray-prose-v1.webp",
+      "prompt": "Correct ONLY the ray extraction mechanics in this existing painted comic illustration. Jenny is crouching at LEFT inside the open BACK/underside of detached turret shell; Seth steadies shell at RIGHT. The Army ray is a rectangular gray metal box with handle, gauge and red/blue switches; its short COPPER RING BARREL MUST PROJECT FROM BOX'S RIGHT END toward the circular turret front plate at right. Jenny pulls box BACKWARD TO LEFT out of its cradle inside shell. Show the barrel fully withdrawn LEFTWARD clear of the circular plate: the copper muzzle stops to LEFT of the empty hole, with VISIBLE OPEN AIR GAP between muzzle and hole. Hole should be on front wall of shell farther RIGHT than barrel, with dark hollow interior, nothing passing through. Box must be inside the open back, never pulling through front plate. Keep Jenny's hands on handle and box body away from controls. Preserve wrench and loose nuts on ground, Seth's orange/white/brown costume NO CAPE, approved faces, all framing, style and environment. Do not add second barrel, second machine or people. No text/panels.",
       "references": [
-        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-ray-v2.webp",
-        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-ray-orange-v1.webp"
       ],
       "previousVersions": [
         {
@@ -321,9 +370,26 @@
           "references": [
             "/workspace/generated_images/exec-82163f72-e9da-4b89-a389-f961d0333e48.png"
           ]
+        },
+        {
+          "number": 8,
+          "key": "ray",
+          "label": "Get the ray out",
+          "anchorBefore": "She drew the box backward. The short copper rings slid out of the turret’s front plate with it.",
+          "alt": "Jenny releases the ray’s mounting inside the detached turret while Zerdo steadies it on the street.",
+          "status": "Integrated; author-authorized costume correction",
+          "source": "/workspace/generated_images/exec-c1ee09c3-6ccd-48eb-b0e7-89e4d991dfe4.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-orange-v1.png",
+          "webArt": "book-four-chapter-12-ray-orange-v1.webp",
+          "prompt": "Edit IMAGE 1 only. Make a precise localized COSTUME correction to Super Zerdo, the brown-haired BLUE superhero. IMAGE 2 is his approved COSTUME reference only. Change blue bodysuit to vivid ORANGE, red Z to plain WHITE Z, WHITE shoulder panels and white side/outer-leg stripes, WHITE belt with circular buckle, DARK BROWN gauntlet gloves and boots, ORANGE eye mask edged thin white; preserve BLUE eyes. NO CAPE. Keep exactly his original pose, facial identity and expression, head size, hand contact and position. Preserve Jenny, Billy, police, Dork and everyone else exactly; no age/face/outfit changes for them. Keep every tank hardware detail and exact story stage: Jenny removing the intact COPPER-BARRELED RAY BOX from inside the detached turret while Zerdo steadies its shell. Preserve image1's full landscape 3:2 framing, painted inked comic detail, lighting, anatomy, skyline, props and story composition. Only correct Zerdo's clothing surfaces to match reference2, no new text or objects.",
+          "references": [
+            "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-ray-v2.webp",
+            "/tmp/defenders-restore-earlier-ch12/docs/art/originals/super-zerdo-orange-v1/super-zerdo-orange-costume.png"
+          ],
+          "sha256": "81536f7dbec005f85e6c1a6057906cfafe533ad4f0d05b7dcf28800a3fcf9bce"
         }
       ],
-      "sha256": "81536f7dbec005f85e6c1a6057906cfafe533ad4f0d05b7dcf28800a3fcf9bce"
+      "sha256": "357a9eee1510494726a2c7379a96017eb98a51a3f89d4bf8b3521904a8e3135f"
     },
     {
       "number": 9,
@@ -744,16 +810,15 @@
       "key": "aftermath",
       "label": "The square belongs to the city again",
       "anchorBefore": "Fist watched Jaws. Seth held the tether.",
-      "alt": "Orange-suited Zerdo holds Jaws’s jaw tether beside the wreck while Billy holds the tiny lamp head, the captured ray rests under guard, and Laura and Dork remain in custody.",
-      "status": "Integrated; author-requested character identity correction",
-      "source": "/workspace/generated_images/exec-7d5a72e9-588e-44b6-8625-ab545fcf66ab.png",
-      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-identity-v1.png",
-      "webArt": "book-four-chapter-12-aftermath-identity-v1.webp",
-      "prompt": "Edit IMAGE 1 only: precise LOCALIZED FIST-O-MITE IDENTITY correction. Fist is the SMALL red glove at LOWER RIGHT near the pavement, watching chained Jaws; cuff trailing RIGHT. Reference2 is approved FACE; reference3 is approved form/side/hover/cuff. Match the SAME glove: ONE slightly elongated RED LEATHER boxing-glove body, sculpted brow and cheeks, SMALL round red nose, same eye layout and white eyes/dark pupils, dimensional eyelids adapted to alert subdued watchfulness, closed mouth, not an enormous smile. NO giant black laughing mouth or round red floating human head; a small mouth crease formed in leather. ONE SMALL TUCKED thumb fold at TOP/BACK BEHIND the face, never a protruding bulb at side/underside, never a second thumb. SHORT RED leather cuff, ONE inset WHITE rectangular panel with thin BLACK outline and RED margins on all four sides, narrow black rim and DARK HOLLOW wrist. No all-white sleeve, arm, body, laces, letters or extra glove. Keep EXACT original location, SIZE, perspective, orientation, pose and action of Fist. Preserve the CORRECTED OLDER GRAY-HAIRED BILLY at far left, his wrinkles, gray eyebrows/sideburns and miniature LANTERN in hand. Keep ray box on pavement under guard. Preserve Zerdo's chain around Jaws's CLOSED iron jaw with eyes/nose clear, cuffed Laura, all escorts, Dork, ash and EMPTY wreck emitter hole. Preserve ALL other characters, head sizes, faces, actions, props and background. Any Zerdo remains ORANGE/WHITE/BROWN with NO CAPE. Preserve exact rich painted inked comic style, lighting and LANDSCAPE 3:2 framing. No text, panels, added people or changed story. Reference sheet layout/background/poses must not be copied into scene.",
+      "alt": "Orange-suited Zerdo holds the anchored jaw tether beside the wreck while older Billy keeps the miniature lamp in his coat pocket, the captured ray rests under guard, and Laura stands cuffed behind her back.",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
+      "source": "/workspace/generated_images/exec-57989ba9-f033-4e82-b333-aa16956fe421.png",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-prose-v1.png",
+      "webArt": "book-four-chapter-12-aftermath-prose-v1.webp",
+      "prompt": "Edit FIRST image with tiny LOCAL PROP correction ONLY. The rectangular object on ground at LOWER LEFT must be the captured ARMY RAY shown in SECOND reference: gray metal box, ROUND GAUGE on upper front, RED and BLUE selector switches below gauge, and short COPPER-RINGED BARREL projecting rightward at bottom. Restore these missing features on SAME existing box; keep its location/size and guarded status, not firing. Preserve EVERYTHING ELSE from FIRST image including Billy's EMPTY HAND (miniature lamp already in coat pocket), his elderly gray-haired face, Laura's newly back-facing body and hands cuffed BEHIND BACK. Her visible hands in cuffs should be BLACK GLOVES. Preserve chain anchor at wreck, Seth holding chain, Jaws closed bound jaw/nose eyes clear, approved Fist red cuff small tucked thumb, orange Zerdo NO CAPE. No new characters/text/framing changes.",
       "references": [
-        "/workspace/generated_images/exec-b5dd8b60-249b-44fd-8636-2c5fc38e8d29.png",
-        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/fist-o-mite-approved-face.png",
-        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+        "/workspace/generated_images/exec-18111834-8e8c-4785-9151-6b3688fae0b3.png",
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-identity-v1.webp"
       ],
       "previousVersions": [
         {
@@ -816,9 +881,27 @@
             "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-orange-v1.webp"
           ],
           "sha256": "5add786c22e1733625cd2b2b1f45bef0ad47d13d520bb847a9cec7151981d2b9"
+        },
+        {
+          "number": 17,
+          "key": "aftermath",
+          "label": "The square belongs to the city again",
+          "anchorBefore": "Fist watched Jaws. Seth held the tether.",
+          "alt": "Orange-suited Zerdo holds Jaws’s jaw tether beside the wreck while Billy holds the tiny lamp head, the captured ray rests under guard, and Laura and Dork remain in custody.",
+          "status": "Integrated; author-requested character identity correction",
+          "source": "/workspace/generated_images/exec-7d5a72e9-588e-44b6-8625-ab545fcf66ab.png",
+          "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-identity-v1.png",
+          "webArt": "book-four-chapter-12-aftermath-identity-v1.webp",
+          "prompt": "Edit IMAGE 1 only: precise LOCALIZED FIST-O-MITE IDENTITY correction. Fist is the SMALL red glove at LOWER RIGHT near the pavement, watching chained Jaws; cuff trailing RIGHT. Reference2 is approved FACE; reference3 is approved form/side/hover/cuff. Match the SAME glove: ONE slightly elongated RED LEATHER boxing-glove body, sculpted brow and cheeks, SMALL round red nose, same eye layout and white eyes/dark pupils, dimensional eyelids adapted to alert subdued watchfulness, closed mouth, not an enormous smile. NO giant black laughing mouth or round red floating human head; a small mouth crease formed in leather. ONE SMALL TUCKED thumb fold at TOP/BACK BEHIND the face, never a protruding bulb at side/underside, never a second thumb. SHORT RED leather cuff, ONE inset WHITE rectangular panel with thin BLACK outline and RED margins on all four sides, narrow black rim and DARK HOLLOW wrist. No all-white sleeve, arm, body, laces, letters or extra glove. Keep EXACT original location, SIZE, perspective, orientation, pose and action of Fist. Preserve the CORRECTED OLDER GRAY-HAIRED BILLY at far left, his wrinkles, gray eyebrows/sideburns and miniature LANTERN in hand. Keep ray box on pavement under guard. Preserve Zerdo's chain around Jaws's CLOSED iron jaw with eyes/nose clear, cuffed Laura, all escorts, Dork, ash and EMPTY wreck emitter hole. Preserve ALL other characters, head sizes, faces, actions, props and background. Any Zerdo remains ORANGE/WHITE/BROWN with NO CAPE. Preserve exact rich painted inked comic style, lighting and LANDSCAPE 3:2 framing. No text, panels, added people or changed story. Reference sheet layout/background/poses must not be copied into scene.",
+          "references": [
+            "/workspace/generated_images/exec-b5dd8b60-249b-44fd-8636-2c5fc38e8d29.png",
+            "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/fist-o-mite-approved-face.png",
+            "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+          ],
+          "sha256": "08bc0a618ea191ef594513aca3ded609f9f5c07bf75220853351bc267d98b9bf"
         }
       ],
-      "sha256": "08bc0a618ea191ef594513aca3ded609f9f5c07bf75220853351bc267d98b9bf"
+      "sha256": "c4f0daaf6731f8bd4fa3cd5ad0bb1b3581a63b0a7ca48fe7cbf812078b69cfbc"
     }
   ]
 }

@@ -2818,5 +2818,35 @@
     "file": "book-four-chapter-12-dive-identity-v1.webp",
     "width": 1536,
     "height": 1024
+  },
+  "book-four-chapter-10-open-prose-v1.png": {
+    "file": "book-four-chapter-10-open-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-12-control-prose-v1.png": {
+    "file": "book-four-chapter-12-control-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-12-lamp-prose-v1.png": {
+    "file": "book-four-chapter-12-lamp-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-12-reverse-prose-v1.png": {
+    "file": "book-four-chapter-12-reverse-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-12-ray-prose-v1.png": {
+    "file": "book-four-chapter-12-ray-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
+  },
+  "book-four-chapter-12-aftermath-prose-v1.png": {
+    "file": "book-four-chapter-12-aftermath-prose-v1.webp",
+    "width": 1536,
+    "height": 1024
   }
 }

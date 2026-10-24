@@ -159,15 +159,15 @@
       "number": 7,
       "key": "open",
       "label": "An offer and a promise",
-      "status": "Approved for branch push",
-      "source": "/workspace/generated_images/exec-80c5e4aa-f44a-4c67-8953-5c0726ef3c9f.png",
-      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-open-v4.png",
-      "webArt": "book-four-chapter-10-open-v4.webp",
+      "status": "Integrated; author-requested artwork/prose continuity correction",
+      "source": "/workspace/generated_images/exec-23fa4eaf-af5e-476f-8a45-54078941bc59.png",
+      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-open-prose-v1.png",
+      "webArt": "book-four-chapter-10-open-prose-v1.webp",
       "anchorBefore": "He helped her to her feet and led her toward a police car waiting in the side street.",
       "alt": "Jenny offers Laura a place with the Defenders as the soaked, handcuffed Laura is escorted to a police car; angry Jaws hovers nearby and the second officer carries an extinguisher.",
-      "prompt": "Edit this exact image ONLY to fix LAURA'S overly twisted NECK and head posture, adult brownhaired masked woman nexttopolicecarRIGHT. Keep her fully clothed in exact BLACK FULLJUMPSUIT flamefabricpanels glovesboots, wetponytail, hands cuffed behind back, samearrestescort. Repose head/shoulders ANATOMICALLY: turn her UPPER TORSO and BOTH SHOULDERS slightly LEFT together towardJenny as she pauses before enteringcar; rotate hips slightly withshoulders ifneeded so head neverturns180degreesagainstback. Her HEAD sits naturally CENTERED ABOVE NECK onshoulders, chin level, relaxedneck natural length. Face in modest THREEQUARTERSIDE LEFTWARD PROFILE looking towardJenny with an uncertain thoughtful expression. Don't show full backward-facing face over a front-facing shoulder. Upperbody andhead point roughly same direction, small natural neckturn only. Cuffs remain clearly BEHIND her lowerback, two natural arms hands andlegs, no dislocation. Officer's guidinghand adjust naturally atupperarm ifbodyturns. Preserve otherfigures completely: JennyLEFTpinkwhitesuit, ONE floating bodylessblondJawssteeljawupperleftwithclearairbeneath, two navyuniformofficers extinguisher, openpolicecardoor, brokenyellowhydrantwater, coatground, distanttankshortcopperemitter, city/lighting/styleframing. Same paintedinkedwarmcomic. No speechtextpanelsornewcharacters. NO swimwear or clothingchange. Main correction neck/shoulderalignment, notcostume orscene.",
+      "prompt": "Edit first image. REQUIRED pose change: ROTATE LAURA'S BODY 180 DEGREES so her BACK faces camera, with her HEAD turned over shoulder toward Jenny on left. She is woman in flame-pattern black suit at right by car. Show back of torso and buttocks, not her chest/front abdomen. Her TWO BLACK-GLOVED HANDS are CUFFED TOGETHER AT SMALL OF BACK, visible in front of camera because back faces camera. Behind-back restraint exactly like a rear-view police escort. Preserve her face as over-shoulder profile, high brown curly ponytail, black flame jumpsuit. Escort still holds upper arm. DO NOT simply leave her front facing camera with hands crossed at belly. Actual back-facing body required. All other characters/background/props/style/framing exactly unchanged. No added text/people.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v3.webp"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-10-open-consistency-v2.webp"
       ],
       "previousVersions": [
         {
@@ -211,8 +211,24 @@
           ],
           "version": 3,
           "status": "Superseded: neck/head alignment corrected at author request"
+        },
+        {
+          "number": 7,
+          "key": "open",
+          "label": "An offer and a promise",
+          "status": "Approved for branch push",
+          "source": "/workspace/generated_images/exec-80c5e4aa-f44a-4c67-8953-5c0726ef3c9f.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-open-v4.png",
+          "webArt": "book-four-chapter-10-open-v4.webp",
+          "anchorBefore": "He helped her to her feet and led her toward a police car waiting in the side street.",
+          "alt": "Jenny offers Laura a place with the Defenders as the soaked, handcuffed Laura is escorted to a police car; angry Jaws hovers nearby and the second officer carries an extinguisher.",
+          "prompt": "Edit this exact image ONLY to fix LAURA'S overly twisted NECK and head posture, adult brownhaired masked woman nexttopolicecarRIGHT. Keep her fully clothed in exact BLACK FULLJUMPSUIT flamefabricpanels glovesboots, wetponytail, hands cuffed behind back, samearrestescort. Repose head/shoulders ANATOMICALLY: turn her UPPER TORSO and BOTH SHOULDERS slightly LEFT together towardJenny as she pauses before enteringcar; rotate hips slightly withshoulders ifneeded so head neverturns180degreesagainstback. Her HEAD sits naturally CENTERED ABOVE NECK onshoulders, chin level, relaxedneck natural length. Face in modest THREEQUARTERSIDE LEFTWARD PROFILE looking towardJenny with an uncertain thoughtful expression. Don't show full backward-facing face over a front-facing shoulder. Upperbody andhead point roughly same direction, small natural neckturn only. Cuffs remain clearly BEHIND her lowerback, two natural arms hands andlegs, no dislocation. Officer's guidinghand adjust naturally atupperarm ifbodyturns. Preserve otherfigures completely: JennyLEFTpinkwhitesuit, ONE floating bodylessblondJawssteeljawupperleftwithclearairbeneath, two navyuniformofficers extinguisher, openpolicecardoor, brokenyellowhydrantwater, coatground, distanttankshortcopperemitter, city/lighting/styleframing. Same paintedinkedwarmcomic. No speechtextpanelsornewcharacters. NO swimwear or clothingchange. Main correction neck/shoulderalignment, notcostume orscene.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-open-v3.webp"
+          ]
         }
-      ]
+      ],
+      "sha256": "87cbcc69440e68572dd35eb5fff48ca25fb2e5d5521c92fa5e96e89fa4c64ce9"
     }
   ],
   "historicalDesignGuidance": "Fist anatomy/cuff guidance in these older prompts is superseded by docs/art/fist-o-mite-approved-identity.json and docs/art/book-four-character-redesign.json; retain scene staging and Laura coat chronology."
