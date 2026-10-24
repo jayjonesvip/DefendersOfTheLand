@@ -34,7 +34,7 @@
     },
     {
       "type": "prose",
-      "text": "Daniel moved until he could see the vault’s roof, its right side and the clear space beneath its transport frame. No brickwork joined it to the annex. The whole thing had been brought here. The whole thing could leave."
+      "text": "Daniel checked the clear space beneath the vault’s transport frame. Nothing joined it to the annex."
     },
     {
       "type": "prose",
@@ -43,8 +43,8 @@
     {
       "type": "prose",
       "text": "The beam touched the steel. Rivets drew closer together. The great wheel contracted, and the top of the vault sank below the scaffolding.",
-      "art": "book-four-chapter-06-theft-v1.webp",
-      "alt": "Dork fires the blue shrink ray at the freestanding vault in the bank’s renovation annex."
+      "art": "book-four-chapter-06-theft-annex-v2.webp",
+      "alt": "Dork shrinks the freestanding vault inside the bank renovation annex, with plasterboard and scaffolding behind it and Jaws watching."
     },
     {
       "type": "prose",
@@ -200,11 +200,7 @@
     },
     {
       "type": "prose",
-      "text": "A scrape ran through the workshop. Jaws twisted sideways, biting harder, his blond hair shaking with the effort."
-    },
-    {
-      "type": "prose",
-      "text": "The vault did not move."
+      "text": "Jaws twisted sideways, biting harder, his blond hair shaking with the effort."
     },
     {
       "type": "prose",
@@ -212,27 +208,11 @@
     },
     {
       "type": "prose",
-      "text": "Jaws let go, backed off and came at the lug from a different angle."
+      "text": "He tried the lug from another angle."
     },
     {
       "type": "prose",
-      "text": "This time his lower teeth dragged along its edge. A small metal shaving fell to the floor."
-    },
-    {
-      "type": "prose",
-      "text": "He drew back to inspect his work."
-    },
-    {
-      "type": "prose",
-      "text": "Three bright gouges marked the steel. The lug remained attached. The door remained shut."
-    },
-    {
-      "type": "prose",
-      "text": "Daniel tried the wheel again."
-    },
-    {
-      "type": "prose",
-      "text": "Nothing."
+      "text": "Three bright gouges marked the steel. The door remained shut."
     },
     {
       "type": "prose",
@@ -298,7 +278,7 @@
     },
     {
       "type": "prose",
-      "text": "The bright spot beneath the torch deepened into a narrow black groove. Daniel worked along it, stopped to inspect it, then went over the same short stretch again."
+      "text": "Daniel worked the torch along the seam, then stopped to inspect it."
     },
     {
       "type": "prose",
@@ -326,19 +306,11 @@
     },
     {
       "type": "prose",
-      "text": "He raised the dark lenses and bent toward the seam. Soot marked the steel around a shallow cut. Beyond it, the door was solid."
+      "text": "He raised the dark lenses. Beneath the soot lay a shallow groove; the door was still solid."
     },
     {
       "type": "prose",
       "text": "Jaws lowered himself beside him."
-    },
-    {
-      "type": "prose",
-      "text": "Daniel put one gloved hand on the wheel and tried again."
-    },
-    {
-      "type": "prose",
-      "text": "It stopped in exactly the same place."
     },
     {
       "type": "prose",
@@ -370,7 +342,7 @@
     },
     {
       "type": "prose",
-      "text": "The gouges shone beside the wheel. Below them, the torch mark ended before it had reached anything useful."
+      "text": "Laura examined the gouges and the shallow torch mark."
     },
     {
       "type": "prose",
@@ -420,15 +392,7 @@
     },
     {
       "type": "prose",
-      "text": "She walked to the bench and picked up the pile of papers. There was nowhere else they needed to go. She carried them to a shelf anyway."
-    },
-    {
-      "type": "prose",
-      "text": "Behind her, Jaws tried the wheel once more."
-    },
-    {
-      "type": "prose",
-      "text": "The steel gave a dull clunk."
+      "text": "She carried the papers to a shelf, although there was nowhere else they needed to go."
     },
     {
       "type": "prose",
@@ -437,10 +401,6 @@
     {
       "type": "prose",
       "text": "Laura put the papers on the shelf."
-    },
-    {
-      "type": "prose",
-      "text": "The three of them had brought an entire bank vault home."
     },
     {
       "type": "prose",

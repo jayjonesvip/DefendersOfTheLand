@@ -5,6 +5,34 @@ async function check(){
  const book=read('content/books/book-four/book.json');
  const chapters=require('./scripts/available-chapters.cjs').availableChapters(book,file=>read('content/books/book-four/'+file));
  const illustrations=chapters.flatMap(chapter=>chapter.blocks.filter(block=>block.art));
+ const orangeCorrections=read('docs/art/book-four-audit-corrections-2026-10-23.json').records.filter(record=>record.chapter===12);
+ assert.equal(orangeCorrections.length,10,'Every Chapter 12 Zerdo appearance needs its approved orange correction');
+ const revisionArt=read('docs/art/book-four-chapter-12-submitted-revision-art-2026-10-23.json').images;
+ const identityArt=read('docs/art/book-four-billy-fist-corrections-2026-10-23.json').images;
+ assert.equal(identityArt.length,12,'Twelve reviewed character corrections remain selected');
+ const proseArt=read('docs/art/book-four-prose-matching-2026-10-23.json').images;
+ assert.equal(proseArt.length,6,'Six reviewed prose continuity corrections remain selected');
+ const replacements=[...revisionArt,...identityArt,...proseArt];
+ const currentArt=image=>{
+  const seen=new Set();
+  while(replacements.some(next=>next.previousArt===image.newArt)){
+   assert(!seen.has(image.newArt),'Artwork replacement cycle');seen.add(image.newArt);
+   image=replacements.find(next=>next.previousArt===image.newArt);
+  }
+  return image;
+ };
+ for(const correction of orangeCorrections){
+  const current=currentArt(correction);
+  assert(illustrations.some(block=>block.art===current.newArt),`Approved orange artwork no longer active: ${current.key}`);
+  const bytes=fs.readFileSync(path.join(root,'public/assets',current.newArt));
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),current.sha256,`Reviewed orange artwork changed: ${current.key}`);
+ }
+ for(const reviewed of [...revisionArt,...identityArt,...proseArt]){
+  const image=currentArt(reviewed);
+  assert(illustrations.some(block=>block.art===image.newArt),`Revised action artwork no longer active: ${image.key}`);
+  const bytes=fs.readFileSync(path.join(root,'public/assets',image.newArt));
+  assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),image.sha256,`Reviewed action artwork changed: ${image.key}`);
+ }
  const pdf=read('output/publishing/book-four-pdf-build.json');
  const epub=read('tmp/epub-book-four/quality-report.json');
  for(const report of [pdf,epub]){

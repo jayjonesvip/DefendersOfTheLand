@@ -6,7 +6,8 @@
     "build:site": "node build.cjs",
     "build:pdfs": "node scripts/build-pdfs.cjs",
     "build:epub": "node scripts/build-epub.cjs",
-    "test": "node verify.cjs",
+    "test": "npm run test:canon && node verify.cjs",
+    "test:canon": "node --test scripts/test-canon.cjs && node scripts/verify-canon.cjs",
     "test:vault": "node verify-vault.cjs",
     "test:hosted": "node scripts/verify-hosted.cjs",
     "preview": "python -m http.server 4175 --directory dist"

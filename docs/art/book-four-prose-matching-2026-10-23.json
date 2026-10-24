@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-23",
+  "scope": "Six artwork corrections authorized after full seventy-image prose review. No prose or story changes. Turret remains seated until lift; Laura cuffed behind back; ray withdraws into open rear; Billy has pocketed miniature lamp.",
+  "images": [
+    {
+      "chapter": 10,
+      "key": "open",
+      "previousArt": "book-four-chapter-10-open-consistency-v2.webp",
+      "prompt": "Edit first image. REQUIRED pose change: ROTATE LAURA'S BODY 180 DEGREES so her BACK faces camera, with her HEAD turned over shoulder toward Jenny on left. She is woman in flame-pattern black suit at right by car. Show back of torso and buttocks, not her chest/front abdomen. Her TWO BLACK-GLOVED HANDS are CUFFED TOGETHER AT SMALL OF BACK, visible in front of camera because back faces camera. Behind-back restraint exactly like a rear-view police escort. Preserve her face as over-shoulder profile, high brown curly ponytail, black flame jumpsuit. Escort still holds upper arm. DO NOT simply leave her front facing camera with hands crossed at belly. Actual back-facing body required. All other characters/background/props/style/framing exactly unchanged. No added text/people.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-10-open-consistency-v2.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-23fa4eaf-af5e-476f-8a45-54078941bc59.png",
+      "intermediate": "/workspace/generated_images/exec-14caa508-186b-4689-afe8-da8eceb6f792.png",
+      "newArt": "book-four-chapter-10-open-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-open-prose-v1.png",
+      "sha256": "87cbcc69440e68572dd35eb5fff48ca25fb2e5d5521c92fa5e96e89fa4c64ce9",
+      "sourceSha256": "7df8485b0cbc7a2964357c4911f184aa7fee55bd82531becbee31ea8dc3c397b",
+      "intermediateOriginal": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-open-prose-v1-intermediate.png"
+    },
+    {
+      "chapter": 12,
+      "key": "control",
+      "previousArt": "book-four-chapter-12-control-orange-v1.webp",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve Dork in LOWER HULL driver opening, Jenny beside tank, no beam. No text, panels, new people or story change.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-control-orange-v1.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-cc73c5cc-4f24-4c0f-921e-49df34a5cfe9.png",
+      "newArt": "book-four-chapter-12-control-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-control-prose-v1.png",
+      "sha256": "ea99d4e0ab4df86167cdd753dfcbcf6ae2d3bf4d590b6bdc3cade2b194e62f84",
+      "sourceSha256": "820080e2c3de1519b2bfc376ea0fdb779057acf17077d0d9d91feb51d0dd6904"
+    },
+    {
+      "chapter": 12,
+      "key": "lamp",
+      "previousArt": "book-four-chapter-12-lamp-revision-v1.webp",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve the SINGLE BLUE beam hitting ONE MINIATURE falling lamp head beside pole at right; pole empty top, exactly one miniature head, no extra shot or lamp. No text, panels, new people or story change.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-lamp-revision-v1.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-e08b91bc-eab0-426e-ae66-aa7812a4d5ee.png",
+      "newArt": "book-four-chapter-12-lamp-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-lamp-prose-v1.png",
+      "sha256": "013e2f399b6778d005555da310b9dc53d3bce79f0984c8ecdf3381c49c9e4f0a",
+      "sourceSha256": "4d72fc4777438f9df126497d374d3d8b09c39052c5a1555a9d5272565fb74730"
+    },
+    {
+      "chapter": 12,
+      "key": "reverse",
+      "previousArt": "book-four-chapter-12-reverse-revision-v1.webp",
+      "prompt": "Edit this existing painted comic scene to correct tank continuity ONLY. The tank turret MUST STILL BE ATTACHED and SEATED on its hull turret ring, slightly crooked/dented from a punch. LOWER turret down into CONTACT with ring: NO AIR GAP, no lifted free turret, no visible open empty circular hull opening. Keep Seth's hands gripping LOWER OUTER RIM OF TURRET, braced against tank motion; adjust his arms to lower rim only as needed. Turret hasn't torn free yet; bolts still hold. Tank tracks remain on pavement. Preserve same scene action and composition, exact orange white brown Zerdo costume NO CAPE, Jenny and Dork, faces, poses and framing. CRITICAL preserve Jenny fallen/rolling clear in foreground, both white gloves scraped, tank reversing with tracks grounded, Dork in lower driver hatch. No text, panels, new people or story change.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-reverse-revision-v1.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-ad9893be-b94e-4c73-9cef-83a48c246f1a.png",
+      "newArt": "book-four-chapter-12-reverse-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-reverse-prose-v1.png",
+      "sha256": "089e2cec3e22e49dace42c9dfcfbced8ac47a49ff211eeac77f02e2d1542f157",
+      "sourceSha256": "770abebdcef54efe1c052248858a5dc2e004843bf963504998a27b0e38b27e25"
+    },
+    {
+      "chapter": 12,
+      "key": "ray",
+      "previousArt": "book-four-chapter-12-ray-orange-v1.webp",
+      "prompt": "Correct ONLY the ray extraction mechanics in this existing painted comic illustration. Jenny is crouching at LEFT inside the open BACK/underside of detached turret shell; Seth steadies shell at RIGHT. The Army ray is a rectangular gray metal box with handle, gauge and red/blue switches; its short COPPER RING BARREL MUST PROJECT FROM BOX'S RIGHT END toward the circular turret front plate at right. Jenny pulls box BACKWARD TO LEFT out of its cradle inside shell. Show the barrel fully withdrawn LEFTWARD clear of the circular plate: the copper muzzle stops to LEFT of the empty hole, with VISIBLE OPEN AIR GAP between muzzle and hole. Hole should be on front wall of shell farther RIGHT than barrel, with dark hollow interior, nothing passing through. Box must be inside the open back, never pulling through front plate. Keep Jenny's hands on handle and box body away from controls. Preserve wrench and loose nuts on ground, Seth's orange/white/brown costume NO CAPE, approved faces, all framing, style and environment. Do not add second barrel, second machine or people. No text/panels.",
+      "references": [
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-ray-orange-v1.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-88604358-5311-419a-bc3d-39ff9e0ab4e4.png",
+      "newArt": "book-four-chapter-12-ray-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-ray-prose-v1.png",
+      "sha256": "357a9eee1510494726a2c7379a96017eb98a51a3f89d4bf8b3521904a8e3135f",
+      "sourceSha256": "ff811234d3295d4223b51268360e7719899f4e0e3e64985f83eb783142ce7894"
+    },
+    {
+      "chapter": 12,
+      "key": "aftermath",
+      "previousArt": "book-four-chapter-12-aftermath-identity-v1.webp",
+      "prompt": "Edit FIRST image with tiny LOCAL PROP correction ONLY. The rectangular object on ground at LOWER LEFT must be the captured ARMY RAY shown in SECOND reference: gray metal box, ROUND GAUGE on upper front, RED and BLUE selector switches below gauge, and short COPPER-RINGED BARREL projecting rightward at bottom. Restore these missing features on SAME existing box; keep its location/size and guarded status, not firing. Preserve EVERYTHING ELSE from FIRST image including Billy's EMPTY HAND (miniature lamp already in coat pocket), his elderly gray-haired face, Laura's newly back-facing body and hands cuffed BEHIND BACK. Her visible hands in cuffs should be BLACK GLOVES. Preserve chain anchor at wreck, Seth holding chain, Jaws closed bound jaw/nose eyes clear, approved Fist red cuff small tucked thumb, orange Zerdo NO CAPE. No new characters/text/framing changes.",
+      "references": [
+        "/workspace/generated_images/exec-18111834-8e8c-4785-9151-6b3688fae0b3.png",
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-12-aftermath-identity-v1.webp"
+      ],
+      "sourceGenerated": "/workspace/generated_images/exec-57989ba9-f033-4e82-b333-aa16956fe421.png",
+      "intermediate": "/workspace/generated_images/exec-18111834-8e8c-4785-9151-6b3688fae0b3.png",
+      "newArt": "book-four-chapter-12-aftermath-prose-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-prose-v1.png",
+      "sha256": "c4f0daaf6731f8bd4fa3cd5ad0bb1b3581a63b0a7ca48fe7cbf812078b69cfbc",
+      "sourceSha256": "2234cf7e5a51f7dc5a519f98180a278dd8cf69a9fd8ef7b6338bb75212a24891",
+      "intermediateOriginal": "docs/art/originals/book-four/chapter-12/book-four-chapter-12-aftermath-prose-v1-intermediate.png"
+    }
+  ]
+}

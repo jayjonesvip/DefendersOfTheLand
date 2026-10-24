@@ -26,7 +26,8 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Older Billy, open left-hinged freestanding vault with plasma damage, bank manager, police inventory, vault money and separate drawer bundles. No villains or tank added."
+      "reviewNotes": "Older Billy, open left-hinged freestanding vault with plasma damage, bank manager, police inventory, vault money and separate drawer bundles. No villains or tank added.",
+      "anchorBefore": "Billy stood back while the bank manager and police went in."
     },
     {
       "chapter": 13,
@@ -52,7 +53,8 @@
       "status": "Visually reviewed; author review pending",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Single red restoration beam targets empty period cruiser; observers clear of beam behind boundary. Second miniature car on tray and captured device consistent."
+      "reviewNotes": "Single red restoration beam targets empty period cruiser; observers clear of beam behind boundary. Second miniature car on tray and captured device consistent.",
+      "anchorBefore": "Light touched the little car. Its tires spread across the pavement and its roof rose until the cruiser stood full-sized in the cleared space."
     },
     {
       "chapter": 13,
@@ -61,11 +63,12 @@
       "anchor": "The four friends stayed there while the city lights came on.",
       "alt": "Seth, Jenny, Billy and Fist gather quietly at the facility’s open window above Cleveland at dusk, leaving the empty space where Flaming Head used to hover.",
       "references": [
-        "/workspace/generated_images/exec-27aba08e-9389-4ac7-974a-148d37983410.png",
-        "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+        "/tmp/defenders-restore-earlier-ch12/public/assets/book-four-chapter-13-window-v1.webp",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/fist-o-mite-approved-face.png",
+        "/tmp/defenders-restore-earlier-ch12/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
       ],
-      "prompt": "TARGETED JENNY FACE CONSISTENCY EDIT. IMAGE 1 is the finished closing-window illustration to preserve. IMAGE 2 is ONLY approved Jenny face/age reference, NOT pose/background. Keep image1's exact landscape composition, muted thoughtful expressions, four friends/poses, warm dusk light and Cleveland view, intact Terminal Tower, EMPTY sky with Flaming Head ABSENT, Fist's red face/button nose/short RED cuff inset WHITE panel, older gray Billy, Seth's orange suit/BROWN gloves/plain back and flat white rear belt without buckle, window/desk/lamps/newspaper/radio. ONLY edit JENNY'S FACE at LEFT to look like the SAME graduation-age YOUNG ADULT as image2: natural smaller almond-shaped GREEN eyes, normal visible whites rather than huge circular child eyes, defined bridge/nose and jaw, mature cheek structure, natural adult eye-to-face proportions. Preserve her exact 3/4 profile looking out toward city, her thoughtful subdued expression and closed or gently parted mouth, long curly golden blonde hair and WHITE domino eye mask with holes for green eyes. Do not import smile, kick, rooftop, silver target, or pose from image2; do not change her body/costume or make her middle-aged. No change to other characters, count or environment; no fifth figure, spark, fire/ghost/face/survival hint outside. One finished painted inked illustration.",
-      "source": "/workspace/generated_images/exec-a7bd19ab-9974-4b4c-9a82-9f945c419fae.png",
+      "prompt": "Edit IMAGE 1 with a precise LOCALIZED correction to FIST-O-MITE ONLY, the floating red glove near the window. Reference2 is his approved FACE; reference3 shows his approved silhouette, side view, hover and cuff. Fist must match references2/3: ONE elongated red leather living boxing glove, sculpted red brow/cheeks, SMALL rounded red nose, white eyes with dark pupils in the same natural facial arrangement, and mouth formed in the leather rather than a separate human face. Keep his glove identity, not a round floating red human head. ONE SMALL TUCKED thumb/fold BEHIND the face like a swept tuft, no prominent side bulb, underside thumb, extra appendage or giant thumb. Short RED LEATHER cuff with ONE INSET WHITE RECTANGULAR PANEL, thin BLACK rectangular keyline, visible RED MARGINS ON ALL FOUR SIDES, narrow black wrist rim, DARK HOLLOW wrist opening; no all-white sleeve, laces, lettering, buckle, arm, hand or body. Keep his exact original location, size and flight orientation with cuff trailing, readable upright face and natural perspective. Adapt his approved features to QUIET reflective concern, a small closed mouth and subdued eyes, NOT a big comic smile; sky EMPTY, no Flaming Head or new light. Do not copy the reference's background, typography, static pose or any other angle/scene. Preserve ALL other image content as closely as possible: older gray-haired Billy, Jenny, orange/white/brown Zerdo with NO CAPE, hands, window, skyline, furniture, lighting, time of day and original painted inked comic style. Do not change anyone else's age, face, pose or outfit. One full LANDSCAPE 3:2 scene, no text/panels/duplicate glove.",
+      "source": "/workspace/generated_images/exec-68dd9392-5cd8-47b6-a947-745d6e62f66e.png",
       "generationHistory": [
         {
           "source": "/workspace/generated_images/exec-27aba08e-9389-4ac7-974a-148d37983410.png",
@@ -82,17 +85,61 @@
           "excludedFromPublication": true
         }
       ],
-      "original": "docs/art/originals/book-four/chapter-13/book-four-chapter-13-window-v1.png",
-      "webArt": "book-four-chapter-13-window-v1.webp",
+      "original": "docs/art/originals/book-four/chapter-13/book-four-chapter-13-window-identity-v1.png",
+      "webArt": "book-four-chapter-13-window-identity-v1.webp",
       "dimensions": [
         1536,
         1024
       ],
-      "sha256": "4e3f224344b5238dc6f5d6e7130abee46556e1e7d3232e82ebd40497a28a6633",
-      "status": "Visually reviewed; author review pending",
+      "sha256": "beafa2c0773142b0e4f496927cfb5e4070f04c3aba9376db140fdeee15bf59a3",
+      "status": "Integrated; author-requested character identity correction",
       "reviewed": true,
       "authorApproved": false,
-      "reviewNotes": "Corrected Jenny face matches approved young-adult identity, green eye and white mask. Four friends only; healed Fist and older Billy, plain rear of Seth costume with no back emblem/buckle. Empty sky and no Flaming Head/spark/ghost."
+      "reviewNotes": "Corrected Jenny face matches approved young-adult identity, green eye and white mask. Four friends only; healed Fist and older Billy, plain rear of Seth costume with no back emblem/buckle. Empty sky and no Flaming Head/spark/ghost.",
+      "anchorBefore": "The four friends stayed there while the city lights came on.",
+      "previousVersions": [
+        {
+          "chapter": 13,
+          "key": "window",
+          "asset": "book-four-chapter-13-window-v1.webp",
+          "anchor": "The four friends stayed there while the city lights came on.",
+          "alt": "Seth, Jenny, Billy and Fist gather quietly at the facility’s open window above Cleveland at dusk, leaving the empty space where Flaming Head used to hover.",
+          "references": [
+            "/workspace/generated_images/exec-27aba08e-9389-4ac7-974a-148d37983410.png",
+            "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp"
+          ],
+          "prompt": "TARGETED JENNY FACE CONSISTENCY EDIT. IMAGE 1 is the finished closing-window illustration to preserve. IMAGE 2 is ONLY approved Jenny face/age reference, NOT pose/background. Keep image1's exact landscape composition, muted thoughtful expressions, four friends/poses, warm dusk light and Cleveland view, intact Terminal Tower, EMPTY sky with Flaming Head ABSENT, Fist's red face/button nose/short RED cuff inset WHITE panel, older gray Billy, Seth's orange suit/BROWN gloves/plain back and flat white rear belt without buckle, window/desk/lamps/newspaper/radio. ONLY edit JENNY'S FACE at LEFT to look like the SAME graduation-age YOUNG ADULT as image2: natural smaller almond-shaped GREEN eyes, normal visible whites rather than huge circular child eyes, defined bridge/nose and jaw, mature cheek structure, natural adult eye-to-face proportions. Preserve her exact 3/4 profile looking out toward city, her thoughtful subdued expression and closed or gently parted mouth, long curly golden blonde hair and WHITE domino eye mask with holes for green eyes. Do not import smile, kick, rooftop, silver target, or pose from image2; do not change her body/costume or make her middle-aged. No change to other characters, count or environment; no fifth figure, spark, fire/ghost/face/survival hint outside. One finished painted inked illustration.",
+          "source": "/workspace/generated_images/exec-a7bd19ab-9974-4b4c-9a82-9f945c419fae.png",
+          "generationHistory": [
+            {
+              "source": "/workspace/generated_images/exec-27aba08e-9389-4ac7-974a-148d37983410.png",
+              "prompt": "Create ONE finished landscape 3:2 full-bleed illustration (1536x1024). Match these approved references: rich warm painted colors, detailed crisp ink contours, subtle vintage print texture, expressive superhero chapter-book art, Cleveland 1987. One coherent scene, NO collage, captions, sound effects, speech balloons, text or page borders. References show identity/style and equipment ONLY: do not copy poses or add reference characters absent from the scene description. Natural young-adult hero proportions, not children, oversized eyes or chibi. CANON for characters explicitly present ONLY: Seth/Zerdo is a graduation-age young man, tousled brown hair BLUE eyes, orange domino mask thin WHITE edge, fitted ORANGE suit plain WHITE Z on FRONT chest, white shoulders/side-leg stripes, WHITE belt circular FRONT buckle, DARK BROWN gauntlet gloves and tall boots; NO cape/back emblem/rear buckle. Jenny/Pink Blur same age, natural GREEN eyes, long curly golden BLONDE hair, WHITE domino mask, fitted PINK suit continuous WHITE side stripes, WHITE belt/gloves/boots. Billy is SHORT STOCKY OLDER ADULT like Dork in age, lined face, gray sideburns/eyebrows, tan trench coat high collar, red/brown plaid deerstalker, dark trousers BLACK shoes; never a child. Dork is older wild gray-white hair, huge round black spectacles, gray rolled-sleeve shirt dark trousers. Fist is ONE elongated independent red leather boxing glove, dimensional face and ROUND RED button nose, ONE tucked TOP/BACK thumbfold like quiff, no protruding underside/second thumb, no arm/body; SHORT RED cuff ONE inset WHITE rectangle thin BLACK keyline RED margins ALL FOUR edges, black narrow hollow rim. Jaws is one bodyless floating blond spiky-haired human HEAD with riveted metal jaw and triangular teeth, NO neck/torso/limbs. Laura is adult BROWN eyes, curly brown hair PONYTAIL, black domino mask, opaque BLACK full suit with flame-colored fabric side panels, BLACK gloves/boots, COAT OFF, wet from hydrant; no actual body flames. Flaming Head is ABSENT. SCENE: NEW CLOSING SCENE, NOT departure scene: same Claude facility brick operations room open window as reference1 at deepening dusk with Cleveland rooftops and softly lit intact Terminal Tower. Exactly FOUR FRIENDS ONLY: Jenny at LEFT in pink-white suit white mask/gloves, mature natural GREEN-eyed face and blonde curls; Seth at RIGHT in orange suit BROWN gloves, orange-white mask, BLUE eyes, NO emblem on back; Billy below sill center-left stocky SHORT OLDER gray-sideburned lined face in tan coat plaid deerstalker; Fist hovers center-right quietly, one red leather glove correct short RED cuff with inset WHITE panel/red margins, RED round nose, one top/back thumbfold. All subdued, thoughtful not grinning, no tears required. They look over city together at EMPTY OPEN SKY. Leave an obvious quiet EMPTY space ABOVE WINDOW SILL BETWEEN them where friend used to hover. Flaming Head is ENTIRELY ABSENT: NO face/spark/flame/glow/ghost/fireball/survival hint/extra fifth character, no Sun as face. Pencil on sill, folded newspaper and closed notebook beside old analog radio. Cool blue sky, warm ordinary lamplight inside. Preserve natural young-adult proportions, Billy OLD, no added people outside, no back Z or rear belt buckle on Seth. Horizontal contemplative composition to close book.",
+              "references": [
+                "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-04-departure-design-v1.webp",
+                "/workspace/DefendersOfTheLand/public/assets/book-two-chapter-03-jenny-training-wall-green-design-v1.webp",
+                "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-11-emitter-design-v1.webp",
+                "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-07-connections-design-v1.webp",
+                "/workspace/DefendersOfTheLand/docs/art/originals/fist-o-mite-v1/Fist_O_Mite_Character_Sheet.png"
+              ],
+              "review": "Rejected: Jenny retains the earlier oversized-eye face rather than the approved mature identity.",
+              "original": "docs/art/originals/book-four/chapter-13/book-four-chapter-13-window-v1-rejected-01.png",
+              "excludedFromPublication": true
+            }
+          ],
+          "original": "docs/art/originals/book-four/chapter-13/book-four-chapter-13-window-v1.png",
+          "webArt": "book-four-chapter-13-window-v1.webp",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "4e3f224344b5238dc6f5d6e7130abee46556e1e7d3232e82ebd40497a28a6633",
+          "status": "Visually reviewed; author review pending",
+          "reviewed": true,
+          "authorApproved": false,
+          "reviewNotes": "Corrected Jenny face matches approved young-adult identity, green eye and white mask. Four friends only; healed Fist and older Billy, plain rear of Seth costume with no back emblem/buckle. Empty sky and no Flaming Head/spark/ghost.",
+          "anchorBefore": "The four friends stayed there while the city lights came on."
+        }
+      ]
     }
   ]
 }

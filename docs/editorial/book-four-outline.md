@@ -308,7 +308,13 @@ Chapters 1–11 remain unchanged. The active cover and all approved earlier illu
 
 ### Author-selected Chapter 12 restoration — October 23, 2026
 
-The author selected the earlier 962-word Chapter 12 prose and fourteen corrected illustrations preserved on the comparison export Page. These source files and active WebP/PNG bytes are restored exactly, superseding the later six-illustration Chapter 12 draft and the intervening action-heavy prose revision. The chapter intercuts the turret removal and ray recovery with Fist stopping Jaws’s dive toward Laura, then concludes with the empty tank’s destruction, Fist’s counterpunch, towing-chain restraint and Laura leaving Jenny’s offer unanswered. Jaws’s head scale, Fist’s small tucked thumb and cape-free Zerdo match the preserved earlier images. This is a specific author selection of Chapter 12’s earlier artwork; the other chapters and current cover remain on their existing art.
+The author selected the earlier 962-word Chapter 12 prose and fourteen corrected illustrations preserved on the comparison export Page. These source files and active WebP/PNG bytes were restored exactly at that stage, superseding the later six-illustration draft. This historical selection was followed by the authorized orange-costume correction and the later submitted revision below. The earlier prose and pixels remain preserved.
+
+### Later author-submitted Chapter 12 revision, October 23, 2026
+
+Jay selected “Apply with canon corrections” for the pasted replacement chapter. The current version is 1,336 words with seventeen illustrations. A live blue shot hits a lamp fixture; the reversing tank throws Jenny clear; Laura fires plasma at boards during Jaws’s attempted rescue; Jaws refuses the first bait before Fist draws his bite into torn armor. Billy keeps the miniature lamp, which the Army restores in Chapter 13.
+
+Canon corrections retain the fixed forward turret and use the tank’s tracks to aim. Seth’s opening comes from Dork reaching for reverse, without inventing an automatic color reset or timed cooldown. There is no extra spare-lead shot into the distance or pigeon gag; the Chapter 11 shot remains the Bouncing Bob seed. Jaws recognizes Laura, but not Fist. Jenny unbolts the ray and removes the chain before the tank is crushed. Zerdo stays orange with no cape. Laura’s invitation remains unanswered and Flaming Head remains absent. See `book-four-chapter-12-submitted-revision-2026-10-23.json` for source, changes and validation.
 
 Chapter 13 retains its existing recovery and remembrance sequence. Two opening paragraphs now establish the recovery crew fitting the bolted jaw brace while Seth holds the towing chain, then releasing the tether from the tank before caging Jaws. This connects the restored Chapter 12 ending to the transport arrangements already in Chapter 13.
 
