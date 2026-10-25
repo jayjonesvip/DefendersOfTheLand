@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "basis": "Author-supplied exact edits followed by lamp/vault continuity fixes. All source passages matched.",
+  "changes": [
+    "Rename only the two specified headquarters references to Defenders HQ.",
+    "Add the supplied Billy observations and dialogue in Chapters 7, 9, 11, 12 and 13.",
+    "Use the supplied shorter ray-removal paragraph and retain its existing illustration.",
+    "Remove the specified unguarded-car line and redundant vault-to-workbench line.",
+    "Use the exact combined lamp paragraph with pocketing last.",
+    "Use curly punctuation throughout Chapter 13."
+  ],
+  "mismatches": [],
+  "chapters": [
+    {
+      "chapter": 4,
+      "file": "content/books/book-four/chapter-04.json",
+      "sha256": "efa3318204d850c8d6ae9a93765258620e248eb0682e45975d802227e405dae8",
+      "illustrations": 5
+    },
+    {
+      "chapter": 7,
+      "file": "content/books/book-four/chapter-07.json",
+      "sha256": "508ad94409e8ee6dae26791e494d86fbb6f0048e674f4421b8412e927dc91ba0",
+      "illustrations": 3
+    },
+    {
+      "chapter": 9,
+      "file": "content/books/book-four/chapter-09.json",
+      "sha256": "cad791a90720b9d5984dae8913f25cd368ce23cd00d2d76ea7e880c93e9ecd8b",
+      "illustrations": 4
+    },
+    {
+      "chapter": 11,
+      "file": "content/books/book-four/chapter-11.json",
+      "sha256": "b4fff9284fbd3b004c6f1e99015566c515821207c213fffc336002f3dc7e0720",
+      "illustrations": 6
+    },
+    {
+      "chapter": 12,
+      "file": "content/books/book-four/chapter-12.json",
+      "sha256": "575200707fc3b177e6f4124233c64ef80dbd7446df11fb65d6e3884c12989887",
+      "illustrations": 17
+    },
+    {
+      "chapter": 13,
+      "file": "content/books/book-four/chapter-13.json",
+      "sha256": "2ecd21d50a7991e2dfa42a3885419cba5a80a4d8fcef8430849eeb2ad007e171",
+      "illustrations": 3
+    }
+  ],
+  "preservation": "Chapters 1–3, 5, 6, 8 and 10 unchanged. All active artwork filenames, ordering and alt descriptions unchanged. Books One–Three canon inventory unchanged.",
+  "validation": "Full site/PDF/EPUB build and npm test. Publishing files remain separate from the public web reader."
+}
