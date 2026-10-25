@@ -33,9 +33,14 @@ async function check(){
   const bytes=fs.readFileSync(path.join(root,'public/assets',image.newArt));
   assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),image.sha256,`Reviewed action artwork changed: ${image.key}`);
  }
- const pdf=read('output/publishing/book-four-pdf-build.json');
+ const pdf=read('output/publishing/book-four-review-pdf-build.json');
+ const interior=read('output/publishing/book-four-pdf-build.json');
+ const preflight=read('output/publishing/book-four-preflight.json');
+ assert.equal(interior.paperbackInterior,true);
+ assert.equal(preflight.sha256,interior.sha256);
+ assert.equal(preflight.passed,true);
  const epub=read('tmp/epub-book-four/quality-report.json');
- for(const report of [pdf,epub]){
+ for(const report of [pdf,interior,epub]){
   const bytes=fs.readFileSync(path.join(root,'output/publishing',report.file));
   assert.equal(report.chapters,chapters.length);
   assert.equal(report.interiorIllustrations,illustrations.length);
