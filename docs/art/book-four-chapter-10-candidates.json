@@ -25,32 +25,88 @@
       "number": 2,
       "key": "kick",
       "label": "Return to sender",
-      "status": "Authorized for publication",
-      "source": "/workspace/generated_images/exec-d7b11ee0-cbb0-4382-b370-24dfff0f3863.png",
-      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-kick-v1.png",
-      "webArt": "book-four-chapter-10-kick-v1.webp",
+      "status": "Author approved final plasma correction for publication",
+      "source": "/workspace/generated_images/exec-1ab41e6e-4d5e-423f-b8ad-5d38031bffb1.png",
+      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-kick-plasma-v3.png",
+      "webArt": "book-four-chapter-10-kick-plasma-v3.webp",
       "anchorBefore": "Jenny planted one boot and kicked.",
-      "alt": "Jenny kicks a bright plasma ball back toward Laura, where it catches only the loose edge of Laura’s coat.",
-      "prompt": "ONE landscape 3:2 fullbleed richly painted inked superhero chapter book illustration exact style references. Cleveland1987 PublicSquare bright MIDDAY light stonebuildings stonecurb street asphalt TerminalTower distant. No panels borders words captions balloons. JENNY/PINKBLUR youthful natural modest proportions long CURLY GOLDENBLONDE hair GREENeyes WHITEdominomask opaque PINKzipfulljumpsuit WHITEside/sleevestripes belt gloves tallboots. No adultsexualized proportions/rearfocusedposes. LAURA/LAVALIPS adult curly BROWN PONYTAIL BROWNeyes BLACKdominomask BLACKopaque fullsuit red/yellow FLAME FABRIC sidepanels blackglovesboots. Fabricflames NOT actualfire. No barelegs/bodyburns/revealingwetfabric. Jenny andLaura FIRSTmeeting, no other characters unlessspecified. Discrete plasma BALLS emittedfromLaura MOUTH only, not hands/eyes. No FlamingHead spirits ghosts. Geography: YELLOW castiron domed FIREHYDRANT screenLEFT at curb, rightfacing ROUNDlargeoutlet; Laura drawntoward emptyclearstreetRIGHT, no bystandersdownstream. Low smoldering packingboards farbackground, no engulfedpeople. Tank ifvisible SECONDARY distant OLIVEtracktank short steppedCOPPERringed emitter turretfront squareboltmount NOTlongcannon, Dork tiny atlowerhull driverhatch. Warm comic texture confidentlines readable action. DYNAMIC readable SIDEVIEW JennyLEFT facingRIGHT balances on ONE WHITEBOOT firmlyonground, OTHER legraised moderatewaistheight SIDEKICK with bootsoleredirecting ONE ORANGEWHITE glowing PLASMABALL towardLauraRIGHT. Twolegs ONLY coherent hips knees ankles, no acrobaticupskirt/rearpose. Jennycontrolled focusedface. One small orange ball now justLEAVINGJennyboot towardRIGHT, brief curved orangemotiontrail shows deflection and returned trajectory. LauraRIGHT recoils sideways startled, her openBLACKCOAT loose trailing LOWERHEM justsinged tinyorangeflame atoneouteredge FARfromskin/hair, suitintact. No actualball burningJennyboot. No laserbeam connectingwomen, no duplicateprojectiles/characters. Yellowhydrant secondaryfarLEFT dry. No water, Fist, sparksfromhands or scorchedskin.",
+      "alt": "Jenny plants her left boot and kicks the plasma ball toward Laura with her right foot; the ball leads with its tail trailing back toward the kicking boot.",
+      "prompt": "Edit this image with a SPECIFIC ANATOMICAL LEFT/RIGHT LEG correction for JENNY ONLY. Her OWN LEFT FOOT must be the weight-bearing PLANTED foot on pavement. Her OWN RIGHT LEG must be RAISED and KICKING the plasma toward screen RIGHT. These are the CHARACTER'S own anatomical sides, NOT screen-left/screen-right. In this nearly front three-quarter view, her RIGHT kicking thigh should originate from the hip on VIEWER'S LEFT, sweep diagonally across the FRONT of her pelvis toward screen RIGHT, then extend the right shin and white boot toward the ball. Her LEFT support leg originates from the hip on VIEWER'S RIGHT and descends to a firmly planted white boot under her center of gravity, slightly to VIEWER'S RIGHT of the kicking hip. The raised RIGHT thigh must overlap IN FRONT of the LEFT supporting thigh so the side assignment is unambiguous. Reposition the current supporting boot as needed; do NOT merely keep the existing wrong-side pose. Natural pelvis rotation, coherent hips/knees/ankles, exactly TWO legs and TWO boots, no extra limbs. Keep football-style instep follow-through, left knee softly bent, torso balanced, one arm crossing upper chest and other back. Keep Jenny's same face, mature proportions, pink/white opaque suit, white belt/gloves/tall white boots and golden curls. Preserve the ONE plasma ball ahead at right and slightly above the kicking boot with its tail trailing BACK toward her RIGHT kicking foot. Do not move ball behind the boot. Preserve Laura, her face/body/costume and recoil, hydrant, tank/Dork, skyline, all background, colors, painted inked style and exact 3:2 framing unchanged. No text, labels or panel borders. Do not mirror the whole scene.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-08-speed-v1.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-09-barrier-v1.webp"
-      ]
+        "/tmp/defenders-hq-billy/public/assets/book-four-chapter-10-kick-plasma-v2.webp"
+      ],
+      "previousVersions": [
+        {
+          "number": 2,
+          "key": "kick",
+          "label": "Return to sender",
+          "status": "Authorized for publication",
+          "source": "/workspace/generated_images/exec-d7b11ee0-cbb0-4382-b370-24dfff0f3863.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-kick-v1.png",
+          "webArt": "book-four-chapter-10-kick-v1.webp",
+          "anchorBefore": "Jenny planted one boot and kicked.",
+          "alt": "Jenny kicks a bright plasma ball back toward Laura, where it catches only the loose edge of Laura’s coat.",
+          "prompt": "ONE landscape 3:2 fullbleed richly painted inked superhero chapter book illustration exact style references. Cleveland1987 PublicSquare bright MIDDAY light stonebuildings stonecurb street asphalt TerminalTower distant. No panels borders words captions balloons. JENNY/PINKBLUR youthful natural modest proportions long CURLY GOLDENBLONDE hair GREENeyes WHITEdominomask opaque PINKzipfulljumpsuit WHITEside/sleevestripes belt gloves tallboots. No adultsexualized proportions/rearfocusedposes. LAURA/LAVALIPS adult curly BROWN PONYTAIL BROWNeyes BLACKdominomask BLACKopaque fullsuit red/yellow FLAME FABRIC sidepanels blackglovesboots. Fabricflames NOT actualfire. No barelegs/bodyburns/revealingwetfabric. Jenny andLaura FIRSTmeeting, no other characters unlessspecified. Discrete plasma BALLS emittedfromLaura MOUTH only, not hands/eyes. No FlamingHead spirits ghosts. Geography: YELLOW castiron domed FIREHYDRANT screenLEFT at curb, rightfacing ROUNDlargeoutlet; Laura drawntoward emptyclearstreetRIGHT, no bystandersdownstream. Low smoldering packingboards farbackground, no engulfedpeople. Tank ifvisible SECONDARY distant OLIVEtracktank short steppedCOPPERringed emitter turretfront squareboltmount NOTlongcannon, Dork tiny atlowerhull driverhatch. Warm comic texture confidentlines readable action. DYNAMIC readable SIDEVIEW JennyLEFT facingRIGHT balances on ONE WHITEBOOT firmlyonground, OTHER legraised moderatewaistheight SIDEKICK with bootsoleredirecting ONE ORANGEWHITE glowing PLASMABALL towardLauraRIGHT. Twolegs ONLY coherent hips knees ankles, no acrobaticupskirt/rearpose. Jennycontrolled focusedface. One small orange ball now justLEAVINGJennyboot towardRIGHT, brief curved orangemotiontrail shows deflection and returned trajectory. LauraRIGHT recoils sideways startled, her openBLACKCOAT loose trailing LOWERHEM justsinged tinyorangeflame atoneouteredge FARfromskin/hair, suitintact. No actualball burningJennyboot. No laserbeam connectingwomen, no duplicateprojectiles/characters. Yellowhydrant secondaryfarLEFT dry. No water, Fist, sparksfromhands or scorchedskin.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-08-speed-v1.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-09-barrier-v1.webp"
+          ]
+        },
+        {
+          "webArt": "book-four-chapter-10-kick-consistency-v2.webp",
+          "status": "Previously active consistency correction; preserved unchanged"
+        },
+        {
+          "number": 2,
+          "key": "kick",
+          "label": "Return to sender",
+          "status": "Integrated locally; author-requested plasma direction / spitting-effort correction",
+          "source": "/workspace/generated_images/exec-42a398d8-08c5-437e-b995-77a5df16966a.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-kick-plasma-v1.png",
+          "webArt": "book-four-chapter-10-kick-plasma-v1.webp",
+          "anchorBefore": "Jenny planted one boot and kicked.",
+          "alt": "Jenny kicks a bright plasma ball back toward Laura, where it catches only the loose edge of Laura’s coat.",
+          "prompt": "Make ONLY a small localized plasma-tail correction to this image. Keep the ROUND bright leading plasma BALL exactly where it is near Laura's coat at right (about x1080,y490 in 1536x1024 image), and keep Jenny's new horizontal kicking boot, all faces, poses, costumes and background unchanged. ERASE the ENTIRE long thin orange arc that currently stretches from near Jenny's HAND/forearm (around x650,y260) over her boot toward the ball. Restore the background behind this unwanted long arc. Jenny's HAND MUST NOT APPEAR TO EMIT plasma. Replace that long arc with a SHORT wispy comet-like tail attached ONLY to the BACK/UPPER-LEFT of the bright ball: tail extends from the sphere back toward the RIGHT SIDE OF JENNY'S BOOT, then rapidly fades into a few sparks in the AIR GAP between boot and ball. Keep ALL visible plasma to RIGHT of Jenny's boot toe, except tiny fading wisps immediately beside toe if needed. No plasma above her forearm, no long trajectory line over her leg, no connection to hand, no laser beam. ONE head at right, SHORT tail trailing behind upper-left. Preserve EVERYTHING ELSE including small coat-hem singe, scene detail, lighting, painted comic style and exact framing.",
+          "references": [
+            "/workspace/generated_images/exec-23b98675-4853-449f-a8c1-d6f234472e89.png"
+          ],
+          "sha256": "3a084866e964d47efe593c96c29dbab3ae626dad91ac8b99d8f718af06b0aa14"
+        },
+        {
+          "number": 2,
+          "key": "kick",
+          "label": "Return to sender",
+          "status": "Integrated locally; full reference-pose correction with leading projectile",
+          "source": "/workspace/generated_images/exec-bd5076b5-c8f5-4b6a-af6a-1d8e631aec4c.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-kick-plasma-v2.png",
+          "webArt": "book-four-chapter-10-kick-plasma-v2.webp",
+          "anchorBefore": "Jenny planted one boot and kicked.",
+          "alt": "Jenny follows through on a kick, sending one bright plasma ball toward Laura with its tail trailing back toward her boot.",
+          "prompt": "Edit FIRST illustration using SECOND photo as the AUTHOR'S SPECIFIC REFERENCE FOR JENNY'S ENTIRE KICKING POSE. This needs more than changing her ankle: REPOSE her torso, shoulders, arms, hips and kicking leg to match the athlete's football volley follow-through. Jenny stays at LEFT, kicking toward RIGHT. Torso faces viewer in a strong THREE-QUARTER TURN, shoulders rotated with ONE bent forearm swinging ACROSS UPPER CHEST for balance, other arm extending BACK toward LEFT. Her gaze follows ball to RIGHT. Kicking thigh raised forward, knee naturally extended with slight bend, ankle/foot aligned in a natural INSTEP-KICK FOLLOW-THROUGH like photo, toe reaching RIGHT and slightly up, not a rigid upright sole pushing sideways. Other leg supports her on ONE white boot planted on street, knee slightly soft. She is grounded, no flying or jumping needed. NOT the original stiff karate sidekick / split-like pose. Keep EXACT Jenny identity, mature natural proportions, long golden curly hair, green eyes, white domino mask, opaque pink full jumpsuit with white stripes/belt/gloves and tall white boots. Exactly TWO arms/TWO legs, no exposed body or changed clothing. ONE ROUND orange-white PLASMA BALL clearly in the AIR AHEAD of and slightly ABOVE the kicking boot, with a visible gap, like the ball in photo. Its short wispy tail trails BACK/LEFT toward the boot, NOT in front of ball toward Laura. Erase the original reversed curved arc and its original sphere at sole: replace with this single rightward-moving comet projectile. No duplicate balls, no connecting beam to Laura, no hand/mouth fire from Jenny. Keep Laura at RIGHT recoiling in same black flame suit and loose black coat, SAME face/mask/ponytail, not hit in skin. Keep original hydrant, background tank/Dork, copper emitter, stone buildings, intact Terminal Tower, midday light and painted inked comic style and full landscape 3:2 framing. Do NOT import athlete's face, gender, clothing, football or stadium. Preserve the rest of FIRST scene closely; no new text or panels.",
+          "references": [
+            "/tmp/defenders-hq-billy/public/assets/book-four-chapter-10-kick-consistency-v2.webp",
+            "/tmp/codex-remote-attachments/01a160a2-8f6b-75b4-b176-1b2bdc9060fb/54290bf0-e2f9-4e1b-be30-37ec863d7f53/1-1000026225.jpg"
+          ],
+          "sha256": "4a13c09136a8dee9f10a61fc7148e34eaec64fa00f8d056f20463764566d1d85"
+        }
+      ],
+      "sha256": "7a9dc8448e65a65645b6534a2acb8694eb5a28cda29ebf697707f53f21d2cd7c"
     },
     {
       "number": 3,
       "key": "absence",
       "label": "Where is he?",
-      "status": "Approved for branch push",
-      "source": "/workspace/generated_images/exec-50d8c708-88af-48c4-8152-448b2ed848a8.png",
-      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-absence-v3.png",
-      "webArt": "book-four-chapter-10-absence-v3.webp",
+      "status": "Author approved final plasma correction for publication",
+      "source": "/workspace/generated_images/exec-6a07a15f-801f-4bad-85a7-95098e5ce57a.png",
+      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-absence-plasma-v2.png",
+      "webArt": "book-four-chapter-10-absence-plasma-v2.webp",
       "anchorBefore": "Laura’s smile faded.",
-      "alt": "Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges.",
-      "prompt": "Edit the first reference into ONE WIDE LANDSCAPE 3:2 TWO-PANEL comic illustration with a narrow clean VERTICAL divider at center. Exactly TWO equal SIDE-BY-SIDE panels depict TWO CONSECUTIVE MOMENTS, not two Lauras in same scene. Same rich warm painted inked comic style, Cleveland PublicSquare 1987 MIDDAY golden daylight stonebuildings and distant TerminalTower. Keep EXACT Laura identity firstreference: BROWNeyes BLACKdominomask curly BROWN PONYTAIL, normal lips, opaque plain BLACKhighneckfulljumpsuit red/yellow FLAME FABRIC sidepanels blackglovesboots, NOcoat/lapels (coat discarded). LEFT PANEL close head/shoulders of Laura STANDING, eyes lowered, mouthclosed and briefly SADDENED, a vulnerable subdued expression after hearing FlamingHead hasn't returned. Same face asfirstreference. No tears spectacle, no ghost/flameface/memoryportrait. Jenny may appear softly small at leftbackground in a cautious standingguard, not comforting or touching. RIGHT PANEL SAME Laura head/upperbody threequarterSIDE facingRIGHT, now jawset angry narrowedeyes, SPITTING one vivid ORANGEWHITE PLASMA BALL with short fierytrail FROM HER MOUTH towardright. Hands lowered naturally NOT producingfire, her flamefabric costume itself notonfire. Ball misses Jenny who can be small at rightedge steppingquicklyoutofthepath, whiteboots blurred and little pavementdust as in secondreference. Jenny youthful modest longgoldenblondecurlyhair greeneyes WHITEmask PINKzipfulljumpsuit white stripesbeltglovesboots, sameidentityreferences. Strong contrast between brief sadness left and defiant attacking expression right. Clear same location and shortinterval, no changes toLaura hairstyle/mask/suit. No speech balloons, text, captions, words or outerborder; dialogue will be in chapter prose. No Fist/Billy/Seth/Dork closeups, no modernobjects orhandheldweapon. If tank tinybackground retainshortcopperemitter NOTlonggun. Both women remain standing, no seated lap. Mainpurpose juxtaposition sadness then reasserted anger and mouth-fired flame.",
+      "alt": "Laura leans forward with clenched fists and spits plasma as Jenny dodges; a thought bubble shows her remembering Flaming Head.",
+      "prompt": "Revise IMAGE1 into ONE full-width LANDSCAPE 3:2 painted inked comic illustration, replacing its two-panel layout. AUTHOR REQUEST: NO SIDE-BY-SIDE LAURAS, NO CENTRAL DIVIDER, ONLY ONE LAURA in the real scene. Use IMAGE2 ONLY as pose reference: upper body leans/thrusts forward toward RIGHT, shoulders tense, elbows drawn back, BOTH BLACK-GLOVED FISTS clenched low at her sides, head thrust forward with visible exertion. Adapt this pose to Laura STANDING BRACED ON THE STREET, not flying. Use IMAGE1 for Laura's exact adult face, curly BROWN HIGH PONYTAIL, brown eyes, BLACK domino mask, opaque BLACK high-neck full jumpsuit with red/yellow flame FABRIC side panels, black gloves/boots. No coat, cape, shield, S emblem, sports gear, male features or eye beams from IMAGE2. PLASMA FIRES FROM HER MOUTH ONLY: tightly pursed spitting lips with a small rounded opening, tense jaw/cheeks, narrowed angry eyes, neck effort; ONE bright ORANGE-WHITE ROUND BALL launched RIGHT, short tapered fiery tail trailing back toward mouth. Not hand-fire, not eye-fire, not a thin laser. Leave space to right for projectile; Jenny small in RIGHT BACKGROUND dodges clear in her pink/white suit, long golden curls, white mask/gloves/boots, same mature proportions. Scene remains Cleveland Public Square 1987 in bright midday with golden stone buildings, intact Terminal Tower, distant olive tank with short copper-ringed emitter, small smoldering boards. EXACT rich warm painted inked visual style of IMAGE1, not IMAGE2's red abstract environment. Above and behind Laura's head at UPPER LEFT add ONE SMALL CLOUD-SHAPED WHITE THOUGHT BUBBLE with 2–3 small round thought dots leading to her temple. Inside bubble show ONLY Flaming Head from IMAGE3, recognizable rounded ORANGE face, huge vertical white oval eyes and thick yellow/orange painted flames, gentle concerned expression, NO human nose/neck/body. The bubble is a clear MEMORY/THOUGHT of him, NOT a character returning to the street, not a ghost beside her. Bubble should occupy roughly 15–20% of image, leave Laura's forward pose/mouth attack dominant. No second Laura or inset Laura portrait, no separate panel, no written words, speech, captions or lettering. No other characters added or changed story.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-absence-v2.webp",
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-v2.webp"
+        "/workspace/generated_images/exec-01ecbfc0-0719-406d-8d98-f2edf608f05c.png",
+        "/tmp/codex-remote-attachments/01a160a2-8f6b-75b4-b176-1b2bdc9060fb/032a2b0e-af60-4462-99ab-a26933171c87/1-1000026227.jpg",
+        "/tmp/defenders-hq-billy/public/assets/character-flaming-head-v1.png"
       ],
       "previousVersions": [
         {
@@ -76,8 +132,45 @@
           ],
           "version": 2,
           "status": "Superseded by author-requested two-panel sadness/attack juxtaposition"
+        },
+        {
+          "number": 3,
+          "key": "absence",
+          "label": "Where is he?",
+          "status": "Approved for branch push",
+          "source": "/workspace/generated_images/exec-50d8c708-88af-48c4-8152-448b2ed848a8.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-absence-v3.png",
+          "webArt": "book-four-chapter-10-absence-v3.webp",
+          "anchorBefore": "Laura’s smile faded.",
+          "alt": "Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges.",
+          "prompt": "Edit the first reference into ONE WIDE LANDSCAPE 3:2 TWO-PANEL comic illustration with a narrow clean VERTICAL divider at center. Exactly TWO equal SIDE-BY-SIDE panels depict TWO CONSECUTIVE MOMENTS, not two Lauras in same scene. Same rich warm painted inked comic style, Cleveland PublicSquare 1987 MIDDAY golden daylight stonebuildings and distant TerminalTower. Keep EXACT Laura identity firstreference: BROWNeyes BLACKdominomask curly BROWN PONYTAIL, normal lips, opaque plain BLACKhighneckfulljumpsuit red/yellow FLAME FABRIC sidepanels blackglovesboots, NOcoat/lapels (coat discarded). LEFT PANEL close head/shoulders of Laura STANDING, eyes lowered, mouthclosed and briefly SADDENED, a vulnerable subdued expression after hearing FlamingHead hasn't returned. Same face asfirstreference. No tears spectacle, no ghost/flameface/memoryportrait. Jenny may appear softly small at leftbackground in a cautious standingguard, not comforting or touching. RIGHT PANEL SAME Laura head/upperbody threequarterSIDE facingRIGHT, now jawset angry narrowedeyes, SPITTING one vivid ORANGEWHITE PLASMA BALL with short fierytrail FROM HER MOUTH towardright. Hands lowered naturally NOT producingfire, her flamefabric costume itself notonfire. Ball misses Jenny who can be small at rightedge steppingquicklyoutofthepath, whiteboots blurred and little pavementdust as in secondreference. Jenny youthful modest longgoldenblondecurlyhair greeneyes WHITEmask PINKzipfulljumpsuit white stripesbeltglovesboots, sameidentityreferences. Strong contrast between brief sadness left and defiant attacking expression right. Clear same location and shortinterval, no changes toLaura hairstyle/mask/suit. No speech balloons, text, captions, words or outerborder; dialogue will be in chapter prose. No Fist/Billy/Seth/Dork closeups, no modernobjects orhandheldweapon. If tank tinybackground retainshortcopperemitter NOTlonggun. Both women remain standing, no seated lap. Mainpurpose juxtaposition sadness then reasserted anger and mouth-fired flame.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-absence-v2.webp",
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-v2.webp"
+          ]
+        },
+        {
+          "webArt": "book-four-chapter-10-absence-consistency-v2.webp",
+          "status": "Previously active consistency correction; preserved unchanged"
+        },
+        {
+          "number": 3,
+          "key": "absence",
+          "label": "Where is he?",
+          "status": "Integrated locally; author-requested plasma direction / spitting-effort correction",
+          "source": "/workspace/generated_images/exec-01ecbfc0-0719-406d-8d98-f2edf608f05c.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-absence-plasma-v1.png",
+          "webArt": "book-four-chapter-10-absence-plasma-v1.webp",
+          "anchorBefore": "Laura’s smile faded.",
+          "alt": "Two panels contrast Laura’s brief sadness with her renewed anger as she spits plasma and Jenny dodges.",
+          "prompt": "Edit this TWO-PANEL landscape painted inked comic illustration. Keep the ENTIRE LEFT PANEL unchanged: Laura's subdued sad face, Jenny, background, colors and composition. Edit ONLY Laura's face and a small amount of neck/shoulder pose in RIGHT PANEL so she is VISIBLY MAKING AN EFFORT TO SPIT the plasma projectile, not casually holding an open mouth. Her lips PUSH FORWARD and PURSE firmly into a small rounded spitting opening around the narrow base of the plasma trail. Show pressure in slightly puffed/tense cheeks, tight jaw, brow furrow and narrowed angry eyes, chin/head thrust slightly forward and neck tensed. It should read as a FORCEFUL deliberate SPIT, believable expressive comic anatomy with the SAME adult Laura identity, nose, eyes, black mask, curly brown high ponytail and original head size. Not a huge stretched mouth, not a scream, not vomiting; no drool or bodily fluids. Keep the same ONE orange-white plasma ball traveling RIGHT with its tail behind it toward her mouth; do not add shots or hand-fire. Preserve right-panel Jenny dodging, all body/costume detail, background tank and skyline, vertical divider, art style and exact overall framing. Flame-pattern costume is printed fabric, not burning. No text or new panels.",
+          "references": [
+            "/tmp/defenders-hq-billy/public/assets/book-four-chapter-10-absence-consistency-v2.webp"
+          ],
+          "sha256": "5b61faa8ce31d1664c5ed16210cf8f0870220fc6f25f1d2f5479bf8ac48d80e8"
         }
-      ]
+      ],
+      "sha256": "b58970b21f6055f04486e9a5e84955bb047d11f822d5101aa7ec4bf06a0e3c57"
     },
     {
       "number": 4,
