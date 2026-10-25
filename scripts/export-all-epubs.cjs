@@ -13,12 +13,16 @@ for(const book of books){
  const report=JSON.parse(fs.readFileSync(path.join(root,'tmp',book.id==='origins'?'epub':'epub-'+book.id,'quality-report.json'),'utf8'));
  reports.push(report);
  // Books without a paperback configuration still need a current illustrated review PDF.
- if(book.id!=='origins'&&!fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
+ if(book.id!=='origins'&&(!fs.existsSync(path.join(root,'print',book.id+'-cover.json'))||fs.existsSync(path.join(root,'print',book.id+'-interior.json')))){
   cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id],{cwd:root,stdio:'inherit'});
+ }
+ if(fs.existsSync(path.join(root,'print',book.id+'-interior.json'))){
+  cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id,'--paperback'],{cwd:root,stdio:'inherit'});
+  cp.execFileSync(python,[`scripts/preflight-${book.id}.py`],{cwd:root,stdio:'inherit'});
  }
  if(fs.existsSync(path.join(root,'print',book.id+'-cover.json'))){
   const config=JSON.parse(fs.readFileSync(path.join(root,'print',book.id+'-cover.json'),'utf8'));
-  if(config.interiorPdf){
+  if(config.interiorPdf&&!fs.existsSync(path.join(root,'print',book.id+'-interior.json'))){
    cp.execFileSync(process.execPath,['scripts/export-book-two-pdf.cjs','--book',book.id,'--paperback'],{cwd:root,stdio:'inherit'});
   }
   cp.execFileSync(python,['scripts/build-paperback-cover.py','--book',book.id],{cwd:root,stdio:'inherit'});

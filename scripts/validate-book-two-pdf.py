@@ -71,11 +71,11 @@ if layout.get('paperback'):
 file=out/(f'{args.book}-kdp-interior.pdf' if layout.get('paperback') else f'defenders-of-the-land-{args.book}-illustrated.pdf');doc.save(file,garbage=4,deflate=True)
 report={'bookId':args.book,'file':file.name,'pages':len(doc),'pageCountIncludes':'title, copyright, contents, all available chapters and end padding; no cover' if layout.get('paperback') else 'front cover, title, contents and all available chapters','chapters':len(layout['chapters']),'interiorIllustrations':placements if layout.get('paperback') else placements-1,'passagesChecked':len(expected),'bytes':file.stat().st_size,'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'status':'Unpublished illustrated review PDF; not an approved print interior','pageSizeInches':[6,9],'printLayoutIsProvisional':True,'chapterStarts':layout['chapters']}
 with fitz.open(file) as final:
-    if args.book=='book-two' and layout.get('paperback'):
+    if args.book in ('book-two','book-four') and layout.get('paperback'):
         resolution=inspect_image_resolution(final)
         resolution.update({'file':file.name,'pages':len(final),'sha256':report['sha256']})
         report['minimumPlacedImageDpi']=resolution['minimumPlacedImageDpi']
-        (out/'book-two-interior-resolution.json').write_text(json.dumps(resolution,indent=2)+'\n')
+        (out/f'{args.book}-interior-resolution.json').write_text(json.dumps(resolution,indent=2)+'\n')
     destinations=[link['page'] for page in final for link in page.get_links() if link['kind']==fitz.LINK_GOTO]
     assert set(destinations)==(set() if layout.get('paperback') else {c['page']-1 for c in layout['chapters']})
     assert len(final.get_toc())==(0 if layout.get('paperback') else len(layout['chapters']))
@@ -87,10 +87,12 @@ with fitz.open(file) as final:
 report.update({'paperbackInterior':bool(layout.get('paperback')),'contentPages':content_pages,'paddingPages':len(doc)-content_pages})
 if layout.get('paperback'):
     report['manuscriptStatus']=book['status']
-    report['status']='Complete illustrated paperback manuscript; print proof pending' if book['status']=='Manuscript complete' else 'Current illustrated paperback manuscript; book still in progress'
+    report['status']='Complete illustrated paperback manuscript; print proof pending' if book['status'] in ('Manuscript complete','Draft complete') else 'Current illustrated paperback manuscript; book still in progress'
     report['printPdfNavigationRemoved']=True
+if args.book=='book-four' and layout.get('paperback'):
+    report['printLayoutIsProvisional']=False
 cover_config=root/'print'/f'{args.book}-cover.json'
-has_print_interior=cover_config.exists() and bool(json.loads(cover_config.read_text()).get('interiorPdf'))
+has_print_interior=(root/'print'/f'{args.book}-interior.json').exists() or (cover_config.exists() and bool(json.loads(cover_config.read_text()).get('interiorPdf')))
 report_name=f'{args.book}-review-pdf-build.json' if has_print_interior and not layout.get('paperback') else f'{args.book}-pdf-build.json'
 (out/report_name).write_text(json.dumps(report,indent=2)+'\n')
 print(f"Verified {args.book} illustrated PDF: {len(doc)} pages, {report['chapters']} chapters, {report['interiorIllustrations']} illustrations; complete text, page bounds and image/text separation.")

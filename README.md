@@ -173,16 +173,19 @@ The October 25 author revisions use **Defenders HQ**, add the supplied Billy dia
 
 The approved voice pass changes eighteen dialogue passages. A separate Chapter 6 pacing pass removes 102 words of repeated handling and positioning while preserving all dialogue, illustration anchors, and Laura’s stalling. Records are in `docs/editorial/book-four-voice-pass-approved-2026-10-25.json` and `docs/editorial/book-four-pacing-2026-10-25.json`.
 
-Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
+Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF and paperback interior; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
 
 Book Four outputs in `output/publishing/`:
 
 - `defenders-of-the-land-book-four-illustrated.pdf` — current illustrated reading/review edition, with cover and linked contents.
-- `book-four-pdf-build.json` — measured pages, available chapters, illustration count and checksum.
+- `book-four-kdp-interior.pdf` — 6 × 9 inch, no-bleed paperback interior without the cover; mirrored margins and printed contents page numbers.
+- `book-four-pdf-build.json` — measured paperback pages, chapter starts, illustration count and checksum.
+- `book-four-review-pdf-build.json` — separate review PDF measurements and checksum.
+- `book-four-preflight.json`, `book-four-interior-resolution.json` and `book-four-upload-guide.txt` — final-file checks, source checksums, placed image resolution and exact upload settings.
 - `defenders-of-the-land-book-four.epub` — reflowable current manuscript with cover and linked navigation.
 - `book-four-ebook-cover.jpg` — standalone front cover from the staged original.
 
-The current exports contain Chapters 1–13 and identify the book as a complete draft. This short review PDF is not a KDP paperback interior; a measured paperback wrap will follow when enough manuscript exists. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
+The current exports contain Chapters 1–13 and identify the book as a complete draft. The normal build also generates a separate paperback interior using `print/book-four-interior.json`: standard color on white paper, 6 × 9 inches, no bleed, 0.75-inch inside and 0.625-inch outside margins. The build fails on missing/reordered prose, insufficient image resolution, unsafe margins, unembedded fonts or overlapping content. Interior preparation does not upload to KDP. Run `python -m unittest discover -s scripts -p 'test_book_four_preflight.py'` after building to exercise preflight rejection checks. Check KDP Print Previewer and a physical proof before publication; a separate paperback wrap must match the generated interior page count. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
 
 Chapter 2 retains five illustrations: the map-planning scene, Pink Blur’s mature-design side-view pursuit, Zerdo at the dumpster, the cyclist rescue and Dork reading the newspaper as the closing image. The earlier rear-view chase candidate is preserved as a rejected version.
 
