@@ -176,15 +176,15 @@
       "number": 4,
       "key": "setup",
       "label": "Into position",
-      "status": "Approved for branch push",
-      "source": "/workspace/generated_images/exec-44b02b8a-4d6b-4604-873e-1904f387b495.png",
-      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-setup-v2.png",
-      "webArt": "book-four-chapter-10-setup-v2.webp",
+      "status": "Author approved final one-ball/five-impact artwork for publication",
+      "source": "/workspace/generated_images/exec-61cbe572-a586-4c53-8c64-cfe3e252cc23.png",
+      "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-setup-plasma-v2.png",
+      "webArt": "book-four-chapter-10-setup-plasma-v2.webp",
       "anchorBefore": "Laura spat again. Jenny’s boots blurred as she cut sideways, kicking up dust.",
-      "alt": "Laura spits plasma and misses as Jenny dodges with blurred feet and dust rising from the pavement; Fist approaches the hydrant.",
-      "prompt": "Edit this exact chapter illustration, preserving its richly painted inked comic style, Cleveland 1987 midday PublicSquare, same two character faces costumes and positions, yellow hydrant LEFT, single Fist boxing glove at upperLEFT with WHITEcuff trailingLEFT, and modifiedtank/background. Replace Laura's PUNCH with her SPITTING PLASMA AND MISSING: Laura CENTER is NO LONGER extending an arm toward Jenny. Lower her two black-gloved hands naturally into a ready position at waist/side, elbows bent, fingers normal. Turn her head/mouth clearly toward JennyRIGHT. A SMALL bright orange-white plasma BALL with thin orange motion trail visibly leaves LAURA'S LIPS and passes through the EMPTY SPACE just behind Jenny's trailing shoulder, continuing to strike EMPTY ASPHALT behind her at screenRIGHT; modest bright impact spark/dust there, NOT on Jenny, coat, hair or tank. No fire from hands, no hugebeam/no eye lasers. JENNY/PINKBLUR at RIGHT evades with startling SPEED: her upperbody/head stay readable front/threequarterSIDE, expression focused confident, CURLY GOLDENBLONDEhair trailingLEFT, pinkopaque fulljumpsuit white maskbeltglovesboots modest youthful proportions. Her LOWER LEGS and WHITE BOOTS have intentional directional MOTION BLUR and short pink/white streaks at groundlevel indicating rapid footwork. ONE Jenny, exactly TWO legs; don't add duplicate feet/legs or make her fly. Small pale GRAY DUST/SMOKE puffs from her boot contact with pavement, no burningboots or firepowers. Grounded lateral sidestep takes her OUT of plasma path, clear visiblegap between projectile andbody. Laura NOCOAT smoothhighneckblackfullsuit redyellowflameFABRICpanels, no pointed leatherlapels. Hydrant INTACT DRY, no water yet. Fist ONE floatingredglove, noarm/neck/body. No captions words speechballoons borders or othercharacters. Make missed mouth-fired plasma and very FAST blurred footwork the clear main action.",
+      "alt": "Laura spits one plasma ball as Jenny dodges. Five scattered scorched impact marks smoke across the square; Fist approaches the intact yellow hydrant.",
+      "prompt": "EDIT THE PROVIDED IMAGE, making localized FIREBALL ACTION / ENVIRONMENTAL IMPACT changes ONLY. Preserve original composition, camera angle, afternoon lighting, colors and detailed painterly inked comic style. Preserve EVERY character's exact pose, face, clothing, size and position: Laura center in black/orange flame suit, curly auburn ponytail and black mask; Jenny right in pink/white with blonde curls and existing motion blur; red glove Fist at left with original speed streaks; untouched yellow hydrant foreground; original Army tank with Dork and its SHORT COPPER-RINGED EMITTER at right; Terminal Tower and all background structures. Do NOT recompose or move Jenny or change the tank barrel.\n\n1. EXACTLY ONE AIRBORNE FIREBALL. Keep the existing single compact glowing orange-white ball JUST IN FRONT OF LAURA'S MOUTH, traveling toward screen RIGHT/Jenny, but it HAS NOT REACHED HER. Keep only a SHORT glowing tail BEHIND the ball toward LEFT, toward Laura's lips. Completely REMOVE the LONG THIN ORANGE ARC IN FRONT OF THE BALL that currently continues past Jenny's shoulder to far right and down to the street. Restore original scenery beneath this removed line. No part of this new ball/trail touches Jenny. No other airborne orbs or trajectory lines.\n\n2. EXACTLY FIVE SEPARATE ALREADY-LANDED MISSED-SHOT IMPACT MARKS, besides the unchanged burning debris pile. Each is a SMALL BLACK SCORCH stuck to a solid surface with a LITTLE CURL OF GRAY SMOKE and a FEW GLOWING ORANGE EMBERS/sparks, NOT a fireball hanging in air, NOT large flames. Spread the FIVE across different depths and vary sizes. Place them: (A) pavement in the dust trail just BEHIND Jenny's running feet, with clear air gap to feet/blur so it reads as a dodged shot; (B) STONE BASE OF THE MONUMENT at left-center, a dark scorch with a few sparks, clear of Laura/Fist; (C) empty STREET BETWEEN LAURA AND HYDRANT, small scorched pavement patch, not on hydrant or near her boots; (D) street IN FRONT OF TANK TREADS at right: REDUCE the EXISTING FAR-RIGHT BIG EXPLOSION to this ONE smaller scorch/ember impact with a few scattered stone chips/debris. Keep the tank and driver unhit and unlit. (E) a SINGLE TINY flare/scorch on a HIGH VISIBLE STONE PLANTER SURFACE OR LAMP BASE IN THE BACKGROUND with a thin curl of smoke, away from all characters. A and C should read foreground/midground; B and E recede in depth; D is near but clearly separate from tank. Count exactly FIVE impact spots. No connecting beams to any impact. No street-sign addition requested.\n\n3. Keep the original BURNING DEBRIS PILE in background exactly as shown; it is separate from those five small miss marks. Hydrant stays intact, dry, UNMARKED and unscorched. NO impact or sparks on/touching any person, Fist, clothing, tank, driver, hydrant or their silhouettes. Nobody hurt; exciting all-ages action. Do not add or change poses/faces/costumes, characters, text, speech bubbles, watermarks or borders. Keep existing Jenny speed blur but do not add unwanted blur elsewhere. No distorted hands, no fireball through Jenny, no eye/hand fire or tank firing.",
       "references": [
-        "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-v1.webp"
+        "/tmp/codex-remote-attachments/01a160a2-8f6b-75b4-b176-1b2bdc9060fb/1b919689-fdac-4144-9146-4d49a7f4e9e8/1-1000026228.jpg"
       ],
       "previousVersions": [
         {
@@ -201,8 +201,45 @@
           ],
           "version": 1,
           "status": "Superseded: author requested missed plasma and blurred footwork"
+        },
+        {
+          "number": 4,
+          "key": "setup",
+          "label": "Into position",
+          "status": "Approved for branch push",
+          "source": "/workspace/generated_images/exec-44b02b8a-4d6b-4604-873e-1904f387b495.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-setup-v2.png",
+          "webArt": "book-four-chapter-10-setup-v2.webp",
+          "anchorBefore": "Laura spat again. Jenny’s boots blurred as she cut sideways, kicking up dust.",
+          "alt": "Laura spits plasma and misses as Jenny dodges with blurred feet and dust rising from the pavement; Fist approaches the hydrant.",
+          "prompt": "Edit this exact chapter illustration, preserving its richly painted inked comic style, Cleveland 1987 midday PublicSquare, same two character faces costumes and positions, yellow hydrant LEFT, single Fist boxing glove at upperLEFT with WHITEcuff trailingLEFT, and modifiedtank/background. Replace Laura's PUNCH with her SPITTING PLASMA AND MISSING: Laura CENTER is NO LONGER extending an arm toward Jenny. Lower her two black-gloved hands naturally into a ready position at waist/side, elbows bent, fingers normal. Turn her head/mouth clearly toward JennyRIGHT. A SMALL bright orange-white plasma BALL with thin orange motion trail visibly leaves LAURA'S LIPS and passes through the EMPTY SPACE just behind Jenny's trailing shoulder, continuing to strike EMPTY ASPHALT behind her at screenRIGHT; modest bright impact spark/dust there, NOT on Jenny, coat, hair or tank. No fire from hands, no hugebeam/no eye lasers. JENNY/PINKBLUR at RIGHT evades with startling SPEED: her upperbody/head stay readable front/threequarterSIDE, expression focused confident, CURLY GOLDENBLONDEhair trailingLEFT, pinkopaque fulljumpsuit white maskbeltglovesboots modest youthful proportions. Her LOWER LEGS and WHITE BOOTS have intentional directional MOTION BLUR and short pink/white streaks at groundlevel indicating rapid footwork. ONE Jenny, exactly TWO legs; don't add duplicate feet/legs or make her fly. Small pale GRAY DUST/SMOKE puffs from her boot contact with pavement, no burningboots or firepowers. Grounded lateral sidestep takes her OUT of plasma path, clear visiblegap between projectile andbody. Laura NOCOAT smoothhighneckblackfullsuit redyellowflameFABRICpanels, no pointed leatherlapels. Hydrant INTACT DRY, no water yet. Fist ONE floatingredglove, noarm/neck/body. No captions words speechballoons borders or othercharacters. Make missed mouth-fired plasma and very FAST blurred footwork the clear main action.",
+          "references": [
+            "/workspace/DefendersOfTheLand/public/assets/book-four-chapter-10-setup-v1.webp"
+          ]
+        },
+        {
+          "webArt": "book-four-chapter-10-setup-design-v1.webp",
+          "status": "Previously active approved-design artwork; preserved unchanged"
+        },
+        {
+          "number": 4,
+          "key": "setup",
+          "label": "Into position",
+          "status": "Integrated locally; missed plasma head/trail and earlier street-sign scorch",
+          "source": "/workspace/generated_images/exec-b4968309-b66d-478e-a1ca-f0e8aac33d49.png",
+          "original": "docs/art/originals/book-four/chapter-10/book-four-chapter-10-setup-plasma-v1.png",
+          "webArt": "book-four-chapter-10-setup-plasma-v1.webp",
+          "anchorBefore": "Laura spat again. Jenny’s boots blurred as she cut sideways, kicking up dust.",
+          "alt": "A plasma ball passes behind Jenny as she dodges, its tail trailing toward Laura; a street sign shows an earlier scorch and Fist approaches the intact hydrant.",
+          "prompt": "Tiny localized PROP correction to FIRST image only. The tank in the right background has incorrectly gained a long dark green conventional cannon. Replace ONLY this barrel with the established SHORT STUBBY COPPER-RINGED RAY EMITTER from SECOND reference image: several stepped bright COPPER concentric rings on a compact muzzle projecting a short distance from a square bolted turret plate. It is an Army shrink ray, NOT a long gun. Barrel is DARK INSIDE, UNLIT, not firing anything. Keep the tank, Dork and all other surrounding pixels as close to FIRST image as possible. CRITICAL preserve FIRST image's ONE missed orange plasma ball in clear AIR ABOVE tank and to RIGHT of Jenny's hair, with short tail trailing left; this ball comes from LAURA'S MOUTH, not tank. Preserve scorched street sign at upper right, Laura's mouth glow, Jenny dodge/blur/dust, Fist, intact yellow hydrant, all faces and costumes, composition, lighting and exact painted comic style/framing. Do not restore second reference's wrong plasma trail or ball near Laura's mouth. No new beam, projectile, people, lettering or panels.",
+          "references": [
+            "/workspace/generated_images/exec-6b07f4d9-21ee-4223-a7db-45788253e555.png",
+            "/tmp/defenders-hq-billy/public/assets/book-four-chapter-10-setup-design-v1.webp"
+          ],
+          "sha256": "157ce47a7c31b582d6871f690ffa2d176c9d404b829c761225deaf62ac23ed9d"
         }
-      ]
+      ],
+      "sha256": "8e7e6877df00f04c018c7d0dc46a5af957ff7c8030b6480b3df422d091c0ea58"
     },
     {
       "number": 5,
