@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-25",
+  "authorization": "Apply the proposed 100–150-word Chapter 6 compression, retain all failed attempts and Laura’s stalling. Commit and merge with the eighteen previously approved local dialogue substitutions.",
+  "wordsBefore": 1009,
+  "wordsAfter": 907,
+  "wordsCut": 102,
+  "wordsCutFromTorchAttempt": 55,
+  "archive": "docs/editorial/archive/book-four-chapter-06-before-pacing-2026-10-25.json",
+  "sha256": "9069bbf8a5ef6e81c20120309b4d69b8772abf25cf600485b1b8c248f1ce5f04",
+  "preserved": [
+    "All Chapter 6 dialogue, including the approved Dork voice change",
+    "Five illustrations and their original paragraph anchors",
+    "Jaws’s bite, gouges and Thick admission",
+    "Dork’s torch leaving a shallow groove",
+    "Laura’s weak-power fear, soot excuse and unnecessary paper handling",
+    "Dork sitting to wait"
+  ],
+  "edits": [
+    {
+      "originalBlock": 41,
+      "before": "It moved a little, then stopped against the locks. He tried it in the other direction with the same result.",
+      "after": "It moved a little, then stopped against the locks."
+    },
+    {
+      "originalBlock": 47,
+      "before": "Jaws twisted sideways, biting harder, his blond hair shaking with the effort.",
+      "after": "Jaws twisted sideways, biting harder."
+    },
+    {
+      "originalBlock": 49,
+      "before": "He tried the lug from another angle.",
+      "after": null
+    },
+    {
+      "originalBlock": 64,
+      "before": "Jaws watched from behind Daniel’s shoulder. After a while he drifted upward to see whether anything was happening at the top.",
+      "after": null
+    },
+    {
+      "originalBlock": 65,
+      "before": "Nothing was.",
+      "after": null
+    },
+    {
+      "originalBlock": 66,
+      "before": "Daniel worked the torch along the seam, then stopped to inspect it.",
+      "after": null
+    },
+    {
+      "originalBlock": 67,
+      "before": "The workshop grew warm.",
+      "after": null
+    },
+    {
+      "originalBlock": 72,
+      "before": "In the sudden quiet, a last spark clicked against the floor.",
+      "after": null
+    },
+    {
+      "originalBlock": 74,
+      "before": "Jaws lowered himself beside him.",
+      "after": null
+    },
+    {
+      "originalBlock": 79,
+      "before": "Daniel held the unlit torch low, its tip pointed at the floor. He had made room for her in front of the door.",
+      "after": "Daniel held the unlit torch low and made room for her."
+    },
+    {
+      "originalBlock": 80,
+      "before": "Jaws moved too. He floated just clear of the vault’s corner, looking at her with an eager grin.",
+      "after": "Jaws floated clear of the vault’s corner, grinning."
+    }
+  ]
+}

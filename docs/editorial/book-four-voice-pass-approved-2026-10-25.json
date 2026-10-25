@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-25",
+  "scope": "Eighteen author-approved dialogue substitutions across both batches. Declined proposals retained. No narration, action, scene, illustration or dialogue tag changes.",
+  "mismatches": [],
+  "edits": [
+    {
+      "chapter": 1,
+      "block": 43,
+      "before": "“Bring them here. Stay clear of that roof.”",
+      "after": "“Blocks, please. Stay clear of that roof.”"
+    },
+    {
+      "chapter": 2,
+      "block": 63,
+      "before": "“Neither did they look,” Jenny said.",
+      "after": "“They didn’t look,” Jenny said."
+    },
+    {
+      "chapter": 3,
+      "block": 73,
+      "before": "“And open it?” Laura asked.",
+      "after": "“Open it how?” Laura asked."
+    },
+    {
+      "chapter": 4,
+      "block": 51,
+      "before": "“You should have told us you were thinking about this.”",
+      "after": "“You should have told us sooner.”"
+    },
+    {
+      "chapter": 3,
+      "block": 60,
+      "before": "“Then we go and get them.”",
+      "after": "“Then let’s go bite them!”"
+    },
+    {
+      "chapter": 3,
+      "block": 65,
+      "before": "“That would be a poor use of this.”",
+      "after": "“This calls for something grander.”"
+    },
+    {
+      "chapter": 1,
+      "block": 49,
+      "before": "“Got it.”",
+      "after": "“On it.”"
+    },
+    {
+      "chapter": 2,
+      "block": 99,
+      "before": "“The clerk’s husband came,” he said. “She didn’t want to be alone in there.”",
+      "after": "“Clerk’s husband showed up,” he said. “She didn’t want to be alone.”"
+    },
+    {
+      "chapter": 10,
+      "block": 20,
+      "before": "“Well, I never forgave him for making me like this!”",
+      "after": "“I never forgave him for making me like this.”"
+    },
+    {
+      "chapter": 12,
+      "block": 86,
+      "before": "“You’ll have to get past me.”",
+      "after": "“Try me.”"
+    },
+    {
+      "chapter": 6,
+      "block": 87,
+      "before": "“You’re going to heat it.”",
+      "after": "“You intend to heat it.”"
+    },
+    {
+      "chapter": 8,
+      "block": 65,
+      "before": "“You have to choose the right spot.”",
+      "after": "“Try choosing the right spot.”"
+    },
+    {
+      "chapter": 9,
+      "block": 52,
+      "before": "“Now. Who’s in charge?”",
+      "after": "“Who commands here?”"
+    },
+    {
+      "chapter": 10,
+      "block": 60,
+      "before": "“If you want to help the city, join the Defenders.”",
+      "after": "“Want to help the city? Join the Defenders.”"
+    },
+    {
+      "chapter": 12,
+      "block": 91,
+      "before": "“That’s all of it?” Jenny said.",
+      "after": "“All of it?” Jenny said."
+    },
+    {
+      "chapter": 10,
+      "block": 22,
+      "before": "Jenny slipped aside. “You’re powerful. You can choose what you do with it.”",
+      "after": "Jenny slipped aside. “You’re powerful. You can choose.”"
+    },
+    {
+      "chapter": 11,
+      "block": 6,
+      "before": "“I don’t know who you are, but I know I don’t like you.”",
+      "after": "“Don’t know who you are. Don’t like you.”"
+    },
+    {
+      "chapter": 12,
+      "block": 121,
+      "before": "“No,” he said. “I don’t think I will.”",
+      "after": "“No,” he said. “I’m not biting.”"
+    }
+  ],
+  "editsPerChapter": {
+    "1": 2,
+    "2": 2,
+    "3": 3,
+    "4": 1,
+    "6": 1,
+    "8": 1,
+    "9": 1,
+    "10": 3,
+    "11": 1,
+    "12": 3
+  },
+  "verification": "Reversing exactly these eighteen substitutions reproduces every chapter in the committed manuscript. Maximum three substitutions per chapter."
+}
