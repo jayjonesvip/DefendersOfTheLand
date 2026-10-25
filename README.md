@@ -171,6 +171,8 @@ Chapter 12, **Off Comes the Top**, now uses the later author-submitted revision 
 
 The October 25 author revisions use **Defenders HQ**, add the supplied Billy dialogue, simplify ray removal, and resolve the lamp-pocket and repeated vault-look passages. Their exact source checks and chapter hashes are recorded in `docs/editorial/book-four-author-revisions-2026-10-25.json`.
 
+The approved voice pass changes eighteen dialogue passages. A separate Chapter 6 pacing pass removes 102 words of repeated handling and positioning while preserving all dialogue, illustration anchors, and Laura’s stalling. Records are in `docs/editorial/book-four-voice-pass-approved-2026-10-25.json` and `docs/editorial/book-four-pacing-2026-10-25.json`.
+
 Run `npm run build` to rebuild all publishing files and the site. `npm run build:epub` refreshes the EPUBs and Book Four review PDF; `npm run build:site` updates only the website. Run `npm test` after a full build. GitHub Pages builds and deploys main-branch pushes; the publishing files are retained in the private **kdp-publishing-files** Actions artifact.
 
 Book Four outputs in `output/publishing/`:
