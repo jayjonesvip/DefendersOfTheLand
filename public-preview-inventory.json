@@ -106,8 +106,12 @@
       "sha256": "4bfa4fa4db4464966fac2e3e5337412f71fdfc4558f8987686ab973b1eab1434"
     },
     {
+      "path": "content/website-seo.json",
+      "sha256": "0ad81b25c7c940a8df116eaafe300bee08e41f18914eac56ea463b31406a5fb8"
+    },
+    {
       "path": "image-manifest.json",
-      "sha256": "b39f1e798212837262e82f2dae574d814aa3877f557362f61e52ca1e094a0062"
+      "sha256": "4de1c6d0e3232b6c3916d5543a5bedbc9d4ea817864eb54a6ac69b030b9c1b1c"
     },
     {
       "path": "public/apple-touch-icon.png",
@@ -192,6 +196,10 @@
     {
       "path": "public/assets/claude-portrait-v2.png",
       "sha256": "6400674c78fa66d87cdf3002b4cc590e7e60a80ce210fc2ff32779935e85b65f"
+    },
+    {
+      "path": "public/assets/defenders-series-social-1200x630.jpg",
+      "sha256": "56c3b58cd9769042c9ce03598207dfc899e54735a4a6bcf554517065d97a92f9"
     },
     {
       "path": "public/assets/doc-dossier.webp",
