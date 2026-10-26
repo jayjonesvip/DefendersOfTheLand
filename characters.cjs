@@ -25,7 +25,8 @@ function renderCharacters({characters,img,escape:esc}){
  return roster.map(c=>{
   const details=characterDetails[c.id];if(!details||!details.description)throw Error(`Missing character-card metadata: ${c.id}`);
   const [bookName,bookId]=books[details.firstBook];
-  const secondary=c.civilianAlias&&c.civilianAlias!==c.alias?c.civilianAlias:c.costumeAlias;
+  const primary=c.civilianAlias||c.alias;
+  const secondary=c.costumeAlias||(c.alias!==primary?c.alias:null);
   let portrait,help='';
   if(c.placeholder){
    portrait='<div class="character-portrait-placeholder"><span aria-hidden="true">LL</span><p>[PORTRAIT: Laura Baxter / Lava Lips]</p></div>';
@@ -43,11 +44,11 @@ function renderCharacters({characters,img,escape:esc}){
   }
   return `<article id="${esc(c.id)}" class="character-card${c.costumeImage?' character-can-transform':''}${c.placeholder?' character-pending':''}" data-character-group="${details.group}" aria-labelledby="${esc(c.id)}-name">
    <div class="character-media">${portrait}</div>
-   <div class="character-identity"><h2 id="${esc(c.id)}-name">${esc(c.alias)}</h2>${secondary?`<p class="character-alias">${esc(secondary)}</p>`:''}</div>
+   <div class="character-identity"><h2 id="${esc(c.id)}-name">${esc(primary)}</h2>${secondary?`<p class="character-alias">${esc(secondary)}</p>`:''}</div>
    <span class="character-tag character-tag-${details.group}">${tags[details.group]}</span>
    <p class="character-description">${esc(details.description)}</p>
    ${help}
-   <a class="character-first-book" href="${bookId}-chapter-1.html" aria-label="${esc(c.alias)} first appears in Book ${bookName}. Read its first chapter.">First appears in Book ${bookName} <span aria-hidden="true">→</span></a>
+   <a class="character-first-book" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">First appears in Book ${bookName} <span aria-hidden="true">→</span></a>
   </article>`;
  }).join('');
 }
