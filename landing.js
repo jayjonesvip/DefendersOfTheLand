@@ -1,7 +1,19 @@
 // Progressive enhancement: all content is visible without this script.
 (()=>{
  const page=document.querySelector('.launch-page');
- if(!page||!('IntersectionObserver' in window))return;
+ if(!page)return;
+ const announcement=page.querySelector('[data-announcement]'),dismiss=page.querySelector('[data-dismiss-announcement]');
+ if(announcement&&dismiss){
+  const key='defenders-book-four-announcement-dismissed-v1';
+  try{announcement.hidden=localStorage.getItem(key)==='true';}catch{}
+  dismiss.hidden=false;
+  dismiss.addEventListener('click',()=>{
+   announcement.hidden=true;
+   try{localStorage.setItem(key,'true');}catch{}
+   const title=page.querySelector('h1');title.setAttribute('tabindex','-1');title.focus({preventScroll:true});
+  });
+ }
+ if(!('IntersectionObserver' in window))return;
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  if(reduced.matches)return;
  const nodes=[...page.querySelectorAll('[data-reveal]')];

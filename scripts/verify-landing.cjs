@@ -18,6 +18,16 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Landing overflow: ${width}, dark=${dark}`);
     assert.equal(await page.locator('.series-shelf li').count(),4);
     assert.equal(await page.locator('.volume-card').count(),4);
+    assert.equal(await page.locator('.world-card').count(),4);
+    assert.equal(await page.locator('.launch-about>p').textContent(),require('../content/book-one-marketing.json').blurb.join(' '));
+    assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['characters.html','map.html','1990-vault.html','author.html']);
+    assert.equal(await page.locator('#volume-4-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
+    const fourth=page.locator('.volume-card').nth(3);
+    for(const asin of ['B0HPBJWNMC','B0HPBM1FJQ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
+    assert(await page.locator('.launch-signup input').isDisabled());
+    assert(await page.locator('.launch-signup button').isDisabled());
+    assert.equal(await page.locator('.launch-signup form').getAttribute('action'),'[FORM ACTION URL]');
+    assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
     assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'origins-chapter-1.html');
     assert.equal(await page.locator('.hero-copy>.launch-series-link').getAttribute('href'),site.amazonSeriesUrl);
@@ -38,6 +48,10 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
      assert.equal(await toggle.getAttribute('aria-expanded'),'false');assert(await toggle.evaluate(n=>n===document.activeElement));
     }
    }
+   await page.locator('[data-dismiss-announcement]').click();
+   assert(await page.locator('[data-announcement]').isHidden());
+   assert(await page.locator('h1').evaluate(n=>n===document.activeElement));
+   await page.reload();assert(await page.locator('[data-announcement]').isHidden(),'Remember announcement dismissal');
    await page.locator('#theme').click();assert.equal(await page.locator('body').evaluate(n=>n.classList.contains('dark')),!dark);
    await context.close();
   }
@@ -45,7 +59,15 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
   const staticPage=await nojs.newPage();await staticPage.goto(base+'/index.html');
   assert.equal(await staticPage.locator('#site-navigation a:visible').count(),6);
   assert.equal(await staticPage.locator('[data-reveal]').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).opacity==='1')),true);
+  assert(await staticPage.locator('[data-announcement]').isVisible());
+  assert(await staticPage.locator('[data-dismiss-announcement]').isHidden());
+  assert(await staticPage.locator('.launch-signup input').isDisabled());
   await nojs.close();
+  const blocked=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
+  await blocked.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new Error('Storage unavailable');}}));
+  const blockedPage=await blocked.newPage();blockedPage.on('pageerror',e=>errors.push(e.message));await blockedPage.goto(base+'/index.html');
+  await blockedPage.locator('[data-dismiss-announcement]').click();assert(await blockedPage.locator('[data-announcement]').isHidden());
+  await blocked.close();
   const motion=await browser.newContext({viewport:{width:1200,height:800},reducedMotion:'no-preference'});
   const page=await motion.newPage();await page.goto(base+'/index.html');
   assert(await page.locator('.will-reveal').count()>0,'Enable progressive scroll reveal when appropriate');
