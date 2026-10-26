@@ -178,6 +178,8 @@ Run `npm run build` to rebuild all publishing files and the site. `npm run build
 Book Four outputs in `output/publishing/`:
 
 - `defenders-of-the-land-book-four-illustrated.pdf` — current illustrated reading/review edition, with cover and linked contents.
+- `book-four-kdp-cover.pdf` — complete paperback wrap, with back cover, spine, approved front and reserved barcode space; page count and checksum follow the built interior.
+- `book-four-kdp-cover-preview.png`, `book-four-print-specifications.json` and `book-four-cover-preflight.json` — wrap preview, measured dimensions and final cover checks.
 - `book-four-kdp-interior.pdf` — 6 × 9 inch, no-bleed paperback interior without the cover; mirrored margins and printed contents page numbers.
 - `book-four-pdf-build.json` — measured paperback pages, chapter starts, illustration count and checksum.
 - `book-four-review-pdf-build.json` — separate review PDF measurements and checksum.
@@ -185,7 +187,7 @@ Book Four outputs in `output/publishing/`:
 - `defenders-of-the-land-book-four.epub` — reflowable current manuscript with cover and linked navigation.
 - `book-four-ebook-cover.jpg` — standalone front cover from the staged original.
 
-The current exports contain Chapters 1–13 and identify the book as a complete draft. The normal build also generates a separate paperback interior using `print/book-four-interior.json`: standard color on white paper, 6 × 9 inches, no bleed, 0.75-inch inside and 0.625-inch outside margins. The build fails on missing/reordered prose, insufficient image resolution, unsafe margins, unembedded fonts or overlapping content. Interior preparation does not upload to KDP. Run `python -m unittest discover -s scripts -p 'test_book_four_preflight.py'` after building to exercise preflight rejection checks. Check KDP Print Previewer and a physical proof before publication; a separate paperback wrap must match the generated interior page count. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
+The current exports contain Chapters 1–13 and identify the book as a complete draft. The normal build also generates a separate paperback interior using `print/book-four-interior.json`: standard color on white paper, 6 × 9 inches, no bleed, 0.75-inch inside and 0.625-inch outside margins. The build fails on missing/reordered prose, insufficient image resolution, unsafe margins, unembedded fonts or overlapping content. Publishing builds do not upload to KDP. Run `python -m unittest discover -s scripts -p 'test_book_four_preflight.py'` after building to exercise preflight rejection checks. Check KDP Print Previewer and a physical proof before publication; the paperback wrap is generated from `print/book-four-cover.json` using the actual interior PDF page count and checksum. The approved 1024 × 1536 front is resampled for 300-DPI placement without adding original detail. The cover preflight checks fonts, dimensions, safe margins, barcode space and the matching interior. Narrow spines omit lettering when safe text would be too small. Full PDF/EPUB editions remain publishing artifacts; the public site hosts the illustrated reader and Book One’s existing sample downloads.
 
 Chapter 2 retains five illustrations: the map-planning scene, Pink Blur’s mature-design side-view pursuit, Zerdo at the dumpster, the cyclist rescue and Dork reading the newspaper as the closing image. The earlier rear-view chase candidate is preserved as a rejected version.
 
