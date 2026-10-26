@@ -1,9 +1,5 @@
 {
   "id": "perch",
-  "introducedIn": 14,
   "alias": "Super Perch",
-  "name": "Super Perch",
-  "image": "character-super-perch-v1.png",
-  "role": "A small fish with extraordinary powers",
-  "personality": "Curious, enthusiastic and protective of his lake, Perch discovers that his powers connect him to Seth."
+  "image": "character-super-perch-v1.png"
 }

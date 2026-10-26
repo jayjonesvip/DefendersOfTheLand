@@ -2,7 +2,7 @@
   "url": "https://clevelandsuperheroes.com",
   "name": "Defenders of the Land",
   "author": "Jay Jones",
-  "description": "Discover Cleveland’s superheroes in Defenders of the Land by Jay Jones. Buy Book One: Origins in paperback or on Kindle, or read free online.",
+  "description": "Meet Cleveland’s unlikely superheroes in Defenders of the Land by Jay Jones. Read Chapter 1 of each book, try the Origins sample, and continue on Amazon.",
   "paperback": {
     "title": "Defenders of the Land: Book One: Origins",
     "url": "https://www.amazon.com/dp/B0HMWW1LWL",
@@ -14,5 +14,6 @@
     "url": "https://www.amazon.com/dp/B0HMXK83HK",
     "asin": "B0HMXK83HK"
   },
-  "amazonAuthorUrl": "https://www.amazon.com/author/jayjonesvip"
+  "amazonAuthorUrl": "https://www.amazon.com/author/jayjonesvip",
+  "amazonSeriesUrl": "https://www.amazon.com/dp/B0HMXH258N"
 }

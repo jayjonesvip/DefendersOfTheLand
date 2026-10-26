@@ -5,22 +5,10 @@
   "author": "Jay Jones",
   "status": "Draft complete",
   "description": "Cleveland’s defenders face their greatest loss—and Dork’s bid to bring the city to its knees.",
-  "chapters": [
-    "chapter-01.json",
-    "chapter-02.json",
-    "chapter-03.json",
-    "chapter-04.json",
-    "chapter-05.json",
-    "chapter-06.json",
-    "chapter-07.json",
-    "chapter-08.json",
-    "chapter-09.json",
-    "chapter-10.json",
-    "chapter-11.json",
-    "chapter-12.json",
-    "chapter-13.json"
-  ],
   "publicationStatus": "Unpublished",
   "cover": "book-four-cover-clash-design-web-v1.webp",
-  "ebookCover": "book-four-cover-clash-design-v1.png"
+  "chapters": [
+    "chapter-01.json"
+  ],
+  "amazonUrl": "https://www.amazon.com/dp/B0HMXH258N"
 }

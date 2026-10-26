@@ -1,0 +1,116 @@
+{
+  "number": 1,
+  "title": "The Glove That Hit Back",
+  "available": true,
+  "ending": "",
+  "blocks": [
+    {
+      "type": "scene",
+      "art": "chapter5-glove-auction-design-v1.webp",
+      "alt": "Daniel Orkleson buys an ordinary scuffed red boxing glove with a white cuff at a 1987 sporting memorabilia auction.",
+      "text": "Dr. Daniel Orkleson was an eccentric scientist with wild white hair, enormous round glasses, and little patience for anyone else’s opinions. At a Cleveland auction in 1987, he outbid three collectors for a boxing glove. The catalogue identified it as a glove worn in the ring by a powerful professional heavyweight: scuffed red leather, padded knuckles, and a worn white cuff. The other bidders wanted sporting history. Daniel wanted what the fighter had left inside it."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel called his experiments reanimation. He collected discarded objects, hoping traces of their owners’ sweat or saliva would help him bring them to life."
+    },
+    {
+      "type": "prose",
+      "text": "His notebook was full of promising results. None had given him a useful assistant."
+    },
+    {
+      "type": "prose",
+      "text": "The glove had belonged to a strong man. Daniel hoped it would inherit that strength—and obey him."
+    },
+    {
+      "type": "prose",
+      "text": "Back in his locked laboratory, he set the glove beneath the metal arms of his reanimation apparatus. A black remote lay beside the controls. He tested its relay, then started the experiment."
+    },
+    {
+      "type": "prose",
+      "text": "At first, only the meters moved. Then blue-white light jumped between the metal arms. The glove rose from the table, its scuffed red leather swelling far beyond an ordinary glove’s size. Two enormous eyes opened above its padded knuckles. It floated on its own, with no hand or arm inside the white cuff."
+    },
+    {
+      "type": "scene",
+      "art": "chapter1-glove-awakening-before-flash-design-v1.webp",
+      "alt": "A newly living red boxing glove with enormous eyes and an empty white cuff hovers above Daniel Orkleson’s experiment table.",
+      "text": "The glove looked straight at Daniel. He opened his mouth to give its first command."
+    },
+    {
+      "type": "scene",
+      "art": "chapter4-glove-punch-design-v1.webp",
+      "alt": "The living boxing glove flies into Daniel Orkleson’s face, knocking his glasses askew.",
+      "text": "The whole glove flew forward and punched him in the face."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel staggered into a stool. His glasses went sideways, and the remote hit the floor with an expensive crack. The glove hovered before him, inspecting the table, cables, and locked door."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel called himself its creator and ordered it back onto the table. He pressed the damaged remote. A relay clicked. The glove stayed where it was."
+    },
+    {
+      "type": "prose",
+      "text": "“You said something,” it told him. “I said no.”"
+    },
+    {
+      "type": "prose",
+      "text": "The glove examined its empty cuff and its reflection in the oscilloscope. When Daniel reached for it, it moved out of range. He reminded it that he had bought the original specimen."
+    },
+    {
+      "type": "prose",
+      "text": "“You bought a glove,” it said. “You didn’t buy me.”"
+    },
+    {
+      "type": "prose",
+      "text": "It knocked the remote from his hand and smashed it against the table. Daniel lunged. The glove slipped overhead, and he struck the apparatus with his hip. One metal arm scraped the ceiling; sparks snapped across the frame."
+    },
+    {
+      "type": "prose",
+      "text": "While Daniel struggled to keep the equipment upright, the glove noticed an open window above the cupboard. The door was locked, but it did not need a door."
+    },
+    {
+      "type": "prose",
+      "text": "Daniel warned that it knew nothing about the world outside. The glove glanced at the broken remote."
+    },
+    {
+      "type": "prose",
+      "text": "“Got a pretty good understanding of the world in here.”"
+    },
+    {
+      "type": "scene",
+      "art": "chapter4-glove-escape-design-v1.webp",
+      "alt": "The living boxing glove flies out of the laboratory window over a Cleveland alley while Daniel protests behind him.",
+      "text": "It shot through the window and into the alley. Air rushed around its white cuff as the laboratory light fell away behind it."
+    },
+    {
+      "type": "prose",
+      "text": "“You haven’t even got a name!” Daniel shouted. The glove paused beyond his reach."
+    },
+    {
+      "type": "prose",
+      "text": "“Fist-O-Mite.”"
+    },
+    {
+      "type": "prose",
+      "text": "“Absurd,” Daniel said."
+    },
+    {
+      "type": "prose",
+      "text": "“You’re yelling at a boxing glove.” Fist-O-Mite rounded the building before Daniel could answer."
+    },
+    {
+      "type": "prose",
+      "text": "He nearly struck a chimney and corrected course with an indignant spin. Flying would take practice. Choosing his own direction was already easy."
+    },
+    {
+      "type": "prose",
+      "text": "In the laboratory, Daniel surveyed the broken remote and empty table. He wrote CONTROL FAILURE hard enough to tear the paper."
+    },
+    {
+      "type": "prose",
+      "text": "Above Cleveland, Fist-O-Mite rested beside a parapet. Far below, lettering on a delivery truck called Cleveland THE LAND. He tried the name aloud. “Cleveland. The Land. Plenty of room.” The scientist would probably come looking. “Nobody owns me,” he said, then picked a direction and flew on."
+    }
+  ]
+}

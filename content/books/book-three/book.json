@@ -5,31 +5,18 @@
   "author": "Jay Jones",
   "status": "Manuscript complete",
   "description": "Laura Baxter’s new power has made her feared. Dork offers her a chance to make Flaming Head helpless—and asks her to help set the trap.",
-  "chapters": [
-    "chapter-01.json",
-    "chapter-02.json",
-    "chapter-03.json",
-    "chapter-04.json",
-    "chapter-05.json",
-    "chapter-06.json",
-    "chapter-07.json",
-    "chapter-08.json",
-    "chapter-09.json",
-    "chapter-10.json",
-    "chapter-11.json",
-    "chapter-12.json",
-    "chapter-13.json",
-    "chapter-14.json"
-  ],
   "publicationStatus": "Published",
   "cover": "book-three-cover-series-title-web-v3.webp",
-  "ebookCover": "book-three-cover-series-title-v3.png",
+  "paperback": {
+    "url": "https://www.amazon.com/dp/B0HNPMH7BV",
+    "asin": "B0HNPMH7BV"
+  },
   "ebook": {
     "url": "https://www.amazon.com/dp/B0HNNGKC63",
     "asin": "B0HNNGKC63"
   },
-  "paperback": {
-    "url": "https://www.amazon.com/dp/B0HNPMH7BV",
-    "asin": "B0HNPMH7BV"
-  }
+  "chapters": [
+    "chapter-01.json"
+  ],
+  "amazonUrl": "https://www.amazon.com/dp/B0HNNGKC63"
 }

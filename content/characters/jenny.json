@@ -1,9 +1,5 @@
 {
   "id": "jenny",
-  "introducedIn": 4,
   "alias": "Jenny Jenkins",
-  "name": "Jenny Jenkins",
-  "image": "jenny-portrait-v2.png",
-  "role": "Reporter",
-  "personality": "Jenny asks direct questions, checks the answers, and keeps following the story when someone would rather she stopped."
+  "image": "jenny-portrait-v2.png"
 }
