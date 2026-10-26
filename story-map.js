@@ -1,13 +1,75 @@
 (()=>{
-const root=document.getElementById('story-map');if(!root)return;
-const map=root.querySelector('.story-map-canvas'),svg=d3.select(root.querySelector('svg'));
-const {geometry,locations,amazonUrl}=JSON.parse(document.getElementById('story-map-data').textContent);
-const list=[...root.querySelectorAll('[data-location]')];
-let selected=locations.findIndex(p=>p.id===location.hash.slice(1));if(selected<0)selected=0;
-
-const pins=locations.map((p,i)=>{const b=document.createElement('button');b.type='button';b.className='story-map-pin';b.setAttribute('aria-label',`${i+1}. ${p.name}`);b.innerHTML=`<span>${i+1}</span>`;b.onclick=()=>select(i,true);map.append(b);return b;});
-function select(i,save=false){selected=i;const p=locations[i];[pins,list].forEach(group=>group.forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i))));root.querySelector('.map-location-title').textContent=p.name;root.querySelector('.map-chapter-label').textContent=p.label;root.querySelector('.map-description').textContent=p.description;root.querySelector('.map-story').textContent='Discover their story in Book One: Origins.';const link=root.querySelector('.map-chapter-link');link.href=amazonUrl;link.textContent='Continue Book One on Kindle →';if(save)history.replaceState(null,'','#'+p.id);}
-list.forEach((b,i)=>b.onclick=()=>select(i,true));
-function draw(){const w=map.clientWidth,h=map.clientHeight;svg.attr('viewBox',`0 0 ${w} ${h}`);svg.selectAll('*').remove();svg.append('title').text('Downtown Cleveland and four Book One landmarks');const projection=d3.geoMercator().center([-81.695,41.504]).scale(Math.min(w/.021,h/.020)*180/Math.PI).translate([w/2,h/2]);const path=d3.geoPath(projection);svg.append('g').selectAll('path').data(geometry.features).join('path').attr('class',f=>f.properties.water?'map-shore':'map-roads').attr('d',path);locations.forEach((p,i)=>{const [x,y]=projection(p.coordinates),dx=i===2?-46:i===3?20:0,dy=i===2?15:i===3?-10:0;if(dx||dy)svg.append('line').attr('x1',x).attr('y1',y).attr('x2',x+dx).attr('y2',y+dy).attr('class','map-leader');pins[i].style.left=(x+dx)+'px';pins[i].style.top=(y+dy)+'px';});svg.selectAll('text').data([['LAKE ERIE',-81.696,41.5108]]).join('text').attr('class','map-place-label').attr('x',d=>projection([d[1],d[2]])[0]).attr('y',d=>projection([d[1],d[2]])[1]).attr('text-anchor','middle').text(d=>d[0]);}
-select(selected);new ResizeObserver(draw).observe(map);draw();window.addEventListener('hashchange',()=>{const i=locations.findIndex(p=>p.id===location.hash.slice(1));if(i>=0)select(i)});window.addEventListener('storage',()=>select(selected));
+ const root=document.getElementById('story-map');
+ if(!root||typeof d3==='undefined'||!Array.isArray(window.defendersLandmarks))return;
+ const map=root.querySelector('.story-map-canvas'),svg=d3.select(map.querySelector('svg'));
+ const {geometry}=JSON.parse(document.getElementById('story-map-data').textContent);
+ const locations=window.defendersLandmarks,ready=locations.filter(p=>!p.comingSoon&&Number.isFinite(p.lat)&&Number.isFinite(p.lng));
+ const cards=[...root.querySelectorAll('[data-landmark-card]')],list=[...root.querySelectorAll('[data-location]')];
+ const filters=[...root.querySelectorAll('[data-map-book]')],popup=root.querySelector('#map-popup'),status=root.querySelector('#map-status');
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ let filter='all',selected=null,opened=false,projection,layer,transform=d3.zoomIdentity,width=0,height=0;
+ const active=p=>filter==='all'||String(p.book)===filter;
+ const points=new Map();
+ const pins=new Map(ready.map(p=>{
+  const button=document.createElement('button');button.type='button';button.className='story-map-pin';
+  button.dataset.marker=p.id;button.setAttribute('aria-label',`${locations.indexOf(p)+1}. ${p.name}`);
+  button.setAttribute('aria-controls','map-popup');button.setAttribute('aria-expanded','false');button.setAttribute('aria-pressed','false');
+  const label=document.createElement('span');label.textContent=locations.indexOf(p)+1;button.append(label);
+  button.addEventListener('click',()=>select(p,true));map.append(button);return [p.id,button];
+ }));
+ const zoom=d3.zoom().scaleExtent([1,4]).touchable(()=>false).filter(event=>
+  ready.some(active)&&!event.target.closest('button,a,.story-map-popup')&&
+  (event.type==='wheel'?event.ctrlKey:event.type==='mousedown'&&event.button===0)
+ ).on('zoom',event=>{transform=event.transform;position();});
+ const canvas=d3.select(map).call(zoom).on('dblclick.zoom',null);
+ function moveTo(next){canvas.interrupt();if(reduced.matches)canvas.call(zoom.transform,next);else canvas.transition().duration(260).call(zoom.transform,next);}
+ function position(){
+  if(!layer)return;layer.attr('transform',transform.toString());
+  for(const p of ready){const pin=pins.get(p.id),point=points.get(p.id);if(!point)continue;const [x,y]=transform.apply(point);pin.style.left=x+'px';pin.style.top=y+'px';pin.hidden=!active(p)||x<0||x>width||y<0||y>height;}
+  map.dataset.zoom=transform.k.toFixed(3);
+ }
+ function selectionState(){
+  for(const button of [...pins.values(),...list]){const id=button.dataset.marker||button.dataset.location,chosen=selected?.id===id;button.setAttribute('aria-pressed',String(chosen));button.setAttribute('aria-expanded',String(chosen&&opened));}
+  for(const card of cards)card.classList.toggle('is-selected',card.dataset.landmarkCard===selected?.id);
+  popup.hidden=!opened||!selected;
+ }
+ function select(p,save=false,animate=true){
+  if(!active(p))applyFilter(String(p.book));selected=p;opened=true;
+  popup.querySelector('.map-popup-book').textContent=`Appears in Book ${['','One','Two','Three','Four'][p.book]}`;
+  popup.querySelector('#map-popup-title').textContent=p.name;popup.querySelector('.map-popup-blurb').textContent=p.blurb;
+  const link=popup.querySelector('a');link.href=p.chapterUrl;link.setAttribute('aria-label',`Read Book ${p.book}’s first chapter to explore ${p.name}`);
+  selectionState();status.textContent=`Selected ${p.name}. Appears in Book ${p.book}.`;
+  const point=points.get(p.id);if(point){const k=1.5,next=d3.zoomIdentity.translate(width/2-k*point[0],height*.35-k*point[1]).scale(k);if(animate)moveTo(next);else canvas.interrupt().call(zoom.transform,next);}
+  if(save)history.replaceState(null,'','#'+p.id);
+ }
+ function applyFilter(value){
+  filter=value;opened=false;selected=null;selectionState();
+  filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mapBook===value)));
+  cards.forEach(card=>{card.hidden=value!=='all'&&card.dataset.book!==value;});
+  const count=ready.filter(active).length;root.querySelector('.map-empty').hidden=count>0;
+  root.querySelectorAll('[data-map-zoom],[data-map-reset]').forEach(b=>b.disabled=!count);
+  status.textContent=count?`Showing ${count} landmarks${value==='all'?'':` from Book ${value}`}.`:`Book ${value} locations coming soon. No locations have been added.`;
+  canvas.interrupt().call(zoom.transform,d3.zoomIdentity);
+ }
+ function draw(){
+  const oldWidth=width,oldHeight=height;width=map.clientWidth;height=map.clientHeight;
+  if(width===oldWidth&&height===oldHeight)return;
+  svg.attr('viewBox',`0 0 ${width} ${height}`);svg.selectAll('*').remove();svg.append('title').text('Downtown Cleveland streets, shoreline and book landmarks');layer=svg.append('g');
+  projection=d3.geoMercator().center([-81.695,41.504]).scale(Math.min(width/.021,height/.020)*180/Math.PI).translate([width/2,height/2]);
+  const path=d3.geoPath(projection);
+  layer.append('g').selectAll('path').data(geometry.features).join('path').attr('class',f=>f.properties.water?'map-shore':'map-roads').attr('d',path);
+  ready.forEach(p=>{const [x,y]=projection([p.lng,p.lat]),dx=p.id==='union-terminal'?-46:p.id==='main-library'?20:0,dy=p.id==='union-terminal'?15:p.id==='main-library'?-10:0;points.set(p.id,[x+dx,y+dy]);if(dx||dy)layer.append('line').attr('x1',x).attr('y1',y).attr('x2',x+dx).attr('y2',y+dy).attr('class','map-leader');});
+  const lake=projection([-81.696,41.5108]);layer.append('text').attr('class','map-place-label').attr('x',lake[0]).attr('y',lake[1]).attr('text-anchor','middle').text('LAKE ERIE');
+  canvas.interrupt().call(zoom.transform,d3.zoomIdentity);if(selected&&opened)select(selected,false,false);else position();
+ }
+ root.classList.add('map-ready');root.querySelectorAll('[data-map-filters],[data-map-controls],[data-location]').forEach(n=>n.hidden=false);
+ list.forEach(button=>button.addEventListener('click',()=>select(ready.find(p=>p.id===button.dataset.location),true)));
+ filters.forEach(button=>button.addEventListener('click',()=>{applyFilter(button.dataset.mapBook);history.replaceState(null,'',location.pathname+location.search);}));
+ root.querySelectorAll('[data-map-zoom]').forEach(b=>b.addEventListener('click',()=>{const factor=b.dataset.mapZoom==='in'?1.35:1/1.35,k=Math.max(1,Math.min(4,transform.k*factor)),[x,y]=transform.invert([width/2,height/2]);moveTo(d3.zoomIdentity.translate(width/2-k*x,height/2-k*y).scale(k));}));
+ root.querySelector('[data-map-reset]').addEventListener('click',()=>{opened=false;selected=null;selectionState();moveTo(d3.zoomIdentity);status.textContent='Showing all locations in the current book filter.';history.replaceState(null,'',location.pathname+location.search);});
+ const close=()=>{opened=false;selectionState();pins.get(selected?.id)?.focus({preventScroll:true});};
+ popup.querySelector('[data-map-close]').addEventListener('click',close);
+ root.addEventListener('keydown',event=>{if(event.key==='Escape'&&opened){event.preventDefault();close();}});
+ const fromHash=()=>{const p=ready.find(p=>p.id===location.hash.slice(1));if(p)select(p,false,false);};
+ draw();applyFilter('all');fromHash();new ResizeObserver(draw).observe(map);window.addEventListener('hashchange',fromHash);
 })();
