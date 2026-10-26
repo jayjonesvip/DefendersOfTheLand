@@ -39,7 +39,7 @@
     },
     {
       "path": "content/characters/billy.json",
-      "sha256": "835941dbda39ac3dbdd0666ba09a21043d61dbd059a6f588acb178ef7b982800"
+      "sha256": "514f2cbf739a651b6990808fdb6e1e81d0b1dab2f79bfa5608ccbfa2434d5574"
     },
     {
       "path": "content/characters/claude.json",
@@ -55,7 +55,7 @@
     },
     {
       "path": "content/characters/fist.json",
-      "sha256": "ceddf7aaa37d6205730202a8f2831deb0e2ee8da0a9264b7167c99b6bf39b88a"
+      "sha256": "32d0bbe5c156434cd315474a55c27b5786f234e9a664320c44a1b8c056831132"
     },
     {
       "path": "content/characters/flaming-head.json",
@@ -63,7 +63,7 @@
     },
     {
       "path": "content/characters/jenny.json",
-      "sha256": "066f873cb3f3630ddd984a3d45abb1de2ebd5d0b56a74aea7da272d09e4d5ee1"
+      "sha256": "03f0441093297d0592e73595305d40f929cdfbdbb5f51c61faacdb8313c92d52"
     },
     {
       "path": "content/characters/luke.json",
@@ -75,7 +75,7 @@
     },
     {
       "path": "content/characters/seth.json",
-      "sha256": "4a0fec58b908b50b604d8f195b594a0043efc1946b54085984692f77397ddbb8"
+      "sha256": "36a54ee797b4c0628b6dcf6f13738df7df370526e6c93a84c6d0028e8a62806b"
     },
     {
       "path": "content/map/downtown.geojson",
@@ -103,11 +103,11 @@
     },
     {
       "path": "image-manifest.json",
-      "sha256": "225d5ddf7cfd21b9383a6616c650a84041ad73903174d429a2823d43822e80a3"
+      "sha256": "3e89a23d9eef5dfdcc7e20b501e9b896be769285932674bca048ce29ae7fdca0"
     },
     {
-      "path": "public/assets/billy-dossier-older-v1.png",
-      "sha256": "54b3ea239d93c558bcaba052e083aecc73f5cbbaf716fbe82210b14686d11896"
+      "path": "public/assets/billy-portrait-transparent-v1.webp",
+      "sha256": "07852e6da0a489ab43ec3ab16163481229101502512f3db2f48df50c4a29c2c3"
     },
     {
       "path": "public/assets/book-four-chapter-01-aftermath-design-v1.webp",
@@ -194,12 +194,16 @@
       "sha256": "563c19f9bddd4a2a97e89115f9973476aa8a3e0ae32e23d564337311c05b7357"
     },
     {
-      "path": "public/assets/fist-portrait-approved-v2.png",
-      "sha256": "7bba57fe8aa2b9cb3381d0cc2e58876431b208dec8bac3170d763b0b31b487ac"
+      "path": "public/assets/fist-portrait-transparent-v1.webp",
+      "sha256": "d79bec349c7b0e2d886ff3a3f13154c1f6b6c55f5570bd5254b21ccb24e71c49"
     },
     {
       "path": "public/assets/jay-jones-author.jpg",
       "sha256": "62b8740adeae1fd0a42a0c7baf96331aded47d728315e5bd302fd968ff5dba2e"
+    },
+    {
+      "path": "public/assets/jenny-pink-blur-transparent-v1.webp",
+      "sha256": "e85a74f861113729757e154a87f98210b7b31600521d7db79c737ebff7534120"
     },
     {
       "path": "public/assets/jenny-portrait-v2.png",
@@ -214,8 +218,12 @@
       "sha256": "30fecfb16c09ea5c1763d3f6509077ae3e59e718d9f4dec06d1d473a2676b76b"
     },
     {
-      "path": "public/assets/seth-dossier-orange-v1.png",
-      "sha256": "9ee7175c76e2f66e63acdc57aeaeee67d0a345b314ae10b2c8e190cef7899f2d"
+      "path": "public/assets/seth-civilian-transparent-v1.webp",
+      "sha256": "199c5a230b43648e4b546d31ca95bd28079bc0edf3240fecf14ba779976a08b2"
+    },
+    {
+      "path": "public/assets/zerdo-costume-transparent-v1.webp",
+      "sha256": "d7328273c4d731f80aeeb3366fa5d26eb6be7a16fd4ca50136d9cdedba9791fb"
     },
     {
       "path": "public/books/downloads.json",

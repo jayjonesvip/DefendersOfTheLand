@@ -84,8 +84,8 @@
     "width": 1536,
     "height": 1024
   },
-  "billy-dossier-older-v1.png": {
-    "file": "billy-dossier-older-v1.png",
+  "billy-portrait-transparent-v1.webp": {
+    "file": "billy-portrait-transparent-v1.webp",
     "width": 1024,
     "height": 1536
   },
@@ -94,8 +94,8 @@
     "width": 1024,
     "height": 1536
   },
-  "fist-portrait-approved-v2.png": {
-    "file": "fist-portrait-approved-v2.png",
+  "fist-portrait-transparent-v1.webp": {
+    "file": "fist-portrait-transparent-v1.webp",
     "width": 1254,
     "height": 1254
   },
@@ -104,13 +104,23 @@
     "width": 1254,
     "height": 1254
   },
+  "jenny-pink-blur-transparent-v1.webp": {
+    "file": "jenny-pink-blur-transparent-v1.webp",
+    "width": 1024,
+    "height": 1536
+  },
   "character-super-perch-v1.png": {
     "file": "character-super-perch-v1.png",
     "width": 1254,
     "height": 1254
   },
-  "seth-dossier-orange-v1.png": {
-    "file": "seth-dossier-orange-v1.png",
+  "seth-civilian-transparent-v1.webp": {
+    "file": "seth-civilian-transparent-v1.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  "zerdo-costume-transparent-v1.webp": {
+    "file": "zerdo-costume-transparent-v1.webp",
     "width": 1024,
     "height": 1536
   }
