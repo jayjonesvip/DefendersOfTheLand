@@ -22,7 +22,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   'origins.html':`Read the Chapter 1 preview of Defenders of the Land: Book One: Origins by Jay Jones. An illustrated superhero adventure set in Cleveland in 1987.`,
   'books.html':'Explore Defenders of the Land by Jay Jones: Chapter 1 previews of all four books, a free Origins sample, and paperback and Kindle editions on Amazon.',
   'characters.html':'Meet the Cleveland superheroes and villains of Defenders of the Land by Jay Jones. Explore the public character gallery and try the first chapter.',
-  'map.html':'Explore Cleveland landmarks from Defenders of the Land: Book One: Origins. Discover the illustrated superhero story’s connections to the city.',
+  'map.html':'Explore the Cleveland setting of Jay Jones’s Defenders of the Land series. Browse Book One’s landmark map, with Books Two–Four locations coming soon.',
   'downloads.html':'Try a free illustrated Origins sample as PDF or EPUB, then find Origins, Aftershock, Lava Lips and Clash in Cleveland by Jay Jones on Amazon in paperback and Kindle editions.',
   '404.html':'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'
  };
@@ -34,7 +34,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   'origins.html':'Book One: Origins — Chapter 1 Preview | Defenders of the Land',
   'books.html':'Books by Jay Jones | Defenders of the Land',
   'characters.html':'Cleveland Superhero Characters | Defenders of the Land',
-  'map.html':'Explore the Cleveland Story Map | Defenders of the Land',
+  'map.html':'Explore Cleveland Across the Series | Defenders of the Land',
   'downloads.html':'Free Book One PDF & EPUB Sample | Defenders of the Land',
   '404.html':'Page Not Found | Defenders of the Land'
  };
