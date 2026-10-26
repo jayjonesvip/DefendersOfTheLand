@@ -4,7 +4,7 @@
   "scripts": {
     "build": "node build.cjs",
     "build:site": "node build.cjs",
-    "test": "node --test scripts/test-public-policy.cjs && node verify.cjs && node scripts/verify-landing.cjs && node scripts/verify-characters.cjs && node scripts/verify-map.cjs",
+    "test": "node --test scripts/test-public-policy.cjs && node verify.cjs && node scripts/verify-landing.cjs && node scripts/verify-characters.cjs && node scripts/verify-map.cjs && node scripts/verify-seo.cjs",
     "test:hosted": "node scripts/verify-hosted.cjs",
     "preview": "python -m http.server 4175 --directory dist"
   },

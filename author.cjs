@@ -13,7 +13,7 @@ function createAuthor({site,archiveItems,books,portrait,img,escape:esc,link}){
   <section class="author-vault" aria-labelledby="author-archive-heading"><h2 id="author-archive-heading">From the author’s archives</h2>
    <div class="author-vault-feature"><div class="author-art-pair" role="group" aria-label="Original notebook page beside the finished Inspector Billy portrait">
     <figure><a href="1990-vault.html"><img src="${esc(preview.file)}" width="${preview.width}" height="${Math.round(preview.width*page.height/page.width)}" alt="${esc(page.alt)}" loading="lazy" decoding="async"></a><figcaption>${esc(page.title)}</figcaption></figure>
-    <figure>${link('characters.html#billy',img(portrait.image,portrait.alias))}<figcaption>${esc(portrait.alias)}</figcaption></figure>
+    <figure>${link('characters.html#billy',img(portrait.image,'Inspector Billy in a plaid cap and tan coat, holding a magnifying glass.'))}<figcaption>${esc(portrait.alias)}</figcaption></figure>
    </div><div class="author-vault-copy"><p class="eyebrow">EST. 1990 · COLLECTION 01</p><h3>From the Vault: 1990</h3><p>Before the books, there were notebooks. Explore nine restored pages, original characters, and a whole lot of imagination.</p>${link('1990-vault.html','Visit the Vault →','button')}</div></div>
   </section>
   <section class="author-books" aria-labelledby="author-books-heading"><div class="author-books-heading"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="author-books-heading">The books</h2><div class="author-books-actions">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','button')}${link('books.html','Browse the books','author-browse-link')}</div></div><ol>${covers}</ol></section>

@@ -9,6 +9,8 @@ const characterDetails={
 };
 function renderCharacters({characters,img,escape:esc}){
  // Measured natural dimensions for legacy PNGs that lack manifest entries.
+ const altText={billy:'Inspector Billy in a plaid cap and tan coat, holding a magnifying glass.',fist:'Fist-O-Mite, a red boxing glove with a grinning face.',seth:'Seth Zerdowski wearing an orange Z hoodie and jeans.',jenny:'Jenny Jenkins in a white blouse and pink skirt.',doc:'Doc Dork in a white lab coat and oversized round glasses.',luke:'Jaws O’ Death, a floating blond head with metal jaws.',laura:'Laura Baxter wearing glasses, a black T-shirt and gray sweatpants.'};
+ const costumeAlt={seth:'Super Zerdo in an orange suit with white trim and brown gloves and boots.',jenny:'Pink Blur in a pink-and-white costume with white gloves and boots.',laura:'Lava Lips in a black mask, flame-patterned suit, black boots and open coat.'};
  const sizes={'claude-portrait-v2.png':[1024,1536],'eleanor-portrait-v2.png':[1024,1536],'jenny-portrait-v2.png':[1024,1536],'luke-portrait-v1.png':[1338,1175]};
  const portraitImage=(file,alt)=>{
   let markup=img(file,alt);
@@ -27,11 +29,11 @@ function renderCharacters({characters,img,escape:esc}){
   let portrait,help='';
   if(c.placeholder){
    portrait='<div class="character-portrait-placeholder"><span aria-hidden="true">LL</span><p>[PORTRAIT: Laura Baxter / Lava Lips]</p></div>';
-  }else if(!c.costumeImage){portrait=portraitImage(c.image,c.alias);}
+  }else if(!c.costumeImage){portrait=portraitImage(c.image,altText[c.id]||c.alias);}
   else{
    const toggle=`${c.id}-costume`,hint=`${c.id}-costume-help`;
-   const base=portraitImage(c.image,c.alias).replace('<img ','<img class="character-civilian" aria-hidden="true" ');
-   const costume=portraitImage(c.costumeImage,`${c.costumeAlias} costume`).replace('<img ','<img class="character-costume" aria-hidden="true" ');
+   const base=portraitImage(c.image,altText[c.id]||c.alias).replace('<img ','<img class="character-civilian" aria-hidden="true" ');
+   const costume=portraitImage(c.costumeImage,costumeAlt[c.id]||`${c.costumeAlias} costume`).replace('<img ','<img class="character-costume" aria-hidden="true" ');
    portrait=`<input class="character-costume-toggle" type="checkbox" id="${toggle}" aria-label="Keep ${esc(c.costumeAlias)} costume visible" aria-describedby="${hint}">
     <label class="character-transform" for="${toggle}">
      <span class="character-portrait-stack">${base}${costume}</span>
