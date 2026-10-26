@@ -14,6 +14,7 @@ function createMap({geometry,site,escape:esc}){
    <div class="map-card-heading"><span class="map-card-number" aria-hidden="true">${pending?'—':i+1}</span><h3 id="${esc(p.id)}-title"><span class="map-static-name">${esc(p.name)}</span>${pending?'':`<button type="button" data-location="${esc(p.id)}" aria-pressed="false" aria-expanded="false" aria-controls="map-popup" hidden><span class="map-location-name">${esc(p.name)}</span> <span aria-hidden="true">→</span></button>`}</h3></div>
    <p class="map-book-tag">${pending?`Book ${names[p.book]} · Coming soon`:`Appears in ${p.books.length>1?'Books':'Book'} ${p.books.map(book=>names[book]).join(', ')}`}</p>
    <p class="map-card-blurb">${esc(p.blurb)}</p>
+   ${p.fictional?'<p class="map-location-note">Fictional location · Approximate position</p>':''}
    ${photo(p)}
    ${pending?'<p class="map-pending-note">Locations coming soon. No coordinates or chapter links have been added.</p>':`<a class="map-read-link" href="${esc(p.chapterUrl)}" aria-label="Read Book ${names[p.book]}’s first chapter to explore ${esc(p.name)}">Read Book ${names[p.book]}’s first chapter <span aria-hidden="true">→</span></a><noscript>${p.books.filter(book=>book!==p.book).map(book=>`<p><a class="map-read-link" href="${esc(p.appearances[book].chapterUrl)}">Read Book ${names[book]}’s first chapter <span aria-hidden="true">→</span></a></p>`).join('')}</noscript>`}
   </article>`;
@@ -23,7 +24,7 @@ function createMap({geometry,site,escape:esc}){
   <header class="map-hero"><p class="eyebrow">DEFENDERS OF THE LAND · CLEVELAND, 1987</p><h1>Explore the Land</h1><p>Explore Cleveland, the setting of Defenders of the Land.</p></header>
   <div id="story-map">
    <fieldset class="map-book-filters" data-map-filters hidden><legend>Explore by book</legend><div>${['All','Book 1','Book 2','Book 3','Book 4'].map((label,i)=>`<button type="button" data-map-book="${i||'all'}" aria-pressed="${i===0}" aria-controls="map-landmark-list">${label}${i>0&&!landmarks.some(p=>p.books.includes(i))?'<span>Coming soon</span>':''}</button>`).join('')}</div></fieldset>
-   <p class="map-live-status" id="map-status" role="status" aria-live="polite" aria-atomic="true">Four Cleveland landmarks across all four books.</p>
+   <p class="map-live-status" id="map-status" role="status" aria-live="polite" aria-atomic="true">${landmarks.length} story locations across all four books.</p>
    <div class="map-layout">
     <div class="map-visual-column">
      <div class="map-map-toolbar" data-map-controls hidden><div><button type="button" data-map-zoom="in" aria-label="Zoom in on the map">+</button><button type="button" data-map-zoom="out" aria-label="Zoom out on the map">−</button></div><button type="button" data-map-reset>Show all locations</button></div>
