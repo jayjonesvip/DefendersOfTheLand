@@ -144,3 +144,15 @@ footer{line-height:1.8;padding-block:30px 38px}
  .reader-toolbar{align-items:flex-start}
  .reader-toolbar>div{flex-wrap:wrap}
 }
+
+/* Shared page chrome: exact-page markers and consistent footer links. */
+.site-header nav a[aria-current="page"]{color:var(--accent);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px}
+.site-footer{margin-top:44px;padding:30px 24px 38px}
+.site-footer .footer-brand{font-size:14px;font-weight:650;line-height:1.8;color:var(--ink);margin:0 0 12px}
+.site-footer nav{display:flex;align-items:center;flex-wrap:wrap;gap:4px 22px}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px;line-height:1.8;text-underline-offset:4px}
+.site-footer nav a[aria-current="page"]{color:var(--accent);text-decoration-thickness:2px}
+.footer-contact{display:inline-block;max-width:100%;line-height:1.8;padding-block:10px}
+.footer-placeholder{overflow-wrap:anywhere}
+.site-footer .footer-invitation{font-size:12px;line-height:1.8;margin:14px 0 0}
+@media(max-width:600px){.site-footer nav{gap:2px 20px}}
