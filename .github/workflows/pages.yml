@@ -37,8 +37,10 @@ jobs:
         run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://clevelandsuperheroes.com' }}
-      - name: Test Book Four interior preflight
-        run: python -m unittest discover -s scripts -p 'test_book_four_preflight.py'
+      - name: Test Book Four interior and cover preflight
+        run: |
+          python -m unittest discover -s scripts -p 'test_book_four_preflight.py'
+          python -m unittest discover -s scripts -p 'test_book_four_cover.py'
       - run: npm test
       - name: Validate EPUB with EPUBCheck 5.4.0
         run: |
@@ -69,6 +71,7 @@ jobs:
             output/publishing/book-four-review-pdf-build.json
             output/publishing/book-four-kdp-interior.pdf
             output/publishing/book-four-preflight.json
+            output/publishing/book-four-cover-preflight.json
             output/publishing/book-four-interior-resolution.json
             output/publishing/book-four-upload-guide.txt
             output/publishing/*.epub

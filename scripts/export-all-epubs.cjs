@@ -28,6 +28,7 @@ for(const book of books){
   cp.execFileSync(python,['scripts/build-paperback-cover.py','--book',book.id],{cwd:root,stdio:'inherit'});
   if(book.id==='book-two')cp.execFileSync(python,['scripts/preflight-book-two.py'],{cwd:root,stdio:'inherit'});
   if(book.id==='book-three')cp.execFileSync(python,['scripts/preflight-book-three.py'],{cwd:root,stdio:'inherit'});
+  if(book.id==='book-four')cp.execFileSync(python,['scripts/preflight-book-four-cover.py'],{cwd:root,stdio:'inherit'});
  }
 }
 // Downloadable samples are a Book One feature, regardless of future book metadata.

@@ -39,6 +39,11 @@ async function check(){
  assert.equal(interior.paperbackInterior,true);
  assert.equal(preflight.sha256,interior.sha256);
  assert.equal(preflight.passed,true);
+ const coverPreflight=read('output/publishing/book-four-cover-preflight.json');
+ assert.equal(coverPreflight.passed,true);
+ assert.equal(coverPreflight.interiorSha256,interior.sha256);
+ const coverBytes=fs.readFileSync(path.join(root,'output/publishing',coverPreflight.file));
+ assert.equal(crypto.createHash('sha256').update(coverBytes).digest('hex'),coverPreflight.sha256);
  const epub=read('tmp/epub-book-four/quality-report.json');
  for(const report of [pdf,interior,epub]){
   const bytes=fs.readFileSync(path.join(root,'output/publishing',report.file));
