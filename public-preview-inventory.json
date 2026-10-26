@@ -7,7 +7,7 @@
     },
     {
       "path": "content/books/book-four/book.json",
-      "sha256": "32a2404847d6059c9f62d4fdfd26395b946c0dfeea6a8d73d44265b8b721fa1e"
+      "sha256": "4eed52b9b1610157dee0eeee653cf4f6cd35f9966c1c4252aebb5406d83cea82"
     },
     {
       "path": "content/books/book-four/chapter-01.json",
@@ -104,6 +104,10 @@
     {
       "path": "image-manifest.json",
       "sha256": "3e89a23d9eef5dfdcc7e20b501e9b896be769285932674bca048ce29ae7fdca0"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "sha256": "c987915808f333103951a3cb19ebabc70058fc7a7da1e192f0dbb00b941a1b28"
     },
     {
       "path": "public/assets/billy-portrait-transparent-v1.webp",
@@ -238,8 +242,12 @@
       "sha256": "7d24c69c0fc7dc2efea47848f3c93f302191da3897945ac0a2032a650c0f4d74"
     },
     {
+      "path": "public/favicon-32.png",
+      "sha256": "ce09b69f5187dd27760c96a4a5631ce90052b7f467353f3f0d557d75248662fd"
+    },
+    {
       "path": "public/favicon.svg",
-      "sha256": "a12e2955ac971f7ef56d05a7f2938956b2b0651add97b0a04cb088fa440b4c6e"
+      "sha256": "c868bd42cbbb5ce8614673aa2ea839589becdc7969c416efd9a3f11bf914d040"
     },
     {
       "path": "public/fonts/Bangers-Regular.ttf",
