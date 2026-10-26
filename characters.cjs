@@ -18,7 +18,7 @@ function renderCharacters({characters,img,escape:esc}){
   }
   return markup;
  };
- const roster=[...characters,{id:'laura',alias:'Laura Baxter',costumeAlias:'Lava Lips',placeholder:true}];
+ const roster=[...characters.filter(c=>c.id!=='laura'),characters.find(c=>c.id==='laura')||{id:'laura',alias:'Laura Baxter',costumeAlias:'Lava Lips',placeholder:true}];
  const tags={heroes:'Hero',villains:'Villain',allies:'Ally'},books={1:['One','origins'],3:['Three','book-three']};
  return roster.map(c=>{
   const details=characterDetails[c.id];if(!details||!details.description)throw Error(`Missing character-card metadata: ${c.id}`);
@@ -56,9 +56,9 @@ function createCharacters({characters,img,escape:esc,site}){
   <fieldset class="character-filters" data-character-filters hidden><legend>Show characters</legend><div class="character-filter-buttons">
    ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
   </div></fieldset>
-  <p class="character-filter-status" data-character-status role="status" aria-live="polite" aria-atomic="true" hidden>Showing all ${characters.length+1} characters.</p>
+  <p class="character-filter-status" data-character-status role="status" aria-live="polite" aria-atomic="true" hidden>Showing all ${characters.length+(characters.some(c=>c.id==='laura')?0:1)} characters.</p>
   <div class="profiles" id="character-grid">${renderCharacters({characters,img,escape:esc})}</div>
-  <aside class="character-roster-note" aria-labelledby="roster-note-title"><h2 id="roster-note-title">Roster notes</h2><p>Laura Baxter / Lava Lips has a placeholder above. Doc Dork and Jaws O’ Death are already included.</p><p>No other major omissions confirmed from the current four-book cast. [AUTHOR CHECK: additional characters to include.]</p></aside>
+  <aside class="character-roster-note" aria-labelledby="roster-note-title"><h2 id="roster-note-title">Roster notes</h2><p>Hover or focus Laura Baxter to reveal Lava Lips. Doc Dork and Jaws O’ Death are already included.</p><p>No other major omissions confirmed from the current four-book cast. [AUTHOR CHECK: additional characters to include.]</p></aside>
   <section class="character-closing" aria-labelledby="character-closing-title"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="character-closing-title">Meet the Defenders</h2></div><div class="character-closing-links">
    <a class="button" href="origins-chapter-1.html">Meet them in Chapter 1 <span aria-hidden="true">→</span></a>
    <div class="actions">${amazon(site.paperback.url,'Buy paperback','Buy Origins paperback on Amazon')}${amazon(site.ebook.url,'Buy Kindle','Buy Origins Kindle ebook on Amazon')}</div>
