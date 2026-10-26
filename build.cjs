@@ -47,7 +47,8 @@ const googleTag=`<!-- Google tag (gtag.js) -->
 
   gtag('config', 'G-0PP39ST6XK');
 </script>`;
-const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><header class="site-header">${link('index.html','Defenders<span>of the Land</span>','wordmark')}<button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="nav-toggle-label">Menu</span></button><nav id="site-navigation" aria-label="Main navigation">${link('books.html','Books')}${link('characters.html','Characters')}${link('map.html','Map')}${link('author.html','Author')}${link('downloads.html','Free sample')}<button id="theme" aria-pressed="false">Dark mode</button></nav></header><main id="main">${body}</main><footer>Defenders of the Land · Jay Jones · ${link('paperback.html','Paperback & Kindle editions')}</footer></body></html>`;
+const {renderHeader,renderFooter}=require('./site-chrome.cjs');
+const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><!--SITE_HEADER--><main id="main">${body}</main><!--SITE_FOOTER--></body></html>`;
 function contentsPage(b,entries){
  const coverImage=b.number===1?siteConfig.coverImage:b.cover;
  const purchase=b.number===1?siteConfig:b;
@@ -102,7 +103,7 @@ for(const name of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.cop
 const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css','map.css','books.css','author.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
 for(const [file,html] of Object.entries(pages)){
  const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css|books\.css|author\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
- fs.writeFileSync(path.join(out,file),seo.render(file,versioned));
+ fs.writeFileSync(path.join(out,file),seo.render(file,versioned.replace('<!--SITE_HEADER-->',renderHeader(file)).replace('<!--SITE_FOOTER-->',renderFooter(file))));
 }
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${seo.siteUrl}/sitemap.xml\n`);
 fs.writeFileSync(path.join(out,'sitemap.xml'),seo.sitemap(Object.keys(pages)));

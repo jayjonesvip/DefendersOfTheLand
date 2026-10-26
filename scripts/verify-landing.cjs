@@ -34,7 +34,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     for(const pair of pairs)assert(contrast(...pair)>=4.5,`Text contrast below AA: ${pair}`);
     if(width<=800){
      const toggle=page.locator('#nav-toggle');await toggle.click();assert.equal(await toggle.getAttribute('aria-expanded'),'true');
-     assert.equal(await page.locator('#site-navigation a:visible').count(),5);await page.keyboard.press('Escape');
+     assert.equal(await page.locator('#site-navigation a:visible').count(),6);await page.keyboard.press('Escape');
      assert.equal(await toggle.getAttribute('aria-expanded'),'false');assert(await toggle.evaluate(n=>n===document.activeElement));
     }
    }
@@ -43,7 +43,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
   const staticPage=await nojs.newPage();await staticPage.goto(base+'/index.html');
-  assert.equal(await staticPage.locator('#site-navigation a:visible').count(),5);
+  assert.equal(await staticPage.locator('#site-navigation a:visible').count(),6);
   assert.equal(await staticPage.locator('[data-reveal]').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).opacity==='1')),true);
   await nojs.close();
   const motion=await browser.newContext({viewport:{width:1200,height:800},reducedMotion:'no-preference'});

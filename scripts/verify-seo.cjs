@@ -18,8 +18,8 @@ for(const [file,metadata]of Object.entries(config.pages)){
   assert(/^https:\/\/www.amazon.com\/dp\//.test(edition.url));
  }
  const image=get(html,'og:image');assert.equal(image,get(html,'twitter:image'));assert(fs.existsSync(path.join(out,new URL(image).pathname)));
- if(['index.html','books.html','characters.html','map.html','paperback.html'].includes(file)){assert(image.endsWith(config.socialImage.file));assert.equal(get(html,'og:image:width'),'1200');assert.equal(get(html,'og:image:height'),'630');}
- if(file==='author.html'){assert(image.endsWith('jay-jones-author.jpg'));assert.equal(get(html,'twitter:card'),'summary');}
+ if(['index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'].includes(file)){assert(image.endsWith(config.socialImage.file));assert.equal(get(html,'og:image:width'),'1200');assert.equal(get(html,'og:image:height'),'630');}
+ if(file==='author.html')assert.equal(get(html,'twitter:card'),'summary_large_image');
  if(['origins.html','book-two.html','book-three.html','book-four.html'].includes(file)){const id=file.slice(0,-5);assert(html.includes(config.paperbacks[id].isbn));assert(html.includes(`datetime="${config.paperbacks[id].datePublished}"`));assert.equal(graph.filter(n=>n.bookFormat).length,2);}
  if(file==='index.html'){assert.equal(graph.find(n=>n['@type']==='BookSeries').hasPart.length,4);assert.equal(graph.filter(n=>n.bookFormat).length,8);}
 }
