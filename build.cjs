@@ -52,8 +52,7 @@ const mapGeometry=read('content/map/downtown.geojson');
 pages['map.html']=shell('Explore the Land',require('./map.cjs').createMap({geometry:mapGeometry,site:siteConfig,escape:esc}),'map').replace('</head>','<link rel="stylesheet" href="map.css"></head>');
 pages['index.html']=shell('Book One: Origins',require('./landing.cjs').createLanding({books:[{...book,entries:chapters},...additionalBooks],site:siteConfig,escape:esc,img,link}),'home').replace('</head>','<link rel="preload" href="fonts/Bangers-Regular.ttf" as="font" type="font/ttf" crossorigin><link rel="preload" href="fonts/LibreBaskerville-Regular.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="landing.css"><script defer src="landing.js"></script></head>');
 pages['origins.html']=contentsPage(book,chapters);
-const bookCards=()=>[book,...additionalBooks].map(b=>`<article class="book-card"><p class="eyebrow">BOOK ${b.number}${b.status==='In progress'?' · IN PROGRESS':''}</p>${b.cover?`<figure>${link(`${b.id}.html`,img(b.number===1?siteConfig.coverImage:b.cover,`${b.title} by ${b.author} cover`))}</figure>`:''}<h2>${link(`${b.id}.html`,esc(b.title))}</h2><p>${esc(b.description)}</p><p>Chapter 1 preview</p><div class="actions">${link(`${b.id}-chapter-1.html`,'Read Chapter 1 →','button')}${link(`${b.id}.html`,'Contents','button secondary')}${b.number===1?buy('Buy paperback','button secondary')+kindle():editions(b)}</div></article>`).join('');
-pages['books.html']=shell('Books',`<section class="contents"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h1>Books</h1><div class="actions">${series()}</div><div class="book-library">${bookCards()}</div></section>`,'books');
+pages['books.html']=shell('Books',require('./books.cjs').createBooks({books:[book,...additionalBooks],site:siteConfig,escape:esc,img,link}),'books').replace('</head>','<link rel="stylesheet" href="books.css"></head>');
 
 function prose(text){return text?`<p>${esc(text).replace(/\n/g,'<br>')}</p>`:''}
 function renderChapters(activeBook,entries){for(const [index,c] of entries.entries()){
@@ -84,15 +83,15 @@ used.add('D3-LICENSE.txt');
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
-for(const f of ['styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const f of ['styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
 for(const file of vault.items.flatMap(item=>[item.original,...item.previews.map(p=>p.file)])){
  const target=path.join(out,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,'public',file),target);
 }
 fs.copyFileSync(path.join(root,'content/vault/1990Vault.md'),path.join(out,'vault/1990/1990Vault.md'));
 for(const name of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.copyFileSync(path.join(root,'public',name),path.join(out,name));
-const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css','map.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
+const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css','map.css','books.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
 for(const [file,html] of Object.entries(pages)){
- const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
+ const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css|books\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
  fs.writeFileSync(path.join(out,file),seo.render(file,versioned));
 }
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${seo.siteUrl}/sitemap.xml\n`);
