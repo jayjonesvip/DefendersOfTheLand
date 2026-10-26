@@ -49,11 +49,9 @@ const googleTag=`<!-- Google tag (gtag.js) -->
 </script>`;
 const {renderHeader,renderFooter}=require('./site-chrome.cjs');
 const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><!--SITE_HEADER--><main id="main">${body}</main><!--SITE_FOOTER--></body></html>`;
+const {createBookContents}=require('./book-contents.cjs');
 function contentsPage(b,entries){
- const coverImage=b.number===1?siteConfig.coverImage:b.cover;
- const purchase=b.number===1?siteConfig:b;
- const editionButtons=[['paperback','Buy paperback on Amazon','button'],['ebook','Buy Kindle ebook','button secondary']].map(([format,label,cls])=>purchase[format]?.url?link(purchase[format].url,label,cls):`<button class="${cls}" type="button" disabled title="Amazon edition coming soon">${label}</button>`).join('');
- return shell(b.title,`<section class="contents book-contents"><div class="contents-book-header"><figure class="contents-cover">${img(coverImage,`${b.title} cover`).replace('loading="lazy"','loading="eager"')}</figure><div><p class="eyebrow">DEFENDERS OF THE LAND · ${esc(bookLabel(b).toUpperCase())}${b.status==='In progress'?' · IN PROGRESS':''}</p><h1>${esc(b.title)}</h1><p>${esc(b.number===1?'An illustrated Cleveland superhero adventure by Jay Jones. Read Chapter 1 here, then continue on Amazon.':b.description)}</p></div></div><div class="actions">${editionButtons}${link('paperback.html','About the editions','button secondary')}</div>${!purchase.paperback&&!purchase.ebook?'<p class="edition-note">Amazon editions coming soon.</p>':''}${publicationDetails(b)}<p data-book-progress="${b.id}">0 of ${entries.length} chapters completed</p><a class="button" data-resume hidden>Continue reading →</a><ol class="chapter-list">${entries.map(c=>`<li>${link(`${b.id}-chapter-${c.number}.html`,`<span class="chapter-num">${String(c.number).padStart(2,'0')}</span><span>${esc(c.title)}</span><span class="read-label" data-read="${b.id}:${c.number}"></span>`)}</li>`).join('')}</ol></section>`,'book',b);
+ return shell(b.title,createBookContents({book:b,entries,books:[book,...additionalBooks],site:siteConfig,blurb:cover.blurb,publicationDetails,escape:esc,img}),'book',b).replace('</head>','<link rel="stylesheet" href="book-contents.css"></head>');
 }
 const pages={};
 pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,books:[book,...additionalBooks],portrait:read('content/characters/billy.json'),img,escape:esc,link}),'author').replace('</head>','<link rel="stylesheet" href="author.css"></head>');
@@ -94,15 +92,15 @@ used.add('D3-LICENSE.txt');used.add(websiteSeo.socialImage.file);
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
-for(const f of ['styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const f of ['styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
 for(const file of vault.items.flatMap(item=>[item.original,...item.previews.map(p=>p.file)])){
  const target=path.join(out,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,'public',file),target);
 }
 fs.copyFileSync(path.join(root,'content/vault/1990Vault.md'),path.join(out,'vault/1990/1990Vault.md'));
 for(const name of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.copyFileSync(path.join(root,'public',name),path.join(out,name));
-const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css','map.css','books.css','author.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
+const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css','map.css','books.css','book-contents.css','author.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
 for(const [file,html] of Object.entries(pages)){
- const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css|books\.css|author\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
+ const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css|books\.css|book-contents\.css|author\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
  fs.writeFileSync(path.join(out,file),seo.render(file,versioned.replace('<!--SITE_HEADER-->',renderHeader(file)).replace('<!--SITE_FOOTER-->',renderFooter(file))));
 }
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${seo.siteUrl}/sitemap.xml\n`);
