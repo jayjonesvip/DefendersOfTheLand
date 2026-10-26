@@ -1,5 +1,8 @@
 {
   "id": "jenny",
   "alias": "Jenny Jenkins",
-  "image": "jenny-portrait-v2.png"
+  "image": "jenny-portrait-v2.png",
+  "civilianAlias": "Jenny Jenkins",
+  "costumeImage": "jenny-pink-blur-transparent-v1.webp",
+  "costumeAlias": "Pink Blur"
 }
