@@ -1,5 +1,4 @@
 /* Landing layouts use the palette, typography and controls in styles.css. */
-body[data-page="home"] footer {margin-top:0;border-top:0}
 .launch-page {overflow:clip}
 .launch-page h1,.launch-page h2,.launch-page h3 {
  font-family:BookDisplay,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;font-weight:400;

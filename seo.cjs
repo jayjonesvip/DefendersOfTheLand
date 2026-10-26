@@ -21,11 +21,10 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   const {title,description:pageDescription}=metadata[file],canonical=pageUrl(file),chapter=chapterPages.get(file);
   const activeBook=chapter?.book||allBooks.find(b=>file===b.id+'.html')||book;
   const isVault=file==='1990-vault.html',isAuthor=file==='author.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
-  const seriesPages=['index.html','books.html','characters.html','map.html','paperback.html'];
+  const seriesPages=['index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
-  if(isAuthor){previewImage=pageUrl('assets/jay-jones-author.jpg');previewSize={width:300,height:300};previewAlt='Jay Jones with the Cleveland skyline behind him.';mime='image/jpeg';}
   if(isVault){previewImage=pageUrl(archivePreview.file);previewSize={width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)};previewAlt=archiveItems[0].alt;}
   const page={'@type':['books.html','origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description:pageDescription,inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
@@ -53,7 +52,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
    `<meta property="og:image" content="${escape(previewImage)}">`,
    ...(previewSize?[`<meta property="og:image:width" content="${previewSize.width}">`,`<meta property="og:image:height" content="${previewSize.height}">`]:[]),
    `<meta property="og:image:type" content="${mime}">`,`<meta property="og:image:alt" content="${escape(previewAlt)}">`,
-   `<meta name="twitter:card" content="${isAuthor?'summary':'summary_large_image'}">`,`<meta name="twitter:title" content="${escape(title)}">`,`<meta name="twitter:description" content="${escape(pageDescription)}">`,`<meta name="twitter:image" content="${escape(previewImage)}">`,`<meta name="twitter:image:alt" content="${escape(previewAlt)}">`,
+   `<meta name="twitter:card" content="summary_large_image">`,`<meta name="twitter:title" content="${escape(title)}">`,`<meta name="twitter:description" content="${escape(pageDescription)}">`,`<meta name="twitter:image" content="${escape(previewImage)}">`,`<meta name="twitter:image:alt" content="${escape(previewAlt)}">`,
    `<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}</script>`
   ].join('');
   return html.replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace(/<meta name="description"[^>]*>/,'').replace('</head>',tags+'</head>');
