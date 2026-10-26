@@ -4,48 +4,181 @@
   "available": true,
   "ending": "",
   "blocks": [
-    {"type": "prose", "text": "Seth Zerdowski could pull a glass tank in its steel cradle out of a giant robot. He could not make the answer at the bottom of his math homework come out right."},
-    {"type": "prose", "text": "At the kitchen table, Seth tried the question again. The refrigerator hummed behind him. His pencil, exercise book and eraser lay in the circle of light beneath the lamp. The other chair was empty."},
-    {"type": "prose", "text": "His father was still at the steel mill. He worked hard, and the long hours meant Seth rarely caught him at the table. When they did sit together, his father was quiet, more likely to listen than to fill the room with talk."},
-    {"type": "scene", "text": "Seth put down his pencil. On the shelf beside the cups stood a birthday card he had kept from his mother. She had hated living in Cleveland. When he was fourteen, she had left to live with her sister in California.", "art": "book-two-chapter-01-quiet-kitchen-design-v1.webp", "alt": "Civilian Seth in his orange hoodie works on math homework alone at a softly lit kitchen table. An empty chair sits nearby, and a kept birthday card stands on a shelf."},
-    {"type": "prose", "text": "The telephone sat on the counter below it. Since leaving, she had sent him a card each birthday and called on Christmas. Seth looked back at his unfinished page."},
-    {"type": "prose", "text": "At school, there were plenty of voices around him. He could sit through lunch and still have nobody to tell about his day. At home, he sometimes found himself listening for a key in the door."},
-    {"type": "prose", "text": "He read the question once more. Then he packed the exercise book with the textbook and took them to Billy’s office."},
-    {"type": "prose", "text": "At Billy’s desk, Seth rubbed out the last line until the paper grew thin. A newspaper lay folded with DEFENDERS OF THE LAND above the crease. He turned it face down."},
-    {"type": "prose", "text": "Billy looked from the newspaper to the exercise book. “How much have you got left?”"},
-    {"type": "prose", "text": "“Still got finals coming up,” Seth said, pushing the book toward him. “I can’t even get through the homework.”"},
-    {"type": "prose", "text": "Every time he sat down to prepare, the problems seemed to get further ahead of him. He could remember the robot’s hands coming down over the street more clearly than anything his teacher had said about equations."},
-    {"type": "prose", "text": "Billy pulled his chair closer. His plaid cap stayed on; his magnifying glass went into a drawer. He read Seth’s work without speaking, then tapped the third line with a pencil."},
-    {"type": "prose", "text": "“You were doing all right until here.”"},
-    {"type": "prose", "text": "Seth leaned over the page. “I thought that part was right.”"},
-    {"type": "prose", "text": "Billy did not fill in the answer. He asked Seth to explain what he had tried. Halfway through, Seth stopped, looked at the numbers again, and reached for his eraser."},
-    {"type": "prose", "text": "The next problem took longer. The one after that took less. By the time Billy’s desk lamp was the only light in the office, Seth had a page of answers he could explain."},
-    {"type": "prose", "text": "Outside, a bus growled away from its stop. Terminal Tower glowed above the lower buildings. Seth gathered his books, leaving the newspaper where it was."},
-    {"type": "prose", "text": "“Tomorrow?” he asked."},
-    {"type": "prose", "text": "Billy opened his appointment book. “Same time. Bring the ones giving you trouble.”"},
-    {"type": "prose", "text": "Billy wrote Seth’s name in the appointment book. Seth watched him leave space beside it for the questions. He was expected back. Billy had work of his own, and he had still made time."},
-    {"type": "prose", "text": "They worked through the following weeks at Billy’s desk. Seth arrived in his orange hoodie with schoolbooks under his arm. Billy cleared a space among the folders and made him put his pencil to the paper before deciding he was stuck."},
-    {"type": "prose", "text": "Sometimes Billy had to read the textbook himself. Once, they spent twenty minutes following an example before discovering Seth had copied the question incorrectly. Billy drew a small circle around the missing minus sign. Seth stared at it, then laughed so hard he had to put his pencil down."},
-    {"type": "prose", "text": "Seth began arriving a few minutes early. Sometimes Jenny stopped by, or Fist appeared at the window with an opinion nobody had asked for. Being with the Defenders meant having people to talk to, even when there was nothing to fight. Seth liked having people to look for. When Billy cleared the desk, he got his exercise book out."},
-    {"type": "prose", "text": "Other evenings were harder. Seth rushed when he thought he understood, then grew angry when the answer failed. Billy would slide the paper back and ask him to find the last step he could still account for."},
-    {"type": "prose", "text": "One night Seth pushed his chair away. “I should be better at this by now.”"},
-    {"type": "prose", "text": "Billy turned back through the exercise book and laid the first page beside the latest. Seth leaned forward. The older page was mostly rubbed-out guesses. On the new one, even the wrong answers had work beneath them."},
-    {"type": "prose", "text": "He pulled his chair in again."},
-    {"type": "prose", "text": "They stopped before he became too tired to read his own handwriting. Seth began sleeping instead of staring at the same page past midnight. At the next session, he could often see the mistake that had defeated him the evening before."},
-    {"type": "prose", "text": "On the morning of his last final, Seth reached school early. He sat with his pencil between his hands until the papers came around. The first question looked familiar. The fourth did not."},
-    {"type": "prose", "text": "His stomach tightened. He read it again, underlined what it asked, and wrote down what he knew. There was room beneath that for the next step."},
-    {"type": "prose", "text": "When he finished, he went back to check his work. He caught a sign he had copied incorrectly. This time, he only needed to erase one line."},
-    {"type": "prose", "text": "The afternoon the results came, Seth took them straight to Billy’s office. He meant to walk in calmly. Instead, he caught his sneaker on the doorstep and arrived with one hand against the doorframe."},
-    {"type": "prose", "text": "Billy looked up. Seth held out the paper."},
-    {"type": "prose", "text": "He had passed. He was going to graduate."},
-    {"type": "scene", "art": "book-two-chapter-01-tutoring-graduation-design-v1.webp", "alt": "Billy tutors Seth in his office overlooking Cleveland, then stands proudly beside Seth in his graduation cap and gown.", "text": "Billy read the results, then looked at Seth’s enormous smile. “There you are,” he said."},
-    {"type": "prose", "text": "At graduation, the cap would not sit straight over Seth’s hair. He adjusted it twice, then left it alone. When his name was called, he crossed the platform carefully and took his diploma with both hands."},
-    {"type": "prose", "text": "Nobody called him Super Zerdo. Nobody asked him to lift anything. For that moment, being Seth Zerdowski was enough."},
-    {"type": "prose", "text": "Billy waited outside afterward, small beneath his plaid cap among the graduates. Seth found him and raised the diploma."},
-    {"type": "prose", "text": "“We did it.”"},
-    {"type": "prose", "text": "“You did the work.”"},
-    {"type": "prose", "text": "Seth put an arm around his shoulders. “You still had to put up with me.”"},
-    {"type": "prose", "text": "Billy straightened his coat, but stayed beside him. Seth grinned as the camera clicked."},
-    {"type": "prose", "text": "Beyond the school, Cleveland carried on with its afternoon: buses braking, horns sounding, people hurrying somewhere. Seth looked down at the diploma once more before they started walking. This was something he had finished. He wanted a little longer to enjoy it."}
+    {
+      "type": "prose",
+      "text": "Seth Zerdowski could pull a glass tank in its steel cradle out of a giant robot. He could not make the answer at the bottom of his math homework come out right."
+    },
+    {
+      "type": "prose",
+      "text": "At the kitchen table, Seth tried the question again. The refrigerator hummed behind him. His pencil, exercise book and eraser lay in the circle of light beneath the lamp. The other chair was empty."
+    },
+    {
+      "type": "prose",
+      "text": "His father was still at the steel mill. He worked hard, and the long hours meant Seth rarely caught him at the table. When they did sit together, his father was quiet, more likely to listen than to fill the room with talk."
+    },
+    {
+      "type": "scene",
+      "text": "Seth put down his pencil. On the shelf beside the cups stood a birthday card he had kept from his mother. She had hated living in Cleveland. When he was fourteen, she had left to live with her sister in California.",
+      "art": "book-two-chapter-01-quiet-kitchen-design-v1.webp",
+      "alt": "Civilian Seth in his orange hoodie works on math homework alone at a softly lit kitchen table. An empty chair sits nearby, and a kept birthday card stands on a shelf."
+    },
+    {
+      "type": "prose",
+      "text": "The telephone sat on the counter below it. Since leaving, she had sent him a card each birthday and called on Christmas. Seth looked back at his unfinished page."
+    },
+    {
+      "type": "prose",
+      "text": "At school, there were plenty of voices around him. He could sit through lunch and still have nobody to tell about his day. At home, he sometimes found himself listening for a key in the door."
+    },
+    {
+      "type": "prose",
+      "text": "He read the question once more. Then he packed the exercise book with the textbook and took them to Billy’s office."
+    },
+    {
+      "type": "prose",
+      "text": "At Billy’s desk, Seth rubbed out the last line until the paper grew thin. A newspaper lay folded with DEFENDERS OF THE LAND above the crease. He turned it face down."
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked from the newspaper to the exercise book. “How much have you got left?”"
+    },
+    {
+      "type": "prose",
+      "text": "“Still got finals coming up,” Seth said, pushing the book toward him. “I can’t even get through the homework.”"
+    },
+    {
+      "type": "prose",
+      "text": "Every time he sat down to prepare, the problems seemed to get further ahead of him. He could remember the robot’s hands coming down over the street more clearly than anything his teacher had said about equations."
+    },
+    {
+      "type": "prose",
+      "text": "Billy pulled his chair closer. His plaid cap stayed on; his magnifying glass went into a drawer. He read Seth’s work without speaking, then tapped the third line with a pencil."
+    },
+    {
+      "type": "prose",
+      "text": "“You were doing all right until here.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth leaned over the page. “I thought that part was right.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy did not fill in the answer. He asked Seth to explain what he had tried. Halfway through, Seth stopped, looked at the numbers again, and reached for his eraser."
+    },
+    {
+      "type": "prose",
+      "text": "The next problem took longer. The one after that took less. By the time Billy’s desk lamp was the only light in the office, Seth had a page of answers he could explain."
+    },
+    {
+      "type": "prose",
+      "text": "Outside, a bus growled away from its stop. Terminal Tower glowed above the lower buildings. Seth gathered his books, leaving the newspaper where it was."
+    },
+    {
+      "type": "prose",
+      "text": "“Tomorrow?” he asked."
+    },
+    {
+      "type": "prose",
+      "text": "Billy opened his appointment book. “Same time. Bring the ones giving you trouble.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy wrote Seth’s name in the appointment book. Seth watched him leave space beside it for the questions. He was expected back. Billy had work of his own, and he had still made time."
+    },
+    {
+      "type": "prose",
+      "text": "They worked through the following weeks at Billy’s desk. Seth arrived in his orange hoodie with schoolbooks under his arm. Billy cleared a space among the folders and made him put his pencil to the paper before deciding he was stuck."
+    },
+    {
+      "type": "prose",
+      "text": "Sometimes Billy had to read the textbook himself. Once, they spent twenty minutes following an example before discovering Seth had copied the question incorrectly. Billy drew a small circle around the missing minus sign. Seth stared at it, then laughed so hard he had to put his pencil down."
+    },
+    {
+      "type": "prose",
+      "text": "Seth began arriving a few minutes early. Sometimes Jenny stopped by, or Fist appeared at the window with an opinion nobody had asked for. Being with the Defenders meant having people to talk to, even when there was nothing to fight. Seth liked having people to look for. When Billy cleared the desk, he got his exercise book out."
+    },
+    {
+      "type": "prose",
+      "text": "Other evenings were harder. Seth rushed when he thought he understood, then grew angry when the answer failed. Billy would slide the paper back and ask him to find the last step he could still account for."
+    },
+    {
+      "type": "prose",
+      "text": "One night Seth pushed his chair away. “I should be better at this by now.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy turned back through the exercise book and laid the first page beside the latest. Seth leaned forward. The older page was mostly rubbed-out guesses. On the new one, even the wrong answers had work beneath them."
+    },
+    {
+      "type": "prose",
+      "text": "He pulled his chair in again."
+    },
+    {
+      "type": "prose",
+      "text": "They stopped before he became too tired to read his own handwriting. Seth began sleeping instead of staring at the same page past midnight. At the next session, he could often see the mistake that had defeated him the evening before."
+    },
+    {
+      "type": "prose",
+      "text": "On the morning of his last final, Seth reached school early. He sat with his pencil between his hands until the papers came around. The first question looked familiar. The fourth did not."
+    },
+    {
+      "type": "prose",
+      "text": "His stomach tightened. He read it again, underlined what it asked, and wrote down what he knew. There was room beneath that for the next step."
+    },
+    {
+      "type": "prose",
+      "text": "When he finished, he went back to check his work. He caught a sign he had copied incorrectly. This time, he only needed to erase one line."
+    },
+    {
+      "type": "prose",
+      "text": "The afternoon the results came, Seth took them straight to Billy’s office. He meant to walk in calmly. Instead, he caught his sneaker on the doorstep and arrived with one hand against the doorframe."
+    },
+    {
+      "type": "prose",
+      "text": "Billy looked up. Seth held out the paper."
+    },
+    {
+      "type": "prose",
+      "text": "He had passed. He was going to graduate."
+    },
+    {
+      "type": "scene",
+      "art": "book-two-chapter-01-tutoring-graduation-design-v1.webp",
+      "alt": "Billy tutors Seth in his office overlooking Cleveland, then stands proudly beside Seth in his graduation cap and gown.",
+      "text": "Billy read the results, then looked at Seth’s enormous smile. “There you are,” he said."
+    },
+    {
+      "type": "prose",
+      "text": "At graduation, the cap would not sit straight over Seth’s hair. He adjusted it twice, then left it alone. When his name was called, he crossed the platform carefully and took his diploma with both hands."
+    },
+    {
+      "type": "prose",
+      "text": "Nobody called him Super Zerdo. Nobody asked him to lift anything. For that moment, being Seth Zerdowski was enough."
+    },
+    {
+      "type": "prose",
+      "text": "Billy waited outside afterward, small beneath his plaid cap among the graduates. Seth found him and raised the diploma."
+    },
+    {
+      "type": "prose",
+      "text": "“We did it.”"
+    },
+    {
+      "type": "prose",
+      "text": "“You did the work.”"
+    },
+    {
+      "type": "prose",
+      "text": "Seth put an arm around his shoulders. “You still had to put up with me.”"
+    },
+    {
+      "type": "prose",
+      "text": "Billy straightened his coat, but stayed beside him. Seth grinned as the camera clicked."
+    },
+    {
+      "type": "prose",
+      "text": "Beyond the school, Cleveland carried on with its afternoon: buses braking, horns sounding, people hurrying somewhere. Seth looked down at the diploma once more before they started walking. This was something he had finished. He wanted a little longer to enjoy it."
+    }
   ]
 }

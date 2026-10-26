@@ -1,4 +1,4 @@
-name: Build and deploy reader
+name: Build and deploy public previews
 
 on:
   push:
@@ -17,77 +17,40 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: npm
-      - uses: actions/setup-python@v7
-        with:
-          python-version: '3.12'
-          cache: pip
       - run: npm ci
-      - run: python -m pip install -r requirements.txt
-      - name: Test print resolution validation
-        run: python -m unittest discover -s scripts -p 'test_print_resolution.py'
       - run: npx playwright install --with-deps chromium
-      - name: Build site, PDFs and EPUB
+      - name: Build approved previews only
         run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://clevelandsuperheroes.com' }}
-      - name: Test Book Four interior and cover preflight
-        run: |
-          python -m unittest discover -s scripts -p 'test_book_four_preflight.py'
-          python -m unittest discover -s scripts -p 'test_book_four_cover.py'
       - run: npm test
-      - name: Validate EPUB with EPUBCheck 5.4.0
-        run: |
-          curl --fail --location --retry 3 -o /tmp/epubcheck.zip https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip
-          unzip -q /tmp/epubcheck.zip -d /tmp/epubcheck
-          for epub in output/publishing/*.epub; do
-            java -jar /tmp/epubcheck/epubcheck-5.4.0/epubcheck.jar "$epub"
-          done
-          java -jar /tmp/epubcheck/epubcheck-5.4.0/epubcheck.jar dist/books/origins-sample-chapters-01-03.epub
-      - name: Save complete publishing files separately
-        uses: actions/upload-artifact@v4
-        with:
-          name: kdp-publishing-files
-          path: |
-            output/publishing/defenders-of-the-land-book-two-illustrated.pdf
-            output/publishing/book-two-kdp-interior.pdf
-            output/publishing/book-two-pdf-build.json
-            output/publishing/book-two-review-pdf-build.json
-            output/publishing/book-two-preflight.json
-            output/publishing/book-two-interior-resolution.json
-            output/publishing/book-two-upload-guide.txt
-            output/publishing/book-three-kdp-interior.pdf
-            output/publishing/book-three-pdf-build.json
-            output/publishing/book-three-preflight.json
-            output/publishing/book-three-upload-guide.txt
-            output/publishing/defenders-of-the-land-book-four-illustrated.pdf
-            output/publishing/book-four-pdf-build.json
-            output/publishing/book-four-review-pdf-build.json
-            output/publishing/book-four-kdp-interior.pdf
-            output/publishing/book-four-preflight.json
-            output/publishing/book-four-cover-preflight.json
-            output/publishing/book-four-interior-resolution.json
-            output/publishing/book-four-upload-guide.txt
-            output/publishing/*.epub
-            output/publishing/*-ebook-cover.jpg
-            output/publishing/epub-builds.json
-            output/publishing/origins-kdp-interior.pdf
-            output/publishing/print-specifications.json
-            output/publishing/*-kdp-cover.pdf
-            output/publishing/*-front-cover.pdf
-            output/publishing/*-back-cover.pdf
-            output/publishing/*-print-specifications.json
-            output/publishing/*-kdp-cover-preview.png
-          retention-days: 90
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+
+  cleanup-legacy-kdp:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Remove author-approved legacy public KDP downloads
+        run: node scripts/cleanup-legacy-kdp.cjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
   deploy:
     if: github.event_name != 'pull_request'
@@ -109,5 +72,5 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify hosted reader and every download
+      - name: Check public preview policy on the hosted site
         run: node scripts/verify-hosted.cjs '${{ steps.deployment.outputs.page_url }}'

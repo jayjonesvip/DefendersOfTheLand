@@ -2,28 +2,12 @@
   "id": "origins",
   "title": "Origins",
   "number": 1,
-  "cover": "origins-cover-unlikely-heroes-web-v6.webp",
+  "author": "Jay Jones",
   "status": "Illustrated web edition - Eighteen paperback chapters",
   "description": "Cleveland never had superheroes. Then something fell out of the Sun.",
+  "cover": "origins-cover-unlikely-heroes-web-v6.webp",
   "chapters": [
-    "chapter-05.json",
-    "chapter-07.json",
-    "chapter-02.json",
-    "chapter-02b.json",
-    "chapter-03a.json",
-    "chapter-03.json",
-    "chapter-04.json",
-    "chapter-08.json",
-    "chapter-11.json",
-    "chapter-12.json",
-    "chapter-13.json",
-    "chapter-14.json",
-    "chapter-15.json",
-    "chapter-16.json",
-    "chapter-17.json",
-    "chapter-18.json",
-    "chapter-19.json",
-    "chapter-20.json"
+    "chapter-01.json"
   ],
-  "author": "Jay Jones"
+  "amazonUrl": "https://www.amazon.com/dp/B0HMXK83HK"
 }

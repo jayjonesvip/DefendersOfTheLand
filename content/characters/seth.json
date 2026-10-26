@@ -1,16 +1,5 @@
 {
   "id": "seth",
-  "introducedIn": 2,
   "alias": "Super Zerdo",
-  "name": "Seth Zerdowski",
-  "tag": "ORDINARY GUY. EXTRAORDINARY HEART.",
-  "image": "seth-dossier-orange-v1.png",
-  "sheet": "Super_Zerdo_Character_Sheet.png",
-  "role": "Seventeen-year-old / the kid by the lake",
-  "powers": "Solar-plasma exposure grants incredible strength and durability. Flight emerges later. Learning to use any of it takes practice.",
-  "personality": "Kind, clumsy, determined and self-doubting. He wants to do good, find his place and prove he belongs.",
-  "relationships": "Inspector Billy eventually follows the same mystery. Doc Dork covets the energy that changed Seth. The team has not yet assembled.",
-  "appearances": "Chapter 3: The Kid by the Lake",
-  "quote": "I mess up a lot\u2026 but I still show up.",
-  "group": "heroes"
+  "image": "seth-dossier-orange-v1.png"
 }
