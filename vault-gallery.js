@@ -51,3 +51,13 @@
  },{passive:true});
  stage.addEventListener('touchcancel',()=>{touch=null;},{passive:true});
 })();
+// Sharing is optional; all archive and article links work without this enhancement.
+(()=>{
+ const button=document.querySelector('[data-vault-copy]'),status=document.querySelector('[data-vault-share-status]');
+ if(!button||!status)return;button.hidden=false;
+ button.addEventListener('click',async()=>{
+  const url=document.querySelector('link[rel="canonical"]').href;
+  try{await navigator.clipboard.writeText(url);status.textContent='Link copied.';}
+  catch{status.textContent='Copy this address: '+url;}
+ });
+})();

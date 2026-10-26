@@ -46,7 +46,7 @@ function contentsPage(b,entries){
 }
 const pages={};
 pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,books:[book,...additionalBooks],portrait:read('content/characters/billy.json'),img,escape:esc,link}),'author').replace('</head>','<link rel="stylesheet" href="author.css"></head>');
-const vault=require('./vault.cjs').createVault({root,escape:esc,link,bookTwo:additionalBooks.find(b=>b.id==='book-two')});
+const vault=require('./vault.cjs').createVault({root,escape:esc,link,books:[book,...additionalBooks],site:siteConfig,img});
 pages['1990-vault.html']=shell('From the Vault: 1990',vault.body,'vault').replace('</head>','<link rel="stylesheet" href="vault.css"></head>');
 const mapGeometry=read('content/map/downtown.geojson');
 pages['map.html']=shell('Explore the Land',require('./map.cjs').createMap({geometry:mapGeometry,site:siteConfig,escape:esc}),'map').replace('</head>','<link rel="stylesheet" href="map.css"></head>');
