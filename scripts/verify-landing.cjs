@@ -24,9 +24,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('#volume-4-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
     const fourth=page.locator('.volume-card').nth(3);
     for(const asin of ['B0HPBJWNMC','B0HPBM1FJQ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
-    assert(await page.locator('.launch-signup input').isDisabled());
-    assert(await page.locator('.launch-signup button').isDisabled());
-    assert.equal(await page.locator('.launch-signup form').getAttribute('action'),'[FORM ACTION URL]');
+    assert.equal(await page.locator('.launch-signup,form').count(),0,'Unconfigured signup stays off the page');
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
     assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'origins-chapter-1.html');
@@ -61,7 +59,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
   assert.equal(await staticPage.locator('[data-reveal]').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).opacity==='1')),true);
   assert(await staticPage.locator('[data-announcement]').isVisible());
   assert(await staticPage.locator('[data-dismiss-announcement]').isHidden());
-  assert(await staticPage.locator('.launch-signup input').isDisabled());
+  assert.equal(await staticPage.locator('.launch-signup').count(),0);
   await nojs.close();
   const blocked=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   await blocked.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new Error('Storage unavailable');}}));

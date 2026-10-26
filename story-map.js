@@ -8,7 +8,10 @@
  const filters=[...root.querySelectorAll('[data-map-book]')],popup=root.querySelector('#map-popup'),status=root.querySelector('#map-status');
  const reduced=matchMedia('(prefers-reduced-motion: reduce)');
  let filter='all',selected=null,opened=false,projection,layer,transform=d3.zoomIdentity,width=0,height=0;
- const active=p=>filter==='all'||String(p.book)===filter;
+ const active=p=>filter==='all'||p.books.includes(Number(filter));
+ const view=p=>filter==='all'?p:{...p,...p.appearances[filter],book:Number(filter)};
+ const names=['','One','Two','Three','Four'];
+ const tag=p=>filter==='all'?`Appears in ${p.books.length>1?'Books':'Book'} ${p.books.map(book=>names[book]).join(', ')}`:`Appears in Book ${names[Number(filter)]}`;
  const points=new Map();
  const pins=new Map(ready.map(p=>{
   const button=document.createElement('button');button.type='button';button.className='story-map-pin';
@@ -35,17 +38,26 @@
  }
  function select(p,save=false,animate=true){
   if(!active(p))applyFilter(String(p.book));selected=p;opened=true;
-  popup.querySelector('.map-popup-book').textContent=`Appears in Book ${['','One','Two','Three','Four'][p.book]}`;
-  popup.querySelector('#map-popup-title').textContent=p.name;popup.querySelector('.map-popup-blurb').textContent=p.blurb;
-  const link=popup.querySelector('a');link.href=p.chapterUrl;link.setAttribute('aria-label',`Read Book ${p.book}’s first chapter to explore ${p.name}`);
-  selectionState();status.textContent=`Selected ${p.name}. Appears in Book ${p.book}.`;
+  const shown=view(p);
+  popup.querySelector('.map-popup-book').textContent=tag(p);
+  popup.querySelector('#map-popup-title').textContent=shown.name;popup.querySelector('.map-popup-blurb').textContent=shown.blurb;
+  const link=popup.querySelector('a');link.href=shown.chapterUrl;link.textContent=`Read Book ${names[shown.book]}’s first chapter →`;link.setAttribute('aria-label',`Read Book ${names[shown.book]}’s first chapter to explore ${shown.name}`);
+  selectionState();status.textContent=`Selected ${shown.name}. ${tag(p)}.`;
   const point=points.get(p.id);if(point){const k=1.5,next=d3.zoomIdentity.translate(width/2-k*point[0],height*.35-k*point[1]).scale(k);if(animate)moveTo(next);else canvas.interrupt().call(zoom.transform,next);}
   if(save)history.replaceState(null,'','#'+p.id);
  }
  function applyFilter(value){
   filter=value;opened=false;selected=null;selectionState();
   filters.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mapBook===value)));
-  cards.forEach(card=>{card.hidden=value!=='all'&&card.dataset.book!==value;});
+  cards.forEach(card=>{
+   const p=ready.find(p=>p.id===card.dataset.landmarkCard);card.hidden=!p||!active(p);if(card.hidden)return;
+   const shown=view(p),button=card.querySelector('[data-location]'),link=card.querySelector('.map-read-link');
+   button.querySelector('.map-location-name').textContent=shown.name;
+   card.querySelector('.map-book-tag').textContent=tag(p);card.querySelector('.map-card-blurb').textContent=shown.blurb;
+   link.href=shown.chapterUrl;link.textContent=`Read Book ${names[shown.book]}’s first chapter →`;
+   link.setAttribute('aria-label',`Read Book ${names[shown.book]}’s first chapter to explore ${shown.name}`);
+   pins.get(p.id).setAttribute('aria-label',`${locations.indexOf(p)+1}. ${shown.name}`);
+  });
   const count=ready.filter(active).length;root.querySelector('.map-empty').hidden=count>0;
   root.querySelectorAll('[data-map-zoom],[data-map-reset]').forEach(b=>b.disabled=!count);
   status.textContent=count?`Showing ${count} landmarks${value==='all'?'':` from Book ${value}`}.`:`Book ${value} locations coming soon. No locations have been added.`;

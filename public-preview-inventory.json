@@ -23,7 +23,7 @@
     },
     {
       "path": "content/books/book-two/book.json",
-      "sha256": "1b61a148f38e93d3197a80a493a7003a3bbdbcad1ce2c816a3b7df57610f1217"
+      "sha256": "2b00fe36d7a292c51e183cf36e2f388cd9be2baa5dd5eb6fd5f10cd72b5b6ad0"
     },
     {
       "path": "content/books/book-two/chapter-01.json",
@@ -106,8 +106,12 @@
       "sha256": "4bfa4fa4db4464966fac2e3e5337412f71fdfc4558f8987686ab973b1eab1434"
     },
     {
+      "path": "content/website-book-copy.json",
+      "sha256": "09e8c49dc64bd52f71060ef48dd65b69011cf8440badb79f7c8de5097f8a7b43"
+    },
+    {
       "path": "content/website-seo.json",
-      "sha256": "8fc893a922d45882844a0da54422299792f07fa48dc8530d5a8889344d98e2cd"
+      "sha256": "216ddd397cc491628a7927b2a9bf08295447ccbbefe206e6b2fe772882e23d19"
     },
     {
       "path": "image-manifest.json",

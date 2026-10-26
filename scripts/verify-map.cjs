@@ -2,7 +2,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const {chromium}=require('playwright'),root=path.resolve(__dirname,'..'),out=path.join(root,'dist');
 const landmarks=require('../map-landmarks.js'),original=require('../content/map/locations.json');
 assert.deepEqual(landmarks.slice(0,4).map(p=>({id:p.id,name:p.name,coordinates:[p.lng,p.lat]})),original.map(({id,name,coordinates})=>({id,name,coordinates})),'Preserve all original landmark coordinates and names');
-assert(landmarks.slice(4).every(p=>p.comingSoon&&p.lat===null&&p.lng===null&&p.chapterUrl===null));
+assert.equal(landmarks.length,4,'Recurring locations share one marker');
+for(const p of landmarks)for(const appearance of Object.values(p.appearances))assert(/^(origins|book-two|book-three|book-four)-chapter-1\.html$/.test(appearance.chapterUrl));
 // Optional photos must be deliberate, dimensioned and accessible; none are published yet.
 const renderMap=require('../map.cjs').createMap,site=require('../content/site.json');
 try{
@@ -29,7 +30,21 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
   await page.locator('[data-map-reset]').click();await page.locator('[data-marker="main-library"]').click();
   assert.equal(await page.locator('[data-location="main-library"]').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('#map-popup-title').innerText(),'Main Library');
   await page.keyboard.press('Escape');assert.equal(await page.locator('#map-popup').isVisible(),false);
-  for(const book of ['2','3','4']){await page.locator(`[data-map-book="${book}"]`).click();assert.equal(await page.locator('[data-landmark-card]:visible').count(),1);assert((await page.locator('[data-landmark-card]:visible h3').innerText()).includes('landmarks'),'Coming-soon cards retain visible headings');assert.equal(await page.locator('[data-marker]:visible').count(),0);assert(await page.locator('.map-empty').isVisible());assert.equal(await page.locator('[data-landmark-card]:visible a').count(),0);}
+  for(const [book,count,prefix] of [['2',3,'book-two'],['3',1,'book-three'],['4',2,'book-four']]){
+   await page.locator(`[data-map-book="${book}"]`).click();
+   assert.equal(await page.locator('[data-landmark-card]:visible').count(),count);
+   assert.equal(await page.locator('[data-marker]:visible').count(),count);
+   assert(!(await page.locator('.map-empty').isVisible()));
+   for(const href of await page.locator('[data-landmark-card]:visible .map-read-link').evaluateAll(links=>links.map(a=>a.getAttribute('href'))))assert.equal(href,prefix+'-chapter-1.html');
+   await page.locator('[data-landmark-card]:visible [data-location]').first().click();
+   assert.equal(await page.locator('#map-popup a').getAttribute('href'),prefix+'-chapter-1.html');
+   if(book==='4'){
+    await page.locator('[data-location="union-terminal"]').click();
+    assert.equal(await page.locator('#map-popup-title').innerText(),'Terminal Tower');
+    assert.equal(await page.locator('.is-selected .map-card-blurb').textContent(),'Dork has a shelf picked out for Terminal Tower.');
+   }
+  }
+  await page.locator('[data-map-book="all"]').click();assert.equal(await page.locator('[data-marker]:visible').count(),4);
   await page.locator('[data-map-book="1"]').focus();await page.keyboard.press('Space');assert.equal(await page.locator('[data-landmark-card]:visible').count(),4);assert.equal(await page.locator('[data-marker]:visible').count(),4);
   await page.locator('[data-map-zoom="in"]').click();assert(Number(await page.locator('.story-map-canvas').getAttribute('data-zoom'))>1);await page.locator('[data-map-reset]').click();assert.equal(await page.locator('.story-map-canvas').getAttribute('data-zoom'),'1.000');
   await page.goto(base+'/map.html#union-terminal');assert.equal(await page.locator('#map-popup-title').innerText(),'Tower City / Union Terminal');
@@ -38,6 +53,6 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
  }
  const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'}),page=await mobile.newPage();await page.goto(base+'/map.html');await page.locator('.story-map-canvas').scrollIntoViewIfNeeded();const box=await page.locator('.story-map-canvas').boundingBox(),before=await page.evaluate(()=>scrollY),client=await mobile.newCDPSession(page),start=Math.min(box.y+box.height-40,740);
  await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:200,y:start}]});for(let step=1;step<=6;step++)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:200,y:start-step*35}]});await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await page.waitForFunction(y=>scrollY>y+50,before);await mobile.close();
- const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),staticPage=await nojs.newPage();await staticPage.goto(base+'/map.html');assert.equal(await staticPage.locator('[data-landmark-card]:visible').count(),7);assert.equal(await staticPage.locator('[data-landmark-card] .map-read-link:visible').count(),4);assert.equal(await staticPage.locator('[data-map-filters]').isVisible(),false);await nojs.close();
- assert.deepEqual(errors,[]);console.log('PASS: preserved coordinates, pan/zoom, marker/list sync, keyboard filters and popup, empty-book states, hash links, responsive themes, native touch scrolling and no-JS landmark links.');
+ const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),staticPage=await nojs.newPage();await staticPage.goto(base+'/map.html');assert.equal(await staticPage.locator('[data-landmark-card]:visible').count(),4);assert.equal(await staticPage.locator('[data-landmark-card] .map-read-link:visible').count(),10);assert.equal(await staticPage.locator('[data-map-filters]').isVisible(),false);await nojs.close();
+ assert.deepEqual(errors,[]);console.log('PASS: preserved coordinates, pan/zoom, marker/list sync, keyboard filters and popup, all four book filters and preview destinations, hash links, responsive themes, native touch scrolling and no-JS landmark links.');
 }finally{await browser?.close();await new Promise(r=>server.close(r));}})().catch(e=>{console.error(e);process.exitCode=1});
