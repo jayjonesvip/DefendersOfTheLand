@@ -1,11 +1,11 @@
-// Presentation-only metadata: descriptions remain explicit author placeholders.
+// Spoiler-free character summaries and presentation metadata for the public gallery.
 const characterDetails={
- billy:{group:'heroes',firstBook:1},claude:{group:'allies',firstBook:1},
- doc:{group:'villains',firstBook:1},eleanor:{group:'villains',firstBook:1},
- fist:{group:'heroes',firstBook:1},'flaming-head':{group:'heroes',firstBook:1},
- jenny:{group:'heroes',firstBook:1},luke:{group:'villains',firstBook:1},
- perch:{group:'heroes',firstBook:1},seth:{group:'heroes',firstBook:1},
- laura:{group:'villains',firstBook:3}
+ billy:{group:'heroes',firstBook:1,description:"An observant private investigator with a notebook, a magnifying glass and a knack for asking the question everyone else missed."},claude:{group:'allies',firstBook:1,description:"A lakefront investor who wants Cleveland’s waterfront to thrive. Claude believes a better city starts with listening."},
+ doc:{group:'villains',firstBook:1,description:"A brilliant inventor with no patience for limits. Daniel Orkleson wants control—and credit for being the smartest man in the room."},eleanor:{group:'villains',firstBook:1,description:"Composed and certain of herself, Eleanor Blackwell puts her faith in Daniel Orkleson—and has little time for Billy’s doubts."},
+ fist:{group:'heroes',firstBook:1,description:"A living, flying boxing glove with a sharp tongue and a loyal heart. Fist-O-Mite decides for himself who deserves his help."},'flaming-head':{group:'heroes',firstBook:1,description:"A gentle visitor wrapped in flame, with a mysterious connection to Cleveland’s unlikely heroes."},
+ jenny:{group:'heroes',firstBook:1,description:"A determined reporter who asks direct questions and keeps moving. As Pink Blur, Jenny brings that same drive to helping Cleveland."},luke:{group:'villains',firstBook:1,description:"A floating head with metal jaws and a mean streak. Jaws O’ Death would rather bite his way through a problem than wait."},
+ perch:{group:'heroes',firstBook:1,description:"A small fish with extraordinary powers and plenty of enthusiasm. Super Perch takes protecting his lake seriously."},seth:{group:'heroes',firstBook:1,description:"A kind, awkward teenager learning what to do with extraordinary strength. Seth wants to help, even when he gets things wrong."},
+ laura:{group:'villains',firstBook:3,description:"With a sharp tongue and fiery breath, Laura Baxter has become Lava Lips. She is powerful, bitter and quick to lash out."}
 };
 function renderCharacters({characters,img,escape:esc}){
  // Measured natural dimensions for legacy PNGs that lack manifest entries.
@@ -21,7 +21,7 @@ function renderCharacters({characters,img,escape:esc}){
  const roster=[...characters,{id:'laura',alias:'Laura Baxter',costumeAlias:'Lava Lips',placeholder:true}];
  const tags={heroes:'Hero',villains:'Villain',allies:'Ally'},books={1:['One','origins'],3:['Three','book-three']};
  return roster.map(c=>{
-  const details=characterDetails[c.id];if(!details)throw Error(`Missing character-card metadata: ${c.id}`);
+  const details=characterDetails[c.id];if(!details||!details.description)throw Error(`Missing character-card metadata: ${c.id}`);
   const [bookName,bookId]=books[details.firstBook];
   const secondary=c.civilianAlias&&c.civilianAlias!==c.alias?c.civilianAlias:c.costumeAlias;
   let portrait,help='';
@@ -43,7 +43,7 @@ function renderCharacters({characters,img,escape:esc}){
    <div class="character-media">${portrait}</div>
    <div class="character-identity"><h2 id="${esc(c.id)}-name">${esc(c.alias)}</h2>${secondary?`<p class="character-alias">${esc(secondary)}</p>`:''}</div>
    <span class="character-tag character-tag-${details.group}">${tags[details.group]}</span>
-   <p class="character-description">[DESCRIPTION: ${esc(c.alias)}]</p>
+   <p class="character-description">${esc(details.description)}</p>
    ${help}
    <a class="character-first-book" href="${bookId}-chapter-1.html" aria-label="${esc(c.alias)} first appears in Book ${bookName}. Read its first chapter.">First appears in Book ${bookName} <span aria-hidden="true">→</span></a>
   </article>`;
