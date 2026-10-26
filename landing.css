@@ -128,3 +128,58 @@
  .launch-page .will-reveal {opacity:1;transform:none}
  .hero-cover,.hero-cover:hover,.hero-cover:focus-within,.series-volume:hover img,.series-volume:focus-visible img,.volume-cover a:hover img,.volume-cover a:focus-visible img {transform:none}
 }
+/* Additions reuse the launch palette, fonts, card borders and button styles. */
+.launch-announcement{max-width:1120px;margin:20px 24px 0;padding:18px 20px;display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:16px;background:var(--launch-surface);border:1px solid var(--line);border-left:4px solid var(--accent)}
+.launch-announcement p{font-size:12px;line-height:1.8;margin:0}
+.launch-announcement .announcement-heading{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:5px;font-size:14px}
+.launch-new-badge{font-size:9px;font-weight:750;letter-spacing:1px;line-height:1.6;background:var(--accent);color:var(--paper);border-radius:2px;padding:4px 7px}
+.volume-new-badge{display:inline-block;margin-left:6px;vertical-align:middle}
+.launch-announcement .button{font-size:12px;gap:14px;white-space:nowrap}
+.announcement-dismiss{width:44px;height:44px;min-height:44px;padding:0;font-size:26px;line-height:1}
+.hero-series-complete{font-size:13px;line-height:1.8;margin:18px 0 10px}
+.hero-series-complete strong,.hero-series-complete span{display:block}
+.hero-series-complete span{font-size:12px;color:var(--muted)}
+.hero-copy>.launch-series-link.button{font-size:13px;min-height:46px;margin-bottom:8px}
+.launch-added-section{max-width:1168px;padding:36px 24px;margin:auto}
+.launch-added-section .eyebrow{font-size:9px;margin:0 0 12px}
+.launch-added-section h2{font-size:clamp(36px,5vw,48px);line-height:1.08;margin:0}
+.launch-about{display:grid;gap:22px;padding-top:0;padding-bottom:48px}
+.launch-about>p{font-family:BookSerif,Georgia,serif;font-size:15px;line-height:1.95;margin:0;max-width:68ch}
+.launch-world .launch-section-heading{margin-bottom:26px}
+.world-grid{display:grid;gap:22px}
+.world-card{display:flex;flex-direction:column;min-width:0;background:var(--launch-surface);border:1px solid var(--line);border-top:3px solid var(--ink)}
+.world-card>a{display:block;flex:1;min-height:44px;text-decoration:none}
+.world-card>a:hover h3{text-decoration:underline;text-underline-offset:5px}
+.world-card-image{aspect-ratio:16/10;background:var(--paper);overflow:hidden}
+.world-card-image>img{display:block;width:100%;height:100%;object-fit:contain}
+.world-character-collage{display:flex;align-items:end;height:100%;padding:12px 5px 0}
+.world-character-collage img{display:block;width:33.333%;height:100%;object-fit:contain;object-position:bottom}
+.world-map-preview{display:block;width:100%;height:100%;background:var(--launch-night)}
+.world-map-streets{fill:none;stroke:#c2cdd0;stroke-width:2;opacity:.75}
+.world-map-water{fill:none;stroke:var(--launch-sun);stroke-width:4;opacity:.6}
+.world-map-preview circle{fill:var(--launch-sun);stroke:var(--launch-night);stroke-width:3}
+.world-card-copy{padding:22px}
+.world-card h3{font-size:28px;line-height:1.15;margin:0 0 12px}
+.world-card h3 span{font-family:system-ui,sans-serif;font-size:18px}
+.world-card-copy p{font-size:13px;line-height:1.85;margin:0}
+.world-map-attribution{font-size:10px;line-height:1.8;padding:0 22px 10px;margin:0}
+.world-map-attribution a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:3px}
+.launch-free{display:grid;gap:22px;padding-block:30px;margin-block:10px 22px;background:var(--launch-surface);border-block:1px solid var(--line)}
+.launch-free-actions{display:flex;flex-wrap:wrap;gap:12px}
+.launch-free .button{font-size:13px;justify-content:space-between;gap:18px}
+.launch-signup{display:grid;gap:24px;padding-block:30px 46px}
+.launch-signup h2{font-size:clamp(32px,4vw,40px);max-width:23ch}
+.launch-signup fieldset{border:0;padding:0;margin:0;min-width:0}
+.launch-signup .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.launch-signup label{display:block;font-size:13px;font-weight:650;line-height:1.8;margin-bottom:8px}
+.launch-signup-controls{display:flex;flex-wrap:wrap;gap:12px}
+.launch-signup input{flex:1;min-width:0;min-height:46px;font:inherit;font-size:14px;padding:10px 12px;border:1px solid var(--launch-control);border-radius:3px;color:var(--ink);background:var(--paper)}
+.launch-signup .button{font-size:13px}
+.launch-signup :disabled{cursor:not-allowed;opacity:1}
+.launch-signup input:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.launch-signup form>p{font-size:12px;line-height:1.85;color:var(--muted);margin:12px 0 0;overflow-wrap:anywhere}
+@media(min-width:600px){.world-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:900px){.launch-about{grid-template-columns:240px minmax(0,1fr);gap:48px;padding-bottom:56px}.world-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.world-card-copy{padding:20px}.world-card h3{font-size:26px}.launch-free{grid-template-columns:1fr auto;align-items:center}.launch-signup{grid-template-columns:1fr 1fr;align-items:center;gap:48px}}
+@media(min-width:1168px){.launch-announcement{margin-inline:auto}}
+@media(max-width:759px){.launch-hero{grid-template-areas:"location location" "volume volume" "title title" "author author" "tagline art" "intro intro" "primary primary" "editions editions" "complete complete" "series series" "extras extras"}.hero-series-complete{grid-area:complete}}
+@media(max-width:599px){.launch-announcement{grid-template-columns:minmax(0,1fr) 44px;align-items:start;padding:16px;gap:12px}.launch-announcement>div{grid-column:1;grid-row:1}.announcement-dismiss{grid-column:2;grid-row:1}.launch-announcement>.button{grid-column:1/-1;white-space:normal;justify-content:space-between}.launch-free-actions{display:grid}.launch-signup-controls{display:grid}.launch-signup-controls input{width:100%}}
