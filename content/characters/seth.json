@@ -1,5 +1,8 @@
 {
   "id": "seth",
   "alias": "Super Zerdo",
-  "image": "seth-dossier-orange-v1.png"
+  "image": "seth-civilian-transparent-v1.webp",
+  "civilianAlias": "Seth Zerdowski",
+  "costumeImage": "zerdo-costume-transparent-v1.webp",
+  "costumeAlias": "Super Zerdo"
 }
