@@ -1,19 +1,21 @@
 // Produces ordinary static markup; no client-side rendering or dependencies.
-function createLanding({books,site,escape:esc,img,link}){
+function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}){
+ const extras=require('./landing-extras.cjs').createLandingExtras({site,blurb,geometry,landmarks,escape:esc,img});
  const origin=books[0],words=['','One','Two','Three','Four'];
  const label=b=>`Book ${words[b.number]||b.number}`;
  const purchase=b=>b.number===1?site:b;
  const cover=b=>b.number===1?site.coverImage:b.cover;
- const series=(cls='launch-series-link')=>link(site.amazonSeriesUrl,'Get the full series on Amazon <span aria-hidden="true">→</span>',cls);
+ const amazon=(href,text,cls,label)=>`<a href="${esc(href)}" class="${cls}" rel="noopener"${label?` aria-label="${esc(label)}"`:''}>${text}</a>`;
+ const series=(cls='launch-series-link')=>amazon(site.amazonSeriesUrl,'Get the full series on Amazon <span aria-hidden="true">→</span>',cls,'Get the full Defenders of the Land series on Amazon');
  const editions=b=>{
   const p=purchase(b);
-  return [p.paperback?link(p.paperback.url,'Buy paperback on Amazon','launch-buy'):'',p.ebook?link(p.ebook.url,'Buy Kindle ebook','launch-buy'):''].join('');
+  return [p.paperback?amazon(p.paperback.url,'Buy paperback on Amazon','launch-buy',`Buy ${b.title} paperback on Amazon`):'',p.ebook?amazon(p.ebook.url,'Buy Kindle ebook','launch-buy',`Buy ${b.title} Kindle ebook on Amazon`):''].join('');
  };
  const coverLink=(b,hero=false)=>link(`${b.id}.html`,img(cover(b),b.number===1?'Defenders of the Land: Book One: Origins paperback cover':`${b.title} by ${b.author} cover`).replace('loading="lazy"',hero?'loading="eager" fetchpriority="high"':'loading="lazy"'),'launch-cover-link');
  const cards=books.map((b,index)=>`<article class="volume-card${index===0?' volume-featured':''}" aria-labelledby="volume-${b.number}-title" data-reveal>
    <figure class="volume-cover">${coverLink(b)}</figure>
    <div class="volume-copy">
-    <p class="eyebrow">${esc(label(b).toUpperCase())} · ${index===0?'ORIGINS':'THE STORY CONTINUES'}</p>
+    <p class="eyebrow">${esc(label(b).toUpperCase())} · ${index===0?'ORIGINS':'THE STORY CONTINUES'} ${b.number===4?'<span class="launch-new-badge volume-new-badge">NEW</span>':''}</p>
     <h3 id="volume-${b.number}-title">${link(`${b.id}.html`,esc(b.title))}</h3>
     <p class="volume-teaser">${esc(b.description)}</p>
     ${index>0?`<p class="volume-preview">Chapter 1 preview · ${esc(b.entries[0].title)}</p>`:''}
@@ -23,6 +25,7 @@ function createLanding({books,site,escape:esc,img,link}){
    </div>
   </article>`).join('');
  return `<div class="launch-page">
+  ${extras.announcement}
   <section class="launch-hero" aria-labelledby="launch-title">
    <div class="hero-copy">
     <p class="launch-location"><span aria-hidden="true">●</span> CLEVELAND, OHIO <span class="location-year">1987</span></p>
@@ -33,7 +36,8 @@ function createLanding({books,site,escape:esc,img,link}){
     <p class="launch-intro">An illustrated superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or try Chapter 1 free here.</p>
     <div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','launch-read launch-read-hero')}<a class="launch-resume" data-resume hidden>Continue reading →</a></div>
     <div class="hero-editions">${editions(origin)}</div>
-    ${series()}
+    <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>The complete four-book series.</span></p>
+    ${series('launch-series-link button secondary')}
     <div class="hero-extras">${link('downloads.html','Download a free sample')}${link('origins.html','Read the Chapter 1 preview')}</div>
    </div>
    <div class="hero-art">
@@ -41,6 +45,8 @@ function createLanding({books,site,escape:esc,img,link}){
     <figure class="hero-cover">${coverLink(origin,true)}<figcaption>BOOK ONE <span aria-hidden="true">/</span> ORIGINS</figcaption></figure>
    </div>
   </section>
+
+  ${extras.about}
 
   <section class="series-strip" aria-labelledby="series-title">
    <div class="series-strip-inner">
@@ -53,6 +59,10 @@ function createLanding({books,site,escape:esc,img,link}){
    <header class="launch-section-heading" data-reveal><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="launch-books-title">The story continues.</h2></div>${link('books.html','Browse the books <span aria-hidden="true">→</span>','launch-section-link')}</header>
    <div class="volume-grid">${cards}</div>
   </section>
+
+  ${extras.explore}
+  ${extras.readFree}
+  ${extras.signup}
 
   <section class="launch-closing" aria-labelledby="closing-title" data-reveal>
    <div class="closing-sun" aria-hidden="true"></div>
