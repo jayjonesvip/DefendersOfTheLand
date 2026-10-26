@@ -1,13 +1,13 @@
 // Static additions to the existing launch page. No extra browser dependencies.
 function mapPreview(geometry,landmarks){
  const features=geometry.features.filter(f=>f.geometry.type==='LineString'&&(f.properties.water||/Euclid|Superior|Ontario|Lakeside|West 3rd|East 9th/.test(f.properties.name)));
- const points=landmarks.filter(p=>!p.comingSoon).map(p=>[p.lng,p.lat]);
+ const points=landmarks.filter(p=>!p.comingSoon&&p.books.includes(1)).map(p=>[p.lng,p.lat]);
  const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]);
  const west=Math.min(...xs),east=Math.max(...xs),south=Math.min(...ys),north=Math.max(...ys),cos=Math.cos((north+south)/2*Math.PI/180);
  const scale=Math.min(592/((east-west)*cos),312/(north-south));
  const project=([lng,lat])=>[(320+(lng-(west+east)/2)*cos*scale).toFixed(1),(180-(lat-(north+south)/2)*scale).toFixed(1)];
  const paths=water=>features.filter(f=>Boolean(f.properties.water)===water).map(f=>f.geometry.coordinates.map((p,i)=>(i?'L':'M')+project(p).join(',')).join('')).join('');
- return `<svg class="world-map-preview" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Preview of downtown Cleveland streets and the four mapped Book One landmarks"><path class="world-map-water" d="${paths(true)}"/><path class="world-map-streets" d="${paths(false)}"/>${landmarks.filter(p=>!p.comingSoon).map(p=>{const [x,y]=project([p.lng,p.lat]);return `<circle cx="${x}" cy="${y}" r="9"/>`;}).join('')}</svg>`;
+ return `<svg class="world-map-preview" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Preview of downtown Cleveland streets and the four mapped Book One landmarks"><path class="world-map-water" d="${paths(true)}"/><path class="world-map-streets" d="${paths(false)}"/>${landmarks.filter(p=>!p.comingSoon&&p.books.includes(1)).map(p=>{const [x,y]=project([p.lng,p.lat]);return `<circle cx="${x}" cy="${y}" r="9"/>`;}).join('')}</svg>`;
 }
 function createLandingExtras({site,blurb,geometry,landmarks,escape:esc,img}){
  const announcement=`<aside class="launch-announcement" aria-label="Book Four release" data-announcement><div><p class="announcement-heading"><span class="launch-new-badge">NEW</span> <strong>Book Four is out now</strong></p><p>Clash in Cleveland, Book Four, is available in paperback and Kindle.</p></div><a class="button secondary" href="https://www.amazon.com/dp/B0HPBJWNMC" rel="noopener" aria-label="Get Clash in Cleveland paperback on Amazon">Get Book Four <span aria-hidden="true">→</span></a><button class="announcement-dismiss" type="button" data-dismiss-announcement hidden aria-label="Dismiss the Book Four announcement">×</button></aside>`;

@@ -29,6 +29,9 @@
 .map-page .story-map-pin span{width:40px;height:40px;background:var(--surface);border:2px solid var(--ink);font-size:16px;font-weight:650;box-shadow:2px 3px 0 var(--line)}
 .map-page .story-map-pin[aria-pressed=true] span{background:var(--accent);color:var(--paper);border-color:var(--accent)}
 .map-page .story-map-pin:focus-visible{outline-offset:0;z-index:4}
+.map-page .story-map-pin[data-marker="defenders-hq"]>span:first-child{border-style:dashed}
+.map-page .story-map-pin .map-hq-caption{position:absolute;left:50px;top:5px;display:block;width:max-content;max-width:132px;height:auto;min-height:28px;padding:4px 7px;border:1px solid var(--control);border-radius:2px;background:var(--surface);color:var(--ink);font-size:11px;font-weight:650;line-height:1.6;white-space:nowrap;box-shadow:none}
+.map-location-note{font-size:11px;line-height:1.8;color:var(--muted);margin:0 0 12px}
 .map-static-help{position:relative;max-width:35ch;margin:32px;padding:18px;background:var(--surface);color:var(--muted);font-size:14px;line-height:1.8}
 .map-ready .map-static-help,.map-ready .map-landmark-card:not(.map-landmark-pending) .map-static-name{display:none}
 .story-map-popup{position:absolute;z-index:5;left:12px;right:12px;bottom:12px;max-width:320px;padding:18px 20px;background:var(--paper);border:1px solid var(--control);border-top:3px solid var(--accent);box-shadow:4px 5px 0 var(--line);color:var(--ink)}
