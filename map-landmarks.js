@@ -1,5 +1,6 @@
 // One marker per real location. Each appearance supplies verified book copy and a
-// public Chapter 1 preview URL; fictional addresses are never inferred.
+// public Chapter 1 preview URL. Fictional positions are author-selected
+// approximations, not real addresses.
 // Optional photo: {src:'assets/approved-photo.webp',alt:'Describe the photo',width:1200,height:800,caption:'Author-supplied date/context'}.
 (function(root){
  const landmarks=[
@@ -16,6 +17,9 @@
   }},
   {id:'main-library',name:'Main Library',lat:41.501272,lng:-81.691381,book:1,blurb:'Jenny directs people toward safety at the Main Library.',chapterUrl:'origins-chapter-1.html',photo:null,appearances:{
    2:{blurb:'Jenny checks the records behind a waterfront claim.',chapterUrl:'book-two-chapter-1.html'}
+  }},
+  {id:'defenders-hq',name:'Defenders HQ',lat:41.5079,lng:-81.6993,book:3,fictional:true,shortLabel:'HQ',blurb:'The Defenders’ base for training, planning and regrouping.',chapterUrl:'book-three-chapter-1.html',photo:null,appearances:{
+   4:{blurb:'The Defenders’ base for training, planning and regrouping.',chapterUrl:'book-four-chapter-1.html'}
   }}
  ];
  for(const p of landmarks){
