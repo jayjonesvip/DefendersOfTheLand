@@ -1,0 +1,369 @@
+{
+  "policy": "Chapter 1 of each book plus the Book One three-chapter PDF/EPUB samples; public marketing and 1990 archive only",
+  "files": [
+    {
+      "path": "content/book-one-marketing.json",
+      "sha256": "3fba7db728207fefd27039d3100019c7763818624e4cb548b7c7d271fd2beb1d"
+    },
+    {
+      "path": "content/books/book-four/book.json",
+      "sha256": "32a2404847d6059c9f62d4fdfd26395b946c0dfeea6a8d73d44265b8b721fa1e"
+    },
+    {
+      "path": "content/books/book-four/chapter-01.json",
+      "sha256": "6426ecdefa27429968a437e8b8b856f8f305923706c52634908f124573db620d"
+    },
+    {
+      "path": "content/books/book-three/book.json",
+      "sha256": "13d190e187c39374ff5a17801ca63490e914003257e7504f82d32b74b8a565a7"
+    },
+    {
+      "path": "content/books/book-three/chapter-01.json",
+      "sha256": "42a3b5235f70ad3103901b6b94921c1445e3da45af56e759d338dc86b82e293e"
+    },
+    {
+      "path": "content/books/book-two/book.json",
+      "sha256": "1b61a148f38e93d3197a80a493a7003a3bbdbcad1ce2c816a3b7df57610f1217"
+    },
+    {
+      "path": "content/books/book-two/chapter-01.json",
+      "sha256": "3b5d69701d40363275e83042d6d53d76503b3c54f5b938415de560d0cb32480e"
+    },
+    {
+      "path": "content/books/origins/book.json",
+      "sha256": "a9e006507630c9fff0f98efca4a6a6477dbd0513363ffb309961c73f991449f5"
+    },
+    {
+      "path": "content/books/origins/chapter-01.json",
+      "sha256": "a42e50065c5ee558a5b8c949b5bca8c95720cf0e6a09b97d5d7c92088a4723d8"
+    },
+    {
+      "path": "content/characters/billy.json",
+      "sha256": "835941dbda39ac3dbdd0666ba09a21043d61dbd059a6f588acb178ef7b982800"
+    },
+    {
+      "path": "content/characters/claude.json",
+      "sha256": "318cefa261b28da02299ab666fb2e8c176d801dd9f8543e93d1156dc666eb72a"
+    },
+    {
+      "path": "content/characters/doc.json",
+      "sha256": "e6d1ce7cb8d358c2c399cbb69744510f70326d1380169b4d102b09c8ec40b67d"
+    },
+    {
+      "path": "content/characters/eleanor.json",
+      "sha256": "2f9e827179de2b9ca9f1cbd54e95a42e6418c026ebc41b40bbe872817b80165e"
+    },
+    {
+      "path": "content/characters/fist.json",
+      "sha256": "ceddf7aaa37d6205730202a8f2831deb0e2ee8da0a9264b7167c99b6bf39b88a"
+    },
+    {
+      "path": "content/characters/flaming-head.json",
+      "sha256": "744bf6fc79753e1d762ec18d14748ecc3e7c38d8686f4340cfe4f1e20b7f6072"
+    },
+    {
+      "path": "content/characters/jenny.json",
+      "sha256": "066f873cb3f3630ddd984a3d45abb1de2ebd5d0b56a74aea7da272d09e4d5ee1"
+    },
+    {
+      "path": "content/characters/luke.json",
+      "sha256": "08d0b37383b71dc4a123eed1b1ec5295c489c8ab97a36b492398d8b3b35ca1e8"
+    },
+    {
+      "path": "content/characters/perch.json",
+      "sha256": "0dd05bf431bc0a5c3c75cef1eb8825ef2e35ff81c3c2063eb4a835b3108e136d"
+    },
+    {
+      "path": "content/characters/seth.json",
+      "sha256": "4a0fec58b908b50b604d8f195b594a0043efc1946b54085984692f77397ddbb8"
+    },
+    {
+      "path": "content/map/downtown.geojson",
+      "sha256": "7f0cdb6618ef8fb05f9f33e281c3161fc39b76989f03916cf91e916a786c0f78"
+    },
+    {
+      "path": "content/map/locations.json",
+      "sha256": "9f6183c86070cfc86eb70dad2a0830d693463532bc9ee2816b07cbc5e1af691e"
+    },
+    {
+      "path": "content/preview-layout.json",
+      "sha256": "f6e52f651baf1dc2bfa1acf71b07fcf5665ee8582e1d8d74981678332a9cf854"
+    },
+    {
+      "path": "content/site.json",
+      "sha256": "220074cb0cfa0b585b0f4ba80691d738349256f298235cbc567aace6cfb8ba37"
+    },
+    {
+      "path": "content/vault/1990Vault.md",
+      "sha256": "9b1ef0b9336669fb0a51a77b579c2094f5cc7419cb97f0f3fa0a6c17d11106aa"
+    },
+    {
+      "path": "content/vault/gallery.json",
+      "sha256": "4bfa4fa4db4464966fac2e3e5337412f71fdfc4558f8987686ab973b1eab1434"
+    },
+    {
+      "path": "image-manifest.json",
+      "sha256": "225d5ddf7cfd21b9383a6616c650a84041ad73903174d429a2823d43822e80a3"
+    },
+    {
+      "path": "public/assets/billy-dossier-older-v1.png",
+      "sha256": "54b3ea239d93c558bcaba052e083aecc73f5cbbaf716fbe82210b14686d11896"
+    },
+    {
+      "path": "public/assets/book-four-chapter-01-aftermath-design-v1.webp",
+      "sha256": "7f6f06573883b733867a935fc52627018c87e455b82d27e49232ff02f67a4d72"
+    },
+    {
+      "path": "public/assets/book-four-chapter-01-beam-design-v1.webp",
+      "sha256": "3025d7ea9bf9b9ae90c7b262e65e800980ab8bbb02c21859b500ff908807d6cc"
+    },
+    {
+      "path": "public/assets/book-four-chapter-01-call-design-v1.webp",
+      "sha256": "1a98bd9f262cb8886dbb349adf074aabce7b5294e4342505e5ad357081756a4c"
+    },
+    {
+      "path": "public/assets/book-four-chapter-01-jack-design-v1.webp",
+      "sha256": "09b338d7aa900390c3fe2fa5877c506d88b78c7dbc28f0c952a42d066912aa3d"
+    },
+    {
+      "path": "public/assets/book-four-cover-clash-design-web-v1.webp",
+      "sha256": "62c4fa13d0309f78e1de4b5ce955deb3945a13d73f3246a5f001129967078017"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-lakefront-v1.webp",
+      "sha256": "0be5288f8d3834909cea937df2058debd63fa1d086b1f66c4966715dcbb3ae55"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-plea-v1.webp",
+      "sha256": "fb60add668ae1200de27360f7f4a2e6b1614a713cc1af2f22bd1c909c99bf690"
+    },
+    {
+      "path": "public/assets/book-three-chapter-01-sink-v1.webp",
+      "sha256": "92939e51e64ffcb1f2883d16daa569e9a37447a559d9923c9befa2ec2c8d7dc8"
+    },
+    {
+      "path": "public/assets/book-three-cover-series-title-web-v3.webp",
+      "sha256": "4313b57514427b1aa65eecfd7dc68610ac36fe37b5f31ae792585a41165aaefc"
+    },
+    {
+      "path": "public/assets/book-two-chapter-01-quiet-kitchen-design-v1.webp",
+      "sha256": "027949d2267d7e3a78c068162c0124e89883877b6bc6b6de64d7851cc0923e04"
+    },
+    {
+      "path": "public/assets/book-two-chapter-01-tutoring-graduation-design-v1.webp",
+      "sha256": "03f3b9da144b176227b4d5745b5374b220294703d7d4ce53a82387e1b2f7909d"
+    },
+    {
+      "path": "public/assets/book-two-cover-aftershock-design-web-v1.webp",
+      "sha256": "6eb0ba1597a723ce8a3bb0951e017a38312bb3a303632ebe933bd4cef0b7d3b3"
+    },
+    {
+      "path": "public/assets/chapter1-glove-awakening-before-flash-design-v1.webp",
+      "sha256": "cafc22c59de5da6fcf034899739a4e5d0c4983ea9c7fb20119b38ca0f21b7916"
+    },
+    {
+      "path": "public/assets/chapter4-glove-escape-design-v1.webp",
+      "sha256": "92ae22389980dc8489f0d249278dc2003b0e3cf0214e2c4b3f45b7ffb70525ee"
+    },
+    {
+      "path": "public/assets/chapter4-glove-punch-design-v1.webp",
+      "sha256": "f13bdfa28ad6774984e99b706eae4bd02fd7b47d0a781ccda72d877d1c2412e9"
+    },
+    {
+      "path": "public/assets/chapter5-glove-auction-design-v1.webp",
+      "sha256": "edafe2b8beb46fc7502e0e5c07c039771024e648f8fac0ce0f838892d86fa44e"
+    },
+    {
+      "path": "public/assets/character-flaming-head-v1.png",
+      "sha256": "4872f66508dbf498803ca51dbd99611cd27887d1863eb1122eada3bcd13abdec"
+    },
+    {
+      "path": "public/assets/character-super-perch-v1.png",
+      "sha256": "384d8388487ff3ed3bb74854f370dd0b20071c9ab182d42a1fcda8f3e94ba0ce"
+    },
+    {
+      "path": "public/assets/claude-portrait-v2.png",
+      "sha256": "6400674c78fa66d87cdf3002b4cc590e7e60a80ce210fc2ff32779935e85b65f"
+    },
+    {
+      "path": "public/assets/doc-dossier.webp",
+      "sha256": "f86e791d8146e41df618849ca34b12885da267a6dbec28850489242eadfb8976"
+    },
+    {
+      "path": "public/assets/eleanor-portrait-v2.png",
+      "sha256": "563c19f9bddd4a2a97e89115f9973476aa8a3e0ae32e23d564337311c05b7357"
+    },
+    {
+      "path": "public/assets/fist-portrait-approved-v2.png",
+      "sha256": "7bba57fe8aa2b9cb3381d0cc2e58876431b208dec8bac3170d763b0b31b487ac"
+    },
+    {
+      "path": "public/assets/jay-jones-author.jpg",
+      "sha256": "62b8740adeae1fd0a42a0c7baf96331aded47d728315e5bd302fd968ff5dba2e"
+    },
+    {
+      "path": "public/assets/jenny-portrait-v2.png",
+      "sha256": "a347456e523f59459d960ca40349926c73230605f9a25988ad08a6c4ecc34671"
+    },
+    {
+      "path": "public/assets/luke-portrait-v1.png",
+      "sha256": "1f46dbf2d8fd3a274f12ae53a63ddda7f8f403cde16ebd5b1b130efe297b8515"
+    },
+    {
+      "path": "public/assets/origins-cover-unlikely-heroes-web-v6.webp",
+      "sha256": "30fecfb16c09ea5c1763d3f6509077ae3e59e718d9f4dec06d1d473a2676b76b"
+    },
+    {
+      "path": "public/assets/seth-dossier-orange-v1.png",
+      "sha256": "9ee7175c76e2f66e63acdc57aeaeee67d0a345b314ae10b2c8e190cef7899f2d"
+    },
+    {
+      "path": "public/books/downloads.json",
+      "sha256": "8f8af43ceea1a8d1b4229daae6c0aa711b32588f48004a5842499dc842fa17d5"
+    },
+    {
+      "path": "public/books/origins-sample-chapters-01-03.epub",
+      "sha256": "59b45335542ffb61616c709af095f36e4a586201aad0dfea4d1a357e17c75516"
+    },
+    {
+      "path": "public/books/origins-sample-chapters-01-03.pdf",
+      "sha256": "7d24c69c0fc7dc2efea47848f3c93f302191da3897945ac0a2032a650c0f4d74"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "a12e2955ac971f7ef56d05a7f2938956b2b0651add97b0a04cb088fa440b4c6e"
+    },
+    {
+      "path": "public/fonts/Bangers-Regular.ttf",
+      "sha256": "4160a7311de9342674cce9160cde9fcbb30f48190397d86ff1b70b455af65824"
+    },
+    {
+      "path": "public/fonts/LibreBaskerville-Regular.ttf",
+      "sha256": "0c49ce7c4a37bf543fc2841c12a4690fe01443b97ccbeea0cbac0757216779a9"
+    },
+    {
+      "path": "public/fonts/OFL-Bangers.txt",
+      "sha256": "c36ad22ae5daf9bb19fa6decb3d9ec51cb9dc5b89c04c630aebe34ef26fb962e"
+    },
+    {
+      "path": "public/fonts/OFL-LibreBaskerville.txt",
+      "sha256": "55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_end_dude_cleaned.png",
+      "sha256": "2afc19894006e20b007e80e8f50bec22a2bca73519dee89f95e868c29830977c"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p10_world_out_of_air_cleaned.png",
+      "sha256": "5f9d702c1c5947d041f233e5c7e88472111b80f70bca597b5eea45376713aabb"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p11_explosion_cleaned.png",
+      "sha256": "a48362cdd614bd06842f6b32bcedf9591d2429027c6390e3e28942005c0447c3"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p12_fistomite_intro_cleaned.png",
+      "sha256": "1e63950c251c200974dccb3e2379588cab42177c70a2cdab1bce1458df00af93"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p13_captured_superzerdo_fistomite_cleaned.png",
+      "sha256": "21d2146d3519f31caeadd56b4471010583c4f5657db1333b62fc893237585f93"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p14_alien_mountain_cleaned.png",
+      "sha256": "180e6935b76694e90d9909cf67a2c80f4be22ca80443d2ea29f9278e49664abc"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p15_cleaned.png",
+      "sha256": "6ecc87c07208dd0d5e32ad5f19ff759f7546393a4acebd1d38e15b6bbd73b3a4"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p8_inspectorbilly_jungleheat_cleaned.png",
+      "sha256": "8113eb7f6c6c7df9f6fdab82b394082b5e02a8018af7267090669c255cfd75b5"
+    },
+    {
+      "path": "public/vault/1990/originals/1990Vault_p9_cleaned.png",
+      "sha256": "c6d3732568fffadd3d724dfe8101e3fb479ea2f970ea8425acd91e3dc516317c"
+    },
+    {
+      "path": "public/vault/1990/previews/end_dude-432.webp",
+      "sha256": "35dd7cb6d35fd9751aa573da9a5c5add22797b2c4793a810308cc1ed2f5a88a2"
+    },
+    {
+      "path": "public/vault/1990/previews/end_dude-864.webp",
+      "sha256": "bfa607c07efd731c3482a461c31f53cf64af52cf4204c56d18fb99b66d649802"
+    },
+    {
+      "path": "public/vault/1990/previews/p10_world_out_of_air-432.webp",
+      "sha256": "a7b626296ada50dd2b511b73693b1bab1b4c9ee462d374adc2c856e4c1962773"
+    },
+    {
+      "path": "public/vault/1990/previews/p10_world_out_of_air-864.webp",
+      "sha256": "b5cdeb683b3c4910e027150da5ce7b1e50ab9c0cdf46071a622bd52d4930f02a"
+    },
+    {
+      "path": "public/vault/1990/previews/p11_explosion-432.webp",
+      "sha256": "2bd1f67ef328c49ed52eecb3af176a9495ea1e7d4cc83977b3f0eb1501075a83"
+    },
+    {
+      "path": "public/vault/1990/previews/p11_explosion-864.webp",
+      "sha256": "e52f19dcf91f5fa1ec0ded5085130d01741795485d63a5ca4962709253de599d"
+    },
+    {
+      "path": "public/vault/1990/previews/p12_fistomite_intro-432.webp",
+      "sha256": "3c5eb849c7013849ba3997f31c7592630bc936f90a7bbd5451b417057d9d07c4"
+    },
+    {
+      "path": "public/vault/1990/previews/p12_fistomite_intro-864.webp",
+      "sha256": "25cd24dbec499e5181326625eaf7c3a12d50156b1ea87bf44cc0a0d217390dee"
+    },
+    {
+      "path": "public/vault/1990/previews/p13_captured_superzerdo_fistomite-432.webp",
+      "sha256": "d856d9006647a861c28c4057b426450396b4b2f24dbd8e84cb212d0d78509d8a"
+    },
+    {
+      "path": "public/vault/1990/previews/p13_captured_superzerdo_fistomite-864.webp",
+      "sha256": "e1a0f091a307136eb04c6aedd4d0e433bc24d51b78cc196cfabf22635b714763"
+    },
+    {
+      "path": "public/vault/1990/previews/p14_alien_mountain-432.webp",
+      "sha256": "bac3b02aa5c8a2ccdcb572f57a57aaa8a9db29459166772b6490c8456fde39f8"
+    },
+    {
+      "path": "public/vault/1990/previews/p14_alien_mountain-864.webp",
+      "sha256": "2bc9f626dc32307b24d564869768fbcc34facd0c4bb673e0d3f2bb2c76e5bfaa"
+    },
+    {
+      "path": "public/vault/1990/previews/p15-432.webp",
+      "sha256": "9e5e6c9da976e502f2a098563f157ce29302f4983b9ddf400c61b71b528fa2ea"
+    },
+    {
+      "path": "public/vault/1990/previews/p15-864.webp",
+      "sha256": "d2b36038648d4ce9ebcc0af097e10336a10ec2728c23a2b5de746354179441b8"
+    },
+    {
+      "path": "public/vault/1990/previews/p8_inspectorbilly_jungleheat-432.webp",
+      "sha256": "7e11bb1142318aaeabd238c31b0e3836353eb2cb414c74fd185796acea47c870"
+    },
+    {
+      "path": "public/vault/1990/previews/p8_inspectorbilly_jungleheat-864.webp",
+      "sha256": "829b32c95be1bc01c37a998f93e9483b77e7442d825189234f8a31cbbc7c4453"
+    },
+    {
+      "path": "public/vault/1990/previews/p9-432.webp",
+      "sha256": "ea3fe4232288aeee71e6463a761da9947056d43d356e55cb68506d4fc060f4f5"
+    },
+    {
+      "path": "public/vault/1990/previews/p9-864.webp",
+      "sha256": "d8c724099c6a6181b448a15d66a7e15b301263b9d2b66770e28d6511166b35ee"
+    },
+    {
+      "path": "public/vendor/D3-LICENSE.txt",
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "public/vendor/d3-7.9.0.min.js",
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    }
+  ]
+}
