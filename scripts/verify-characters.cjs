@@ -14,7 +14,7 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
    const results=[];
    for(const image of images){image.loading='eager';await image.decode();const canvas=document.createElement('canvas');canvas.width=canvas.height=64;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(image,0,0,64,64);const pixels=ctx.getImageData(0,0,64,64).data;let transparent=0;for(let i=3;i<pixels.length;i+=4)if(pixels[i]<=2)transparent++;results.push({file:image.src.split('/').at(-1),transparent:transparent/4096,corners:[pixels[3],pixels[63*4+3],pixels[(63*64)*4+3],pixels[(64*64-1)*4+3]]});}return results;
   });
-  assert.equal(alpha.length,12);
+  assert.equal(alpha.length,14);
   for(const image of alpha){assert(image.transparent>.2,`Opaque portrait: ${image.file}`);assert(image.corners.every(a=>a<=2),`Opaque portrait corners: ${image.file}`);}
   assert.equal(await page.locator('.character-card:visible').count(),11);
   const villain=page.locator('[data-character-filter="villains"]');await villain.focus();await page.keyboard.press('Space');
@@ -26,7 +26,7 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
   await page.locator('[data-character-filter="all"]').focus();await page.keyboard.press('Enter');
   assert.equal(await page.locator('.character-card:visible').count(),11);
   const opacity=async(id,view)=>Number(await page.locator(`#${id} .character-${view}`).evaluate(n=>getComputedStyle(n).opacity));
-  for(const id of ['jenny','seth']){
+  for(const id of ['jenny','seth','laura']){
    assert.equal(await page.locator('#'+id+'-costume').isChecked(),false);
    await page.locator('#'+id+' .character-transform').hover();
    await page.waitForFunction(id=>getComputedStyle(document.querySelector(`#${id} .character-costume`)).opacity==='1',id);
@@ -46,7 +46,7 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
   for(const javaScriptEnabled of [true,false]){
    const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce',javaScriptEnabled});
    const p=await mobile.newPage();await p.goto(url);
-   for(const id of ['jenny','seth']){
+   for(const id of ['jenny','seth','laura']){
     const label=p.locator('#'+id+' .character-transform'),input=p.locator('#'+id+'-costume');
     await label.tap();assert(await input.isChecked());assert.equal(await p.locator('#'+id+' .character-costume').evaluate(n=>getComputedStyle(n).opacity),'1');
     await label.tap();assert.equal(await input.isChecked(),false);assert.equal(await p.locator('#'+id+' .character-costume').evaluate(n=>getComputedStyle(n).opacity),'0');
@@ -55,6 +55,6 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
    if(!javaScriptEnabled){assert.equal(await p.locator('[data-character-filters]').isVisible(),false);assert.equal(await p.locator('.character-card:visible').count(),11);}
    assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await mobile.close();
   }
-  console.log('PASS: all 12 character views have real transparency; hover, keyboard focus/Space, persistent pinning, touch, reduced motion and no-JS toggles work; keyboard filters, live counts and pin preservation pass.');
+  console.log('PASS: all 14 character views have real transparency; hover, keyboard focus/Space, persistent pinning, touch, reduced motion and no-JS toggles work; keyboard filters, live counts and pin preservation pass.');
  }finally{await browser?.close();await new Promise(r=>server.close(r));}
 })().catch(error=>{console.error(error);process.exitCode=1});
