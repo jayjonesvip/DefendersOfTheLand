@@ -62,7 +62,6 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
 
   ${extras.explore}
   ${extras.readFree}
-  ${extras.signup}
 
   <section class="launch-closing" aria-labelledby="closing-title" data-reveal>
    <div class="closing-sun" aria-hidden="true"></div>

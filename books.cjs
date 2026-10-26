@@ -12,7 +12,6 @@ function createBooks({books,site,escape:esc,img,link}){
    <figure class="catalog-cover">${link(`${b.id}.html`,cover(b))}</figure>
    <h3 id="catalog-${b.id}-title">${link(`${b.id}.html`,esc(b.title))}</h3>
    <p class="catalog-hook">${esc(b.description)}</p>
-   ${b.number===2?'<p class="catalog-hook-placeholder">[HOOK: Aftershock, spoiler-free, 1-2 sentences]</p>':''}
    <div class="catalog-card-actions"><a class="button catalog-read" href="${b.id}-chapter-1.html" aria-label="Read ${esc(b.title)} Chapter 1 free">Read Chapter 1 free <span aria-hidden="true">→</span></a>
     <div class="catalog-purchases">${amazon(purchase.paperback.url,'Paperback',`Buy ${b.title} paperback on Amazon`)}${amazon(purchase.ebook.url,'Kindle',`Buy ${b.title} Kindle ebook on Amazon`)}</div>
     ${link(`${b.id}.html`,'Contents <span aria-hidden="true">→</span>','catalog-contents')}

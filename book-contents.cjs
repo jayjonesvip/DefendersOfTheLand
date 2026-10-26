@@ -1,12 +1,13 @@
 // Shared static book-page template. Values come from the approved public export.
-function createBookContents({book:b,entries,books,site,blurb,publicationDetails,escape:esc,img}){
+function createBookContents({book:b,entries,books,site,blurb,websiteCopy,publicationDetails,escape:esc,img}){
  const purchase=b.number===1?site:b;
  const cover=b.number===1?site.coverImage:b.cover;
  const amazon=(href,label,text,cls='button secondary')=>`<a class="${cls}" href="${esc(href)}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  const chapterUrl=`${b.id}-chapter-1.html`;
  const previous=books.find(book=>book.number===b.number-1);
  const next=books.find(book=>book.number===b.number+1);
- const description=b.number===1?blurb.join(' '):`[DESCRIPTION: ${b.title}, 80-120 words, spoiler-free]`;
+ const description=b.number===1?[blurb.join(' ')]:websiteCopy.descriptions[b.id];
+ if(!Array.isArray(description)||!description.length)throw Error('Missing approved book description: '+b.id);
  const strip=books.map(book=>`<li><a href="${book.id}.html"${book.id===b.id?' aria-current="page"':''} aria-label="Book ${book.number}: ${esc(book.title)}${book.id===b.id?', current book':''}">${img(book.number===1?site.coverImage:book.cover,`${book.title} cover`)}<span class="book-series-number">Book ${book.number}</span><span class="book-series-title">${esc(book.title)}</span>${book.id===b.id?'<span class="book-series-current">Current book</span>':''}</a></li>`).join('');
  return `<div class="book-overview">
   <section class="book-hero" aria-labelledby="book-title">
@@ -17,7 +18,7 @@ function createBookContents({book:b,entries,books,site,blurb,publicationDetails,
    </div>
   </section>
   <div class="book-reading-layout">
-   <section class="book-about" aria-labelledby="book-about-title"><p class="eyebrow">${esc(b.title)}</p><h2 id="book-about-title">About this book</h2><p${b.number!==1?' class="book-description-placeholder"':''}>${esc(description)}</p></section>
+   <section class="book-about" aria-labelledby="book-about-title"><p class="eyebrow">${esc(b.title)}</p><h2 id="book-about-title">About this book</h2>${description.map(paragraph=>`<p>${esc(paragraph)}</p>`).join('')}</section>
    <section class="book-preview-card" aria-labelledby="book-preview-title"><p class="eyebrow">FREE CHAPTER 1 PREVIEW</p><h2 id="book-preview-title">Start reading</h2><p class="book-preview-progress" data-book-progress="${b.id}" aria-live="polite">0 of ${entries.length} chapters completed</p><a class="button secondary book-resume" data-resume="${b.id}" hidden>Continue reading →</a><ol class="chapter-list">${entries.map(c=>`<li><a href="${b.id}-chapter-${c.number}.html"><span class="chapter-num">${String(c.number).padStart(2,'0')}</span><span class="book-chapter-title">${esc(c.title)}</span><span class="read-label" data-read="${b.id}:${c.number}"></span></a></li>`).join('')}</ol></section>
   </div>
   ${b.number===1?`<section class="book-sample" aria-labelledby="book-sample-title"><div><p class="eyebrow">PDF &amp; EPUB</p><h2 id="book-sample-title">Read three chapters free</h2><p>Includes the first three chapters with their illustrations.</p></div><div class="book-sample-actions"><a class="button secondary" href="/books/origins-sample-chapters-01-03.pdf" aria-label="Download the free three-chapter Origins PDF sample">Download PDF <span aria-hidden="true">↓</span></a><a class="button secondary" href="/books/origins-sample-chapters-01-03.epub" aria-label="Download the free three-chapter Origins EPUB sample">Download EPUB <span aria-hidden="true">↓</span></a></div></section>`:''}

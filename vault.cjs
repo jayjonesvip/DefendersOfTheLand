@@ -12,11 +12,12 @@ function renderArticle(source,esc,items=[]){
   if(/^---$/.test(block))return '<hr>';
   if(/^## /.test(block)){const title=block.slice(3),close=inCast?'</div>':'';inCast=title==='Meet the Original Cast';return `${close}<h3 id="${sectionId(title)}">${inline(title)}</h3>${inCast?'<div class="vault-cast-grid">':''}`;}
   const name=block.match(/^(?:And )?\*\*([^*]+)\*\*/)?.[1];
-  if(inCast&&cast[name]){const [index,id]=cast[name];return `<div class="vault-cast-card"><h4>${esc(name)}</h4><p>${inline(block)}</p><div class="vault-cast-links">${index!==null?`<a href="${esc(items[index].original)}" data-vault-index="${index}">View notebook page →</a>`:`<span class="vault-missing">[GALLERY LINK NEEDED: ${esc(name)}]</span>`}<a href="characters.html${id?'#'+id:''}">Characters →</a></div></div>`;}
+  if(inCast&&cast[name]){const [index,id]=cast[name];return `<div class="vault-cast-card"><h4>${esc(name)}</h4><p>${inline(block)}</p><div class="vault-cast-links">${index!==null?`<a href="${esc(items[index].original)}" data-vault-index="${index}">View notebook page →</a>`:`<span class="vault-missing">Notebook artwork for this character isn’t included in this collection.</span>`}<a href="characters.html${id?'#'+id:''}">Characters →</a></div></div>`;}
   if(inCast&&name===undefined&&!block.startsWith('Some familiar')){inCast=false;return `</div><p>${inline(block)}</p>`;}
   const callout=block==='*"Catch me if you can, wimp!"*'||block==='**THE END, DUDE.**';
   if(callout)return `<p class="vault-pullquote">${inline(block)}</p>`;
-  if(block==='And **Book Two is on the way.**')return `<p>${inline(block)}</p><aside class="vault-update">[UPDATE NEEDED: all four books are now out]</aside>`;
+  if(block==='**Book One: Origins is now published**, bringing the world that began in those notebooks to a new audience.')return '<p>All four Defenders of the Land books—Origins, Aftershock, Lava Lips, and Clash in Cleveland—are now available in paperback and Kindle.</p>';
+  if(block==='And **Book Two is on the way.**')return '';
   // Repair a single damaged separator for display; preserve the source bytes.
   return `<p>${inline(block.replace(/\uFFFD/g,'—').replace(/\r?\n/g,' '))}</p>`;
  }).join('\n');
