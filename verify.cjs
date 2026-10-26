@@ -8,7 +8,7 @@ assert.deepEqual(htmlFiles.sort(),expected.sort());
 const approved=JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files;
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
 for(const file of ['d3-7.9.0.min.js','D3-LICENSE.txt'])allowed.add('assets/'+file);
-for(const file of [...expected,'styles.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
+for(const file of [...expected,'styles.css','landing.css','landing.js','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
 for(const file of files(out))assert(allowed.has(path.relative(out,file).split(path.sep).join('/')),`Unexpected deploy file: ${file}`);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
 assert.equal((sitemap.match(/<loc>/g)||[]).length,16);
