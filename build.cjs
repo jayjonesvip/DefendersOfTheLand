@@ -72,7 +72,7 @@ for(const b of additionalBooks){
  renderChapters(b,b.entries);
 }
 const chars=fs.readdirSync(path.join(root,'content/characters')).map(f=>read('content/characters/'+f));
-pages['characters.html']=shell('Characters',`<section class="contents character-gallery"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Characters</h1><p>Meet some of Cleveland’s unlikely heroes and troublemakers.</p><div class="profiles">${require('./characters.cjs').renderCharacters({characters:chars,img,escape:esc})}</div><div class="actions">${series()}</div></section>`);
+pages['characters.html']=shell('Characters',require('./characters.cjs').createCharacters({characters:chars,img,escape:esc,site:siteConfig})).replace('</head>','<link rel="stylesheet" href="characters.css"><script defer src="characters.js"></script></head>');
 pages['downloads.html']=shell('Free sample',require('./downloads.cjs').createDownloads({books:[book,...additionalBooks],site:siteConfig,downloads,escape:esc,img,link}),'downloads').replace('</head>','<link rel="stylesheet" href="downloads.css"></head>');
 pages['paperback.html']=shell('Paperback & Kindle editions',`<section class="contents paperback-page"><p class="eyebrow">DEFENDERS OF THE LAND · BY JAY JONES</p><h1>Paperback &amp; Kindle editions</h1><div class="actions">${series()}</div><p><em>Origins</em>, <em>Aftershock</em>, <em>Lava Lips</em>, and <em>Clash in Cleveland</em> are available on Amazon in paperback and as Kindle ebooks.</p><h2>Origins</h2><div class="paperback-layout"><figure>${img(siteConfig.coverImage||cover.frontArtwork,siteConfig.paperback.title+' paperback cover').replace('loading="lazy"','loading="eager" fetchpriority="high"')}</figure><div><p class="intro">${esc(book.description)}</p><p>An illustrated superhero adventure set in Cleveland in 1987.</p>${cover.blurb.map(prose).join('')}<div class="actions">${buy()}${kindle()}${link('downloads.html','Try a free sample','button secondary')}</div><p>${link('origins.html','Read the Chapter 1 preview →')}</p></div></div><h2>Choose your edition</h2><p><em>${esc(siteConfig.paperback.title)}</em> is an illustrated prose adventure by Jay Jones, with an illustrated Chapter 1 preview here. Choose the paperback for your bookshelf or the Kindle ebook for convenient offline reading. Paperback and Kindle editions are available on Amazon; current pricing and purchasing options are shown on their listings.</p><p>Prefer to try the story first? Download the first three chapters as a PDF or EPUB, or read Chapter 1 on this site.</p><h2>Continue the series on Amazon</h2>${amazonSequels()}</section>`,'product');
 pages['404.html']=shell('Page not found',`<section class="contents"><h1>This page is missing.</h1>${link('index.html','Return to the book →','button')}</section>`);
@@ -84,15 +84,15 @@ used.add('D3-LICENSE.txt');
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
-for(const f of ['styles.css','landing.css','landing.js','downloads.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const f of ['styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js'])fs.copyFileSync(path.join(root,f),path.join(out,f));
 for(const file of vault.items.flatMap(item=>[item.original,...item.previews.map(p=>p.file)])){
  const target=path.join(out,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,'public',file),target);
 }
 fs.copyFileSync(path.join(root,'content/vault/1990Vault.md'),path.join(out,'vault/1990/1990Vault.md'));
 for(const name of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.copyFileSync(path.join(root,'public',name),path.join(out,name));
-const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
+const stylesheetVersions=Object.fromEntries(['styles.css','vault.css','landing.css','downloads.css','characters.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
 for(const [file,html] of Object.entries(pages)){
- const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
+ const versioned=html.replace(/href="(styles\.css|vault\.css|landing\.css|downloads\.css|characters\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
  fs.writeFileSync(path.join(out,file),seo.render(file,versioned));
 }
 fs.writeFileSync(path.join(out,'robots.txt'),`User-agent: *\nAllow: /\n\nSitemap: ${seo.siteUrl}/sitemap.xml\n`);
