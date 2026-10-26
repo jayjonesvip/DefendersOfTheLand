@@ -21,7 +21,8 @@ for(const file of htmlFiles){
  assert.deepEqual(links.filter(m=>m[2].includes('aria-current="page"')).map(m=>m[1]),links.some(m=>m[1]===file)?[file]:[]);
  const footer=html.match(/<footer class="site-footer">(.*?)<\/footer>/s)[1];
  for(const href of ['paperback.html','downloads.html','author.html','https://www.amazon.com/author/jayjonesvip','https://www.amazon.com/dp/B0HMXH258N'])assert(footer.includes(`href="${href}"`));
- assert(footer.includes('[CONTACT EMAIL OR FORM URL]')&&!footer.includes('href="['));
+ assert(!footer.includes('[CONTACT EMAIL OR FORM URL]')&&!footer.includes('href="['));
+ assert(!/\[(?:DESCRIPTION|HOOK|BLURB|CONTACT|FORM ACTION|AUTHOR CHECK|GALLERY LINK NEEDED|UPDATE NEEDED)[^\]]*\]/.test(html),`Unfinished public copy in ${file}`);
 
  assert(html.includes('application/ld+json')&&html.includes('rel="canonical"'),file);
  for(const match of html.matchAll(/(?:origins|book-two|book-three|book-four)-chapter-(\d+)\.html/g))assert.equal(Number(match[1]),1,`Private chapter link in ${file}`);
@@ -60,6 +61,8 @@ async function browserChecks(){
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');
    assert.equal(await page.locator('[data-book-progress]').textContent(),'0 of 1 chapters completed');
+   const approved=id==='origins'?[require('./content/book-one-marketing.json').blurb.join(' ')]:require('./content/website-book-copy.json').descriptions[id];
+   assert.deepEqual(await page.locator('.book-about>p:not(.eyebrow)').allTextContents(),approved);
    assert.equal(await page.locator('.book-read').getAttribute('href'),id+'-chapter-1.html');
    assert.equal(await page.locator('.book-series a[aria-current="page"]').getAttribute('href'),id+'.html');
    assert.equal(await page.locator('.chapter-list li').count(),1);

@@ -23,7 +23,7 @@ if(Object.keys(downloads).some(k=>['full','ebooks','print','covers'].includes(k)
 const publicBooks=new Set(['downloads.json',...downloads.samples.map(d=>d.file)]);
 if(downloads.samples.length!==2||!publicBooks.has('origins-sample-chapters-01-03.pdf')||!publicBooks.has('origins-sample-chapters-01-03.epub'))throw Error('Only Book One PDF/EPUB samples may be published');
 if(fs.readdirSync(path.join(out,'books')).some(f=>!publicBooks.has(f)))throw Error('Public books directory contains non-sample files');
-const cover=read('content/book-one-marketing.json');
+const cover=read('content/book-one-marketing.json'),websiteCopy=read('content/website-book-copy.json');
 const archiveItems=read('content/vault/gallery.json');
 const seo=createSeo({site:siteConfig,book,chapters,additionalBooks,cover,manifest,archiveItems,websiteSeo,escape:esc});
 const kindle=(label='Buy Kindle ebook',cls='button secondary')=>link(siteConfig.ebook.url,label,cls);
@@ -51,7 +51,7 @@ const {renderHeader,renderFooter}=require('./site-chrome.cjs');
 const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><!--SITE_HEADER--><main id="main">${body}</main><!--SITE_FOOTER--></body></html>`;
 const {createBookContents}=require('./book-contents.cjs');
 function contentsPage(b,entries){
- return shell(b.title,createBookContents({book:b,entries,books:[book,...additionalBooks],site:siteConfig,blurb:cover.blurb,publicationDetails,escape:esc,img}),'book',b).replace('</head>','<link rel="stylesheet" href="book-contents.css"></head>');
+ return shell(b.title,createBookContents({book:b,entries,books:[book,...additionalBooks],site:siteConfig,blurb:cover.blurb,websiteCopy,publicationDetails,escape:esc,img}),'book',b).replace('</head>','<link rel="stylesheet" href="book-contents.css"></head>');
 }
 const pages={};
 pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,books:[book,...additionalBooks],portrait:read('content/characters/billy.json'),img,escape:esc,link}),'author').replace('</head>','<link rel="stylesheet" href="author.css"></head>');

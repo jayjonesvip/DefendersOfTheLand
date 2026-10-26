@@ -20,8 +20,7 @@
 .book-about{min-width:0;padding:24px 0 0;border-top:3px solid var(--accent)}
 .book-about .eyebrow,.book-preview-card>.eyebrow{font-size:10px;margin:0 0 12px}
 .book-about h2,.book-preview-card h2,.book-sample h2,.book-series h2{font-size:36px;line-height:1.1;margin:0 0 20px}
-.book-about>p:last-child{font-family:BookSerif,Georgia,serif;font-size:15px;line-height:1.95;margin:0;max-width:65ch}
-.book-about>p.book-description-placeholder{font-family:inherit;font-size:13px;padding:18px;background:var(--surface);border:1px dashed var(--control);overflow-wrap:anywhere}
+.book-about>p:not(.eyebrow){font-family:BookSerif,Georgia,serif;font-size:15px;line-height:1.95;margin:0 0 18px;max-width:65ch}
 .book-preview-card{min-width:0;align-self:start;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--ink);padding:24px}
 .book-preview-card h2{margin-bottom:16px}
 .book-preview-progress{font-size:12px;line-height:1.8;color:var(--muted);margin:0}
