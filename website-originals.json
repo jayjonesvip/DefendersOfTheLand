@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames. Jay approved the final three-page main coins ending of The Loaded Glove, requested a link on Fist-O-Mite’s character card and a dedicated social-sharing image based on its opening arena panel. Only this main version is approved for the website; the separate archive-only alternative is excluded.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames. Jay approved the final three-page main coins ending of The Loaded Glove, requested a link on Fist-O-Mite’s character card and a dedicated social-sharing image based on its opening arena panel. Only this main version is approved for the website; the separate archive-only alternative is excluded. Jay approved the two-page one-eyed gum comic A Sticky Situation, requested publication, a social image used on Web Comics, and a second link on Dork’s card alongside WHY SO EVIL?.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -109,6 +109,18 @@
     {
       "path": "public/assets/loaded-glove-social-1200x630-v1.jpg",
       "sha256": "ff83a902ded1e629fe388f593fb8fc450d78cad1194f1a23ba441571adda6934"
+    },
+    {
+      "path": "public/assets/sticky-situation-page-1-v1.webp",
+      "sha256": "0d3687177aa14038cbc77c2373205200647081b19c3566b2f9615b330d515fd4"
+    },
+    {
+      "path": "public/assets/sticky-situation-page-2-v1.webp",
+      "sha256": "607de08b302c9706244765e69f18e2950780af598cb7b36a11b08e89eb8fcd08"
+    },
+    {
+      "path": "public/assets/sticky-situation-social-1200x630-v1.jpg",
+      "sha256": "0e2cfa015c06fcbd057aa3f9bf6f55144ddf94ce0fe7ef45176dce1bf1daa55e"
     }
   ]
 }

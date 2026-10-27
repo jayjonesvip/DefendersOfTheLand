@@ -10,10 +10,11 @@ async function get(file,status=200){
 }
 (async()=>{
  const sitemap=await(await get('sitemap.xml')).text();
- const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);assert.equal(locations.length,20);
+ const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);assert.equal(locations.length,21);
  assert(locations.some(url=>new URL(url).pathname.endsWith('/flaming-head-origin.html')),'Missing website-exclusive comic');
  assert(locations.some(url=>new URL(url).pathname.endsWith('/why-so-evil.html')),'Missing Billy and Daniel prequel');
  assert(locations.some(url=>new URL(url).pathname.endsWith('/loaded-glove.html')),'Missing Fist comic');
+ assert(locations.some(url=>new URL(url).pathname.endsWith('/sticky-situation.html')),'Missing gum comic');
  assert(!/(?:origins|book-two|book-three|book-four)-chapter-(?:[2-9]|\d{2,})\.html/.test(sitemap));
  const rootPath=new URL(locations[0]).pathname.replace(/[^/]*$/,'');
  const resources=new Set();

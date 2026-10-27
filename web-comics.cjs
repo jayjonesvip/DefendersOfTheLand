@@ -1,4 +1,5 @@
 const stories=[
+ {module:'./sticky-situation.cjs',name:'A Sticky Situation',teaser:'One small specimen. One very uncooperative experiment.',pages:2,cast:'Doc Dork’s Failed Experiments'},
  {module:'./loaded-glove.cjs',name:'The Loaded Glove',teaser:'A night at the fights. One very observant glove.',pages:3,cast:'Fist-O-Mite & Jenny'},
  {module:'./flaming-head-origin.cjs',name:'The One Who Fell',teaser:'From the Sun to Lake Erie, a little flame finds his name.',pages:2,cast:'Flaming Head'},
  {module:'./why-so-evil.cjs',name:'WHY SO EVIL?',teaser:'Two school friends. A mystery. A choice that changes everything.',pages:3,cast:'Billy & Daniel'}

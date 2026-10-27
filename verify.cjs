@@ -3,7 +3,7 @@ const {checkSource,files,ids}=require('./scripts/public-policy.cjs');
 const root=__dirname,out=path.join(root,'dist');
 checkSource(root);
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
-const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','web-comics.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
+const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','web-comics.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
 const approved=[...JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files,...JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'))).files];
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
@@ -51,7 +51,7 @@ async function browserChecks(){
   const base=`http://127.0.0.1:${server.address().port}`;
   for(const width of [320,390,1200]){
    await page.setViewportSize({width,height:900});
-   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','web-comics.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
+   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','web-comics.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
     await page.goto(base+'/'+file);await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file}: overflow at ${width}`);
     for(const href of await page.locator('[data-resume]:visible').evaluateAll(links=>links.map(a=>a.href)))assert(/-chapter-1\.html$/.test(href),`Stale resume: ${href}`);
@@ -59,8 +59,8 @@ async function browserChecks(){
    }
   }
   await page.goto(base+'/web-comics.html');
-  assert.equal(await page.locator('.web-comic-card').count(),3);
-  assert.deepEqual(await page.locator('.web-comic-read').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['loaded-glove.html','flaming-head-origin.html','why-so-evil.html']);
+  assert.equal(await page.locator('.web-comic-card').count(),4);
+  assert.deepEqual(await page.locator('.web-comic-read').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['sticky-situation.html','loaded-glove.html','flaming-head-origin.html','why-so-evil.html']);
   await page.goto(base+'/characters.html');
   assert.equal(await page.locator('#billy .character-first-book').textContent(),'1st appearance book 1 →');
   for(const dark of [false,true]){
@@ -71,7 +71,8 @@ async function browserChecks(){
   const comics=[
    {file:'flaming-head-origin.html',title:'Flaming Head: The One Who Fell',panels:[5,6],artworks:['flaming-head-origin-page-1-v1.webp','flaming-head-origin-page-2-v1.webp']},
    {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v3.webp','why-so-evil-page-2-v3.webp','why-so-evil-page-3-v1.webp']},
-   {file:'loaded-glove.html',title:'Fist-O-Mite in: The Loaded Glove',panels:[5,6,6],artworks:['loaded-glove-page-1-v1.webp','loaded-glove-page-2-v1.webp','loaded-glove-page-3-v1.webp']}
+   {file:'loaded-glove.html',title:'Fist-O-Mite in: The Loaded Glove',panels:[5,6,6],artworks:['loaded-glove-page-1-v1.webp','loaded-glove-page-2-v1.webp','loaded-glove-page-3-v1.webp']},
+   {file:'sticky-situation.html',title:'A Sticky Situation',panels:[5,5],artworks:['sticky-situation-page-1-v1.webp','sticky-situation-page-2-v1.webp']}
   ];
   for(const comic of comics){
    await page.goto(base+'/'+comic.file);
@@ -91,6 +92,7 @@ async function browserChecks(){
     assert.equal(await silent.locator('p').count(),1,'Rescue aftermath remains silent');
     assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Narration: One learned to follow the clues. The other learned to hide them.');
    }
+   if(comic.file==='sticky-situation.html'){assert(transcript.includes('RESULT: ALIVE.')&&transcript.includes('COOPERATIVE: NO.'));assert(!await page.locator('.comic-transcript strong').allTextContents().then(labels=>labels.some(label=>label.startsWith('Gum:'))));}
    if(comic.file==='loaded-glove.html'){
     const ending=page.locator('.comic-transcript-page').nth(2).locator('li');
     assert((await ending.nth(1).textContent()).includes('WHAM!!'));
@@ -136,8 +138,9 @@ async function browserChecks(){
   await noScript.close();
   await page.goto(base+'/characters.html');
   for(const [id,destination] of [['billy','why-so-evil.html'],['doc','why-so-evil.html'],['flaming-head','flaming-head-origin.html'],['fist','loaded-glove.html']]){
-   assert.equal(await page.locator(`#${id} .comic-origin-link`).getAttribute('href'),destination);
+   assert.equal(await page.locator(`#${id} .comic-origin-link`).first().getAttribute('href'),destination);
   }
+  assert.deepEqual(await page.locator('#doc .comic-origin-link').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['why-so-evil.html','sticky-situation.html']);
   await page.locator('#billy .comic-origin-link').click();
   assert(page.url().endsWith('/why-so-evil.html'));
   for(const id of ids){
