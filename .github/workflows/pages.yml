@@ -25,7 +25,13 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - name: Use preinstalled Chrome for browser checks
+        shell: bash
+        run: |
+          site_browser_path="$(command -v google-chrome || command -v chromium || true)"
+          test -n "$site_browser_path"
+          "$site_browser_path" --version
+          printf 'BOOK_CHROMIUM=%s\n' "$site_browser_path" >> "$GITHUB_ENV"
       - name: Build approved previews only
         run: npm run build
         env:
