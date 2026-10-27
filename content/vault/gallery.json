@@ -205,5 +205,97 @@
         "bytes": 156416
       }
     ]
+  },
+  {
+    "id": "character-sketches",
+    "label": "PHOTO 1",
+    "title": "Jaws O’ Death — the design evolves",
+    "caption": "Jaws O’ Death’s numbered designs trace his evolution in order of creation, from 1 through 6, alongside other character experiments. The sheet is dated March 9, 1990.",
+    "alt": "Restored pencil sketch sheet showing Jaws O’ Death designs numbered 1 through 6 in order of creation, other cartoon studies, and a handwritten March 9, 1990 date.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-1990-character-sketches-cleaned.webp",
+    "sha256": "fb55370a159a968d15f5c3665cd9b6c3cb7520f24b11a805c489e526f7bea508",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-1990-character-sketches-432.webp",
+        "bytes": 33962
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-1990-character-sketches-864.webp",
+        "bytes": 109610
+      }
+    ]
+  },
+  {
+    "id": "flaming-head-origin",
+    "label": "PHOTO 2",
+    "title": "The Flaming Head — origin issue",
+    "caption": "An early South Pole Comics origin page, credited to Jason A. Jones, showing the character before and after his head ignites.",
+    "alt": "Restored archive artwork: The Flaming Head origin issue with a handwritten origin story and two drawings of the character.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-1990-flaming-head-origin-cleaned.webp",
+    "sha256": "b5f4ed71fb7de438d8e749334a191ccfc9578734068745d1a811a35d17a95194",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-1990-flaming-head-origin-432.webp",
+        "bytes": 34636
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-1990-flaming-head-origin-864.webp",
+        "bytes": 111338
+      }
+    ]
+  },
+  {
+    "id": "inspector-billy-candy",
+    "label": "PHOTO 3",
+    "title": "Inspector Billy — the candy snatcher",
+    "caption": "An unfinished comic strip: Billy confronts a candy snatcher, with blank panels remaining in the lower row.",
+    "alt": "Restored archive artwork: an Inspector Billy comic strip with a candy-snatching confrontation and unfinished lower panels.",
+    "width": 1536,
+    "height": 1024,
+    "original": "assets/vault-1990-inspector-billy-candy-cleaned.webp",
+    "sha256": "4d4752aa60f1d5016a2f76c1fb629fe94eb7a61d05000a4e81884fe5a8f6f837",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-1990-inspector-billy-candy-432.webp",
+        "bytes": 20086
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-1990-inspector-billy-candy-864.webp",
+        "bytes": 71978
+      }
+    ]
+  },
+  {
+    "id": "the-new-farts",
+    "label": "PHOTO 4",
+    "title": "The New Farts — first issue",
+    "caption": "A South Pole Comic cover introducing an early ensemble: Turbo Boy, Omega Head, Inspector Billy, Bouncin’ Bob, Mol and Fish-O-Matic.",
+    "alt": "Restored archive artwork: The New Farts first-issue cover with colored-pencil superheroes and handwritten introductions.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-1990-the-new-farts-cleaned.webp",
+    "sha256": "e8fd87bb67ace914b541ed02e0ca131b3771fca07785e81d3882be8964689051",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-1990-the-new-farts-432.webp",
+        "bytes": 54476
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-1990-the-new-farts-864.webp",
+        "bytes": 211464
+      }
+    ]
   }
 ]

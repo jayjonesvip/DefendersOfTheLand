@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -29,6 +29,70 @@
     {
       "path": "public/assets/why-so-evil-social-1200x630-v2.jpg",
       "sha256": "dffc6709d1c98f99e6777338abc813799b19389a9919c99af53704fea7296ddb"
+    },
+    {
+      "path": "public/assets/vault-1990-character-sketches.jpg",
+      "sha256": "91b1b40461ee4602a40cc983da2beaded402b55d3d715e63c1c8066b62f1b1d6"
+    },
+    {
+      "path": "public/assets/vault-1990-character-sketches-432.webp",
+      "sha256": "0a9267a8ee8725971ee49ffa1951aa54f74626e6f39b83924227e8b21a7385eb"
+    },
+    {
+      "path": "public/assets/vault-1990-character-sketches-864.webp",
+      "sha256": "7047f9d5adeae3c20551cc3f77ab4f4154448d063234d87a6c485bcd06ef1e70"
+    },
+    {
+      "path": "public/assets/vault-1990-flaming-head-origin.jpg",
+      "sha256": "1da8e3a07a8d2254c4cb334bb6f13fdf4d68c54d9dc4cd131bc78485accb2cb2"
+    },
+    {
+      "path": "public/assets/vault-1990-flaming-head-origin-432.webp",
+      "sha256": "131a50ad115b3aa468a8c26da9cf8483b322b214bc18aaf485343f22bda3d382"
+    },
+    {
+      "path": "public/assets/vault-1990-flaming-head-origin-864.webp",
+      "sha256": "2adce6b0d2b179efc5787376e035146657e7b7d31eb488bb27980a051376ea99"
+    },
+    {
+      "path": "public/assets/vault-1990-inspector-billy-candy.jpg",
+      "sha256": "2bfe44d80f9e580485cbcb5049f245303f7de931d3cc1ef095979883ef9494c1"
+    },
+    {
+      "path": "public/assets/vault-1990-inspector-billy-candy-432.webp",
+      "sha256": "18598c8c29258291991e3b71ffce6df3a1ff2e15970ebb7cef832918c2f4fee1"
+    },
+    {
+      "path": "public/assets/vault-1990-inspector-billy-candy-864.webp",
+      "sha256": "b982825e60d44367a198eb8c60b95f05d54ff3528d1b8e624d7d200d409ad3fb"
+    },
+    {
+      "path": "public/assets/vault-1990-the-new-farts.jpg",
+      "sha256": "43127d7135df09db95c4522b187afeeea1723e8afab62bc9246754610b045426"
+    },
+    {
+      "path": "public/assets/vault-1990-the-new-farts-432.webp",
+      "sha256": "a1e780f2d18329ae1b8568be626bbefa52c37f5fb556da4d6459cc21e5297847"
+    },
+    {
+      "path": "public/assets/vault-1990-the-new-farts-864.webp",
+      "sha256": "0dc4781826a51b26498e64b8a5c58895772f8503e2a095879dd481b984e41ddc"
+    },
+    {
+      "path": "public/assets/vault-1990-character-sketches-cleaned.webp",
+      "sha256": "fb55370a159a968d15f5c3665cd9b6c3cb7520f24b11a805c489e526f7bea508"
+    },
+    {
+      "path": "public/assets/vault-1990-flaming-head-origin-cleaned.webp",
+      "sha256": "b5f4ed71fb7de438d8e749334a191ccfc9578734068745d1a811a35d17a95194"
+    },
+    {
+      "path": "public/assets/vault-1990-inspector-billy-candy-cleaned.webp",
+      "sha256": "4d4752aa60f1d5016a2f76c1fb629fe94eb7a61d05000a4e81884fe5a8f6f837"
+    },
+    {
+      "path": "public/assets/vault-1990-the-new-farts-cleaned.webp",
+      "sha256": "e8fd87bb67ace914b541ed02e0ca131b3771fca07785e81d3882be8964689051"
     }
   ]
 }

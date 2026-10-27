@@ -29,3 +29,7 @@ The comic page has its own 1200 × 630 JPEG sharing image, also listed in `websi
 WHY SO EVIL? also has its own 1200 × 630 JPEG sharing image, featuring the young characters and Daniel’s invention. Its Open Graph and Twitter tags use this wide image.
 
 The latest comic editions use five and six panels for Flaming Head and six panels on each WHY SO EVIL? page. Their transcripts follow the art panel by panel, including the wave washing over Seth and Billy’s final warning. The scorched clue stays palm-sized and pocketed during the rescue.
+
+## Additional vault photographs
+
+The 1990 Vault also includes four author-supplied archive photographs added on October 27, 2026: character sketches, The Flaming Head origin issue, an unfinished Inspector Billy strip, and The New Farts cover. The supplied JPEG originals, cleaned lossless WebP artwork and responsive WebP previews are listed in `website-originals.json`; preserve these website-only archive assets and the expanded gallery when importing a private preview export. The gallery displays cleaned versions matched to the existing warm-paper archive, with corrected perspective and reduced shadows. These historical concepts are distinct from current book canon.
