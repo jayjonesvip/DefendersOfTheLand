@@ -1,26 +1,28 @@
-const file='flaming-head-origin.html';
-const artwork={file:'flaming-head-origin-comic-v2.webp',width:1024,height:1536,alt:'Seven-panel comic following Flaming Head from a solar eruption, through a mysterious particle cloud, to Lake Erie and the 1987 Cleveland skyline.'};
+const file='flaming-head-origin.html',title='Flaming Head: The One Who Fell';
+const artworks=[
+ {file:'flaming-head-origin-page-1-v1.webp',width:1024,height:1536,alt:'Flaming Head: The One Who Fell, page one. A plasma fragment awakens in space, reaches Earth and strikes Lake Erie, raising a huge wave.'},
+ {file:'flaming-head-origin-page-2-v1.webp',width:1024,height:1536,alt:'Flaming Head: The One Who Fell, page two. The wave washes over Seth, a perch gives the visitor a name, and he flies above Cleveland.'}
+];
 const socialImage={file:'flaming-head-origin-social-1200x630-v1.jpg',width:1200,height:630,type:'image/jpeg',alt:'Flaming Head above Cleveland’s 1987 skyline, with the title The One Who Fell by Jay Jones.'};
 const metadata={
- [file]:{title:'Flaming Head: The One Who Fell | Defenders of the Land',description:'Read Flaming Head’s website-exclusive origin comic by Jay Jones. Follow his journey from the Sun to Lake Erie, meet Super Perch, and explore 1987 Cleveland.',lastModified:'2026-10-27'}
+ [file]:{title:'Flaming Head: The One Who Fell | Defenders of the Land',description:'Read Flaming Head’s two-page origin comic by Jay Jones. Follow a plasma fragment from the Sun to Lake Erie, meet a curious perch, and see Cleveland in 1987.',lastModified:'2026-10-27'}
 };
-function createComic({site,escape:esc}){
- const panels=[
-  {title:'The Sun',description:'A huge cloud of glowing plasma erupts from the Sun. A small, faceless knot of plasma travels away from it toward Earth.',captions:['Sometimes the Sun throws a huge cloud of plasma into space.','Plasma is hot gas made of electrically charged particles.']},
-  {title:'The particle cloud',description:'The faceless knot of plasma enters a luminous cloud of unknown particles. Long orange flames trail behind it.',captions:['It passed through an unknown cloud of particles.']},
-  {title:'Awakening',description:'On the other side of the cloud, a round orange face has formed. Two enormous eyes open. Long flames stream behind him as he looks toward the approaching Earth.',captions:['Then something woke up.','For the next twenty-four hours, Earth grew closer.']},
-  {title:'Lake Erie',description:'A bright streak crosses the evening sky and splashes into Lake Erie. A large splash sends broad, glowing waves across the water, with foaming crests spreading through the foreground. Cleveland’s old Municipal Stadium and Terminal Tower stand on the shore beyond.'},
-  {title:'A name',description:'Underwater, a small turquoise fish with yellow fins faces the glowing visitor. They look at one another with curiosity.',dialogue:[['Super Perch','Who are you?'],['Flaming Head','I don’t know.'],['Super Perch','You look like a flaming head.'],['Flaming Head','I like the sound of that.']]},
-  {title:'Cleveland',description:'Still underwater, Flaming Head looks around, then turns toward the surface as Perch points out something unusual.',dialogue:[['Flaming Head','Where am I?'],['Super Perch','Cleveland.'],['Flaming Head','Cleveland? I like the sound of that.'],['Super Perch','Flames aren’t supposed to be underwater.'],['Flaming Head','Oh. I’d better go.']]},
-  {title:'A new world',description:'Flaming Head floats high above Lake Erie, looking across the water toward Cleveland in 1987. Municipal Stadium sits near the waterfront, with Terminal Tower rising behind it. The city’s lights glow beneath the evening sky.',thought:'I am Flaming Head from Cleveland.'}
- ];
- const image=`<img src="assets/${artwork.file}" alt="${esc(artwork.alt)}" width="${artwork.width}" height="${artwork.height}" decoding="async" fetchpriority="high">`;
- return `<article class="origin-comic">
-  <header class="comic-heading"><p class="eyebrow">A WEBSITE-EXCLUSIVE ORIGIN COMIC · JAY JONES</p><h1>Flaming Head: <span>The One Who Fell</span></h1><p>From the Sun to the Land.</p><a class="comic-text-link" href="#comic-transcript">Read the text transcript <span aria-hidden="true">↓</span></a></header>
-  <figure class="comic-page"><a class="comic-enlarge" href="assets/${artwork.file}" aria-label="Enlarge Flaming Head: The One Who Fell" aria-describedby="comic-image-help" data-comic-enlarge>${image}</a><figcaption id="comic-image-help">Tap or click the comic to enlarge it. The text transcript is below.</figcaption></figure>
-  <section class="comic-transcript" id="comic-transcript" aria-labelledby="comic-transcript-title"><p class="eyebrow">THE STORY IN WORDS</p><h2 id="comic-transcript-title">Comic transcript</h2><ol>${panels.map((panel,index)=>`<li><h3>Panel ${index+1}: ${esc(panel.title)}</h3><p>${esc(panel.description)}</p>${(panel.captions||[]).map(caption=>`<p><strong>Caption:</strong> ${esc(caption)}</p>`).join('')}${(panel.dialogue||[]).map(([speaker,line])=>`<p><strong>${esc(speaker)}:</strong> “${esc(line)}”</p>`).join('')}${panel.thought?`<p><strong>Flaming Head, thinking:</strong> “${esc(panel.thought)}”</p>`:''}</li>`).join('')}</ol></section>
-  <section class="comic-closing" aria-labelledby="comic-closing-title"><div><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="comic-closing-title">Discover the books</h2><p>Four books. One Cleveland.</p></div><div class="actions"><a class="button" href="origins-chapter-1.html">Read Book One free <span aria-hidden="true">→</span></a><a class="button secondary" href="${esc(site.amazonSeriesUrl)}" rel="noopener">Get the full series on Amazon <span aria-hidden="true">→</span></a><a class="comic-text-link" href="characters.html#flaming-head">Meet Flaming Head <span aria-hidden="true">→</span></a></div></section>
- </article>
- <dialog class="comic-dialog" aria-labelledby="comic-dialog-title" aria-describedby="comic-dialog-help" data-comic-dialog><div class="comic-dialog-header"><h2 id="comic-dialog-title">The One Who Fell</h2><button type="button" data-comic-close autofocus>Close <span aria-hidden="true">×</span></button></div><p id="comic-dialog-help">Scroll to explore the enlarged page. Press Escape or Close to return.</p><div class="comic-dialog-scroll" tabindex="0" role="region" aria-label="Enlarged comic; scroll horizontally and vertically"><img src="assets/${artwork.file}" alt="${esc(artwork.alt)}" width="${artwork.width}" height="${artwork.height}" loading="lazy" decoding="async"></div></dialog>`;
-}
-module.exports={file,artwork,socialImage,metadata,createComic};
+const pages=[
+ [
+  {description:'The Sun erupts. A small, faceless fragment separates from an enormous cloud of orange-and-gold plasma.',captions:['Sometimes the Sun throws a huge cloud of plasma into space.','Plasma is gas made of electrically charged particles.']},
+  {description:'The small fragment, still without eyes or a mouth, enters a mysterious cloud of luminous blue and violet particles.',captions:['One small fragment passed through a mysterious cloud.']},
+  {description:'Eyes open within the plasma for the first time. A round orange face forms among the glowing particles, looking around with wonder.',captions:['Something inside it woke up.']},
+  {description:'Earth fills the view ahead of the living plasma head. A small inset shows his bright streak passing through the atmosphere toward Lake Erie and Cleveland.',captions:['For the next twenty-four hours, Earth grew closer.']},
+  {description:'The fragment crashes into Lake Erie offshore. Light, spray and steam burst upward. An enormous wall of water, lit from within, rises and rolls toward the rocky Cleveland shore. Municipal Stadium and Terminal Tower remain standing beyond the water.',sound:'KRAAASH!'}
+ ],
+ [
+  {description:'The towering wave breaks over Seth on the shoreline rocks. Wearing his orange Z hoodie and blue jeans, he shields his face as water washes across him. The Cleveland skyline stands behind the lakefront.'},
+  {description:'Underwater, bubbles and disturbed sediment swirl around the dazed but unharmed visitor. His golden glow lights the rocks. A friendly blue-green perch with dark vertical stripes and yellow fins cautiously approaches.',dialogue:[['Fish','Who are you?'],['Flaming Head','I don’t know.']]},
+  {description:'The perch studies the visitor’s glowing face. The floating head brightens at the suggestion.',dialogue:[['Fish','You look like a flaming head.'],['Flaming Head','I like the sound of that.']]},
+  {description:'Light filters through the disturbed water above as the two look at each other.',dialogue:[['Flaming Head','Where am I?'],['Fish','Cleveland.']]},
+  {description:'The perch looks at his underwater flames. Flaming Head glances upward, suddenly concerned.',dialogue:[['Fish','Flames aren’t supposed to be underwater.'],['Flaming Head','Oh. I’d better go.']]},
+  {description:'Flaming Head flies above Lake Erie with a long, sweeping trail of orange-and-gold flames. Foaming waves and glowing reflections still disturb the water below. Old Municipal Stadium and Terminal Tower rise along the Cleveland skyline.',thought:'I am Flaming Head… from Cleveland.'}
+ ]
+];
+function createComic(options){return require('./comic-pages.cjs').renderComic({...options,title,titleHtml:'Flaming Head: <span>The One Who Fell</span>',eyebrow:'A WEBSITE-EXCLUSIVE ORIGIN COMIC',intro:'From the Sun to the Land.',artworks,pages,pageTitles:['The Fall','A Name and a Home'],closingTitle:'Discover the books',closingLinks:[['characters.html#flaming-head','Meet Flaming Head']]});}
+module.exports={file,title,artworks,socialImage,metadata,pages,createComic};
