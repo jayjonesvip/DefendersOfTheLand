@@ -27,5 +27,10 @@
 .comic-dialog-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
 .comic-dialog-scroll img{display:block;width:1024px;max-width:none;height:auto}
 html.comic-viewer-open{overflow:hidden}
+.comic-page-links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 24px}
+.comic-sheet{margin:0 0 40px;scroll-margin-top:110px}
+.comic-sheet>h2{font-size:28px;margin:0 0 16px}
+.comic-transcript-page{margin:32px 0}
+.comic-transcript h4{font-family:BookDisplay,system-ui,sans-serif;font-size:23px;font-weight:400;letter-spacing:1px;margin:0 0 12px}
 @media(min-width:800px){.origin-comic{padding-top:64px}.comic-closing{grid-template-columns:1fr 1.3fr;align-items:center;gap:36px}}
 @media(max-width:480px){.origin-comic{padding:32px 18px 0}.comic-closing .button{width:100%}.comic-heading .eyebrow{font-size:10px;letter-spacing:1px}}
