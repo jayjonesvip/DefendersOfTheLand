@@ -15,3 +15,9 @@ Run the private repository’s `scripts/export-public-preview.cjs` after its pub
 Update Amazon URLs in the private source and re-export so the inventory stays accurate. Current links are in `content/site.json` and the four book metadata files. The public build and tests reject extra source files, unapproved assets, later chapters, stale samples and private publishing directories. Generated output is rebuilt from an empty directory so old chapters cannot survive a rebuild.
 
 Moving files out of the current tree does not erase previous public Git history or copies already downloaded. Repository-history exposure needs a separate visibility or history decision.
+
+## Website-exclusive comic
+
+`flaming-head-origin.cjs` renders **Flaming Head: The One Who Fell**, the author-approved website-exclusive six-panel origin comic. It is linked from the homepage and Flaming Head’s character card, with a text transcript and an optional keyboard-accessible enlarged view. The books and KDP sources are unchanged.
+
+`website-originals.json` separately inventories the approved public comic WebP. Its lossless encoding preserves the approved proof pixels. When importing a private preview export, preserve these website-only asset files and their inventory; they are not part of the book-preview export. The public source checks validate both inventories and still reject later chapters, full books and private production material.

@@ -1,0 +1,10 @@
+{
+  "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
+  "approval": "Jay approved the corrected 1987 Cleveland comic proof and the standalone website page, transcript and discovery links.",
+  "files": [
+    {
+      "path": "public/assets/flaming-head-origin-comic-v1.webp",
+      "sha256": "32e749a2c63e1613a7e982dc89da2631ec29bc17b6cd3e4f492fd9bf39bdc6fd"
+    }
+  ]
+}

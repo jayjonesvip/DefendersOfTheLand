@@ -49,3 +49,5 @@
 @media(hover:hover) and (pointer:fine){.character-gallery .character-card:hover{transform:translateY(-4px);box-shadow:4px 6px 0 var(--line)}}
 @media(max-width:380px){.character-filter-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.character-filter-buttons button{padding-inline:14px}.character-gallery .character-card{padding:22px}.character-closing .actions{display:grid;width:100%;grid-template-columns:repeat(2,minmax(0,1fr))}.character-closing .actions .button{font-size:12px;padding-inline:8px}}
 @media(prefers-reduced-motion:reduce){.character-gallery .character-card{transition:none}.character-gallery .character-card:hover{transform:none}}
+
+.comic-origin-link{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px;font-size:14px}
