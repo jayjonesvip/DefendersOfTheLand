@@ -55,7 +55,11 @@ function contentsPage(b,entries){
 }
 const pages={};
 const comic=require('./flaming-head-origin.cjs');
-pages[comic.file]=shell('Flaming Head: The One Who Fell',comic.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>','<link rel="stylesheet" href="flaming-head-origin.css"><script defer src="flaming-head-origin.js"></script></head>');
+const comicViewerVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'flaming-head-origin.js'))).digest('hex').slice(0,12);
+const comicHead=`<link rel="stylesheet" href="flaming-head-origin.css"><script defer src="flaming-head-origin.js?v=${comicViewerVersion}"></script></head>`;
+pages[comic.file]=shell('Flaming Head: The One Who Fell',comic.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
+const prequel=require('./why-so-evil.cjs');
+pages[prequel.file]=shell(prequel.title,prequel.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,books:[book,...additionalBooks],portrait:read('content/characters/billy.json'),img,escape:esc,link}),'author').replace('</head>','<link rel="stylesheet" href="author.css"></head>');
 const vault=require('./vault.cjs').createVault({root,escape:esc,link,books:[book,...additionalBooks],site:siteConfig,img});
 pages['1990-vault.html']=shell('From the Vault: 1990',vault.body,'vault').replace('</head>','<link rel="stylesheet" href="vault.css"></head>');

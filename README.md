@@ -23,3 +23,5 @@ Moving files out of the current tree does not erase previous public Git history 
 `website-originals.json` separately inventories the approved public comic WebP. Its lossless encoding preserves the approved proof pixels. When importing a private preview export, preserve these website-only asset files and their inventory; they are not part of the book-preview export. The public source checks validate both inventories and still reject later chapters, full books and private production material.
 
 The comic page has its own 1200 × 630 JPEG sharing image, also listed in `website-originals.json`. Open Graph and Twitter use this wide preview; the comic itself keeps its full portrait artwork.
+
+`why-so-evil.cjs` renders **WHY SO EVIL?**, a two-page schooldays prequel for Billy Warrner and Daniel Orkleson, linked from both character cards. Both approved pages use lossless WebP and the same accessible image viewer, with a complete twelve-panel transcript. Its artwork is separately inventoried as website-only material.

@@ -3,7 +3,7 @@ const {checkSource,files,ids}=require('./scripts/public-policy.cjs');
 const root=__dirname,out=path.join(root,'dist');
 checkSource(root);
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
-const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
+const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
 const approved=[...JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files,...JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'))).files];
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
@@ -11,7 +11,7 @@ for(const file of ['d3-7.9.0.min.js','D3-LICENSE.txt'])allowed.add('assets/'+fil
 for(const file of [...expected,'styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
 for(const file of files(out))assert(allowed.has(path.relative(out,file).split(path.sep).join('/')),`Unexpected deploy file: ${file}`);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
-assert.equal((sitemap.match(/<loc>/g)||[]).length,17);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,expected.length-1);
 for(const file of htmlFiles){
  const html=fs.readFileSync(path.join(out,file),'utf8');
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
@@ -51,7 +51,7 @@ async function browserChecks(){
   const base=`http://127.0.0.1:${server.address().port}`;
   for(const width of [320,390,1200]){
    await page.setViewportSize({width,height:900});
-   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
+   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
     await page.goto(base+'/'+file);await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file}: overflow at ${width}`);
     for(const href of await page.locator('[data-resume]:visible').evaluateAll(links=>links.map(a=>a.href)))assert(/-chapter-1\.html$/.test(href),`Stale resume: ${href}`);
@@ -95,7 +95,34 @@ async function browserChecks(){
   assert(await staticComic.locator('#comic-transcript').isVisible());
   assert.equal(await staticComic.locator('[data-comic-enlarge]').getAttribute('href'),'assets/flaming-head-origin-comic-v2.webp');
   assert.equal((await noScript.request.get(base+'/assets/flaming-head-origin-comic-v2.webp')).status(),200);
+  await staticComic.goto(base+'/why-so-evil.html');
+  assert.equal(await staticComic.locator('[data-comic-enlarge]').count(),2);
+  assert.equal(await staticComic.locator('.comic-transcript li').count(),12);
+  for(let index=0;index<2;index++)assert.equal(await staticComic.locator('[data-comic-enlarge]').nth(index).getAttribute('href'),`assets/why-so-evil-page-${index+1}-v1.webp`);
   await noScript.close();
+  await page.goto(base+'/characters.html');
+  for(const id of ['billy','doc'])assert.equal(await page.locator(`#${id} .comic-origin-link`).getAttribute('href'),'why-so-evil.html');
+  await page.locator('#billy .comic-origin-link').click();
+  assert(page.url().endsWith('/why-so-evil.html'));
+  assert.equal(await page.locator('.comic-sheet').count(),2);
+  assert.equal(await page.locator('.comic-transcript li').count(),12);
+  assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Narration: One learned to follow the clues. The other learned to hide them.');
+  for(const dark of [false,true]){
+   await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
+   for(const width of [320,1200]){
+    await page.setViewportSize({width,height:900});
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Prequel page overflow');
+    for(let index=0;index<2;index++){
+     const link=page.locator('[data-comic-enlarge]').nth(index);
+     await link.focus();await page.keyboard.press('Enter');
+     assert(await page.locator('[data-comic-dialog]').evaluate(el=>el.open));
+     assert((await page.locator('[data-comic-dialog] img').getAttribute('src')).endsWith(`why-so-evil-page-${index+1}-v1.webp`));
+     assert.equal(await page.locator('#comic-dialog-title').textContent(),`WHY SO EVIL? · Page ${index+1}`);
+     if(index===0)await page.keyboard.press('Escape');else await page.locator('[data-comic-close]').click();
+     await page.waitForFunction(index=>!document.querySelector('[data-comic-dialog]').open&&!document.documentElement.classList.contains('comic-viewer-open')&&document.activeElement===document.querySelectorAll('[data-comic-enlarge]')[index],index);
+    }
+   }
+  }
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');
    assert.equal(await page.locator('[data-book-progress]').textContent(),'0 of 1 chapters completed');

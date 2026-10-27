@@ -15,11 +15,13 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   return {'@type':'Book','@id':siteUrl+'/#'+b.id+'-'+format,name:b.title,author:{'@id':author['@id']},bookFormat:'https://schema.org/'+(format==='paperback'?'Paperback':'EBook'),image:image(b),description:description(b),inLanguage:'en',url:p.url,identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:p.asin},...details,exampleOfWork:{'@id':siteUrl+'/#'+b.id},potentialAction:{'@type':'BuyAction',target:p.url}};
  });
  const comic=require('./flaming-head-origin.cjs');
- const metadata={...websiteSeo.pages,...comic.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
+ const prequel=require('./why-so-evil.cjs');
+ const metadata={...websiteSeo.pages,...comic.metadata,...prequel.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
  const chapterPages=new Map();for(const b of allBooks)for(const c of b.entries)chapterPages.set(b.id+'-chapter-'+c.number+'.html',{book:b,chapter:c});
  function render(file,html){
   if(!metadata[file])throw Error('Missing SEO metadata for '+file);
   const {title,description:pageDescription}=metadata[file],canonical=pageUrl(file),chapter=chapterPages.get(file);
+  const activeComic=[comic,prequel].find(story=>story.file===file);
   const activeBook=chapter?.book||allBooks.find(b=>file===b.id+'.html')||book;
   const isVault=file==='1990-vault.html',isAuthor=file==='author.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
   const seriesPages=['index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
@@ -27,10 +29,10 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(isVault){previewImage=pageUrl(archivePreview.file);previewSize={width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)};previewAlt=archiveItems[0].alt;}
-  if(file===comic.file){previewImage=pageUrl('assets/'+comic.socialImage.file);previewSize=comic.socialImage;previewAlt=comic.socialImage.alt;mime=comic.socialImage.type;}
+  if(activeComic){previewImage=pageUrl('assets/'+activeComic.socialImage.file);previewSize=activeComic.socialImage;previewAlt=activeComic.socialImage.alt;mime=activeComic.socialImage.type;}
   const page={'@type':['books.html','origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description:pageDescription,inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
-  if(file===comic.file){const story={'@type':'ComicStory','@id':canonical+'#comic',name:'Flaming Head: The One Who Fell',url:canonical,author:{'@id':author['@id']},image:previewImage,inLanguage:'en',isAccessibleForFree:true,isPartOf:{'@id':page['@id']}};graph.push(story);page.mainEntity={'@id':story['@id']};}
+  if(activeComic){const story={'@type':'ComicStory','@id':canonical+'#comic',name:activeComic.title||'Flaming Head: The One Who Fell',url:canonical,author:{'@id':author['@id']},image:previewImage,inLanguage:'en',isAccessibleForFree:true,isPartOf:{'@id':page['@id']}};graph.push(story);page.mainEntity={'@id':story['@id']};}
   if(isAuthor){page['@type']='ProfilePage';page.mainEntity={'@id':author['@id']};}
   if(isVault){
    const gallery={'@type':'ImageGallery','@id':canonical+'#gallery',name:'From the Vault: 1990 — restored comic pages',url:canonical+'#vault-gallery',associatedMedia:archiveItems.map(item=>({'@type':'ImageObject',name:item.title,caption:item.caption,description:item.alt,contentUrl:pageUrl(item.original),thumbnailUrl:pageUrl(item.previews[0].file),width:item.width,height:item.height}))};
@@ -49,7 +51,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
    '<link rel="icon" type="image/svg+xml" href="favicon.svg?v=flame-d-1">','<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">','<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">',
    `<meta name="robots" content="${file==='404.html'?'noindex, follow':'index, follow, max-image-preview:large'}">`,
    `<link rel="canonical" href="${escape(canonical)}">`,
-   `<meta property="og:type" content="${chapter||isVault||file===comic.file?'article':'website'}">`,
+   `<meta property="og:type" content="${chapter||isVault||activeComic?'article':'website'}">`,
    `<meta property="og:site_name" content="${escape(site.name)}">`,'<meta property="og:locale" content="en_US">',
    `<meta property="og:title" content="${escape(title)}">`,`<meta property="og:description" content="${escape(pageDescription)}">`,`<meta property="og:url" content="${escape(canonical)}">`,
    `<meta property="og:image" content="${escape(previewImage)}">`,
