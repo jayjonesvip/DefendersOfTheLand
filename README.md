@@ -21,3 +21,5 @@ Moving files out of the current tree does not erase previous public Git history 
 `flaming-head-origin.cjs` renders **Flaming Head: The One Who Fell**, the author-approved website-exclusive seven-panel origin comic. It is linked from the homepage and Flaming Head’s character card, with a text transcript and an optional keyboard-accessible enlarged view. The books and KDP sources are unchanged.
 
 `website-originals.json` separately inventories the approved public comic WebP. Its lossless encoding preserves the approved proof pixels. When importing a private preview export, preserve these website-only asset files and their inventory; they are not part of the book-preview export. The public source checks validate both inventories and still reject later chapters, full books and private production material.
+
+The comic page has its own 1200 × 630 JPEG sharing image, also listed in `website-originals.json`. Open Graph and Twitter use this wide preview; the comic itself keeps its full portrait artwork.

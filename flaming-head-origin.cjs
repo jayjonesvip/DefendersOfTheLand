@@ -1,5 +1,6 @@
 const file='flaming-head-origin.html';
 const artwork={file:'flaming-head-origin-comic-v2.webp',width:1024,height:1536,alt:'Seven-panel comic following Flaming Head from a solar eruption, through a mysterious particle cloud, to Lake Erie and the 1987 Cleveland skyline.'};
+const socialImage={file:'flaming-head-origin-social-1200x630-v1.jpg',width:1200,height:630,type:'image/jpeg',alt:'Flaming Head above Cleveland’s 1987 skyline, with the title The One Who Fell by Jay Jones.'};
 const metadata={
  [file]:{title:'Flaming Head: The One Who Fell | Defenders of the Land',description:'Read Flaming Head’s website-exclusive origin comic by Jay Jones. Follow his journey from the Sun to Lake Erie, meet Super Perch, and explore 1987 Cleveland.',lastModified:'2026-10-27'}
 };
@@ -22,4 +23,4 @@ function createComic({site,escape:esc}){
  </article>
  <dialog class="comic-dialog" aria-labelledby="comic-dialog-title" aria-describedby="comic-dialog-help" data-comic-dialog><div class="comic-dialog-header"><h2 id="comic-dialog-title">The One Who Fell</h2><button type="button" data-comic-close autofocus>Close <span aria-hidden="true">×</span></button></div><p id="comic-dialog-help">Scroll to explore the enlarged page. Press Escape or Close to return.</p><div class="comic-dialog-scroll" tabindex="0" role="region" aria-label="Enlarged comic; scroll horizontally and vertically"><img src="assets/${artwork.file}" alt="${esc(artwork.alt)}" width="${artwork.width}" height="${artwork.height}" loading="lazy" decoding="async"></div></dialog>`;
 }
-module.exports={file,artwork,metadata,createComic};
+module.exports={file,artwork,socialImage,metadata,createComic};

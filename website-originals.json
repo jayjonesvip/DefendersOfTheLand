@@ -1,10 +1,14 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-comic-v2.webp",
       "sha256": "21ba66653503c5a6997d25efa58a9b3e19ec7fc05521d80f5ec13c400af6fbae"
+    },
+    {
+      "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
+      "sha256": "6839a676185a0d83f0891cda0c1938d91e867ccc2423bf423ed336582ab2f9ce"
     }
   ]
 }

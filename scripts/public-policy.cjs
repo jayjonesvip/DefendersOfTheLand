@@ -5,7 +5,7 @@ function checkSource(root){
  for(const name of ['print','publishing','requirements.txt','docs/art','docs/editorial'])assert(!fs.existsSync(path.join(root,name)),`Private book production material in website repository: ${name}`);
  const inventory=JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'),'utf8'));
  const originals=JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'),'utf8'));
- for(const entry of originals.files)assert(/^public\/assets\/[a-z0-9-]+\.webp$/.test(entry.path),'Website originals must be approved WebP marketing assets');
+ for(const entry of originals.files)assert(/^public\/assets\/[a-z0-9-]+\.(?:webp|jpg)$/.test(entry.path),'Website originals must be approved WebP or JPEG marketing assets');
  const approvedFiles=[...inventory.files,...originals.files];
  const allowed=new Map(approvedFiles.map(f=>[f.path,f.sha256]));
  assert.equal(allowed.size,approvedFiles.length,'Duplicate preview or website-original inventory path');
