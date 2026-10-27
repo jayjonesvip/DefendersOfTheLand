@@ -59,8 +59,10 @@ async function browserChecks(){
    }
   }
   await page.goto(base+'/flaming-head-origin.html');
-  assert.equal(await page.locator('.comic-transcript li').count(),6);
+  assert.equal(await page.locator('.comic-transcript li').count(),7);
   assert.equal(await page.locator('.comic-transcript li:nth-child(5) p').count(),5);
+  assert.equal(await page.locator('.comic-transcript li:nth-child(6) p').count(),6);
+  assert.equal(await page.locator('.comic-transcript li:nth-child(7) p').last().textContent(),'Flaming Head, thinking: “I am Flaming Head from Cleveland.”');
   const trigger=page.locator('[data-comic-enlarge]');
   // Native dialog closure and its queued close event can finish in different frames.
   const waitForComicClosed=()=>page.waitForFunction(()=>
@@ -91,8 +93,8 @@ async function browserChecks(){
   const noScript=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
   const staticComic=await noScript.newPage();await staticComic.goto(base+'/flaming-head-origin.html');
   assert(await staticComic.locator('#comic-transcript').isVisible());
-  assert.equal(await staticComic.locator('[data-comic-enlarge]').getAttribute('href'),'assets/flaming-head-origin-comic-v1.webp');
-  assert.equal((await noScript.request.get(base+'/assets/flaming-head-origin-comic-v1.webp')).status(),200);
+  assert.equal(await staticComic.locator('[data-comic-enlarge]').getAttribute('href'),'assets/flaming-head-origin-comic-v2.webp');
+  assert.equal((await noScript.request.get(base+'/assets/flaming-head-origin-comic-v2.webp')).status(),200);
   await noScript.close();
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');

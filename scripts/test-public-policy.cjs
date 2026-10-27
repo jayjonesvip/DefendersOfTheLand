@@ -6,7 +6,7 @@ test('later chapter source is rejected',t=>{const dir=fixture(t);fs.writeFileSyn
 test('KDP production directories are rejected',t=>{const dir=fixture(t);fs.mkdirSync(path.join(dir,'print'));assert.throws(()=>checkSource(dir),/Private book production material/);});
 test('extra complete ebook is rejected',t=>{const dir=fixture(t);fs.writeFileSync(path.join(dir,'public/books/complete-book.epub'),'test');assert.throws(()=>checkSource(dir),/Unapproved website source/);});
 test('changed preview bytes are rejected',t=>{const dir=fixture(t);fs.appendFileSync(path.join(dir,'content/books/book-four/chapter-01.json'),' ');assert.throws(()=>checkSource(dir),/Preview differs from private export/);});
-test('changed website-exclusive comic bytes are rejected',t=>{const dir=fixture(t);fs.appendFileSync(path.join(dir,'public/assets/flaming-head-origin-comic-v1.webp'),' ');assert.throws(()=>checkSource(dir),/Preview differs from private export/);});
+test('changed website-exclusive comic bytes are rejected',t=>{const dir=fixture(t);fs.appendFileSync(path.join(dir,'public/assets/flaming-head-origin-comic-v2.webp'),' ');assert.throws(()=>checkSource(dir),/Preview differs from private export/);});
 
 test('rebuild removes obsolete chapter pages and private artifacts from deploy output',()=>{
  const cp=require('node:child_process');
