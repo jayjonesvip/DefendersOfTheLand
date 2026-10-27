@@ -62,6 +62,11 @@ async function browserChecks(){
   assert.equal(await page.locator('.comic-transcript li').count(),6);
   assert.equal(await page.locator('.comic-transcript li:nth-child(5) p').count(),5);
   const trigger=page.locator('[data-comic-enlarge]');
+  // Native dialog closure and its queued close event can finish in different frames.
+  const waitForComicClosed=()=>page.waitForFunction(()=>
+   !document.querySelector('[data-comic-dialog]').open&&
+   !document.documentElement.classList.contains('comic-viewer-open')&&
+   document.activeElement===document.querySelector('[data-comic-enlarge]'));
   for(const dark of [false,true]){
    await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
    for(const width of [320,1200]){
@@ -74,12 +79,14 @@ async function browserChecks(){
     await viewport.focus();await page.keyboard.press('PageDown');
     await page.waitForFunction(()=>document.querySelector('.comic-dialog-scroll').scrollTop>0);
     await page.keyboard.press('Escape');
+    await waitForComicClosed();
     assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
     assert(await trigger.evaluate(el=>el===document.activeElement));
     assert.equal(await page.locator('html').evaluate(el=>el.classList.contains('comic-viewer-open')),false);
    }
   }
   await trigger.click();await page.locator('[data-comic-close]').click();
+  await waitForComicClosed();
   assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
   const noScript=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
   const staticComic=await noScript.newPage();await staticComic.goto(base+'/flaming-head-origin.html');
