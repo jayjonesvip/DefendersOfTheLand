@@ -58,71 +58,67 @@ async function browserChecks(){
     if(file==='map.html')assert.equal(await page.locator('.map-chapter-link').getAttribute('href'),require('./content/site.json').ebook.url);
    }
   }
-  await page.goto(base+'/flaming-head-origin.html');
-  assert.equal(await page.locator('.comic-transcript li').count(),7);
-  assert.equal(await page.locator('.comic-transcript li:nth-child(5) p').count(),5);
-  assert.equal(await page.locator('.comic-transcript li:nth-child(6) p').count(),6);
-  assert.equal(await page.locator('.comic-transcript li:nth-child(7) p').last().textContent(),'Flaming Head, thinking: “I am Flaming Head from Cleveland.”');
-  const trigger=page.locator('[data-comic-enlarge]');
-  // Native dialog closure and its queued close event can finish in different frames.
-  const waitForComicClosed=()=>page.waitForFunction(()=>
-   !document.querySelector('[data-comic-dialog]').open&&
-   !document.documentElement.classList.contains('comic-viewer-open')&&
-   document.activeElement===document.querySelector('[data-comic-enlarge]'));
-  for(const dark of [false,true]){
-   await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
-   for(const width of [320,1200]){
-    await page.setViewportSize({width,height:900});
-    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Comic page overflow');
-    await trigger.focus();await page.keyboard.press('Enter');
-    assert(await page.locator('[data-comic-dialog]').evaluate(el=>el.open));
-    assert.equal(await page.locator('[data-comic-close]').evaluate(el=>el===document.activeElement),true);
-    const viewport=page.locator('.comic-dialog-scroll');
-    await viewport.focus();await page.keyboard.press('PageDown');
-    await page.waitForFunction(()=>document.querySelector('.comic-dialog-scroll').scrollTop>0);
-    await page.keyboard.press('Escape');
-    await waitForComicClosed();
-    assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
-    assert(await trigger.evaluate(el=>el===document.activeElement));
-    assert.equal(await page.locator('html').evaluate(el=>el.classList.contains('comic-viewer-open')),false);
+  const comics=[
+   {file:'flaming-head-origin.html',title:'Flaming Head: The One Who Fell',panels:[5,6],artworks:['flaming-head-origin-page-1-v1.webp','flaming-head-origin-page-2-v1.webp']},
+   {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v2.webp','why-so-evil-page-2-v2.webp','why-so-evil-page-3-v1.webp']}
+  ];
+  for(const comic of comics){
+   await page.goto(base+'/'+comic.file);
+   assert.equal(await page.locator('.comic-sheet').count(),comic.artworks.length);
+   assert.equal(await page.locator('.comic-transcript li').count(),comic.panels.reduce((a,b)=>a+b,0));
+   for(let index=0;index<comic.panels.length;index++)assert.equal(await page.locator('.comic-transcript-page').nth(index).locator('li').count(),comic.panels[index]);
+   const transcript=await page.locator('.comic-transcript').textContent();
+   if(comic.file==='flaming-head-origin.html'){
+    assert(transcript.includes('water washes across him'));
+    assert(!transcript.includes('Super Perch'));
+    assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Flaming Head, thinking: “I am Flaming Head… from Cleveland.”');
+   }else{
+    assert(transcript.includes('He could’ve been killed.')&&!transcript.includes('Someone could’ve been hurt.'));
+    const silent=page.locator('.comic-transcript-page').nth(2).locator('li').nth(4);
+    assert.equal(await silent.locator('p').count(),1,'Rescue aftermath remains silent');
+    assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Narration: One learned to follow the clues. The other learned to hide them.');
    }
-  }
-  await trigger.click();await page.locator('[data-comic-close]').click();
-  await waitForComicClosed();
-  assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
-  const noScript=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
-  const staticComic=await noScript.newPage();await staticComic.goto(base+'/flaming-head-origin.html');
-  assert(await staticComic.locator('#comic-transcript').isVisible());
-  assert.equal(await staticComic.locator('[data-comic-enlarge]').getAttribute('href'),'assets/flaming-head-origin-comic-v2.webp');
-  assert.equal((await noScript.request.get(base+'/assets/flaming-head-origin-comic-v2.webp')).status(),200);
-  await staticComic.goto(base+'/why-so-evil.html');
-  assert.equal(await staticComic.locator('[data-comic-enlarge]').count(),2);
-  assert.equal(await staticComic.locator('.comic-transcript li').count(),12);
-  for(let index=0;index<2;index++)assert.equal(await staticComic.locator('[data-comic-enlarge]').nth(index).getAttribute('href'),`assets/why-so-evil-page-${index+1}-v1.webp`);
-  await noScript.close();
-  await page.goto(base+'/characters.html');
-  for(const id of ['billy','doc'])assert.equal(await page.locator(`#${id} .comic-origin-link`).getAttribute('href'),'why-so-evil.html');
-  await page.locator('#billy .comic-origin-link').click();
-  assert(page.url().endsWith('/why-so-evil.html'));
-  assert.equal(await page.locator('.comic-sheet').count(),2);
-  assert.equal(await page.locator('.comic-transcript li').count(),12);
-  assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Narration: One learned to follow the clues. The other learned to hide them.');
-  for(const dark of [false,true]){
-   await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
-   for(const width of [320,1200]){
-    await page.setViewportSize({width,height:900});
-    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Prequel page overflow');
-    for(let index=0;index<2;index++){
-     const link=page.locator('[data-comic-enlarge]').nth(index);
-     await link.focus();await page.keyboard.press('Enter');
-     assert(await page.locator('[data-comic-dialog]').evaluate(el=>el.open));
-     assert((await page.locator('[data-comic-dialog] img').getAttribute('src')).endsWith(`why-so-evil-page-${index+1}-v1.webp`));
-     assert.equal(await page.locator('#comic-dialog-title').textContent(),`WHY SO EVIL? · Page ${index+1}`);
-     if(index===0)await page.keyboard.press('Escape');else await page.locator('[data-comic-close]').click();
-     await page.waitForFunction(index=>!document.querySelector('[data-comic-dialog]').open&&!document.documentElement.classList.contains('comic-viewer-open')&&document.activeElement===document.querySelectorAll('[data-comic-enlarge]')[index],index);
+   for(const dark of [false,true]){
+    await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
+    for(const width of [320,1200]){
+     await page.setViewportSize({width,height:900});
+     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Comic page overflow');
+     for(let index=0;index<comic.artworks.length;index++){
+      const link=page.locator('[data-comic-enlarge]').nth(index);
+      await link.focus();await page.keyboard.press('Enter');
+      assert(await page.locator('[data-comic-dialog]').evaluate(el=>el.open));
+      assert.equal(await page.locator('[data-comic-close]').evaluate(el=>el===document.activeElement),true);
+      assert((await page.locator('[data-comic-dialog] img').getAttribute('src')).endsWith(comic.artworks[index]));
+      await page.locator('[data-comic-dialog] img').evaluate(image=>image.decode());
+      assert.equal(await page.locator('#comic-dialog-title').textContent(),`${comic.title} · Page ${index+1}`);
+      const viewport=page.locator('.comic-dialog-scroll');
+      await viewport.focus();await page.keyboard.press('PageDown');
+      await page.waitForFunction(()=>document.querySelector('.comic-dialog-scroll').scrollTop>0);
+      if(index%2===0)await page.keyboard.press('Escape');else await page.locator('[data-comic-close]').click();
+      // Native closure and the queued close event can finish in different frames.
+      await page.waitForFunction(index=>!document.querySelector('[data-comic-dialog]').open&&!document.documentElement.classList.contains('comic-viewer-open')&&document.activeElement===document.querySelectorAll('[data-comic-enlarge]')[index],index);
+     }
     }
    }
   }
+  const noScript=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
+  const staticComic=await noScript.newPage();
+  for(const comic of comics){
+   await staticComic.goto(base+'/'+comic.file);
+   assert(await staticComic.locator('#comic-transcript').isVisible());
+   assert.equal(await staticComic.locator('[data-comic-enlarge]').count(),comic.artworks.length);
+   for(let index=0;index<comic.artworks.length;index++){
+    assert.equal(await staticComic.locator('[data-comic-enlarge]').nth(index).getAttribute('href'),'assets/'+comic.artworks[index]);
+    assert.equal((await noScript.request.get(base+'/assets/'+comic.artworks[index])).status(),200);
+   }
+  }
+  await noScript.close();
+  await page.goto(base+'/characters.html');
+  for(const [id,destination] of [['billy','why-so-evil.html'],['doc','why-so-evil.html'],['flaming-head','flaming-head-origin.html']]){
+   assert.equal(await page.locator(`#${id} .comic-origin-link`).getAttribute('href'),destination);
+  }
+  await page.locator('#billy .comic-origin-link').click();
+  assert(page.url().endsWith('/why-so-evil.html'));
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');
    assert.equal(await page.locator('[data-book-progress]').textContent(),'0 of 1 chapters completed');

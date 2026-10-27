@@ -18,12 +18,14 @@ Moving files out of the current tree does not erase previous public Git history 
 
 ## Website-exclusive comic
 
-`flaming-head-origin.cjs` renders **Flaming Head: The One Who Fell**, the author-approved website-exclusive seven-panel origin comic. It is linked from the homepage and Flaming Head’s character card, with a text transcript and an optional keyboard-accessible enlarged view. The books and KDP sources are unchanged.
+`flaming-head-origin.cjs` renders **Flaming Head: The One Who Fell**, the author-approved website-exclusive two-page origin comic. It is linked from the homepage and Flaming Head’s character card, with a text transcript and an optional keyboard-accessible enlarged view. The books and KDP sources are unchanged.
 
 `website-originals.json` separately inventories the approved public comic WebP. Its lossless encoding preserves the approved proof pixels. When importing a private preview export, preserve these website-only asset files and their inventory; they are not part of the book-preview export. The public source checks validate both inventories and still reject later chapters, full books and private production material.
 
 The comic page has its own 1200 × 630 JPEG sharing image, also listed in `website-originals.json`. Open Graph and Twitter use this wide preview; the comic itself keeps its full portrait artwork.
 
-`why-so-evil.cjs` renders **WHY SO EVIL?**, a two-page schooldays prequel for Billy Warrner and Daniel Orkleson, linked from both character cards. Both approved pages use lossless WebP and the same accessible image viewer, with a complete twelve-panel transcript. Its artwork is separately inventoried as website-only material.
+`why-so-evil.cjs` renders **WHY SO EVIL?**, a three-page schooldays prequel for Billy Warrner and Daniel Orkleson, linked from both character cards. All three approved pages use lossless WebP and the same accessible image viewer, with a complete eighteen-panel transcript. Its artwork is separately inventoried as website-only material.
 
 WHY SO EVIL? also has its own 1200 × 630 JPEG sharing image, featuring the young characters and Daniel’s invention. Its Open Graph and Twitter tags use this wide image.
+
+The latest comic editions use five and six panels for Flaming Head and six panels on each WHY SO EVIL? page. Their transcripts follow the art panel by panel, including the wave washing over Seth and Billy’s final warning. The scorched clue stays palm-sized and pocketed during the rescue.
