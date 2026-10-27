@@ -19,6 +19,10 @@ async function get(file,status=200){
   const file=new URL(location).pathname.slice(rootPath.length)||'index.html';
   const html=await(await get(file)).text();
   assert(html.includes(`rel="canonical" href="${location}"`),file);
+  for(const match of html.matchAll(/<meta (?:property|name)="(?:og:image|twitter:image)" content="([^"]+)">/g)){
+   const image=new URL(match[1],base+'/'+file);
+   if(image.origin===new URL(base).origin)resources.add(image.href);
+  }
   for(const m of html.matchAll(/\b(src|srcset)=["'](.*?)["']/g)){
    for(const value of (m[1]==='srcset'?m[2].split(',').map(s=>s.trim().split(/\s+/)[0]):[m[2]])){
     const url=new URL(value,base+'/'+file);if(url.origin===new URL(base).origin)resources.add(url.href);
