@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -71,12 +71,12 @@
       "sha256": "43127d7135df09db95c4522b187afeeea1723e8afab62bc9246754610b045426"
     },
     {
-      "path": "public/assets/vault-1990-the-new-farts-432.webp",
-      "sha256": "a1e780f2d18329ae1b8568be626bbefa52c37f5fb556da4d6459cc21e5297847"
+      "path": "public/assets/vault-1990-the-new-farts-432-v2.webp",
+      "sha256": "cfdca73ef22d3c4f1233f9f12df2a60454b542801e49c3f74691e64c05fdc86d"
     },
     {
-      "path": "public/assets/vault-1990-the-new-farts-864.webp",
-      "sha256": "0dc4781826a51b26498e64b8a5c58895772f8503e2a095879dd481b984e41ddc"
+      "path": "public/assets/vault-1990-the-new-farts-864-v2.webp",
+      "sha256": "76b2d0013fad83562b631b67fa3c4217925a94cb17b946ee68f275ead03a674e"
     },
     {
       "path": "public/assets/vault-1990-character-sketches-cleaned.webp",
@@ -91,8 +91,8 @@
       "sha256": "4d4752aa60f1d5016a2f76c1fb629fe94eb7a61d05000a4e81884fe5a8f6f837"
     },
     {
-      "path": "public/assets/vault-1990-the-new-farts-cleaned.webp",
-      "sha256": "e8fd87bb67ace914b541ed02e0ca131b3771fca07785e81d3882be8964689051"
+      "path": "public/assets/vault-1990-the-new-farts-cleaned-v2.webp",
+      "sha256": "7fc4e5edff501d2375f1d826a78dc7912656ccac642a1b475ee5db5861af5af7"
     }
   ]
 }

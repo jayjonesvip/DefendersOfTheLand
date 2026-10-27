@@ -279,22 +279,22 @@
     "id": "the-new-farts",
     "label": "PHOTO 4",
     "title": "The New Farts — first issue",
-    "caption": "A South Pole Comic cover introducing an early ensemble: Turbo Boy, Omega Head, Inspector Billy, Bouncin’ Bob, Mol and Fish-O-Matic.",
-    "alt": "Restored archive artwork: The New Farts first-issue cover with colored-pencil superheroes and handwritten introductions.",
+    "caption": "A South Pole Comic cover introducing an early ensemble: Turbo Boy, Omega Head, Inspector Billy, Bouncin’ Bob, Mol and Fist-O-Mite.",
+    "alt": "Restored South Pole Comic cover titled The New Farts, featuring early superheroes including the red flying boxing glove Fist-O-Mite, whose speech bubble says “I’m Fist-O-Mite”.",
     "width": 1086,
     "height": 1448,
-    "original": "assets/vault-1990-the-new-farts-cleaned.webp",
-    "sha256": "e8fd87bb67ace914b541ed02e0ca131b3771fca07785e81d3882be8964689051",
+    "original": "assets/vault-1990-the-new-farts-cleaned-v2.webp",
+    "sha256": "7fc4e5edff501d2375f1d826a78dc7912656ccac642a1b475ee5db5861af5af7",
     "previews": [
       {
         "width": 432,
-        "file": "assets/vault-1990-the-new-farts-432.webp",
-        "bytes": 54476
+        "file": "assets/vault-1990-the-new-farts-432-v2.webp",
+        "bytes": 43144
       },
       {
         "width": 864,
-        "file": "assets/vault-1990-the-new-farts-864.webp",
-        "bytes": 211464
+        "file": "assets/vault-1990-the-new-farts-864-v2.webp",
+        "bytes": 147804
       }
     ]
   }
