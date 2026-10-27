@@ -3,15 +3,15 @@ const {checkSource,files,ids}=require('./scripts/public-policy.cjs');
 const root=__dirname,out=path.join(root,'dist');
 checkSource(root);
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
-const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
+const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
-const approved=JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files;
+const approved=[...JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files,...JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'))).files];
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
 for(const file of ['d3-7.9.0.min.js','D3-LICENSE.txt'])allowed.add('assets/'+file);
-for(const file of [...expected,'styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
+for(const file of [...expected,'styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
 for(const file of files(out))assert(allowed.has(path.relative(out,file).split(path.sep).join('/')),`Unexpected deploy file: ${file}`);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
-assert.equal((sitemap.match(/<loc>/g)||[]).length,16);
+assert.equal((sitemap.match(/<loc>/g)||[]).length,17);
 for(const file of htmlFiles){
  const html=fs.readFileSync(path.join(out,file),'utf8');
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
@@ -51,13 +51,42 @@ async function browserChecks(){
   const base=`http://127.0.0.1:${server.address().port}`;
   for(const width of [320,390,1200]){
    await page.setViewportSize({width,height:900});
-   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
+   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
     await page.goto(base+'/'+file);await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file}: overflow at ${width}`);
     for(const href of await page.locator('[data-resume]:visible').evaluateAll(links=>links.map(a=>a.href)))assert(/-chapter-1\.html$/.test(href),`Stale resume: ${href}`);
     if(file==='map.html')assert.equal(await page.locator('.map-chapter-link').getAttribute('href'),require('./content/site.json').ebook.url);
    }
   }
+  await page.goto(base+'/flaming-head-origin.html');
+  assert.equal(await page.locator('.comic-transcript li').count(),6);
+  assert.equal(await page.locator('.comic-transcript li:nth-child(5) p').count(),5);
+  const trigger=page.locator('[data-comic-enlarge]');
+  for(const dark of [false,true]){
+   await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
+   for(const width of [320,1200]){
+    await page.setViewportSize({width,height:900});
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Comic page overflow');
+    await trigger.focus();await page.keyboard.press('Enter');
+    assert(await page.locator('[data-comic-dialog]').evaluate(el=>el.open));
+    assert.equal(await page.locator('[data-comic-close]').evaluate(el=>el===document.activeElement),true);
+    const viewport=page.locator('.comic-dialog-scroll');
+    await viewport.focus();await page.keyboard.press('PageDown');
+    await page.waitForFunction(()=>document.querySelector('.comic-dialog-scroll').scrollTop>0);
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
+    assert(await trigger.evaluate(el=>el===document.activeElement));
+    assert.equal(await page.locator('html').evaluate(el=>el.classList.contains('comic-viewer-open')),false);
+   }
+  }
+  await trigger.click();await page.locator('[data-comic-close]').click();
+  assert.equal(await page.locator('[data-comic-dialog]').evaluate(el=>el.open),false);
+  const noScript=await browser.newContext({javaScriptEnabled:false,viewport:{width:320,height:900}});
+  const staticComic=await noScript.newPage();await staticComic.goto(base+'/flaming-head-origin.html');
+  assert(await staticComic.locator('#comic-transcript').isVisible());
+  assert.equal(await staticComic.locator('[data-comic-enlarge]').getAttribute('href'),'assets/flaming-head-origin-comic-v1.webp');
+  assert.equal((await noScript.request.get(base+'/assets/flaming-head-origin-comic-v1.webp')).status(),200);
+  await noScript.close();
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');
    assert.equal(await page.locator('[data-book-progress]').textContent(),'0 of 1 chapters completed');

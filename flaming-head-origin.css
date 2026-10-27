@@ -1,0 +1,31 @@
+.origin-comic{max-width:1072px;margin:0 auto;padding:44px 24px 0}
+.comic-heading{max-width:760px;margin:0 auto 30px;text-align:center}
+.comic-heading h1{font-size:clamp(42px,7vw,72px);line-height:1.05;margin:14px 0 20px}
+.comic-heading h1 span{display:block;color:var(--accent)}
+.comic-heading>p:not(.eyebrow){font-family:BookSerif,Georgia,serif}
+.comic-text-link{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}
+.comic-page{margin:0}
+.comic-enlarge{display:block;cursor:zoom-in;border:1px solid var(--line);box-shadow:6px 6px 0 var(--line)}
+.comic-enlarge img{display:block;width:100%;height:auto}
+.comic-page figcaption{color:var(--muted);font-size:13px;text-align:center;margin:18px 0 0;line-height:1.8}
+.comic-transcript{max-width:720px;margin:56px auto;scroll-margin-top:110px}
+.comic-transcript h2{margin:8px 0 24px}
+.comic-transcript ol{list-style:none;margin:0;padding:0;display:grid;gap:24px}
+.comic-transcript li{border-top:1px solid var(--line);padding-top:20px}
+.comic-transcript h3{font-size:25px;margin:0 0 12px}
+.comic-transcript p{line-height:1.85;margin:0 0 12px}
+.comic-closing{border-top:3px solid var(--ink);padding:30px 0 0;display:grid;gap:16px}
+.comic-closing h2{margin:8px 0}.comic-closing .actions{justify-content:flex-start;align-items:center}
+.comic-dialog{width:min(1200px,100%);height:100%;max-width:100%;max-height:100%;margin:auto;padding:16px;background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.comic-dialog[open]{display:flex;flex-direction:column;gap:12px}
+.comic-dialog::backdrop{background:#000c}
+.comic-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-shrink:0}
+.comic-dialog-header h2{font-size:26px;margin:0}
+.comic-dialog-header button{flex-shrink:0;min-width:84px}
+.comic-dialog>p{font-size:13px;margin:0;flex-shrink:0}
+.comic-dialog-scroll{overflow:auto;min-height:0;flex:1;overscroll-behavior:contain}
+.comic-dialog-scroll:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.comic-dialog-scroll img{display:block;width:1024px;max-width:none;height:auto}
+html.comic-viewer-open{overflow:hidden}
+@media(min-width:800px){.origin-comic{padding-top:64px}.comic-closing{grid-template-columns:1fr 1.3fr;align-items:center;gap:36px}}
+@media(max-width:480px){.origin-comic{padding:32px 18px 0}.comic-closing .button{width:100%}.comic-heading .eyebrow{font-size:10px;letter-spacing:1px}}

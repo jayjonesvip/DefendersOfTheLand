@@ -48,6 +48,7 @@ function renderCharacters({characters,img,escape:esc}){
    <span class="character-tag character-tag-${details.group}">${tags[details.group]}</span>
    <p class="character-description">${esc(details.description)}</p>
    ${help}
+   ${c.id==='flaming-head'?'<p><a class="comic-origin-link" href="flaming-head-origin.html">Read Flaming Head’s origin comic <span aria-hidden="true">→</span></a></p>':''}
    <a class="character-first-book" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">First appears in Book ${bookName} <span aria-hidden="true">→</span></a>
   </article>`;
  }).join('');
