@@ -60,7 +60,7 @@ async function browserChecks(){
   }
   const comics=[
    {file:'flaming-head-origin.html',title:'Flaming Head: The One Who Fell',panels:[5,6],artworks:['flaming-head-origin-page-1-v1.webp','flaming-head-origin-page-2-v1.webp']},
-   {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v2.webp','why-so-evil-page-2-v2.webp','why-so-evil-page-3-v1.webp']}
+   {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v3.webp','why-so-evil-page-2-v3.webp','why-so-evil-page-3-v1.webp']}
   ];
   for(const comic of comics){
    await page.goto(base+'/'+comic.file);
