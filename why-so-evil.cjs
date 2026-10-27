@@ -1,7 +1,7 @@
 const file='why-so-evil.html',title='WHY SO EVIL?';
 const artworks=[
- {file:'why-so-evil-page-1-v2.webp',width:1024,height:1536,alt:'Why So Evil?, page one. Young Billy finds Daniel’s notebook and admires his generator. The two friends face a classmate’s mockery.'},
- {file:'why-so-evil-page-2-v2.webp',width:1024,height:1536,alt:'Why So Evil?, page two. Billy follows trolley tracks and a small scorched clue to Daniel’s untested generator in the school workshop.'},
+ {file:'why-so-evil-page-1-v3.webp',width:1024,height:1536,alt:'Why So Evil?, page one. Young Billy finds Daniel’s notebook and admires his generator. The two friends face a classmate’s mockery.'},
+ {file:'why-so-evil-page-2-v3.webp',width:1024,height:1536,alt:'Why So Evil?, page two. Billy follows trolley tracks and a small scorched clue to Daniel’s untested generator in the school workshop.'},
  {file:'why-so-evil-page-3-v1.webp',width:1024,height:1536,alt:'Why So Evil?, page three. Billy cuts the power to protect a trapped student. Daniel blames Billy, and their friendship breaks apart.'}
 ];
 const socialImage={file:'why-so-evil-social-1200x630-v2.jpg',width:1200,height:630,type:'image/jpeg',alt:'Young Billy Warrner and Daniel Orkleson with an electrical invention beneath the title Why So Evil?, a three-page prequel comic by Jay Jones.'};
@@ -14,14 +14,14 @@ const pages=[
   {description:'Billy examines a torn scrap of graph paper caught on a rosebush. Another scrap lies near a groundskeeper’s cart.',dialogue:[['Billy','You left your bag open again.']]},
   {description:'Billy follows the scraps to the cart, where Daniel finds his burgundy bound notebook among fallen leaves. Daniel looks relieved.',dialogue:[['Daniel','How did you find it?'],['Billy','I followed what you left behind.']]},
   {description:'Later in the laboratory, Daniel proudly demonstrates a small generator lighting a bulb. The generator sits on a green wheeled trolley. Billy watches with sincere admiration.',dialogue:[['Billy','You built that yourself?'],['Daniel','Every bit of it.']]},
-  {description:'Two taller students pass the boys and their invention. One glances dismissively at the glowing bulb.',dialogue:[['Student','All that for a lightbulb?']]},
-  {description:'Billy stays beside Daniel after the others leave. Daniel looks toward a science fair poster, his wounded expression becoming determined.',dialogue:[['Billy','I still think it’s brilliant.'],['Daniel','Tomorrow, they’ll all think so.']]}
+  {description:'Two taller students pass the boys and their invention. Bradley glances dismissively at the glowing bulb.',dialogue:[['Bradley','All that for a lightbulb, Dorkelson?']]},
+  {description:'Billy stays beside Daniel after the others leave. Daniel looks toward a poster labeled SCIENCE FAIR, his wounded expression becoming determined.',dialogue:[['Billy','I still think it’s brilliant.'],['Daniel','Tomorrow, I’ll win that science fair.']]}
  ],
  [
-  {description:'The next morning, Daniel’s science fair display is empty. The trolley and generator are gone. Daniel points accusingly at the student who mocked him.',dialogue:[['Daniel','He took it!'],['Student','I never touched it!']]},
+  {description:'The next morning, Daniel’s science fair display is empty. The trolley and generator are gone. Daniel points accusingly at Bradley, the student who mocked him.',captions:['The Next Day'],dialogue:[['Daniel','Bradley took it!'],['Bradley','I never touched it!']]},
   {description:'Billy kneels beside faint trolley tracks in the dusty floor beneath the display. A short piece of freshly cut wire lies nearby.',dialogue:[['Billy','Then let’s see where it went.']]},
   {description:'Billy follows the tracks down a service corridor. At a basement workshop door, he examines a palm-sized scrap of graph paper with scorched edges and part of Daniel’s handwritten diagram. He holds the scrap in his left hand while his right hand holds a pencil beside his small tan notebook.'},
-  {description:'Billy opens the door. Daniel works on a much larger generator built on the same green trolley. His blazer hangs on a chair and his white shirt sleeves are rolled up. Billy holds the same small scorched scrap.',dialogue:[['Billy','You moved it yourself?'],['Daniel','I needed more time.']]},
+  {description:'Billy opens the door. Daniel works on a much larger generator built on the same green trolley. His blazer hangs on a chair and his white shirt sleeves are rolled up. Billy holds the same small scorched scrap.',dialogue:[['Billy','You moved it yourself?'],['Daniel','I needed more time.'],['Billy','Then why blame Bradley?'],['Daniel','He wanted everyone laughing at me.']]},
   {description:'Daniel adjusts a control while Billy notices the gauge approaching its red danger zone. The younger student approaches the open door carrying a small school toolbox.',dialogue:[['Daniel','A lightbulb won’t win. This could power the whole school.'],['Billy','Has it been tested?']]},
   {description:'The younger student steps inside with the toolbox. A cable spits sparks beside a tall storage shelf. Billy turns toward the danger, the small clue tucked into his blazer pocket. Daniel watches the rising gauge.',dialogue:[['Student','I brought the tools you wanted.'],['Billy','Daniel—turn it off.'],['Daniel','Just a little more…']]}
  ],

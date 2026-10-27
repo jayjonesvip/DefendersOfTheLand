@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -15,12 +15,12 @@
       "sha256": "be118e093697227a0aa6a628261e12674c90f0f79d816dea3630e5c9e09c3686"
     },
     {
-      "path": "public/assets/why-so-evil-page-1-v2.webp",
-      "sha256": "0c87bb885736d13f60446892ef5971c5016bb32b2549eb5b0741b717640b527d"
+      "path": "public/assets/why-so-evil-page-1-v3.webp",
+      "sha256": "d1a24b4e7125cdd5fd21cf916d85a75dc8d58c6a2154ae721df0d668d7672bc4"
     },
     {
-      "path": "public/assets/why-so-evil-page-2-v2.webp",
-      "sha256": "40eee42b326127bd945ff89a00d42b650bd604eeb271475a45f5e6f7e04f132a"
+      "path": "public/assets/why-so-evil-page-2-v3.webp",
+      "sha256": "f16505c187f290a35ab35ff8a3803d5cad5c921455a76b16aeee2f15970e3cb9"
     },
     {
       "path": "public/assets/why-so-evil-page-3-v1.webp",
