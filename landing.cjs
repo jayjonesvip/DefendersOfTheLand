@@ -36,6 +36,7 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
     <p class="launch-intro">An illustrated superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or try Chapter 1 free here.</p>
     <div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','launch-read launch-read-hero')}<a class="launch-resume" data-resume hidden>Continue reading →</a></div>
     <div class="hero-editions">${editions(origin)}</div>
+    <p class="launch-audience">Superhero books for kids and younger teens, ages 9–14.</p>
     <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>The complete four-book series.</span></p>
     ${series('launch-series-link button secondary')}
     <div class="hero-extras">${link('downloads.html','Download a free sample')}${link('origins.html','Read the Chapter 1 preview')}</div>
