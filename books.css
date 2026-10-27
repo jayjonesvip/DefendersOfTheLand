@@ -54,3 +54,5 @@
 @media(max-width:599px){.catalog-order-title{display:none}.catalog-order-number{font-size:9px}.catalog-order{gap:20px}.catalog-order ol{gap:12px}.catalog-closing .actions{width:100%}.catalog-closing .button{width:100%;justify-content:space-between;text-align:left}.catalog-series-link{font-size:12px;gap:12px}}
 @media(hover:hover) and (pointer:fine){.catalog-cover a:hover img,.catalog-cover a:focus-visible img,.catalog-order a:hover img{transform:translateY(-4px)}}
 @media(prefers-reduced-motion:reduce){.catalog-cover img,.catalog-order img{transition:none}.catalog-cover a:hover img,.catalog-cover a:focus-visible img,.catalog-order a:hover img{transform:none}}
+
+.catalog-purchases-with-sample{grid-template-columns:repeat(3,minmax(0,1fr))}.catalog-purchases-with-sample .button{min-width:0;white-space:normal;text-align:center}
