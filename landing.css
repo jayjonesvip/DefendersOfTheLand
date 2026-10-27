@@ -172,3 +172,8 @@
 @media(min-width:1168px){.launch-announcement{margin-inline:auto}}
 @media(max-width:759px){.launch-hero{grid-template-areas:"location location" "volume volume" "title title" "author author" "tagline art" "intro intro" "primary primary" "editions editions" "complete complete" "series series" "extras extras"}.hero-series-complete{grid-area:complete}}
 @media(max-width:599px){.launch-announcement{grid-template-columns:minmax(0,1fr) 44px;align-items:start;padding:16px;gap:12px}.launch-announcement>div{grid-column:1;grid-row:1}.announcement-dismiss{grid-column:2;grid-row:1}.launch-announcement>.button{grid-column:1/-1;white-space:normal;justify-content:space-between}.launch-free-actions{display:grid}}
+
+.world-comic-feature{margin-top:28px;padding:24px;display:grid;grid-template-columns:104px minmax(0,1fr);align-items:center;gap:24px;background:var(--launch-surface);border:1px solid var(--line);border-top:3px solid var(--accent)}
+.world-comic-portrait{display:block;min-height:44px}.world-comic-portrait img{display:block;width:100%;height:auto}
+.world-comic-feature h3{font-size:32px;line-height:1.15;margin:8px 0 12px}.world-comic-feature .eyebrow{margin:0}.world-comic-feature p:not(.eyebrow){font-size:14px;line-height:1.8}
+@media(max-width:480px){.world-comic-feature{grid-template-columns:1fr;gap:12px}.world-comic-portrait{width:104px}.world-comic-feature h3{font-size:28px}}

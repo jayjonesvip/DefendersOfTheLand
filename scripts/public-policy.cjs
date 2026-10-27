@@ -4,8 +4,11 @@ function files(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e
 function checkSource(root){
  for(const name of ['print','publishing','requirements.txt','docs/art','docs/editorial'])assert(!fs.existsSync(path.join(root,name)),`Private book production material in website repository: ${name}`);
  const inventory=JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'),'utf8'));
- const allowed=new Map(inventory.files.map(f=>[f.path,f.sha256]));
- assert.equal(allowed.size,inventory.files.length,'Duplicate preview inventory path');
+ const originals=JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'),'utf8'));
+ for(const entry of originals.files)assert(/^public\/assets\/[a-z0-9-]+\.webp$/.test(entry.path),'Website originals must be approved WebP marketing assets');
+ const approvedFiles=[...inventory.files,...originals.files];
+ const allowed=new Map(approvedFiles.map(f=>[f.path,f.sha256]));
+ assert.equal(allowed.size,approvedFiles.length,'Duplicate preview or website-original inventory path');
  for(const [name,hash] of allowed){
   assert(!path.isAbsolute(name)&&!name.split(/[\\/]/).includes('..'),'Unsafe preview path');
   assert(name.startsWith('content/')||name.startsWith('public/')||name==='image-manifest.json','Unapproved preview path');
