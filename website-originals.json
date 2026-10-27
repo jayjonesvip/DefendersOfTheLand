@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-comic-v2.webp",
@@ -17,6 +17,10 @@
     {
       "path": "public/assets/why-so-evil-page-2-v1.webp",
       "sha256": "7685e9705eedaa9498fd9722575b041763fa408dec1564c00b1cd41ed436c665"
+    },
+    {
+      "path": "public/assets/why-so-evil-social-1200x630-v1.jpg",
+      "sha256": "81ce06657adb32b84ae6d0565ec8153115bc4a51599623c07b9f3bfc44c0f3b3"
     }
   ]
 }
