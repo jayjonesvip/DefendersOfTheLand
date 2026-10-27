@@ -4,15 +4,15 @@
       "file": "origins-sample-chapters-01-03.pdf",
       "label": "First three chapters — illustrated PDF",
       "mediaType": "application/pdf",
-      "pages": 18,
-      "bytes": 6918558,
-      "sha256": "7d24c69c0fc7dc2efea47848f3c93f302191da3897945ac0a2032a650c0f4d74"
+      "pages": 16,
+      "bytes": 6866740,
+      "sha256": "47995e46390a9312c1ca2dd667cae7fb831d6b889cb773d69e5a2837857a0e8e"
     },
     {
       "file": "origins-sample-chapters-01-03.epub",
       "label": "First three chapters — EPUB",
-      "bytes": 7116872,
-      "sha256": "59b45335542ffb61616c709af095f36e4a586201aad0dfea4d1a357e17c75516",
+      "bytes": 7069540,
+      "sha256": "5bdfe0c4065b1f2c1ad2ce9b7c13686417f7d85c9f7ef7a0f088b51c660ce7a4",
       "mediaType": "application/epub+zip"
     }
   ],
@@ -22,10 +22,10 @@
     "status": "Illustrated web edition - Eighteen paperback chapters",
     "coverIncluded": true,
     "file": "origins-sample-chapters-01-03.epub",
-    "sha256": "59b45335542ffb61616c709af095f36e4a586201aad0dfea4d1a357e17c75516",
-    "bytes": 7116872,
+    "sha256": "5bdfe0c4065b1f2c1ad2ce9b7c13686417f7d85c9f7ef7a0f088b51c660ce7a4",
+    "bytes": 7069540,
     "chapters": 3,
-    "paragraphsChecked": 61,
+    "paragraphsChecked": 59,
     "interiorIllustrations": 12,
     "layout": "reflowable",
     "missingResources": 0
