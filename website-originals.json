@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames. Jay approved the final three-page main coins ending of The Loaded Glove, requested a link on Fist-O-Mite’s character card and a dedicated social-sharing image based on its opening arena panel. Only this main version is approved for the website; the separate archive-only alternative is excluded.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -93,6 +93,22 @@
     {
       "path": "public/assets/vault-1990-the-new-farts-cleaned-v2.webp",
       "sha256": "7fc4e5edff501d2375f1d826a78dc7912656ccac642a1b475ee5db5861af5af7"
+    },
+    {
+      "path": "public/assets/loaded-glove-page-1-v1.webp",
+      "sha256": "17a54e32b397b841bb82300271996e9ebcfc9d9f4997aa51fb000810542e7f23"
+    },
+    {
+      "path": "public/assets/loaded-glove-page-2-v1.webp",
+      "sha256": "6495e0db4566676a74dad644cf26ad21848ae1c45218d297417e24730ba64922"
+    },
+    {
+      "path": "public/assets/loaded-glove-page-3-v1.webp",
+      "sha256": "39ef0f7b1540cf33ea79e4f043a73bb1a38f4b8c3a6c183361cea02ce4c2b7bf"
+    },
+    {
+      "path": "public/assets/loaded-glove-social-1200x630-v1.jpg",
+      "sha256": "ff83a902ded1e629fe388f593fb8fc450d78cad1194f1a23ba441571adda6934"
     }
   ]
 }
