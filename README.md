@@ -25,3 +25,5 @@ Moving files out of the current tree does not erase previous public Git history 
 The comic page has its own 1200 × 630 JPEG sharing image, also listed in `website-originals.json`. Open Graph and Twitter use this wide preview; the comic itself keeps its full portrait artwork.
 
 `why-so-evil.cjs` renders **WHY SO EVIL?**, a two-page schooldays prequel for Billy Warrner and Daniel Orkleson, linked from both character cards. Both approved pages use lossless WebP and the same accessible image viewer, with a complete twelve-panel transcript. Its artwork is separately inventoried as website-only material.
+
+WHY SO EVIL? also has its own 1200 × 630 JPEG sharing image, featuring the young characters and Daniel’s invention. Its Open Graph and Twitter tags use this wide image.

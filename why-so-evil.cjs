@@ -3,7 +3,7 @@ const artworks=[
  {file:'why-so-evil-page-1-v1.webp',width:1024,height:1536,alt:'Why So Evil?, page one: young Billy follows clues to Daniel’s unstable generator in their private school workshop.'},
  {file:'why-so-evil-page-2-v1.webp',width:1024,height:1536,alt:'Why So Evil?, page two: Billy cuts the power to help a trapped student, and his friendship with Daniel breaks apart.'}
 ];
-const socialImage={...artworks[0],type:'image/webp'};
+const socialImage={file:'why-so-evil-social-1200x630-v1.jpg',width:1200,height:630,type:'image/jpeg',alt:'Young Billy Warrner and Daniel Orkleson with an electrical invention beneath the title Why So Evil?, a prequel comic by Jay Jones.'};
 const metadata={
  [file]:{title:'Why So Evil? | Billy and Daniel’s Origin Comic',description:'Read WHY SO EVIL?, a free two-page prequel comic by Jay Jones. Follow young Billy Warrner and Daniel Orkleson through a school mystery and a dangerous choice.',lastModified:'2026-10-27'}
 };

@@ -96,6 +96,7 @@ const assetOut=path.join(out,'assets');fs.mkdirSync(assetOut,{recursive:true});
 const used=new Set([...Object.values(pages).join('').matchAll(/src="assets\/([^"]+)"/g)].map(m=>m[1]));
 used.add('D3-LICENSE.txt');used.add(websiteSeo.socialImage.file);
 used.add(comic.socialImage.file);
+used.add(prequel.socialImage.file);
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
