@@ -107,7 +107,7 @@
     },
     {
       "path": "content/website-book-copy.json",
-      "sha256": "09e8c49dc64bd52f71060ef48dd65b69011cf8440badb79f7c8de5097f8a7b43"
+      "sha256": "d247474eff8f6213b1003809632f61fe9a006e43c9a71d520b478e319d57863b"
     },
     {
       "path": "content/website-seo.json",
@@ -255,15 +255,15 @@
     },
     {
       "path": "public/books/downloads.json",
-      "sha256": "8f8af43ceea1a8d1b4229daae6c0aa711b32588f48004a5842499dc842fa17d5"
+      "sha256": "c2f35e2ba90b5ec819fb492cb3dcfeec04e5f0080c9b5f1e91e39b595e3e791d"
     },
     {
       "path": "public/books/origins-sample-chapters-01-03.epub",
-      "sha256": "59b45335542ffb61616c709af095f36e4a586201aad0dfea4d1a357e17c75516"
+      "sha256": "5bdfe0c4065b1f2c1ad2ce9b7c13686417f7d85c9f7ef7a0f088b51c660ce7a4"
     },
     {
       "path": "public/books/origins-sample-chapters-01-03.pdf",
-      "sha256": "7d24c69c0fc7dc2efea47848f3c93f302191da3897945ac0a2032a650c0f4d74"
+      "sha256": "47995e46390a9312c1ca2dd667cae7fb831d6b889cb773d69e5a2837857a0e8e"
     },
     {
       "path": "public/favicon-32.png",
