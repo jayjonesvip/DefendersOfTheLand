@@ -4,7 +4,7 @@ const footerSettings={
  socialUrls:{Facebook:'',Instagram:'',X:'',Goodreads:''} // [SOCIAL URL: Facebook/Instagram/X/Goodreads]
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const navigation=[['books.html','Books'],['characters.html','Characters'],['map.html','Map'],['1990-vault.html','Vault'],['author.html','Author'],['downloads.html','Free sample']];
+const navigation=[['books.html','Books'],['characters.html','Characters'],['web-comics.html','Comics'],['map.html','Map'],['1990-vault.html','Vault'],['author.html','Author'],['downloads.html','Free sample']];
 const current=(file,href)=>file===href?' aria-current="page"':'';
 function renderHeader(file){return `<header class="site-header"><a href="index.html" class="wordmark"${current(file,'index.html')}>Defenders<span>of the Land</span></a><button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="nav-toggle-label">Menu</span></button><nav id="site-navigation" aria-label="Main navigation">${navigation.map(([href,label])=>`<a href="${href}"${current(file,href)}>${label}</a>`).join('')}<button id="theme" aria-pressed="false">Dark mode</button></nav></header>`;}
 function contactLink(){

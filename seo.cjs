@@ -25,7 +25,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   const activeComic=[comic,prequel,loadedGlove].find(story=>story.file===file);
   const activeBook=chapter?.book||allBooks.find(b=>file===b.id+'.html')||book;
   const isVault=file==='1990-vault.html',isAuthor=file==='author.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
-  const seriesPages=['index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
+  const seriesPages=['web-comics.html','index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
