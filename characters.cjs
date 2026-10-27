@@ -49,6 +49,7 @@ function renderCharacters({characters,img,escape:esc}){
    <p class="character-description">${esc(details.description)}</p>
    ${help}
    ${c.id==='flaming-head'?'<p><a class="comic-origin-link" href="flaming-head-origin.html">Read Flaming Head’s origin comic <span aria-hidden="true">→</span></a></p>':''}
+   ${c.id==='fist'?'<p><a class="comic-origin-link" href="loaded-glove.html" aria-label="Read The Loaded Glove, a Fist-O-Mite comic">Read “The Loaded Glove” <span aria-hidden="true">→</span></a></p>':''}
    ${['billy','doc'].includes(c.id)?'<p><a class="comic-origin-link" href="why-so-evil.html" aria-label="Read Why So Evil?, Billy and Daniel’s prequel comic">Read “WHY SO EVIL?” <span aria-hidden="true">→</span></a></p>':''}
    <a class="character-first-book" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">First appears in Book ${bookName} <span aria-hidden="true">→</span></a>
   </article>`;

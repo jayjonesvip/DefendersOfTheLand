@@ -33,3 +33,5 @@ The latest comic editions use five and six panels for Flaming Head and six panel
 ## Additional vault photographs
 
 The 1990 Vault also includes four author-supplied archive photographs added on October 27, 2026: character sketches, The Flaming Head origin issue, an unfinished Inspector Billy strip, and The New Farts cover. The supplied JPEG originals, cleaned lossless WebP artwork and responsive WebP previews are listed in `website-originals.json`; preserve these website-only archive assets and the expanded gallery when importing a private preview export. The gallery displays cleaned versions matched to the existing warm-paper archive, with corrected perspective and reduced shadows. These historical concepts are distinct from current book canon.
+
+`loaded-glove.cjs` renders **Fist-O-Mite in: The Loaded Glove**, a three-page website-exclusive comic linked from Fist’s character card. It includes the approved coins ending, a seventeen-panel transcript, the shared accessible page viewer, and its own 1200 × 630 social image. The separate archive-only alternative is excluded from this repository and deployment.

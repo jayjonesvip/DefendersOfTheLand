@@ -60,6 +60,8 @@ const comicHead=`<link rel="stylesheet" href="flaming-head-origin.css"><script d
 pages[comic.file]=shell('Flaming Head: The One Who Fell',comic.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 const prequel=require('./why-so-evil.cjs');
 pages[prequel.file]=shell(prequel.title,prequel.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
+const loadedGlove=require('./loaded-glove.cjs');
+pages[loadedGlove.file]=shell(loadedGlove.title,loadedGlove.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 pages['author.html']=shell('About the Author',require('./author.cjs').createAuthor({site:siteConfig,archiveItems,books:[book,...additionalBooks],portrait:read('content/characters/billy.json'),img,escape:esc,link}),'author').replace('</head>','<link rel="stylesheet" href="author.css"></head>');
 const vault=require('./vault.cjs').createVault({root,escape:esc,link,books:[book,...additionalBooks],site:siteConfig,img});
 pages['1990-vault.html']=shell('From the Vault: 1990',vault.body,'vault').replace('</head>','<link rel="stylesheet" href="vault.css"></head>');
@@ -97,6 +99,7 @@ const used=new Set([...Object.values(pages).join('').matchAll(/src="assets\/([^"
 used.add('D3-LICENSE.txt');used.add(websiteSeo.socialImage.file);
 used.add(comic.socialImage.file);
 used.add(prequel.socialImage.file);
+used.add(loadedGlove.socialImage.file);
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
