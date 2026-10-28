@@ -10,7 +10,7 @@
   const item=items[index];
   document.getElementById('vault-lightbox-title').textContent=item.title;
   document.getElementById('vault-lightbox-caption').textContent=item.caption;
-  document.getElementById('vault-lightbox-position').textContent=`${index+1} of ${items.length} · ${item.label==='END'?'Final page':item.label.startsWith('PHOTO ')?'Archive photo '+item.label.slice(6):'Page '+item.label}`;
+  document.getElementById('vault-lightbox-position').textContent=`${index+1} of ${items.length} · ${item.label==='END'?'Final page':item.label.startsWith('PHOTO ')?'Archive piece '+item.label.slice(6):item.label.startsWith('ARCHIVE ')?'Archive piece '+item.label.slice(8):'Page '+item.label}`;
   document.getElementById('vault-lightbox-original').href=item.original;
   image.alt=item.alt;image.width=item.width;image.height=item.height;
   image.hidden=false;error.hidden=true;

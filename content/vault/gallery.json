@@ -297,5 +297,245 @@
         "bytes": 147804
       }
     ]
+  },
+  {
+    "id": "super-zerdo-cover",
+    "title": "Super Zerdo — featuring Inspector Billy",
+    "caption": "A notebook cover gives Super Zerdo top billing and announces a special appearance by Inspector Billy. Jason Jones takes the credits, including “Yours Truly” and “The One & Only.”",
+    "group": "Covers and origins",
+    "label": "ARCHIVE 5",
+    "alt": "Super Zerdo — featuring Inspector Billy. A notebook cover gives Super Zerdo top billing and announces a special appearance by Inspector Billy. Jason Jones takes the credits, including “Yours Truly” and “The One & Only.”",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-super-zerdo-cover-cleaned.webp",
+    "sha256": "60dbee991bfcfdff7f43d96a3afe5e68b638960fe932243dcfe1c21e64e68dce",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-super-zerdo-cover-432.webp",
+        "bytes": 31472
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-super-zerdo-cover-864.webp",
+        "bytes": 115168
+      }
+    ]
+  },
+  {
+    "id": "flaming-head-flame-origin",
+    "title": "Flaming Head — a flame chooses to help",
+    "caption": "A different childhood origin: a flame travels through the stars to Green Valley, Arizona, learns the value of a good fire and chooses to become a public hero. This is a separate concept from the Phil Thompson origin already in the vault.",
+    "group": "Covers and origins",
+    "label": "ARCHIVE 6",
+    "alt": "Flaming Head — a flame chooses to help. A different childhood origin: a flame travels through the stars to Green Valley, Arizona, learns the value of a good fire and chooses to become a public hero. This is a separate concept from the Phil Thompson origin already in the vault.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-flaming-head-flame-origin-cleaned.webp",
+    "sha256": "4ac8eff90fd4838a121012b4d4da834c1e430be4fa6c6e21d30fa06799a2fc2d",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-flaming-head-flame-origin-432.webp",
+        "bytes": 36816
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-flaming-head-flame-origin-864.webp",
+        "bytes": 127126
+      }
+    ]
+  },
+  {
+    "id": "powerless-five-cover",
+    "title": "The Powerless ‘5’",
+    "caption": "Combat Birdie, Jaws O’ Death, Fist-O-Mite, Inspector Billy—and Jason the artist—share a notebook cover. The creator joins his own cast.",
+    "group": "Covers and origins",
+    "label": "ARCHIVE 8",
+    "alt": "The Powerless ‘5’. Combat Birdie, Jaws O’ Death, Fist-O-Mite, Inspector Billy—and Jason the artist—share a notebook cover. The creator joins his own cast.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-powerless-five-cover-cleaned.webp",
+    "sha256": "5cfb414e0fd7377420a82d515e2ad6ce57e89a8751af4669671f8bf27d3f0964",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-powerless-five-cover-432.webp",
+        "bytes": 28938
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-powerless-five-cover-864.webp",
+        "bytes": 107960
+      }
+    ]
+  },
+  {
+    "id": "jaws-expression-studies",
+    "title": "Jaws O’ Death — faces and expressions",
+    "caption": "A whole sheet of experiments with Jaws O’ Death’s jagged mouth, head shape and expression, in pencil and blue ink. Unlike the earlier numbered creation sequence, these studies are shown without an inferred order.",
+    "group": "Character studies",
+    "label": "ARCHIVE 9",
+    "alt": "Jaws O’ Death — faces and expressions. A whole sheet of experiments with Jaws O’ Death’s jagged mouth, head shape and expression, in pencil and blue ink. Unlike the earlier numbered creation sequence, these studies are shown without an inferred order.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-jaws-expression-studies-cleaned.webp",
+    "sha256": "1ff4f266e978fb1bdd54c6e7abc9fc514a2e08443fef40e7742259969358790e",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-jaws-expression-studies-432.webp",
+        "bytes": 36310
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-jaws-expression-studies-864.webp",
+        "bytes": 118472
+      }
+    ]
+  },
+  {
+    "id": "early-cast-studies",
+    "title": "The cast takes shape",
+    "caption": "Inspector Billy, Jaws O’ Death, Fist-O-Mite and Super Zerdo share a character-study sheet with an unnamed figure. The flying boxing glove is explicitly labeled Fist-O-Mite.",
+    "group": "Character studies",
+    "label": "ARCHIVE 10",
+    "alt": "The cast takes shape. Inspector Billy, Jaws O’ Death, Fist-O-Mite and Super Zerdo share a character-study sheet with an unnamed figure. The flying boxing glove is explicitly labeled Fist-O-Mite.",
+    "width": 1448,
+    "height": 1086,
+    "original": "assets/vault-archive-early-cast-studies-cleaned.webp",
+    "sha256": "b1146813d9e0e766d7e9cf1b8734ddfb92728f94877ade0ba4b93c99d145e4f5",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-early-cast-studies-432.webp",
+        "bytes": 15926
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-early-cast-studies-864.webp",
+        "bytes": 53928
+      }
+    ]
+  },
+  {
+    "id": "fist-glove-studies",
+    "title": "Fist-O-Mite, again and again",
+    "caption": "Dozens of Fist-O-Mite sketches fill the page: faces, cuffs, different sizes and flying poses, mixed with stray doodles and handwritten notes. A record of drawing the same character over and over.",
+    "group": "Character studies",
+    "label": "ARCHIVE 13",
+    "alt": "Fist-O-Mite, again and again. Dozens of Fist-O-Mite sketches fill the page: faces, cuffs, different sizes and flying poses, mixed with stray doodles and handwritten notes. A record of drawing the same character over and over.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-fist-glove-studies-cleaned.webp",
+    "sha256": "7a91aeb9ad266b6b554e647ffd930f88e08e463ea935b24ea60f1b4ff8d8c0e5",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-fist-glove-studies-432.webp",
+        "bytes": 42850
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-fist-glove-studies-864.webp",
+        "bytes": 131684
+      }
+    ]
+  },
+  {
+    "id": "flaming-head-bank",
+    "title": "Flaming Head — the bank robbery",
+    "caption": "An unfinished bank-robbery page puts Flaming Head above the city and a defiant gunman at the bank. The lower portion remains largely blank; no missing story panels have been added.",
+    "group": "Action pages",
+    "label": "ARCHIVE 7",
+    "alt": "Flaming Head — the bank robbery. An unfinished bank-robbery page puts Flaming Head above the city and a defiant gunman at the bank. The lower portion remains largely blank; no missing story panels have been added.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-flaming-head-bank-cleaned.webp",
+    "sha256": "8d2a82b5dc9caf276de13e6519db7876fe846e135dac49d1d36af33b57075e9e",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-flaming-head-bank-432.webp",
+        "bytes": 26650
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-flaming-head-bank-864.webp",
+        "bytes": 128024
+      }
+    ]
+  },
+  {
+    "id": "fist-circular-saw",
+    "title": "Fist-O-Mite — the circular saw",
+    "caption": "The flying boxing glove races through a sequence dominated by a giant circular saw. The final panel shows Fist-O-Mite above the damaged saw table.",
+    "group": "Action pages",
+    "label": "ARCHIVE 11",
+    "alt": "Fist-O-Mite — the circular saw. The flying boxing glove races through a sequence dominated by a giant circular saw. The final panel shows Fist-O-Mite above the damaged saw table.",
+    "width": 1448,
+    "height": 1086,
+    "original": "assets/vault-archive-fist-circular-saw-cleaned.webp",
+    "sha256": "0f01445e88dc91fb589af983f6007b40f1ce1439d73dc1c57998fe12aa80bdb9",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-fist-circular-saw-432.webp",
+        "bytes": 22498
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-fist-circular-saw-864.webp",
+        "bytes": 87112
+      }
+    ]
+  },
+  {
+    "id": "fist-drug-stall",
+    "title": "Fist-O-Mite — above the drug stall",
+    "caption": "Fist-O-Mite descends toward a stall marked “DRUGS 1.00,” delivering a blunt childhood-comic threat while three figures stand nearby. The original sparse layout is preserved.",
+    "group": "Action pages",
+    "label": "ARCHIVE 12",
+    "alt": "Fist-O-Mite — above the drug stall. Fist-O-Mite descends toward a stall marked “DRUGS 1.00,” delivering a blunt childhood-comic threat while three figures stand nearby. The original sparse layout is preserved.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-fist-drug-stall-cleaned.webp",
+    "sha256": "822e556eae24a823c41dc9135d8917238afc8203dfa6824df2e5fdd9c05cc0b0",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-fist-drug-stall-432.webp",
+        "bytes": 20562
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-fist-drug-stall-864.webp",
+        "bytes": 101726
+      }
+    ]
+  },
+  {
+    "id": "bob-turns-on-doc",
+    "title": "Bouncin’ Bob turns on Doc Dork",
+    "caption": "Bouncin’ Bob turns on Doc Dork in this notebook action drawing, as identified by Jay. Bob’s round chest emblem, raised fist and grip on Doc make the confrontation the focus; faint construction lines remain visible.",
+    "group": "Action pages",
+    "label": "ARCHIVE 14",
+    "alt": "Bouncin’ Bob turns on Doc Dork. Bouncin’ Bob turns on Doc Dork in this notebook action drawing, as identified by Jay. Bob’s round chest emblem, raised fist and grip on Doc make the confrontation the focus; faint construction lines remain visible.",
+    "width": 1086,
+    "height": 1448,
+    "original": "assets/vault-archive-bob-turns-on-doc-cleaned.webp",
+    "sha256": "c611e58b7e76d52febdf4d0f536d75dc3459aaacac66202b893d35ce92435600",
+    "previews": [
+      {
+        "width": 432,
+        "file": "assets/vault-archive-bob-turns-on-doc-432.webp",
+        "bytes": 25260
+      },
+      {
+        "width": 864,
+        "file": "assets/vault-archive-bob-turns-on-doc-864.webp",
+        "bytes": 103156
+      }
+    ]
   }
 ]

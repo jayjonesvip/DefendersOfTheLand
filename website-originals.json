@@ -1,6 +1,6 @@
 {
   "policy": "Author-approved website-exclusive original artwork; separate from private-book preview exports.",
-  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames.",
+  "approval": "Jay requested an expanded Super Perch conversation, Flaming Head’s closing thought over Cleveland, and a larger impact wave for the website-exclusive origin comic. Jay also requested a dedicated 1200 × 630 social preview for this comic page. Jay approved publishing the two-page WHY SO EVIL? prequel through links on Billy’s and Daniel’s character cards. Jay requested a dedicated social-sharing image for WHY SO EVIL?. Jay authorized publishing the latest two-page Flaming Head and three-page WHY SO EVIL? revisions, matching transcripts, Billy’s short hair and palm-sized clue, the corrected left paper hand, and the three-page sharing-card label. Jay approved Bradley’s name and Dorkelson taunt, the science fair clarification, Daniel’s evasive explanation, and the yellow The Next Day caption, and requested merging them into the site. Jay supplied four additional childhood archive photographs on 2026-10-27 for the website vault; preserve the supplied originals and include responsive previews. Jay requested cleaning the four photographs to match the existing restored vault pages. The gallery uses restored artwork with corrected perspective, even lighting and warm archival paper; supplied JPEG photographs are retained separately. Jay corrected the restored cover’s misread character name to Fist-O-Mite and requested fixing both copy and images. The corrected cover and responsive previews use versioned filenames. Jay supplied thirteen additional childhood archive photographs on October 28, 2026, completing a batch of ten distinct sheets. Restore and contextualize covers, alternate Flaming Head origin, Jaws O’ Death and Fist-O-Mite studies, action pages, and Bouncin’ Bob turning on Doc Dork as identified by Jay. Preserve duplicate source photographs but display one restoration per sheet.",
   "files": [
     {
       "path": "public/assets/flaming-head-origin-social-1200x630-v1.jpg",
@@ -93,6 +93,178 @@
     {
       "path": "public/assets/vault-1990-the-new-farts-cleaned-v2.webp",
       "sha256": "7fc4e5edff501d2375f1d826a78dc7912656ccac642a1b475ee5db5861af5af7"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-20261028-154904.jpg",
+      "sha256": "bc36158f0465ce74a4ed78715402daea047dac5e5261c179a54a016b0a58db49"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026277.jpg",
+      "sha256": "bc36158f0465ce74a4ed78715402daea047dac5e5261c179a54a016b0a58db49"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026278.jpg",
+      "sha256": "565bc33e492791a0f661e0ae52fca4a59727d96b384c655d87e43d3daa86e8ee"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026279.jpg",
+      "sha256": "ee497a6152a82771a2ea9623140381fe62ad5b8f34db386c3e908a8680360109"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026280.jpg",
+      "sha256": "29b39c4439c56956cf07cb68104f973aa0304811aa61dba58bf3aca2ff131bd9"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026281.jpg",
+      "sha256": "2771d2e272f0f862054c9defdcb6d9e6f7b4547239f9e28a3d6a7821187bb5bc"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026282.jpg",
+      "sha256": "02ced8eb5d5a5b4c20efc7f5196a2ad05d3c0f212173081fbd3dff8adf0b0b8b"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026283.jpg",
+      "sha256": "418a83e77f95794dc39baa7b76230b839e070d33206e7609030b3f960a50bffd"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026284.jpg",
+      "sha256": "4175160a077968a3f4a66ed77e3b5717a667129a2d0345559ca7548792b48787"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026285.jpg",
+      "sha256": "60213c39b0229c86cd722d1ff22fde3cad8cde0034f15e432ea0e4b25309f026"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026286.jpg",
+      "sha256": "a391779f493ce5ffccc93060cff874ed56220343ce76371e669ecc5e4e640330"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026287.jpg",
+      "sha256": "2429a3bfcdb04dfcad7fc244584616276d11b608b909a5b3c7135f1420a80cd4"
+    },
+    {
+      "path": "public/assets/vault-batch-two-source-1000026288.jpg",
+      "sha256": "a600c4d3398c4e3366c517a4f766a6821d74be7b8f7df9460b23628ef59f8b4c"
+    },
+    {
+      "path": "public/assets/vault-archive-super-zerdo-cover-cleaned.webp",
+      "sha256": "60dbee991bfcfdff7f43d96a3afe5e68b638960fe932243dcfe1c21e64e68dce"
+    },
+    {
+      "path": "public/assets/vault-archive-super-zerdo-cover-432.webp",
+      "sha256": "d2d73eb40136ce9e32aa64ccdd175ec03e3ab3191c024b6f45431cb1d44ed038"
+    },
+    {
+      "path": "public/assets/vault-archive-super-zerdo-cover-864.webp",
+      "sha256": "55d89c2f29f4e64b30ea579c6416836ff4893c17c28815fcaaf2f6993ac671fe"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-flame-origin-cleaned.webp",
+      "sha256": "4ac8eff90fd4838a121012b4d4da834c1e430be4fa6c6e21d30fa06799a2fc2d"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-flame-origin-432.webp",
+      "sha256": "4905f9db27cfd683a0a79a793584cbcd2d8e8216f22bac54f7813d149469a20f"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-flame-origin-864.webp",
+      "sha256": "82ed354457e09a634c59448c9949f9aa489a16c70a395fc8d65059e3d81c3f40"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-bank-cleaned.webp",
+      "sha256": "8d2a82b5dc9caf276de13e6519db7876fe846e135dac49d1d36af33b57075e9e"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-bank-432.webp",
+      "sha256": "910dff6eb8e103ef592ef62fc5e687929fa5692955f2b08cc4c522da860dfbc2"
+    },
+    {
+      "path": "public/assets/vault-archive-flaming-head-bank-864.webp",
+      "sha256": "cc14ce7d66f3886460820b46013a6bdd3208383edf9287dc780082522710489b"
+    },
+    {
+      "path": "public/assets/vault-archive-powerless-five-cover-cleaned.webp",
+      "sha256": "5cfb414e0fd7377420a82d515e2ad6ce57e89a8751af4669671f8bf27d3f0964"
+    },
+    {
+      "path": "public/assets/vault-archive-powerless-five-cover-432.webp",
+      "sha256": "1bdf772c2defc7dea65e2eddf0cedf4c77074d7c649f2d15079862a03700e310"
+    },
+    {
+      "path": "public/assets/vault-archive-powerless-five-cover-864.webp",
+      "sha256": "d647cf138c909e200c17537e7089bc61485d9939c3dc7481515e701ee9b4b55f"
+    },
+    {
+      "path": "public/assets/vault-archive-jaws-expression-studies-cleaned.webp",
+      "sha256": "1ff4f266e978fb1bdd54c6e7abc9fc514a2e08443fef40e7742259969358790e"
+    },
+    {
+      "path": "public/assets/vault-archive-jaws-expression-studies-432.webp",
+      "sha256": "82cdafd192dc4e33630396854f5b1290c53ecac11463a170cd8d6532a6b398fb"
+    },
+    {
+      "path": "public/assets/vault-archive-jaws-expression-studies-864.webp",
+      "sha256": "c65c4b15961263f6c7f73b945223840ac5e473796a531d80480944b22b46456d"
+    },
+    {
+      "path": "public/assets/vault-archive-early-cast-studies-cleaned.webp",
+      "sha256": "b1146813d9e0e766d7e9cf1b8734ddfb92728f94877ade0ba4b93c99d145e4f5"
+    },
+    {
+      "path": "public/assets/vault-archive-early-cast-studies-432.webp",
+      "sha256": "f518cdd96a3fa3912d3bd4eec1e0aba794607fd8ab162269ce3bb66ba315197d"
+    },
+    {
+      "path": "public/assets/vault-archive-early-cast-studies-864.webp",
+      "sha256": "4e2d0f0d005b13c74866d2c0f17444b2a20b8601d5d8ef823ac2bcf0079b711b"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-circular-saw-cleaned.webp",
+      "sha256": "0f01445e88dc91fb589af983f6007b40f1ce1439d73dc1c57998fe12aa80bdb9"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-circular-saw-432.webp",
+      "sha256": "e0a466ddcb95dea4acad25be2efcf89e05c49d2f814c66bc86fd036910be40c0"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-circular-saw-864.webp",
+      "sha256": "1be4b22865c265b172a5f4a01dc34be2763a3ef979826189dc24237eb1f6700e"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-drug-stall-cleaned.webp",
+      "sha256": "822e556eae24a823c41dc9135d8917238afc8203dfa6824df2e5fdd9c05cc0b0"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-drug-stall-432.webp",
+      "sha256": "7733b3f3942dd20273673d6bd2732c8eb7155d95fd836d1a7d152a3665b06b65"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-drug-stall-864.webp",
+      "sha256": "2d42c8d565c4c64f13c042715d8340040ab294ecdc64c50b88ece59b9fd6e842"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-glove-studies-cleaned.webp",
+      "sha256": "7a91aeb9ad266b6b554e647ffd930f88e08e463ea935b24ea60f1b4ff8d8c0e5"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-glove-studies-432.webp",
+      "sha256": "2e9ba6b3a4f0c474870fb68a596cf34ec73920adfe16f851ba0b111528110e79"
+    },
+    {
+      "path": "public/assets/vault-archive-fist-glove-studies-864.webp",
+      "sha256": "2490c7c7f6047171b4a12a9ade4ade16277f3f675ca48a6f3e1d5790b4aca447"
+    },
+    {
+      "path": "public/assets/vault-archive-bob-turns-on-doc-cleaned.webp",
+      "sha256": "c611e58b7e76d52febdf4d0f536d75dc3459aaacac66202b893d35ce92435600"
+    },
+    {
+      "path": "public/assets/vault-archive-bob-turns-on-doc-432.webp",
+      "sha256": "1496180683fe5c5af4b3716aef66055533254d318788e191c4d52656d2035577"
+    },
+    {
+      "path": "public/assets/vault-archive-bob-turns-on-doc-864.webp",
+      "sha256": "ac02659fa03cb567329000cbe283e3f7d6f853434140e151d51da05f9d390550"
     }
   ]
 }

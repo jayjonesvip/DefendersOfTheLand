@@ -103,7 +103,7 @@
     },
     {
       "path": "content/vault/gallery.json",
-      "sha256": "328e2ab5f175f394c00a3122c4d24732a0be76df2df06dbc055c96f1cbdeaa3d"
+      "sha256": "918c89f0d27625d8b10517605072846ebc88e4da4d7a7f6e4f0d093ae4c1edf5"
     },
     {
       "path": "content/website-book-copy.json",
@@ -111,7 +111,7 @@
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "cf9fad9c0bb6b096ff636feee89db9f72518556ad9a6554ef4279bf027907f3b"
+      "sha256": "19f30015a39daeda9e373e8e100b6026c599e533e2d99a24ab9581601bf8d771"
     },
     {
       "path": "image-manifest.json",

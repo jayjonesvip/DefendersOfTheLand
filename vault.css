@@ -45,3 +45,5 @@
 @media(max-width:599px){.vault-book-strip strong{display:none}.vault-books .actions,.vault-books .button{width:100%}.vault-books .button{justify-content:space-between;text-align:left}}
 @media(hover:hover) and (pointer:fine){.vault-card:hover,.vault-card:focus-within{transform:translateY(-4px);box-shadow:5px 6px 0 var(--line)}}
 @media(prefers-reduced-motion:reduce){.vault-card{transition:none}.vault-card:hover,.vault-card:focus-within{transform:none}.vault-feature-image{transform:none}}
+
+.vault-collection{margin-block:2.5rem}.vault-collection>h3{font-size:1.6rem;margin-bottom:.5rem}.vault-collection>p{max-width:70ch;margin-bottom:1.5rem}
