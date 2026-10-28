@@ -37,3 +37,5 @@ The 1990 Vault also includes four author-supplied archive photographs added on O
 `loaded-glove.cjs` renders **Fist-O-Mite in: The Loaded Glove**, a three-page website-exclusive comic linked from Fist’s character card. It includes the approved coins ending, a seventeen-panel transcript, the shared accessible page viewer, and its own 1200 × 630 social image. The separate archive-only alternative is excluded from this repository and deployment.
 
 `sticky-situation.cjs` renders **A Sticky Situation**, a two-page Doc Dork’s Failed Experiments comic. It has its own social thumbnail on Web Comics and a second Extra link on Dork’s character card, alongside WHY SO EVIL?. The ten-panel transcript and page viewer follow the existing comic template.
+
+`super-perch.cjs` renders the author-approved five-page website-exclusive comic, Which Way to Superior?, with accessible panel transcripts and its own social image.
