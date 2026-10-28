@@ -467,25 +467,25 @@
     ]
   },
   {
-    "id": "fist-circular-saw",
-    "title": "Fist-O-Mite — the circular saw",
-    "caption": "The flying boxing glove races through a sequence dominated by a giant circular saw. The final panel shows Fist-O-Mite above the damaged saw table.",
+    "id": "fist-monster-truck-tire",
+    "title": "Fist-O-Mite — the monster truck tire",
+    "caption": "Fist-O-Mite races toward a giant monster truck tire in this childhood comic sequence.",
     "group": "Action pages",
     "label": "ARCHIVE 11",
-    "alt": "Fist-O-Mite — the circular saw. The flying boxing glove races through a sequence dominated by a giant circular saw. The final panel shows Fist-O-Mite above the damaged saw table.",
+    "alt": "Restored comic sequence showing Fist-O-Mite flying toward a giant monster truck tire, followed by a small final panel.",
     "width": 1448,
     "height": 1086,
-    "original": "assets/vault-archive-fist-circular-saw-cleaned.webp",
+    "original": "assets/vault-archive-fist-monster-truck-tire-cleaned.webp",
     "sha256": "0f01445e88dc91fb589af983f6007b40f1ce1439d73dc1c57998fe12aa80bdb9",
     "previews": [
       {
         "width": 432,
-        "file": "assets/vault-archive-fist-circular-saw-432.webp",
+        "file": "assets/vault-archive-fist-monster-truck-tire-432.webp",
         "bytes": 22498
       },
       {
         "width": 864,
-        "file": "assets/vault-archive-fist-circular-saw-864.webp",
+        "file": "assets/vault-archive-fist-monster-truck-tire-864.webp",
         "bytes": 87112
       }
     ]
