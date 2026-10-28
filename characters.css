@@ -51,3 +51,7 @@
 @media(prefers-reduced-motion:reduce){.character-gallery .character-card{transition:none}.character-gallery .character-card:hover{transform:none}}
 
 .comic-origin-link{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px;font-size:14px}
+
+.character-links{width:100%;margin-top:auto;padding-top:16px}.character-extras{margin-top:22px;width:100%}.character-extras h3{font-family:BookDisplay,Impact,sans-serif;font-size:22px;font-weight:400;line-height:1;margin:0 0 10px}.character-gallery .character-callout{display:flex;align-items:center;justify-content:space-between;width:100%;gap:14px;min-height:50px;padding:12px 16px;margin:0;background:#ffd54a;color:#000;border:2px solid #000;border-radius:0;box-shadow:3px 3px 0 #000;font-family:BookDisplay,Impact,sans-serif;font-size:23px;font-weight:400;letter-spacing:.3px;line-height:1.15;text-decoration:none}.character-gallery .character-callout:hover{background:#ffe27b;color:#000}.character-gallery .character-callout:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+
+.character-extras .character-callout+.character-callout{margin-top:12px}

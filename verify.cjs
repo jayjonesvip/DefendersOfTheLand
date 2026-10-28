@@ -3,12 +3,12 @@ const {checkSource,files,ids}=require('./scripts/public-policy.cjs');
 const root=__dirname,out=path.join(root,'dist');
 checkSource(root);
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
-const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
+const expected=['index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','web-comics.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
 const approved=[...JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files,...JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'))).files];
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
 for(const file of ['d3-7.9.0.min.js','D3-LICENSE.txt'])allowed.add('assets/'+file);
-for(const file of [...expected,'styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
+for(const file of [...expected,'styles.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','web-comics.css','sitemap.xml','robots.txt','CNAME','.nojekyll','vault/1990/1990Vault.md'])allowed.add(file);
 for(const file of files(out))assert(allowed.has(path.relative(out,file).split(path.sep).join('/')),`Unexpected deploy file: ${file}`);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8');
 assert.equal((sitemap.match(/<loc>/g)||[]).length,expected.length-1);
@@ -17,7 +17,7 @@ for(const file of htmlFiles){
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
  const nav=html.match(/<nav id="site-navigation"[^>]*>(.*?)<\/nav>/s)[1];
  const links=[...nav.matchAll(/<a href="([^"]+)"([^>]*)>/g)];
- assert.deepEqual(links.map(m=>m[1]),['books.html','characters.html','map.html','1990-vault.html','author.html','downloads.html']);
+ assert.deepEqual(links.map(m=>m[1]),['books.html','characters.html','web-comics.html','map.html','1990-vault.html','author.html','downloads.html']);
  assert.deepEqual(links.filter(m=>m[2].includes('aria-current="page"')).map(m=>m[1]),links.some(m=>m[1]===file)?[file]:[]);
  const footer=html.match(/<footer class="site-footer">(.*?)<\/footer>/s)[1];
  for(const href of ['paperback.html','downloads.html','author.html','https://www.amazon.com/author/jayjonesvip','https://www.amazon.com/dp/B0HMXH258N'])assert(footer.includes(`href="${href}"`));
@@ -51,32 +51,58 @@ async function browserChecks(){
   const base=`http://127.0.0.1:${server.address().port}`;
   for(const width of [320,390,1200]){
    await page.setViewportSize({width,height:900});
-   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
+   for(const file of ['index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','web-comics.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
     await page.goto(base+'/'+file);await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file}: overflow at ${width}`);
     for(const href of await page.locator('[data-resume]:visible').evaluateAll(links=>links.map(a=>a.href)))assert(/-chapter-1\.html$/.test(href),`Stale resume: ${href}`);
     if(file==='map.html')assert.equal(await page.locator('.map-chapter-link').getAttribute('href'),require('./content/site.json').ebook.url);
    }
   }
+  await page.goto(base+'/characters.html');
+  assert.equal(await page.locator('#perch .comic-origin-link').getAttribute('href'),'super-perch.html');
+  await page.goto(base+'/web-comics.html');
+  assert.equal(await page.locator('.web-comic-card').count(),5);
+  assert.deepEqual(await page.locator('.web-comic-read').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['super-perch.html','sticky-situation.html','loaded-glove.html','flaming-head-origin.html','why-so-evil.html']);
+  await page.goto(base+'/characters.html');
+  assert.equal(await page.locator('#billy .character-first-book').textContent(),'1st appearance book 1 →');
+  for(const dark of [false,true]){
+   await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
+   const colors=await page.locator('#billy .character-callout').evaluateAll(nodes=>nodes.map(n=>{const s=getComputedStyle(n);return [s.backgroundColor,s.color,s.borderTopColor,s.fontFamily]}));
+   for(const [bg,ink,border,font]of colors){assert.equal(bg,'rgb(255, 213, 74)');assert.equal(ink,'rgb(0, 0, 0)');assert.equal(border,'rgb(0, 0, 0)');assert(font.startsWith('BookDisplay'));}
+  }
   const comics=[
+   {file:'super-perch.html',title:'Super Perch: Which Way to Superior?',panels:[5,5,5,5,5],artworks:Array.from({length:5},(_,i)=>`super-perch-page-${i+1}-v1.webp`)},
    {file:'flaming-head-origin.html',title:'Flaming Head: The One Who Fell',panels:[5,6],artworks:['flaming-head-origin-page-1-v1.webp','flaming-head-origin-page-2-v1.webp']},
-   {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v3.webp','why-so-evil-page-2-v3.webp','why-so-evil-page-3-v1.webp']}
+   {file:'why-so-evil.html',title:'WHY SO EVIL?',panels:[6,6,6],artworks:['why-so-evil-page-1-v3.webp','why-so-evil-page-2-v3.webp','why-so-evil-page-3-v1.webp']},
+   {file:'loaded-glove.html',title:'Fist-O-Mite in: The Loaded Glove',panels:[5,6,6],artworks:['loaded-glove-page-1-v1.webp','loaded-glove-page-2-v1.webp','loaded-glove-page-3-v1.webp']},
+   {file:'sticky-situation.html',title:'A Sticky Situation',panels:[5,5],artworks:['sticky-situation-page-1-v1.webp','sticky-situation-page-2-v1.webp']}
   ];
   for(const comic of comics){
    await page.goto(base+'/'+comic.file);
    assert.equal(await page.locator('.comic-sheet').count(),comic.artworks.length);
    assert.equal(await page.locator('.comic-transcript li').count(),comic.panels.reduce((a,b)=>a+b,0));
    for(let index=0;index<comic.panels.length;index++)assert.equal(await page.locator('.comic-transcript-page').nth(index).locator('li').count(),comic.panels[index]);
+   assert.equal(await page.locator('.comic-sequential a').first().getAttribute('href'),'#comic-page-2');
+   assert.equal(await page.locator('.comic-sequential').last().locator('a').last().getAttribute('href'),'web-comics.html');
    const transcript=await page.locator('.comic-transcript').textContent();
    if(comic.file==='flaming-head-origin.html'){
     assert(transcript.includes('water washes across him'));
     assert(!transcript.includes('Super Perch'));
     assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Flaming Head, thinking: “I am Flaming Head… from Cleveland.”');
-   }else{
+   }else if(comic.file==='why-so-evil.html'){
     assert(transcript.includes('He could’ve been killed.')&&!transcript.includes('Someone could’ve been hurt.'));
     const silent=page.locator('.comic-transcript-page').nth(2).locator('li').nth(4);
     assert.equal(await silent.locator('p').count(),1,'Rescue aftermath remains silent');
     assert.equal(await page.locator('.comic-transcript li').last().locator('p').last().textContent(),'Narration: One learned to follow the clues. The other learned to hide them.');
+   }
+   if(comic.file==='sticky-situation.html'){assert(transcript.includes('RESULT: ALIVE.')&&transcript.includes('COOPERATIVE: NO.'));assert(!await page.locator('.comic-transcript strong').allTextContents().then(labels=>labels.some(label=>label.startsWith('Gum:'))));}
+   if(comic.file==='loaded-glove.html'){
+    const ending=page.locator('.comic-transcript-page').nth(2).locator('li');
+    assert((await ending.nth(1).textContent()).includes('WHAM!!'));
+    assert((await ending.nth(2).textContent()).includes('CLICK.'));
+    assert((await ending.nth(3).textContent()).includes('DUST SETTLES.'));
+    assert(transcript.includes('Got it on camera.')&&!transcript.includes('You’re welcome.'));
+    assert(transcript.includes('Get a picture.')&&!transcript.includes('Stay put.'));
    }
    for(const dark of [false,true]){
     await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
@@ -114,9 +140,10 @@ async function browserChecks(){
   }
   await noScript.close();
   await page.goto(base+'/characters.html');
-  for(const [id,destination] of [['billy','why-so-evil.html'],['doc','why-so-evil.html'],['flaming-head','flaming-head-origin.html']]){
-   assert.equal(await page.locator(`#${id} .comic-origin-link`).getAttribute('href'),destination);
+  for(const [id,destination] of [['billy','why-so-evil.html'],['doc','why-so-evil.html'],['flaming-head','flaming-head-origin.html'],['fist','loaded-glove.html']]){
+   assert.equal(await page.locator(`#${id} .comic-origin-link`).first().getAttribute('href'),destination);
   }
+  assert.deepEqual(await page.locator('#doc .comic-origin-link').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['why-so-evil.html','sticky-situation.html']);
   await page.locator('#billy .comic-origin-link').click();
   assert(page.url().endsWith('/why-so-evil.html'));
   for(const id of ids){

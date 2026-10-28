@@ -16,15 +16,18 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  });
  const comic=require('./flaming-head-origin.cjs');
  const prequel=require('./why-so-evil.cjs');
- const metadata={...websiteSeo.pages,...comic.metadata,...prequel.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
+ const loadedGlove=require('./loaded-glove.cjs');
+ const sticky=require('./sticky-situation.cjs');
+ const perchComic=require('./super-perch.cjs');
+ const metadata={...websiteSeo.pages,...comic.metadata,...prequel.metadata,...loadedGlove.metadata,...sticky.metadata,...perchComic.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
  const chapterPages=new Map();for(const b of allBooks)for(const c of b.entries)chapterPages.set(b.id+'-chapter-'+c.number+'.html',{book:b,chapter:c});
  function render(file,html){
   if(!metadata[file])throw Error('Missing SEO metadata for '+file);
   const {title,description:pageDescription}=metadata[file],canonical=pageUrl(file),chapter=chapterPages.get(file);
-  const activeComic=[comic,prequel].find(story=>story.file===file);
+  const activeComic=[comic,prequel,loadedGlove,sticky,perchComic].find(story=>story.file===file);
   const activeBook=chapter?.book||allBooks.find(b=>file===b.id+'.html')||book;
   const isVault=file==='1990-vault.html',isAuthor=file==='author.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
-  const seriesPages=['index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
+  const seriesPages=['web-comics.html','index.html','books.html','characters.html','map.html','paperback.html','author.html','downloads.html'];
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}

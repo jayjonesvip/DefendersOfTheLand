@@ -20,14 +20,14 @@
   },
   "pages": {
     "index.html": {
-      "title": "Defenders of the Land | Cleveland Superheroes by Jay Jones",
-      "description": "All four Defenders of the Land books by Jay Jones are out in paperback and Kindle. Read Chapter 1 free, try the Origins sample, and explore Cleveland’s world.",
-      "lastModified": "2026-10-26"
+      "title": "Cleveland Superhero Books for Kids | Defenders of the Land",
+      "description": "Discover Defenders of the Land by Jay Jones: four illustrated superhero books for kids ages 9–14, set in Cleveland. Read Chapter 1 free or download a sample.",
+      "lastModified": "2026-10-27"
     },
     "books.html": {
-      "title": "The Four Books | Defenders of the Land by Jay Jones",
-      "description": "Explore all four Defenders of the Land books by Jay Jones. Read free Chapter 1 previews, find the Origins sample, and choose paperback or Kindle editions.",
-      "lastModified": "2026-10-26"
+      "title": "Superhero Books for Kids Ages 9–14 | Defenders of the Land",
+      "description": "Explore four Cleveland superhero books for kids and younger teens ages 9–14. Meet the Defenders of the Land, read Chapter 1 free, and find paperback and Kindle.",
+      "lastModified": "2026-10-27"
     },
     "characters.html": {
       "title": "Meet the Characters | Defenders of the Land",
@@ -98,6 +98,11 @@
       "title": "Something’s Wrong | Clash in Cleveland, Chapter 1",
       "description": "Read “Something’s Wrong,” the free first chapter of Clash in Cleveland by Jay Jones. Preview Book Four of Defenders of the Land, then keep reading on Amazon.",
       "lastModified": "2026-10-26"
+    },
+    "web-comics.html": {
+      "title": "Web Comics | Defenders of the Land",
+      "description": "Read free website-exclusive Defenders of the Land comics by Jay Jones. Meet Fist-O-Mite, Flaming Head, young Billy and Daniel in short Cleveland adventures.",
+      "lastModified": "2026-10-27"
     }
   },
   "socialImage": {
