@@ -60,6 +60,8 @@ const comicHead=`<link rel="stylesheet" href="flaming-head-origin.css"><script d
 pages[comic.file]=shell('Flaming Head: The One Who Fell',comic.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 const prequel=require('./why-so-evil.cjs');
 pages[prequel.file]=shell(prequel.title,prequel.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
+const perchComic=require('./super-perch.cjs');
+pages[perchComic.file]=shell(perchComic.title,perchComic.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 const sticky=require('./sticky-situation.cjs');
 pages[sticky.file]=shell(sticky.title,sticky.createComic({site:siteConfig,escape:esc}),'comic').replace('</head>',comicHead);
 const loadedGlove=require('./loaded-glove.cjs');
@@ -104,6 +106,7 @@ used.add(comic.socialImage.file);
 used.add(prequel.socialImage.file);
 used.add(loadedGlove.socialImage.file);
 used.add(sticky.socialImage.file);
+used.add(perchComic.socialImage.file);
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
