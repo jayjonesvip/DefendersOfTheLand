@@ -41,3 +41,5 @@ The 1990 Vault also includes four author-supplied archive photographs added on O
 `super-perch.cjs` renders the author-approved five-page website-exclusive comic, Which Way to Superior?, with accessible panel transcripts and its own social image.
 
 The October 28 batch adds ten distinct restored sheets from thirteen photographs, bringing the gallery to 23 pieces. Covers and origins, character studies, and action pages have separate browsing sections. The original nine-page reading order is preserved. Bouncin’ Bob’s confrontation with Doc Dork uses Jay’s identification; the two Flaming Head origins remain distinct historical concepts. Source photographs, including duplicate shots, and all cleaned/preview WebPs are inventoried as website-only archive assets. Preserve the expanded gallery and archive assets when importing preview exports.
+
+`seized-up.cjs` renders **Jaws O’ Death: Seized Up**, a six-panel website-exclusive comic linked from Web Comics and Jaws’ character card. It includes a matching transcript, enlarged artwork viewer and dedicated 1200 × 630 sharing image.
