@@ -49,8 +49,7 @@ function renderCharacters({characters,img,escape:esc}){
    <p class="character-description">${esc(details.description)}</p>
    ${help}
    <div class="character-links"><a href="${bookId}.html">Explore Book ${details.firstBook}: ${details.firstBook===1?'Origins':'Lava Lips'}</a><a class="character-first-book character-callout" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">1st appearance book ${details.firstBook} <span aria-hidden="true">→</span></a>
-   ${['fist','flaming-head'].includes(c.id)?`<a class="character-profile-link character-callout" href="${c.id==='fist'?'fist-o-mite.html':'flaming-head.html'}">Meet ${esc(c.alias)} &amp; read the comic →</a>`:''}
-   ${['billy','doc','perch','luke'].includes(c.id)?`<section class="character-extras" aria-label="Extra comics"><h3>Extra</h3><a class="comic-origin-link character-callout" href="${c.id==='luke'?'seized-up.html':c.id==='perch'?'super-perch.html':c.id==='flaming-head'?'flaming-head-origin.html':c.id==='fist'?'loaded-glove.html':'why-so-evil.html'}">${c.id==='luke'?'Seized Up':c.id==='perch'?'Which Way to Superior?':c.id==='flaming-head'?'The One Who Fell':c.id==='fist'?'The Loaded Glove':'WHY SO EVIL?'} <span aria-hidden="true">→</span></a>${c.id==='doc'?'<a class="comic-origin-link character-callout" href="sticky-situation.html">A Sticky Situation <span aria-hidden="true">→</span></a>':''}</section>`:''}</div>
+   <a class="character-profile-link character-callout" href="${require('./character-pages.cjs').profiles[c.id].file}">Meet ${esc(c.alias)} →</a></div>
   </article>`;
  }).join('');
 }

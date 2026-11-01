@@ -33,7 +33,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
-  if(characterProfile){const share=require('./'+characterProfile.source).socialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
+  if(characterProfile){const share=characterProfile.source?require('./'+characterProfile.source).socialImage:characterProfile.comics?.length?require('./'+characterProfile.comics[0]).socialImage:websiteSeo.socialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(isVault){previewImage=pageUrl(archivePreview.file);previewSize={width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)};previewAlt=archiveItems[0].alt;}
   if(activeComic){previewImage=pageUrl('assets/'+activeComic.socialImage.file);previewSize=activeComic.socialImage;previewAlt=activeComic.socialImage.alt;mime=activeComic.socialImage.type;}
   const page={'@type':['books.html','origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description:pageDescription,inLanguage:'en',isPartOf:{'@id':website['@id']}};

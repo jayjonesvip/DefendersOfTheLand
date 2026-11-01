@@ -4,8 +4,8 @@ const {approvedPages,assertApprovedSitemap}=require('./approved-sitemap.cjs');
 const locations=approvedPages.map(file=>site.url+'/'+(file==='index.html'?'':file));
 const check=urls=>assertApprovedSitemap(urls,site.url);
 
-test('all 25 approved pages, including character profiles, pass in any order',()=>{
- assert.equal(locations.length,25);
+test('all 34 approved pages, including character profiles, pass in any order',()=>{
+ assert.equal(locations.length,34);
  assert(locations.includes(site.url+'/seized-up.html'));
  check([...locations].reverse());
 });
