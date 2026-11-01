@@ -4,6 +4,7 @@ const site=require('../content/site.json');
 // Update this explicit boundary only when another public page is approved.
 // Keep it independent of the build so accidental output cannot approve itself.
 const approvedPages=[
+ 'fist-o-mite.html','flaming-head.html',
  'index.html','books.html','web-comics.html','characters.html','map.html',
  'paperback.html','author.html','downloads.html','1990-vault.html',
  'flaming-head-origin.html','why-so-evil.html','loaded-glove.html',

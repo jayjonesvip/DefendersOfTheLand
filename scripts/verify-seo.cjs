@@ -2,7 +2,7 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('n
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist'),config=require('../content/website-seo.json'),site=require('../content/site.json');
 const decode=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const get=(html,name)=>{const match=html.match(new RegExp(`<meta (?:name|property)="${name}" content="([^"]*)">`));assert(match,`Missing ${name}`);return decode(match[1]);};
-config.pages={...config.pages,...require('../flaming-head-origin.cjs').metadata,...require('../why-so-evil.cjs').metadata,...require('../loaded-glove.cjs').metadata,...require('../sticky-situation.cjs').metadata,...require('../super-perch.cjs').metadata,...require('../seized-up.cjs').metadata};
+config.pages={...config.pages,...require('../character-pages.cjs').metadata,...require('../flaming-head-origin.cjs').metadata,...require('../why-so-evil.cjs').metadata,...require('../loaded-glove.cjs').metadata,...require('../sticky-situation.cjs').metadata,...require('../super-perch.cjs').metadata,...require('../seized-up.cjs').metadata};
 const titles=[],descriptions=[],url=page=>site.url+(page==='index.html'?'/':'/'+page);
 for(const [file,metadata]of Object.entries(config.pages)){
  const html=fs.readFileSync(path.join(out,file),'utf8'),title=decode(html.match(/<title>(.*?)<\/title>/)[1]),description=get(html,'description');

@@ -43,3 +43,7 @@ The 1990 Vault also includes four author-supplied archive photographs added on O
 The October 28 batch adds ten distinct restored sheets from thirteen photographs, bringing the gallery to 23 pieces. Covers and origins, character studies, and action pages have separate browsing sections. The original nine-page reading order is preserved. Bouncin’ Bob’s confrontation with Doc Dork uses Jay’s identification; the two Flaming Head origins remain distinct historical concepts. Source photographs, including duplicate shots, and all cleaned/preview WebPs are inventoried as website-only archive assets. Preserve the expanded gallery and archive assets when importing preview exports.
 
 `seized-up.cjs` renders **Jaws O’ Death: Seized Up**, a six-panel website-exclusive comic linked from Web Comics and Jaws’ character card. It includes a matching transcript, enlarged artwork viewer and dedicated 1200 × 630 sharing image.
+
+## Character profiles
+
+`character-pages.cjs` defines the Fist-O-Mite (`fist-o-mite.html`) and Flaming Head (`flaming-head.html`) profiles using approved public preview and web-comic information. Their gallery cards link to the full profiles, where readers find the related comic links. Profiles share the book-page layout, include character-specific metadata and social previews, and are explicitly included in the approved sitemap. Other character cards retain their existing links until their full profiles are added.
