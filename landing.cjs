@@ -33,7 +33,7 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
     <h1 id="launch-title" class="launch-title">Defenders <span class="title-last"><span class="title-small">of the</span> Land</span></h1>
     <p class="launch-author">Jay Jones</p>
     <p class="launch-tagline">${esc(origin.description)}</p>
-    <p class="launch-intro">An illustrated superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or try Chapter 1 free here.</p>
+    <p class="launch-intro">An illustrated middle-grade superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or try Chapter 1 free here.</p>
     <div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','launch-read launch-read-hero')}</div>
     <div class="hero-editions">${editions(origin)}</div>
     <p class="launch-audience">Superhero books for kids and younger teens, ages 9–14.</p>

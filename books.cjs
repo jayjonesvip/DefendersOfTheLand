@@ -19,8 +19,14 @@ function createBooks({books,site,escape:esc,img,link}){
   </article>`;
  }).join('');
  return `<div class="catalog-page">
-  <header class="catalog-hero"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h1>Four books.<br><span>One Cleveland.</span></h1><p>An illustrated superhero series set in Cleveland in 1987.</p><p>Superhero books for kids and younger teens, ages 9–14.</p></div><div class="catalog-hero-cta">${series()}</div></header>
+  <header class="catalog-hero"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h1>Cleveland Superhero Books<br><span>for Ages 9–14</span></h1><p>Four books. One Cleveland. An illustrated middle-grade superhero adventure series set in 1987.</p><p>Superhero books for kids and younger teens, ages 9–14.</p></div><div class="catalog-hero-cta">${series()}</div></header>
   <section class="catalog-order" aria-labelledby="catalog-order-title"><div><p class="eyebrow">BOOK ONE TO BOOK FOUR</p><h2 id="catalog-order-title">Read in order</h2></div><ol>${order}</ol></section>
+  <section class="catalog-reader-guide" aria-labelledby="catalog-reader-guide-title">
+   <p class="eyebrow">FOR PARENTS AND LIBRARIANS</p><h2 id="catalog-reader-guide-title">Find your next superhero adventure</h2>
+   <dl><div><dt>Who are these books for?</dt><dd>Kids and younger teens ages 9–14 who enjoy unlikely heroes, eccentric inventions, and superhero teamwork.</dd></div><div><dt>What is the format?</dt><dd>Illustrated prose adventures: the story is told in text with accompanying illustrations. Try the free first chapter to see whether the reading style suits your reader.</dd></div><div><dt>What is the tone?</dt><dd>Action and humor meet experiments gone wrong, dangerous machines, and heroes learning to use their powers. Friendship, responsibility, and standing up for one another run through the series.</dd></div><div><dt>Where should readers start?</dt><dd>Read Origins, Aftershock, Lava Lips, then Clash in Cleveland. Each book has a free Chapter 1 preview; Origins also has a three-chapter PDF and EPUB sample.</dd></div></dl>
+   <div class="actions">${link('origins-chapter-1.html','Try Origins Chapter 1','button')}${link('downloads.html','Download the free sample','button secondary')}</div>
+   <p>Want more of the characters? ${link('web-comics.html','Read the free website-exclusive comics')} for short adventures alongside the books.</p>
+  </section>
   <section class="catalog-library" aria-labelledby="catalog-library-title"><header><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="catalog-library-title">The books</h2></header><div class="catalog-grid">${cards}</div></section>
   <section class="catalog-closing" aria-labelledby="catalog-closing-title"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="catalog-closing-title">New here?</h2></div><div class="catalog-closing-links"><div class="actions">${link('downloads.html','Get the free sample <span aria-hidden="true">→</span>','button')}${link('characters.html','Meet the characters','button secondary')}${link('map.html','Explore the Land','button secondary')}</div>${series('catalog-series-link')}</div></section>
  </div>`;
