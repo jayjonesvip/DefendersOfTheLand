@@ -32,4 +32,5 @@ for(const [file,metadata]of Object.entries(config.pages)){
 assert.equal(new Set(titles).size,Object.keys(config.pages).length);assert.equal(new Set(descriptions).size,Object.keys(config.pages).length);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8'),entries=[...sitemap.matchAll(/<url><loc>(.*?)<\/loc><lastmod>(.*?)<\/lastmod><\/url>/g)];assert.equal(entries.length,Object.keys(config.pages).length);for(const [,loc,date]of entries){const file=loc===site.url+'/'?'index.html':new URL(loc).pathname.slice(1);assert.equal(date,config.pages[file].lastModified);assert(/^\d{4}-\d{2}-\d{2}$/.test(date));assert(!loc.includes('404.html')&&!loc.endsWith('/index.html'));}
 assert(fs.readFileSync(path.join(out,'robots.txt'),'utf8').includes('Sitemap: '+site.url+'/sitemap.xml'));
-console.log('PASS: 22 unique optimized heads, canonicals, social assets, four works/eight editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and truthful sitemap dates.');
+require('./approved-sitemap.cjs').assertApprovedSitemap(entries.map(([,loc])=>loc));
+console.log(`PASS: ${entries.length} unique optimized heads, canonicals, social assets, four works/eight editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and approved sitemap URLs/dates.`);

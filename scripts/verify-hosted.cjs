@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),crypto=require('node:crypto');
 const site=require('../content/site.json'),{ids}=require('./public-policy.cjs');
+const {assertApprovedSitemap}=require('./approved-sitemap.cjs');
 const base=(process.argv[2]||site.url).replace(/\/$/,'');
 async function get(file,status=200){
  for(let attempt=0;attempt<4;attempt++){
@@ -10,7 +11,7 @@ async function get(file,status=200){
 }
 (async()=>{
  const sitemap=await(await get('sitemap.xml')).text();
- const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);assert.equal(locations.length,22);
+ const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);assertApprovedSitemap(locations);
  assert(locations.some(url=>new URL(url).pathname.endsWith('/flaming-head-origin.html')),'Missing website-exclusive comic');
  assert(locations.some(url=>new URL(url).pathname.endsWith('/why-so-evil.html')),'Missing Billy and Daniel prequel');
  assert(locations.some(url=>new URL(url).pathname.endsWith('/loaded-glove.html')),'Missing Fist comic');
