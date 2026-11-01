@@ -8,6 +8,7 @@ const characterDetails={
  laura:{group:'villains',firstBook:3,description:"Laura can breathe fire—and gets angry fast. As Lava Lips, she must decide how to use her power."}
 };
 function renderCharacters({characters,img,escape:esc}){
+ characters=characters.filter(c=>!['claude','eleanor'].includes(c.id));
  // Measured natural dimensions for legacy PNGs that lack manifest entries.
  const altText={billy:'Inspector Billy in a plaid cap and tan coat, holding a magnifying glass.',fist:'Fist-O-Mite, a red boxing glove with a grinning face.',seth:'Seth Zerdowski wearing an orange Z hoodie and jeans.',jenny:'Jenny Jenkins in a white blouse and pink skirt.',doc:'Doc Dork in a white lab coat and oversized round glasses.',luke:'Jaws O’ Death, a floating blond head with metal jaws.',laura:'Laura Baxter wearing glasses, a black T-shirt and gray sweatpants.'};
  const costumeAlt={seth:'Super Zerdo in an orange suit with white trim and brown gloves and boots.',jenny:'Pink Blur in a pink-and-white costume with white gloves and boots.',laura:'Lava Lips in a black mask, flame-patterned suit, black boots and open coat.'};
@@ -54,11 +55,12 @@ function renderCharacters({characters,img,escape:esc}){
  }).join('');
 }
 function createCharacters({characters,img,escape:esc,site}){
+ characters=characters.filter(c=>!['claude','eleanor'].includes(c.id));
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  return `<section class="contents character-gallery">
   <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet Cleveland’s heroes, villains, and friends. Find out what makes each one special. Then read about them in the <a href="books.html">four books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
   <fieldset class="character-filters" data-character-filters hidden><legend>Show characters</legend><div class="character-filter-buttons">
-   ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
+   ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].filter(([value])=>value==='all'||characters.some(c=>characterDetails[c.id]?.group===value)).map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
   </div></fieldset>
   <p class="character-filter-status" data-character-status role="status" aria-live="polite" aria-atomic="true" hidden>Showing all ${characters.length+(characters.some(c=>c.id==='laura')?0:1)} characters.</p>
   <div class="profiles" id="character-grid">${renderCharacters({characters,img,escape:esc})}</div>
