@@ -39,7 +39,7 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
     <p class="launch-audience">Superhero books for kids and younger teens, ages 9–14.</p>
     <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>The complete four-book series.</span></p>
     ${series('launch-series-link button secondary')}
-    <div class="hero-extras">${link('downloads.html','Download a free sample')}${link('origins.html','Read the Chapter 1 preview')}</div>
+    <div class="hero-extras">${link('books.html#reader-guide','For parents, teachers &amp; librarians')}${link('downloads.html','Download a free sample')}${link('origins.html','Read the Chapter 1 preview')}</div>
    </div>
    <div class="hero-art">
     <div class="hero-halftone" aria-hidden="true"></div>
