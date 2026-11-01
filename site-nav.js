@@ -8,7 +8,7 @@
  function setOpen(open){
   header.classList.toggle('nav-open',open);
   toggle.setAttribute('aria-expanded',String(open));
-  toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');
+  toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
   toggle.querySelector('.nav-toggle-label').textContent=open?'Close':'Menu';
  }
  toggle.addEventListener('click',()=>setOpen(toggle.getAttribute('aria-expanded')!=='true'));
