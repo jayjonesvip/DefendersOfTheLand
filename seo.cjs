@@ -20,11 +20,12 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  const jaws=require('./seized-up.cjs');
  const sticky=require('./sticky-situation.cjs');
  const perchComic=require('./super-perch.cjs');
- const metadata={...websiteSeo.pages,...comic.metadata,...prequel.metadata,...loadedGlove.metadata,...sticky.metadata,...perchComic.metadata,...jaws.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
+ const metadata={...websiteSeo.pages,...require('./character-pages.cjs').metadata,...comic.metadata,...prequel.metadata,...loadedGlove.metadata,...sticky.metadata,...perchComic.metadata,...jaws.metadata,'404.html':{title:'Page Not Found | Defenders of the Land',description:'This page could not be found. Return to Defenders of the Land to read the illustrated Cleveland superhero adventures by Jay Jones.'}};
  const chapterPages=new Map();for(const b of allBooks)for(const c of b.entries)chapterPages.set(b.id+'-chapter-'+c.number+'.html',{book:b,chapter:c});
  function render(file,html){
   if(!metadata[file])throw Error('Missing SEO metadata for '+file);
   const {title,description:pageDescription}=metadata[file],canonical=pageUrl(file),chapter=chapterPages.get(file);
+  const characterProfile=Object.values(require('./character-pages.cjs').profiles).find(p=>p.file===file);
   const activeComic=[comic,prequel,loadedGlove,sticky,perchComic,jaws].find(story=>story.file===file);
   const activeBook=chapter?.book||allBooks.find(b=>file===b.id+'.html')||book;
   const isVault=file==='1990-vault.html',isAuthor=file==='author.html',archivePreview=isVault?archiveItems[0].previews.at(-1):null;
@@ -32,10 +33,12 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
+  if(characterProfile){const share=characterProfile.source?require('./'+characterProfile.source).socialImage:characterProfile.comics?.length?require('./'+characterProfile.comics[0]).socialImage:websiteSeo.socialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(isVault){previewImage=pageUrl(archivePreview.file);previewSize={width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)};previewAlt=archiveItems[0].alt;}
   if(activeComic){previewImage=pageUrl('assets/'+activeComic.socialImage.file);previewSize=activeComic.socialImage;previewAlt=activeComic.socialImage.alt;mime=activeComic.socialImage.type;}
   const page={'@type':['books.html','origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description:pageDescription,inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
+  if(characterProfile){const entity={'@type':'Thing','@id':canonical+'#character',name:characterProfile.name,description:characterProfile.hook,image:pageUrl('assets/'+(manifest[characterProfile.image]?.file||characterProfile.image)),url:canonical};graph.push(entity);page.mainEntity={'@id':entity['@id']};}
   if(activeComic){const story={'@type':'ComicStory','@id':canonical+'#comic',name:activeComic.title||'Flaming Head: The One Who Fell',url:canonical,author:{'@id':author['@id']},image:previewImage,inLanguage:'en',isAccessibleForFree:true,isPartOf:{'@id':page['@id']}};graph.push(story);page.mainEntity={'@id':story['@id']};}
   if(isAuthor){page['@type']='ProfilePage';page.mainEntity={'@id':author['@id']};}
   if(isVault){
@@ -48,7 +51,7 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   }else if(['index.html','books.html','paperback.html','downloads.html'].includes(file)){
    graph.push(series,...allBooks.flatMap(b=>[bookNode(b),...editions(b,file==='paperback.html')]));page.mainEntity={'@id':file==='downloads.html'?siteUrl+'/#origins':series['@id']};
   }else{const b=allBooks.find(b=>file===b.id+'.html');if(b){graph.push(series,bookNode(b),...editions(b));page.mainEntity={'@id':siteUrl+'/#'+b.id};}}
-  const breadcrumbs=[{name:'Home',url:pageUrl('index.html')}];if(isVault)breadcrumbs.push({name:'About the Author',url:pageUrl('author.html')});if(chapter)breadcrumbs.push({name:`Book ${chapter.book.number}: ${chapter.book.title}`,url:pageUrl(chapter.book.id+'.html')});if(file!=='index.html')breadcrumbs.push({name:chapter?`Chapter ${chapter.chapter.number}: ${chapter.chapter.title}`:title.split(' | ')[0],url:canonical});if(file!=='404.html')graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumbs',itemListElement:breadcrumbs.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name,item:b.url}))});
+  const breadcrumbs=[{name:'Home',url:pageUrl('index.html')}];if(characterProfile)breadcrumbs.push({name:'Characters',url:pageUrl('characters.html')});if(isVault)breadcrumbs.push({name:'About the Author',url:pageUrl('author.html')});if(chapter)breadcrumbs.push({name:`Book ${chapter.book.number}: ${chapter.book.title}`,url:pageUrl(chapter.book.id+'.html')});if(file!=='index.html')breadcrumbs.push({name:chapter?`Chapter ${chapter.chapter.number}: ${chapter.chapter.title}`:title.split(' | ')[0],url:canonical});if(file!=='404.html')graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumbs',itemListElement:breadcrumbs.map((b,i)=>({'@type':'ListItem',position:i+1,name:b.name,item:b.url}))});
   const tags=[
    `<meta name="description" content="${escape(pageDescription)}">`,
    `<meta name="author" content="${escape(site.author)}">`,
