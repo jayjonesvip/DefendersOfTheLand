@@ -21,7 +21,7 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
     ${index>0?`<p class="volume-preview">Chapter 1 preview · ${esc(b.entries[0].title)}</p>`:''}
     <div class="volume-actions">${link(`${b.id}-chapter-1.html`,index===0?'Read Chapter 1 →':`Start ${esc(b.title)} →`,'launch-read')}</div>
     <div class="volume-editions">${editions(b)}${!purchase(b).paperback&&!purchase(b).ebook?series('launch-buy'):''}</div>
-    ${link(`${b.id}.html`,index===0?'Read the Chapter 1 preview':`${esc(b.title)} contents`,'launch-contents')}
+    ${link(`${b.id}.html`,`About ${esc(b.title)}`,'launch-contents')}
    </div>
   </article>`).join('');
  return `<div class="launch-page">
@@ -33,13 +33,13 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
     <h1 id="launch-title" class="launch-title">Defenders <span class="title-last"><span class="title-small">of the</span> Land</span></h1>
     <p class="launch-author">Jay Jones</p>
     <p class="launch-tagline">${esc(origin.description)}</p>
-    <p class="launch-intro">An illustrated middle-grade superhero adventure set in Cleveland in 1987. Buy <em>Book One: Origins</em> in paperback or on Kindle, or try Chapter 1 free here.</p>
+    <p class="launch-intro">Meet Cleveland’s unlikely superheroes in 1987. Their adventures are filled with pictures, big surprises, and strange inventions. Start <em>Origins</em> with a free chapter.</p>
     <div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','launch-read launch-read-hero')}</div>
     <div class="hero-editions">${editions(origin)}</div>
     <p class="launch-audience">Superhero books for kids and younger teens, ages 9–14.</p>
-    <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>The complete four-book series.</span></p>
+    <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>Read all four adventures.</span></p>
     ${series('launch-series-link button secondary')}
-    <div class="hero-extras">${link('books.html#reader-guide','For parents, teachers &amp; librarians')}${link('downloads.html','Download a free sample')}${link('origins.html','Read the Chapter 1 preview')}</div>
+    <div class="hero-extras">${link('books.html#reader-guide','For parents, teachers &amp; librarians')}${link('downloads.html','Download a free sample')}${link('origins.html','About Book One: Origins')}</div>
    </div>
    <div class="hero-art">
     <div class="hero-halftone" aria-hidden="true"></div>
@@ -66,7 +66,7 @@ function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}
 
   <section class="launch-closing" aria-labelledby="closing-title" data-reveal>
    <div class="closing-sun" aria-hidden="true"></div>
-   <div class="closing-copy"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="closing-title">Continue the series.</h2><p>An illustrated superhero adventure set in Cleveland in 1987.</p></div>
+   <div class="closing-copy"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="closing-title">Continue the series.</h2><p>Superhero adventures with pictures, set in Cleveland in 1987.</p></div>
    <div class="closing-actions">${series('launch-read launch-read-sun')}${link('downloads.html','Download a free sample','closing-sample')}</div>
   </section>
  </div>`;

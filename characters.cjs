@@ -1,11 +1,11 @@
 // Spoiler-free character summaries and presentation metadata for the public gallery.
 const characterDetails={
- billy:{group:'heroes',firstBook:1,description:"An observant private investigator with a notebook, a magnifying glass and a knack for asking the question everyone else missed."},claude:{group:'allies',firstBook:1,description:"A lakefront investor who wants Cleveland’s waterfront to thrive. Claude believes a better city starts with listening."},
- doc:{group:'villains',firstBook:1,description:"A brilliant inventor with no patience for limits. Daniel Orkleson wants control—and credit for being the smartest man in the room. His reanimation experiments bring discarded objects to life, but his creations have ideas of their own."},eleanor:{group:'villains',firstBook:1,description:"Composed and certain of herself, Eleanor Blackwell puts her faith in Daniel Orkleson—and has little time for Billy’s doubts."},
+ billy:{group:'heroes',firstBook:1,description:"A detective with a notebook and a magnifying glass. Billy spots clues and asks questions others miss."},claude:{group:'allies',firstBook:1,description:"Claude helps fund projects near the lake. He wants to make Cleveland better by listening to people."},
+ doc:{group:'villains',firstBook:1,description:"A clever inventor who brings old objects to life. Doc wants everyone to follow his orders. His creations have other ideas."},eleanor:{group:'villains',firstBook:1,description:"Eleanor trusts Daniel Orkleson and his big plans. She does not want to hear Billy’s doubts."},
  fist:{group:'heroes',firstBook:1,description:"A living, flying boxing glove with a sharp tongue and a loyal heart. Fist-O-Mite decides for himself who deserves his help. His first act of independence is escaping the scientist who expects him to obey."},'flaming-head':{group:'heroes',firstBook:1,description:"A gentle visitor wrapped in flame, with a mysterious connection to Cleveland’s unlikely heroes."},
  jenny:{group:'heroes',firstBook:1,description:"A determined reporter who asks direct questions and keeps moving. As Pink Blur, Jenny brings that same drive to helping Cleveland."},luke:{group:'villains',firstBook:1,description:"A floating head with metal jaws and a mean streak. Jaws O’ Death would rather bite his way through a problem than wait."},
- perch:{group:'heroes',firstBook:1,description:"A small fish with extraordinary powers and plenty of enthusiasm. Super Perch takes protecting his lake seriously."},seth:{group:'heroes',firstBook:1,description:"A kind, awkward teenager learning what to do with extraordinary strength. Seth wants to help, even when he gets things wrong. After a flash over Lake Erie changes his life, he must learn that strength comes with responsibility."},
- laura:{group:'villains',firstBook:3,description:"With a sharp tongue and fiery breath, Laura Baxter has become Lava Lips. She is powerful, bitter and quick to lash out."}
+ perch:{group:'heroes',firstBook:1,description:"A small fish with amazing powers. Super Perch is eager to help and keep his lake safe."},seth:{group:'heroes',firstBook:1,description:"A kind teenager with amazing strength. Seth wants to help, even when he makes mistakes. Now he must learn to use his powers safely."},
+ laura:{group:'villains',firstBook:3,description:"Laura can breathe fire—and gets angry fast. As Lava Lips, she must decide how to use her power."}
 };
 function renderCharacters({characters,img,escape:esc}){
  // Measured natural dimensions for legacy PNGs that lack manifest entries.
@@ -48,7 +48,7 @@ function renderCharacters({characters,img,escape:esc}){
    <span class="character-tag character-tag-${details.group}">${tags[details.group]}</span>
    <p class="character-description">${esc(details.description)}</p>
    ${help}
-   <div class="character-links"><a href="${bookId}.html">Explore Book ${details.firstBook}: ${details.firstBook===1?'Origins':'Lava Lips'}</a><a class="character-first-book character-callout" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">1st appearance book ${details.firstBook} <span aria-hidden="true">→</span></a>
+   <div class="character-links"><a href="${bookId}.html">About Book ${details.firstBook}: ${details.firstBook===1?'Origins':'Lava Lips'}</a><a class="character-first-book character-callout" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read the first chapter free.">Book ${details.firstBook}: Free chapter <span aria-hidden="true">→</span></a>
    <a class="character-profile-link character-callout" href="${require('./character-pages.cjs').profiles[c.id].file}">Meet ${esc(c.alias)} →</a></div>
   </article>`;
  }).join('');
@@ -56,7 +56,7 @@ function renderCharacters({characters,img,escape:esc}){
 function createCharacters({characters,img,escape:esc,site}){
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  return `<section class="contents character-gallery">
-  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet the heroes, villains and allies of Defenders of the Land, an illustrated middle-grade adventure series. Discover their powers and personalities, then follow their stories in the <a href="books.html">four books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
+  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet Cleveland’s heroes, villains, and friends. Find out what makes each one special. Then read about them in the <a href="books.html">four books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
   <fieldset class="character-filters" data-character-filters hidden><legend>Show characters</legend><div class="character-filter-buttons">
    ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
   </div></fieldset>

@@ -156,3 +156,6 @@ footer{line-height:1.8;padding-block:30px 38px}
 .footer-placeholder{overflow-wrap:anywhere}
 .site-footer .footer-invitation{font-size:12px;line-height:1.8;margin:14px 0 0}
 @media(max-width:600px){.site-footer nav{gap:2px 20px}}
+
+/* Give navigation links room for fingers and visible keyboard focus. */
+.site-header nav a{display:inline-flex;align-items:center;min-height:48px;padding-block:10px}

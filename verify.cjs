@@ -64,7 +64,7 @@ async function browserChecks(){
   assert.equal(await page.locator('.web-comic-card').count(),6);
   assert.deepEqual(await page.locator('.web-comic-read').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['seized-up.html','super-perch.html','sticky-situation.html','loaded-glove.html','flaming-head-origin.html','why-so-evil.html']);
   await page.goto(base+'/characters.html');
-  assert.equal(await page.locator('#billy .character-first-book').textContent(),'1st appearance book 1 →');
+  assert.equal(await page.locator('#billy .character-first-book').textContent(),'Book 1: Free chapter →');
   for(const dark of [false,true]){
    await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
    const colors=await page.locator('#billy .character-callout').evaluateAll(nodes=>nodes.map(n=>{const s=getComputedStyle(n);return [s.backgroundColor,s.color,s.borderTopColor,s.fontFamily]}));
