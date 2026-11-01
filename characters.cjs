@@ -1,10 +1,10 @@
 // Spoiler-free character summaries and presentation metadata for the public gallery.
 const characterDetails={
  billy:{group:'heroes',firstBook:1,description:"An observant private investigator with a notebook, a magnifying glass and a knack for asking the question everyone else missed."},claude:{group:'allies',firstBook:1,description:"A lakefront investor who wants Cleveland’s waterfront to thrive. Claude believes a better city starts with listening."},
- doc:{group:'villains',firstBook:1,description:"A brilliant inventor with no patience for limits. Daniel Orkleson wants control—and credit for being the smartest man in the room."},eleanor:{group:'villains',firstBook:1,description:"Composed and certain of herself, Eleanor Blackwell puts her faith in Daniel Orkleson—and has little time for Billy’s doubts."},
- fist:{group:'heroes',firstBook:1,description:"A living, flying boxing glove with a sharp tongue and a loyal heart. Fist-O-Mite decides for himself who deserves his help."},'flaming-head':{group:'heroes',firstBook:1,description:"A gentle visitor wrapped in flame, with a mysterious connection to Cleveland’s unlikely heroes."},
+ doc:{group:'villains',firstBook:1,description:"A brilliant inventor with no patience for limits. Daniel Orkleson wants control—and credit for being the smartest man in the room. His reanimation experiments bring discarded objects to life, but his creations have ideas of their own."},eleanor:{group:'villains',firstBook:1,description:"Composed and certain of herself, Eleanor Blackwell puts her faith in Daniel Orkleson—and has little time for Billy’s doubts."},
+ fist:{group:'heroes',firstBook:1,description:"A living, flying boxing glove with a sharp tongue and a loyal heart. Fist-O-Mite decides for himself who deserves his help. His first act of independence is escaping the scientist who expects him to obey."},'flaming-head':{group:'heroes',firstBook:1,description:"A gentle visitor wrapped in flame, with a mysterious connection to Cleveland’s unlikely heroes."},
  jenny:{group:'heroes',firstBook:1,description:"A determined reporter who asks direct questions and keeps moving. As Pink Blur, Jenny brings that same drive to helping Cleveland."},luke:{group:'villains',firstBook:1,description:"A floating head with metal jaws and a mean streak. Jaws O’ Death would rather bite his way through a problem than wait."},
- perch:{group:'heroes',firstBook:1,description:"A small fish with extraordinary powers and plenty of enthusiasm. Super Perch takes protecting his lake seriously."},seth:{group:'heroes',firstBook:1,description:"A kind, awkward teenager learning what to do with extraordinary strength. Seth wants to help, even when he gets things wrong."},
+ perch:{group:'heroes',firstBook:1,description:"A small fish with extraordinary powers and plenty of enthusiasm. Super Perch takes protecting his lake seriously."},seth:{group:'heroes',firstBook:1,description:"A kind, awkward teenager learning what to do with extraordinary strength. Seth wants to help, even when he gets things wrong. After a flash over Lake Erie changes his life, he must learn that strength comes with responsibility."},
  laura:{group:'villains',firstBook:3,description:"With a sharp tongue and fiery breath, Laura Baxter has become Lava Lips. She is powerful, bitter and quick to lash out."}
 };
 function renderCharacters({characters,img,escape:esc}){
@@ -30,10 +30,10 @@ function renderCharacters({characters,img,escape:esc}){
   let portrait,help='';
   if(c.placeholder){
    portrait='<div class="character-portrait-placeholder"><span aria-hidden="true">LL</span><p>[PORTRAIT: Laura Baxter / Lava Lips]</p></div>';
-  }else if(!c.costumeImage){portrait=portraitImage(c.image,altText[c.id]||c.alias);}
+  }else if(!c.costumeImage){portrait=portraitImage(c.image,altText[c.id]||({claude:'Claude, a Cleveland waterfront investor, in his character portrait.',eleanor:'Eleanor Blackwell, an ally of inventor Daniel Orkleson, in her character portrait.','flaming-head':'Flaming Head, a round orange face surrounded by golden flames.',perch:'Super Perch, a small superhero fish, in his character portrait.'}[c.id]||c.alias));}
   else{
    const toggle=`${c.id}-costume`,hint=`${c.id}-costume-help`;
-   const base=portraitImage(c.image,altText[c.id]||c.alias).replace('<img ','<img class="character-civilian" aria-hidden="true" ');
+   const base=portraitImage(c.image,altText[c.id]||({claude:'Claude, a Cleveland waterfront investor, in his character portrait.',eleanor:'Eleanor Blackwell, an ally of inventor Daniel Orkleson, in her character portrait.','flaming-head':'Flaming Head, a round orange face surrounded by golden flames.',perch:'Super Perch, a small superhero fish, in his character portrait.'}[c.id]||c.alias)).replace('<img ','<img class="character-civilian" aria-hidden="true" ');
    const costume=portraitImage(c.costumeImage,costumeAlt[c.id]||`${c.costumeAlias} costume`).replace('<img ','<img class="character-costume" aria-hidden="true" ');
    portrait=`<input class="character-costume-toggle" type="checkbox" id="${toggle}" aria-label="Keep ${esc(c.costumeAlias)} costume visible" aria-describedby="${hint}">
     <label class="character-transform" for="${toggle}">
@@ -48,7 +48,7 @@ function renderCharacters({characters,img,escape:esc}){
    <span class="character-tag character-tag-${details.group}">${tags[details.group]}</span>
    <p class="character-description">${esc(details.description)}</p>
    ${help}
-   <div class="character-links"><a class="character-first-book character-callout" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">1st appearance book ${details.firstBook} <span aria-hidden="true">→</span></a>
+   <div class="character-links"><a href="${bookId}.html">Explore Book ${details.firstBook}: ${details.firstBook===1?'Origins':'Lava Lips'}</a><a class="character-first-book character-callout" href="${bookId}-chapter-1.html" aria-label="${esc(primary)} first appears in Book ${bookName}. Read its first chapter.">1st appearance book ${details.firstBook} <span aria-hidden="true">→</span></a>
    ${['flaming-head','fist','billy','doc','perch','luke'].includes(c.id)?`<section class="character-extras" aria-label="Extra comics"><h3>Extra</h3><a class="comic-origin-link character-callout" href="${c.id==='luke'?'seized-up.html':c.id==='perch'?'super-perch.html':c.id==='flaming-head'?'flaming-head-origin.html':c.id==='fist'?'loaded-glove.html':'why-so-evil.html'}">${c.id==='luke'?'Seized Up':c.id==='perch'?'Which Way to Superior?':c.id==='flaming-head'?'The One Who Fell':c.id==='fist'?'The Loaded Glove':'WHY SO EVIL?'} <span aria-hidden="true">→</span></a>${c.id==='doc'?'<a class="comic-origin-link character-callout" href="sticky-situation.html">A Sticky Situation <span aria-hidden="true">→</span></a>':''}</section>`:''}</div>
   </article>`;
  }).join('');
@@ -56,7 +56,7 @@ function renderCharacters({characters,img,escape:esc}){
 function createCharacters({characters,img,escape:esc,site}){
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  return `<section class="contents character-gallery">
-  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Characters</h1><p>Meet some of Cleveland’s unlikely heroes and troublemakers.</p></header>
+  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet the heroes, villains and allies of Defenders of the Land, an illustrated middle-grade adventure series. Discover their powers and personalities, then follow their stories in the <a href="books.html">four books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
   <fieldset class="character-filters" data-character-filters hidden><legend>Show characters</legend><div class="character-filter-buttons">
    ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
   </div></fieldset>

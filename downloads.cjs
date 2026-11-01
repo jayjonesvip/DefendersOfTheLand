@@ -32,8 +32,8 @@ function createDownloads({books,site,downloads,escape:esc,img,link}){
   <section class="sample-hero" aria-labelledby="sample-title">
    <div class="sample-hero-copy">
     <p class="eyebrow">BOOK ONE · ORIGINS</p>
-    <h1 id="sample-title">Take a free sample</h1>
-    <p class="sample-intro">Read Chapter 1 of each book on this website, or download Book One’s first three chapters with their illustrations to try offline.</p>
+    <h1 id="sample-title">Free Superhero Book Samples</h1>
+    <p class="sample-intro">Try these illustrated middle-grade superhero books for ages 9–14. Read Chapter 1 of each book on this website, or download Book One’s first three chapters with their illustrations to try offline.</p>
     <div class="sample-downloads">${downloadLinks}</div>
     <p class="sample-includes">Includes the first three chapters with their illustrations.</p>
    </div>
