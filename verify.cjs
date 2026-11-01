@@ -145,7 +145,8 @@ async function browserChecks(){
   const profiles=require('./character-pages.cjs').profiles;
   for(const [id,p] of Object.entries(profiles)){
    assert.equal(await page.locator(`#${id} .comic-origin-link`).count(),0);
-   await page.locator(`#${id} .character-profile-link`).click();assert(page.url().endsWith('/'+p.file));
+   if(['claude','eleanor'].includes(id)){assert.equal(await page.locator(`#${id}`).count(),0);await page.goto(base+'/'+p.file);}
+   else{await page.locator(`#${id} .character-profile-link`).click();assert(page.url().endsWith('/'+p.file));}
    assert.equal(await page.locator('h1').textContent(),p.name);
    assert.deepEqual(await page.locator('.character-comic-link').evaluateAll(a=>a.map(n=>n.getAttribute('href'))),p.comicEntries.map(c=>c.file));
    if(p.comicEntries.length){await page.locator('.character-comic-link').first().click();assert(page.url().endsWith('/'+p.comicEntries[0].file));}

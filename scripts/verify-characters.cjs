@@ -14,17 +14,16 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
    const results=[];
    for(const image of images){image.loading='eager';await image.decode();const canvas=document.createElement('canvas');canvas.width=canvas.height=64;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(image,0,0,64,64);const pixels=ctx.getImageData(0,0,64,64).data;let transparent=0;for(let i=3;i<pixels.length;i+=4)if(pixels[i]<=2)transparent++;results.push({file:image.src.split('/').at(-1),transparent:transparent/4096,corners:[pixels[3],pixels[63*4+3],pixels[(63*64)*4+3],pixels[(64*64-1)*4+3]]});}return results;
   });
-  assert.equal(alpha.length,14);
+  assert.equal(alpha.length,12);
   for(const image of alpha){assert(image.transparent>.2,`Opaque portrait: ${image.file}`);assert(image.corners.every(a=>a<=2),`Opaque portrait corners: ${image.file}`);}
-  assert.equal(await page.locator('.character-card:visible').count(),11);
+  assert.equal(await page.locator('.character-card:visible').count(),9);
   const villain=page.locator('[data-character-filter="villains"]');await villain.focus();await page.keyboard.press('Space');
   assert.equal(await villain.getAttribute('aria-pressed'),'true');
-  assert.deepEqual(await page.locator('.character-card:visible').evaluateAll(nodes=>nodes.map(n=>n.id)),['doc','eleanor','luke','laura']);
-  assert.equal(await page.locator('[data-character-status]').innerText(),'Showing 4 villains.');
-  await page.locator('[data-character-filter="allies"]').click();
-  assert.deepEqual(await page.locator('.character-card:visible').evaluateAll(nodes=>nodes.map(n=>n.id)),['claude']);
+  assert.deepEqual(await page.locator('.character-card:visible').evaluateAll(nodes=>nodes.map(n=>n.id)),['doc','luke','laura']);
+  assert.equal(await page.locator('[data-character-status]').innerText(),'Showing 3 villains.');
+  assert.equal(await page.locator('#claude, #eleanor, [data-character-filter="allies"]').count(),0);
   await page.locator('[data-character-filter="all"]').focus();await page.keyboard.press('Enter');
-  assert.equal(await page.locator('.character-card:visible').count(),11);
+  assert.equal(await page.locator('.character-card:visible').count(),9);
   const opacity=async(id,view)=>Number(await page.locator(`#${id} .character-${view}`).evaluate(n=>getComputedStyle(n).opacity));
   for(const id of ['jenny','seth','laura']){
    assert.equal(await page.locator('#'+id+'-costume').isChecked(),false);
@@ -52,9 +51,9 @@ const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decod
     await label.tap();assert.equal(await input.isChecked(),false);assert.equal(await p.locator('#'+id+' .character-costume').evaluate(n=>getComputedStyle(n).opacity),'0');
     assert.equal(await p.locator('#'+id+' .character-costume').evaluate(n=>getComputedStyle(n).transitionDuration),'0s');
    }
-   if(!javaScriptEnabled){assert.equal(await p.locator('[data-character-filters]').isVisible(),false);assert.equal(await p.locator('.character-card:visible').count(),11);}
+   if(!javaScriptEnabled){assert.equal(await p.locator('[data-character-filters]').isVisible(),false);assert.equal(await p.locator('.character-card:visible').count(),9);}
    assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await mobile.close();
   }
-  console.log('PASS: all 14 character views have real transparency; hover, keyboard focus/Space, persistent pinning, touch, reduced motion and no-JS toggles work; keyboard filters, live counts and pin preservation pass.');
+  console.log('PASS: all 12 character views have real transparency; hover, keyboard focus/Space, persistent pinning, touch, reduced motion and no-JS toggles work; keyboard filters, live counts and pin preservation pass.');
  }finally{await browser?.close();await new Promise(r=>server.close(r));}
 })().catch(error=>{console.error(error);process.exitCode=1});
