@@ -55,7 +55,7 @@ function contentsPage(b,entries){
 }
 const pages={};
 const characterPages=require('./character-pages.cjs');
-for(const [id,profile] of Object.entries(characterPages.profiles))pages[profile.file]=shell(profile.name,characterPages.renderProfile(id,{img,escape:esc}),'character').replace('</head>','<link rel="stylesheet" href="book-contents.css"></head>');
+for(const [id,profile] of Object.entries(characterPages.profiles))pages[profile.file]=shell(profile.name,characterPages.renderProfile(id,{img,escape:esc}),'character').replace('</head>','<link rel="stylesheet" href="book-contents.css"><link rel="stylesheet" href="web-comics.css"></head>');
 const comic=require('./flaming-head-origin.cjs');
 const comicViewerVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'flaming-head-origin.js'))).digest('hex').slice(0,12);
 const comicHead=`<link rel="stylesheet" href="flaming-head-origin.css"><script defer src="flaming-head-origin.js?v=${comicViewerVersion}"></script></head>`;
