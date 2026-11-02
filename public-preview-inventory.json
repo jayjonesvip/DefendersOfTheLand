@@ -1,5 +1,5 @@
 {
-  "policy": "Chapter 1 of each book plus the Book One three-chapter PDF/EPUB samples; public marketing and 1990 archive only",
+  "policy": "Chapter 1 of each book; public marketing and 1990 archive only. Samples link to Amazon; no PDF or EPUB downloads.",
   "files": [
     {
       "path": "content/book-one-marketing.json",
@@ -111,7 +111,7 @@
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "ca5e6daa1de8166848d2ab5624bcf65650fd573034ef4d82c38c21b1177ba254"
+      "sha256": "4bfd5bf8ef3b2e7094b4a7a6e01c64227829f88d2f38c7967dc8ceff99837d19"
     },
     {
       "path": "image-manifest.json",
@@ -252,18 +252,6 @@
     {
       "path": "public/assets/zerdo-costume-transparent-v1.webp",
       "sha256": "d7328273c4d731f80aeeb3366fa5d26eb6be7a16fd4ca50136d9cdedba9791fb"
-    },
-    {
-      "path": "public/books/downloads.json",
-      "sha256": "c2f35e2ba90b5ec819fb492cb3dcfeec04e5f0080c9b5f1e91e39b595e3e791d"
-    },
-    {
-      "path": "public/books/origins-sample-chapters-01-03.epub",
-      "sha256": "5bdfe0c4065b1f2c1ad2ce9b7c13686417f7d85c9f7ef7a0f088b51c660ce7a4"
-    },
-    {
-      "path": "public/books/origins-sample-chapters-01-03.pdf",
-      "sha256": "47995e46390a9312c1ca2dd667cae7fb831d6b889cb773d69e5a2837857a0e8e"
     },
     {
       "path": "public/favicon-32.png",

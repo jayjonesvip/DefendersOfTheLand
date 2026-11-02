@@ -1,9 +1,10 @@
+const {samples}=require('./amazon-samples.cjs');
 // Shared static book-page template. Values come from the approved public export.
 function createBookContents({book:b,entries,books,site,blurb,websiteCopy,publicationDetails,escape:esc,img}){
  const purchase=b.number===1?site:b;
  const cover=b.number===1?site.coverImage:b.cover;
  const amazon=(href,label,text,cls='button secondary')=>`<a class="${cls}" href="${esc(href)}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
- const chapterUrl=`${b.id}-chapter-1.html`;
+ const chapterUrl=samples[b.id];
  const previous=books.find(book=>book.number===b.number-1);
  const next=books.find(book=>book.number===b.number+1);
  const description=b.number===1?[blurb.join(' ')]:websiteCopy.descriptions[b.id];
@@ -12,16 +13,16 @@ function createBookContents({book:b,entries,books,site,blurb,websiteCopy,publica
  return `<div class="book-overview">
   <section class="book-hero" aria-labelledby="book-title">
    <figure class="book-hero-cover">${img(cover,`${b.title} by ${site.author}, Book ${b.number} of Defenders of the Land, cover`).replace('loading="lazy"','loading="eager" fetchpriority="high"')}</figure>
-   <div class="book-hero-copy"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><p class="book-volume">Book ${b.number} of ${books.length}</p><h1 id="book-title">${esc(b.title)}</h1><p class="book-hook">${esc(b.description)}</p>${b.number===1?'<p class="book-preview-note">Meet Cleveland’s unlikely heroes in an adventure with pictures by Jay Jones. Read Chapter 1 free, then find the rest on Amazon.</p>':''}
-    <div class="book-hero-actions"><a class="button book-read" href="${chapterUrl}" aria-label="Read ${esc(b.title)} Chapter 1 free">Read Chapter 1 free <span aria-hidden="true">→</span></a><div class="book-buy-actions">${amazon(purchase.paperback.url,`Buy ${b.title} paperback on Amazon`,'Paperback')}${amazon(purchase.ebook.url,`Buy ${b.title} Kindle ebook on Amazon`,'Kindle')}</div><a class="book-editions-link" href="paperback.html">Ways to read <span aria-hidden="true">→</span></a></div>
+   <div class="book-hero-copy"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><p class="book-volume">Book ${b.number} of ${books.length}</p><h1 id="book-title">${esc(b.title)}</h1><p class="book-hook">${esc(b.description)}</p>${b.number===1?'<p class="book-preview-note">Meet Cleveland’s unlikely heroes in an adventure with pictures by Jay Jones. Read sample on Amazon, then find the rest on Amazon.</p>':''}
+    <div class="book-hero-actions"><a class="button book-read" href="${chapterUrl}" aria-label="Read ${esc(b.title)} Chapter 1 free">Read sample on Amazon <span aria-hidden="true">→</span></a><div class="book-buy-actions">${amazon(purchase.paperback.url,`Buy ${b.title} paperback on Amazon`,'Paperback')}${amazon(purchase.ebook.url,`Buy ${b.title} Kindle ebook on Amazon`,'Kindle')}</div><a class="book-editions-link" href="paperback.html">Ways to read <span aria-hidden="true">→</span></a></div>
     <div class="book-details"><p class="eyebrow">Details</p>${publicationDetails(b)}</div>
    </div>
   </section>
   <div class="book-reading-layout">
    <section class="book-about" aria-labelledby="book-about-title"><p class="eyebrow">${esc(b.title)}</p><h2 id="book-about-title">What’s the story?</h2>${description.map(paragraph=>`<p>${esc(paragraph)}</p>`).join('')}</section>
-   <section class="book-preview-card" aria-labelledby="book-preview-title"><p class="eyebrow">FREE CHAPTER 1 PREVIEW</p><h2 id="book-preview-title">Start reading</h2><p class="book-preview-progress" data-book-progress="${b.id}" aria-live="polite">0 of ${entries.length} chapters completed</p><a class="button secondary book-resume" data-resume="${b.id}" hidden>Continue reading →</a><ol class="chapter-list">${entries.map(c=>`<li><a href="${b.id}-chapter-${c.number}.html"><span class="chapter-num">${String(c.number).padStart(2,'0')}</span><span class="book-chapter-title">${esc(c.title)}</span><span class="read-label" data-read="${b.id}:${c.number}"></span></a></li>`).join('')}</ol></section>
+   <section class="book-preview-card" aria-labelledby="book-preview-title"><p class="eyebrow">FREE AMAZON SAMPLE</p><h2 id="book-preview-title">Start reading</h2><p>Try the story in Amazon’s reader, then continue with the Kindle or paperback edition.</p><a class="button secondary" href="${samples[b.id]}">Read sample on Amazon →</a></section>
   </div>
-  ${b.number===1?`<section class="book-sample" aria-labelledby="book-sample-title"><div><p class="eyebrow">PDF &amp; EPUB</p><h2 id="book-sample-title">Read three chapters free</h2><p>Includes the first three chapters with their illustrations.</p></div><div class="book-sample-actions"><a class="button secondary" href="/books/origins-sample-chapters-01-03.pdf" aria-label="Download the free three-chapter Origins PDF sample">Download PDF <span aria-hidden="true">↓</span></a><a class="button secondary" href="/books/origins-sample-chapters-01-03.epub" aria-label="Download the free three-chapter Origins EPUB sample">Download EPUB <span aria-hidden="true">↓</span></a></div></section>`:''}
+
   <p>Meet the <a href="characters.html">heroes, villains and allies</a>, explore the <a href="map.html">places in the story</a>, or visit the <a href="books.html#reader-guide">guide for parents and teachers</a>.</p>
   <section class="book-series" aria-labelledby="book-series-title"><div><p class="eyebrow">THE READING ORDER</p><h2 id="book-series-title">Read the books in order</h2></div><ol>${strip}</ol></section>
   <nav class="book-neighbors" aria-label="Book navigation">${previous?`<a href="${previous.id}.html"><span class="eyebrow">← Previous book</span><span>${esc(previous.title)}</span></a>`:''}${next?`<a href="${next.id}.html" class="book-next"><span class="eyebrow">Next book →</span><span>${esc(next.title)}</span></a>`:`<a href="1990-vault.html"><span class="eyebrow">FROM THE NOTEBOOKS</span><span>Explore the Vault →</span></a><a href="characters.html"><span class="eyebrow">THE CAST</span><span>Meet the characters →</span></a>`}</nav>

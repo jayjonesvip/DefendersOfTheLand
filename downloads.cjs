@@ -1,5 +1,6 @@
+const {samples}=require('./amazon-samples.cjs');
 // Render a complete static page using the existing approved book/sample metadata.
-function createDownloads({books,site,downloads,escape:esc,img,link}){
+function createDownloads({books,site,escape:esc,img,link}){
  const words=['','One','Two','Three','Four'];
  const label=b=>`Book ${words[b.number]}`;
  const purchase=b=>b.number===1?site:b;
@@ -8,15 +9,6 @@ function createDownloads({books,site,downloads,escape:esc,img,link}){
   const p=purchase(b);
   return amazon(p.paperback.url,short?'Paperback':'Buy paperback',`Buy ${b.title} paperback on Amazon`)+amazon(p.ebook.url,short?'Kindle':'Buy Kindle',`Buy ${b.title} Kindle ebook on Amazon`);
  };
- const downloadLinks=downloads.samples.map(d=>{
-  const format=d.file.endsWith('.pdf')?'PDF':'EPUB';
-  const size=`${(d.bytes/1048576).toFixed(1)} MB`;
-  const detail=`${d.pages?`${d.pages} pages · `:''}${size}`;
-  return `<a class="button sample-download" href="books/${esc(d.file)}" download type="${esc(d.mediaType)}" aria-label="Download the Origins first three chapters as ${format}, ${detail}">
-   <svg class="sample-file-icon" viewBox="0 0 32 36" width="32" height="36" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M5 2h14l8 8v24H5Z"/><path d="M19 2v9h8M10 19h12M10 25h9"/></svg>
-   <span class="sample-download-copy"><strong>Download ${format}</strong><span>${detail}</span></span><span class="sample-download-arrow" aria-hidden="true">↓</span>
-  </a>`;
- }).join('');
  const origin=books[0];
  const cover=(b,eager=false)=>img(b.number===1?site.coverImage:b.cover,`${b.title} by ${b.author} cover`).replace('loading="lazy"',eager?'loading="eager" fetchpriority="high"':'loading="lazy"');
  const cards=books.map(b=>`<article class="sample-volume${b.number===4?' sample-volume-featured':''}" aria-labelledby="sample-volume-${b.number}">
@@ -25,7 +17,7 @@ function createDownloads({books,site,downloads,escape:esc,img,link}){
   <h3 id="sample-volume-${b.number}">${link(`${b.id}.html`,esc(b.title))}</h3>
   <p class="sample-volume-hook">${esc(b.description)}</p>
   <p class="sample-availability">Available in paperback and Kindle.</p>
-  <a class="sample-read" href="${b.id}-chapter-1.html" aria-label="Read the first chapter of ${esc(b.title)}">Read first chapter <span aria-hidden="true">→</span></a>
+  <a class="sample-read" href="${samples[b.id]}" aria-label="Read the Amazon sample of ${esc(b.title)}">Read sample on Amazon <span aria-hidden="true">→</span></a>
   <div class="sample-editions">${editionLinks(b,true)}</div>
  </article>`).join('');
  return `<div class="sample-page">
@@ -33,22 +25,18 @@ function createDownloads({books,site,downloads,escape:esc,img,link}){
    <div class="sample-hero-copy">
     <p class="eyebrow">BOOK ONE · ORIGINS</p>
     <h1 id="sample-title">Free Superhero Book Samples</h1>
-    <p class="sample-intro">Try a superhero adventure with pictures, for ages 9–14. Read a free chapter from each book here. Or download the first three chapters of Origins to read without internet access.</p>
-    <div class="sample-downloads">${downloadLinks}</div>
-    <p class="sample-includes">Both downloads include the first three chapters and their pictures. Choose PDF for a page layout or EPUB for an ebook reader.</p>
+    <p class="sample-intro">Try a superhero adventure with pictures, for ages 9–14. Read a free sample of each book on Amazon, then choose a Kindle or paperback edition.</p>
+    <div class="sample-downloads"><a class="button" href="${samples.origins}">Read Origins sample on Amazon →</a></div>
+
    </div>
    <figure class="sample-hero-cover">${link('origins.html',cover(origin,true))}</figure>
   </section>
-  <section class="sample-online" aria-labelledby="sample-online-title">
-   <h2 id="sample-online-title">Read right here</h2>
-   <div>${link('origins-chapter-1.html','Read Chapter 1 →')}${link('origins.html','About Book One →')}</div>
-  </section>
   <section class="sample-keep" aria-labelledby="sample-keep-title">
-   <div><h2 id="sample-keep-title">Keep reading Book One</h2><p>Read Chapter 1 here, then continue Book One: Origins in paperback and as a Kindle ebook on Amazon.</p><p class="sample-availability">Available in paperback and Kindle.</p></div>
+   <div><h2 id="sample-keep-title">Keep reading Book One</h2><p>Read the sample on Amazon, then continue Book One: Origins in paperback and as a Kindle ebook on Amazon.</p><p class="sample-availability">Available in paperback and Kindle.</p></div>
    <div class="actions">${editionLinks(origin)}</div>
   </section>
   <section class="sample-series" aria-labelledby="sample-series-title">
-   <header class="sample-section-heading"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="sample-series-title">Continue the series</h2></header>
+   <header class="sample-section-heading"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="sample-series-title">Choose your sample</h2></header>
    <div class="sample-volume-grid">${cards}</div>
   </section>
   <section class="sample-closing" aria-label="Continue on Amazon">

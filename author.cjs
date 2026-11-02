@@ -1,3 +1,4 @@
+const {samples}=require('./amazon-samples.cjs');
 function createAuthor({site,archiveItems,books,portrait,img,escape:esc,link}){
  const page=archiveItems[0],preview=page.previews[0];
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
@@ -17,7 +18,7 @@ function createAuthor({site,archiveItems,books,portrait,img,escape:esc,link}){
     <figure>${link('characters.html#billy',img(portrait.image,'Inspector Billy in a plaid cap and tan coat, holding a magnifying glass.'))}<figcaption>${esc(portrait.alias)}</figcaption></figure>
    </div><div class="author-vault-copy"><p class="eyebrow">EST. 1990 · COLLECTION 01</p><h3>From the Vault: 1990</h3><p>Before the books, there were notebooks. Explore ${archiveItems.length} restored archive pieces, original characters, and a whole lot of imagination.</p>${link('1990-vault.html','Visit the Vault →','button')}</div></div>
   </section>
-  <section class="author-books" aria-labelledby="author-books-heading"><div class="author-books-heading"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="author-books-heading">The books</h2><div class="author-books-actions">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','button')}${link('books.html','Browse the books','author-browse-link')}</div></div><ol>${covers}</ol></section>
+  <section class="author-books" aria-labelledby="author-books-heading"><div class="author-books-heading"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="author-books-heading">The books</h2><div class="author-books-actions">${link(samples.origins,'Read sample on Amazon <span aria-hidden="true">→</span>','button')}${link('books.html','Browse the books','author-browse-link')}</div></div><ol>${covers}</ol></section>
   <section class="author-reader-actions" aria-labelledby="author-reader-actions-heading"><div><p class="eyebrow">THANK YOU FOR READING</p><h2 id="author-reader-actions-heading">Enjoyed the books?</h2><p>A short Amazon review helps a lot.</p></div><div class="author-reader-links"><div class="actions">${amazon(site.amazonSeriesUrl,'Find the series on Amazon <span aria-hidden="true">→</span>','Find Defenders of the Land on Amazon to choose a book and leave a review','button')}${amazon(site.amazonAuthorUrl,'Visit Jay Jones on Amazon','Visit Jay Jones’s Amazon author page')}</div>${link('paperback.html','Explore paperback & Kindle editions','author-editions-link')}</div></section>
  </section>`;
 }

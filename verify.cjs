@@ -2,6 +2,10 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const {checkSource,files,ids}=require('./scripts/public-policy.cjs');
 const root=__dirname,out=path.join(root,'dist');
 checkSource(root);
+for(const [id,url] of Object.entries(require('./amazon-samples.cjs').samples)){
+ for(const page of ['index','books','downloads',id])assert(fs.readFileSync(path.join(out,page+'.html'),'utf8').includes(`href="${url}"`),`${page}: missing ${id} Amazon sample`);
+}
+assert(!files(out).some(file=>/\.(pdf|epub)$/i.test(file)),'No PDF or EPUB may be deployed');
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
 const expected=[...Object.values(require('./character-pages.cjs').profiles).map(p=>p.file),'index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','seized-up.html','web-comics.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
@@ -154,12 +158,11 @@ async function browserChecks(){
   }
   for(const id of ids){
    await page.goto(base+'/'+id+'.html');
-   assert.equal(await page.locator('[data-book-progress]').textContent(),'0 of 1 chapters completed');
    const approved=id==='origins'?[require('./content/book-one-marketing.json').blurb.join(' ')]:require('./content/website-book-copy.json').descriptions[id];
    assert.deepEqual(await page.locator('.book-about>p:not(.eyebrow)').allTextContents(),approved);
-   assert.equal(await page.locator('.book-read').getAttribute('href'),id+'-chapter-1.html');
+   assert.equal(await page.locator('.book-read').getAttribute('href'),require('./amazon-samples.cjs').samples[id]);
    assert.equal(await page.locator('.book-series a[aria-current="page"]').getAttribute('href'),id+'.html');
-   assert.equal(await page.locator('.chapter-list li').count(),1);
+   assert.equal(await page.locator('.book-preview-card a').getAttribute('href'),require('./amazon-samples.cjs').samples[id]);
    for(const dark of [false,true]){
     await page.evaluate(dark=>document.body.classList.toggle('dark',dark),dark);
     for(const width of [320,600,820,1200]){
@@ -171,9 +174,6 @@ async function browserChecks(){
    await page.locator('[data-complete]').evaluate(a=>a.addEventListener('click',event=>event.preventDefault()));
    await page.locator('[data-complete]').click();
    await page.goto(base+'/'+id+'.html');
-   assert.equal(await page.locator('[data-book-progress]').textContent(),'1 of 1 chapters completed');
-   assert.equal(await page.locator('[data-read]').textContent(),'✓ Read');
-   assert.equal(await page.locator('[data-resume]:visible').getAttribute('href'),id+'-chapter-1.html');
   }
   assert.deepEqual(await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-book-progress-v8'))),legacy);
   assert.equal((await page.evaluate(()=>JSON.parse(localStorage.getItem('defenders-preview-progress-v1')))).read.length,4);
@@ -181,4 +181,4 @@ async function browserChecks(){
   for(const id of ids){const response=await context.request.get(base+'/'+id+'-chapter-2.html');assert.equal(response.status(),404);}
  }finally{await browser?.close();await new Promise(r=>server.close(r));}
 }
-browserChecks().then(()=>console.log('PASS: four Chapter 1 previews, two approved samples, Amazon continuation, no later pages/assets, safe source boundary, mobile layouts and preserved legacy progress.')).catch(error=>{console.error(error);process.exitCode=1;});
+browserChecks().then(()=>console.log('PASS: four Chapter 1 previews, Amazon sample links, Amazon continuation, no later pages/assets, safe source boundary, mobile layouts and preserved legacy progress.')).catch(error=>{console.error(error);process.exitCode=1;});
