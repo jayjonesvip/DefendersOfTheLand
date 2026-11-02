@@ -25,7 +25,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
     assert.equal(await page.locator('.volume-card').count(),4);
     assert.equal(await page.locator('.world-card').count(),4);
-    assert.deepEqual(await page.locator('.launch-about-copy p').allTextContents(),require('../content/book-one-marketing.json').blurb);
+    assert.deepEqual(await page.locator('.launch-about-copy p').allTextContents(),require('../landing-copy.cjs').about);
     assert.equal(await page.locator('.launch-about-copy p').first().locator('strong').count(),1);
     assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['characters.html','map.html','1990-vault.html','author.html']);
     assert.equal(await page.locator('#volume-4-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
