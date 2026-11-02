@@ -18,7 +18,7 @@ body[data-page="home"].dark{--accent:#ffd54a;--muted:#c7d3db;--launch-sun:#ffd54
 .hero-volume{margin:0 0 14px}
 .launch-title{font-size:clamp(64px,8vw,104px);line-height:.95;margin:0 0 16px}
 .title-last{display:block;color:var(--accent)}
-.title-small{display:inline-block;font-size:.38em;max-width:1.8em;line-height:.9;color:var(--ink);margin-right:.15em}
+.title-small{display:inline-block;font-size:.38em;white-space:nowrap;line-height:.9;color:var(--ink);margin-right:.15em}
 .launch-age-badge,.launch-new-badge{display:inline-flex;align-items:center;padding:5px 12px;border-radius:20px;background:var(--launch-fun);color:#102735;font-size:14px;font-weight:800;line-height:1.6}
 .launch-author{font-size:16px;margin:16px 0 0}
 .hero-art{grid-area:art;min-width:0;display:grid;place-items:center}
