@@ -1,7 +1,8 @@
 // Leave these blank until real contact details/social accounts are supplied.
 const footerSettings={
  contactUrl:'', // [CONTACT EMAIL OR FORM URL]
- socialUrls:{Facebook:'',Instagram:'',X:'',Goodreads:''} // [SOCIAL URL: Facebook/Instagram/X/Goodreads]
+ // Instagram handle verified against the connected Upload-Post account.
+ socialUrls:{Facebook:'',Instagram:'https://www.instagram.com/clevelandsuperheroes/',X:'',Goodreads:''}
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const navigation=[['books.html','Books'],['characters.html','Characters'],['web-comics.html','Comics'],['map.html','Map'],['1990-vault.html','Old comics'],['author.html','About Jay'],['downloads.html','Read free']];
