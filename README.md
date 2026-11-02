@@ -47,3 +47,9 @@ The October 28 batch adds ten distinct restored sheets from thirteen photographs
 ## Character profiles
 
 `character-pages.cjs` defines full profiles for all 11 heroes, villains and allies using approved public preview and web-comic information. Gallery cards link to the full profiles, where related comics live; characters without comics get free chapter links. Doc Dork has both WHY SO EVIL? and A Sticky Situation, and Jenny links to her appearance in The Loaded Glove. Lava Lips links to Book Three and its first chapter. Profiles share the book-page layout, include unique metadata and social previews, and are explicitly included in the approved sitemap. `super-perch-character.html` is the profile; `super-perch.html` remains the existing comic URL.
+
+## Mobile landing page
+
+The homepage defaults to navy when no saved theme exists; explicit reader preferences and the light-mode toggle still work. The hero has two actions, and the four books share one series section. `landing-settings.cjs` holds the sourced Origins paperback page count.
+
+To enable “Get notified about the next book,” set the public `BOOK_SIGNUP_URL` repository Actions variable to a real HTTPS email-provider signup page, or set that environment variable for a local build. The build and its tests use the same setting. No signup control appears until a provider is configured; the site does not pretend to collect email or store addresses in the browser.

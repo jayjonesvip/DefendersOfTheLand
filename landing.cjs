@@ -1,74 +1,28 @@
-// Produces ordinary static markup; no client-side rendering or dependencies.
+// All previews remain the approved public export; this page changes presentation only.
 function createLanding({books,site,blurb,geometry,landmarks,escape:esc,img,link}){
  const extras=require('./landing-extras.cjs').createLandingExtras({site,blurb,geometry,landmarks,escape:esc,img});
- const origin=books[0],words=['','One','Two','Three','Four'];
- const label=b=>`Book ${words[b.number]||b.number}`;
- const purchase=b=>b.number===1?site:b;
- const cover=b=>b.number===1?site.coverImage:b.cover;
- const amazon=(href,text,cls,label)=>`<a href="${esc(href)}" class="${cls}" rel="noopener"${label?` aria-label="${esc(label)}"`:''}>${text}</a>`;
- const series=(cls='launch-series-link')=>amazon(site.amazonSeriesUrl,'Get the full series on Amazon <span aria-hidden="true">→</span>',cls,'Get the full Defenders of the Land series on Amazon');
- const editions=b=>{
-  const p=purchase(b);
-  return [p.paperback?amazon(p.paperback.url,'Buy paperback on Amazon','launch-buy',`Buy ${b.title} paperback on Amazon`):'',p.ebook?amazon(p.ebook.url,'Buy Kindle ebook','launch-buy',`Buy ${b.title} Kindle ebook on Amazon`):''].join('');
- };
- const coverLink=(b,hero=false)=>link(`${b.id}.html`,img(cover(b),b.number===1?'Defenders of the Land: Book One: Origins paperback cover':`${b.title} by ${b.author} cover`).replace('loading="lazy"',hero?'loading="eager" fetchpriority="high"':'loading="lazy"'),'launch-cover-link');
- const cards=books.map((b,index)=>`<article class="volume-card${index===0?' volume-featured':''}" aria-labelledby="volume-${b.number}-title" data-reveal>
-   <figure class="volume-cover">${coverLink(b)}</figure>
-   <div class="volume-copy">
-    <p class="eyebrow">${esc(label(b).toUpperCase())} · ${index===0?'ORIGINS':'THE STORY CONTINUES'} ${b.number===4?'<span class="launch-new-badge volume-new-badge">NEW</span>':''}</p>
-    <h3 id="volume-${b.number}-title">${link(`${b.id}.html`,esc(b.title))}</h3>
-    <p class="volume-teaser">${esc(b.description)}</p>
-    ${index>0?`<p class="volume-preview">Chapter 1 preview · ${esc(b.entries[0].title)}</p>`:''}
-    <div class="volume-actions">${link(`${b.id}-chapter-1.html`,index===0?'Read Chapter 1 →':`Start ${esc(b.title)} →`,'launch-read')}</div>
-    <div class="volume-editions">${editions(b)}${!purchase(b).paperback&&!purchase(b).ebook?series('launch-buy'):''}</div>
-    ${link(`${b.id}.html`,`About ${esc(b.title)}`,'launch-contents')}
-   </div>
-  </article>`).join('');
+ const settings=require('./landing-settings.cjs'),origin=books[0];
+ const purchase=b=>b.number===1?site:b,cover=b=>b.number===1?site.coverImage:b.cover;
+ const amazon=(href,text,cls='button secondary',label=text)=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
+ const series=(cls='launch-series-link')=>amazon(site.amazonSeriesUrl,'Get the full series on Amazon →',cls,'Get the full Defenders of the Land series on Amazon');
+ const coverLink=(b,hero=false)=>link(`${b.id}.html`,img(cover(b),`${b.title} by ${b.author} cover`).replace('loading="lazy"',hero?'loading="eager" fetchpriority="high"':'loading="lazy"'),'launch-cover-link');
+ const cards=books.map(b=>`<article class="volume-card" aria-labelledby="volume-${b.number}-title" data-reveal><figure class="volume-cover">${coverLink(b)}</figure><div class="volume-copy"><p class="eyebrow">BOOK ${b.number}${b.number===4?' <span class="launch-new-badge volume-new-badge">NEW</span>':''}</p><h3 id="volume-${b.number}-title">${link(`${b.id}.html`,esc(b.title))}</h3><p class="volume-teaser">${esc(b.description)}</p><div class="volume-actions">${link(`${b.id}-chapter-1.html`,'Read Chapter 1 free →','launch-read')}</div><div class="volume-editions">${amazon(purchase(b).paperback.url,'Buy on Amazon','button volume-buy',`Buy ${b.title} paperback on Amazon`)}${amazon(purchase(b).ebook.url,'Kindle ebook','launch-buy',`Buy ${b.title} Kindle ebook on Amazon`)}</div>${link(`${b.id}.html`,`About ${esc(b.title)}`,'launch-contents')}</div></article>`).join('');
+ const profiles=require('./character-pages.cjs').profiles;
+ const cast=[['seth','A kind teen learning to use his amazing strength.'],['jenny','A reporter and hero who keeps asking questions.'],['fist','A flying boxing glove with a mind of his own.'],['billy','A detective who spots clues others miss.'],['flaming-head','A gentle visitor wrapped in flame.'],['perch','A small fish with amazing powers.'],['doc','A clever inventor whose creations talk back.']];
+ let signup='';
+ if(settings.signupUrl){const url=new URL(settings.signupUrl);if(url.protocol!=='https:'||url.username||url.password)throw Error('BOOK_SIGNUP_URL must be a public HTTPS signup page');signup=`<section class="launch-signup launch-added-section" aria-labelledby="signup-title"><h2 id="signup-title">Get notified about the next book.</h2><p>Parents and grown-up readers: sign up for email updates from Jay.</p>${amazon(url.href,'Sign up for email updates','button')}</section>`;}
  return `<div class="launch-page">
-  ${extras.announcement}
-  <section class="launch-hero" aria-labelledby="launch-title">
-   <div class="hero-copy">
-    <p class="launch-location"><span aria-hidden="true">●</span> CLEVELAND, OHIO <span class="location-year">1987</span></p>
-    <p class="eyebrow hero-volume">BOOK ONE · ORIGINS</p>
-    <h1 id="launch-title" class="launch-title">Defenders <span class="title-last"><span class="title-small">of the</span> Land</span></h1>
-    <p class="launch-author">Jay Jones</p>
-    <p class="launch-tagline">${esc(origin.description)}</p>
-    <p class="launch-intro">Meet Cleveland’s unlikely superheroes in 1987. Their adventures are filled with pictures, big surprises, and strange inventions. Start <em>Origins</em> with a free chapter.</p>
-    <div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free <span aria-hidden="true">→</span>','launch-read launch-read-hero')}</div>
-    <div class="hero-editions">${editions(origin)}</div>
-    <p class="launch-audience">Superhero books for kids and younger teens, ages 9–14.</p>
-    <p class="hero-series-complete"><strong>Four books. One Cleveland.</strong><span>Read all four adventures.</span></p>
-    ${series('launch-series-link button secondary')}
-    <div class="hero-extras">${link('books.html#reader-guide','For parents, teachers &amp; librarians')}${link('downloads.html','Download a free sample')}${link('origins.html','About Book One: Origins')}</div>
-   </div>
-   <div class="hero-art">
-    <div class="hero-halftone" aria-hidden="true"></div>
-    <figure class="hero-cover">${coverLink(origin,true)}<figcaption>BOOK ONE <span aria-hidden="true">/</span> ORIGINS</figcaption></figure>
-   </div>
-  </section>
-
-  ${extras.about}
-
-  <section class="series-strip" aria-labelledby="series-title">
-   <div class="series-strip-inner">
-    <div class="strip-heading"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="series-title">The Series</h2><p>Jay Jones</p></div>
-    <ol class="series-shelf">${books.map(b=>`<li><a href="${b.id}.html" class="series-volume">${img(cover(b),`${b.title} by ${b.author} cover`)}<span class="series-volume-label">${esc(label(b))}</span><span class="series-volume-title">${esc(b.title)}</span></a></li>`).join('')}</ol>
-   </div>
-  </section>
-
-  <section class="launch-books" aria-labelledby="launch-books-title">
-   <header class="launch-section-heading" data-reveal><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="launch-books-title">The story continues.</h2></div>${link('books.html','Browse the books <span aria-hidden="true">→</span>','launch-section-link')}</header>
-   <div class="volume-grid">${cards}</div>
-  </section>
-
-  ${extras.explore}
-  ${extras.readFree}
-
-  <section class="launch-closing" aria-labelledby="closing-title" data-reveal>
-   <div class="closing-sun" aria-hidden="true"></div>
-   <div class="closing-copy"><p class="eyebrow">DEFENDERS OF THE LAND</p><h2 id="closing-title">Continue the series.</h2><p>Superhero adventures with pictures, set in Cleveland in 1987.</p></div>
-   <div class="closing-actions">${series('launch-read launch-read-sun')}${link('downloads.html','Download a free sample','closing-sample')}</div>
-  </section>
+ <section class="launch-hero" aria-labelledby="launch-title"><div class="hero-copy"><p class="launch-location">CLEVELAND, OHIO <span class="location-year">1987</span></p><p class="eyebrow hero-volume">BOOK ONE · ORIGINS</p><h1 id="launch-title" class="launch-title">Defenders <span class="title-last"><span class="title-small">of the</span> Land</span></h1><span class="launch-age-badge">Ages 9–14</span><p class="launch-author">Jay Jones</p></div><div class="hero-art"><figure class="hero-cover">${coverLink(origin,true)}</figure></div><p class="launch-tagline">${esc(origin.description)}</p><p class="launch-intro">Meet Cleveland’s unlikely superheroes in 1987. Their adventures are filled with pictures, big surprises, and strange inventions. Start <em>Origins</em> with a free chapter.</p><div class="hero-primary">${link('origins-chapter-1.html','Read Chapter 1 free','launch-read launch-read-hero')}${amazon(site.paperback.url,'Buy on Amazon','button secondary hero-buy','Buy Origins paperback on Amazon')}</div></section>
+ <nav class="hero-extras launch-added-section" aria-label="More reading options">${amazon(site.ebook.url,'Kindle ebook','launch-buy','Buy Origins Kindle ebook on Amazon')}${link('downloads.html','Download 3 free chapters')}${series()}${link('#parents','For Parents &amp; Teachers')}</nav>
+ ${extras.announcement}
+ ${extras.about}
+ <section class="launch-characters launch-added-section" aria-labelledby="launch-characters-title"><header class="launch-section-heading"><h2 id="launch-characters-title">Meet the Characters</h2>${link('characters.html','Meet everyone →','launch-section-link')}</header><div class="launch-character-grid">${cast.map(([id,line])=>`<a class="launch-character-card" href="${profiles[id].file}"><h3>${esc(profiles[id].name)}</h3><p>${esc(line)}</p><span aria-hidden="true">Meet ${esc(profiles[id].name.split(' / ')[0])} →</span></a>`).join('')}</div></section>
+ <section class="launch-books launch-added-section" aria-labelledby="launch-books-title"><header class="launch-section-heading"><div><p class="eyebrow">FOUR BOOKS. ONE CLEVELAND.</p><h2 id="launch-books-title">The Series</h2></div>${link('books.html','Browse the books →','launch-section-link')}</header><div class="volume-grid">${cards}</div></section>
+ <section class="launch-parents launch-added-section" id="parents" aria-labelledby="parents-title"><h2 id="parents-title">For Parents &amp; Teachers</h2><dl><div><dt>Content</dt><dd>Superhero action, comic-style fights, fire, and dangerous inventions. Try the free sample to check whether the story suits your reader.</dd></div><div><dt>Reading level</dt><dd>Written for ages 9–14, with pictures alongside the story. No formal reading-level score is available; the sample lets you judge the vocabulary and pace.</dd></div><div><dt>Length</dt><dd><em>Origins</em>: ${settings.paperbackPages} paperback pages. Ebook page counts may vary.</dd></div><div><dt>Themes</dt><dd>Courage, friendship, responsibility, and standing up for others.</dd></div></dl>${link('books.html#discussion-questions','Discussion questions →','button secondary')}${link('books.html#reader-guide','More reading guidance →','launch-section-link')}</section>
+ ${extras.explore}
+ <section class="launch-author-note launch-added-section" aria-labelledby="why-title"><p class="eyebrow">JAY JONES · CLEVELAND</p><h2 id="why-title">Why I wrote this</h2><p>I’m Jay Jones, and I’m from Cleveland. Finding my childhood superhero drawings made me want to give these characters another adventure. I turned them into books set in Cleveland in 1987, keeping the imagination and humor that got them started.</p>${link('author.html','More about Jay →','launch-section-link')}</section>
+ ${signup}
+ <section class="launch-closing" aria-labelledby="closing-title" data-reveal><div class="closing-copy"><h2 id="closing-title">Four books. One Cleveland.</h2><p>Superhero adventures with pictures, set in Cleveland in 1987.</p></div><div class="closing-actions">${series('launch-read launch-read-sun')}</div></section>
  </div>`;
 }
 module.exports={createLanding};
