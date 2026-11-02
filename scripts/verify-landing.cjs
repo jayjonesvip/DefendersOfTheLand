@@ -2,7 +2,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),http=require('n
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist'),site=require('../content/site.json');
 const ids=['origins','book-two','book-three','book-four'];
-const signupUrl=require('../landing-settings.cjs').signupUrl;
+const contactEmail=require('../site-chrome.cjs').footerSettings.contactUrl.replace(/^mailto:/,'');
+const hasEmail=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail);
 const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decodeURIComponent(req.url.split('?')[0]));if(!file.startsWith(out+path.sep)){res.writeHead(403).end();return;}try{res.setHeader('Content-Security-Policy',"script-src 'self' 'unsafe-inline'; connect-src 'self'");res.setHeader('Content-Type',({'.js':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png','.ttf':'font/ttf'})[path.extname(file)]||'text/html');res.end(fs.readFileSync(file));}catch{res.writeHead(404).end();}});
 function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.length===3)h=[...h].map(c=>c+c).join('');const rgb=[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];};const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
 (async()=>{
@@ -31,9 +32,9 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('#volume-4-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
     const fourth=page.locator('.volume-card').nth(3);
     for(const asin of ['B0HPBJWNMC','B0HPBM1FJQ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
-    assert.equal(await page.locator('form').count(),0,'Signup opens the configured provider page');
-    assert.equal(await page.locator('.launch-signup').count(),signupUrl?1:0);
-    if(signupUrl)assert.equal(await page.locator('.launch-signup a').getAttribute('href'),new URL(signupUrl).href);
+    assert.equal(await page.locator('form,.launch-signup').count(),0,'No email signup');
+    assert.equal(await page.locator('.launch-contact').count(),hasEmail?1:0);
+    if(hasEmail)assert.equal(await page.locator('.launch-contact a').getAttribute('href'),'mailto:'+contactEmail);
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
     assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'origins-chapter-1.html');
@@ -74,7 +75,8 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
   assert.equal(await staticPage.locator('[data-reveal]').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).opacity==='1')),true);
   assert(await staticPage.locator('[data-announcement]').isVisible());
   assert(await staticPage.locator('[data-dismiss-announcement]').isHidden());
-  assert.equal(await staticPage.locator('.launch-signup').count(),signupUrl?1:0);
+  assert.equal(await staticPage.locator('.launch-signup').count(),0);
+  assert.equal(await staticPage.locator('.launch-contact').count(),hasEmail?1:0);
   await nojs.close();
   const blocked=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   await blocked.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new Error('Storage unavailable');}}));

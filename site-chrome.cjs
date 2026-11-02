@@ -1,6 +1,6 @@
-// Leave these blank until real contact details/social accounts are supplied.
+// Public contact details supplied by Jay; social links stay blank until supplied.
 const footerSettings={
- contactUrl:'', // [CONTACT EMAIL OR FORM URL]
+ contactUrl:'jayjones@clevelandsuperheroes.com',
  socialUrls:{Facebook:'',Instagram:'',X:'',Goodreads:''} // [SOCIAL URL: Facebook/Instagram/X/Goodreads]
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -11,7 +11,7 @@ function contactLink(){
  const value=footerSettings.contactUrl.trim();if(!value)return '';
  const href=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)?'mailto:'+value:value;
  if(!/^(https:\/\/|mailto:)/.test(href))throw Error('Contact must be a real HTTPS form URL or email address');
- return `<a href="${esc(href)}"${href.startsWith('https:')?' rel="noopener"':''}>Contact</a>`;
+ return `<a href="${esc(href)}"${href.startsWith('https:')?' rel="noopener"':''}>${href.startsWith('mailto:')?'Email Jay':'Contact'}</a>`;
 }
 function renderFooter(file){return `<footer class="site-footer"><p class="footer-brand">Defenders of the Land · Jay Jones</p><nav aria-label="Footer"><a href="index.html">Home</a><a href="books.html#reader-guide">For parents &amp; teachers</a><a href="paperback.html"${current(file,'paperback.html')}>Buy the books</a><a href="downloads.html"${current(file,'downloads.html')}>Read free</a><a href="author.html"${current(file,'author.html')}>About Jay</a><a href="https://www.amazon.com/author/jayjonesvip" rel="noopener">Jay Jones on Amazon</a><a href="https://www.amazon.com/dp/B0HMXH258N" rel="noopener">Series on Amazon</a>${contactLink()}${Object.entries(footerSettings.socialUrls).filter(([,url])=>url.trim()).map(([label,url])=>{if(!/^https:\/\//.test(url))throw Error('Social links must be real HTTPS URLs');return `<a href="${esc(url)}" rel="noopener">${label}</a>`;}).join('')}</nav>${footerSettings.contactUrl.trim()?'<p class="footer-invitation">For book clubs, libraries, and bloggers: get in touch.</p>':''}</footer>`;}
 module.exports={renderHeader,renderFooter,footerSettings,navigation};
