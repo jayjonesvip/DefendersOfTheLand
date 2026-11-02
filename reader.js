@@ -8,7 +8,7 @@ const valid=id=>typeof id==='string'&&/^([a-z0-9-]+):1$/.test(id)&&Object.hasOwn
 const raw=storage.get(key)||{};
 const state={read:[...new Set((Array.isArray(raw.read)?raw.read:[]).filter(valid))],positions:raw.positions&&typeof raw.positions==='object'?raw.positions:{},last:valid(raw.last)?raw.last:null,lastByBook:Object.fromEntries(Object.entries(raw.lastByBook||{}).filter(([book,id])=>valid(id)&&id.split(':')[0]===book))};
 storage.set(key,state);
-const saved=storage.get(settingsKey)||{},settings={size:[18,20,22,24,26].includes(saved.size)?saved.size:20,dark:saved.dark===true};
+const saved=storage.get(settingsKey)||{},settings={size:[18,20,22,24,26].includes(saved.size)?saved.size:20,dark:typeof saved.dark==='boolean'?saved.dark:document.body.dataset.defaultTheme==='dark'};
 function apply(){document.body.classList.toggle('dark',settings.dark);document.documentElement.style.setProperty('--prose-size',settings.size+'px');const theme=document.getElementById('theme');if(theme){theme.textContent=settings.dark?'Light mode':'Dark mode';theme.setAttribute('aria-pressed',String(settings.dark))}storage.set(settingsKey,settings)}apply();
 const theme=document.getElementById('theme');if(theme)theme.onclick=()=>{settings.dark=!settings.dark;apply()};
 document.querySelectorAll('[data-read]').forEach(el=>{if(state.read.includes(el.dataset.read)){el.textContent='✓ Read';el.closest('li').classList.add('completed')}});

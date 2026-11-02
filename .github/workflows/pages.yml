@@ -18,6 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      BOOK_SIGNUP_URL: ${{ vars.BOOK_SIGNUP_URL }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7

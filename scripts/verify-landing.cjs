@@ -2,6 +2,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),http=require('n
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist'),site=require('../content/site.json');
 const ids=['origins','book-two','book-three','book-four'];
+const signupUrl=require('../landing-settings.cjs').signupUrl;
 const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decodeURIComponent(req.url.split('?')[0]));if(!file.startsWith(out+path.sep)){res.writeHead(403).end();return;}try{res.setHeader('Content-Security-Policy',"script-src 'self' 'unsafe-inline'; connect-src 'self'");res.setHeader('Content-Type',({'.js':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png','.ttf':'font/ttf'})[path.extname(file)]||'text/html');res.end(fs.readFileSync(file));}catch{res.writeHead(404).end();}});
 function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.length===3)h=[...h].map(c=>c+c).join('');const rgb=[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];};const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
 (async()=>{
@@ -16,30 +17,44 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
    for(const width of [320,390,768,820,1200,1440]){
     await page.setViewportSize({width,height:900});await page.goto(base+'/index.html');await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Landing overflow: ${width}, dark=${dark}`);
-    assert.equal(await page.locator('.series-shelf li').count(),4);
+    assert.equal(await page.locator('.series-shelf').count(),0,'Only one series section');
+    assert.equal(await page.locator('.hero-primary a').count(),2);
+    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Read Chapter 1 free','Buy on Amazon']);
+    assert.equal(await page.locator('.launch-age-badge').textContent(),'Ages 9–14');
+    assert.equal(await page.locator('.launch-character-card').count(),7);
+    assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
     assert.equal(await page.locator('.volume-card').count(),4);
     assert.equal(await page.locator('.world-card').count(),4);
-    assert.equal(await page.locator('.launch-about>p').textContent(),require('../content/book-one-marketing.json').blurb.join(' '));
+    assert.deepEqual(await page.locator('.launch-about-copy p').allTextContents(),require('../content/book-one-marketing.json').blurb);
+    assert.equal(await page.locator('.launch-about-copy p').first().locator('strong').count(),1);
     assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['characters.html','map.html','1990-vault.html','author.html']);
     assert.equal(await page.locator('#volume-4-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
     const fourth=page.locator('.volume-card').nth(3);
     for(const asin of ['B0HPBJWNMC','B0HPBM1FJQ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
-    assert.equal(await page.locator('.launch-signup,form').count(),0,'Unconfigured signup stays off the page');
+    assert.equal(await page.locator('form').count(),0,'Signup opens the configured provider page');
+    assert.equal(await page.locator('.launch-signup').count(),signupUrl?1:0);
+    if(signupUrl)assert.equal(await page.locator('.launch-signup a').getAttribute('href'),new URL(signupUrl).href);
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
     assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'origins-chapter-1.html');
-    assert.equal(await page.locator('.hero-copy>.launch-series-link').getAttribute('href'),site.amazonSeriesUrl);
+    assert.equal(await page.locator('.hero-extras .launch-series-link').getAttribute('href'),site.amazonSeriesUrl);
     assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),site.amazonSeriesUrl);
     assert.equal(await page.locator('.will-reveal').count(),0,'Reduced motion must not hide content');
     for(const [i,id] of ids.entries()){
      const book=require('../content/books/'+id+'/book.json');
-     assert.equal(await page.locator('.series-shelf li').nth(i).locator('a').getAttribute('href'),id+'.html');
+     assert.equal(await page.locator('.volume-cover').nth(i).locator('a').getAttribute('href'),id+'.html');
      assert.equal(await page.locator('.volume-teaser').nth(i).innerText(),book.description);
     }
     assert(await page.locator('img').evaluateAll(images=>images.every(img=>Number(img.getAttribute('width'))>0&&Number(img.getAttribute('height'))>0)),'Reserve image dimensions');
     assert(await page.locator('.series-volume-title,.volume-copy h3').evaluateAll(nodes=>nodes.every(n=>n.scrollWidth<=n.clientWidth+1)),'Book titles must not overflow their cards');
     const pairs=await page.evaluate(()=>{const s=getComputedStyle(document.body),v=p=>s.getPropertyValue(p).trim();return [[v('--ink'),v('--paper')],[v('--muted'),v('--paper')],[v('--accent'),v('--paper')],[v('--ink'),v('--launch-surface')],[v('--muted'),v('--launch-surface')],['#fff7e9',v('--launch-night')],['#c2cdd0',v('--launch-night')],[v('--launch-sun'),v('--launch-night')]];});
     for(const pair of pairs)assert(contrast(...pair)>=4.5,`Text contrast below AA: ${pair}`);
+    if(width<760){
+     const cover=await page.locator('.hero-cover').boundingBox(),tagline=await page.locator('.launch-tagline').boundingBox();
+     assert(cover.width/width>=.60&&cover.width/width<=.70,'Hero cover uses 60–70% of mobile width');
+     assert(tagline.y>=cover.y+cover.height,'Tagline below the cover');
+    }
+    assert(await page.locator('.launch-page a').evaluateAll(links=>links.filter(a=>a.getBoundingClientRect().width>0).every(a=>a.getBoundingClientRect().height>=44)),'Landing links have 44px targets');
     if(width<=800){
      const toggle=page.locator('#nav-toggle');await toggle.click();assert.equal(await toggle.getAttribute('aria-expanded'),'true');
      assert.equal(await page.locator('#site-navigation a:visible').count(),7);await page.keyboard.press('Escape');
@@ -59,7 +74,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
   assert.equal(await staticPage.locator('[data-reveal]').evaluateAll(nodes=>nodes.every(n=>getComputedStyle(n).opacity==='1')),true);
   assert(await staticPage.locator('[data-announcement]').isVisible());
   assert(await staticPage.locator('[data-dismiss-announcement]').isHidden());
-  assert.equal(await staticPage.locator('.launch-signup').count(),0);
+  assert.equal(await staticPage.locator('.launch-signup').count(),signupUrl?1:0);
   await nojs.close();
   const blocked=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   await blocked.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new Error('Storage unavailable');}}));
