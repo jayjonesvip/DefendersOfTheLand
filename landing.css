@@ -68,7 +68,7 @@ body[data-page="home"].dark{--accent:#ffd54a;--muted:#c7d3db;--launch-sun:#ffd54
 .world-card>a{display:block;min-height:44px;text-decoration:none}
 .world-card-image{aspect-ratio:16/10;overflow:hidden;background:var(--paper)}
 .world-card-image>img{display:block;width:100%;height:100%;object-fit:contain}
-.world-character-collage{display:flex;height:100%;padding:12px 8px 0}
+.world-character-collage{display:flex;align-items:flex-end;height:100%;padding:12px 8px 0}
 .world-character-collage img{display:block;width:33.333%;height:100%;object-fit:contain;object-position:bottom}
 .world-card-copy{padding:24px}
 .world-card h3{font-size:28px;line-height:1.2;margin:0 0 12px}
@@ -112,3 +112,6 @@ body[data-page="home"].dark{--accent:#ffd54a;--muted:#c7d3db;--launch-sun:#ffd54
 @media(prefers-reduced-motion:reduce){.launch-page *, .launch-page *::before,.launch-page *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.launch-page .will-reveal{opacity:1;transform:none}}
 
 body[data-page="home"] .site-header nav,body[data-page="home"] .site-header nav a,body[data-page="home"] #theme{font-size:14px}
+
+/* Billy is shorter than the two standing superheroes, with all feet aligned. */
+.world-character-collage .world-character-billy{transform:scale(.70);transform-origin:center bottom}
