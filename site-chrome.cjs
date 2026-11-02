@@ -1,8 +1,8 @@
 // Public social links; unconfigured contact details stay blank.
 const footerSettings={
  contactUrl:'', // [CONTACT EMAIL OR FORM URL]
- // Facebook share URL supplied by Jay; Instagram verified via the connected account.
- socialUrls:{Facebook:'https://www.facebook.com/share/1HWQU6F8oh/',Instagram:'https://www.instagram.com/clevelandsuperheroes/',X:'',Goodreads:''}
+ // Facebook profile URL confirmed by Jay; Instagram verified via the connected account.
+ socialUrls:{Facebook:'https://www.facebook.com/clevelandsuperheroes/',Instagram:'https://www.instagram.com/clevelandsuperheroes/',X:'',Goodreads:''}
 };
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const navigation=[['books.html','Books'],['characters.html','Characters'],['web-comics.html','Comics'],['map.html','Map'],['1990-vault.html','Old comics'],['author.html','About Jay'],['downloads.html','Read free']];
