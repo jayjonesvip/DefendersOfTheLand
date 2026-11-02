@@ -4,13 +4,13 @@ function fixture(t){const dir=fs.mkdtempSync(path.join(os.tmpdir(),'defenders-pu
 test('approved private export passes the public source boundary',()=>checkSource(root));
 test('later chapter source is rejected',t=>{const dir=fixture(t);fs.writeFileSync(path.join(dir,'content/books/book-four/chapter-02.json'),'{}');assert.throws(()=>checkSource(dir),/Unapproved website source/);});
 test('KDP production directories are rejected',t=>{const dir=fixture(t);fs.mkdirSync(path.join(dir,'print'));assert.throws(()=>checkSource(dir),/Private book production material/);});
-test('extra complete ebook is rejected',t=>{const dir=fixture(t);fs.writeFileSync(path.join(dir,'public/books/complete-book.epub'),'test');assert.throws(()=>checkSource(dir),/Unapproved website source/);});
+test('extra complete ebook is rejected',t=>{const dir=fixture(t);fs.writeFileSync(path.join(dir,'public/complete-book.epub'),'test');assert.throws(()=>checkSource(dir),/Unapproved website source/);});
 test('changed preview bytes are rejected',t=>{const dir=fixture(t);fs.appendFileSync(path.join(dir,'content/books/book-four/chapter-01.json'),' ');assert.throws(()=>checkSource(dir),/Preview differs from private export/);});
 test('changed website-exclusive comic bytes are rejected',t=>{const dir=fixture(t);fs.appendFileSync(path.join(dir,'public/assets/flaming-head-origin-page-1-v1.webp'),' ');assert.throws(()=>checkSource(dir),/Preview differs from private export/);});
 
 test('rebuild removes obsolete chapter pages and private artifacts from deploy output',()=>{
  const cp=require('node:child_process');
- for(const name of ['book-four-chapter-12.html','assets/obsolete-private-art.webp','books/book-four-kdp-interior.pdf']){const file=path.join(root,'dist',name);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,'obsolete output sentinel');}
+ for(const name of ['book-four-chapter-12.html','assets/obsolete-private-art.webp','books/book-four-kdp-interior.pdf','books/origins-sample-chapters-01-03.pdf','books/origins-sample-chapters-01-03.epub','books/downloads.json']){const file=path.join(root,'dist',name);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,'obsolete output sentinel');}
  cp.execFileSync(process.execPath,['build.cjs'],{cwd:root,stdio:'pipe'});
- for(const name of ['book-four-chapter-12.html','assets/obsolete-private-art.webp','books/book-four-kdp-interior.pdf'])assert(!fs.existsSync(path.join(root,'dist',name)));
+ for(const name of ['book-four-chapter-12.html','assets/obsolete-private-art.webp','books/book-four-kdp-interior.pdf','books/origins-sample-chapters-01-03.pdf','books/origins-sample-chapters-01-03.epub','books/downloads.json'])assert(!fs.existsSync(path.join(root,'dist',name)));
 });

@@ -27,14 +27,8 @@ function checkSource(root){
   assert.deepEqual(book.chapters,['chapter-01.json']);assert.equal(chapter.number,1);assert.equal(chapter.available,true);
   assert(/^https:\/\/(www\.)?amazon\.com\//.test(book.amazonUrl),`Missing Amazon continuation: ${id}`);
  }
- const downloads=JSON.parse(fs.readFileSync(path.join(root,'public/books/downloads.json')));
- assert.deepEqual(fs.readdirSync(path.join(root,'public/books')).sort(),['downloads.json','origins-sample-chapters-01-03.epub','origins-sample-chapters-01-03.pdf']);
- assert.equal(downloads.samples.length,2);assert.equal(downloads.sampleEpub.chapters,3);
- assert(!downloads.full&&!downloads.ebooks&&!downloads.print&&!downloads.covers);
- for(const sample of downloads.samples){
-  const bytes=fs.readFileSync(path.join(root,'public/books',sample.file));
-  assert.equal(bytes.length,sample.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),sample.sha256);
- }
+ assert(!fs.existsSync(path.join(root,'public/books')),'Book downloads must not be served; use Amazon sample links');
+ for(const file of files(path.join(root,'public')))assert(!/\.(?:pdf|epub)$/i.test(file),'PDF and EPUB downloads must not be served');
  return inventory;
 }
 module.exports={checkSource,files,ids};

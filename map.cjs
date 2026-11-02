@@ -1,3 +1,4 @@
+const {samples}=require('./amazon-samples.cjs');
 const landmarks=require('./map-landmarks.js');
 function createMap({geometry,site,escape:esc}){
  const names=['','One','Two','Three','Four'];
@@ -41,7 +42,7 @@ function createMap({geometry,site,escape:esc}){
     <section class="map-landmarks" aria-labelledby="map-landmarks-title"><h2 id="map-landmarks-title">Landmarks</h2><p class="map-list-intro">Select a name to find it on the map.</p><div class="map-landmark-list" id="map-landmark-list">${cards}</div></section>
    </div>
   </div>
-  <section class="map-closing" aria-labelledby="map-closing-title"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="map-closing-title">Walk the streets in the story</h2></div><div class="map-closing-links"><div class="actions"><a class="button" href="origins-chapter-1.html">Read Chapter 1 free <span aria-hidden="true">→</span></a><a class="button secondary" href="downloads.html">Get the free sample</a></div><div class="actions">${amazon(site.paperback.url,'Buy Book One paperback','Buy Origins paperback on Amazon')}${amazon(site.ebook.url,'Continue Book One on Kindle →','Continue Book One: Origins on Kindle','button secondary map-chapter-link')}</div>${amazon(site.amazonSeriesUrl,'View series on Amazon <span aria-hidden="true">→</span>','View the Defenders of the Land series on Amazon','map-series-link')}</div></section>
+  <section class="map-closing" aria-labelledby="map-closing-title"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="map-closing-title">Walk the streets in the story</h2></div><div class="map-closing-links"><div class="actions"><a class="button" href="${samples.origins}">Read sample on Amazon <span aria-hidden="true">→</span></a><a class="button secondary" href="downloads.html">Get the free sample</a></div><div class="actions">${amazon(site.paperback.url,'Buy Book One paperback','Buy Origins paperback on Amazon')}${amazon(site.ebook.url,'Continue Book One on Kindle →','Continue Book One: Origins on Kindle','button secondary map-chapter-link')}</div>${amazon(site.amazonSeriesUrl,'View series on Amazon <span aria-hidden="true">→</span>','View the Defenders of the Land series on Amazon','map-series-link')}</div></section>
  </section><script type="application/json" id="story-map-data">${JSON.stringify({geometry}).replace(/</g,'\\u003c')}</script><script defer src="assets/d3-7.9.0.min.js"></script><script defer src="map-landmarks.js"></script><script defer src="story-map.js"></script>`;
 }
 module.exports={createMap};

@@ -19,7 +19,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Landing overflow: ${width}, dark=${dark}`);
     assert.equal(await page.locator('.series-shelf').count(),0,'Only one series section');
     assert.equal(await page.locator('.hero-primary a').count(),2);
-    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Read Chapter 1 free','Buy on Amazon']);
+    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Read sample on Amazon','Buy on Amazon']);
     assert.equal(await page.locator('.launch-age-badge').textContent(),'Ages 9–14');
     assert.equal(await page.locator('.launch-character-card').count(),7);
     assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
@@ -36,7 +36,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     if(signupUrl)assert.equal(await page.locator('.launch-signup a').getAttribute('href'),new URL(signupUrl).href);
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
-    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'origins-chapter-1.html');
+    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),require('../amazon-samples.cjs').samples.origins);
     assert.equal(await page.locator('.hero-extras .launch-series-link').getAttribute('href'),site.amazonSeriesUrl);
     assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),site.amazonSeriesUrl);
     assert.equal(await page.locator('.will-reveal').count(),0,'Reduced motion must not hide content');

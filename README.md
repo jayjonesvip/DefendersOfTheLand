@@ -1,6 +1,6 @@
 # Defenders of the Land — public website
 
-The website publishes Chapter 1 of each of the four books and Book One’s approved three-chapter PDF/EPUB samples. Each Chapter 1 ends with an Amazon continuation link, preferring Kindle and falling back to the series listing when a book’s edition link is not yet supplied.
+The website publishes Chapter 1 of each of the four books and links to Amazon samples. The existing `downloads.html` page offers Amazon sample buttons; no PDF or EPUB files are served. Each Chapter 1 ends with an Amazon continuation link, preferring Kindle and falling back to the series listing when a book’s edition link is not yet supplied.
 
 Complete manuscripts, artwork originals, editorial/canon records and all EPUB/KDP production are maintained in the private [DefendersOfTheLandBook](https://github.com/jayjonesvip/DefendersOfTheLandBook) repository. This website build has no credentials for it and does not generate full books or KDP files.
 

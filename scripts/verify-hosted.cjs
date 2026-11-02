@@ -41,8 +41,9 @@ async function get(file,status=200){
   await(await get(id+'-chapter-2.html',404)).body?.cancel();
  }
  for(const url of resources)await(await get(url)).arrayBuffer();
- const downloads=await(await get('books/downloads.json')).json();assert.equal(downloads.samples.length,2);assert.equal(downloads.sampleEpub.chapters,3);
- for(const sample of downloads.samples){const bytes=Buffer.from(await(await get('books/'+sample.file)).arrayBuffer());assert.equal(bytes.length,sample.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),sample.sha256);}
- for(const file of ['origins-chapter-18.html','book-two-chapter-21.html','book-three-chapter-14.html','book-four-chapter-13.html','books/origins-kdp-interior.pdf','books/book-four-kdp-interior.pdf','books/defenders-of-the-land-origins.epub','books/defenders-of-the-land-book-four.epub','content/books/book-four/chapter-12.json','assets/book-four-chapter-12-control-v2.webp'])await(await get(file,404)).body?.cancel();
- console.log('PASS: hosted Chapter 1 previews, Amazon continuation, approved samples/assets, and removed chapter/private URLs.');
+ const samples=require('../amazon-samples.cjs').samples;
+ const samplePage=await(await get('downloads.html')).text();
+ for(const url of Object.values(samples))assert(samplePage.includes(`href="${url}"`),'Missing Amazon sample button');
+ for(const file of ['books/downloads.json','books/origins-sample-chapters-01-03.pdf','books/origins-sample-chapters-01-03.epub','origins-chapter-18.html','book-two-chapter-21.html','book-three-chapter-14.html','book-four-chapter-13.html','books/origins-kdp-interior.pdf','books/book-four-kdp-interior.pdf','books/defenders-of-the-land-origins.epub','books/defenders-of-the-land-book-four.epub','content/books/book-four/chapter-12.json','assets/book-four-chapter-12-control-v2.webp'])await(await get(file,404)).body?.cancel();
+ console.log('PASS: hosted Chapter 1 previews, Amazon continuation, Amazon samples/assets, and removed chapter/private URLs.');
 })().catch(error=>{console.error(error);process.exitCode=1;});
