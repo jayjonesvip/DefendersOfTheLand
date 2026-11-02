@@ -27,7 +27,7 @@ for(const file of htmlFiles){
  assert(html.includes('application/ld+json')&&html.includes('rel="canonical"'),file);
  for(const match of html.matchAll(/(?:origins|book-two|book-three|book-four)-chapter-(\d+)\.html/g))assert.equal(Number(match[1]),1,`Private chapter link in ${file}`);
  for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
-  const ref=match[1].split(/[?#]/)[0];if(/^(https?:|data:)/.test(ref))continue;
+  const ref=match[1].split(/[?#]/)[0];if(/^(https?:|data:|mailto:)/.test(ref))continue;
   assert(fs.existsSync(path.join(out,ref)),`${file}: missing ${ref}`);
  }
  assert(!/read all \d+ chapters|complete book free|whole illustrated adventure is free/i.test(html),file);

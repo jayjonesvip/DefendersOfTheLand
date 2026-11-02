@@ -52,4 +52,4 @@ The October 28 batch adds ten distinct restored sheets from thirteen photographs
 
 The homepage defaults to navy when no saved theme exists; explicit reader preferences and the light-mode toggle still work. The hero has two actions, and the four books share one series section. `landing-settings.cjs` holds the sourced Origins paperback page count.
 
-To enable “Get notified about the next book,” set the public `BOOK_SIGNUP_URL` repository Actions variable to a real HTTPS email-provider signup page, or set that environment variable for a local build. The build and its tests use the same setting. No signup control appears until a provider is configured; the site does not pretend to collect email or store addresses in the browser.
+Email signup has been removed. Set `footerSettings.contactUrl` in `site-chrome.cjs` to Jay’s public email address to show a direct “Email Jay” link on the homepage and in the footer. The link opens the reader’s email app; the site does not collect subscriptions or send email itself.

@@ -84,7 +84,7 @@ body[data-page="home"].dark{--accent:#ffd54a;--muted:#c7d3db;--launch-sun:#ffd54
 .world-comic-feature h3{font-size:30px;line-height:1.2;margin:12px 0}
 .world-comic-feature p{font-size:16px}
 .launch-author-note p:not(.eyebrow){max-width:68ch;font-size:16px}
-.launch-signup{background:var(--launch-surface);border:1px solid var(--line)}
+.launch-contact{background:var(--launch-surface);border:1px solid var(--line)}
 .launch-closing{max-width:1120px;margin:32px auto 0;padding:32px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;background:var(--launch-night);color:#fff7e9;border-top:4px solid var(--launch-fun)}
 .launch-closing h2{font-size:40px;line-height:1.1;margin:0 0 16px}
 .launch-closing p{font-size:16px}
