@@ -58,7 +58,7 @@ function createCharacters({characters,img,escape:esc,site}){
  characters=characters.filter(c=>!['claude','eleanor'].includes(c.id));
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  return `<section class="contents character-gallery">
-  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet Cleveland’s heroes, villains, and friends. Find out what makes each one special. Then read about them in the <a href="books.html">four books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
+  <header class="character-intro"><p class="eyebrow">THE PEOPLE OF THE LAND</p><h1>Cleveland’s Superhero Characters</h1><p>Meet Cleveland’s heroes, villains, and friends. Find out what makes each one special. Then read about them in the <a href="books.html">five books</a> or <a href="web-comics.html">free web comics</a>.</p></header>
   <fieldset class="character-filters" data-character-filters hidden><legend>Show characters</legend><div class="character-filter-buttons">
    ${[['all','All'],['heroes','Heroes'],['villains','Villains'],['allies','Allies']].filter(([value])=>value==='all'||characters.some(c=>characterDetails[c.id]?.group===value)).map(([value,label])=>`<button type="button" data-character-filter="${value}" aria-pressed="${value==='all'}" aria-controls="character-grid">${label}</button>`).join('')}
   </div></fieldset>

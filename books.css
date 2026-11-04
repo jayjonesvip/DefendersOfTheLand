@@ -9,7 +9,7 @@
 .catalog-order{display:grid;gap:24px;background:var(--night);color:#fff7e9;padding:28px 22px;border-top:4px solid var(--sun)}
 .catalog-order .eyebrow{font-size:9px;color:#c2cdd0;margin:0 0 10px}
 .catalog-order h2{font-size:34px;line-height:1.05;margin:0}
-.catalog-order ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;list-style:none;padding:0;margin:0}
+.catalog-order ol{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;list-style:none;padding:0;margin:0}
 .catalog-order li{min-width:0}
 .catalog-order a{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-height:44px;text-decoration:none}
 .catalog-order a:hover .catalog-order-number{text-decoration:underline;text-underline-offset:4px}

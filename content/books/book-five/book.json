@@ -1,0 +1,20 @@
+{
+  "id": "book-five",
+  "title": "Bouncin’ Bob",
+  "number": 5,
+  "author": "Jay Jones",
+  "status": "Published",
+  "publicationStatus": "Published",
+  "description": "A quiet birthday. A shrinking ray. One very small soldier with a very big problem.",
+  "cover": "book-five-bouncin-bob-cover-web-v1.webp",
+  "paperback": {
+    "url": "https://www.amazon.com/dp/B0HQFMBW2R",
+    "asin": "B0HQFMBW2R"
+  },
+  "ebook": {
+    "url": "https://www.amazon.com/dp/B0HQFT91NJ",
+    "asin": "B0HQFT91NJ"
+  },
+  "chapters": [],
+  "amazonUrl": "https://www.amazon.com/dp/B0HQFT91NJ"
+}

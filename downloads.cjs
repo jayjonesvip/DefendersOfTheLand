@@ -1,7 +1,7 @@
 const {samples}=require('./amazon-samples.cjs');
 // Render a complete static page using the existing approved book/sample metadata.
 function createDownloads({books,site,escape:esc,img,link}){
- const words=['','One','Two','Three','Four'];
+ const words=['','One','Two','Three','Four','Five'];
  const label=b=>`Book ${words[b.number]}`;
  const purchase=b=>b.number===1?site:b;
  const amazon=(href,text,aria,cls='button secondary')=>`<a class="${cls}" href="${esc(href)}" rel="noopener" aria-label="${esc(aria)}">${text}</a>`;
@@ -11,8 +11,8 @@ function createDownloads({books,site,escape:esc,img,link}){
  };
  const origin=books[0];
  const cover=(b,eager=false)=>img(b.number===1?site.coverImage:b.cover,`${b.title} by ${b.author} cover`).replace('loading="lazy"',eager?'loading="eager" fetchpriority="high"':'loading="lazy"');
- const cards=books.map(b=>`<article class="sample-volume${b.number===4?' sample-volume-featured':''}" aria-labelledby="sample-volume-${b.number}">
-  <div class="sample-volume-label"><p class="eyebrow">${label(b)}</p>${b.number===4?'<span class="sample-new">NEW</span>':''}</div>
+ const cards=books.map(b=>`<article class="sample-volume${b.number===books.length?' sample-volume-featured':''}" aria-labelledby="sample-volume-${b.number}">
+  <div class="sample-volume-label"><p class="eyebrow">${label(b)}</p>${b.number===books.length?'<span class="sample-new">NEW</span>':''}</div>
   <figure class="sample-volume-cover">${link(`${b.id}.html`,cover(b))}</figure>
   <h3 id="sample-volume-${b.number}">${link(`${b.id}.html`,esc(b.title))}</h3>
   <p class="sample-volume-hook">${esc(b.description)}</p>

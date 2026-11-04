@@ -14,7 +14,7 @@ for(const [file,metadata]of Object.entries(config.pages)){
  assert(!graph.some(n=>n.aggregateRating||n.review||n.reviewCount));assert(!/\[ISBN\]|\[DATE PUBLISHED\]/.test(JSON.stringify(graph)));
  for(const edition of graph.filter(n=>n['@type']==='Book'&&n.bookFormat)){
   const id=edition.exampleOfWork['@id'].split('#')[1];
-  if(edition.bookFormat.endsWith('/Paperback')&&(file==='paperback.html'||['origins.html','book-two.html','book-three.html','book-four.html'].includes(file))){const actual=config.paperbacks[id];assert.equal(edition.isbn,actual.isbn);assert.equal(edition.datePublished,actual.datePublished);let checksum=0;for(let i=0;i<12;i++)checksum+=Number(edition.isbn[i])*(i%2?3:1);assert.equal((10-checksum%10)%10,Number(edition.isbn[12]));}
+  if(edition.bookFormat.endsWith('/Paperback')&&(file==='paperback.html'||['origins.html','book-two.html','book-three.html','book-four.html'].includes(file))){const actual=config.paperbacks[id];if(!actual){assert.equal(id,'book-five');assert(!edition.isbn&&!edition.datePublished);}else{assert.equal(edition.isbn,actual.isbn);assert.equal(edition.datePublished,actual.datePublished);let checksum=0;for(let i=0;i<12;i++)checksum+=Number(edition.isbn[i])*(i%2?3:1);assert.equal((10-checksum%10)%10,Number(edition.isbn[12]));}}
   else{assert(!edition.isbn&&!edition.datePublished,'Only mark publication facts on pages where those facts are visible');}
   assert(/^https:\/\/www.amazon.com\/dp\//.test(edition.url));
  }
@@ -27,10 +27,10 @@ for(const [file,metadata]of Object.entries(config.pages)){
  if(['super-perch.html','seized-up.html'].includes(file)){const c=require('../'+(file==='seized-up.html'?'seized-up':'super-perch')+'.cjs');assert(image.endsWith('/assets/'+c.socialImage.file));assert.equal(get(html,'og:image:width'),'1200');assert.equal(get(html,'og:image:height'),'630');assert.equal(get(html,'og:image:type'),'image/jpeg');assert.equal(get(html,'og:image:alt'),c.socialImage.alt);assert.equal(get(html,'twitter:image:alt'),c.socialImage.alt);assert.equal(graph.find(n=>n['@type']==='ComicStory').name,c.title);}
  if(file==='author.html')assert.equal(get(html,'twitter:card'),'summary_large_image');
  if(['origins.html','book-two.html','book-three.html','book-four.html'].includes(file)){const id=file.slice(0,-5);assert(html.includes(config.paperbacks[id].isbn));assert(html.includes(`datetime="${config.paperbacks[id].datePublished}"`));assert.equal(graph.filter(n=>n.bookFormat).length,2);}
- if(file==='index.html'){assert.equal(graph.find(n=>n['@type']==='BookSeries').hasPart.length,4);assert.equal(graph.filter(n=>n.bookFormat).length,8);}
+ if(file==='index.html'){assert.equal(graph.find(n=>n['@type']==='BookSeries').hasPart.length,5);assert.equal(graph.filter(n=>n.bookFormat).length,10);}
 }
 assert.equal(new Set(titles).size,Object.keys(config.pages).length);assert.equal(new Set(descriptions).size,Object.keys(config.pages).length);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8'),entries=[...sitemap.matchAll(/<url><loc>(.*?)<\/loc><lastmod>(.*?)<\/lastmod><\/url>/g)];assert.equal(entries.length,Object.keys(config.pages).length);for(const [,loc,date]of entries){const file=loc===site.url+'/'?'index.html':new URL(loc).pathname.slice(1);assert.equal(date,config.pages[file].lastModified);assert(/^\d{4}-\d{2}-\d{2}$/.test(date));assert(!loc.includes('404.html')&&!loc.endsWith('/index.html'));}
 assert(fs.readFileSync(path.join(out,'robots.txt'),'utf8').includes('Sitemap: '+site.url+'/sitemap.xml'));
 require('./approved-sitemap.cjs').assertApprovedSitemap(entries.map(([,loc])=>loc));
-console.log(`PASS: ${entries.length} unique optimized heads, canonicals, social assets, four works/eight editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and approved sitemap URLs/dates.`);
+console.log(`PASS: ${entries.length} unique optimized heads, canonicals, social assets, five works/ten editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and approved sitemap URLs/dates.`);

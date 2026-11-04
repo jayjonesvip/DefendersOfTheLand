@@ -107,15 +107,15 @@
     },
     {
       "path": "content/website-book-copy.json",
-      "sha256": "d247474eff8f6213b1003809632f61fe9a006e43c9a71d520b478e319d57863b"
+      "sha256": "f1410817bc8682096f0995b0ebc7bd58a19b00e944f6494cbc7539585700f74c"
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "4bfd5bf8ef3b2e7094b4a7a6e01c64227829f88d2f38c7967dc8ceff99837d19"
+      "sha256": "eca1418dfbb9ae6cc44921773e9cfe58532ef43c922910f370d3499aa02be3b7"
     },
     {
       "path": "image-manifest.json",
-      "sha256": "4de1c6d0e3232b6c3916d5543a5bedbc9d4ea817864eb54a6ac69b030b9c1b1c"
+      "sha256": "e2fc355c04c6ccd611ba09a8e1fcbd7ced797abf83a127a36c61f0dbdbd74bec"
     },
     {
       "path": "public/apple-touch-icon.png",
@@ -392,6 +392,18 @@
     {
       "path": "public/vendor/d3-7.9.0.min.js",
       "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
+      "path": "content/books/book-five/book.json",
+      "sha256": "10b05f76e47ed46776eeca5c492959bd09a3d23c6e4398afa8f762261a6cfb53"
+    },
+    {
+      "path": "public/assets/book-five-bouncin-bob-cover-web-v1.webp",
+      "sha256": "aa946d5dee67e64fdc1f946135c68bd666f791c89784cf2a0af6719f99b961ff"
     }
-  ]
+  ],
+  "bookFiveMarketingExport": {
+    "date": "2026-11-04",
+    "source": "Author-approved cover and back-cover copy from the private book repository, and author-supplied Amazon links. Marketing only; no chapter text or production files."
+  }
 }
