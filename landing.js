@@ -4,7 +4,7 @@
  if(!page)return;
  const announcement=page.querySelector('[data-announcement]'),dismiss=page.querySelector('[data-dismiss-announcement]');
  if(announcement&&dismiss){
-  const key='defenders-book-four-announcement-dismissed-v1';
+  const key='defenders-book-five-announcement-dismissed-v1';
   try{announcement.hidden=localStorage.getItem(key)==='true';}catch{}
   dismiss.hidden=false;
   dismiss.addEventListener('click',()=>{

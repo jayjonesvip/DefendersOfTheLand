@@ -1,15 +1,15 @@
 const {samples}=require('./amazon-samples.cjs');
 // Static catalog; all book copy, covers and purchase URLs come from approved metadata.
 function createBooks({books,site,escape:esc,img,link}){
- const words=['','One','Two','Three','Four'];
+ const words=['','One','Two','Three','Four','Five'];
  const amazon=(href,text,label,cls='button secondary')=>`<a href="${esc(href)}" class="${cls}" rel="noopener" aria-label="${esc(label)}">${text}</a>`;
  const series=(cls='button')=>amazon(site.amazonSeriesUrl,'Get the full series on Amazon <span aria-hidden="true">→</span>','Get the full Defenders of the Land series on Amazon',cls);
  const cover=b=>img(b.number===1?site.coverImage:b.cover,`${b.title} by ${b.author} cover`);
  const order=books.map(b=>`<li><a href="#catalog-${b.id}" aria-label="Go to Book ${words[b.number]}: ${esc(b.title)}">${cover(b)}<span class="catalog-order-number">Book ${b.number}</span><span class="catalog-order-title">${esc(b.title)}</span></a></li>`).join('');
  const cards=books.map(b=>{
   const purchase=b.number===1?site:b;
-  return `<article class="catalog-card${b.number===1?' catalog-start':''}${b.number===4?' catalog-new':''}" id="catalog-${b.id}" aria-labelledby="catalog-${b.id}-title">
-   <div class="catalog-card-label"><p class="eyebrow">Book ${b.number} of ${books.length}</p>${b.number===1?'<span class="catalog-badge">Start here</span>':b.number===4?'<span class="catalog-badge">New</span>':''}</div>
+  return `<article class="catalog-card${b.number===1?' catalog-start':''}${b.number===books.length?' catalog-new':''}" id="catalog-${b.id}" aria-labelledby="catalog-${b.id}-title">
+   <div class="catalog-card-label"><p class="eyebrow">Book ${b.number} of ${books.length}</p>${b.number===1?'<span class="catalog-badge">Start here</span>':b.number===books.length?'<span class="catalog-badge">New</span>':''}</div>
    <figure class="catalog-cover">${link(`${b.id}.html`,cover(b))}</figure>
    <h3 id="catalog-${b.id}-title">${link(`${b.id}.html`,esc(b.title))}</h3>
    <p class="catalog-hook">${esc(b.description)}</p>
@@ -20,11 +20,11 @@ function createBooks({books,site,escape:esc,img,link}){
   </article>`;
  }).join('');
  return `<div class="catalog-page">
-  <header class="catalog-hero"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h1>Cleveland Superhero Books<br><span>for Ages 9–14</span></h1><p>Four books. One Cleveland. Meet unlikely heroes in adventures with pictures, set in 1987.</p><p>Superhero books for kids and younger teens, ages 9–14.</p></div><div class="catalog-hero-cta">${series()}</div></header>
-  <section class="catalog-order" aria-labelledby="catalog-order-title"><div><p class="eyebrow">BOOK ONE TO BOOK FOUR</p><h2 id="catalog-order-title">Read in order</h2></div><ol>${order}</ol></section>
+  <header class="catalog-hero"><div><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h1>Cleveland Superhero Books<br><span>for Ages 9–14</span></h1><p>Five books. One Cleveland. Meet unlikely heroes in adventures with pictures, set in 1987.</p><p>Superhero books for kids and younger teens, ages 9–14.</p></div><div class="catalog-hero-cta">${series()}</div></header>
+  <section class="catalog-order" aria-labelledby="catalog-order-title"><div><p class="eyebrow">BOOK ONE TO BOOK FIVE</p><h2 id="catalog-order-title">Read in order</h2></div><ol>${order}</ol></section>
   <section class="catalog-reader-guide" id="reader-guide" aria-labelledby="catalog-reader-guide-title">
    <p class="eyebrow">FOR PARENTS, TEACHERS AND LIBRARIANS</p><h2 id="catalog-reader-guide-title">For Parents &amp; Teachers: Middle-Grade Superhero Books Ages 9–14</h2>
-   <dl><div><dt>Who are these books for?</dt><dd>Kids and younger teens ages 9–14 who enjoy unlikely heroes, eccentric inventions, and superhero teamwork.</dd></div><div><dt>What is the format?</dt><dd>Illustrated prose adventures: the story is told in text with accompanying illustrations. Try the free first chapter to see whether the reading style suits your reader.</dd></div><div><dt>What is the tone?</dt><dd>Action and humor meet experiments gone wrong, dangerous machines, and heroes learning to use their powers. Friendship, responsibility, and standing up for one another run through the series.</dd></div><div><dt>Where should readers start?</dt><dd>Read Origins, Aftershock, Lava Lips, then Clash in Cleveland. Each book has a free sample on Amazon.</dd></div><div><dt>How can I judge the reading level?</dt><dd>The suggested audience is ages 9–14. No formal reading-level score is supplied here; use the free chapters to judge vocabulary, length, and reading comfort with your reader.</dd></div><div><dt>What might appeal to a reluctant reader?</dt><dd>Illustrations, superhero action, and humor offer several ways into the story. Start with a short web comic or one free chapter, then let the reader choose whether to continue.</dd></div></dl>
+   <dl><div><dt>Who are these books for?</dt><dd>Kids and younger teens ages 9–14 who enjoy unlikely heroes, eccentric inventions, and superhero teamwork.</dd></div><div><dt>What is the format?</dt><dd>Illustrated prose adventures: the story is told in text with accompanying illustrations. Try the free first chapter to see whether the reading style suits your reader.</dd></div><div><dt>What is the tone?</dt><dd>Action and humor meet experiments gone wrong, dangerous machines, and heroes learning to use their powers. Friendship, responsibility, and standing up for one another run through the series.</dd></div><div><dt>Where should readers start?</dt><dd>Read Origins, Aftershock, Lava Lips, Clash in Cleveland, then Bouncin’ Bob. Each book has a free sample on Amazon.</dd></div><div><dt>How can I judge the reading level?</dt><dd>The suggested audience is ages 9–14. No formal reading-level score is supplied here; use the free chapters to judge vocabulary, length, and reading comfort with your reader.</dd></div><div><dt>What might appeal to a reluctant reader?</dt><dd>Illustrations, superhero action, and humor offer several ways into the story. Start with a short web comic or one free chapter, then let the reader choose whether to continue.</dd></div></dl>
    <div class="actions">${link(samples.origins,'Read Origins sample','button')}${link('downloads.html','Browse all samples','button secondary')}</div>
    <p id="discussion-questions"><strong>Discussion questions</strong><br>Talk about the story: What makes someone a hero? When does helping require listening? How should a person use a power that could hurt someone?</p>
    <p>Explore the setting and its beginnings: ${link('map.html','Cleveland landmark story map')} · ${link('1990-vault.html','Original childhood superhero comics from 1990')}.</p>

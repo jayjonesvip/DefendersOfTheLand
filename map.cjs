@@ -25,7 +25,7 @@ function createMap({geometry,site,escape:esc}){
   <header class="map-hero"><p class="eyebrow">DEFENDERS OF THE LAND · CLEVELAND, 1987</p><h1>Explore the Land</h1><p>Explore Cleveland, the setting of Defenders of the Land.</p></header>
   <div id="story-map">
    <fieldset class="map-book-filters" data-map-filters hidden><legend>Explore by book</legend><div>${['All','Book 1','Book 2','Book 3','Book 4'].map((label,i)=>`<button type="button" data-map-book="${i||'all'}" aria-pressed="${i===0}" aria-controls="map-landmark-list">${label}${i>0&&!landmarks.some(p=>p.books.includes(i))?'<span>Coming soon</span>':''}</button>`).join('')}</div></fieldset>
-   <p class="map-live-status" id="map-status" role="status" aria-live="polite" aria-atomic="true">${landmarks.length} story locations across all four books.</p>
+   <p class="map-live-status" id="map-status" role="status" aria-live="polite" aria-atomic="true">${landmarks.length} story locations across the first four books.</p>
    <div class="map-layout">
     <div class="map-visual-column">
      <div class="map-map-toolbar" data-map-controls hidden><div><button type="button" data-map-zoom="in" aria-label="Zoom in on the map">+</button><button type="button" data-map-zoom="out" aria-label="Zoom out on the map">−</button></div><button type="button" data-map-reset>Show all locations</button></div>

@@ -39,7 +39,7 @@
 .book-series{display:grid;gap:24px;background:var(--night);color:#fff7e9;border-top:4px solid var(--sun);padding:28px 22px}
 .book-series>div>.eyebrow{font-size:9px;color:#c2cdd0;margin:0 0 10px}
 .book-series h2{margin:0}
-.book-series ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0}
+.book-series ol{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0}
 .book-series li{min-width:0}
 .book-series a{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-height:44px;height:100%;border-bottom:3px solid transparent;padding:0 0 10px;text-decoration:none}
 .book-series a[aria-current="page"]{border-bottom-color:var(--sun)}
