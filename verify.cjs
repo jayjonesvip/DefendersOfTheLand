@@ -5,11 +5,14 @@ checkSource(root);
 for(const [id,url] of Object.entries(require('./amazon-samples.cjs').samples)){
  for(const page of ['index','books','downloads',id])assert(fs.readFileSync(path.join(out,page+'.html'),'utf8').includes(`href="${url}"`),`${page}: missing ${id} Amazon sample`);
 }
-const activityFiles=new Set(require('./content/activities.json').sheets.map(s=>s.pdf).concat(require('./content/activities.json').archive));
+const activityFiles=new Set(require('./content/activities.json').sheets.map(s=>s.pdf).concat(require('./content/activities.json').puzzles.flatMap(p=>[p.pdf,p.answer,p.combined]),require('./content/activities.json').archive,require('./content/activities.json').allArchive));
 for(const file of files(out).filter(f=>/\.(pdf|epub|zip)$/i.test(f)))assert(activityFiles.has(path.relative(out,file).split(path.sep).join('/')),'Unapproved downloadable file');
 const activityData=require('./content/activities.json'),activityHtml=fs.readFileSync(path.join(out,'activities.html'),'utf8');
 assert.equal((activityHtml.match(/class="activity-card"/g)||[]).length,7);
 for(const sheet of activityData.sheets){assert(activityHtml.includes(`href="${sheet.pdf}" download`));assert(fs.readFileSync(path.join(out,sheet.pdf)).subarray(0,5).equals(Buffer.from('%PDF-')));}
+assert.equal((activityHtml.match(/class="activity-card puzzle-card"/g)||[]).length,3);
+for(const puzzle of activityData.puzzles)for(const name of [puzzle.pdf,puzzle.answer,puzzle.combined]){assert(activityHtml.includes(`href="${name}" download`));assert.equal(fs.readFileSync(path.join(out,name)).subarray(0,5).toString(),'%PDF-');}
+assert(activityHtml.includes(`href="${activityData.allArchive}" download`));
 assert(activityHtml.includes(`href="${activityData.archive}" download`));assert.equal(fs.readFileSync(path.join(out,activityData.archive)).readUInt32LE(0),0x04034b50);
 const fifthHtml=fs.readFileSync(path.join(out,'book-five.html'),'utf8');
 for(const href of ['https://www.amazon.com/dp/B0HQFMBW2R','https://www.amazon.com/dp/B0HQFT91NJ',require('./amazon-samples.cjs').samples['book-five']])assert(fifthHtml.includes(`href="${href}"`),'Book Five edition/sample link missing');
