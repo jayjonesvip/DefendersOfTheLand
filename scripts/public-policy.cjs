@@ -33,10 +33,10 @@ function checkSource(root){
  assert.equal(fifth.amazonUrl,'https://www.amazon.com/dp/B0HQFT91NJ');
  assert(!fs.existsSync(path.join(root,'public/books')),'Book downloads must not be served; use Amazon sample links');
  const activities=JSON.parse(fs.readFileSync(path.join(root,'content/activities.json')));
- const downloads=new Set(activities.sheets.map(s=>'public/'+s.pdf).concat('public/'+activities.archive));
- assert.equal(activities.sheets.length,7);assert.equal(downloads.size,8);
+ const downloads=new Set([...activities.sheets.map(s=>'public/'+s.pdf),...activities.puzzles.flatMap(p=>[p.pdf,p.answer,p.combined].map(f=>'public/'+f)),'public/'+activities.archive,'public/'+activities.allArchive]);
+ assert.equal(activities.sheets.length,7);assert.equal(activities.puzzles.length,3);assert.equal(downloads.size,18);
  for(const name of downloads)assert(/^public\/activities\/[a-z0-9-]+\.(?:pdf|zip)$/.test(name)&&allowed.has(name),'Activity downloads must be explicitly approved');
- for(const file of files(path.join(root,'public'))){const name=path.relative(root,file).split(path.sep).join('/');if(/\.(?:pdf|epub|zip)$/i.test(file))assert(downloads.has(name),'Only approved coloring PDFs and their ZIP may be served');}
+ for(const file of files(path.join(root,'public'))){const name=path.relative(root,file).split(path.sep).join('/');if(/\.(?:pdf|epub|zip)$/i.test(file))assert(downloads.has(name),'Only explicitly approved activity PDFs and ZIP collections may be served');}
  return inventory;
 }
 module.exports={checkSource,files,ids};

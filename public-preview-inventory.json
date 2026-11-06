@@ -111,7 +111,7 @@
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "a4dfe4c36a645b96261e4a32f68e7a8baac2afd272250aaca03315a345870082"
+      "sha256": "2fb27771b74296e5c48b2ec6d46e99ffd60d7d279037b66a46d11bf6caf4b347"
     },
     {
       "path": "image-manifest.json",
@@ -463,12 +463,64 @@
     },
     {
       "path": "content/activities.json",
-      "sha256": "49ccc6975bb6eb21fb4f07abf0b6f2351dbadfff57ecaadb40bd6f0ade6c6704"
+      "sha256": "2a94bf7f6368702dcef1007505abdc9c0c4db1d7bde5bb1da3db21723e503ced"
+    },
+    {
+      "path": "public/activities/defenders-cleveland-word-search.pdf",
+      "sha256": "c68e42afcf6413c80f07783b3c1900db5116a07f3e84f8419270543031828867"
+    },
+    {
+      "path": "public/activities/defenders-cleveland-word-search-answer-key.pdf",
+      "sha256": "835baa2998aa2638bc2f0966286463ca7df53932b05b611c981e3af07bedbd71"
+    },
+    {
+      "path": "public/activities/defenders-cleveland-word-search-with-answers.pdf",
+      "sha256": "60ab1002040c103f1ad1281e7c9f278275a38b9e9c42db24600e46ddb6b5e23a"
+    },
+    {
+      "path": "public/assets/defenders-cleveland-word-search-preview.webp",
+      "sha256": "2d72a0739135af2b26dfa2358371df11d2d39ab8c6d0ddc65c7b843289c84faf"
+    },
+    {
+      "path": "public/activities/defenders-friends-easy-word-search.pdf",
+      "sha256": "c19c83e3addf72003a69d76f39a27e336a297cec0394a5900532b19bfb988e6b"
+    },
+    {
+      "path": "public/activities/defenders-friends-easy-word-search-answer-key.pdf",
+      "sha256": "5219e5f49acdfb157e262b65432c3503787592d96f50ceb32ddde2f095ebe3db"
+    },
+    {
+      "path": "public/activities/defenders-friends-easy-word-search-with-answers.pdf",
+      "sha256": "ee7ac69eba2bb17ad1a4675df6470a236e399c1dc5b467a6fe88df9729f31605"
+    },
+    {
+      "path": "public/assets/defenders-friends-easy-word-search-preview.webp",
+      "sha256": "f8e59dc3ee8f132592d9a8f4e32ebe51856f48b879a016931b5704d17835fc37"
+    },
+    {
+      "path": "public/activities/super-perch-easy-maze.pdf",
+      "sha256": "e32a46b558457c1eae8b9136aedb6fd6b8c101b98fb85140a3fdd512948e1c6f"
+    },
+    {
+      "path": "public/activities/super-perch-easy-maze-answer-key.pdf",
+      "sha256": "221abadb61c6f77756caaff8f412f5c5d379697256d876911698541c20e55240"
+    },
+    {
+      "path": "public/activities/super-perch-easy-maze-with-answers.pdf",
+      "sha256": "6e5d903b33a1fcd75492dfce1db48b004d302ba2f9e079555daa0752515d81c1"
+    },
+    {
+      "path": "public/assets/super-perch-easy-maze-preview.webp",
+      "sha256": "838ea2a9ba733fe2be011b649551fd434b98f7a721367aeeffd4cb1cadb3527b"
+    },
+    {
+      "path": "public/activities/defenders-all-printable-activities.zip",
+      "sha256": "4d66823d16455ffc2ddea3e847b8110f85459a0b5121b995a8e997b008cd0fe3"
     }
   ],
   "bookFiveMarketingExport": {
     "date": "2026-11-04",
     "source": "Author-approved cover and back-cover copy from the private book repository, and author-supplied Amazon links. Marketing only; no chapter text or production files."
   },
-  "activitiesApproval": "Author approved seven individual one-page coloring PDFs, their preview images and a ZIP of exactly those PDFs. Book sample PDFs and EPUBs remain prohibited."
+  "activitiesApproval": "Author approved seven coloring sheets, two word searches and the revised easier Super Perch maze, separate answer keys, combined puzzle/key PDFs and the listed ZIP collections. Book PDF/EPUB samples remain prohibited."
 }

@@ -37,6 +37,8 @@ async function get(file,status=200){
  const activityData=require('../content/activities.json');
  const activityHtml=await(await get('activities.html')).text();
  for(const sheet of activityData.sheets){assert(activityHtml.includes(`href="${sheet.pdf}" download`));const data=Buffer.from(await(await get(sheet.pdf)).arrayBuffer());assert.equal(data.subarray(0,5).toString(),'%PDF-');}
+ for(const puzzle of activityData.puzzles)for(const file of [puzzle.pdf,puzzle.answer,puzzle.combined]){assert(activityHtml.includes(`href="${file}" download`));const pdf=Buffer.from(await(await get(file)).arrayBuffer());assert.equal(pdf.subarray(0,5).toString(),'%PDF-');}
+ const allZip=Buffer.from(await(await get(activityData.allArchive)).arrayBuffer());assert.equal(allZip.readUInt32LE(0),0x04034b50);
  const zip=Buffer.from(await(await get(activityData.archive)).arrayBuffer());assert.equal(zip.readUInt32LE(0),0x04034b50);
  for(const id of ids){
   const book=require('../content/books/'+id+'/book.json');

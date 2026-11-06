@@ -64,5 +64,44 @@
       "height": 570
     }
   ],
-  "archive": "activities/defenders-coloring-pages.zip"
+  "archive": "activities/defenders-coloring-pages.zip",
+  "puzzles": [
+    {
+      "id": "defenders-cleveland-word-search",
+      "title": "Defenders & Cleveland Word Search",
+      "description": "18 words in a 20 × 20 grid. Search across, down, and diagonally.",
+      "label": "Word search · Challenge",
+      "pdf": "activities/defenders-cleveland-word-search.pdf",
+      "answer": "activities/defenders-cleveland-word-search-answer-key.pdf",
+      "combined": "activities/defenders-cleveland-word-search-with-answers.pdf",
+      "preview": "defenders-cleveland-word-search-preview.webp",
+      "width": 440,
+      "height": 569
+    },
+    {
+      "id": "defenders-friends-easy-word-search",
+      "title": "Defenders & Friends Word Search",
+      "description": "9 words with larger letters. Search across and down only.",
+      "label": "Word search · Easy",
+      "pdf": "activities/defenders-friends-easy-word-search.pdf",
+      "answer": "activities/defenders-friends-easy-word-search-answer-key.pdf",
+      "combined": "activities/defenders-friends-easy-word-search-with-answers.pdf",
+      "preview": "defenders-friends-easy-word-search-preview.webp",
+      "width": 440,
+      "height": 569
+    },
+    {
+      "id": "super-perch-easy-maze",
+      "title": "Help Super Perch Find Super Zerdo",
+      "description": "Guide Super Perch from the entrance to Zerdo through wider paths and fewer turns.",
+      "label": "Maze · Easy",
+      "pdf": "activities/super-perch-easy-maze.pdf",
+      "answer": "activities/super-perch-easy-maze-answer-key.pdf",
+      "combined": "activities/super-perch-easy-maze-with-answers.pdf",
+      "preview": "super-perch-easy-maze-preview.webp",
+      "width": 440,
+      "height": 569
+    }
+  ],
+  "allArchive": "activities/defenders-all-printable-activities.zip"
 }
