@@ -39,6 +39,7 @@ function createDownloads({books,site,escape:esc,img,link}){
    <header class="sample-section-heading"><p class="eyebrow">DEFENDERS OF THE LAND · JAY JONES</p><h2 id="sample-series-title">Choose your sample</h2></header>
    <div class="sample-volume-grid">${cards}</div>
   </section>
+  <p>Looking for something to print? <a href="activities.html">Browse free coloring pages →</a></p>
   <section class="sample-closing" aria-label="Continue on Amazon">
    ${amazon(site.amazonSeriesUrl,'Get the full series on Amazon <span aria-hidden="true">→</span>','Get the full Defenders of the Land series on Amazon','button sample-series-cta')}
    ${link('paperback.html','Explore all paperback & Kindle editions →','sample-editions-link')}

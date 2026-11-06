@@ -34,6 +34,10 @@ async function get(file,status=200){
    }
   }
  }
+ const activityData=require('../content/activities.json');
+ const activityHtml=await(await get('activities.html')).text();
+ for(const sheet of activityData.sheets){assert(activityHtml.includes(`href="${sheet.pdf}" download`));const data=Buffer.from(await(await get(sheet.pdf)).arrayBuffer());assert.equal(data.subarray(0,5).toString(),'%PDF-');}
+ const zip=Buffer.from(await(await get(activityData.archive)).arrayBuffer());assert.equal(zip.readUInt32LE(0),0x04034b50);
  for(const id of ids){
   const book=require('../content/books/'+id+'/book.json');
   const html=await(await get(id+'-chapter-1.html')).text();

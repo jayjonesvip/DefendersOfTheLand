@@ -1,6 +1,6 @@
 # Public website boundary
 
-This repository may contain only Chapter 1 of each book and public marketing/archive assets. Samples use Amazon links; do not serve PDF or EPUB downloads. Complete books, later chapter sources, original production artwork, editorial records, print layouts, EPUB/KDP exporters and publishing artifacts belong in the private jayjonesvip/DefendersOfTheLandBook repository.
+This repository may contain only Chapter 1 of each book and public marketing/archive assets. Samples use Amazon links; do not serve book PDF or EPUB downloads. The author-approved coloring PDFs and their ZIP in public/activities are the only download exception; see content/activities.json and the approved inventory. Complete books, later chapter sources, original production artwork, editorial records, print layouts, EPUB/KDP exporters and publishing artifacts belong in the private jayjonesvip/DefendersOfTheLandBook repository.
 
 Update previews by reviewing an explicit export from that private repository. The public-preview-inventory.json checksums identify the approved source files. Do not add client-side locks, hidden later chapters, private repository credentials, full-book artifacts or private-source checkout steps to the public build.
 

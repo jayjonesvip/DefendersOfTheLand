@@ -32,7 +32,11 @@ function checkSource(root){
  assert.deepEqual(fifth.chapters,[]);
  assert.equal(fifth.amazonUrl,'https://www.amazon.com/dp/B0HQFT91NJ');
  assert(!fs.existsSync(path.join(root,'public/books')),'Book downloads must not be served; use Amazon sample links');
- for(const file of files(path.join(root,'public')))assert(!/\.(?:pdf|epub)$/i.test(file),'PDF and EPUB downloads must not be served');
+ const activities=JSON.parse(fs.readFileSync(path.join(root,'content/activities.json')));
+ const downloads=new Set(activities.sheets.map(s=>'public/'+s.pdf).concat('public/'+activities.archive));
+ assert.equal(activities.sheets.length,7);assert.equal(downloads.size,8);
+ for(const name of downloads)assert(/^public\/activities\/[a-z0-9-]+\.(?:pdf|zip)$/.test(name)&&allowed.has(name),'Activity downloads must be explicitly approved');
+ for(const file of files(path.join(root,'public'))){const name=path.relative(root,file).split(path.sep).join('/');if(/\.(?:pdf|epub|zip)$/i.test(file))assert(downloads.has(name),'Only approved coloring PDFs and their ZIP may be served');}
  return inventory;
 }
 module.exports={checkSource,files,ids};
