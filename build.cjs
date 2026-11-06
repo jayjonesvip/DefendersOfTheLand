@@ -100,7 +100,7 @@ pages['404.html']=shell('Page not found',`<section class="contents"><h1>This pag
 for(const file of fs.readdirSync(out).filter(f=>f.endsWith('.html')&&!Object.hasOwn(pages,f)))fs.unlinkSync(path.join(out,file));
 const assetOut=path.join(out,'assets');fs.mkdirSync(assetOut,{recursive:true});
 const used=new Set([...Object.values(pages).join('').matchAll(/src="assets\/([^"]+)"/g)].map(m=>m[1]));
-used.add('D3-LICENSE.txt');used.add(websiteSeo.socialImage.file);
+used.add('D3-LICENSE.txt');used.add(websiteSeo.socialImage.file);used.add(websiteSeo.activitiesSocialImage.file);
 used.add(comic.socialImage.file);
 used.add(prequel.socialImage.file);
 used.add(loadedGlove.socialImage.file);

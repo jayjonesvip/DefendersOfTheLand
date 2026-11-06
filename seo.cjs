@@ -33,11 +33,13 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
   const share=websiteSeo.socialImage;
   let previewImage=image(activeBook),previewSize=manifest[activeBook.cover],previewAlt=`Cover of ${activeBook.title} by ${site.author}.`,mime='image/webp';
   if(seriesPages.includes(file)){previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
+  if(file==='activities.html'){const share=websiteSeo.activitiesSocialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(characterProfile){const share=characterProfile.source?require('./'+characterProfile.source).socialImage:characterProfile.comics?.length?require('./'+characterProfile.comics[0]).socialImage:websiteSeo.socialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(isVault){previewImage=pageUrl(archivePreview.file);previewSize={width:archivePreview.width,height:Math.round(archivePreview.width*archiveItems[0].height/archiveItems[0].width)};previewAlt=archiveItems[0].alt;}
   if(activeComic){previewImage=pageUrl('assets/'+activeComic.socialImage.file);previewSize=activeComic.socialImage;previewAlt=activeComic.socialImage.alt;mime=activeComic.socialImage.type;}
   const page={'@type':['books.html','origins.html',...additionalBooks.map(b=>b.id+'.html')].includes(file)?'CollectionPage':'WebPage','@id':canonical+'#webpage',url:canonical,name:title,description:pageDescription,inLanguage:'en',isPartOf:{'@id':website['@id']}};
   const graph=[website,author,page];
+  if(file==='activities.html'){const share=websiteSeo.activitiesSocialImage;previewImage=pageUrl('assets/'+share.file);previewSize=share;previewAlt=share.alt;mime=share.type;}
   if(characterProfile){const entity={'@type':'Thing','@id':canonical+'#character',name:characterProfile.name,description:characterProfile.hook,image:pageUrl('assets/'+(manifest[characterProfile.image]?.file||characterProfile.image)),url:canonical};graph.push(entity);page.mainEntity={'@id':entity['@id']};}
   if(activeComic){const story={'@type':'ComicStory','@id':canonical+'#comic',name:activeComic.title||'Flaming Head: The One Who Fell',url:canonical,author:{'@id':author['@id']},image:previewImage,inLanguage:'en',isAccessibleForFree:true,isPartOf:{'@id':page['@id']}};graph.push(story);page.mainEntity={'@id':story['@id']};}
   if(isAuthor){page['@type']='ProfilePage';page.mainEntity={'@id':author['@id']};}

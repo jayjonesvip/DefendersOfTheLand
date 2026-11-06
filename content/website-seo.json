@@ -112,7 +112,7 @@
     "activities.html": {
       "title": "Free Printable Coloring Pages | Defenders of the Land",
       "description": "Print free Defenders of the Land coloring pages, word searches, and a maze. Download US Letter PDFs, separate answer keys, or a ZIP for home and classroom fun.",
-      "lastModified": "2026-11-05"
+      "lastModified": "2026-11-06"
     }
   },
   "socialImage": {
@@ -121,5 +121,12 @@
     "height": 630,
     "type": "image/jpeg",
     "alt": "Defenders of the Land by Jay Jones, with the four book covers."
+  },
+  "activitiesSocialImage": {
+    "file": "printable-activities-social-1200x630-v1.jpg",
+    "width": 1200,
+    "height": 630,
+    "type": "image/jpeg",
+    "alt": "Free Defenders of the Land printable activities: coloring pages, word searches and a maze, with Fist-O-Mite and Super Perch."
   }
 }
