@@ -1,0 +1,68 @@
+{
+  "sheets": [
+    {
+      "id": "fist-o-mite",
+      "title": "Fist-O-Mite",
+      "description": "A flying glove with a mind of his own.",
+      "pdf": "activities/fist-o-mite-coloring-page.pdf",
+      "preview": "fist-o-mite-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "super-perch",
+      "title": "Super Perch",
+      "description": "An underwater adventure with rocks, plants, and a little snail.",
+      "pdf": "activities/super-perch-coloring-page.pdf",
+      "preview": "super-perch-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "flaming-head",
+      "title": "Flaming Head",
+      "description": "A friendly fireball above the Cleveland skyline.",
+      "pdf": "activities/flaming-head-coloring-page.pdf",
+      "preview": "flaming-head-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "pink-blur-super-zerdo",
+      "title": "Pink Blur & Super Zerdo",
+      "description": "Super speed meets super strength.",
+      "pdf": "activities/pink-blur-super-zerdo-coloring-page.pdf",
+      "preview": "pink-blur-super-zerdo-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "doc-dork",
+      "title": "Doc Dork",
+      "description": "An experiment at the laboratory bench.",
+      "pdf": "activities/doc-dork-coloring-page.pdf",
+      "preview": "doc-dork-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "doc-dork-jaws",
+      "title": "Doc Dork & Jaws O’ Death",
+      "description": "Jaws keeps an eye on Doc’s latest experiment.",
+      "pdf": "activities/doc-dork-jaws-coloring-page.pdf",
+      "preview": "doc-dork-jaws-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    },
+    {
+      "id": "inspector-billy",
+      "title": "Inspector Billy",
+      "description": "A detective, a notebook, and a trail of footprints.",
+      "pdf": "activities/inspector-billy-coloring-page.pdf",
+      "preview": "inspector-billy-coloring-preview.webp",
+      "width": 440,
+      "height": 570
+    }
+  ],
+  "archive": "activities/defenders-coloring-pages.zip"
+}

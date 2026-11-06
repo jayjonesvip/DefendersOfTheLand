@@ -111,7 +111,7 @@
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "eca1418dfbb9ae6cc44921773e9cfe58532ef43c922910f370d3499aa02be3b7"
+      "sha256": "a4dfe4c36a645b96261e4a32f68e7a8baac2afd272250aaca03315a345870082"
     },
     {
       "path": "image-manifest.json",
@@ -400,10 +400,75 @@
     {
       "path": "public/assets/book-five-bouncin-bob-cover-web-v1.webp",
       "sha256": "aa946d5dee67e64fdc1f946135c68bd666f791c89784cf2a0af6719f99b961ff"
+    },
+    {
+      "path": "public/activities/fist-o-mite-coloring-page.pdf",
+      "sha256": "1dfdda8061ba5f68bc46ff77b361635edf5a20b6d404c56649d28277dc5b6e06"
+    },
+    {
+      "path": "public/assets/fist-o-mite-coloring-preview.webp",
+      "sha256": "7968ac07f2ab9b801467f7081b9dcf82fbf504a0ab2ff9a77cab5cad7564fba6"
+    },
+    {
+      "path": "public/activities/super-perch-coloring-page.pdf",
+      "sha256": "a781954c22466a3cda5a012f5f347d16b8df97836510263ee2a87f120532754e"
+    },
+    {
+      "path": "public/assets/super-perch-coloring-preview.webp",
+      "sha256": "dbfc4966dd7064971ede557dc6b4beeebddec0ad4e5c03a744fc18ac373ba185"
+    },
+    {
+      "path": "public/activities/flaming-head-coloring-page.pdf",
+      "sha256": "b5be72c77b0c543ce2ffdf577bb81f0c2e0998c87ef145f427d8d181d08798cb"
+    },
+    {
+      "path": "public/assets/flaming-head-coloring-preview.webp",
+      "sha256": "4929db46f0f09772d669f942510c7929010edaba626bd688858facd8c50eabc8"
+    },
+    {
+      "path": "public/activities/pink-blur-super-zerdo-coloring-page.pdf",
+      "sha256": "4673128917f3ce0ad0076df7d9baac3aa656173069ee25bc29d141e5205d9ec0"
+    },
+    {
+      "path": "public/assets/pink-blur-super-zerdo-coloring-preview.webp",
+      "sha256": "a6399ba7cf3d300cf63346fd35880c7e4056b084c9271542111e43e54067738f"
+    },
+    {
+      "path": "public/activities/doc-dork-coloring-page.pdf",
+      "sha256": "860c9f3533c468b05fdc1c92240db8b9bf69e8b6570492d1a30f6137c840ede6"
+    },
+    {
+      "path": "public/assets/doc-dork-coloring-preview.webp",
+      "sha256": "6bd27119bcc2548c190ce5fecd91e644e832655705daeeec43cf7da774f38c30"
+    },
+    {
+      "path": "public/activities/doc-dork-jaws-coloring-page.pdf",
+      "sha256": "33f4888423c71319360852c3aea925076d82a5db87ad556d337c3878d7bbd384"
+    },
+    {
+      "path": "public/assets/doc-dork-jaws-coloring-preview.webp",
+      "sha256": "d3308037c3eae40be070760c0744a8349b9fe37df97669d2fedf91fca609a8e0"
+    },
+    {
+      "path": "public/activities/inspector-billy-coloring-page.pdf",
+      "sha256": "795af209c4ca8b75cefaf54ac77c2e679678c7fade4170b9efba867be37475ad"
+    },
+    {
+      "path": "public/assets/inspector-billy-coloring-preview.webp",
+      "sha256": "9abf02b29e37394cbd7653bc411e361994cccaae1adc9b396f173d5d4aada0ef"
+    },
+    {
+      "path": "public/activities/defenders-coloring-pages.zip",
+      "sha256": "6cfecd6ab131bc2c2945a1d04a4d9136a9e9fe34011c4bf8a3dcf7fd30cd6ae0"
+    },
+    {
+      "path": "content/activities.json",
+      "sha256": "49ccc6975bb6eb21fb4f07abf0b6f2351dbadfff57ecaadb40bd6f0ade6c6704"
     }
   ],
   "bookFiveMarketingExport": {
     "date": "2026-11-04",
     "source": "Author-approved cover and back-cover copy from the private book repository, and author-supplied Amazon links. Marketing only; no chapter text or production files."
-  }
+  },
+  "activitiesApproval": "Author approved seven individual one-page coloring PDFs, their preview images and a ZIP of exactly those PDFs. Book sample PDFs and EPUBs remain prohibited."
 }
