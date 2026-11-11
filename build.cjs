@@ -24,10 +24,10 @@ const kindle=(label='Buy Kindle ebook',cls='button secondary')=>link(siteConfig.
 const buy=(label='Buy paperback on Amazon',cls='button')=>link(siteConfig.paperback.url,label,cls);
 const series=()=>siteConfig.amazonSeriesUrl?link(esc(siteConfig.amazonSeriesUrl),'View series on Amazon','button secondary'):'';
 const continueUrl=b=>b.amazonUrl||(b.number===1?siteConfig.ebook.url:b.ebook?.url||b.paperback?.url||siteConfig.amazonSeriesUrl);
-const bookLabel=b=>`Book ${['','One','Two','Three','Four','Five'][b.number]||b.number}`;
+const bookLabel=b=>`Book ${['','One','Two','Three','Four','Five','Six'][b.number]||b.number}`;
 const editions=b=>[b.paperback?link(b.paperback.url,'Buy paperback on Amazon','button secondary'):'',b.ebook?link(b.ebook.url,'Buy Kindle ebook','button secondary'):''].join('');
 const publicationDetails=b=>{const info=websiteSeo.paperbacks[b.id];if(!info)return '';const date=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(info.datePublished+'T00:00:00Z'));return `<p class="edition-note">Paperback publication date: <time datetime="${info.datePublished}">${date}</time> · ISBN-13: ${esc(info.isbn)}</p>`;};
-const amazonSequels=()=>additionalBooks.filter(b=>b.paperback||b.ebook).map(b=>`<article><h3>${esc(b.title)}</h3><p><strong>${esc(bookLabel(b))}:</strong> Available in paperback and Kindle.</p>${publicationDetails(b)}<div class="actions">${editions(b)}</div><p>${link(samples[b.id],`Read ${bookLabel(b)}’s sample on Amazon →`)}</p></article>`).join('');
+const amazonSequels=()=>additionalBooks.filter(b=>b.paperback||b.ebook).map(b=>`<article><h3>${esc(b.title)}</h3><p><strong>${esc(bookLabel(b))}:</strong> ${b.paperback?'Available in paperback and Kindle.':'Available on Kindle.'}</p>${publicationDetails(b)}<div class="actions">${editions(b)}</div><p>${link(samples[b.id],`Read ${bookLabel(b)}’s sample on Amazon →`)}</p></article>`).join('');
 const size=bytes=>bytes>1048576?`${(bytes/1048576).toFixed(1)} MB`:`${Math.ceil(bytes/1024)} KB`;
 const url=n=>`${book.id}-chapter-${n}.html`;
 const img=(file,alt)=>{const m=manifest[file];return `<img src="assets/${esc(m?.file||file)}" alt="${esc(alt)}" ${m?`width="${m.width}" height="${m.height}"`:''} loading="lazy" decoding="async">`};

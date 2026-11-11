@@ -26,8 +26,8 @@
     },
     "books.html": {
       "title": "Superhero Books for Kids 9–14 | Defenders of the Land",
-      "description": "Find superhero books for kids ages 9–14: five illustrated Cleveland adventures by Jay Jones. Browse reading order, free chapters, and parent and teacher notes.",
-      "lastModified": "2026-11-05"
+      "description": "Find superhero books for kids ages 9–14: six illustrated Cleveland adventures by Jay Jones. Browse reading order, free chapters, and parent and teacher notes.",
+      "lastModified": "2026-11-11"
     },
     "characters.html": {
       "title": "Cleveland Superhero Characters | Defenders of the Land",
@@ -46,13 +46,13 @@
     },
     "downloads.html": {
       "title": "Free Middle-Grade Superhero Book Samples | Jay Jones",
-      "description": "Try illustrated superhero adventures by Jay Jones for ages 9–14. Read free samples of all five Defenders of the Land books on Amazon, then choose your edition.",
-      "lastModified": "2026-11-05"
+      "description": "Try illustrated superhero adventures by Jay Jones for ages 9–14. Read free samples of all six Defenders of the Land books on Amazon, then choose your edition.",
+      "lastModified": "2026-11-11"
     },
     "paperback.html": {
       "title": "Paperback & Kindle Books | Defenders of the Land",
-      "description": "Find all five Defenders of the Land books by Jay Jones in paperback and Kindle editions on Amazon. Preview Chapter 1 and choose your next Cleveland adventure.",
-      "lastModified": "2026-11-04"
+      "description": "Explore the Defenders of the Land books by Jay Jones in paperback and Kindle editions on Amazon. Preview Chapter 1 and choose your next Cleveland adventure.",
+      "lastModified": "2026-11-11"
     },
     "1990-vault.html": {
       "title": "1990 Comic Archives | Defenders of the Land",
@@ -113,6 +113,11 @@
       "title": "Free Printable Coloring Pages | Defenders of the Land",
       "description": "Print free Defenders of the Land coloring pages, word searches, and a maze. Download US Letter PDFs, separate answer keys, or a ZIP for home and classroom fun.",
       "lastModified": "2026-11-06"
+    },
+    "book-six.html": {
+      "title": "Chemical Dude | Book Six | Defenders of the Land",
+      "description": "A strange light over Lake Erie brings an unexpected visitor. Read a free Amazon sample of Chemical Dude, Book Six of Defenders of the Land, for ages 9–14.",
+      "lastModified": "2026-11-11"
     }
   },
   "socialImage": {

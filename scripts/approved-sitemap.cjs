@@ -10,7 +10,7 @@ const approvedPages=[
  'activities.html','paperback.html','author.html','downloads.html','1990-vault.html',
  'flaming-head-origin.html','why-so-evil.html','loaded-glove.html',
  'sticky-situation.html','super-perch.html','seized-up.html',
- 'origins.html','book-two.html','book-three.html','book-four.html','book-five.html',
+ 'origins.html','book-two.html','book-three.html','book-four.html','book-five.html','book-six.html',
  'origins-chapter-1.html','book-two-chapter-1.html',
  'book-three-chapter-1.html','book-four-chapter-1.html'
 ];

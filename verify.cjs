@@ -14,11 +14,14 @@ assert.equal((activityHtml.match(/class="activity-card puzzle-card"/g)||[]).leng
 for(const puzzle of activityData.puzzles)for(const name of [puzzle.pdf,puzzle.answer,puzzle.combined]){assert(activityHtml.includes(`href="${name}" download`));assert.equal(fs.readFileSync(path.join(out,name)).subarray(0,5).toString(),'%PDF-');}
 assert(activityHtml.includes(`href="${activityData.allArchive}" download`));
 assert(activityHtml.includes(`href="${activityData.archive}" download`));assert.equal(fs.readFileSync(path.join(out,activityData.archive)).readUInt32LE(0),0x04034b50);
+const sixthHtml=fs.readFileSync(path.join(out,'book-six.html'),'utf8');
+for(const href of ['https://www.amazon.com/dp/B0HR6DZ716',require('./amazon-samples.cjs').samples['book-six']])assert(sixthHtml.includes(`href="${href}"`),'Book Six edition/sample link missing');
+assert(!fs.existsSync(path.join(out,'book-six-chapter-1.html')),'Book Six sample opens on Amazon');
 const fifthHtml=fs.readFileSync(path.join(out,'book-five.html'),'utf8');
 for(const href of ['https://www.amazon.com/dp/B0HQFMBW2R','https://www.amazon.com/dp/B0HQFT91NJ',require('./amazon-samples.cjs').samples['book-five']])assert(fifthHtml.includes(`href="${href}"`),'Book Five edition/sample link missing');
 assert(!fs.existsSync(path.join(out,'book-five-chapter-1.html')),'Book Five sample must open on Amazon');
 const htmlFiles=fs.readdirSync(out).filter(f=>f.endsWith('.html'));
-const expected=[...Object.values(require('./character-pages.cjs').profiles).map(p=>p.file),'index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','seized-up.html','web-comics.html','activities.html','book-five.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
+const expected=[...Object.values(require('./character-pages.cjs').profiles).map(p=>p.file),'index.html','books.html','paperback.html','downloads.html','author.html','1990-vault.html','characters.html','map.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','seized-up.html','web-comics.html','activities.html','book-five.html','book-six.html','404.html',...ids.flatMap(id=>[id+'.html',id+'-chapter-1.html'])];
 assert.deepEqual(htmlFiles.sort(),expected.sort());
 const approved=[...JSON.parse(fs.readFileSync(path.join(root,'public-preview-inventory.json'))).files,...JSON.parse(fs.readFileSync(path.join(root,'website-originals.json'))).files];
 const allowed=new Set(approved.filter(f=>f.path.startsWith('public/')&&!f.path.startsWith('public/vendor/')).map(f=>f.path.slice(7)));
@@ -66,7 +69,7 @@ async function browserChecks(){
   const base=`http://127.0.0.1:${server.address().port}`;
   for(const width of [320,390,1200]){
    await page.setViewportSize({width,height:900});
-   for(const file of [...Object.values(require('./character-pages.cjs').profiles).map(p=>p.file),'fist-o-mite.html','flaming-head.html','index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','seized-up.html','web-comics.html','activities.html','book-five.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
+   for(const file of [...Object.values(require('./character-pages.cjs').profiles).map(p=>p.file),'fist-o-mite.html','flaming-head.html','index.html','books.html','paperback.html','characters.html','map.html','1990-vault.html','flaming-head-origin.html','why-so-evil.html','loaded-glove.html','sticky-situation.html','super-perch.html','seized-up.html','web-comics.html','activities.html','book-five.html','book-six.html',...ids.map(id=>id+'.html'),...ids.map(id=>id+'-chapter-1.html')]){
     await page.goto(base+'/'+file);await page.evaluate(()=>document.fonts.ready);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${file}: overflow at ${width}`);
     for(const href of await page.locator('[data-resume]:visible').evaluateAll(links=>links.map(a=>a.href)))assert(/-chapter-1\.html$/.test(href),`Stale resume: ${href}`);
