@@ -107,15 +107,15 @@
     },
     {
       "path": "content/website-book-copy.json",
-      "sha256": "f1410817bc8682096f0995b0ebc7bd58a19b00e944f6494cbc7539585700f74c"
+      "sha256": "927b3b7a0e5f3698596601cac5c46ee542bc3a1c95efc8720e5205b71d9bd6c9"
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "db93bd3fe19c21634b1b184ef7c302070c9e51636a9978da63463bca9bb24379"
+      "sha256": "f0c90fd78993aa7727da0d2d09fb1b99878e4c7d4e6b68cf891db3e74f916881"
     },
     {
       "path": "image-manifest.json",
-      "sha256": "e2fc355c04c6ccd611ba09a8e1fcbd7ced797abf83a127a36c61f0dbdbd74bec"
+      "sha256": "d9c9177b644e0882439c2698eae5a32e1e3da1e80d07429b7e694cf2402c02f3"
     },
     {
       "path": "public/apple-touch-icon.png",
@@ -516,6 +516,14 @@
     {
       "path": "public/activities/defenders-all-printable-activities.zip",
       "sha256": "4d66823d16455ffc2ddea3e847b8110f85459a0b5121b995a8e997b008cd0fe3"
+    },
+    {
+      "path": "content/books/book-six/book.json",
+      "sha256": "6c262bba991ed70f2f325d1950c8c952e7256b20d15372ecd2c5fa2001c0117d"
+    },
+    {
+      "path": "public/assets/book-six-chemical-dude-cover-web-v1.webp",
+      "sha256": "a864570e118c1975e1a0ff7c9709b46c54a3844c85a0dc4b136f0f9c80d8dfa8"
     }
   ],
   "bookFiveMarketingExport": {

@@ -9,8 +9,8 @@ function createSeo({site,book,chapters,additionalBooks,cover,manifest,archiveIte
  const website={'@type':'WebSite','@id':siteUrl+'/#website',url:pageUrl('index.html'),name:site.name,description:site.description,inLanguage:'en',creator:{'@id':author['@id']}};
  const series={'@type':'BookSeries','@id':siteUrl+'/#series',name:site.name,url:pageUrl('books.html'),sameAs:site.amazonSeriesUrl,author:{'@id':author['@id']},hasPart:allBooks.map(b=>({'@type':'Book','@id':siteUrl+'/#'+b.id,name:b.title,url:pageUrl(b.id+'.html')}))};
  const description=b=>b.number===1?'An illustrated Cleveland superhero adventure by Jay Jones.':b.description;
- const bookNode=b=>({'@type':'Book','@id':siteUrl+'/#'+b.id,name:b.title,url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},image:image(b),description:description(b),inLanguage:'en',isPartOf:{'@id':series['@id']},workExample:['paperback','ebook'].map(format=>({'@id':siteUrl+'/#'+b.id+'-'+format}))});
- const editions=(b,includeFacts=true)=>['paperback','ebook'].map(format=>{
+ const bookNode=b=>({'@type':'Book','@id':siteUrl+'/#'+b.id,name:b.title,url:pageUrl(b.id+'.html'),author:{'@id':author['@id']},image:image(b),description:description(b),inLanguage:'en',isPartOf:{'@id':series['@id']},workExample:['paperback','ebook'].filter(format=>(b.number===1?site:b)[format]).map(format=>({'@id':siteUrl+'/#'+b.id+'-'+format}))});
+ const editions=(b,includeFacts=true)=>['paperback','ebook'].filter(format=>(b.number===1?site:b)[format]).map(format=>{
   const p=(b.number===1?site:b)[format],details=format==='paperback'&&includeFacts?websiteSeo.paperbacks[b.id]:{};
   return {'@type':'Book','@id':siteUrl+'/#'+b.id+'-'+format,name:b.title,author:{'@id':author['@id']},bookFormat:'https://schema.org/'+(format==='paperback'?'Paperback':'EBook'),image:image(b),description:description(b),inLanguage:'en',url:p.url,identifier:{'@type':'PropertyValue',propertyID:'ASIN',value:p.asin},...details,exampleOfWork:{'@id':siteUrl+'/#'+b.id},potentialAction:{'@type':'BuyAction',target:p.url}};
  });

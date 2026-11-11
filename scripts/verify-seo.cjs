@@ -28,10 +28,10 @@ for(const [file,metadata]of Object.entries(config.pages)){
  if(file==='activities.html'){const share=config.activitiesSocialImage;assert(image.endsWith('/assets/'+share.file));assert.equal(get(html,'og:image:width'),'1200');assert.equal(get(html,'og:image:height'),'630');assert.equal(get(html,'og:image:type'),'image/jpeg');assert.equal(get(html,'og:image:alt'),share.alt);assert.equal(get(html,'twitter:image:alt'),share.alt);}
  if(file==='author.html')assert.equal(get(html,'twitter:card'),'summary_large_image');
  if(['origins.html','book-two.html','book-three.html','book-four.html'].includes(file)){const id=file.slice(0,-5);assert(html.includes(config.paperbacks[id].isbn));assert(html.includes(`datetime="${config.paperbacks[id].datePublished}"`));assert.equal(graph.filter(n=>n.bookFormat).length,2);}
- if(file==='index.html'){assert.equal(graph.find(n=>n['@type']==='BookSeries').hasPart.length,5);assert.equal(graph.filter(n=>n.bookFormat).length,10);}
+ if(file==='index.html'){assert.equal(graph.find(n=>n['@type']==='BookSeries').hasPart.length,6);assert.equal(graph.filter(n=>n.bookFormat).length,11);}
 }
 assert.equal(new Set(titles).size,Object.keys(config.pages).length);assert.equal(new Set(descriptions).size,Object.keys(config.pages).length);
 const sitemap=fs.readFileSync(path.join(out,'sitemap.xml'),'utf8'),entries=[...sitemap.matchAll(/<url><loc>(.*?)<\/loc><lastmod>(.*?)<\/lastmod><\/url>/g)];assert.equal(entries.length,Object.keys(config.pages).length);for(const [,loc,date]of entries){const file=loc===site.url+'/'?'index.html':new URL(loc).pathname.slice(1);assert.equal(date,config.pages[file].lastModified);assert(/^\d{4}-\d{2}-\d{2}$/.test(date));assert(!loc.includes('404.html')&&!loc.endsWith('/index.html'));}
 assert(fs.readFileSync(path.join(out,'robots.txt'),'utf8').includes('Sitemap: '+site.url+'/sitemap.xml'));
 require('./approved-sitemap.cjs').assertApprovedSitemap(entries.map(([,loc])=>loc));
-console.log(`PASS: ${entries.length} unique optimized heads, canonicals, social assets, five works/ten editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and approved sitemap URLs/dates.`);
+console.log(`PASS: ${entries.length} unique optimized heads, canonicals, social assets, six works/eleven supplied editions, validated paperback ISBNs/dates, no Kindle identifier guessing, visible edition details and approved sitemap URLs/dates.`);

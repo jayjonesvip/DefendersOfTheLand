@@ -1,0 +1,16 @@
+{
+  "id": "book-six",
+  "title": "Chemical Dude",
+  "number": 6,
+  "author": "Jay Jones",
+  "status": "Published",
+  "publicationStatus": "Published",
+  "description": "A strange light over Lake Erie. A hopeful reunion. One very unexpected arrival.",
+  "cover": "book-six-chemical-dude-cover-web-v1.webp",
+  "ebook": {
+    "url": "https://www.amazon.com/dp/B0HR6DZ716",
+    "asin": "B0HR6DZ716"
+  },
+  "chapters": [],
+  "amazonUrl": "https://www.amazon.com/dp/B0HR6DZ716"
+}

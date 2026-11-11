@@ -1,13 +1,13 @@
 const {samples}=require('./amazon-samples.cjs');
 // Render a complete static page using the existing approved book/sample metadata.
 function createDownloads({books,site,escape:esc,img,link}){
- const words=['','One','Two','Three','Four','Five'];
+ const words=['','One','Two','Three','Four','Five','Six'];
  const label=b=>`Book ${words[b.number]}`;
  const purchase=b=>b.number===1?site:b;
  const amazon=(href,text,aria,cls='button secondary')=>`<a class="${cls}" href="${esc(href)}" rel="noopener" aria-label="${esc(aria)}">${text}</a>`;
  const editionLinks=(b,short=false)=>{
   const p=purchase(b);
-  return amazon(p.paperback.url,short?'Paperback':'Buy paperback',`Buy ${b.title} paperback on Amazon`)+amazon(p.ebook.url,short?'Kindle':'Buy Kindle',`Buy ${b.title} Kindle ebook on Amazon`);
+  return (p.paperback?amazon(p.paperback.url,short?'Paperback':'Buy paperback',`Buy ${b.title} paperback on Amazon`):'')+amazon(p.ebook.url,short?'Kindle':'Buy Kindle',`Buy ${b.title} Kindle ebook on Amazon`);
  };
  const origin=books[0];
  const cover=(b,eager=false)=>img(b.number===1?site.coverImage:b.cover,`${b.title} by ${b.author} cover`).replace('loading="lazy"',eager?'loading="eager" fetchpriority="high"':'loading="lazy"');
@@ -16,7 +16,7 @@ function createDownloads({books,site,escape:esc,img,link}){
   <figure class="sample-volume-cover">${link(`${b.id}.html`,cover(b))}</figure>
   <h3 id="sample-volume-${b.number}">${link(`${b.id}.html`,esc(b.title))}</h3>
   <p class="sample-volume-hook">${esc(b.description)}</p>
-  <p class="sample-availability">Available in paperback and Kindle.</p>
+  <p class="sample-availability">${purchase(b).paperback?'Available in paperback and Kindle.':'Available on Kindle.'}</p>
   <a class="sample-read" href="${samples[b.id]}" aria-label="Read the Amazon sample of ${esc(b.title)}">Read sample on Amazon <span aria-hidden="true">→</span></a>
   <div class="sample-editions">${editionLinks(b,true)}</div>
  </article>`).join('');
