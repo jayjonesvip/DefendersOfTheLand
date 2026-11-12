@@ -115,3 +115,22 @@ body[data-page="home"] .site-header nav,body[data-page="home"] .site-header nav 
 
 /* Billy is shorter than the two standing superheroes, with all feet aligned. */
 .world-character-collage .world-character-billy{transform:scale(.70);transform-origin:center bottom}
+
+/* Enter the world first; the same approved art and book editions remain in view. */
+.world-hero-art{width:100%;max-width:480px;margin:0;background:radial-gradient(ellipse at 50% 65%,var(--launch-surface),transparent 72%)}
+.world-hero-art .world-character-collage{height:300px;padding:0;align-items:flex-end}
+.world-hero-art figcaption{font-size:13px;text-align:center;color:var(--muted);padding:14px 0}
+.world-origin-cover{width:150px;margin:24px 0 0}
+.world-origin-cover img{display:block;width:100%;height:auto;box-shadow:4px 5px 0 var(--launch-shadow)}
+.launch-character-card{display:grid!important;grid-template-columns:76px minmax(0,1fr);gap:8px 16px}
+.launch-character-card .launch-cast-portrait{grid-column:1;grid-row:1/4;width:76px;height:130px;object-fit:contain;align-self:center}
+.launch-character-card .launch-cast-billy{height:96px;align-self:end}
+.launch-character-card h3,.launch-character-card p,.launch-character-card span{grid-column:2;margin:0}
+.launch-character-card h3{font-size:26px}
+.launch-character-card span{margin-top:8px}
+.launch-section-heading>div>p:not(.eyebrow){max-width:60ch;font-size:16px}
+.launch-closing .closing-actions{display:flex;gap:16px;flex-wrap:wrap}
+.launch-closing .button.secondary{color:#fff7e9;border-color:#c2cdd0}
+#explore,#meet-the-characters{scroll-margin-top:24px}
+@media(max-width:759px){.launch-hero{grid-template-areas:"copy" "tagline" "intro" "actions" "art"}.world-hero-art .world-character-collage{height:220px}.world-origin-cover{width:130px}.launch-character-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:379px){.world-hero-art .world-character-collage{height:200px}.world-hero-art figcaption{font-size:12px}}
