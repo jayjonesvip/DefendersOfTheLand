@@ -19,7 +19,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Landing overflow: ${width}, dark=${dark}`);
     assert.equal(await page.locator('.series-shelf').count(),0,'Only one series section');
     assert.equal(await page.locator('.hero-primary a').count(),2);
-    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Read sample on Amazon','Buy on Amazon']);
+    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Explore the world','Read free comics']);
     assert.equal(await page.locator('.launch-age-badge').textContent(),'Ages 9–14');
     assert.equal(await page.locator('.launch-character-card').count(),7);
     assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
@@ -27,7 +27,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('.world-card').count(),4);
     assert.deepEqual(await page.locator('.launch-about-copy p').allTextContents(),require('../landing-copy.cjs').about);
     assert.equal(await page.locator('.launch-about-copy p').first().locator('strong').count(),1);
-    assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['characters.html','map.html','1990-vault.html','author.html']);
+    assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['web-comics.html','map.html','1990-vault.html','activities.html']);
     assert.equal(await page.locator('#volume-6-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
     const fourth=page.locator('.volume-card').nth(4);
     for(const asin of ['B0HQFMBW2R','B0HQFT91NJ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
@@ -36,9 +36,11 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     if(signupUrl)assert.equal(await page.locator('.launch-signup a').getAttribute('href'),new URL(signupUrl).href);
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
-    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),require('../amazon-samples.cjs').samples.origins);
-    assert.equal(await page.locator('.hero-extras .launch-series-link').getAttribute('href'),site.amazonSeriesUrl);
-    assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),site.amazonSeriesUrl);
+    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'#explore');
+    assert.equal(await page.locator('.hero-extras a[href="books.html"]').count(),1);
+    assert(await page.locator('.launch-intro').textContent().then(t=>t.includes('book series')));
+    assert(await page.evaluate(()=>document.querySelector('#explore').compareDocumentPosition(document.querySelector('.launch-books'))&Node.DOCUMENT_POSITION_FOLLOWING));
+    assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),'web-comics.html');
     assert.equal(await page.locator('.will-reveal').count(),0,'Reduced motion must not hide content');
     for(const [i,id] of ids.entries()){
      const book=require('../content/books/'+id+'/book.json');
@@ -50,9 +52,9 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     const pairs=await page.evaluate(()=>{const s=getComputedStyle(document.body),v=p=>s.getPropertyValue(p).trim();return [[v('--ink'),v('--paper')],[v('--muted'),v('--paper')],[v('--accent'),v('--paper')],[v('--ink'),v('--launch-surface')],[v('--muted'),v('--launch-surface')],['#fff7e9',v('--launch-night')],['#c2cdd0',v('--launch-night')],[v('--launch-sun'),v('--launch-night')]];});
     for(const pair of pairs)assert(contrast(...pair)>=4.5,`Text contrast below AA: ${pair}`);
     if(width<760){
-     const cover=await page.locator('.hero-cover').boundingBox(),tagline=await page.locator('.launch-tagline').boundingBox();
-     assert(cover.width/width>=.60&&cover.width/width<=.70,'Hero cover uses 60–70% of mobile width');
-     assert(tagline.y>=cover.y+cover.height,'Tagline below the cover');
+     const art=await page.locator('.world-hero-art').boundingBox(),actions=await page.locator('.hero-primary').boundingBox();
+     assert(art.width<=width-40,'World artwork fits mobile viewport');
+     assert(actions.y+actions.height<=art.y,'Discovery links appear before artwork on mobile');
     }
     assert(await page.locator('.launch-page a').evaluateAll(links=>links.filter(a=>a.getBoundingClientRect().width>0).every(a=>a.getBoundingClientRect().height>=44)),'Landing links have 44px targets');
     if(width<=800){
@@ -66,6 +68,9 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
    assert(await page.locator('h1').evaluate(n=>n===document.activeElement));
    await page.reload();assert(await page.locator('[data-announcement]').isHidden(),'Remember announcement dismissal');
    await page.locator('#theme').click();assert.equal(await page.locator('body').evaluate(n=>n.classList.contains('dark')),!dark);
+   await page.goto(base+'/author.html#how-the-books-are-made');
+   assert(await page.locator('#how-the-books-are-made').isVisible());
+   assert((await page.locator('#how-the-books-are-made').innerText()).includes('AI tools in developing the text and illustrations'));
    await context.close();
   }
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});

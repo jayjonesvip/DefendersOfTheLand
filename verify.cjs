@@ -35,7 +35,7 @@ for(const file of htmlFiles){
  assert.equal((html.match(/<h1[ >]/g)||[]).length,1,file);
  const nav=html.match(/<nav id="site-navigation"[^>]*>(.*?)<\/nav>/s)[1];
  const links=[...nav.matchAll(/<a href="([^"]+)"([^>]*)>/g)];
- assert.deepEqual(links.map(m=>m[1]),['books.html','characters.html','web-comics.html','activities.html','map.html','1990-vault.html','author.html','downloads.html']);
+ assert.deepEqual(links.map(m=>m[1]),['characters.html','web-comics.html','map.html','books.html','activities.html','1990-vault.html','author.html','downloads.html']);
  assert.deepEqual(links.filter(m=>m[2].includes('aria-current="page"')).map(m=>m[1]),links.some(m=>m[1]===file)?[file]:[]);
  const footer=html.match(/<footer class="site-footer">(.*?)<\/footer>/s)[1];
  for(const href of ['paperback.html','downloads.html','author.html','https://www.amazon.com/author/jayjonesvip','https://www.amazon.com/dp/B0HMXH258N'])assert(footer.includes(`href="${href}"`));
