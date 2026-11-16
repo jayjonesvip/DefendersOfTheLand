@@ -19,7 +19,7 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`Landing overflow: ${width}, dark=${dark}`);
     assert.equal(await page.locator('.series-shelf').count(),0,'Only one series section');
     assert.equal(await page.locator('.hero-primary a').count(),2);
-    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Explore the world','Read free comics']);
+    assert.deepEqual(await page.locator('.hero-primary a').allTextContents(),['Start with Book 1','Read a Free Comic']);
     assert.equal(await page.locator('.launch-age-badge').textContent(),'Ages 9–14');
     assert.equal(await page.locator('.launch-character-card').count(),7);
     assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
@@ -36,9 +36,15 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     if(signupUrl)assert.equal(await page.locator('.launch-signup a').getAttribute('href'),new URL(signupUrl).href);
     assert(await page.locator('a[href^="https://www.amazon.com/"]').evaluateAll(links=>links.every(a=>a.relList.contains('noopener'))));
     assert.equal(await page.locator('h1').count(),1);
-    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),'#explore');
-    assert.equal(await page.locator('.hero-extras a[href="books.html"]').count(),1);
-    assert(await page.locator('.launch-intro').textContent().then(t=>t.includes('book series')));
+    assert.equal(await page.locator('.hero-primary a').first().getAttribute('href'),site.paperback.url);
+    assert.equal(await page.locator('.hero-extras').count(),0);
+    assert.equal(await page.locator('.hero-primary a').nth(1).getAttribute('href'),'web-comics.html');
+    assert(await page.locator('.launch-subheadline').innerText().then(t=>t.includes('illustrated superhero chapter book series for ages 9–14')));
+    assert(await page.locator('.trust-stats').innerText().then(t=>t.includes('6 Books')&&t.includes('96 Pages')));
+    assert.equal(await page.locator('.launch-hero + .launch-trust').count(),1,'Trust belongs directly below the hero');
+    assert.equal(await page.locator('.trust-preview a').getAttribute('href'),'origins-chapter-1.html');
+    assert(await page.locator('.trust-interior figcaption').innerText().then(t=>t.includes('Web preview')));
+    assert(await page.locator('.launch-intro').textContent().then(t=>t.includes('six books')));
     assert(await page.evaluate(()=>document.querySelector('#explore').compareDocumentPosition(document.querySelector('.launch-books'))&Node.DOCUMENT_POSITION_FOLLOWING));
     assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),'web-comics.html');
     assert.equal(await page.locator('.will-reveal').count(),0,'Reduced motion must not hide content');
