@@ -46,20 +46,24 @@ Object.assign(profiles,{
   "name": "Doc Dork",
   "image": "doc-dossier.png",
   "alt": "Doc Dork wearing a white lab coat and oversized round glasses.",
-  "hook": "Brilliant inventions. A demand for control.",
+  "hook": "Credit. Power. Control. His inventions are the tools.",
   "paragraphs": [
-   "Dr. Daniel Orkleson is known as Doc Dork. He builds clever machines and wants everyone to know how smart he is.",
-   "His experiments bring old objects to life. But the boxing glove he wakes up becomes Fist-O-Mite—and refuses to take orders.",
-   "Daniel’s plans cause trouble for Cleveland’s heroes. Read his free comics for a school mystery with Billy and an experiment with a mind of its own."
+   "Dr. Daniel Orkleson, known as Doc Dork, is a mad scientist who wants credit, power, and control. He expects everyone to recognize his genius—and do what he says.",
+   "His inventions are how he plans to get it. From machines that bring objects to life to dangerous experiments, Daniel uses science to make himself more powerful.",
+   "But his creations do not always obey. Fist-O-Mite chooses his own path, and Cleveland’s heroes stand in the way of Daniel’s plans."
   ],
   "traits": [
    [
-    "Strengths",
-    "Building machines and bringing objects to life."
+    "Wants",
+    "Credit for his genius, power for himself, and control over others."
+   ],
+   [
+    "Methods",
+    "Uses his inventions and experiments to get what he wants."
    ],
    [
     "Personality",
-    "Brilliant, impatient, and controlling."
+    "Brilliant, power-hungry, and controlling."
    ]
   ],
   "comics": [
@@ -68,7 +72,7 @@ Object.assign(profiles,{
   ],
   "other": "fist",
   "firstBook": "origins",
-  "description": "Meet Doc Dork in Defenders of the Land by Jay Jones. Discover this Cleveland character’s story, explore the illustrated books, and read a free chapter."
+  "description": "Meet Doc Dork, the mad scientist in Jay Jones’s Cleveland superhero books. He uses inventions to seek credit, power, and control. Explore his story and comics."
  },
  "claude": {
   "file": "claude-blackwell.html",
