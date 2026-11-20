@@ -10,13 +10,13 @@ Run `npm ci`, `npm run build` and `npm test`. Browser checks require Chromium: `
 
 ## Kindle samples
 
-The book overview pages and the Books catalog offer **Read Sample** beside the edition links. `amazon-samples.cjs` reads each Kindle ASIN from the existing edition metadata (Origins uses `content/site.json`). `kindle-sample.js` creates Amazon's official `https://read.amazon.com/kp/embed` iframe only when the reader opens, and removes it on close. No Kindle content is copied or served by this site. The dialog uses the site's theme, fills mobile screens with safe-area padding, and stays within desktop viewports.
+**Read Sample** links across the homepage, book pages, Books catalog, samples page and edition page open the author-supplied Kindle sample on Amazon in a new tab. If no direct sample link is supplied, the Kindle listing is used. Links work without JavaScript and identify the new-tab behavior to screen readers.
+
+Amazon's current `frame-ancestors` Content Security Policy permits its reader only inside Amazon sites, so third-party Kindle Instant Preview iframes are blocked. The website does not create a broken reader dialog or copy Kindle content. This restriction is controlled by Amazon.
 
 The catalog includes seven books through **Flummox** (`B0HS82ZTZH`), using Jay's supplied Kindle/sample URLs and the approved front cover and marketing blurb from the book repository. Only the optimized public cover and marketing metadata are imported; the book has no locally served chapters.
 
-The visible **Open on Amazon** fallback uses the existing author-supplied direct sample link, or the Kindle listing when no direct sample link is supplied. Without JavaScript or native dialog support, Read Sample remains an ordinary Amazon link. Closing restores page scrolling and focus to the initiating control. Escape closes from the dialog's own controls; keystrokes inside Amazon's cross-origin frame belong to Amazon, so the Close button always remains outside the reader.
-
-`npm test` includes `scripts/verify-kindle-sample.cjs`, which checks ASIN selection, on-demand frame creation/removal, focus, scrolling, fallback links, both themes, and phone/tablet/desktop layouts. Its empty cross-origin fixture tests only the surrounding interface. To verify Amazon itself, open Origins at 390 × 844, 768 × 1024, and 1440 × 1000, turn pages forward and back in the sample, follow Open on Amazon, and close/reopen the reader. Also check phone landscape. Actual sample loading and page turning require network access to Amazon; automated shell checks do not establish that the service permits embedding for a particular book or browser.
+`npm test` includes `scripts/verify-kindle-sample.cjs`, which checks all seven sample destinations, new-tab navigation, accessible link labels, no-JavaScript behavior, and the absence of the blocked iframe/dialog at phone, tablet and desktop widths. The navigation fixture verifies outgoing links, not Amazon's sample content or page turning.
 
 ## Update approved previews and links
 

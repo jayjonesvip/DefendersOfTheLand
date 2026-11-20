@@ -1,4 +1,4 @@
-const {samples}=require('./amazon-samples.cjs');
+const {sampleLink}=require('./amazon-samples.cjs');
 // Render a complete static page using the existing approved book/sample metadata.
 function createDownloads({books,site,escape:esc,img,link}){
  const words=['','One','Two','Three','Four','Five','Six','Seven'];
@@ -17,7 +17,7 @@ function createDownloads({books,site,escape:esc,img,link}){
   <h3 id="sample-volume-${b.number}">${link(`${b.id}.html`,esc(b.title))}</h3>
   <p class="sample-volume-hook">${esc(b.description)}</p>
   <p class="sample-availability">${purchase(b).paperback?'Available in paperback and Kindle.':'Available on Kindle.'}</p>
-  <a class="sample-read" href="${samples[b.id]}" aria-label="Read the Amazon sample of ${esc(b.title)}">Read sample on Amazon <span aria-hidden="true">→</span></a>
+  ${sampleLink(b,site,esc,'sample-read')}
   <div class="sample-editions">${editionLinks(b,true)}</div>
  </article>`).join('');
  return `<div class="sample-page">
@@ -25,14 +25,14 @@ function createDownloads({books,site,escape:esc,img,link}){
    <div class="sample-hero-copy">
     <p class="eyebrow">BOOK ONE · ORIGINS</p>
     <h1 id="sample-title">Free Superhero Book Samples</h1>
-    <p class="sample-intro">Try a superhero adventure with pictures, for ages 9–14. Read a free sample of each book on Amazon, then choose a Kindle or paperback edition.</p>
-    <div class="sample-downloads"><a class="button" href="${samples.origins}">Read Origins sample on Amazon →</a></div>
+    <p class="sample-intro">Try a superhero adventure with pictures, for ages 9–14. Samples open on Amazon in a new tab. Try a free Kindle sample, then choose a Kindle or paperback edition.</p>
+    <div class="sample-downloads">${sampleLink(origin,site,esc)}</div>
 
    </div>
    <figure class="sample-hero-cover">${link('origins.html',cover(origin,true))}</figure>
   </section>
   <section class="sample-keep" aria-labelledby="sample-keep-title">
-   <div><h2 id="sample-keep-title">Keep reading Book One</h2><p>Read the sample on Amazon, then continue Book One: Origins in paperback and as a Kindle ebook on Amazon.</p><p class="sample-availability">Available in paperback and Kindle.</p></div>
+   <div><h2 id="sample-keep-title">Keep reading Book One</h2><p>Read the sample on Amazon, then continue Book One: Origins in paperback or on Kindle.</p><p class="sample-availability">Available in paperback and Kindle.</p></div>
    <div class="actions">${editionLinks(origin)}</div>
   </section>
   <section class="sample-series" aria-labelledby="sample-series-title">

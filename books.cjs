@@ -1,4 +1,4 @@
-const {samples,sampleLink}=require('./amazon-samples.cjs');
+const {sampleLink}=require('./amazon-samples.cjs');
 // Static catalog; all book copy, covers and purchase URLs come from approved metadata.
 function createBooks({books,site,escape:esc,img,link}){
  const words=['','One','Two','Three','Four','Five','Six','Seven'];
@@ -25,7 +25,7 @@ function createBooks({books,site,escape:esc,img,link}){
   <section class="catalog-reader-guide" id="reader-guide" aria-labelledby="catalog-reader-guide-title">
    <p class="eyebrow">FOR PARENTS, TEACHERS AND LIBRARIANS</p><h2 id="catalog-reader-guide-title">For Parents &amp; Teachers: Middle-Grade Superhero Books Ages 9–14</h2>
    <dl><div><dt>Who are these books for?</dt><dd>Kids and younger teens ages 9–14 who enjoy unlikely heroes, eccentric inventions, and superhero teamwork.</dd></div><div><dt>What is the format?</dt><dd>Illustrated prose adventures: the story is told in text with accompanying illustrations. Try the free first chapter to see whether the reading style suits your reader.</dd></div><div><dt>What is the tone?</dt><dd>Action and humor meet experiments gone wrong, dangerous machines, and heroes learning to use their powers. Friendship, responsibility, and standing up for one another run through the series.</dd></div><div><dt>Where should readers start?</dt><dd>Read Origins, Aftershock, Lava Lips, Clash in Cleveland, Bouncin’ Bob, Chemical Dude, then Flummox. Each book has a free sample on Amazon.</dd></div><div><dt>How can I judge the reading level?</dt><dd>The suggested audience is ages 9–14. No formal reading-level score is supplied here; use the free chapters to judge vocabulary, length, and reading comfort with your reader.</dd></div><div><dt>What might appeal to a reluctant reader?</dt><dd>Illustrations, superhero action, and humor offer several ways into the story. Start with a short web comic or one free chapter, then let the reader choose whether to continue.</dd></div></dl>
-   <div class="actions">${link(samples.origins,'Read Origins sample','button')}${link('downloads.html','Browse all samples','button secondary')}</div>
+   <div class="actions">${sampleLink(books[0],site,esc)}${link('downloads.html','Browse all samples','button secondary')}</div>
    <p><a href="activities.html">Free printable coloring pages</a> for home, classroom, and library activities.</p>
    <p id="discussion-questions"><strong>Discussion questions</strong><br>Talk about the story: What makes someone a hero? When does helping require listening? How should a person use a power that could hurt someone?</p>
    <p>Explore the setting and its beginnings: ${link('map.html','Cleveland landmark story map')} · ${link('1990-vault.html','Original childhood superhero comics from 1990')}.</p>
