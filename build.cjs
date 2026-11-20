@@ -24,7 +24,7 @@ const kindle=(label='Buy Kindle ebook',cls='button secondary')=>link(siteConfig.
 const buy=(label='Buy paperback on Amazon',cls='button')=>link(siteConfig.paperback.url,label,cls);
 const series=()=>siteConfig.amazonSeriesUrl?link(esc(siteConfig.amazonSeriesUrl),'View series on Amazon','button secondary'):'';
 const continueUrl=b=>b.amazonUrl||(b.number===1?siteConfig.ebook.url:b.ebook?.url||b.paperback?.url||siteConfig.amazonSeriesUrl);
-const bookLabel=b=>`Book ${['','One','Two','Three','Four','Five','Six'][b.number]||b.number}`;
+const bookLabel=b=>`Book ${['','One','Two','Three','Four','Five','Six','Seven'][b.number]||b.number}`;
 const editions=b=>[b.paperback?link(b.paperback.url,'Buy paperback on Amazon','button secondary'):'',b.ebook?link(b.ebook.url,'Buy Kindle ebook','button secondary'):''].join('');
 const publicationDetails=b=>{const info=websiteSeo.paperbacks[b.id];if(!info)return '';const date=new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(info.datePublished+'T00:00:00Z'));return `<p class="edition-note">Paperback publication date: <time datetime="${info.datePublished}">${date}</time> · ISBN-13: ${esc(info.isbn)}</p>`;};
 const amazonSequels=()=>additionalBooks.filter(b=>b.paperback||b.ebook).map(b=>`<article><h3>${esc(b.title)}</h3><p><strong>${esc(bookLabel(b))}:</strong> ${b.paperback?'Available in paperback and Kindle.':'Available on Kindle.'}</p>${publicationDetails(b)}<div class="actions">${editions(b)}</div><p>${link(samples[b.id],`Read ${bookLabel(b)}’s sample on Amazon →`)}</p></article>`).join('');
@@ -42,7 +42,7 @@ const googleTag=`<!-- Google tag (gtag.js) -->
   gtag('config', 'G-0PP39ST6XK');
 </script>`;
 const {renderHeader,renderFooter}=require('./site-chrome.cjs');
-const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body${page==='home'?' class="dark" data-default-theme="dark"':''} data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><!--SITE_HEADER--><main id="main">${body}</main><!--SITE_FOOTER--></body></html>`;
+const shell=(title,body,page='book',activeBook=book)=>`<!doctype html><html lang="en"><head><meta charset="utf-8">${googleTag}<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${esc(title)} | Defenders of the Land</title><meta name="description" content="${esc(activeBook.description)}"><link rel="stylesheet" href="styles.css"><script defer src="site-nav.js"></script><script defer src="reader.js"></script></head><body${page==='home'?' class="dark" data-default-theme="dark"':''} data-page="${page}" data-book-id="${esc(activeBook.id)}" data-chapter-count="${bookCounts[activeBook.id]}" data-book-counts="${esc(JSON.stringify(bookCounts))}"><a class="skip" href="#main">Skip to content</a><!--SITE_HEADER--><main id="main">${body}</main><!--SITE_FOOTER--></body></html>`;
 const {createBookContents}=require('./book-contents.cjs');
 function contentsPage(b,entries){
  return shell(b.title,createBookContents({book:b,entries,books:[book,...additionalBooks],site:siteConfig,blurb:cover.blurb,websiteCopy,publicationDetails,escape:esc,img}),'book',b).replace('</head>','<link rel="stylesheet" href="book-contents.css"></head>');
@@ -110,7 +110,7 @@ used.add(perchComic.socialImage.file);
 for(const f of fs.readdirSync(assetOut))if(!used.has(f))fs.unlinkSync(path.join(assetOut,f));
 for(const f of used)fs.copyFileSync(path.join(root,['d3-7.9.0.min.js','D3-LICENSE.txt'].includes(f)?'public/vendor':'public/assets',f),path.join(assetOut,f));
 fs.mkdirSync(path.join(out,'fonts'),{recursive:true});for(const f of ['Bangers-Regular.ttf','LibreBaskerville-Regular.ttf','OFL-Bangers.txt','OFL-LibreBaskerville.txt'])fs.copyFileSync(path.join(root,'public/fonts',f),path.join(out,'fonts',f));
-for(const f of ['styles.css','activities.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','web-comics.css'])fs.copyFileSync(path.join(root,f),path.join(out,f));
+for(const f of ['kindle-sample.css','kindle-sample.js','styles.css','activities.css','landing.css','landing.js','downloads.css','characters.css','characters.js','map.css','map-landmarks.js','books.css','book-contents.css','author.css','reader.js','site-nav.js','story-map.js','vault.css','vault-gallery.js','flaming-head-origin.css','flaming-head-origin.js','web-comics.css'])fs.copyFileSync(path.join(root,f),path.join(out,f));
 for(const file of vault.items.flatMap(item=>[item.original,...item.previews.map(p=>p.file)])){
  const target=path.join(out,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(root,'public',file),target);
 }
@@ -118,7 +118,9 @@ fs.copyFileSync(path.join(root,'content/vault/1990Vault.md'),path.join(out,'vaul
 for(const name of ['favicon.svg','favicon-32.png','apple-touch-icon.png'])fs.copyFileSync(path.join(root,'public',name),path.join(out,name));
 fs.cpSync(path.join(root,'public/activities'),path.join(out,'activities'),{recursive:true});
 const stylesheetVersions=Object.fromEntries(['styles.css','activities.css','vault.css','landing.css','downloads.css','characters.css','map.css','books.css','book-contents.css','author.css','flaming-head-origin.css','web-comics.css'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12)]));
-for(const [file,html] of Object.entries(pages)){
+const sampleVersion=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'kindle-sample.js'))).update(fs.readFileSync(path.join(root,'kindle-sample.css'))).digest('hex').slice(0,12);
+for(const [file,original] of Object.entries(pages)){
+ const html=original.includes('data-kindle-sample=')?original.replace('</head>',`<link rel="stylesheet" href="kindle-sample.css?v=${sampleVersion}"><script defer src="kindle-sample.js?v=${sampleVersion}"></script></head>`).replace('</body>',require('./amazon-samples.cjs').readerDialog+'</body>'):original;
  const versioned=html.replace(/href="(styles\.css|activities\.css|vault\.css|landing\.css|downloads\.css|characters\.css|map\.css|books\.css|book-contents\.css|author\.css|flaming-head-origin\.css|web-comics\.css)"/g,(_,stylesheet)=>`href="${stylesheet}?v=${stylesheetVersions[stylesheet]}"`);
  fs.writeFileSync(path.join(out,file),seo.render(file,versioned.replace('<!--SITE_HEADER-->',renderHeader(file)).replace('<!--SITE_FOOTER-->',renderFooter(file))));
 }

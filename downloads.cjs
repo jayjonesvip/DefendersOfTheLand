@@ -1,7 +1,7 @@
 const {samples}=require('./amazon-samples.cjs');
 // Render a complete static page using the existing approved book/sample metadata.
 function createDownloads({books,site,escape:esc,img,link}){
- const words=['','One','Two','Three','Four','Five','Six'];
+ const words=['','One','Two','Three','Four','Five','Six','Seven'];
  const label=b=>`Book ${words[b.number]}`;
  const purchase=b=>b.number===1?site:b;
  const amazon=(href,text,aria,cls='button secondary')=>`<a class="${cls}" href="${esc(href)}" rel="noopener" aria-label="${esc(aria)}">${text}</a>`;

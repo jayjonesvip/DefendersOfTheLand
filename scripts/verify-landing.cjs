@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),http=require('node:http'),path=require('node:path');
 const {chromium}=require('playwright');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'dist'),site=require('../content/site.json');
-const ids=['origins','book-two','book-three','book-four','book-five','book-six'];
+const ids=['origins','book-two','book-three','book-four','book-five','book-six','book-seven'];
 const signupUrl=require('../landing-settings.cjs').signupUrl;
 const server=http.createServer((req,res)=>{const file=path.resolve(out,'.'+decodeURIComponent(req.url.split('?')[0]));if(!file.startsWith(out+path.sep)){res.writeHead(403).end();return;}try{res.setHeader('Content-Security-Policy',"script-src 'self' 'unsafe-inline'; connect-src 'self'");res.setHeader('Content-Type',({'.js':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png','.ttf':'font/ttf'})[path.extname(file)]||'text/html');res.end(fs.readFileSync(file));}catch{res.writeHead(404).end();}});
 function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.length===3)h=[...h].map(c=>c+c).join('');const rgb=[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255).map(c=>c<=.04045?c/12.92:((c+.055)/1.055)**2.4);return .2126*rgb[0]+.7152*rgb[1]+.0722*rgb[2];};const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
@@ -23,12 +23,12 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('.launch-age-badge').textContent(),'Ages 9–14');
     assert.equal(await page.locator('.launch-character-card').count(),7);
     assert.equal(await page.locator('a[href="books.html#discussion-questions"]').count(),1);
-    assert.equal(await page.locator('.volume-card').count(),6);
+    assert.equal(await page.locator('.volume-card').count(),7);
     assert.equal(await page.locator('.world-card').count(),4);
     assert.deepEqual(await page.locator('.launch-about-copy p').allTextContents(),require('../landing-copy.cjs').about);
     assert.equal(await page.locator('.launch-about-copy p').first().locator('strong').count(),1);
     assert.deepEqual(await page.locator('.world-card>a').evaluateAll(links=>links.map(a=>a.getAttribute('href'))),['web-comics.html','map.html','1990-vault.html','activities.html']);
-    assert.equal(await page.locator('#volume-6-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
+    assert.equal(await page.locator('#volume-7-title').locator('..').locator('.volume-new-badge').textContent(),'NEW');
     const fourth=page.locator('.volume-card').nth(4);
     for(const asin of ['B0HQFMBW2R','B0HQFT91NJ'])assert.equal(await fourth.locator(`a[href="https://www.amazon.com/dp/${asin}"]`).count(),1);
     assert.equal(await page.locator('form').count(),0,'Signup opens the configured provider page');
@@ -40,11 +40,11 @@ function contrast(a,b){const luminance=hex=>{let h=hex.trim().slice(1);if(h.leng
     assert.equal(await page.locator('.hero-extras').count(),0);
     assert.equal(await page.locator('.hero-primary a').nth(1).getAttribute('href'),'web-comics.html');
     assert(await page.locator('.launch-subheadline').innerText().then(t=>t.includes('illustrated superhero chapter book series for ages 9–14')));
-    assert(await page.locator('.trust-stats').innerText().then(t=>t.includes('6 Books')&&t.includes('96 Pages')));
+    assert(await page.locator('.trust-stats').innerText().then(t=>t.includes('7 Books')&&t.includes('96 Pages')));
     assert.equal(await page.locator('.launch-hero + .launch-trust').count(),1,'Trust belongs directly below the hero');
     assert.equal(await page.locator('.trust-preview a').getAttribute('href'),'origins-chapter-1.html');
     assert(await page.locator('.trust-interior figcaption').innerText().then(t=>t.includes('Web preview')));
-    assert(await page.locator('.launch-intro').textContent().then(t=>t.includes('six books')));
+    assert(await page.locator('.launch-intro').textContent().then(t=>t.includes('seven books')));
     assert(await page.evaluate(()=>document.querySelector('#explore').compareDocumentPosition(document.querySelector('.launch-books'))&Node.DOCUMENT_POSITION_FOLLOWING));
     assert.equal(await page.locator('.closing-actions a').first().getAttribute('href'),'web-comics.html');
     assert.equal(await page.locator('.will-reveal').count(),0,'Reduced motion must not hide content');

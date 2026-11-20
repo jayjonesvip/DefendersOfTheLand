@@ -1,0 +1,16 @@
+{
+  "id": "book-seven",
+  "title": "Flummox",
+  "number": 7,
+  "author": "Jay Jones",
+  "status": "Published",
+  "publicationStatus": "Published",
+  "description": "A little cologne. A very warm reception.",
+  "cover": "book-seven-flummox-cover-web-v3.webp",
+  "ebook": {
+    "url": "https://www.amazon.com/dp/B0HS82ZTZH",
+    "asin": "B0HS82ZTZH"
+  },
+  "chapters": [],
+  "amazonUrl": "https://www.amazon.com/dp/B0HS82ZTZH"
+}

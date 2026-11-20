@@ -19,7 +19,7 @@ function checkSource(root){
   const name=path.relative(root,file).split(path.sep).join('/');
   assert(allowed.has(name),`Unapproved website source: ${name}`);
  }
- assert.deepEqual(fs.readdirSync(path.join(root,'content/books')).sort(),[...ids,'book-five','book-six'].sort());
+ assert.deepEqual(fs.readdirSync(path.join(root,'content/books')).sort(),[...ids,'book-five','book-six','book-seven'].sort());
  for(const id of ids){
   const dir=path.join(root,'content/books',id);
   assert.deepEqual(fs.readdirSync(dir).sort(),['book.json','chapter-01.json'],`Only Chapter 1 may be public: ${id}`);
@@ -34,6 +34,9 @@ function checkSource(root){
  assert.deepEqual(fs.readdirSync(path.join(root,'content/books/book-six')),['book.json']);
  const sixth=JSON.parse(fs.readFileSync(path.join(root,'content/books/book-six/book.json')));
  assert.deepEqual(sixth.chapters,[]);assert.equal(sixth.amazonUrl,'https://www.amazon.com/dp/B0HR6DZ716');
+ assert.deepEqual(fs.readdirSync(path.join(root,'content/books/book-seven')),['book.json']);
+ const seventh=JSON.parse(fs.readFileSync(path.join(root,'content/books/book-seven/book.json')));
+ assert.deepEqual(seventh.chapters,[]);assert.equal(seventh.ebook.asin,'B0HS82ZTZH');assert.equal(seventh.amazonUrl,'https://www.amazon.com/dp/B0HS82ZTZH');
  assert(!fs.existsSync(path.join(root,'public/books')),'Book downloads must not be served; use Amazon sample links');
  const activities=JSON.parse(fs.readFileSync(path.join(root,'content/activities.json')));
  const downloads=new Set([...activities.sheets.map(s=>'public/'+s.pdf),...activities.puzzles.flatMap(p=>[p.pdf,p.answer,p.combined].map(f=>'public/'+f)),'public/'+activities.archive,'public/'+activities.allArchive]);

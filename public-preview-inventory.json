@@ -107,15 +107,15 @@
     },
     {
       "path": "content/website-book-copy.json",
-      "sha256": "927b3b7a0e5f3698596601cac5c46ee542bc3a1c95efc8720e5205b71d9bd6c9"
+      "sha256": "bda77160feffc74b290fb0f8ab42e8c3e122edc1c2475b2d0c1cd53a9b075956"
     },
     {
       "path": "content/website-seo.json",
-      "sha256": "72f750d686a1df0fe4e7c3bba438b32ac22ed81efd86b93993c26a54a9021bd7"
+      "sha256": "124d83a68d949bdf89ef642e224d37babfbc018de5681646d9e8a1b08a8d5f75"
     },
     {
       "path": "image-manifest.json",
-      "sha256": "d9c9177b644e0882439c2698eae5a32e1e3da1e80d07429b7e694cf2402c02f3"
+      "sha256": "0f80c05b3fe4be9c00d19ad7eeeaee84f7f6065988c022abd2c969a85f536764"
     },
     {
       "path": "public/apple-touch-icon.png",
@@ -524,11 +524,23 @@
     {
       "path": "public/assets/book-six-chemical-dude-cover-web-v1.webp",
       "sha256": "a864570e118c1975e1a0ff7c9709b46c54a3844c85a0dc4b136f0f9c80d8dfa8"
+    },
+    {
+      "path": "content/books/book-seven/book.json",
+      "sha256": "1f1307e9def4234f9248d7bb42a356fd0437e8d44c14230503ada565f4a96a2f"
+    },
+    {
+      "path": "public/assets/book-seven-flummox-cover-web-v3.webp",
+      "sha256": "7b21eeeb41cd0dd8bb650e7d9d19b071029771c370bef0daf3ace9fd52e3bf6c"
     }
   ],
   "bookFiveMarketingExport": {
     "date": "2026-11-04",
     "source": "Author-approved cover and back-cover copy from the private book repository, and author-supplied Amazon links. Marketing only; no chapter text or production files."
   },
-  "activitiesApproval": "Author approved seven coloring sheets, two word searches and the revised easier Super Perch maze, separate answer keys, combined puzzle/key PDFs and the listed ZIP collections. Book PDF/EPUB samples remain prohibited."
+  "activitiesApproval": "Author approved seven coloring sheets, two word searches and the revised easier Super Perch maze, separate answer keys, combined puzzle/key PDFs and the listed ZIP collections. Book PDF/EPUB samples remain prohibited.",
+  "bookSevenMarketingExport": {
+    "date": "2026-11-20",
+    "source": "Author-approved Flummox front cover and back-cover marketing copy from the private book repository, with author-supplied Kindle and sample links. Optimized public cover and marketing metadata only; no chapter text or production files."
+  }
 }

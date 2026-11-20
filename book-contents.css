@@ -12,6 +12,7 @@
 .book-hero-actions{display:grid;justify-items:start;gap:12px}
 .book-read{min-height:52px;justify-content:space-between;gap:28px}
 .book-buy-actions{display:flex;flex-wrap:wrap;gap:12px}
+.book-buy-actions .book-read{min-height:46px}
 .book-editions-link{display:inline-flex;align-items:center;gap:16px;min-height:44px;font-size:12px;line-height:1.8;text-decoration:underline;text-underline-offset:4px}
 .book-details{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
 .book-details .eyebrow{font-size:9px;margin:0 0 6px;text-transform:uppercase}
@@ -62,3 +63,4 @@
 @media(max-width:599px){.book-hero-actions,.book-read,.book-buy-actions{width:100%}.book-buy-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.book-series-title{display:none}.book-series-current{font-size:9px}.book-sample-actions{display:grid;grid-template-columns:minmax(0,1fr)}.book-series-cta .button{font-size:13px}}
 @media(hover:hover) and (pointer:fine){.book-series a:hover img{transform:translateY(-4px)}}
 @media(prefers-reduced-motion:reduce){.book-series img{transition:none}.book-series a:hover img{transform:none}}
+@media(max-width:599px){.book-buy-actions .book-read{grid-column:1/-1}}

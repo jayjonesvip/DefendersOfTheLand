@@ -8,6 +8,16 @@ Complete manuscripts, artwork originals, editorial/canon records and all EPUB/KD
 
 Run `npm ci`, `npm run build` and `npm test`. Browser checks require Chromium: `npx playwright install chromium`, or set `BOOK_CHROMIUM` to a system Chromium executable. Run `npm run preview` for a local server. Pushes to main deploy the tested `dist` directory to GitHub Pages.
 
+## Kindle samples
+
+The book overview pages and the Books catalog offer **Read Sample** beside the edition links. `amazon-samples.cjs` reads each Kindle ASIN from the existing edition metadata (Origins uses `content/site.json`). `kindle-sample.js` creates Amazon's official `https://read.amazon.com/kp/embed` iframe only when the reader opens, and removes it on close. No Kindle content is copied or served by this site. The dialog uses the site's theme, fills mobile screens with safe-area padding, and stays within desktop viewports.
+
+The catalog includes seven books through **Flummox** (`B0HS82ZTZH`), using Jay's supplied Kindle/sample URLs and the approved front cover and marketing blurb from the book repository. Only the optimized public cover and marketing metadata are imported; the book has no locally served chapters.
+
+The visible **Open on Amazon** fallback uses the existing author-supplied direct sample link, or the Kindle listing when no direct sample link is supplied. Without JavaScript or native dialog support, Read Sample remains an ordinary Amazon link. Closing restores page scrolling and focus to the initiating control. Escape closes from the dialog's own controls; keystrokes inside Amazon's cross-origin frame belong to Amazon, so the Close button always remains outside the reader.
+
+`npm test` includes `scripts/verify-kindle-sample.cjs`, which checks ASIN selection, on-demand frame creation/removal, focus, scrolling, fallback links, both themes, and phone/tablet/desktop layouts. Its empty cross-origin fixture tests only the surrounding interface. To verify Amazon itself, open Origins at 390 × 844, 768 × 1024, and 1440 × 1000, turn pages forward and back in the sample, follow Open on Amazon, and close/reopen the reader. Also check phone landscape. Actual sample loading and page turning require network access to Amazon; automated shell checks do not establish that the service permits embedding for a particular book or browser.
+
 ## Update approved previews and links
 
 Run the private repository’s `scripts/export-public-preview.cjs` after its publishing build. Review its `output/public-preview/` export, then replace this repository’s content, public assets, image manifest and public-preview-inventory.json from that export. The export permits only four first chapters, two Book One samples, covers, character portraits, geographic descriptions, fonts/vendor files and the previously approved 1990 archive.
